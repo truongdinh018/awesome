@@ -6,11 +6,11 @@
 
 ### **Catalog công nghệ AI — repo đã star, phân loại & bài viết chi tiết**
 
-**MCP · Speech · Image/Video · Agent Safety · DevTools**
+**MCP · Speech · Image/Video · Computer Vision · DevTools**
 
 <p>
-  <img src="https://img.shields.io/badge/Technologies-11-success?style=flat-square" />
-  <img src="https://img.shields.io/badge/Categories-4-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Technologies-12-success?style=flat-square" />
+  <img src="https://img.shields.io/badge/Categories-5-blue?style=flat-square" />
   <img src="https://img.shields.io/badge/License-Private-red?style=flat-square" />
 </p>
 
@@ -36,7 +36,7 @@ Star repo mới trên GitHub  →  Thêm vào repos/  →  Viết technologies/*
 
 ---
 
-## 🗂️ Phân loại (4 nhóm)
+## 🗂️ Phân loại (5 nhóm)
 
 ### 🤖 MCP & AI Agents
 
@@ -62,6 +62,12 @@ Star repo mới trên GitHub  →  Thêm vào repos/  →  Viết technologies/*
 | **HyperFrames** | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | [technologies/hyperframes.md](technologies/hyperframes.md) |
 | **ScreenCoder** | [leigest519/ScreenCoder](https://github.com/leigest519/ScreenCoder) | [technologies/screencoder.md](technologies/screencoder.md) |
 
+### 📷 Computer Vision & Edge
+
+| Công nghệ | Repo | Bài viết |
+|-----------|------|----------|
+| **ALPR** | [joshkautz/alpr](https://github.com/joshkautz/alpr) | [technologies/alpr.md](technologies/alpr.md) |
+
 ### 🛠️ DevTools & Integration
 
 | Công nghệ | Repo | Bài viết |
@@ -77,7 +83,7 @@ Star repo mới trên GitHub  →  Thêm vào repos/  →  Viết technologies/*
 awesome-ai/
 ├── README.md                 # Mục lục chính (file này)
 ├── categories/
-│   └── README.md             # Mô tả 4 nhóm + sơ đồ
+│   └── README.md             # Mô tả 5 nhóm + sơ đồ
 ├── technologies/             # Bài viết chi tiết từng công nghệ
 │   ├── notebooklm-mcp.md
 │   ├── destructive-command-guard.md
@@ -89,9 +95,10 @@ awesome-ai/
 │   ├── hyperframes.md
 │   ├── screencoder.md
 │   ├── google-workspace-cli.md
-│   └── ntfy.md
+│   ├── ntfy.md
+│   └── alpr.md
 └── repos/
-    └── README.md             # Index 11 repo đã star + metadata
+    └── README.md             # Index repo + metadata
 ```
 
 ---
@@ -118,6 +125,6 @@ awesome-ai/
 
 **Awesome AI Knowledge Base**
 
-*Cập nhật lần cuối: 2026-07-13 — 11 công nghệ từ starred repos*
+*Cập nhật lần cuối: 2026-07-13 — 12 công nghệ*
 
 </div>

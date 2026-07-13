@@ -23,6 +23,9 @@ flowchart TB
         GWS[Google Workspace CLI]
         NTFY[ntfy]
     end
+    subgraph cv [Computer Vision & Edge]
+        ALPR[ALPR Jetson]
+    end
 ```
 
 ---
@@ -79,3 +82,15 @@ flowchart TB
 | ntfy | Push notification HTTP → phone/desktop | [ntfy.md](../technologies/ntfy.md) |
 
 **Use case Odoo:** Agent gửi alert qua ntfy; sync tài liệu Google Drive vào RAG.
+
+---
+
+## 5. Computer Vision & Edge
+
+**Mục đích:** Inference CV real-time trên edge device (Jetson), offline, camera + GPS.
+
+| Công nghệ | Vai trò | Bài viết |
+|-----------|---------|----------|
+| ALPR | Nhận dạng biển số portable trên Jetson Orin Nano | [alpr.md](../technologies/alpr.md) |
+
+**Use case Odoo:** Fleet check-in, gate parking, webhook biển số → `fleet` + `ntfy`.

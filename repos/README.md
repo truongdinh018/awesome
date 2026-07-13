@@ -1,6 +1,6 @@
 # Starred Repos — Index
 
-> 11 repository đã **star** trên GitHub (`truongdinh018`) — nguồn cho catalog Awesome AI.  
+> 12 repository trong catalog Awesome AI (`truongdinh018`).  
 > Cập nhật: **2026-07-13**
 
 | # | Repo | ⭐ Stars | Ngôn ngữ | Category | Bài viết |
@@ -16,6 +16,7 @@
 | 9 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 120.6k | Python | Image & Video | [comfyui.md](../technologies/comfyui.md) |
 | 10 | [googleworkspace/cli](https://github.com/googleworkspace/cli) | 29.7k | Rust | DevTools | [google-workspace-cli.md](../technologies/google-workspace-cli.md) |
 | 11 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 34.6k | TypeScript | Image & Video | [hyperframes.md](../technologies/hyperframes.md) |
+| 12 | [joshkautz/alpr](https://github.com/joshkautz/alpr) | 1 | Python | Computer Vision & Edge | [alpr.md](../technologies/alpr.md) |
 
 ## Mô tả ngắn (từ GitHub)
 
@@ -32,6 +33,7 @@
 | ComfyUI | Modular diffusion GUI with graph/nodes interface |
 | googleworkspace/cli | CLI for Drive, Gmail, Calendar, Sheets, Docs… |
 | hyperframes | Write HTML. Render video. Built for agents. |
+| alpr | Portable license plate recognition for NVIDIA Jetson |
 
 ## Thêm repo mới
 
