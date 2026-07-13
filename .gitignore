@@ -1,0 +1,6 @@
+# Ignore patterns for awesome-ai knowledge base
+
+.DS_Store
+*.swp
+.idea/
+.vscode/
