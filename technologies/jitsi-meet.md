@@ -6,13 +6,13 @@
 > **Ngôn ngữ:** TypeScript · React · WebRTC · **⭐** ~29.6k · **License:** Apache-2.0  
 > Site: [jitsi.org/meet](https://jitsi.org/meet) · Try: [meet.jit.si](https://meet.jit.si) · Handbook: [jitsi.github.io/handbook](https://jitsi.github.io/handbook/)
 
-## Tổng quan
+## Đây là gì?
 
-**Jitsi Meet** — nền tảng **video conference OSS**: deploy riêng hoặc embed (web/native SDK). HD A/V, screen share, chat, polls, raise hand, virtual backgrounds, mobile apps. **Không phải AI product** — collab realtime; stack agent/Odoo hay dùng cho support call, training, live demos. Cloud free: meet.jit.si; enterprise: 8x8 JaaS.
+**Jitsi Meet** là nền tảng **video conference OSS**: deploy riêng hoặc embed (web/native SDK). HD A/V, screen share, chat, polls, raise hand, virtual backgrounds, mobile apps. **Không phải AI product** — collab realtime; stack agent/Odoo hay dùng cho support call, training, live demos. Cloud free: meet.jit.si; enterprise: 8x8 JaaS.
 
-Peer: [ntfy](ntfy.md) (async notify), [Yuvomi](yuvomi.md) / [TREK](trek.md) (self-host household/travel), [faster-whisper](faster-whisper.md) (transcribe cuộc họp offline).
+**Cùng kiểu:** [ntfy](ntfy.md) (async notify), [Yuvomi](yuvomi.md) / [TREK](trek.md) (self-host household/travel), [faster-whisper](faster-whisper.md) (transcribe cuộc họp offline).
 
-## Để làm gì?
+## Dùng khi nào?
 
 | Nhu cầu | Jitsi Meet |
 |---------|------------|
@@ -22,17 +22,7 @@ Peer: [ntfy](ntfy.md) (async notify), [Yuvomi](yuvomi.md) / [TREK](trek.md) (sel
 | AI meeting summary native | → gắn STT ([faster-whisper](faster-whisper.md)) / agent riêng |
 | Short video gen | → [HyperFrames](hyperframes.md) |
 
-## Highlight
-
-- Browser-first · Android / iOS apps · F-Droid  
-- Content sharing · reactions · private chat · polls · virtual BG  
-- Scalable SFU architecture (Jitsi Videobridge stack)  
-- Secure by design — xem docs Security  
-
-## Deploy
-
-Handbook: [Self-Hosting Guide](https://jitsi.github.io/handbook/docs/devops-guide/).  
-Debian packages + Docker compose đầy đủ; advanced: build từ source toàn stack (meet + jvb + prosody…).
+## Chạy thử
 
 ```bash
 # Quick try (hosted)
@@ -41,7 +31,9 @@ Debian packages + Docker compose đầy đủ; advanced: build từ source toàn
 # Self-host: follow handbook devops-guide (Docker recommended)
 ```
 
-## So sánh catalog
+Handbook: [Self-Hosting Guide](https://jitsi.github.io/handbook/docs/devops-guide/). Debian packages + Docker compose đầy đủ; advanced: build từ source toàn stack (meet + jvb + prosody…). Browser-first · Android / iOS apps · F-Droid · SFU architecture (Jitsi Videobridge stack).
+
+## So với tool khác
 
 | | Jitsi Meet | ntfy | HyperFrames |
 |--|------------|------|-------------|
@@ -49,7 +41,7 @@ Debian packages + Docker compose đầy đủ; advanced: build từ source toàn
 | AI-first | ❌ WebRTC | ❌ | ✅ agent-native |
 | Tags | `self-host` `video` `api` | `notification` | `video` `agent` `cli` |
 
-## Use case Odoo / ai_core
+## Dùng với Odoo / ai_core
 
 - Embed Jitsi trong portal/helpdesk / training LMS.  
 - Pipeline: record meeting → [faster-whisper](faster-whisper.md) → RAG notes.  

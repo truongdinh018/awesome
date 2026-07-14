@@ -6,13 +6,15 @@
 > **Ngôn ngữ:** Python · **⭐** ~2.2k · **License:** Apache-2.0  
 > Site: [vieneu.io](https://www.vieneu.io) · README VI: [README.vi.md](https://github.com/pnnbao97/VieNeu-TTS/blob/main/README.vi.md)
 
-## Tổng quan
+## Đây là gì?
 
-**VieNeu-TTS** — TTS **tiếng Việt on-device**: instant voice cloning (3–5s), bilingual En↔Vi (sea-g2p), podcast/conversation multi-speaker, inference **GPU (LMDeploy)** / **CPU (GGUF/ONNX)**, 24 kHz (v2) · **v3 Turbo** preview 48 kHz + built-in voices + emotion tags (`[cười]`, …). Web UI + Python SDK + Docker server. Train ~10k+ giờ data.
+**VieNeu-TTS** là TTS **tiếng Việt on-device**: instant voice cloning (3–5s), bilingual En↔Vi (sea-g2p), podcast/conversation multi-speaker.
 
-Peer: [VoxCPM](voxcpm.md), [OmniVoice Studio](omnivoice-studio.md), [VibeVoice](vibevoice.md), [CapCut TTS/STT API](capcut-tts-api.md) (cloud CapCut), [AudioBook KJ](audiobook-kj.md).
+Inference **GPU (LMDeploy)** / **CPU (GGUF/ONNX)**, 24 kHz (v2) · **v3 Turbo** preview 48 kHz + built-in voices + emotion tags (`[cười]`, …). Web UI + Python SDK + Docker server. Train ~10k+ giờ data.
 
-## Để làm gì?
+**Cùng kiểu:** [KhanhTTS-OmniVoice](khanhtts-omnivoice.md) (OmniVoice FT Vi+En), [VoxCPM](voxcpm.md), [OmniVoice Studio](omnivoice-studio.md), [VibeVoice](vibevoice.md), [CapCut TTS/STT API](capcut-tts-api.md) (cloud CapCut), [Voicebox](voicebox.md).
+
+## Dùng khi nào?
 
 | Nhu cầu | VieNeu-TTS |
 |---------|------------|
@@ -22,7 +24,7 @@ Peer: [VoxCPM](voxcpm.md), [OmniVoice Studio](omnivoice-studio.md), [VibeVoice](
 | CapCut / cloud VN voices | → [capcut-tts-api.md](capcut-tts-api.md) |
 | Long EN podcast multi-turn | → [VibeVoice](vibevoice.md) |
 
-## Highlight
+## Chạy thử
 
 ```bash
 # uv + Web UI (xem README)
@@ -33,9 +35,9 @@ uv sync && …   # backbone VieNeu-TTS-v2 / v3-Turbo
 
 - HF: VieNeu-TTS · VieNeu-TTS-v2 · VieNeu-TTS-v3-Turbo  
 - Server HQ + Docker · fine-tune folder trong repo  
-- Offline production-oriented — không phụ thuộc CapCut/cloud TTS  
+- Offline production-oriented — không phụ thuộc CapCut/cloud TTS
 
-## So sánh catalog
+## So với tool khác
 
 | | VieNeu-TTS | VoxCPM | CapCut CLI |
 |--|------------|--------|------------|
@@ -43,7 +45,7 @@ uv sync && …   # backbone VieNeu-TTS-v2 / v3-Turbo
 | Offline | ✅ | ✅ | ❌ |
 | Tags | `tts` `voice-clone` `self-host` | `tts` `voice-clone` | `tts` `cli` `api` |
 
-## Use case Odoo / ai_core
+## Dùng với Odoo / ai_core
 
 - Voice notify / IVR / training audio tiếng Việt self-host.  
 - Ghép OpenMontage / AudioBook KJ khi cần narration VN.  
@@ -53,4 +55,4 @@ uv sync && …   # backbone VieNeu-TTS-v2 / v3-Turbo
 
 - Repo: https://github.com/pnnbao97/VieNeu-TTS  
 - Site: https://www.vieneu.io  
-- Peers: [voxcpm.md](voxcpm.md) · [omnivoice-studio.md](omnivoice-studio.md) · [vibevoice.md](vibevoice.md) · [capcut-tts-api.md](capcut-tts-api.md) · [pyvideotrans.md](pyvideotrans.md) · [voicebox.md](voicebox.md)
+- Peers: [khanhtts-omnivoice.md](khanhtts-omnivoice.md) · [voxcpm.md](voxcpm.md) · [omnivoice-studio.md](omnivoice-studio.md) · [vibevoice.md](vibevoice.md) · [capcut-tts-api.md](capcut-tts-api.md) · [voicebox.md](voicebox.md)

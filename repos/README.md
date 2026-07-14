@@ -1,8 +1,9 @@
 # Starred Repos — Index
 
-> **77 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-07-14** (freecut)  
-> **Primary** = 1 nhóm mục lục · **Tags** = nhiều capability  
-> Duyệt theo domain: [../README.md](../README.md) · Quy tắc: [../categories/README.md](../categories/README.md)
+> **154 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-07-15**  
+> Đây là bảng master: mỗi dòng = 1 repo đã star + link bài `technologies/*.md`.  
+> **Primary** = 1 nhóm mục lục · **Tags** = nhiều capability.  
+> Duyệt theo domain: [../README.md](../README.md) · Quy tắc nhóm: [../categories/README.md](../categories/README.md) · Chuẩn viết: [../technologies/WRITING.md](../technologies/WRITING.md)
 
 | # | Repo | ⭐ | Lang | Primary | Tags | Bài viết |
 |---|------|---|------|---------|------|----------|
@@ -83,6 +84,83 @@
 | 75 | [docmd-io/docmd](https://github.com/docmd-io/docmd) | 2.2k | TypeScript | DevTools | `mcp` `skill` `cli` `self-host` `api` `rag` | [docmd.md](../technologies/docmd.md) |
 | 76 | [diendh/zca-bridge](https://github.com/diendh/zca-bridge) | 113 | TypeScript | DevTools | `self-host` `api` `notification` `workflow` | [zca-bridge.md](../technologies/zca-bridge.md) |
 | 77 | [walterlow/freecut](https://github.com/walterlow/freecut) | 1.6k | TypeScript | Image & Video | `video` `self-host` `stt` `tts` | [freecut.md](../technologies/freecut.md) |
+| 78 | [Eigenwise/atomic-agents](https://github.com/Eigenwise/atomic-agents) | 6.0k | Python | MCP & Agents | `agent` `cli` `api` `workflow` | [atomic-agents.md](../technologies/atomic-agents.md) |
+| 79 | [FunAudioLLM/CosyVoice](https://github.com/FunAudioLLM/CosyVoice) | 22.2k | Python | Speech | `tts` `voice-clone` `self-host` `api` `cli` | [cosyvoice.md](../technologies/cosyvoice.md) |
+| 80 | [OpenBMB/MiniCPM](https://github.com/OpenBMB/MiniCPM) | 9.8k | Python | DevTools | `self-host` `cli` `edge` `desktop` `skill` | [minicpm.md](../technologies/minicpm.md) |
+| 81 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 63.3k | Skills/JS | MCP & Agents | `skill` `coding-agent` `prompt` `image-gen` | [taste-skill.md](../technologies/taste-skill.md) |
+| 82 | [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | 178k | Python | Image & Video | `video` `cli` `self-host` | [yt-dlp.md](../technologies/yt-dlp.md) |
+| 83 | [xitanggg/open-resume](https://github.com/xitanggg/open-resume) | 8.8k | TypeScript | DevTools | `pdf` `self-host` | [open-resume.md](../technologies/open-resume.md) |
+| 84 | [datalab-to/surya](https://github.com/datalab-to/surya) | 21k | Python | DevTools | `ocr` `pdf` `self-host` `cli` | [surya.md](../technologies/surya.md) |
+| 85 | [infly/Infinity-Parser2](https://huggingface.co/infly/Infinity-Parser2-Pro) | HF❤️79 | Python | DevTools | `ocr` `pdf` `self-host` `cli` | [infinity-parser2.md](../technologies/infinity-parser2.md) |
+| 86 | [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | 69.5k | Python | MCP & Agents | `extract` `mcp` `cli` `browser` `self-host` | [scrapling.md](../technologies/scrapling.md) |
+| 87 | [slopus/happy](https://github.com/slopus/happy) | 22.6k | TypeScript | MCP & Agents | `coding-agent` `cli` `agent` `self-host` `desktop` | [happy.md](../technologies/happy.md) |
+| 88 | [Thysrael/Horizon](https://github.com/Thysrael/Horizon) | 8.2k | Python | DevTools | `mcp` `self-host` `workflow` `notification` `cli` | [horizon.md](../technologies/horizon.md) |
+| 89 | [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) | 34.8k | Rust/TS | MCP & Agents | `rag` `agent` `mcp` `self-host` `desktop` `workflow` `skill` | [openhuman.md](../technologies/openhuman.md) |
+| 90 | [BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban) | 27.4k | Rust/TS | MCP & Agents | `coding-agent` `agent` `cli` `self-host` `workflow` `mcp` | [vibe-kanban.md](../technologies/vibe-kanban.md) |
+| 91 | [OpenMOSS/MOSS-TTS](https://github.com/OpenMOSS/MOSS-TTS) | 3.8k | Python | Speech | `tts` `voice-clone` `self-host` `api` `cli` | [moss-tts.md](../technologies/moss-tts.md) |
+| 92 | [Zie619/n8n-workflows](https://github.com/Zie619/n8n-workflows) | 55.7k | Python | DevTools | `workflow` `self-host` `dataset` | [n8n-workflows.md](../technologies/n8n-workflows.md) |
+| 93 | [deepinsight/insightface](https://github.com/deepinsight/insightface) | 29.2k | Python | CV & Edge | `cv` `self-host` `cli` | [insightface.md](../technologies/insightface.md) |
+| 94 | [idootop/MagicMirror](https://github.com/idootop/MagicMirror) | 2.9k | TypeScript | Image & Video | `image-gen` `desktop` `self-host` `cv` | [magicmirror.md](../technologies/magicmirror.md) |
+| 95 | [666ghj/MiroFish](https://github.com/666ghj/MiroFish) | 68.5k | Python | MCP & Agents | `agent` `self-host` `rag` `workflow` `api` | [mirofish.md](../technologies/mirofish.md) |
+| 96 | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | 22.6k | Python | MCP & Agents | `skill` `prompt` `workspace` `office` | [knowledge-work-plugins.md](../technologies/knowledge-work-plugins.md) |
+| 97 | [protonx-models/protonx-legal-tc](https://huggingface.co/protonx-models/protonx-legal-tc) | HF❤️43 | Python | DevTools | `ocr` `self-host` `cli` | [protonx-legal-tc.md](../technologies/protonx-legal-tc.md) |
+| 98 | [VietAI/vit5-base](https://huggingface.co/VietAI/vit5-base) | HF❤️20 | Python | DevTools | `self-host` `cli` `api` | [vit5-base.md](../technologies/vit5-base.md) |
+| 99 | [abus-aikorea/voice-pro](https://github.com/abus-aikorea/voice-pro) | 11.2k | Python | Speech | `stt` `tts` `voice-clone` `self-host` `desktop` `video` | [voice-pro.md](../technologies/voice-pro.md) |
+| 100 | [breaking-brake/cc-wf-studio](https://github.com/breaking-brake/cc-wf-studio) | 5.3k | TypeScript | MCP & Agents | `coding-agent` `skill` `mcp` `cli` `workflow` | [cc-wf-studio.md](../technologies/cc-wf-studio.md) |
+| 101 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 97.4k | Python | Image & Video | `video` `tts` `cli` `self-host` `api` `skill` | [moneyprinterturbo.md](../technologies/moneyprinterturbo.md) |
+| 102 | [NawfalMotii79/PLFM_RADAR](https://github.com/NawfalMotii79/PLFM_RADAR) | 22.8k | HW/FW | CV & Edge | `edge` `iot` `self-host` | [plfm-radar.md](../technologies/plfm-radar.md) |
+| 103 | [HBAI-Ltd/Toonflow-app](https://github.com/HBAI-Ltd/Toonflow-app) | 11.5k | TypeScript | Image & Video | `video` `image-gen` `desktop` `self-host` `agent` `skill` | [toonflow.md](../technologies/toonflow.md) |
+| 104 | [NVlabs/Sana](https://github.com/NVlabs/Sana) | 8.5k | Python | Image & Video | `image-gen` `video` `self-host` `cli` `api` | [sana.md](../technologies/sana.md) |
+| 105 | [Soul-AILab/SoulX-Singer](https://github.com/Soul-AILab/SoulX-Singer) | 0.8k | Python | Speech | `tts` `voice-clone` `self-host` `cli` | [soulx-singer.md](../technologies/soulx-singer.md) |
+| 106 | [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | 23.4k | JavaScript | Image & Video | `image-gen` `video` `desktop` `self-host` `api` | [open-generative-ai.md](../technologies/open-generative-ai.md) |
+| 107 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 89.4k | JavaScript | MCP & Agents | `skill` `coding-agent` `prompt` `cli` `mcp` | [caveman.md](../technologies/caveman.md) |
+| 108 | [github/spec-kit](https://github.com/github/spec-kit) | 121k | Python | MCP & Agents | `coding-agent` `skill` `cli` `workflow` `prompt` | [spec-kit.md](../technologies/spec-kit.md) |
+| 109 | [microsoft/AI-Engineering-Coach](https://github.com/microsoft/AI-Engineering-Coach) | 3.3k | TypeScript | MCP & Agents | `coding-agent` `skill` `desktop` `cli` | [ai-engineering-coach.md](../technologies/ai-engineering-coach.md) |
+| 110 | [slothflowlabs/duckle](https://github.com/slothflowlabs/duckle) | 0.8k | Rust | DevTools | `workflow` `self-host` `desktop` `mcp` `cli` `agent` | [duckle.md](../technologies/duckle.md) |
+| 111 | [microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit) | 4.9k | Python | MCP & Agents | `guardrail` `security` `agent` `cli` `mcp` | [agent-governance-toolkit.md](../technologies/agent-governance-toolkit.md) |
+| 112 | [roboflow/supervision](https://github.com/roboflow/supervision) | 48k | Python | CV & Edge | `cv` `cli` `self-host` `video` | [supervision.md](../technologies/supervision.md) |
+| 113 | [lyogavin/airllm](https://github.com/lyogavin/airllm) | 22.6k | Python | DevTools | `self-host` `cli` `api` | [airllm.md](../technologies/airllm.md) |
+| 114 | [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) | 72.6k | Python | MCP & Agents | `extract` `cli` `browser` `self-host` `api` | [crawl4ai.md](../technologies/crawl4ai.md) |
+| 115 | [MinishLab/semble](https://github.com/MinishLab/semble) | 5.6k | Python | MCP & Agents | `mcp` `cli` `coding-agent` `rag` `self-host` | [semble.md](../technologies/semble.md) |
+| 116 | [exo-explore/exo](https://github.com/exo-explore/exo) | 46.3k | Python | DevTools | `self-host` `api` `cli` `desktop` | [exo.md](../technologies/exo.md) |
+| 117 | [evilsocket/cake](https://github.com/evilsocket/cake) | 3.1k | Rust | DevTools | `api` `self-host` `cli` `tts` `image-gen` `edge` | [cake.md](../technologies/cake.md) |
+| 118 | [simplifaisoul/osiris](https://github.com/simplifaisoul/osiris) | 6.8k | TypeScript | Security | `security` `gis` `self-host` `desktop` `api` | [osiris.md](../technologies/osiris.md) |
+| 119 | [supertone-inc/supertonic](https://github.com/supertone-inc/supertonic) | 13.1k | Swift | Speech & Audio | `tts` `voice-clone` `self-host` `cli` `api` `edge` | [supertonic.md](../technologies/supertonic.md) |
+| 120 | [kjanh/KhanhTTS-OmniVoice](https://huggingface.co/kjanh/KhanhTTS-OmniVoice) | HF❤️34 | Python | Speech | `tts` `voice-clone` `self-host` `cli` | [khanhtts-omnivoice.md](../technologies/khanhtts-omnivoice.md) |
+| 121 | [TabularisDB/tabularis](https://github.com/TabularisDB/tabularis) | 3.7k | TypeScript | DevTools | `mcp` `desktop` `self-host` `cli` `agent` | [tabularis.md](../technologies/tabularis.md) |
+| 122 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 46.9k | TypeScript | UI Automation | `mcp` `browser` `ui-automation` `cli` `coding-agent` | [chrome-devtools-mcp.md](../technologies/chrome-devtools-mcp.md) |
+| 123 | [dgtlmoon/changedetection.io](https://github.com/dgtlmoon/changedetection.io) | 32.3k | Python | DevTools | `notification` `self-host` `browser` `workflow` `api` | [changedetection-io.md](../technologies/changedetection-io.md) |
+| 124 | [TriliumNext/Trilium](https://github.com/TriliumNext/Trilium) | 36.9k | TypeScript | MCP & Agents | `rag` `self-host` `desktop` `api` | [trilium.md](../technologies/trilium.md) |
+| 125 | [floci-io/floci](https://github.com/floci-io/floci) | 16.7k | Java | DevTools | `self-host` `cli` `api` | [floci.md](../technologies/floci.md) |
+| 126 | [lanes-sh/app](https://github.com/lanes-sh/app) | 0.2k | — | MCP & Agents | `coding-agent` `agent` `desktop` `mcp` `workflow` `cli` | [lanes.md](../technologies/lanes.md) |
+| 127 | [CloakHQ/CloakBrowser](https://github.com/CloakHQ/CloakBrowser) | 28.3k | Python | UI Automation | `browser` `ui-automation` `api` `cli` `self-host` | [cloakbrowser.md](../technologies/cloakbrowser.md) |
+| 128 | [docmost/docmost](https://github.com/Docmost/docmost) | 21k | TypeScript | MCP & Agents | `rag` `self-host` `api` `workspace` | [docmost.md](../technologies/docmost.md) |
+| 129 | [veloxbase/veloxdb](https://github.com/veloxbase/veloxdb) | 0.5k | TypeScript | DevTools | `desktop` `self-host` `cli` | [veloxdb.md](../technologies/veloxdb.md) |
+| 130 | [Lissy93/dashy](https://github.com/Lissy93/dashy) | 25.9k | Vue | DevTools | `self-host` `desktop` `workspace` | [dashy.md](../technologies/dashy.md) |
+| 131 | [coderamp-labs/gitingest](https://github.com/coderamp-labs/gitingest) | 15.1k | Python | MCP & Agents | `cli` `coding-agent` `rag` `self-host` | [gitingest.md](../technologies/gitingest.md) |
+| 132 | [datawhalechina/easy-vibe](https://github.com/datawhalechina/easy-vibe) | 18.2k | JavaScript | MCP & Agents | `coding-agent` `skill` `prompt` `workflow` | [easy-vibe.md](../technologies/easy-vibe.md) |
+| 133 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 150.9k | TypeScript | MCP & Agents | `extract` `api` `mcp` `cli` `self-host` `browser` | [firecrawl.md](../technologies/firecrawl.md) |
+| 134 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 165.9k | Python | DevTools | `cli` `pdf` `ocr` | [markitdown.md](../technologies/markitdown.md) |
+| 135 | [whisper-money/whisper-money](https://github.com/whisper-money/whisper-money) | 1.1k | PHP | DevTools | `self-host` `desktop` `workspace` | [whisper-money.md](../technologies/whisper-money.md) |
+| 136 | [ATH-MaaS/Pixelle-Video](https://github.com/ATH-MaaS/Pixelle-Video) | 25.4k | Python | Image & Video | `video` `tts` `image-gen` `self-host` `workflow` `api` | [pixelle-video.md](../technologies/pixelle-video.md) |
+| 137 | [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) | 78.3k | Python | Security | `security` `pentest` `cli` `self-host` | [hackingtool.md](../technologies/hackingtool.md) |
+| 138 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | 80.6k | Rust | CV & Edge | `cv` `edge` `iot` `self-host` | [ruview.md](../technologies/ruview.md) |
+| 139 | [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map) | 10.7k | Python | CV & Edge | `cv` `self-host` `cli` `video` | [lingbot-map.md](../technologies/lingbot-map.md) |
+| 140 | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | 192k | Markdown | MCP & Agents | `skill` `coding-agent` `prompt` | [karpathy-skills.md](../technologies/karpathy-skills.md) |
+| 141 | [mattpocock/skills](https://github.com/mattpocock/skills) | 169.8k | Shell | MCP & Agents | `skill` `coding-agent` `prompt` | [mattpocock-skills.md](../technologies/mattpocock-skills.md) |
+| 142 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 87.2k | JavaScript | MCP & Agents | `agent` `coding-agent` `mcp` `self-host` `rag` | [claude-mem.md](../technologies/claude-mem.md) |
+| 143 | [filiksyos/gitreverse](https://github.com/filiksyos/gitreverse) | 1.2k | TypeScript | MCP & Agents | `coding-agent` `prompt` `self-host` | [gitreverse.md](../technologies/gitreverse.md) |
+| 144 | [shuding/cobe](https://github.com/shuding/cobe) | 5.5k | TypeScript | DevTools | `gis` | [cobe.md](../technologies/cobe.md) |
+| 145 | [Abrar74774/FossFLOW](https://github.com/Abrar74774/FossFLOW) | 41 | TypeScript | DevTools | `diagram` `self-host` | [fossflow.md](../technologies/fossflow.md) |
+| 146 | [signerless/llm-checker](https://github.com/signerless/llm-checker) | 2.8k | JavaScript | DevTools | `cli` `mcp` `self-host` | [llm-checker.md](../technologies/llm-checker.md) |
+| 147 | [AlexsJones/llmfit](https://github.com/AlexsJones/llmfit) | 29.4k | Rust | DevTools | `cli` `desktop` `self-host` `skill` | [llmfit.md](../technologies/llmfit.md) |
+| 148 | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 22.7k | Python | MCP & Agents | `agent` `mcp` `skill` `cli` `self-host` `workflow` `desktop` | [vibe-trading.md](../technologies/vibe-trading.md) |
+| 149 | [abhixdd/ghgrab](https://github.com/abhixdd/ghgrab) | 1.2k | Rust | MCP & Agents | `cli` `coding-agent` `self-host` | [ghgrab.md](../technologies/ghgrab.md) |
+| 150 | [ysharma3501/LuxTTS](https://github.com/ysharma3501/LuxTTS) | 4.8k | Python | Speech | `tts` `voice-clone` `self-host` `cli` | [luxtts.md](../technologies/luxtts.md) |
+| 151 | [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) | 94.9k | Python | Image & Video | `video` `image-gen` `desktop` `self-host` `cv` `cli` | [deep-live-cam.md](../technologies/deep-live-cam.md) |
+| 152 | [HKUDS/OpenSpace](https://github.com/HKUDS/OpenSpace) | 6.7k | Python | MCP & Agents | `skill` `agent` `mcp` `cli` `self-host` `coding-agent` `workflow` | [openspace.md](../technologies/openspace.md) |
+| 153 | [louislva/claude-peers-mcp](https://github.com/louislva/claude-peers-mcp) | 2.2k | TypeScript | MCP & Agents | `mcp` `coding-agent` `agent` `cli` `self-host` | [claude-peers-mcp.md](../technologies/claude-peers-mcp.md) |
+| 154 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 77k | Python | MCP & Agents | `agent` `skill` `coding-agent` `self-host` `workflow` `mcp` `cli` | [deer-flow.md](../technologies/deer-flow.md) |
 
 ## Mô tả ngắn (GitHub)
 
@@ -165,6 +243,83 @@
 | docmd | Markdown docs SSG — MCP, semantic search, AI skills |
 | zca-bridge | Self-hosted Zalo ↔ Chatwoot bridge (VN support) |
 | FreeCut | Professional browser NLE — multi-track, WebGPU effects, local AI STT/TTS, zero upload |
+| atomic-agents | Building AI agents, atomically — modular Instructor/Pydantic pipelines |
+| CosyVoice | Multilingual LLM-TTS — zero-shot clone, streaming, full-stack deploy |
+| MiniCPM | On-device LLM family — MiniCPM5-1B SOTA 1B + deploy/FT Agent Skills |
+| taste-skill | Anti-slop frontend Agent Skills — design dials, imagegen comps, Codex/Cursor |
+| yt-dlp | Feature-rich CLI audio/video downloader (youtube-dl fork, thousands of sites) |
+| open-resume | Open-source resume builder + ATS resume parser (privacy-first, browser-local) |
+| surya | OCR + layout + table recognition (90+ languages, ~650M) — demo Space xiaoyao9184/surya |
+| Infinity-Parser2 | Document VLM PDF/OCR parser (Flash/Pro) — demo Space Infinity-Parser2-Demo |
+| Scrapling | Adaptive web scraping/crawl framework — stealth, Playwright, MCP for AI agents |
+| Happy | Mobile/web client for Claude Code & Codex — E2E encryption, push, CLI wrap |
+| Horizon | AI news radar — multi-source fetch, bilingual daily briefings, MCP + webhooks |
+| OpenHuman | Personal AI — local-first memory, agent fleet orchestrator, deep research (desktop) |
+| Vibe Kanban | Kanban + workspaces to run Claude Code, Codex, and 10+ coding agents |
+| MOSS-TTS | OpenMOSS TTS/sound family — clone, streaming, multi-speaker, SFX, Nano |
+| n8n-workflows | Collection of 4k+ n8n workflow JSONs — searchable catalog + GitHub Pages |
+| InsightFace | 2D/3D face analysis — RetinaFace, ArcFace, attributes, InspireFace C++ |
+| MagicMirror | Instant offline AI face swap desktop app (Tauri, InsightFace-based) |
+| MiroFish | Swarm multi-agent prediction engine — GraphRAG sandbox, simulate futures |
+| knowledge-work-plugins | Anthropic Claude Cowork plugins for knowledge-work roles (sales, legal, PM…) |
+| protonx-legal-tc | Vietnamese legal text correction — OCR post-process, diacritics, no rewrite |
+| ViT5-base | VietAI pretrained Vietnamese T5 seq2seq backbone (MIT) |
+| Voice-Pro | Gradio WebUI — Whisper STT, F5/CosyVoice clone, Edge-TTS, yt-dlp, Demucs |
+| CC Workflow Studio | Visual canvas → agent skills/md for Claude Code, Cursor, Codex (+ MCP/CLI) |
+| MoneyPrinterTurbo | One-click AI short video — LLM script, TTS, subtitles, WebUI/API/CLI |
+| PLFM_RADAR | AERIS-10 — open 10.5 GHz PLFM phased-array radar (3km/20km, CERN-OHL) |
+| Toonflow-app | AI short-drama studio — novel→script→storyboard→video (Electron canvas) |
+| Sana | Efficient Linear-DiT image/video (4K T2I, Sprint, Video, WM, Streaming) |
+| SoulX-Singer | Zero-shot singing SVS (F0/MIDI) + SVC wav→wav clone |
+| Open-Generative-AI | Higgsfield-style studio — 200+ models via MuAPI + local sd.cpp/Wan2GP |
+| caveman | Claude/Cursor skill — caveman-speak cuts ~65% output tokens |
+| spec-kit | GitHub Spec-Driven Development toolkit — Specify CLI + /speckit.* |
+| AI-Engineering-Coach | Local VS Code dashboard — AI coding harness analytics + anti-patterns |
+| duckle | Local-first DuckDB ETL studio — canvas + Duckie AI + MCP |
+| agent-governance-toolkit | Microsoft AGT — policy/identity/sandbox for agent tool calls (OWASP 10/10) |
+| supervision | Roboflow CV toolkit — Detections, annotators, tracking, datasets |
+| airllm | Layerwise LLM inference — 70B on ~4GB GPU, no required quant |
+| crawl4ai | Open-source LLM-friendly web crawler & scraper → clean Markdown |
+| firecrawl | Web search/scrape/crawl API → clean Markdown or structured JSON (AGPL + cloud) |
+| MarkItDown | Python tool — convert files & Office docs to Markdown for LLMs |
+| Whisper Money | Privacy-first personal finance — track, categorize, self-host (CC-BY-NC) |
+| Pixelle-Video | AI fully automated short video engine — topic→script→AIGC→TTS (ComfyUI) |
+| HackingTool | All-in-one hacking tool menu for security researchers & pentesters |
+| RuView | WiFi CSI → spatial intelligence / pose / vitals — no cameras (DensePose) |
+| LingBot-Map | Feed-forward 3D foundation model — streaming scene reconstruction |
+| andrej-karpathy-skills | CLAUDE.md / skill — Karpathy-inspired anti-pitfall coding guidelines |
+| mattpocock/skills | Skills for real engineers — grill-me, CONTEXT.md, composable eng workflows |
+| claude-mem | Persistent memory across agent sessions — capture, compress, reinject |
+| GitReverse | Reverse-engineer a public GitHub repo into a synthetic vibe-coding prompt |
+| COBE | 5KB WebGL globe lib — markers, arcs, CSS-bindable (zero deps) |
+| FossFLOW | Isometric infrastructure diagramming PWA (continuation of stan-smith/FossFLOW) |
+| LLM Checker | CLI/MCP: scan hardware → recommend local LLM models (Ollama + registry) |
+| llmfit | Rust TUI/CLI: right-size LLM models to RAM/CPU/GPU (+ bench share) |
+| Vibe-Trading | Personal trading agent — research, backtest, Alpha Zoo, MCP/swarm |
+| ghgrab | TUI/CLI: browse & download files from GitHub/GitLab/Gitea without clone |
+| LuxTTS | ZipVoice-based fast TTS voice clone (~150× RT, 48kHz, &lt;1GB VRAM) |
+| Deep-Live-Cam | Real-time face swap / video deepfake from a single image (AGPL) |
+| OpenSpace | Quality-first self-evolving skill hub for AI agents (MCP + cloud) |
+| Claude Peers MCP | Ad-hoc messaging between Claude Code sessions (localhost broker) |
+| DeerFlow | ByteDance SuperAgent harness — research, code, sandbox, skills (v2) |
+| semble | Fast accurate code search for agents — ~98% fewer tokens than grep+read |
+| exo | Run frontier AI locally — multi-device cluster, MLX, Thunderbolt RDMA |
+| cake | Multimodal distributed inference — text/image/TTS, shard across devices |
+| osiris | Real-time OSINT dashboard — flights, CCTV, seismic, RECON (Palantir-style) |
+| supertonic | Lightning-fast on-device multilingual TTS via ONNX (31 langs, ~99M) |
+| KhanhTTS-OmniVoice | OmniVoice fine-tune — Vietnamese + English TTS with short-ref voice clone |
+| tabularis | Desktop SQL workspace — Postgres/MySQL/SQLite+, notebooks, MCP for agents |
+| chrome-devtools-mcp | Chrome DevTools for coding agents — MCP server (Puppeteer + perf/debug) |
+| changedetection.io | Website change detection & alerts — price/restock, AI filters, self-host |
+| Trilium | Hierarchical personal knowledge base — sync, maps, REST API, local-first |
+| floci | Free local AWS emulator — LocalStack alternative, docker compose / floci CLI |
+| Lanes | Mission control for parallel AI coding agents — board + terminals + MCP (macOS) |
+| CloakBrowser | Stealth Chromium — Playwright/Puppeteer drop-in, source-level fingerprint patches |
+| Docmost | Collaborative wiki/docs — open-source Confluence/Notion alternative |
+| VeloxDB | Desktop PostgreSQL client — Monaco SQL, ER diagram, SSH tunnel, local-first |
+| Dashy | Self-hostable personal/homelab dashboard — status, widgets, themes, YAML UI |
+| gitingest | Turn any Git repo into a prompt-friendly text digest for LLMs |
+| Easy-Vibe | Datawhale vibe coding course — beginners to ship (10 languages, vi) |
 
 ## Ecosystem — CLI-Anything harnesses (con của #16)
 

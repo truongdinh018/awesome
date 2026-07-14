@@ -6,25 +6,43 @@
 > **Type:** Agent-native CLI harness  
 > **Demo:** Orbital Relay Drone — preview / live preview / trajectory
 
-## Tổng quan
+## Đây là gì?
 
 Harness agent cho **Blender**: scene 3D, mesh, render — agent ra lệnh CLI thay vì thao tác viewport.
 
-Demo tiêu biểu: dựng orbital relay drone qua vòng preview.
+Demo tiêu biểu: dựng orbital relay drone qua vòng preview. Không cần vision click UI Blender.
 
-## Agent làm gì được
+**Cùng kiểu:** [FreeCAD](freecad.md) (CAD), [Godot](godot.md) (realtime), [ComfyUI harness](comfyui.md) (2D diffusion).
 
-- Tạo object, material, camera  
-- Render (EEVEE / Cycles — theo harness docs)  
-- Iterate theo preview loop  
+## Dùng khi nào?
 
-## Quan hệ catalog
+| Nhu cầu | Blender harness |
+|---------|-----------------|
+| Agent tạo object, material, camera | ✅ |
+| Render (EEVEE / Cycles) | ✅ |
+| Iterate theo preview loop | ✅ |
+| Vision click UI Blender | → [Midscene](../midscene.md) |
 
-| | Vai trò |
-|--|---------|
-| **Cha** | CLI-Anything |
-| **Cùng domain** | ComfyUI (2D diffusion), FreeCAD (CAD), Godot (realtime) |
-| **Khác Midscene** | Không cần vision click UI Blender |
+## Chạy thử
+
+```bash
+# Repo cha: https://github.com/HKUDS/CLI-Anything
+# Hub: https://clianything.cc/
+# Cần Blender cài local — harness expose CLI surface
+```
+
+## So với tool khác
+
+| | Blender harness | FreeCAD harness | Midscene |
+|--|-------------------|-----------------|----------|
+| Domain | Offline 3D render | CAD parametric | Vision UI |
+| Tags | `harness` `3d` `cli` | `harness` `cad` `cli` | `computer-use` `skill` |
+
+## Dùng với Odoo / ai_core
+
+- Demo 3D asset nội bộ (marketing, training).  
+- Không thay pipeline DAM chính — sidecar creative.  
+- Export render → `ir.attachment` nếu cần.
 
 ## Link
 

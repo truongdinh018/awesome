@@ -5,23 +5,25 @@
 > **Tags:** `cli` · `workspace` · `skill` · `office`  
 > **Ngôn ngữ:** Rust · **⭐** ~29k
 
-## Tổng quan
+## Đây là gì?
 
-**Google Workspace CLI** (`gws` hoặc tên binary theo repo) — **một công cụ dòng lệnh** cho toàn bộ Google Workspace:
+**Google Workspace CLI** (`gws` hoặc tên binary theo repo) là **một công cụ dòng lệnh** cho toàn bộ Google Workspace: Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin…
 
-- Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin…
-- Được build **động** từ **Google Discovery Service** (API schema)
-- Có **AI agent skills** — agent gọi CLI thay vì viết OAuth flow từ đầu
+Được build **động** từ **Google Discovery Service** (API schema). Có **AI agent skills** — agent gọi CLI thay vì viết OAuth flow từ đầu.
 
-## Vấn đề giải quyết
+**Cùng kiểu:** [Knowledge Work Plugins](knowledge-work-plugins.md) (role plugins Cowork), [Addy's Agent Skills](agent-skills.md) (skills coding).
 
-| Trước | Với CLI |
-|-------|---------|
-| Mỗi API một SDK | Một entry point |
-| Auth phức tạp | Flow chuẩn hóa |
-| Agent khó tích hợp | Skill/command có sẵn |
+## Dùng khi nào?
 
-## Ví dụ lệnh (khái niệm)
+| Nhu cầu | gws CLI |
+|---------|---------|
+| Một entry point cho nhiều Google API | ✅ |
+| Auth flow chuẩn hóa | ✅ |
+| Agent tích hợp qua skill/command | ✅ |
+| Runtime trong Google cloud | → Google Apps Script |
+| Tích hợp sâu trong Odoo ERP | → Odoo Google modules |
+
+## Chạy thử
 
 ```bash
 # Liệt kê file Drive (syntax xem README repo)
@@ -31,14 +33,9 @@ gws drive files list --page-size 10
 gws calendar events insert --calendar-id primary --json '{...}'
 ```
 
-## Use case
+OAuth credentials — **không** commit vào repo. Scope tối thiểu (*least privilege*). Service account cho server-to-server.
 
-- **RAG ingestion:** Export Google Docs → chunk → `ai_rag_core`
-- **Agent automation:** Đọc email → tạo ticket Odoo
-- **Reporting:** Sheets → pull data → Odoo BI
-- **Backup:** Sync Drive folder định kỳ
-
-## So sánh
+## So với tool khác
 
 | | gws CLI | Google Apps Script | Odoo Google modules |
 |--|---------|-------------------|---------------------|
@@ -46,19 +43,14 @@ gws calendar events insert --calendar-id primary --json '{...}'
 | Agent | ✅ Skills | Hạn chế | Qua Odoo RPC |
 | Discovery auto | ✅ | ❌ | Per-module |
 
-## Bảo mật
+## Dùng với Odoo / ai_core
 
-- OAuth credentials — **không** commit vào repo
-- Scope tối thiểu (least privilege)
-- Service account cho server-to-server
-
-## Liên quan ai_core
-
-- MCP tool wrap `gws` commands
-- `ai_agentic_tasks` workflow: email trigger → Odoo record
-- Tham khảo pattern **CLI-as-tool** cho agent harness
+- RAG ingestion: Export Google Docs → chunk → `ai_rag_core`.  
+- Agent automation: Đọc email → tạo ticket Odoo.  
+- MCP tool wrap `gws` commands; `ai_agentic_tasks` workflow: email trigger → Odoo record.
 
 ## Link
 
-- Repo: https://github.com/googleworkspace/cli
-- Google Workspace APIs: https://developers.google.com/workspace
+- Repo: https://github.com/googleworkspace/cli  
+- Google Workspace APIs: https://developers.google.com/workspace  
+- Peers: [knowledge-work-plugins.md](knowledge-work-plugins.md) · [agent-skills.md](agent-skills.md)

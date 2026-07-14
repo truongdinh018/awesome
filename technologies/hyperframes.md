@@ -5,42 +5,33 @@
 > **Tags:** `video` · `cli` · `agent`  
 > **Ngôn ngữ:** TypeScript · **⭐** ~34k
 
-## Tổng quan
+## Đây là gì?
 
-**HyperFrames** (HeyGen) — **"Write HTML. Render video."** — framework sinh **video từ HTML/CSS**, thiết kế cho **AI agents**:
+**HyperFrames** (HeyGen) — *"Write HTML. Render video."* — framework sinh **video từ HTML/CSS**, thiết kế cho **AI agents**. Agent viết markup (hoặc React-like components); engine render thành **video** (frame sequence → mp4). Phù hợp **programmatic video** không cần After Effects thủ công.
 
-- Agent viết markup (hoặc React-like components)
-- Engine render thành **video** (frame sequence → mp4)
-- Phù hợp **programmatic video** không cần After Effects thủ công
+**Cùng kiểu:** [HTML Anything](html-anything.md) (agentic HTML), [OpenMontage](openmontage.md) (agentic studio), [AI-auto-generate-video](ai-auto-generate-video.md) (VN short pipeline), [MoneyPrinterTurbo](moneyprinterturbo.md) (short-form LLM→edit).
 
-## Vấn đề giải quyết
+## Dùng khi nào?
 
-| Cách cũ | HyperFrames |
+| Nhu cầu | HyperFrames |
 |---------|-------------|
-| Video editor GUI | Code-first HTML |
-| Template cứng | Agent generate động |
-| Khó CI/CD video | Version control HTML |
+| Agent sinh HTML → MP4 | ✅ |
+| Video động từ code, version control | ✅ |
+| NLE browser thủ công | → [FreeCut](freecut.md) |
+| Topic → short video + TTS stock | → [MoneyPrinterTurbo](moneyprinterturbo.md) |
+| Dub/translate video có sẵn | → [pyVideoTrans](pyvideotrans.md) |
 
-## Luồng agent
+## Chạy thử
+
+Xem README repo cho API render và self-host options. Node.js / TypeScript stack.
 
 ```
-Agent (LLM)
-    │ sinh HTML + style + timeline
-    ▼
-HyperFrames renderer
-    │ headless browser / compositor
-    ▼
-MP4 / GIF output
+Agent (LLM) → sinh HTML + style + timeline
+    → HyperFrames renderer (headless browser / compositor)
+    → MP4 / GIF output
 ```
 
-## Use case
-
-- **Training video Odoo** — slide động từ nội dung help doc
-- **Personalized marketing** — video báo giá / onboarding khách hàng
-- **Social clip** — short video từ data CRM
-- **Kết hợp TTS** — VoxCPM voice-over + HyperFrames visual
-
-## So sánh
+## So với tool khác
 
 | | HyperFrames | Remotion | FFmpeg script |
 |--|-------------|----------|---------------|
@@ -48,20 +39,14 @@ MP4 / GIF output
 | Agent-friendly | ✅ Built for agents | Trung bình | Thấp |
 | Ecosystem | HeyGen | Mature OSS | Universal |
 
-## Yêu cầu
+## Dùng với Odoo / ai_core
 
-- Node.js / TypeScript stack
-- Xem README repo cho API render và self-host options
-
-## Liên quan ai_core
-
-- `ai_agentic_workflow` step: generate HTML → render video → attach to `mail.message`
-- Notification: gửi link video qua `ntfy`
+- `ai_agentic_workflow` step: generate HTML → render video → attach to `mail.message`.  
+- Training video Odoo — slide động từ nội dung help doc.  
+- Kết hợp TTS — VoxCPM voice-over + HyperFrames visual.
 
 ## Link
 
-- Repo: https://github.com/heygen-com/hyperframes
-- HeyGen: https://www.heygen.com
-- App pipeline Shorts (VN): [ai-auto-generate-video.md](ai-auto-generate-video.md)
-- Agentic HTML → frames: [html-anything.md](html-anything.md)
-- Full agentic studio (dùng HyperFrames làm runtime): [openmontage.md](openmontage.md)
+- Repo: https://github.com/heygen-com/hyperframes  
+- HeyGen: https://www.heygen.com  
+- Peers: [ai-auto-generate-video.md](ai-auto-generate-video.md) · [html-anything.md](html-anything.md) · [openmontage.md](openmontage.md) · [moneyprinterturbo.md](moneyprinterturbo.md)

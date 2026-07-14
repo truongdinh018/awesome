@@ -1,28 +1,30 @@
 # LocalAI
 
 > **Repo:** [mudler/LocalAI](https://github.com/mudler/LocalAI)  
-> **Category:** DevTools · Local OpenAI-compatible AI engine  
+> **Category:** DevTools · Engine AI local, API giống OpenAI  
 > **Tags:** `api` · `self-host` · `mcp` · `agent` · `stt` · `tts` · `image-gen`  
 > **Ngôn ngữ:** Go · **⭐** ~47.5k · **License:** MIT  
 > Site: [localai.io](https://localai.io) · Models: [models.localai.io](https://models.localai.io)
 
-## Tổng quan
+## Đây là gì?
 
-**LocalAI** — *open-source AI engine*: chạy LLM / vision / voice / image / video trên **mọi hardware** (CPU ok, CUDA/ROCm/Intel/Vulkan/Apple). Core nhỏ; backends (llama.cpp, vLLM, whisper.cpp, SD, MLX…) kéo OCI image **on-demand**. Drop-in **OpenAI / Anthropic / ElevenLabs** API + multi-user + agents (RAG, MCP, skills). Privacy-first — data không rời infra.
+**LocalAI** là *engine* AI mã nguồn mở: chạy LLM, nhìn ảnh (*vision*), giọng nói, tạo ảnh / video trên **phần cứng của bạn** (CPU cũng được; hỗ trợ CUDA, ROCm, Intel, Vulkan, Apple).
 
-Peer: [FreeLLMAPI](freellmapi.md) (gom free cloud tiers), [Unsloth](unsloth.md) (fine-tune rồi serve), [DFlash](dflash.md) (speculative decode), [AnythingLLM](anything-llm.md) (workspace), [faster-whisper](faster-whisper.md) / [OmniVoice](omnivoice-studio.md) / [ComfyUI](comfyui.md).
+Lõi nhỏ; các backend (llama.cpp, vLLM, whisper.cpp, Stable Diffusion, MLX…) tải thêm khi cần (ảnh OCI). Đóng vai **API kiểu OpenAI / Anthropic / ElevenLabs** — đổi `base_url` là xài được nhiều client sẵn. Có thêm multi-user, agent (RAG, MCP, *skills*). Dữ liệu ở lại infra bạn (*privacy-first*).
 
-## Để làm gì?
+**Cùng kiểu:** [FreeLLMAPI](freellmapi.md) (gom free tier cloud), [Unsloth](unsloth.md) (fine-tune rồi serve), [DFlash](dflash.md) (tăng tốc decode), [AnythingLLM](anything-llm.md) (UI chat tài liệu), [faster-whisper](faster-whisper.md) / [OmniVoice](omnivoice-studio.md) / [ComfyUI](comfyui.md).
+
+## Dùng khi nào?
 
 | Nhu cầu | LocalAI |
 |---------|---------|
-| OpenAI `base_url` → local | ✅ `/v1` drop-in |
-| Một API cho LLM+STT+TTS+image | ✅ multi-backend |
-| Agent + MCP built-in | ✅ |
-| Chỉ stack free cloud keys | → [FreeLLMAPI](freellmapi.md) |
-| Desktop RAG UI | → [AnythingLLM](anything-llm.md) / [Khoj](khoj.md) |
+| Trỏ OpenAI `base_url` → máy local | ✅ `/v1` thay thế trực tiếp |
+| Một API cho LLM + STT + TTS + ảnh | ✅ nhiều backend |
+| Agent + MCP sẵn trong engine | ✅ |
+| Chỉ dùng key cloud miễn phí | → [FreeLLMAPI](freellmapi.md) |
+| UI chat tài liệu trên desktop | → [AnythingLLM](anything-llm.md) / [Khoj](khoj.md) |
 
-## Highlight
+## Chạy thử
 
 ```bash
 docker run -ti --name local-ai -p 8080:8080 localai/localai:latest
@@ -31,23 +33,23 @@ local-ai run huggingface://…/model.gguf
 local-ai run ollama://gemma:2b
 ```
 
-- Distributed mode / VRAM routing · OIDC · quotas · fine-tune+quantize UI  
-- Realtime WebRTC voice · face/speaker detect backends  
-- macOS DMG launcher · Jetson L4T images  
+- Có chế độ phân tán / định tuyến VRAM · OIDC · hạn mức (*quota*) · giao diện fine-tune + quantize  
+- Giọng nói realtime (WebRTC) · nhận diện khuôn mặt / người nói  
+- Cài macOS (DMG) · ảnh Jetson L4T  
 
-## So sánh catalog
+## So với tool khác
 
 | | LocalAI | FreeLLMAPI | AnythingLLM |
 |--|---------|------------|-------------|
-| Niche | Local multi-modal engine | Free-tier cloud proxy | Docs chat workspace |
-| Inference | On your GPUs/CPU | Upstream providers | Uses Ollama/LocalAI/… |
+| Vai trò | Engine local đa loại AI | Proxy gom free tier cloud | Workspace chat tài liệu |
+| Chạy ở đâu | GPU/CPU của bạn | Provider phía trên | Dùng Ollama / LocalAI / … |
 | Tags | `api` `mcp` `agent` `stt` `tts` `image-gen` | `api` `mcp` `desktop` | `rag` `desktop` |
 
-## Use case Odoo / ai_core
+## Dùng với Odoo / ai_core
 
-- Dev `base_url` cho Odoo AI / agents trỏ LocalAI thay OpenAI.  
-- On-prem STT/TTS/LLM một stack trước khi tách service.  
-- MCP tools + RAG agent hub nội bộ.
+- Dev: `base_url` của Odoo AI / agent trỏ LocalAI thay OpenAI.  
+- On-prem: một stack STT / TTS / LLM trước khi tách service.  
+- Hub nội bộ: MCP tools + agent RAG.
 
 ## Link
 

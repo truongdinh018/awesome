@@ -6,13 +6,13 @@
 > **Ngôn ngữ:** Python / Transformers · HF ❤️ ~771 · ↓ ~526k/mo · **License:** Tencent Hunyuan Community  
 > Paper: [arXiv:2607.04884](https://arxiv.org/abs/2607.04884)
 
-## Tổng quan
+## Đây là gì?
 
-**HunyuanOCR** (Tencent) — VLM OCR / document parsing: text spotting, information extraction, text–image translation, multilingual EN/ZH. Transformers + safetensors (`hunyuan_vl`).
+**HunyuanOCR** (Tencent) là VLM OCR / document parsing: text spotting, information extraction, text–image translation, multilingual EN/ZH. Transformers + safetensors (`hunyuan_vl`).
 
-Peer: [Nanonets-OCR2](nanonets-ocr2.md), [DeepSeek-OCR](deepseek-ocr.md), [dots.ocr](dots-ocr.md), [MinerU](mineru.md), [VLMs OCR Playground](vlms-ocr-playground.md).
+**Cùng kiểu:** [Nanonets-OCR2](nanonets-ocr2.md), [DeepSeek-OCR](deepseek-ocr.md), [dots.ocr](dots-ocr.md), [MinerU](mineru.md), [VLMs OCR Playground](vlms-ocr-playground.md).
 
-## Để làm gì?
+## Dùng khi nào?
 
 | Nhu cầu | HunyuanOCR |
 |---------|------------|
@@ -20,14 +20,22 @@ Peer: [Nanonets-OCR2](nanonets-ocr2.md), [DeepSeek-OCR](deepseek-ocr.md), [dots.
 | Demo so sánh nhiều VLM | → [VLMs Playground](vlms-ocr-playground.md) |
 | PDF full-book pipeline | → [MinerU](mineru.md) |
 
-## Highlight
+## Chạy thử
 
 ```python
 from transformers import pipeline
 pipe = pipeline("image-text-to-text", model="tencent/HunyuanOCR")
 ```
 
-## Use case Odoo / ai_core
+## So với tool khác
+
+| | HunyuanOCR | MinerU | Nanonets-OCR2 |
+|--|------------|--------|---------------|
+| Niche | VLM OCR single-page | PDF→MD pipeline | VLM OCR |
+| Input | Ảnh doc | PDF/Office | Ảnh/PDF |
+| Tags | `ocr` `self-host` | `ocr` `pdf` | `ocr` `pdf` |
+
+## Dùng với Odoo / ai_core
 
 - OCR hóa đơn / CCCD → structured fields trước validate Odoo.  
 - So sánh chất lượng VN với VieNeu không liên quan — đây là document OCR.

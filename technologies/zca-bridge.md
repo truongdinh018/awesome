@@ -6,15 +6,17 @@
 > **Ngôn ngữ:** TypeScript · Fastify · PostgreSQL · **⭐** ~113 · **License:** Apache-2.0  
 > Site: [vietts.io](https://vietts.io/) · README VI: [README.vi.md](https://github.com/diendh/zca-bridge/blob/main/README.vi.md)
 
-## Tổng quan
+## Đây là gì?
 
-**zca-bridge** — sidecar **self-host** đồng bộ hội thoại **Zalo ↔ Chatwoot** hai chiều cho đội hỗ trợ khách hàng VN: Zalo OA (API chính thức) và/hoặc Zalo cá nhân (`zca-js` + QR — **không chính thức**). Queue PostgreSQL bền, media archive, admin `/admin/`, cảnh báo Telegram/webhook.
+**zca-bridge** là sidecar **self-host** đồng bộ hội thoại **Zalo ↔ Chatwoot** hai chiều cho đội hỗ trợ khách hàng VN.
+
+Hỗ trợ Zalo OA (API chính thức) và/hoặc Zalo cá nhân (`zca-js` + QR — **không chính thức**). Queue PostgreSQL bền, media archive, admin `/admin/`, cảnh báo Telegram/webhook.
 
 ⚠️ Kênh cá nhân qua `zca-js` có rủi ro khóa tài khoản — dùng tài khoản phụ. OA dùng API chính thức an toàn hơn. Dự án độc lập, không affiliated Zalo/Chatwoot.
 
-Peer: [ntfy](ntfy.md), [Yuvomi](yuvomi.md), [Jitsi Meet](jitsi-meet.md), [TREK](trek.md).
+**Cùng kiểu:** [ntfy](ntfy.md), [Yuvomi](yuvomi.md), [Jitsi Meet](jitsi-meet.md).
 
-## Để làm gì?
+## Dùng khi nào?
 
 | Nhu cầu | zca-bridge |
 |---------|------------|
@@ -23,7 +25,7 @@ Peer: [ntfy](ntfy.md), [Yuvomi](yuvomi.md), [Jitsi Meet](jitsi-meet.md), [TREK](
 | Push notify chung (không helpdesk) | → [ntfy](ntfy.md) |
 | CRM chat Odoo native | → integrate riêng (Discuss / livechat) |
 
-## Highlight
+## Chạy thử
 
 ```bash
 # Docker / compose — xem README; cần Chatwoot + Postgres riêng
@@ -31,9 +33,17 @@ Peer: [ntfy](ntfy.md), [Yuvomi](yuvomi.md), [Jitsi Meet](jitsi-meet.md), [TREK](
 ```
 
 - Media, quote/reply, reaction, backfill OA  
-- Dead-letter + reconnect backoff  
+- Dead-letter + reconnect backoff
 
-## Use case Odoo / ai_core
+## So với tool khác
+
+| | zca-bridge | ntfy | Odoo Discuss |
+|--|------------|------|--------------|
+| Vai trò | Zalo↔Chatwoot sync | Push HTTP | CRM chat native |
+| Zalo OA | ✅ | ❌ | Cần custom |
+| Tags | `self-host` `api` `notification` | `notification` `cli` | ERP built-in |
+
+## Dùng với Odoo / ai_core
 
 - CS Zalo → Chatwoot; agent AI trên Chatwoot hoặc webhook sang Odoo.  
 - Không nhúng unofficial personal API vào production chính nếu chưa chấp nhận risk.

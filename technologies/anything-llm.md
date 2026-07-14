@@ -1,18 +1,20 @@
 # AnythingLLM
 
 > **Repo:** [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm)  
-> **Category:** MCP & AI Agents · Local-first AI workspace  
+> **Category:** MCP & AI Agents · Workspace AI local-first  
 > **Tags:** `rag` · `agent` · `mcp` · `self-host` · `desktop` · `api`  
 > **Ngôn ngữ:** Node.js · React · **⭐** ~63.3k · **License:** MIT  
 > Docs: [docs.anythingllm.com](https://docs.anythingllm.com) · Slogan: *Stop renting your intelligence*
 
-## Tổng quan
+## Đây là gì?
 
-**AnythingLLM** (Mintplex Labs) — app **all-in-one local-first**: chat với documents, AI agents, multi-user (Docker), vector DB, MCP, embed widget, model router — desktop (Mac/Win/Linux) hoặc Docker/cloud. “Private ChatGPT” không setup phức tạp.
+**AnythingLLM** (Mintplex Labs) là app **all-in-one local-first**: chat với documents, AI agents, multi-user (Docker), vector DB, MCP, embed widget, model router — desktop (Mac/Win/Linux) hoặc Docker/cloud. “Private ChatGPT” không setup phức tạp.
 
-Peer: [RAGFlow](ragflow.md) (engine/DeepDoc nặng hơn), [WeKnora](weknora.md) (Wiki/enterprise CN), [Open Notebook](open-notebook.md) (Notebook LM OSS), [Khoj](khoj.md) (second brain), [NotebookLM MCP](notebooklm-mcp.md) (cloud Google).
+Dynamic model routing · memories · scheduled agent jobs · no-code agent flows · unlimited tools / skill selection (~80% token tools). LLM: Ollama, LM Studio, OpenAI, Anthropic, Gemini, Bedrock… Vector: LanceDB (default), PGVector, Pinecone, Chroma, Weaviate, Qdrant, Milvus… STT/TTS built-in / OpenAI / ElevenLabs.
 
-## Để làm gì?
+**Cùng kiểu:** [RAGFlow](ragflow.md) (engine/DeepDoc nặng hơn), [WeKnora](weknora.md) (Wiki/enterprise CN), [Open Notebook](open-notebook.md) (Notebook LM OSS), [Khoj](khoj.md) (second brain), [NotebookLM MCP](notebooklm-mcp.md) (cloud Google).
+
+## Dùng khi nào?
 
 | Nhu cầu | AnythingLLM |
 |---------|-------------|
@@ -22,15 +24,7 @@ Peer: [RAGFlow](ragflow.md) (engine/DeepDoc nặng hơn), [WeKnora](weknora.md) 
 | Embed chat widget website | ✅ Docker |
 | RAG deep-parse PDF phức tạp | → [RAGFlow](ragflow.md) / DeepDoc |
 
-## Highlight
-
-- Dynamic model routing · memories · scheduled agent jobs  
-- No-code agent flows · unlimited tools / skill selection (~80% token tools)  
-- LLM: Ollama, LM Studio, OpenAI, Anthropic, Gemini, Bedrock…  
-- Vector: LanceDB (default), PGVector, Pinecone, Chroma, Weaviate, Qdrant, Milvus…  
-- STT/TTS built-in / OpenAI / ElevenLabs  
-
-## Deploy
+## Chạy thử
 
 Desktop: tải từ releases / docs.  
 Docker / AWS / GCP / DO…: bảng deploy trong README + `docker/HOW_TO_USE_DOCKER.md`.
@@ -44,7 +38,7 @@ yarn dev:server && yarn dev:frontend && yarn dev:collector
 
 Telemetry mặc định có; tắt `DISABLE_TELEMETRY=true` hoặc Privacy UI.
 
-## So sánh catalog
+## So với tool khác
 
 | | AnythingLLM | RAGFlow | WeKnora |
 |--|-------------|---------|---------|
@@ -52,7 +46,7 @@ Telemetry mặc định có; tắt `DISABLE_TELEMETRY=true` hoặc Privacy UI.
 | Setup | Rất nhanh local | Docker nặng hơn | Docker/Helm |
 | Tags | `rag` `agent` `mcp` `desktop` | `rag` `agent` `mcp` | `rag` `agent` `mcp` `cli` |
 
-## Use case Odoo / ai_core
+## Dùng với Odoo / ai_core
 
 - Prototype personal KB trước `ai_rag_core`.  
 - Desktop team review SOP; MCP tools gọi Odoo/ERP.  

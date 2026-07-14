@@ -7,13 +7,15 @@
 > **Docs:** [alibaba.github.io/page-agent](https://alibaba.github.io/page-agent/)  
 > npm: `page-agent`
 
-## Tổng quan
+## Đây là gì?
 
-**Page Agent** (Alibaba) — **GUI agent sống trong webpage**: một script JS gắn vào trang → điều khiển UI bằng ngôn ngữ tự nhiên. Không cần browser extension / Python / headless browser (core path).
+**Page Agent** (Alibaba) là **GUI agent sống trong webpage**: một script JS gắn vào trang → điều khiển UI bằng ngôn ngữ tự nhiên.
 
-**Text-based DOM** — không screenshot, không bắt buộc multimodal LLM. Optional: Chrome extension multi-page + MCP (beta). Lấy cảm hứng từ [browser-use](https://github.com/browser-use/browser-use) nhưng thiết kế **client-side web enhancement**, không server automation.
+Không cần browser extension / Python / headless browser (core path). **Text-based DOM** — không screenshot, không bắt buộc multimodal LLM. Optional: Chrome extension multi-page + MCP (beta). Lấy cảm hứng từ [browser-use](https://github.com/browser-use/browser-use) nhưng thiết kế **client-side web enhancement**.
 
-## Để làm gì?
+**Cùng kiểu:** [Midscene](midscene.md), [Stagehand](stagehand.md), [Puppeteer](puppeteer.md)
+
+## Dùng khi nào?
 
 | Nhu cầu | Page Agent |
 |---------|------------|
@@ -23,7 +25,7 @@
 | Agent ngoài điều khiển browser (MCP) | ✅ Beta |
 | Multi-tab | ✅ Extension tùy chọn |
 
-## Quick start
+## Chạy thử
 
 ```html
 <script
@@ -48,7 +50,7 @@ const agent = new PageAgent({
 await agent.execute('Click the login button')
 ```
 
-## So sánh catalog
+## So với tool khác
 
 | | Page Agent | Midscene.js | CLI-Anything |
 |--|------------|-------------|--------------|
@@ -56,13 +58,11 @@ await agent.execute('Click the login button')
 | Runtime | Trong tab sản phẩm | Playwright/test / multi-platform | Ngoài app |
 | Ideal | Copilot / ERP form trên **web của bạn** | E2E bất kỳ UI nhìn được | Pro software không web |
 
-## Quan hệ / ai_core
+## Dùng với Odoo / ai_core
 
-| | Vai trò |
-|--|---------|
-| **Odoo backend** | Embed (nếu CSP cho phép) → copilot form view; hoặc MCP điều khiển từ ngoài |
-| **Midscene** | Test/automation chéo origin / mobile; Page Agent = in-app enhancement |
-| **xb_ai** | Chat agent ERP; Page Agent = thao tác DOM trực tiếp trên UI |
+- Embed (nếu CSP cho phép) → copilot form view; hoặc MCP điều khiển từ ngoài.  
+- **Midscene** = test/automation chéo origin / mobile; Page Agent = in-app enhancement.  
+- **xb_ai** = chat agent ERP; Page Agent = thao tác DOM trực tiếp trên UI.
 
 ## Link
 

@@ -6,13 +6,15 @@
 > **Ngôn ngữ:** Python · Next.js · SurrealDB · **⭐** ~35.6k · **License:** MIT  
 > Site: [open-notebook.ai](https://www.open-notebook.ai) · Slogan: *Privacy-focused alternative to Notebook LM*
 
-## Tổng quan
+## Đây là gì?
 
-**Open Notebook** — open-source, **100% local / self-host**, thay thế Google **Notebook LM**: multi-model (18+ provider), chat với research notes, full-text + vector search, podcast multi-speaker, REST API. Dữ liệu ở máy bạn, không lock-in Google.
+**Open Notebook** là thay thế mã nguồn mở cho Google **Notebook LM**: **100% local / self-host**.
 
-Peer: [NotebookLM MCP](notebooklm-mcp.md) (cloud Google + MCP), [AnythingLLM](anything-llm.md) (desktop/all-in-one agent), [Khoj](khoj.md) (second brain + multi-client), [SurfSense](surfsense.md) (CI + live scrapers), [WeKnora](weknora.md) / [RAGFlow](ragflow.md) (KB / DeepDoc engine).
+Bạn dùng để: chat với research notes, full-text + vector search, podcast multi-speaker (1–4 speakers), REST API. Hỗ trợ 18+ provider (Ollama, Anthropic…). Dữ liệu ở máy bạn, không lock-in Google. Stack: Python · Next.js · SurrealDB · LangChain.
 
-## Để làm gì?
+**Cùng kiểu:** [NotebookLM MCP](notebooklm-mcp.md), [AnythingLLM](anything-llm.md), [Khoj](khoj.md), [SurfSense](surfsense.md), [WeKnora](weknora.md), [RAGFlow](ragflow.md)
+
+## Dùng khi nào?
 
 | Nhu cầu | Open Notebook |
 |---------|---------------|
@@ -23,15 +25,7 @@ Peer: [NotebookLM MCP](notebooklm-mcp.md) (cloud Google + MCP), [AnythingLLM](an
 | Agent MCP tooling | → [AnythingLLM](anything-llm.md) / [NotebookLM MCP](notebooklm-mcp.md) |
 | Deep PDF parse | → [RAGFlow](ragflow.md) |
 
-## Highlight
-
-- Privacy-first · multi-modal content (PDF, video, audio, web)  
-- Chat có context từ notebook · citations (đang cải thiện)  
-- Content transformations custom + built-in  
-- UI đa ngôn ngữ (EN, PT, ZH, JA, RU, BN…)  
-- Stack: Python · Next.js · SurrealDB · LangChain  
-
-## Deploy
+## Chạy thử
 
 ```bash
 curl -o docker-compose.yml \
@@ -42,7 +36,7 @@ docker compose up -d
 
 UI `:8502` · REST API `:5055`. Docs: [User Guide](https://www.open-notebook.ai) / repo `docs/`.
 
-## So sánh catalog
+## So với tool khác
 
 | | Open Notebook | NotebookLM MCP | AnythingLLM |
 |--|---------------|----------------|-------------|
@@ -50,7 +44,7 @@ UI `:8502` · REST API `:5055`. Docs: [User Guide](https://www.open-notebook.ai)
 | Niche | Research notebook + podcast | Agent ↔ NotebookLM | All-in-one + MCP agents |
 | Tags | `rag` `self-host` `api` `tts` | `mcp` `rag` | `rag` `agent` `mcp` `desktop` |
 
-## Use case Odoo / ai_core
+## Dùng với Odoo / ai_core
 
 - Prototype personal KB / SOP notebook trước `ai_rag_core`.  
 - Team research on-prem (không đưa tài liệu lên Google).  

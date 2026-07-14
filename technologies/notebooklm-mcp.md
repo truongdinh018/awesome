@@ -5,41 +5,32 @@
 > **Tags:** `mcp` · `rag`  
 > **Ngôn ngữ:** TypeScript · **⭐** ~3k
 
-## Tổng quan
+## Đây là gì?
 
-**NotebookLM MCP** là MCP server kết nối AI agent (Claude Code, Codex, Cursor…) với **Google NotebookLM**. Agent có thể research tài liệu đã upload vào NotebookLM và nhận câu trả lời **có trích dẫn** (grounded, citation-backed) từ Gemini — giảm hallucination so với hỏi model trực tiếp.
+**NotebookLM MCP** là MCP server nối AI agent (Claude Code, Codex, Cursor…) với **Google NotebookLM**.
 
-## Vấn đề giải quyết
+Agent có thể research tài liệu đã upload và nhận câu trả lời **có trích dẫn** (*grounded*, *citation-backed*) từ Gemini — giảm hallucination so với hỏi model trực tiếp. Có persistent auth, quản lý library, và chia sẻ cross-client.
 
-| Vấn đề | Cách MCP xử lý |
-|--------|----------------|
-| Agent bịa tài liệu nội bộ | Trả lời dựa trên notebook đã upload |
-| Không có citation | Trích dẫn nguồn từ NotebookLM |
-| Auth phức tạp | Persistent auth, library management |
-| Nhiều client | Cross-client sharing |
+**Cùng kiểu:** [open-notebook.md](open-notebook.md) *(OSS Notebook LM)* · [surfsense.md](surfsense.md) *(CI agents)* · [anything-llm.md](anything-llm.md) · [weknora.md](weknora.md)
 
-## Kiến trúc (khái niệm)
+## Dùng khi nào?
+
+| Nhu cầu | NotebookLM MCP |
+|---------|----------------|
+| Agent trả lời dựa trên notebook đã upload | ✅ |
+| Câu trả lời có citation | ✅ |
+| RAG self-host, dữ liệu on-prem | → [open-notebook.md](open-notebook.md) / `ai_rag_core` |
+| Research nội bộ policy / spec Odoo | ✅ |
+
+## Chạy thử
+
+Cài MCP server từ repo, cấu hình auth Google NotebookLM, rồi thêm vào client MCP (Cursor / Claude Code).
 
 ```
-AI Agent (Claude/Cursor)
-        │ MCP protocol
-        ▼
-notebooklm-mcp server
-        │ API
-        ▼
-Google NotebookLM + Gemini
-        │
-        ▼
-Tài liệu user đã upload (PDF, doc…)
+AI Agent → MCP protocol → notebooklm-mcp → Google NotebookLM + Gemini → tài liệu user upload
 ```
 
-## Use case
-
-- **Research nội bộ:** Policy công ty, spec sản phẩm, tài liệu Odoo custom
-- **Coding agent:** Tra cứu API doc đã nạp vào notebook
-- **Zero hallucination (mục tiêu):** Chỉ trả lời trong phạm vi knowledge base
-
-## So sánh nhanh
+## So với tool khác
 
 | | NotebookLM MCP | RAG tự host (ai_rag_core) |
 |--|----------------|---------------------------|
@@ -48,13 +39,14 @@ Tài liệu user đã upload (PDF, doc…)
 | Citation | Built-in NotebookLM | Tùy pipeline |
 | Privacy | Dữ liệu trên Google | Kiểm soát on-prem |
 
-## Liên quan ai_core
+## Dùng với Odoo / ai_core
 
-- Pattern tương tự `ai_rag_core` + `xb_mcp` trong Odoo
-- Có thể tham khảo flow **agent → MCP tool → grounded answer** khi thiết kế tool mới
+- Pattern tương tự `ai_rag_core` + `xb_mcp` — tham khảo flow **agent → MCP tool → grounded answer**.  
+- Research policy công ty, spec sản phẩm, tài liệu Odoo custom.  
+- Coding agent tra cứu API doc đã nạp vào notebook.
 
 ## Link
 
-- Repo: https://github.com/PleasePrompto/notebooklm-mcp
-- MCP spec: https://modelcontextprotocol.io
-- Peers: [open-notebook.md](open-notebook.md) *(OSS Notebook LM)* · [surfsense.md](surfsense.md) *(CI agents)* · [anything-llm.md](anything-llm.md) · [weknora.md](weknora.md)
+- Repo: https://github.com/PleasePrompto/notebooklm-mcp  
+- MCP spec: https://modelcontextprotocol.io  
+- Peers: [open-notebook.md](open-notebook.md) · [surfsense.md](surfsense.md) · [anything-llm.md](anything-llm.md) · [weknora.md](weknora.md)

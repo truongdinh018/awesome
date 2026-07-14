@@ -6,13 +6,15 @@
 > **Ngôn ngữ:** Python · **⭐** ~34k · **License:** MIT  
 > **Site:** [pageindex.ai](https://pageindex.ai) · Slogan: *Reasoning-based RAG · No Vector DB · No Chunking*
 
-## Tổng quan
+## Đây là gì?
 
-**PageIndex** (Vectify AI) — RAG **không vector DB / không chunk giả**: biến PDF dài thành **cây hierarchical** kiểu mục lục, rồi LLM **lý luận + tree search** để lấy đúng section — gần cách chuyên gia đọc tài liệu.
+**PageIndex** (Vectify AI) là RAG **không vector DB / không chunk giả**: biến PDF dài thành **cây hierarchical** kiểu mục lục, rồi LLM **lý luận + tree search** để lấy đúng section.
 
 Phù hợp báo cáo tài chính, pháp lý, SEC, manual kỹ thuật… nơi **similarity ≠ relevance**. FinanceBench: **98.7%** accuracy (Mafin 2.5 + PageIndex) theo công bố team.
 
-## Để làm gì?
+**Cùng kiểu:** [SAG](sag.md), [Hyper-Extract](hyper-extract.md), [NotebookLM MCP](notebooklm-mcp.md), [RAGFlow](ragflow.md), [PixelRAG](pixelrag.md)
+
+## Dùng khi nào?
 
 | Nhu cầu | PageIndex |
 |---------|-----------|
@@ -22,22 +24,7 @@ Phù hợp báo cáo tài chính, pháp lý, SEC, manual kỹ thuật… nơi **
 | Agent / IDE qua MCP | ✅ Cloud MCP & API (+ OSS demo agentic) |
 | Corpus hàng loạt | ✅ PageIndex File System (file-level trees) |
 
-## Luồng retrieval
-
-```
-PDF / Markdown
-      │
-      ▼
-Tree “TOC” (node: title, page range, summary, children)
-      │
-      ▼
-LLM agentic tree search (context-aware)
-      │
-      ▼
-Section / page có cite — explainable
-```
-
-## Self-host nhanh
+## Chạy thử
 
 ```bash
 pip3 install --upgrade -r requirements.txt
@@ -54,9 +41,9 @@ pip3 install openai-agents
 python3 examples/agentic_vectorless_rag_demo.py
 ```
 
-> Package OSS dùng PDF parse chuẩn; PDF phức tạp → cloud OCR/tree pipeline tốt hơn (Chat / MCP / API).
+Package OSS dùng PDF parse chuẩn; PDF phức tạp → cloud OCR/tree pipeline tốt hơn (Chat / MCP / API).
 
-## So sánh trong catalog
+## So với tool khác
 
 | | PageIndex | SAG | Hyper-Extract | NotebookLM MCP |
 |--|-----------|-----|---------------|----------------|
@@ -65,17 +52,15 @@ python3 examples/agentic_vectorless_rag_demo.py
 | Điểm mạnh | Doc dài, reasoning ToC | Multi-hop động | Extract có schema | Citation Gemini |
 | Tags | `rag` `mcp` `cli` | `rag` `mcp` | `extract` `rag` `mcp` | `mcp` `rag` |
 
-## Use case Odoo / ai_core
+## Dùng với Odoo / ai_core
 
-- Preprocess HĐ / báo cáo / manual → tree trước khi hỏi agent ERP.
-- Peer của **ai_rag_core** (Odoo) — thử **vectorless** khi chunk-vector kém trên PDF có cấu trúc.
+- Preprocess HĐ / báo cáo / manual → tree trước khi hỏi agent ERP.  
+- Peer của **ai_rag_core** — thử **vectorless** khi chunk-vector kém trên PDF có cấu trúc.  
 - Ghép [Stirling-PDF](stirling-pdf.md) (OCR/clean) → PageIndex tree → MCP/agent.
 
 ## Link
 
 - Repo: https://github.com/VectifyAI/PageIndex  
 - Site / Chat: https://pageindex.ai  
-- Docs / MCP: developer hub trên pageindex.ai  
 - Intro blog: https://pageindex.ai/blog/pageindex-intro  
-- Peer RAG: [sag.md](sag.md) · [hyper-extract.md](hyper-extract.md) · [notebooklm-mcp.md](notebooklm-mcp.md) · [weknora.md](weknora.md) · [ragflow.md](ragflow.md) · [pixelrag.md](pixelrag.md)  
-- Preprocess PDF: [stirling-pdf.md](stirling-pdf.md)
+- Peers: [sag.md](sag.md) · [hyper-extract.md](hyper-extract.md) · [notebooklm-mcp.md](notebooklm-mcp.md) · [weknora.md](weknora.md) · [ragflow.md](ragflow.md) · [pixelrag.md](pixelrag.md) · [stirling-pdf.md](stirling-pdf.md)

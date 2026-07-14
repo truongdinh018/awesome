@@ -6,28 +6,33 @@
 > **Ngôn ngữ:** TypeScript · **⭐** ~38.6k · **License:** AGPL-3.0 (+ icon exception)  
 > App: [app.folo.is](https://app.folo.is) · iOS / Android / macOS / Windows / Linux
 
-## Tổng quan
+## Đây là gì?
 
-**Folo** (*Follow Everything*) — **AI RSS reader**: một timeline gọn, subscribe feeds & curated lists, AI translation/summary, hỗ trợ article / video / image / audio. Web + native apps. Cộng đồng / lists chia sẻ. RSSHub-friendly. **AGPL-3.0** — lưu ý nếu redistribute SaaS.
+**Folo** (*Follow Everything*) là **trình đọc RSS có AI** (*AI RSS reader*): một timeline gọn, subscribe feed và danh sách curated, dịch/tóm tắt bằng AI, hỗ trợ bài viết / video / ảnh / audio. Có web app và app native. Cộng đồng chia sẻ list; thân thiện RSSHub.
 
-Không phải RAG engine — product reader + AI assist. Peer: [Khoj](khoj.md) (second brain), [Open Notebook](open-notebook.md) / [SurfSense](surfsense.md) (research), [ntfy](ntfy.md) (push alerts).
+Không phải engine RAG — đây là product đọc tin + AI hỗ trợ. **AGPL-3.0**: lưu ý nếu redistribute SaaS.
 
-## Để làm gì?
+**Cùng kiểu:** [Khoj](khoj.md) (*second brain*), [Open Notebook](open-notebook.md) / [SurfSense](surfsense.md) (research), [ntfy](ntfy.md) (push alert).
+
+## Dùng khi nào?
 
 | Nhu cầu | Folo |
 |---------|------|
-| Đọc RSS/multimedia noise-free + AI summary | ✅ |
+| Đọc RSS/multimedia gọn + AI summary | ✅ |
 | Desktop / mobile / web | ✅ stores + releases |
 | KB agent / MCP research | → [SurfSense](surfsense.md) / [Khoj](khoj.md) |
 | Self-host family planner | → [Yuvomi](yuvomi.md) |
 
-## Highlight
+## Chạy thử
 
-- Customized hub · AI tips (translate, summarize…) · dynamic content types  
-- Discord / X community · active development  
-- Install: browser, stores, GitHub releases, AUR/Nix/Homebrew/Scoop  
+Cài qua browser, app store, GitHub releases, AUR / Nix / Homebrew / Scoop — xem README repo.
 
-## So sánh catalog
+```bash
+# Clone và build (xem README upstream)
+git clone https://github.com/RSSNext/Folo.git
+```
+
+## So với tool khác
 
 | | Folo | Khoj | SurfSense |
 |--|------|------|-----------|
@@ -35,9 +40,9 @@ Không phải RAG engine — product reader + AI assist. Peer: [Khoj](khoj.md) (
 | License | AGPL-3.0 | AGPL-3.0 | OSS self-host |
 | Tags | `desktop` `self-host` | `rag` `agent` `desktop` | `rag` `mcp` `workflow` |
 
-## Use case Odoo / ai_core
+## Dùng với Odoo / ai_core
 
-- Theo dõi changelog Odoo / GitHub / competitor blogs.  
+- Theo dõi changelog Odoo / GitHub / blog đối thủ.  
 - Feed → tóm tắt → ntfy / agent digest.  
 - AGPL: check pháp lý nếu fork hosted nội bộ công khai.
 

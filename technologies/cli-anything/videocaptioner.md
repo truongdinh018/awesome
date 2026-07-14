@@ -6,25 +6,45 @@
 > **Type:** Agent-native CLI harness  
 > **Path:** [`videocaptioner/agent-harness`](https://github.com/HKUDS/CLI-Anything/tree/main/videocaptioner/agent-harness)
 
-## Tổng quan
+## Đây là gì?
 
 Harness **VideoCaptioner** — phụ đề / caption video bằng AI qua CLI: agent pipeline video → subtitle thay vì UI desktop.
 
-## Agent làm gì được
+Là con của CLI-Anything — expose generate/adjust subtitle qua lệnh có cấu trúc.
 
-- Generate / adjust subtitle tracks  
-- Export SRT/VTT  
-- Gắn vào workflow batch  
+**Cùng kiểu:** [faster-whisper](../faster-whisper.md) (STT engine), [pyVideoTrans](../pyvideotrans.md) (dub video), [HyperFrames](../hyperframes.md) (compose).
 
-## Quan hệ catalog
+## Dùng khi nào?
 
-| | Vai trò |
-|--|---------|
-| **Cha** | CLI-Anything |
-| **Speech** | Cùng họ STT với faster-whisper (VideoCaptioner = app + harness) |
-| **Video** | Bổ sung HyperFrames / ComfyUI — post media, không sinh video từ đầu |
+| Nhu cầu | VideoCaptioner harness |
+|---------|------------------------|
+| Agent generate / adjust subtitle tracks | ✅ |
+| Export SRT/VTT | ✅ |
+| Gắn vào workflow batch | ✅ |
+| Dub + translate end-to-end | → [pyVideoTrans](../pyvideotrans.md) |
+
+## Chạy thử
+
+```bash
+# Harness: https://github.com/HKUDS/CLI-Anything/tree/main/videocaptioner/agent-harness
+# Cài qua CLI-Hub — xem https://clianything.cc/
+```
+
+## So với tool khác
+
+| | VideoCaptioner harness | faster-whisper | pyVideoTrans |
+|--|------------------------|----------------|--------------|
+| Shape | App + agent CLI | STT library | Desktop dub |
+| Output | SRT/VTT subtitle | Text transcript | Dubbed video |
+| Tags | `harness` `stt` `video` | `stt` `cli` | `video` `stt` `tts` |
+
+## Dùng với Odoo / ai_core
+
+- Post-process video training trước attach `ir.attachment`.  
+- Batch subtitle cho clip demo nội bộ.  
+- Bổ sung HyperFrames / ComfyUI — post media, không sinh video từ đầu.
 
 ## Link
 
 - Harness: https://github.com/HKUDS/CLI-Anything/tree/main/videocaptioner/agent-harness  
-- Parent: [cli-anything.md](../cli-anything.md)
+- Cha: [cli-anything.md](../cli-anything.md)

@@ -6,13 +6,13 @@
 > **Ngôn ngữ:** Python · TypeScript · **⭐** ~35.7k · **License:** AGPL-3.0  
 > Site: [khoj.dev](https://khoj.dev) · Cloud: [app.khoj.dev](https://app.khoj.dev) · Docs: [docs.khoj.dev](https://docs.khoj.dev)
 
-## Tổng quan
+## Đây là gì?
 
-**Khoj** — *AI second brain* self-hostable: chat local/online LLM, answers từ **web + docs** (PDF, Markdown, Notion, Word, org-mode…), custom agents, scheduled automations / newsletter, deep research. Clients: Browser, Desktop, Phone, Obsidian, Emacs, WhatsApp. Có cloud free + enterprise.
+**Khoj** là *AI second brain* self-hostable: chat local/online LLM, answers từ **web + docs** (PDF, Markdown, Notion, Word, org-mode…), custom agents, scheduled automations / newsletter, deep research. Clients: Browser, Desktop, Phone, Obsidian, Emacs, WhatsApp. Có cloud free + enterprise.
 
-Peer: [AnythingLLM](anything-llm.md) (MCP + desktop all-in-one), [Open Notebook](open-notebook.md) (Notebook LM OSS), [SurfSense](surfsense.md) (competitive intel + MCP), [WeKnora](weknora.md) / [RAGFlow](ragflow.md) (KB engines).
+**Cùng kiểu:** [AnythingLLM](anything-llm.md) (MCP + desktop all-in-one), [Open Notebook](open-notebook.md) (Notebook LM OSS), [SurfSense](surfsense.md) (competitive intel + MCP), [WeKnora](weknora.md) / [RAGFlow](ragflow.md) (KB engines).
 
-## Để làm gì?
+## Dùng khi nào?
 
 | Nhu cầu | Khoj |
 |---------|------|
@@ -23,20 +23,14 @@ Peer: [AnythingLLM](anything-llm.md) (MCP + desktop all-in-one), [Open Notebook]
 | MCP tool ecosystem | → [AnythingLLM](anything-llm.md) |
 | Notebook LM–style podcast notebook | → [Open Notebook](open-notebook.md) |
 
-## Highlight
-
-- Multi-LLM: GPT, Claude, Gemini, Llama, Qwen, Mistral, local…  
-- Pipali — open-source AI coworker chạy trên máy (product mới)  
-- Image gen · STT · TTS (talk out loud)  
-- Scale: on-device → cloud / enterprise hybrid  
-- License **AGPL-3.0** (self-host OSS; enterprise commercial)
-
-## Deploy
+## Chạy thử
 
 Self-host: xem [Self-Host docs](https://docs.khoj.dev) · `docker-compose.yml` trong repo.  
 Quick try: https://app.khoj.dev (không cần setup).
 
-## So sánh catalog
+Multi-LLM: GPT, Claude, Gemini, Llama, Qwen, Mistral, local… Pipali — open-source AI coworker chạy trên máy (product mới). Image gen · STT · TTS (talk out loud).
+
+## So với tool khác
 
 | | Khoj | AnythingLLM | Open Notebook |
 |--|------|-------------|---------------|
@@ -45,7 +39,7 @@ Quick try: https://app.khoj.dev (không cần setup).
 | License | AGPL-3.0 | MIT | MIT |
 | Tags | `rag` `agent` `desktop` `stt` | `rag` `agent` `mcp` `desktop` | `rag` `api` `tts` |
 
-## Use case Odoo / ai_core
+## Dùng với Odoo / ai_core
 
 - Prototype personal/team KB trước `ai_rag_core`.  
 - Agent persona + scheduled research cho SOP / competitor brief.  

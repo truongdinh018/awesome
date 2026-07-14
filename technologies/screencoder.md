@@ -5,60 +5,50 @@
 > **Tags:** `ui-to-code`  
 > **Ngôn ngữ:** Python · **⭐** ~2.8k
 
-## Tổng quan
+## Đây là gì?
 
-**ScreenCoder** chuyển **screenshot giao diện UI** thành **HTML/CSS sạch, có thể chỉnh sửa**:
+**ScreenCoder** chuyển **screenshot giao diện UI** thành **HTML/CSS sạch, có thể chỉnh sửa**.
 
-- Input: ảnh chụp màn hình app/web
-- Output: HTML + CSS tương đối chính xác layout
-- Mục tiêu: **nhanh**, **chính xác**, **dễ customize**
+Input: ảnh chụp màn hình app/web. Output: HTML + CSS tương đối chính xác layout. Mục tiêu: **nhanh**, **chính xác**, **dễ customize**.
 
-## Pipeline
+Component **logic** (JS, OWL) không tự sinh — chỉ markup/style. Responsive cần chỉnh tay.
 
+**Cùng kiểu:** [AI Website Cloner](ai-website-cloner.md), [ComfyUI](comfyui.md) (sinh ảnh mockup)
+
+## Dùng khi nào?
+
+| Nhu cầu | ScreenCoder |
+|---------|-------------|
+| Prototype nhanh screenshot → code starter | ✅ |
+| Reverse UI học layout (tuân thủ bản quyền) | ✅ |
+| Screenshot form Odoo → template OWL/HTML tham khảo | ✅ |
+| URL live → Next.js bằng coding agent | → [AI Website Cloner](ai-website-cloner.md) |
+| Prompt text → full app | → v0 / bolt.new |
+
+## Chạy thử
+
+```bash
+git clone https://github.com/leigest519/ScreenCoder.git
+# xem README repo cho setup Python và model requirements
 ```
-UI Screenshot (PNG)
-        │
-        ▼
-Vision model + layout analysis
-        │
-        ▼
-HTML structure + CSS styles
-        │
-        ▼
-Developer chỉnh sửa → deploy
-```
 
-## Use case
+Pipeline: UI Screenshot → vision model + layout analysis → HTML structure + CSS → developer chỉnh sửa → deploy.
 
-- **Prototype nhanh** — design Figma/screenshot → code starter
-- **Reverse UI** — học layout từ competitor (tuân thủ bản quyền)
-- **Odoo widget** — screenshot form view → template OWL/HTML tham khảo
-- **Kết hợp agent** — "nhìn ảnh này, tạo view Odoo tương tự"
+## So với tool khác
 
-## So sánh
+| | ScreenCoder | v0 / bolt.new | AI Website Cloner |
+|--|-------------|---------------|-------------------|
+| Input chính | Screenshot | Prompt text | URL live |
+| Local | Có thể self-host | Cloud | Agent-driven |
+| Pixel fidelity | Cao (mục tiêu) | Trung bình | Sâu hơn screenshot→HTML |
 
-| | ScreenCoder | v0 / bolt.new | Figma-to-code |
-|--|-------------|---------------|---------------|
-| Input chính | Screenshot | Prompt text | Figma file |
-| Local | Có thể self-host | Cloud | Plugin |
-| Pixel fidelity | Cao (mục tiêu) | Trung bình | Trung bình |
+## Dùng với Odoo / ai_core
 
-## Hạn chế
-
-- Component **logic** (JS, OWL) không tự sinh — chỉ markup/style
-- Responsive cần chỉnh tay
-- Design system (Odoo Bootstrap) cần map thủ công
-
-## Liên quan ai_core
-
-- Tool MCP: `screenshot_to_html` → dev paste vào QWeb/OWL scaffold
-- Bổ sung **ComfyUI** (sinh ảnh mockup) → **ScreenCoder** (ảnh → code)
-
-## Liên quan catalog
-
-- **[AI Website Cloner](ai-website-cloner.md)** — URL live → Next.js bằng coding agent (sâu hơn screenshot→HTML)
+- Tool MCP: `screenshot_to_html` → dev paste vào QWeb/OWL scaffold.  
+- Bổ sung **ComfyUI** (sinh ảnh mockup) → **ScreenCoder** (ảnh → code).  
+- Design system (Odoo Bootstrap) cần map thủ công.
 
 ## Link
 
-- Repo: https://github.com/leigest519/ScreenCoder
-
+- Repo: https://github.com/leigest519/ScreenCoder  
+- Peers: [ai-website-cloner.md](ai-website-cloner.md) · [comfyui.md](comfyui.md)

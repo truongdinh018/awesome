@@ -6,15 +6,17 @@
 > **Ngôn ngữ:** Python 3.9+ · **⭐** ~213 · **License:** (chưa SPDX)  
 > *Unofficial CapCut client — chỉ dùng với account/device/media bạn được phép*
 
-## Tổng quan
+## Đây là gì?
 
-**capcut-tts-api** — CLI Python thuần gọi CapCut **common task** API: **TTS**, **STT/subtitle**, upload audio/video lên VOD, poll kết quả. Không native lib / ctypes — tự dựng `x-ss-stub`, header `sign`, RSA payload TTS, AWS SigV4 upload. File chính: `capcut_common_task_client.py` + `Voice.json`.
+**capcut-tts-api** là CLI Python thuần gọi CapCut **common task** API: **TTS**, **STT/subtitle**, upload audio/video lên VOD, poll kết quả.
+
+Không native lib / ctypes — tự dựng `x-ss-stub`, header `sign`, RSA payload TTS, AWS SigV4 upload. File chính: `capcut_common_task_client.py` + `Voice.json`.
 
 ⚠️ Client **không chính thức** (reverse-engineered CapCut flow). Có thể vi phạm ToS / đổi API bất kỳ lúc nào — chỉ thử nghiệm cá nhân với session hợp lệ; **không** production / multi-tenant.
 
-Peer: [faster-whisper](faster-whisper.md) / [FunASR](funasr.md) (STT local), [VoxCPM](voxcpm.md) / [OmniVoice](omnivoice-studio.md) (TTS local), [AudioBook KJ](audiobook-kj.md) / [AI-auto-generate-video](ai-auto-generate-video.md) (pipeline media).
+**Cùng kiểu:** [faster-whisper](faster-whisper.md) / [FunASR](funasr.md) (STT local), [VoxCPM](voxcpm.md) / [OmniVoice](omnivoice-studio.md) (TTS local), [AudioBook KJ](audiobook-kj.md) / [AI-auto-generate-video](ai-auto-generate-video.md) (pipeline media).
 
-## Để làm gì?
+## Dùng khi nào?
 
 | Nhu cầu | CapCut TTS/STT API |
 |---------|-------------------|
@@ -24,7 +26,7 @@ Peer: [faster-whisper](faster-whisper.md) / [FunASR](funasr.md) (STT local), [Vo
 | Stack STT/TTS open-source local | → FunASR / faster-whisper / OmniVoice |
 | SDK CapCut chính thức | ❌ không có — đây là client cộng đồng |
 
-## Highlight
+## Chạy thử
 
 ```bash
 pip install requests
@@ -37,7 +39,7 @@ python3 capcut_common_task_client.py stt-query --task-id ID --token TOKEN --out 
 - STT payload → `utterances[].text` / `start_time` / `end_time` / `words[]`  
 - `--dry-run` xem request không gọi API  
 
-## So sánh catalog
+## So với tool khác
 
 | | CapCut CLI | FunASR | OmniVoice |
 |--|------------|--------|-----------|
@@ -46,7 +48,7 @@ python3 capcut_common_task_client.py stt-query --task-id ID --token TOKEN --out 
 | Tags | `stt` `tts` `cli` `api` | `stt` `cli` `api` | `stt` `tts` `desktop` |
 | ToS | ⚠️ unofficial | ✅ OSS | ✅ OSS |
 
-## Use case Odoo / ai_core
+## Dùng với Odoo / ai_core
 
 - Prototype phụ đề tiếng Việt nhanh nếu đã có CapCut session (nội bộ R&D).  
 - Ưu tiên FunASR / faster-whisper cho pipeline production Odoo.  

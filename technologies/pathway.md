@@ -6,13 +6,15 @@
 > **Ngôn ngữ:** Python API · Rust engine · **⭐** ~62.7k · **License:** BSL (xem repo)  
 > Site: [pathway.com](https://pathway.com) · Docs: [pathway.com/developers](https://pathway.com/developers/)
 
-## Tổng quan
+## Đây là gì?
 
-**Pathway** (*Live Data Framework*) — Python ETL **stream + batch** cùng một codebase: real-time analytics, connectors (Kafka, GDrive, Postgres, SharePoint, Airbyte 300+), incremental Rust engine (Differential Dataflow). **LLM xpack**: wrappers, parsers, embedders, splitters, in-memory vector index, LangChain/LlamaIndex — live RAG trên documents đang đổi.
+**Pathway** (*Live Data Framework*) là Python ETL **stream + batch** cùng một codebase: real-time analytics, connectors (Kafka, GDrive, Postgres, SharePoint, Airbyte 300+), incremental Rust engine (Differential Dataflow).
 
-Peer: [RAGFlow](ragflow.md) (DeepDoc RAG app), [SAG](sag.md) (graph RAG), [Hyper-Extract](hyper-extract.md) (extract graph), [LocalAI](localai.md) (local LLM serve).
+**LLM xpack**: wrappers, parsers, embedders, splitters, in-memory vector index, LangChain/LlamaIndex — live RAG trên documents đang đổi.
 
-## Để làm gì?
+**Cùng kiểu:** [RAGFlow](ragflow.md), [SAG](sag.md), [Hyper-Extract](hyper-extract.md), [LocalAI](localai.md)
+
+## Dùng khi nào?
 
 | Nhu cầu | Pathway |
 |---------|---------|
@@ -22,7 +24,7 @@ Peer: [RAGFlow](ragflow.md) (DeepDoc RAG app), [SAG](sag.md) (graph RAG), [Hyper
 | Full RAG UI multi-user | → [RAGFlow](ragflow.md) / [AnythingLLM](anything-llm.md) |
 | Chỉ fine-tune | → [Unsloth](unsloth.md) |
 
-## Highlight
+## Chạy thử
 
 ```bash
 pip install -U pathway
@@ -34,11 +36,9 @@ import pathway as pw
 # connectors → filter/join/window → pw.io… → pw.run()
 ```
 
-- Templates: Private RAG (Ollama), Adaptive RAG, Multimodal gpt-4o, unstructured→SQL  
-- Docker / K8s · `pathway spawn --threads N` · monitoring dashboard  
-- Consistency: free ≈ at-least-once; enterprise exactly-once  
+Templates: Private RAG (Ollama), Adaptive RAG, Multimodal gpt-4o, unstructured→SQL. Docker / K8s · `pathway spawn --threads N` · monitoring dashboard.
 
-## So sánh catalog
+## So với tool khác
 
 | | Pathway | RAGFlow | SAG |
 |--|---------|---------|-----|
@@ -46,7 +46,7 @@ import pathway as pw
 | Engine | Rust incremental | DeepDoc etc. | Event–entity |
 | Tags | `rag` `workflow` `cli` | `rag` `agent` `mcp` | `rag` `mcp` |
 
-## Use case Odoo / ai_core
+## Dùng với Odoo / ai_core
 
 - Ingest ERP events / docs → live vector index cho agents.  
 - Kafka warehouse sync → alerting pipeline.  

@@ -6,13 +6,13 @@
 > **Ngôn ngữ:** Python · PyTorch · **⭐** ~19.2k · **License:** MIT (toolkit; model licenses vary)  
 > Docs: [modelscope.github.io/FunASR](https://modelscope.github.io/FunASR/)
 
-## Tổng quan
+## Đây là gì?
 
-**FunASR** (ModelScope / Alibaba DAMO) — toolkit ASR **industrial**: tới ~340× realtime (Fun-ASR-Nano + vLLM), 50+ ngôn ngữ, **speaker diarization**, emotion, VAD, punctuation, **streaming** (Paraformer). Không chỉ một model Whisper — chọn per job: Fun-ASR-Nano (flagship GPU), SenseVoice (CPU + emotion), Paraformer (low-latency stream). `funasr-server` → OpenAI-compatible API + **MCP** cho agents.
+**FunASR** (ModelScope / Alibaba DAMO) là toolkit ASR **công nghiệp** (*industrial ASR*): tới ~340× realtime (Fun-ASR-Nano + vLLM), 50+ ngôn ngữ, **speaker diarization**, emotion, VAD, punctuation, **streaming** (Paraformer). Không chỉ một model Whisper — chọn theo job: Fun-ASR-Nano (flagship GPU), SenseVoice (CPU + emotion), Paraformer (low-latency stream). `funasr-server` → API tương thích OpenAI + **MCP** cho agents.
 
-Peer: [faster-whisper](faster-whisper.md) (Whisper CTranslate2), [LocalAI](localai.md) (multi-modal serve có STT), [OmniVoice](omnivoice-studio.md) (STT+TTS studio), [Jitsi](jitsi-meet.md) (meeting → transcribe pipeline).
+**Cùng kiểu:** [faster-whisper](faster-whisper.md) (Whisper CTranslate2), [LocalAI](localai.md) (multi-modal serve có STT), [OmniVoice](omnivoice-studio.md) (STT+TTS studio), [Jitsi](jitsi-meet.md) (meeting → transcribe pipeline).
 
-## Để làm gì?
+## Dùng khi nào?
 
 | Nhu cầu | FunASR |
 |---------|--------|
@@ -22,7 +22,7 @@ Peer: [faster-whisper](faster-whisper.md) (Whisper CTranslate2), [LocalAI](local
 | Whisper-only portability tối thiểu | → [faster-whisper](faster-whisper.md) |
 | TTS / voice clone | → [VoxCPM](voxcpm.md) / OmniVoice |
 
-## Highlight
+## Chạy thử
 
 ```bash
 pip install torch torchaudio funasr
@@ -30,10 +30,9 @@ pip install torch torchaudio funasr
 funasr-server --device cuda   # → localhost:8000 OpenAI-compat
 ```
 
-- AutoModel + AutoModelVLLM · rich transcription postprocess  
-- Models: Fun-ASR-Nano, SenseVoice, Paraformer, Qwen3-ASR, Whisper via zoo  
+AutoModel + AutoModelVLLM · rich transcription postprocess. Models: Fun-ASR-Nano, SenseVoice, Paraformer, Qwen3-ASR, Whisper via zoo.
 
-## So sánh catalog
+## So với tool khác
 
 | | FunASR | faster-whisper | LocalAI |
 |--|--------|----------------|---------|
@@ -41,7 +40,7 @@ funasr-server --device cuda   # → localhost:8000 OpenAI-compat
 | Diarization/emotion | ✅ built-in | ❌ extra | backends vary |
 | Tags | `stt` `api` `mcp` | `stt` `cli` | `stt` `api` `mcp` |
 
-## Use case Odoo / ai_core
+## Dùng với Odoo / ai_core
 
 - Transcribe call center / Jitsi recordings (CN + VI pipeline cần test).  
 - Agent MCP audio tools.  

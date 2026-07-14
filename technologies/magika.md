@@ -6,13 +6,15 @@
 > **Ngôn ngữ:** Rust CLI · Python · JS/TS · Go (WIP) · **⭐** ~17.2k · **License:** Apache-2.0  
 > Site: [securityresearch.google/magika](https://securityresearch.google/magika/)
 
-## Tổng quan
+## Đây là gì?
 
-**Magika** (Google Security Research) — **nhận diện kiểu nội dung file bằng AI** (deep learning, model vài MB): ~**99%** precision/recall trên 200+ content types (binary + text), inference ~**5ms**/file trên CPU sau khi load model; thời gian gần như không phụ thuộc kích thước file (chỉ đọc subset bytes).
+**Magika** (Google Security Research) là **nhận diện kiểu nội dung file bằng AI** (deep learning, model vài MB): ~**99%** precision/recall trên 200+ content types (binary + text), inference ~**5ms**/file trên CPU sau khi load model; thời gian gần như không phụ thuộc kích thước file (chỉ đọc subset bytes).
 
 Dùng production-scale tại Google (Gmail, Drive, Safe Browsing) và tích hợp VirusTotal / abuse.ch — route file tới scanner đúng policy.
 
-## Để làm gì?
+**Cùng kiểu:** [Stirling-PDF](stirling-pdf.md) (xử lý PDF), [Strix](strix.md) (AI pentest).
+
+## Dùng khi nào?
 
 | Nhu cầu | Magika |
 |---------|--------|
@@ -22,7 +24,7 @@ Dùng production-scale tại Google (Gmail, Drive, Safe Browsing) và tích hợ
 | Pre-filter trước OCR / RAG / antivirus | ✅ |
 | Watermark ảnh / audio | → [blind_watermark](blind-watermark.md) / [AudioSeal](audioseal.md) |
 
-## Cài & dùng nhanh
+## Chạy thử
 
 ```bash
 pipx install magika
@@ -41,14 +43,14 @@ print(m.identify_path('doc.ini').output.label)
 
 Modes: `high-confidence` / `medium-confidence` / `best-guess` — threshold per content-type.
 
-## So sánh catalog
+## So với tool khác
 
 | | Magika | Stirling-PDF | Strix |
 |--|--------|--------------|-------|
 | Việc | AI **file type** | Xử lý PDF | AI **pentest** |
 | Tags | `cli` `security` | `pdf` `ocr` | `security` `pentest` |
 
-## Use case Odoo / RAG
+## Dùng với Odoo / ai_core
 
 - Trước ingest vào `ai_rag_core` / Stirling OCR: classify attachment → route parser đúng (code vs pdf vs image).  
 - Upload API: reject “executable disguised as .pdf” khi Magika báo binary/exe.  

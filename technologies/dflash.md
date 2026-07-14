@@ -6,13 +6,15 @@
 > **Ngôn ngữ:** Python · **⭐** ~5.5k · **License:** MIT  
 > Site: [dflash.z-lab.ai](https://dflash.z-lab.ai) · Paper: [arXiv:2602.06036](https://arxiv.org/abs/2602.06036)
 
-## Tổng quan
+## Đây là gì?
 
-**DFlash** (*Block Diffusion for Flash Speculative Decoding*) — draft model **block diffusion** nhẹ để **speculative decoding**: target LLM verify draft song song → tăng throughput, giữ chất lượng. Backends: **vLLM**, **SGLang**, Transformers (Qwen3/LLaMA), **MLX** (Apple Silicon). Draft checkpoints trên Hugging Face (`z-lab/*-DFlash`) cho Gemma 4, Qwen3.5/3.6, gpt-oss, Kimi, MiniMax…
+**DFlash** (*Block Diffusion for Flash Speculative Decoding*) là draft model **block diffusion** nhẹ để **speculative decoding**: target LLM verify draft song song → tăng throughput, giữ chất lượng.
 
-Peer: [LocalAI](localai.md) / vLLM serve, [Unsloth](unsloth.md) (train), [FreeLLMAPI](freellmapi.md) (proxy — không tăng tốc GPU). Nội bộ: [ai-training INFERENCE_SCALING](../../ai-training/docs/INFERENCE_SCALING.md).
+Backends: **vLLM**, **SGLang**, Transformers (Qwen3/LLaMA), **MLX** (Apple Silicon). Draft checkpoints trên Hugging Face (`z-lab/*-DFlash`) cho Gemma 4, Qwen3.5/3.6, gpt-oss, Kimi, MiniMax…
 
-## Để làm gì?
+**Cùng kiểu:** [LocalAI](localai.md) / vLLM serve, [Unsloth](unsloth.md) (train), [FreeLLMAPI](freellmapi.md) (proxy — không tăng tốc GPU). Nội bộ: [ai-training INFERENCE_SCALING](../../ai-training/docs/INFERENCE_SCALING.md).
+
+## Dùng khi nào?
 
 | Nhu cầu | DFlash |
 |---------|--------|
@@ -21,7 +23,7 @@ Peer: [LocalAI](localai.md) / vLLM serve, [Unsloth](unsloth.md) (train), [FreeLL
 | Fine-tune / RL | → [Unsloth](unsloth.md) |
 | Multi-modal local engine UI | → [LocalAI](localai.md) |
 
-## Highlight
+## Chạy thử
 
 ```bash
 uv pip install -e ".[vllm]"   # or [sglang] [transformers] [mlx]
@@ -33,14 +35,14 @@ vllm serve Qwen/Qwen3.5-27B \
 - Gemma4: Docker `ghcr.io/z-lab/vllm-openai:gemma4-dflash-cu130`  
 - Training recipe draft sắp open-source  
 
-## So sánh catalog
+## So với tool khác
 
 | | DFlash | LocalAI | Unsloth |
 |--|--------|---------|---------|
 | Niche | Spec decode / draft | Multi-modal serve | Fine-tune |
 | Tags | `cli` `self-host` `api` | `api` `mcp` `stt`… | `cli` `desktop` |
 
-## Use case Odoo / ai_core
+## Dùng với Odoo / ai_core
 
 - Tăng throughput API LLM nội bộ (Odoo agents) khi GPU đã có vLLM/SGLang.  
 - Chọn draft matching model family từ bảng HF trong README.  

@@ -1,18 +1,20 @@
 # AudioBook KJ
 
 > **Repo:** [kentjuno/AudioBookKJ-v2.1](https://github.com/kentjuno/AudioBookKJ-v2.1)  
-> **Category:** Speech & Audio · AI audiobook / video studio  
+> **Category:** Speech & Audio · Studio AI audiobook / video  
 > **Tags:** `tts` · `voice-clone` · `desktop` · `self-host` · `video`  
 > **Ngôn ngữ:** TypeScript (Vite/React) · Python backend · **⭐** ~51 · **License:** (chưa SPDX trên GitHub)  
 > Snapshot **v2.1** — source-only; không gồm media/DB/voice refs đã generate
 
-## Tổng quan
+## Đây là gì?
 
-**AudioBook KJ** — studio thử nghiệm **audiobook + video**: import/cleanup script → TTS local (Torch / Hugging Face / **OmniVoice**) → timeline mix (pydub / FFmpeg) → gắn visual assets → export. Frontend React tách Audio/Video Studios; helper tùy chọn qua **Gemini CLI** + Chrome **FlowKit** extension. Windows one-click (`run.bat`); **không** phải app production hoàn chỉnh.
+**AudioBook KJ** là studio thử nghiệm **audiobook + video**: import/cleanup script → TTS local (Torch / Hugging Face / **OmniVoice**) → timeline mix (pydub / FFmpeg) → gắn visual assets → export.
 
-Peer: [OmniVoice Studio](omnivoice-studio.md) (TTS engine), [VibeVoice](vibevoice.md) (long multi-speaker), [Open Notebook](open-notebook.md) (podcast), [AI-auto-generate-video](ai-auto-generate-video.md).
+Frontend React tách Audio/Video Studios; helper tùy chọn qua **Gemini CLI** + Chrome **FlowKit** extension. Windows one-click (`run.bat`); **không** phải app production hoàn chỉnh.
 
-## Để làm gì?
+**Cùng kiểu:** [OmniVoice Studio](omnivoice-studio.md) (TTS engine), [VibeVoice](vibevoice.md) (long multi-speaker), [Open Notebook](open-notebook.md) (podcast), [AI-auto-generate-video](ai-auto-generate-video.md).
+
+## Dùng khi nào?
 
 | Nhu cầu | AudioBook KJ |
 |---------|--------------|
@@ -22,7 +24,7 @@ Peer: [OmniVoice Studio](omnivoice-studio.md) (TTS engine), [VibeVoice](vibevoic
 | Ready-to-sell product | ❌ experimental snapshot |
 | Chỉ engine TTS mỏng | → [VoxCPM](voxcpm.md) / [VibeVoice](vibevoice.md) |
 
-## Highlight
+## Chạy thử
 
 ```bat
 run.bat
@@ -34,7 +36,7 @@ REM Optional: Gemini CLI · Chrome FlowKit · CUDA GPU
 - RAM tối thiểu ~8 GB; khuyến nghị 16–32 GB + NVIDIA 6–8 GB VRAM  
 - Repo cố ý **bỏ** generated media / venv / private voice — clone cần chỉnh local  
 
-## So sánh catalog
+## So với tool khác
 
 | | AudioBook KJ | OmniVoice | VibeVoice |
 |--|--------------|-----------|-----------|
@@ -43,7 +45,7 @@ REM Optional: Gemini CLI · Chrome FlowKit · CUDA GPU
 | Stars | ~51 | ~8k | ~50k |
 | Tags | `tts` `video` `desktop` | `stt` `tts` `desktop` | `tts` `voice-clone` |
 
-## Use case Odoo / ai_core
+## Dùng với Odoo / ai_core
 
 - Demo training / podcast nội bộ từ docs (ghép Open Notebook / HyperFrames).  
 - Watermark audio bằng [AudioSeal](audioseal.md) trước khi publish.  

@@ -5,47 +5,32 @@
 > **Tags:** `ui-automation` · `computer-use` · `browser` · `skill`  
 > **Ngôn ngữ:** TypeScript · **⭐** ~14.1k · **License:** MIT
 
-## Tổng quan
+## Đây là gì?
 
-**Midscene.js** là framework **UI automation / testing dựa trên vision** — mô tả bước bằng **ngôn ngữ tự nhiên**, định vị element từ **screenshot**, không phụ thuộc selector DOM dễ gãy.
+**Midscene.js** là framework **UI automation / testing dựa trên vision** (*vision-based automation*): mô tả bước bằng **ngôn ngữ tự nhiên**, định vị element từ **screenshot**, không phụ thuộc selector DOM dễ gãy.
 
-Khác Playwright/Selenium thuần: Midscene “nhìn” UI như người dùng, nên thao tác được cả icon-only, custom control, `<canvas>`, native app, iframe cross-origin.
+Khác Playwright/Selenium thuần: Midscene “nhìn” UI như người dùng, nên thao tác được cả icon-only, custom control, `<canvas>`, native app, iframe cross-origin. API chính: `aiAct`, `aiQuery`, `aiAssert`, …
 
-## Vì sao khác automation thường
+**Cùng kiểu:** [Page Agent](page-agent.md) (in-page DOM/NL), [Stagehand](stagehand.md) (hybrid SDK), [Puppeteer](puppeteer.md) (driver).
 
-| Vấn đề DOM/accessibility | Midscene |
-|--------------------------|----------|
-| Selector gãy khi refactor | Ít maintain — mô tả bằng lời |
-| Element thiếu semantic markup | Vẫn target nếu nhìn thấy trên screenshot |
-| Native / canvas / iframe | Cùng một API vision |
-| Assert “có node” ≠ “nhìn đúng” | Assert màu, layout, highlight thực tế |
+## Dùng khi nào?
 
-## Nền tảng hỗ trợ
+| Nhu cầu | Midscene |
+|---------|----------|
+| Selector gãy khi refactor | ✅ mô tả bằng lời |
+| Element thiếu semantic markup | ✅ target từ screenshot |
+| Native / canvas / iframe | ✅ cùng API vision |
+| Visual assert (màu, layout) | ✅ |
+| Test selector thuần, không LLM | → Playwright thuần |
+| Chi phí thấp, deterministic | → Playwright (không gọi multimodal) |
 
-Web (Playwright / Chrome extension) · Android · iOS · HarmonyOS · Desktop · surface tùy chỉnh (nơi chụp được screenshot).
+## Chạy thử
 
-Viết script bằng **JS SDK** hoặc **YAML**; có **Midscene Skills** để AI agent (OpenClaw…) điều khiển UI.
+Web (Playwright / Chrome extension) · Android · iOS · HarmonyOS · Desktop · surface tùy chỉnh (nơi chụp được screenshot). Viết script bằng **JS SDK** hoặc **YAML**; có **Midscene Skills** để AI agent (OpenClaw…) điều khiển UI.
 
-API chính: `aiAct`, `aiQuery`, `aiAssert`, …
+Model strategy: element localization **pure vision** (screenshot only). Hỗ trợ Qwen3.x, Doubao-Seed, GLM-4.6V, gemini-flash, UI-TARS; có thể self-host model open-source.
 
-## Model strategy
-
-Element localization **pure vision** (screenshot only). Hỗ trợ multimodal mạnh UI, ví dụ:
-
-- Qwen3.x, Doubao-Seed, GLM-4.6V, gemini-flash, UI-TARS
-- Có thể self-host model open-source
-
-Data extraction / page understanding: tùy chọn thêm DOM khi cần.
-
-## Use case
-
-- **E2E AI** — form đăng ký, booking, flow phức tạp mà selector khó viết
-- **Visual assert** — kiểm tra UI “trông đúng”, không chỉ tồn tại node
-- **Cross-platform** — cùng script style cho web + mobile
-- **Odoo / ERP** — test view Owl/Form khi xpath/class thay đổi liên tục; agent smoke-test màn hình
-- **Kết hợp Playwright/Vitest** — gắn Midscene vào suite hiện có
-
-## So sánh
+## So với tool khác
 
 | | Midscene | Playwright thuần | Browser-use agents |
 |--|----------|------------------|--------------------|
@@ -55,23 +40,14 @@ Data extraction / page understanding: tùy chọn thêm DOM khi cần.
 | Chi phí | Gọi multimodal model | Không cần LLM | Gọi LLM |
 | Offline / self-host | Có (model local) | ✅ | Tùy |
 
-## Hạn chế
+## Dùng với Odoo / ai_core
 
-- Cần **API key / model** multimodal — chi phí & latency cao hơn test selector
-- Determinism thấp hơn assert DOM cứng (cần retry / prompt rõ)
-- Không thay thế unit test / API test
-
-## Liên quan ai_core
-
-- E2E smoke cho `ai_agentic` / backend UI khi deploy
-- Agent Skills: Midscene điều khiển browser/mobile thay vì hardcode Playwright
-- Kết hợp **ScreenCoder** (screenshot → HTML) vs Midscene (screenshot → **hành động**)
-- **[Page Agent](page-agent.md)** — in-page DOM/NL (không vision); Midscene = vision cross-platform
+- E2E smoke cho `ai_agentic` / backend UI khi deploy.  
+- Agent Skills: Midscene điều khiển browser/mobile thay vì hardcode Playwright.  
+- Test view Owl/Form Odoo khi xpath/class thay đổi liên tục.
 
 ## Link
 
-- Repo: https://github.com/web-infra-dev/midscene
-- Companion in-page: [page-agent.md](page-agent.md) · Hybrid SDK: [stagehand.md](stagehand.md) · Driver: [puppeteer.md](puppeteer.md)
-- Docs: https://midscenejs.com
-- API: https://midscenejs.com/api
-- Examples: [midscene-example](https://github.com/web-infra-dev/midscene-example)
+- Repo: https://github.com/web-infra-dev/midscene  
+- Docs: https://midscenejs.com · API: https://midscenejs.com/api  
+- Peers: [page-agent.md](page-agent.md) · [stagehand.md](stagehand.md) · [puppeteer.md](puppeteer.md) · [midscene-example](https://github.com/web-infra-dev/midscene-example)

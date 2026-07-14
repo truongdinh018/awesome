@@ -6,25 +6,45 @@
 > **Type:** Agent-native CLI harness  
 > **Path:** [`godot/agent-harness`](https://github.com/HKUDS/CLI-Anything/tree/main/godot/agent-harness)
 
-## Tổng quan
+## Đây là gì?
 
 Harness **Godot Engine**: agent build/run project, export, demo-game E2E qua CLI — không thao tác editor bằng tay.
 
-## Agent làm gì được
+Là con của CLI-Anything — engine realtime 3D/2D, cạnh Blender (offline 3D) và Slay the Spire (game play automation).
 
-- Project scaffold / run headless  
-- Export build  
-- Pipeline demo E2E (theo harness tests)  
+**Cùng kiểu:** [Blender](blender.md) (offline 3D), [Slay the Spire II](slay-the-spire-ii.md) (game play CLI).
 
-## Quan hệ catalog
+## Dùng khi nào?
 
-| | Vai trò |
-|--|---------|
-| **Cha** | CLI-Anything |
-| **Domain** | Image & Video / realtime 3D — cạnh Blender (offline 3D), khác Slay the Spire (game play automation) |
-| **Khác Midscene** | Godot harness = engine CLI; Midscene = vision UI bất kỳ |
+| Nhu cầu | Godot harness |
+|---------|---------------|
+| Project scaffold / run headless | ✅ |
+| Export build | ✅ |
+| Pipeline demo E2E (theo harness tests) | ✅ |
+| Vision click editor UI | → [Midscene](../midscene.md) |
+
+## Chạy thử
+
+```bash
+# Harness: https://github.com/HKUDS/CLI-Anything/tree/main/godot/agent-harness
+# Cần Godot Engine cài local
+```
+
+## So với tool khác
+
+| | Godot harness | Blender harness | Slay harness |
+|--|---------------|-----------------|--------------|
+| Domain | Realtime game engine | Offline 3D render | Game play automation |
+| Tags | `harness` `game` `cli` | `harness` `3d` `cli` | `harness` `game` `ui-automation` |
+
+## Dùng với Odoo / ai_core
+
+- Demo game / interactive training nội bộ.  
+- E2E test game logic qua agent CLI.  
+- Không gắn ERP — creative/education sidecar.
 
 ## Link
 
 - Harness: https://github.com/HKUDS/CLI-Anything/tree/main/godot/agent-harness  
-- Upstream: https://godotengine.org
+- Upstream: https://godotengine.org  
+- Cha: [cli-anything.md](../cli-anything.md)

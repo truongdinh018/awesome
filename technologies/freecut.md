@@ -6,13 +6,13 @@
 > **Ngôn ngữ:** TypeScript · React 19 · WebGPU/WebCodecs · **⭐** ~1.6k · **License:** MIT  
 > **Site:** [freecut.net](https://freecut.net/) · Docs: [freecut.net/docs](https://freecut.net/docs)
 
-## Tổng quan
+## Đây là gì?
 
-**FreeCut** — trình chỉnh sửa video **chuyên nghiệp chạy hoàn toàn trên trình duyệt**: multi-track timeline, keyframe, effects WebGPU, preview real-time, export WebCodecs. **Không cài đặt, không upload** — project và media nằm local (File System Access API + OPFS). AI on-device: transcription (Parakeet / Whisper fallback), Kokoro TTS, MusicGen, scene detection, captioning.
+**FreeCut** là trình chỉnh sửa video **chạy hoàn toàn trên trình duyệt** (*browser NLE*): timeline đa track, keyframe, hiệu ứng WebGPU, preview realtime, export WebCodecs. **Không cài app, không upload** — project và media nằm local (File System Access API + OPFS). AI on-device: transcription (Parakeet / Whisper fallback), Kokoro TTS, MusicGen, scene detection, captioning.
 
-Peer: [OpenMontage](openmontage.md) (agentic studio), [HyperFrames](hyperframes.md) (HTML→video), [pyVideoTrans](pyvideotrans.md) (dub/translate), [AudioBook KJ](audiobook-kj.md) (timeline + TTS).
+**Cùng kiểu:** [OpenMontage](openmontage.md) (agentic studio), [HyperFrames](hyperframes.md) (HTML→video), [pyVideoTrans](pyvideotrans.md) (dub/translate), [AudioBook KJ](audiobook-kj.md) (timeline + TTS).
 
-## Để làm gì?
+## Dùng khi nào?
 
 | Nhu cầu | FreeCut |
 |---------|---------|
@@ -22,7 +22,7 @@ Peer: [OpenMontage](openmontage.md) (agentic studio), [HyperFrames](hyperframes.
 | Agent/code → video tự động | → [OpenMontage](openmontage.md) · [HyperFrames](hyperframes.md) |
 | Dịch/dub video hàng loạt | → [pyVideoTrans](pyvideotrans.md) |
 
-## Highlight
+## Chạy thử
 
 ```bash
 git clone https://github.com/walterlow/freecut.git && cd freecut
@@ -30,12 +30,9 @@ npm install && npm run dev
 # Chrome/Edge 113+ — mở http://localhost:5173
 ```
 
-- Export MP4/WebM/MOV/MKV — H.264, H.265, VP9, AV1 (tùy browser encoder)  
-- Effects WebGPU: blur, color, LUT, chroma key, 25 blend modes, VHS/CRT…  
-- ProRes decode, proxy, filmstrip, waveforms, source monitor, compound clips  
-- `npm run verify` — lint, types, tests, arch checks  
+Export MP4/WebM/MOV/MKV — H.264, H.265, VP9, AV1 (tùy browser encoder). Effects WebGPU: blur, color, LUT, chroma key, 25 blend modes, VHS/CRT… ProRes decode, proxy, filmstrip, waveforms, source monitor, compound clips. `npm run verify` — lint, types, tests, arch checks.
 
-## So sánh catalog
+## So với tool khác
 
 | | FreeCut | OpenMontage | pyVideoTrans |
 |--|---------|-------------|--------------|
@@ -44,7 +41,7 @@ npm install && npm run dev
 | AI | On-device STT/TTS/music | Agent pipelines | ASR/TTS dubbing |
 | Tags | `video` `self-host` `stt` `tts` | `video` `agent` `skill` | `video` `stt` `tts` |
 
-## Use case Odoo / ai_core
+## Dùng với Odoo / ai_core
 
 - Chỉnh sửa demo/release video marketing ngay trên browser, không gửi file lên cloud.  
 - Tạo caption/voiceover local cho training clip nội bộ.  

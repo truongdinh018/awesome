@@ -1,27 +1,31 @@
 # AudioSeal
 
 > **Repo:** [facebookresearch/audioseal](https://github.com/facebookresearch/audioseal)  
-> **Category:** Speech & Audio  
+> **Category:** Speech & Audio · Watermark cho speech AI-generated  
 > **Tags:** `watermark`  
 > **Ngôn ngữ:** Python · **⭐** ~751
 
-## Tổng quan
+## Đây là gì?
 
-**AudioSeal** (Meta AI Research) — **watermarking** cho **speech audio do AI sinh ra**:
+**AudioSeal** (Meta AI Research) là thư viện **watermarking** cho **speech audio do AI sinh ra**.
 
-- Gắn watermark **cục bộ** (localized) vào waveform
-- **Detector** rất nhanh — phát hiện audio có watermark
-- **SOTA robustness** — chịu nén, noise, re-encode một mức
+Gắn watermark **cục bộ** (*localized*) vào waveform. **Detector** rất nhanh — phát hiện audio có watermark. **SOTA robustness** — chịu nén, noise, re-encode một mức.
 
-## Vấn đề giải quyết
+**Cùng kiểu:** [blind_watermark](blind-watermark.md) (watermark ảnh blind/invisible).
 
-| Rủi ro | AudioSeal |
+## Dùng khi nào?
+
+| Nhu cầu | AudioSeal |
 |--------|-----------|
-| Deepfake voice | Đánh dấu nguồn AI-generated |
-| Không truy vết | Detector xác nhận watermark |
-| Compliance | Hỗ trợ policy “AI content labeling” |
+| Deepfake voice — đánh dấu nguồn AI-generated | ✅ |
+| Không truy vết — detector xác nhận watermark | ✅ |
+| Compliance policy “AI content labeling” | ✅ |
+| Watermark **ảnh** | → [blind_watermark](blind-watermark.md) |
+| Metadata JSON / disclaimer hiển thị | Bổ sung, không thay watermark trong audio |
 
-## Luồng hoạt động
+## Chạy thử
+
+**Luồng hoạt động:**
 
 ```
 Text → TTS (VoxCPM / OmniVoice)
@@ -36,13 +40,10 @@ Audio phát hành (podcast, IVR, marketing)
 Detector → "AI-generated / watermarked"
 ```
 
-## Use case
+- Repo: https://github.com/facebookresearch/audioseal  
+- Paper: tìm trên Meta AI Research publications
 
-- **Compliance:** Đánh dấu audio từ agent Odoo / TTS pipeline
-- **Anti-spoofing:** Kiểm tra file upload voice note giả mạo
-- **Research:** Benchmark watermark speech
-
-## So sánh
+## So với tool khác
 
 | | AudioSeal | Metadata JSON | Visible disclaimer |
 |--|-----------|---------------|-------------------|
@@ -50,13 +51,14 @@ Detector → "AI-generated / watermarked"
 | Real-time detect | Có | Không | Không |
 | Imperceptible | Thiết kế minimal | N/A | N/A |
 
-## Liên quan ai_core
+## Dùng với Odoo / ai_core
 
-- Sau bước TTS trong pipeline voice, gọi AudioSeal trước lưu `ir.attachment`
-- Policy module: flag `ai_generated_audio` trên attachment
+- Sau bước TTS trong pipeline voice, gọi AudioSeal trước lưu `ir.attachment`.  
+- Policy module: flag `ai_generated_audio` trên attachment.  
+- Compliance: đánh dấu audio từ agent Odoo / TTS pipeline; kiểm tra file upload voice note giả mạo.
 
 ## Link
 
-- Repo: https://github.com/facebookresearch/audioseal
-- Paper: tìm trên Meta AI Research publications
+- Repo: https://github.com/facebookresearch/audioseal  
+- Paper: tìm trên Meta AI Research publications  
 - Image peer: [blind-watermark.md](blind-watermark.md)

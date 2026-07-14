@@ -6,13 +6,15 @@
 > **Ngôn ngữ:** TypeScript · **⭐** ~95.4k · **License:** Apache-2.0  
 > Docs: [pptr.dev](https://pptr.dev) · Chrome + Firefox
 
-## Tổng quan
+## Đây là gì?
 
-**Puppeteer** — JavaScript/TypeScript API điều khiển **Chrome / Firefox** (headless hoặc headed) qua CDP. **Không phải AI agent** — nền browser automation cho testing, scraping, screenshot; nhiều stack AI agent (Stagehand CDP, Midscene Playwright/Chrome, PixelRAG `pixelshot`, HTML Anything iframe…) đứng trên driver kiểu này.
+**Puppeteer** là JavaScript/TypeScript API điều khiển **Chrome / Firefox** (headless hoặc headed) qua CDP.
 
-Peer AI layer: [Stagehand](stagehand.md) (NL+code trên browser), [Midscene](midscene.md) (vision), [Page Agent](page-agent.md) (in-page DOM). MCP: [chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) (Puppeteer-based).
+**Không phải AI agent** — nền browser automation cho testing, scraping, screenshot. Nhiều stack AI agent (Stagehand CDP, Midscene Playwright/Chrome, PixelRAG `pixelshot`, HTML Anything iframe…) đứng trên driver kiểu này. Hỗ trợ WebDriver BiDi · Firefox · experimental WebMCP.
 
-## Để làm gì?
+**Cùng kiểu:** [Stagehand](stagehand.md), [Midscene](midscene.md), [Page Agent](page-agent.md)
+
+## Dùng khi nào?
 
 | Nhu cầu | Puppeteer |
 |---------|-----------|
@@ -21,7 +23,7 @@ Peer AI layer: [Stagehand](stagehand.md) (NL+code trên browser), [Midscene](mid
 | NL / vision browser agent | → [Stagehand](stagehand.md) / [Midscene](midscene.md) |
 | Embed agent trong page | → [Page Agent](page-agent.md) |
 
-## Highlight
+## Chạy thử
 
 ```bash
 npm i puppeteer          # downloads browser
@@ -36,10 +38,7 @@ await page.goto('https://developer.chrome.com/');
 await browser.close();
 ```
 
-- WebDriver BiDi · Firefox support · experimental WebMCP  
-- DevTools Protocol access thấp tầng  
-
-## So sánh catalog
+## So với tool khác
 
 | | Puppeteer | Stagehand | Midscene |
 |--|-----------|-----------|----------|
@@ -47,7 +46,7 @@ await browser.close();
 | AI | ❌ | ✅ | ✅ |
 | Tags | `browser` `api` `mcp` | `agent` `browser` | `computer-use` |
 
-## Use case Odoo / ai_core
+## Dùng với Odoo / ai_core
 
 - Regression portal/web client OWL.  
 - Screenshot pipeline trước PixelRAG / vision QA.  

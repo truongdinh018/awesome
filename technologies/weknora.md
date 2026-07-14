@@ -6,15 +6,15 @@
 > **Ngôn ngữ:** Go · frontend · Python parsers · **⭐** ~18.3k · **License:** MIT  
 > Site: [weknora.weixin.qq.com](https://weknora.weixin.qq.com) · Slogan: *Turn documents into living knowledge*
 
-## Tổng quan
+## Đây là gì?
 
-**WeKnora** (Tencent) — framework **self-host** tri thức LLM enterprise: **RAG Q&A**, **ReAct Agent** (orchestration retrieval + MCP + web search), và **Wiki Mode** (agent chưng documents → wiki Markdown liên kết + knowledge graph).
+**WeKnora** (Tencent) là framework **self-host** tri thức LLM enterprise: **RAG Q&A**, **ReAct Agent** (orchestration retrieval + MCP + web search), và **Wiki Mode** (agent chưng documents → wiki Markdown liên kết + knowledge graph).
 
 Ingest đa nguồn (Feishu / Notion / Yuque / RSS…), 10+ định dạng (PDF, Office, ảnh, EPUB…), IM (WeCom / Feishu / Slack / Telegram…), embed widget website, 20+ LLM, Langfuse observability, workspace **RBAC**, CLI `weknora` + MCP server.
 
-Peer mạnh với catalog: [PageIndex](pageindex.md) (vectorless tree), [SAG](sag.md), [EpicStaff](epicstaff.md) (visual flows); runtime Odoo: **ai_rag_core**.
+**Cùng kiểu:** [PageIndex](pageindex.md) (vectorless tree), [SAG](sag.md), [RAGFlow](ragflow.md), [AnythingLLM](anything-llm.md); runtime Odoo: **ai_rag_core**.
 
-## Để làm gì?
+## Dùng khi nào?
 
 | Nhu cầu | WeKnora |
 |---------|---------|
@@ -24,7 +24,7 @@ Peer mạnh với catalog: [PageIndex](pageindex.md) (vectorless tree), [SAG](sa
 | CLI / CI / agent-first API | ✅ `weknora` + `mcp serve` |
 | Chỉ PDF tree-search không full platform | → [PageIndex](pageindex.md) |
 
-## Quick start
+## Chạy thử
 
 ```bash
 git clone https://github.com/Tencent/WeKnora.git
@@ -43,7 +43,7 @@ weknora kb list && weknora chat "…"
 weknora mcp serve
 ```
 
-## So sánh catalog
+## So với tool khác
 
 | | WeKnora | PageIndex | SAG | EpicStaff |
 |--|---------|-----------|-----|-----------|
@@ -51,7 +51,7 @@ weknora mcp serve
 | MCP | ✅ server + OAuth2 | ✅ | ✅ | ✅ |
 | Tags | `rag` `agent` `mcp` `cli` | `rag` `mcp` `cli` | `rag` `mcp` | `agent` `workflow` |
 
-## Use case Odoo / ai_core
+## Dùng với Odoo / ai_core
 
 - Prototype KB trước khi embed logic vào `ai_rag_core`.  
 - MCP: Cursor/Hermes hỏi WeKnora; sync SOP → Wiki Mode.  
@@ -62,4 +62,4 @@ weknora mcp serve
 - Repo: https://github.com/Tencent/WeKnora  
 - Docs / API: `docs/` trong repo  
 - MCP config: `mcp-server/MCP_CONFIG.md`  
-- Peers: [pageindex.md](pageindex.md) · [sag.md](sag.md) · [epicstaff.md](epicstaff.md) · [notebooklm-mcp.md](notebooklm-mcp.md) · [ragflow.md](ragflow.md) · [anything-llm.md](anything-llm.md) · [open-notebook.md](open-notebook.md) · [khoj.md](khoj.md)
+- Peers: [pageindex.md](pageindex.md) · [sag.md](sag.md) · [ragflow.md](ragflow.md) · [anything-llm.md](anything-llm.md) · [open-notebook.md](open-notebook.md) · [khoj.md](khoj.md)

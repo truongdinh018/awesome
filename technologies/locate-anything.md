@@ -6,13 +6,13 @@
 > HF ❤️ ~2.7k · ↓ ~1.5M/mo · **License:** NVIDIA (non-commercial research)  
 > Demo: [spaces/nvidia/LocateAnything](https://huggingface.co/spaces/nvidia/LocateAnything) · Code: [NVlabs/Eagle Embodied](https://github.com/NVlabs/Eagle/tree/main/Embodied) · Paper: [arXiv:2605.27365](https://arxiv.org/abs/2605.27365)
 
-## Tổng quan
+## Đây là gì?
 
-**LocateAnything-3B** (NVIDIA Eagle) — VLM **grounding** nhanh: referring expression, multi-object detection, GUI grounding, **text localization** nhờ Parallel Box Decoding. Không thay MinerU/Nanonets cho PDF→Markdown; complementary khi cần **bounding box** / locate vùng text hoặc UI element.
+**LocateAnything-3B** (NVIDIA Eagle) là VLM **grounding** nhanh: referring expression, multi-object detection, GUI grounding, **text localization** nhờ Parallel Box Decoding. Không thay MinerU/Nanonets cho PDF→Markdown; complementary khi cần **bounding box** / locate vùng text hoặc UI element.
 
-Peer: [ALPR](alpr.md), [HunyuanOCR](hunyuan-ocr.md), [DeepSeek-OCR](deepseek-ocr.md), [VLMs Playground](vlms-ocr-playground.md).
+**Cùng kiểu:** [ALPR](alpr.md), [HunyuanOCR](hunyuan-ocr.md), [DeepSeek-OCR](deepseek-ocr.md), [VLMs Playground](vlms-ocr-playground.md).
 
-## Để làm gì?
+## Dùng khi nào?
 
 | Nhu cầu | LocateAnything |
 |---------|----------------|
@@ -20,14 +20,22 @@ Peer: [ALPR](alpr.md), [HunyuanOCR](hunyuan-ocr.md), [DeepSeek-OCR](deepseek-ocr
 | Doc → full markdown | → [MinerU](mineru.md) / [Nanonets-OCR2](nanonets-ocr2.md) |
 | Commercial product (không phải NVIDIA) | ❌ non-commercial license |
 
-## Highlight
+## Chạy thử
 
 ```python
 from transformers import pipeline
 pipe = pipeline("image-text-to-text", model="nvidia/LocateAnything-3B", trust_remote_code=True)
 ```
 
-## Use case Odoo / ai_core
+## So với tool khác
+
+| | LocateAnything | HunyuanOCR | MinerU |
+|--|----------------|------------|--------|
+| Niche | VL grounding / bbox | VLM OCR | PDF→MD pipeline |
+| Commercial | ❌ non-commercial | xem license | xem repo |
+| Tags | `cv` `ocr` | `ocr` | `ocr` `pdf` |
+
+## Dùng với Odoo / ai_core
 
 - Ground region trên scan trước crop → OCR model khác.  
 - GUI / computer-use: locate button/text (research).

@@ -6,13 +6,15 @@
 > **Ngôn ngữ:** TypeScript (NestJS + React) · **⭐** ~10.3k · **License:** AGPL-3.0  
 > Docker: `mauriceboe/trek` · Docs: wiki + `MCP.md` trong repo
 
-## Tổng quan
+## Đây là gì?
 
-**TREK** — **travel / trip planner self-host**: kế hoạch ngày, bản đồ tương tác, ngân sách, packing list, journal, collab realtime (WebSocket), PWA offline, SSO/OIDC/passkeys.
+**TREK** là **travel / trip planner self-host**: kế hoạch ngày, bản đồ tương tác, ngân sách, packing list, journal, collab realtime (WebSocket), PWA offline, SSO/OIDC/passkeys.
 
 Điểm AI trong catalog: addon **MCP** (OAuth 2.1) — **150+ tools**, 30 resources — agent tạo trip, xếp ngày, packing, budget, Atlas countries… Notifications hỗ trợ **email / webhook / [ntfy](ntfy.md)**.
 
-## Để làm gì?
+**Cùng kiểu:** [Yuvomi](yuvomi.md) (family planner + MCP), [ntfy](ntfy.md) (push notify), [ArcGIS Pro harness](cli-anything/arcgis-pro.md) (GIS CLI/MCP).
+
+## Dùng khi nào?
 
 | Nhu cầu | TREK |
 |---------|------|
@@ -23,14 +25,7 @@
 | Import booking PDF/email | ✅ KDE Itinerary |
 | Chỉ cần MCP server thuần RAG | → PageIndex / SAG / NotebookLM |
 
-## MCP (AI)
-
-- Built-in MCP + OAuth 2.1  
-- Prompt sẵn: `trip-summary`, `packing-list`, `budget-overview`  
-- Addon-aware (Atlas, Collab, Vacay…)  
-- Chi tiết: [`MCP.md`](https://github.com/mauriceboe/TREK/blob/main/MCP.md)
-
-## Docker nhanh
+## Chạy thử
 
 ```bash
 ENCRYPTION_KEY=$(openssl rand -hex 32) docker run -d -p 3000:3000 \
@@ -42,28 +37,23 @@ Mở `http://localhost:3000` — admin seed lần đầu (log container hoặc `
 
 > Chỉ mount `data` + `uploads` — **không** mount `/app`.
 
-## Stack
+**MCP:** Built-in MCP + OAuth 2.1 · Prompt sẵn: `trip-summary`, `packing-list`, `budget-overview` · Chi tiết: [`MCP.md`](https://github.com/mauriceboe/TREK/blob/main/MCP.md)
 
-Node 22 · NestJS 11 · SQLite · React 19 · Leaflet/Mapbox · Docker · Helm
+## So với tool khác
 
-## So sánh catalog
+| | TREK | Yuvomi | ntfy |
+|--|------|--------|------|
+| Vai trò | App travel + MCP | Family household | Push notify |
+| Tags | `mcp` `self-host` `notification` `gis` | `mcp` `api` `notification` | `notification` `cli` |
 
-| | TREK | ntfy | ArcGIS harness |
-|--|------|------|----------------|
-| Vai trò | App travel + MCP | Push HTTP | GIS CLI/MCP |
-| Tags | `mcp` `self-host` `notification` `gis` | `notification` | `gis` `mcp` `harness` |
+## Dùng với Odoo / ai_core
 
-## Use case
-
-- Family/team trip self-host + Claude/Cursor qua MCP  
-- Odoo: webhook/ntfy từ TREK khi itinerary đổi (không bắt buộc sync ERP)  
-- Map places: OSM free hoặc Google Places
+- Family/team trip self-host + Claude/Cursor qua MCP.  
+- Webhook/ntfy từ TREK khi itinerary đổi (không bắt buộc sync ERP).  
+- Map places: OSM free hoặc Google Places.
 
 ## Link
 
 - Repo: https://github.com/mauriceboe/TREK  
 - MCP: https://github.com/mauriceboe/TREK/blob/main/MCP.md  
-- Notify peer: [ntfy.md](ntfy.md)  
-- Planner peer (family + MCP): [yuvomi.md](yuvomi.md)  
-- GIS peer: [cli-anything/arcgis-pro.md](cli-anything/arcgis-pro.md) · [vietnamese-provinces-database.md](vietnamese-provinces-database.md)  
-- Helm: `helm repo add trek https://mauriceboe.github.io/TREK`
+- Peers: [ntfy.md](ntfy.md) · [yuvomi.md](yuvomi.md) · [cli-anything/arcgis-pro.md](cli-anything/arcgis-pro.md) · [vietnamese-provinces-database.md](vietnamese-provinces-database.md)

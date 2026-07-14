@@ -7,13 +7,15 @@
 > **Docs:** [hermes-agent.nousresearch.com](https://hermes-agent.nousresearch.com/)  
 > Slogan: *The agent that grows with you*
 
-## Tổng quan
+## Đây là gì?
 
-**Hermes Agent** (Nous Research) — **self-improving AI agent** với vòng học khép kín: tạo/cải thiện skills từ trải nghiệm, nhớ người dùng qua phiên, tìm lại hội thoại cũ (FTS5), chạy CLI hoặc gateway messaging (Telegram, Discord, Slack, WhatsApp, Signal).
+**Hermes Agent** (Nous Research) là **self-improving AI agent** với vòng học khép kín: tạo/cải thiện skills từ trải nghiệm, nhớ người dùng qua phiên, tìm lại hội thoại cũ (FTS5), chạy CLI hoặc gateway messaging (Telegram, Discord, Slack, WhatsApp, Signal).
 
-Không gắn laptop: chat Telegram trong khi agent chạy trên VPS / cloud / serverless (Modal, Daytona). Model linh hoạt — Nous Portal, OpenRouter, OpenAI, endpoint riêng (`hermes model`).
+Không gắn laptop: chat Telegram trong khi agent chạy trên VPS / cloud / serverless (Modal, Daytona). Model linh hoạt — Nous Portal, OpenRouter, OpenAI, endpoint riêng (`hermes model`). Compatible [agentskills.io](https://agentskills.io).
 
-## Để làm gì?
+**Cùng kiểu:** [OpenHands](openhands.md) (dev team sandbox), [Headroom](headroom.md) (context compress), [Ponytail](ponytail.md) (YAGNI skill).
+
+## Dùng khi nào?
 
 | Nhu cầu | Hermes |
 |---------|--------|
@@ -25,7 +27,7 @@ Không gắn laptop: chat Telegram trong khi agent chạy trên VPS / cloud / se
 | MCP mở rộng tools | ✅ |
 | Migrate từ OpenClaw | ✅ `hermes claw migrate` |
 
-## Cài nhanh
+## Chạy thử
 
 ```bash
 # Linux / macOS / WSL2
@@ -39,7 +41,7 @@ hermes gateway      # messaging
 Windows: `iex (irm https://hermes-agent.nousresearch.com/install.ps1)`  
 Một subscription multi-tool: `hermes setup --portal` (Nous Portal).
 
-## Điểm khác agents khác
+## So với tool khác
 
 | | Hermes | Cursor / Claude Code | OpenClaw |
 |--|--------|----------------------|----------|
@@ -48,25 +50,15 @@ Một subscription multi-tool: `hermes setup --portal` (Nous Portal).
 | User modeling xuyên session | ✅ Honcho + FTS5 | Project-scoped | Tùy |
 | Terminal backends cloud idle | ✅ Modal/Daytona | Local/cloud IDE | Tùy |
 
-Compatible [agentskills.io](https://agentskills.io).
+## Dùng với Odoo / ai_core
 
-## Quan hệ catalog / ai_core
-
-| | Vai trò |
-|--|---------|
-| **CLI-Anything** | Hermes skill trong ecosystem CLI-Anything; Hermes = runtime agent đầy đủ |
-| **Destructive Command Guard** | Nên layer khi Hermes có shell đầy đủ |
-| **prompts.chat / drawio-skill / Ponytail** | Skills gắn được vào Hermes Skills Hub (`hermes plugins install DietrichGebert/ponytail`) |
-| **ai_agentic** | Reference personal-agent + memory ngoài ERP; Odoo vẫn `xb_ai` session |
-| **[OpenHands](openhands.md)** | Dev team / sandbox coding platform; Hermes = personal learning loop |
+- Reference personal-agent + memory ngoài ERP; Odoo vẫn `xb_ai` session.  
+- Layer [Destructive Command Guard](destructive-command-guard.md) khi Hermes có shell đầy đủ.  
+- Skills gắn được vào Hermes Skills Hub (`hermes plugins install DietrichGebert/ponytail`).
 
 ## Link
 
 - Repo: https://github.com/NousResearch/hermes-agent  
 - Docs: https://hermes-agent.nousresearch.com/  
-- Install: https://hermes-agent.nousresearch.com/install.sh
-- Coding-agent peer: [openhands.md](openhands.md)
-- YAGNI skill: [ponytail.md](ponytail.md)
-- Ops visual flows: [epicstaff.md](epicstaff.md)
-- Context compress: [headroom.md](headroom.md)
-- Layered memory plugin: [tencentdb-agent-memory.md](tencentdb-agent-memory.md)
+- Install: https://hermes-agent.nousresearch.com/install.sh  
+- Peers: [openhands.md](openhands.md) · [ponytail.md](ponytail.md) · [epicstaff.md](epicstaff.md) · [headroom.md](headroom.md) · [tencentdb-agent-memory.md](tencentdb-agent-memory.md)

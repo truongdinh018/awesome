@@ -1,23 +1,32 @@
 # faster-whisper
 
 > **Repo:** [SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper)  
-> **Category:** Speech & Audio  
+> **Category:** Speech & Audio · STT nhanh với CTranslate2  
 > **Tags:** `stt` · `cli`  
 > **Ngôn ngữ:** Python · **⭐** ~24k
 
-## Tổng quan
+## Đây là gì?
 
-**faster-whisper** là implementation **Whisper** (OpenAI) dùng **CTranslate2** — transcription speech-to-text **nhanh hơn** bản gốc, ít RAM hơn, hỗ trợ GPU và quant (int8, float16).
+**faster-whisper** là implementation **Whisper** (OpenAI) dùng **CTranslate2** — transcription speech-to-text (*STT*) **nhanh hơn** bản gốc, ít RAM hơn, hỗ trợ GPU và quant (int8, float16).
 
-## Vấn đề giải quyết
+Giải quyết: Whisper gốc chậm trên CPU, VRAM cao, khó deploy edge → faster-whisper tối ưu CTranslate2, quant 8-bit/16-bit, chạy tốt local / server.
 
-| Whisper gốc | faster-whisper |
-|-------------|----------------|
-| Chậm hơn trên CPU | Tối ưu CTranslate2 |
-| VRAM cao | Quant 8-bit / 16-bit |
-| Khó deploy edge | Chạy tốt local / server |
+**Cùng kiểu:** [FunASR](funasr.md) (ASR toolkit industrial), [CapCut TTS/STT API](capcut-tts-api.md) (cloud STT unofficial), [sherpa-onnx.md](sherpa-onnx.md) (edge ASR/TTS kit).
 
-## Model size
+## Dùng khi nào?
+
+| Nhu cầu | faster-whisper |
+|---------|----------------|
+| Voice note → text (helpdesk, CRM log) | ✅ |
+| Meeting transcription nội bộ | ✅ |
+| Input cho LLM agent — user nói, agent xử lý text | ✅ |
+| Subtitle video marketing (kết hợp HyperFrames) | ✅ |
+| STT cloud trả phí theo phút | → OpenAI Whisper API |
+| ASR toolkit đa model / industrial | → [FunASR](funasr.md) |
+
+## Chạy thử
+
+**Model size:**
 
 | Model | Tham số | Use case |
 |-------|---------|----------|
@@ -26,8 +35,6 @@
 | small | ~244M | Desktop thường dùng |
 | medium | ~769M | Chất lượng tốt |
 | large-v3 | ~1.5B | Production STT |
-
-## Pipeline cơ bản
 
 ```python
 from faster_whisper import WhisperModel
@@ -38,14 +45,7 @@ for segment in segments:
     print(f"[{segment.start:.2f}s] {segment.text}")
 ```
 
-## Use case
-
-- **Voice note → text** trong Odoo (helpdesk, CRM log)
-- **Meeting transcription** nội bộ
-- **Input cho LLM agent** — user nói, agent xử lý text
-- **Subtitle** video marketing (kết hợp HyperFrames)
-
-## So sánh
+## So với tool khác
 
 | | faster-whisper | OpenAI Whisper API | Vox / cloud STT |
 |--|----------------|-------------------|-----------------|
@@ -53,16 +53,14 @@ for segment in segments:
 | Privacy | On-prem | Cloud | Cloud |
 | Tiếng Việt | Tốt (large-v3) | Tốt | Tùy provider |
 
-## Liên quan ai_core
+## Dùng với Odoo / ai_core
 
-- Provider pattern: có thể wrap STT như một **tool MCP** hoặc preprocessing trước khi gửi `ai.chat`
-- Kết hợp `OmniVoice-Studio` / `VoxCPM` cho pipeline voice hai chiều
+- Provider pattern: wrap STT như một **tool MCP** hoặc preprocessing trước khi gửi `ai.chat`.  
+- Voice note → text trong Odoo (helpdesk, CRM log).  
+- Kết hợp `OmniVoice-Studio` / `VoxCPM` cho pipeline voice hai chiều.
 
 ## Link
 
-- Repo: https://github.com/SYSTRAN/faster-whisper
-- Whisper paper: https://arxiv.org/abs/2212.04356
-- Industrial ASR toolkit peer: [funasr.md](funasr.md)
-- CapCut unofficial CLI (cloud STT/TTS): [capcut-tts-api.md](capcut-tts-api.md)
-- Video translate / dub suite: [pyvideotrans.md](pyvideotrans.md)
-- Offline edge ASR/TTS kit: [sherpa-onnx.md](sherpa-onnx.md)
+- Repo: https://github.com/SYSTRAN/faster-whisper  
+- Whisper paper: https://arxiv.org/abs/2212.04356  
+- Peers: [funasr.md](funasr.md) · [capcut-tts-api.md](capcut-tts-api.md) · [pyvideotrans.md](pyvideotrans.md) · [sherpa-onnx.md](sherpa-onnx.md)

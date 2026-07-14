@@ -6,11 +6,15 @@
 > **Ngôn ngữ:** Python · **⭐** ~41.3k · **License:** Apache-2.0  
 > **Docs:** [docs.strix.ai](https://docs.strix.ai) · **Site:** [strix.ai](https://strix.ai)
 
-## Tổng quan
+## Đây là gì?
 
-**Strix** — tool **AI penetration testing** open-source: agent tự chủ hành xử như pentester (recon → exploit → validate PoC), không chỉ report SAST giả dương. Multi-agent orchestration, CLI developer-first, CI/CD (GitHub Actions), optional platform `app.strix.ai`.
+**Strix** là tool **AI penetration testing** open-source: agent tự chủ hành xử như pentester (recon → exploit → validate PoC), không chỉ report SAST giả dương.
 
-## Để làm gì?
+Multi-agent orchestration, CLI developer-first, CI/CD (GitHub Actions), optional platform `app.strix.ai`. Công cụ agent: HTTP proxy (Caido), browser exploit, shell, Python exploit sandbox, recon/OSINT, SAST+DAST, KB findings (CVSS/OWASP).
+
+**Cùng kiểu:** [Destructive Command Guard](destructive-command-guard.md) (chặn lệnh nguy hiểm agent), [OpenHands](openhands.md) (coding agent — Strix = agent kiểm tra bảo mật).
+
+## Dùng khi nào?
 
 | Nhu cầu | Strix |
 |---------|--------|
@@ -20,9 +24,7 @@
 | Block insecure code trên PR | ✅ CI non-interactive `-n` |
 | Autofix / report compliance | ✅ (đặc biệt platform / enterprise) |
 
-**Công cụ agent:** HTTP proxy (Caido), browser exploit, shell, Python exploit sandbox, recon/OSINT, SAST+DAST, KB findings (CVSS/OWASP).
-
-## Cài & chạy
+## Chạy thử
 
 ```bash
 curl -sSL https://strix.ai/install | bash
@@ -35,24 +37,20 @@ strix -n --target ./ --scan-mode quick   # CI / headless
 
 Yêu cầu: **Docker** đang chạy + LLM API key. Lần chạy đầu kéo sandbox image.
 
-## Cảnh báo pháp lý
+**Cảnh báo pháp lý:** Chỉ test app **bạn sở hữu** hoặc được phép. Lạm dụng = trách nhiệm người dùng (README Strix).
 
-Chỉ test app **bạn sở hữu** hoặc được phép. Lạm dụng = trách nhiệm người dùng (README Strix).
+## So với tool khác
 
-## So sánh catalog
+| | Strix | Destructive Command Guard | OpenHands |
+|--|-------|---------------------------|----------|
+| Mục tiêu | Tấn công có kiểm soát để tìm/fix vuln | Chặn lệnh nguy hiểm của agent | Coding agent |
+| Domain | AppSec / red team | Agent safety | Dev |
 
-| | Strix | Destructive Command Guard | Midscene | OpenHands |
-|--|-------|---------------------------|----------|-----------|
-| Mục tiêu | **Tấn công có kiểm soát** để tìm/fix vuln | Chặn lệnh nguy hiểm của agent | UI automation | Coding agent |
-| Domain | AppSec / red team | Agent safety | QA | Dev |
+## Dùng với Odoo / ai_core
 
-## Quan hệ / ai_core
-
-| | Vai trò |
-|--|---------|
-| **Odoo / ai_core** | Scan API, auth, RLS trước release (chỉ môi trường được phép) |
-| **DevTools CI** | Workflow PR + `strix -n` |
-| **OpenHands / Hermes** | Agent viết code; Strix = agent **kiểm tra bảo mật** |
+- Scan API, auth, RLS trước release (chỉ môi trường được phép).  
+- Workflow PR + `strix -n` trong DevTools CI.  
+- Agent viết code (OpenHands / Hermes); Strix = agent **kiểm tra bảo mật**.
 
 ## Link
 

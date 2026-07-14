@@ -6,15 +6,15 @@
 > **Ngôn ngữ:** Python · FastAPI · Next.js · LangGraph · **⭐** ~15.2k  
 > Site: [surfsense.com](https://www.surfsense.com) · Discord · License: xem repo `LICENSE`
 
-## Tổng quan
+## Đây là gì?
 
-**SurfSense** — *NotebookLM for Competitive Intelligence*: nền tảng OSS cho AI agents theo dõi thị trường với **live connectors** (Reddit, YouTube, Instagram, TikTok, Google Maps/Search, web crawl) qua **REST API** hoặc **MCP server**. Agent harness + knowledge base có citations; automations → Slack/Notion/Linear. Self-host free.
+**SurfSense** là *NotebookLM for Competitive Intelligence*: nền tảng OSS cho AI agents theo dõi thị trường với **live connectors** (Reddit, YouTube, Instagram, TikTok, Google Maps/Search, web crawl) qua **REST API** hoặc **MCP server**.
 
-Định vị mới: không còn chỉ “general research notebook” — tập trung **live market data** mà agent thường thiếu.
+Agent harness + knowledge base có citations; automations → Slack/Notion/Linear. Self-host free. Định vị mới: tập trung **live market data** mà agent thường thiếu — không còn chỉ "general research notebook".
 
-Peer: [Open Notebook](open-notebook.md) / [NotebookLM MCP](notebooklm-mcp.md) (notebook research), [Khoj](khoj.md) (second brain), [AnythingLLM](anything-llm.md) (MCP workspace), [Hermes](hermes-agent.md) (agent runtime).
+**Cùng kiểu:** [Open Notebook](open-notebook.md) / [NotebookLM MCP](notebooklm-mcp.md) (notebook research), [Khoj](khoj.md) (second brain), [AnythingLLM](anything-llm.md) (MCP workspace), [Hermes](hermes-agent.md) (agent runtime).
 
-## Để làm gì?
+## Dùng khi nào?
 
 | Nhu cầu | SurfSense |
 |---------|-----------|
@@ -25,20 +25,17 @@ Peer: [Open Notebook](open-notebook.md) / [NotebookLM MCP](notebooklm-mcp.md) (n
 | Pure personal notebook LM | → [Open Notebook](open-notebook.md) |
 | General second brain docs | → [Khoj](khoj.md) |
 
-## Highlight
-
-- Typed scraper APIs → structured JSON (ít scrape HTML tay)  
-- External MCP connectors (Notion, Slack, Jira OAuth…)  
-- KB + chat citations · reports · podcasts · presentations (vẫn giữ)  
-- Chrome extension · Ollama-friendly  
-- Cloud pay-as-you-go; **self-host billing off**
-
-## Deploy
+## Chạy thử
 
 Self-host: docs / Docker trên [surfsense.com](https://www.surfsense.com) + README repo.  
 API: `POST …/workspaces/{id}/scrapers/{connector}/scrape` + Bearer key.
 
-## So sánh catalog
+- Typed scraper APIs → structured JSON (ít scrape HTML tay)  
+- External MCP connectors (Notion, Slack, Jira OAuth…)  
+- KB + chat citations · reports · podcasts · presentations  
+- Chrome extension · Ollama-friendly · cloud pay-as-you-go; **self-host billing off**
+
+## So với tool khác
 
 | | SurfSense | Open Notebook | Khoj |
 |--|-----------|---------------|------|
@@ -47,7 +44,7 @@ API: `POST …/workspaces/{id}/scrapers/{connector}/scrape` + Bearer key.
 | MCP | ✅ first-class | — | — |
 | Tags | `rag` `agent` `mcp` `api` `workflow` | `rag` `api` `tts` | `rag` `agent` `desktop` |
 
-## Use case Odoo / ai_core
+## Dùng với Odoo / ai_core
 
 - Competitive brief / brand mention cho GTM team.  
 - MCP tools gọi từ agent Odoo (`xb_mcp`) khi cần live Reddit/Maps.  

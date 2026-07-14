@@ -6,31 +6,44 @@
 > **Ngôn ngữ:** Transformers · Qwen2.5-VL-3B finetune · HF ❤️ ~509 · ↓ ~778k/mo  
 > Demo / Plus: [Docstrange](https://docstrange.nanonets.com/) · Family: OCR2-Plus · 3B · 1.5B-exp
 
-## Tổng quan
+## Đây là gì?
 
-**Nanonets-OCR2-3B** — VLM biến tài liệu thành **Markdown có cấu trúc**: LaTeX, bảng HTML, `<signature>` / `<watermark>`, checkbox Unicode, mermaid flowchart, handwritten + multilingual, VQA. Serve bằng transformers / vLLM / SGLang / Docstrange API.
+**Nanonets-OCR2-3B** là VLM (*Vision Language Model*) biến ảnh tài liệu thành **Markdown có cấu trúc**.
 
-Peer: [HunyuanOCR](hunyuan-ocr.md), [DeepSeek-OCR](deepseek-ocr.md), [MinerU](mineru.md), [dots.ocr](dots-ocr.md).
+Bạn dùng để: xuất LaTeX, bảng HTML, tag `<signature>` / `<watermark>`, checkbox Unicode, flowchart mermaid, chữ viết tay + đa ngôn ngữ, và VQA. Serve qua transformers / vLLM / SGLang / Docstrange API.
 
-## Để làm gì?
+**Cùng kiểu:** [HunyuanOCR](hunyuan-ocr.md), [DeepSeek-OCR](deepseek-ocr.md), [MinerU](mineru.md), [dots.ocr](dots-ocr.md).
+
+## Dùng khi nào?
 
 | Nhu cầu | Nanonets-OCR2 |
 |---------|---------------|
-| Doc image → MD/HTML cho LLM | ✅ |
-| OpenAI-compatible local server | ✅ vLLM |
-| Full PDF toolkit (merge/split) | → [Stirling-PDF](stirling-pdf.md) |
+| Ảnh/PDF → MD/HTML cho LLM | ✅ |
+| Server local kiểu OpenAI | ✅ vLLM |
+| Toolkit PDF merge/split | → [Stirling-PDF](stirling-pdf.md) |
 
-## Highlight
+## Chạy thử
 
 ```bash
 vllm serve nanonets/Nanonets-OCR2-3B
 # Prompt: extract naturally · tables HTML · equations LaTeX · tags watermark/page
 ```
 
-## Use case Odoo / ai_core
+Bảng tài chính: dùng `repetition_penalty=1` + prompt financial (xem model card).
+
+## So với tool khác
+
+| | Nanonets-OCR2 | MinerU | DeepSeek-OCR |
+|--|---------------|--------|--------------|
+| Shape | VLM → Markdown | Pipeline layout → MD | VLM OCR |
+| Serve | vLLM / SGLang | CLI / API | vLLM |
+| Tags | `ocr` `pdf` `api` | `ocr` `pdf` | `ocr` `pdf` |
+
+## Dùng với Odoo / ai_core
 
 - Hóa đơn / form → markdown rồi LLM extract fields.  
-- Financial tables: `repetition_penalty=1` + prompt financial (xem model card).
+- Bảng tài chính: `repetition_penalty=1` + prompt financial (xem model card).  
+- Ghép pipeline ingest trước `ai_rag_core`.
 
 ## Link
 

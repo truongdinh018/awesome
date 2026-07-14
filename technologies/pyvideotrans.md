@@ -6,13 +6,15 @@
 > **Ngôn ngữ:** Python · **⭐** ~18.3k · **License:** GPL-3.0  
 > Docs: [pyvideotrans.com](https://pyvideotrans.com) · BBS: [bbs.pyvideotrans.com](https://bbs.pyvideotrans.com)
 
-## Tổng quan
+## Đây là gì?
 
-**pyVideoTrans** — tool OSS dịch video end-to-end: **ASR → dịch phụ đề → TTS/dubbing multi-role → ghép A/V**. GUI (PySide6 / Win `.exe`), CLI, WebUI, Docker. Local (faster-whisper, F5-TTS, CosyVoice, GPT-SoVITS, Ollama…) hoặc API online (Edge-TTS, OpenAI, Azure, DeepSeek…). Có diarization / clone giọng và pause/proofread từng bước.
+**pyVideoTrans** là tool OSS dịch video end-to-end: **ASR → dịch phụ đề → TTS/dubbing multi-role → ghép A/V**.
 
-Peer: [faster-whisper](faster-whisper.md), [VieNeu-TTS](vieneu-tts.md), [OmniVoice](omnivoice-studio.md), [VideoCaptioner harness](cli-anything/videocaptioner.md), [OpenMontage](openmontage.md), [CapCut TTS/STT API](capcut-tts-api.md).
+Có GUI (PySide6 / Win `.exe`), CLI, WebUI, Docker. Local (faster-whisper, F5-TTS, CosyVoice, GPT-SoVITS, Ollama…) hoặc API online (Edge-TTS, OpenAI, Azure, DeepSeek…). Có diarization / clone giọng và pause/proofread từng bước.
 
-## Để làm gì?
+**Cùng kiểu:** [faster-whisper](faster-whisper.md), [VieNeu-TTS](vieneu-tts.md), [OmniVoice](omnivoice-studio.md), [VideoCaptioner harness](cli-anything/videocaptioner.md), [OpenMontage](openmontage.md), [CapCut TTS/STT API](capcut-tts-api.md)
+
+## Dùng khi nào?
 
 | Nhu cầu | pyVideoTrans |
 |---------|--------------|
@@ -22,7 +24,7 @@ Peer: [faster-whisper](faster-whisper.md), [VieNeu-TTS](vieneu-tts.md), [OmniVoi
 | Chỉ generate video từ prompt | → [OpenMontage](openmontage.md) |
 | Chỉ STT local mỏng | → [faster-whisper](faster-whisper.md) |
 
-## Highlight
+## Chạy thử
 
 ```bash
 git clone https://github.com/jianchang512/pyvideotrans.git && cd pyvideotrans
@@ -34,11 +36,9 @@ uv run cli.py --task vtv --name "./video.mp4" \
 uv sync --extra webui && uv run webui.py
 ```
 
-- Win prebuilt `sp.exe` · CUDA 12.8 / cuDNN optional  
-- Utilities: vocal separate · merge · A/V align  
-- GPL-3.0 + disclaimer ToS/copyright khi gọi API / content  
+Win prebuilt `sp.exe` · CUDA 12.8 / cuDNN optional. GPL-3.0 + disclaimer ToS/copyright khi gọi API / content.
 
-## So sánh catalog
+## So với tool khác
 
 | | pyVideoTrans | OpenMontage | VideoCaptioner |
 |--|--------------|-------------|----------------|
@@ -46,7 +46,7 @@ uv sync --extra webui && uv run webui.py
 | Shape | Desktop + CLI + WebUI | Pipelines + skills | CLI-Anything |
 | Tags | `video` `stt` `tts` | `video` `agent` `skill` | `harness` `stt` `video` |
 
-## Use case Odoo / ai_core
+## Dùng với Odoo / ai_core
 
 - Localize training / release video EN↔VI (VieNeu TTS / Edge).  
 - Batch subtitle export trước khi attach Odoo.  

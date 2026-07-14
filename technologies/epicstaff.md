@@ -1,18 +1,20 @@
 # EpicStaff
 
 > **Repo:** [EpicStaff/EpicStaff](https://github.com/EpicStaff/EpicStaff)  
-> **Category:** MCP & AI Agents · Visual agent orchestration  
+> **Category:** MCP & AI Agents · Orchestration agent visual  
 > **Tags:** `agent` · `mcp` · `rag` · `self-host` · `workflow`  
 > **Ngôn ngữ:** Python (Django) · frontend · **⭐** ~267 · **License:** source-available (xem `LICENSE.md`)  
 > Slogan: *We hide the complexity, not the logic.* · Site/wiki trong org EpicStaff
 
-## Tổng quan
+## Đây là gì?
 
-**EpicStaff** — platform **self-host** để ops/engineer **xây AI agent flows**: editor kéo-thả node trên backend **Django**; mọi node có thể nhúng **Python**; tích hợp hệ thống nội bộ qua **MCP** hoặc code. Multi-agent, memory (Redis/PostgreSQL + pgvector), RAG (vector / GraphRAG), webhook, human-in-the-loop, voice agent.
+**EpicStaff** là platform **self-host** để ops/engineer **xây AI agent flows**: editor kéo-thả node trên backend **Django**; mọi node có thể nhúng **Python**; tích hợp hệ thống nội bộ qua **MCP** hoặc code.
 
-Mục tiêu: ops **sở hữu & audit** flow (không chỉ engineer đọc code) — inspect / sửa từng bước khi agent chạy.
+Multi-agent, memory (Redis/PostgreSQL + pgvector), RAG (vector / GraphRAG), webhook, human-in-the-loop, voice agent. Mục tiêu: ops **sở hữu & audit** flow (không chỉ engineer đọc code) — inspect / sửa từng bước khi agent chạy.
 
-## Để làm gì?
+**Cùng kiểu:** [Hermes](hermes-agent.md) (agent runtime full), [OpenHands](openhands.md) (coding-agent platform), n8n harness / n8n.
+
+## Dùng khi nào?
 
 | Nhu cầu | EpicStaff |
 |---------|-----------|
@@ -24,20 +26,15 @@ Mục tiêu: ops **sở hữu & audit** flow (không chỉ engineer đọc code)
 | Coding agent sandbox (git-centric) | → [OpenHands](openhands.md) / [Hermes](hermes-agent.md) |
 | n8n-style general workflow (non-agent) | → n8n harness / n8n |
 
-## Quick start (Docker)
+## Chạy thử
 
-Clone repo → tạo Docker volumes + `mcp-network` → `cd src && docker-compose up --build` → mở **http://localhost**.  
+Clone repo → tạo Docker volumes + `mcp-network` → `cd src && docker-compose up --build` → mở **http://localhost**.
+
 Script sẵn cho Windows / macOS / Linux trong README; tuỳ chọn Podman / partly-local.
 
-## Tính năng chính
+**Tính năng chính:** node UI + code execution trong node · LLM/embedder: OpenAI, Anthropic, local · persistent agent memory (short + long term) · roles / permissions org · web scraping, image gen, voice control (theo README business features).
 
-- Node UI + code execution trong node  
-- LLM/embedder: OpenAI, Anthropic, local  
-- Persistent agent memory (short + long term)  
-- Roles / permissions org  
-- Web scraping, image gen, voice control (theo README business features)
-
-## So sánh catalog
+## So với tool khác
 
 | | EpicStaff | Hermes | OpenHands | n8n harness |
 |--|-----------|--------|-----------|-------------|
@@ -45,7 +42,7 @@ Script sẵn cho Windows / macOS / Linux trong README; tuỳ chọn Podman / par
 | Stack | Django + editor | Python gateway | Agent Canvas | n8n |
 | Tags | `agent` `mcp` `rag` `workflow` | `agent` `mcp` `skill` | `coding-agent` | `workflow` `harness` |
 
-## Use case Odoo / ai_core
+## Dùng với Odoo / ai_core
 
 - Peer của `ai_agentic_workflow`: design flow ngoài Odoo, webhook ↔ ERP.  
 - Engineer gắn MCP Odoo / internal APIs; ops chỉnh bước trong UI.  

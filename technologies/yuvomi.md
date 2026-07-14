@@ -6,13 +6,15 @@
 > **Ngôn ngữ:** JavaScript · Express · SQLite/SQLCipher · **⭐** ~938 · **License:** MIT  
 > Site: [yuvomi.cloud](https://yuvomi.cloud/) · Đổi tên từ **Oikos** (trademark)
 
-## Tổng quan
+## Đây là gì?
 
-**Yuvomi** — family planner **self-host / offline PWA**: tasks, shopping, meals, calendar, budget, health, rewards… 16 modules, 23 languages (có **vi**), 0 trackers, optional AES-256 DB. Docker/Podman/NAS. **Không phải AI app** — nhưng có **OpenAPI + MCP** (`/mcp`) để agent (Claude Desktop…) điều khiển API bằng NL, scoped theo module.
+**Yuvomi** là family planner **self-host / offline PWA**: tasks, shopping, meals, calendar, budget, health, rewards… 16 modules, 23 languages (có **vi**), 0 trackers, optional AES-256 DB.
 
-Peer: [TREK](trek.md) (travel planner + MCP), [ntfy](ntfy.md) (reminders push), [EpicStaff](epicstaff.md) (agent orchestration).
+Docker/Podman/NAS. **Không phải AI app** — nhưng có **OpenAPI + MCP** (`/mcp`) để agent (Claude Desktop…) điều khiển API bằng NL, scoped theo module.
 
-## Để làm gì?
+**Cùng kiểu:** [TREK](trek.md) (travel planner + MCP), [ntfy](ntfy.md) (reminders push), [EpicStaff](epicstaff.md) (agent orchestration).
+
+## Dùng khi nào?
 
 | Nhu cầu | Yuvomi |
 |---------|--------|
@@ -22,14 +24,7 @@ Peer: [TREK](trek.md) (travel planner + MCP), [ntfy](ntfy.md) (reminders push), 
 | Competitive intel / RAG | → [SurfSense](surfsense.md) / catalog RAG |
 | Pure AI coding agent | → [Hermes](hermes-agent.md) |
 
-## Highlight
-
-- Modules độc lập: Tasks · Shopping · Meals · Calendar (Google/CalDAV) · Budget · Health · Documents…  
-- SSO OIDC · Web Push · Paperless-ngx/Papra links  
-- Installer wizard · TrueNAS / Umbrel / Unraid  
-- Health: *not a medical device* — bật `DB_ENCRYPTION_KEY` nếu có health data  
-
-## Deploy
+## Chạy thử
 
 ```bash
 curl -O https://raw.githubusercontent.com/ulsklyc/yuvomi/main/docker-compose.yml
@@ -40,7 +35,11 @@ docker compose up -d
 
 UI `:3000`. Image: `ghcr.io/ulsklyc/yuvomi`.
 
-## So sánh catalog
+- Modules: Tasks · Shopping · Meals · Calendar (Google/CalDAV) · Budget · Health · Documents…  
+- SSO OIDC · Web Push · Paperless-ngx/Papra links  
+- Health: *not a medical device* — bật `DB_ENCRYPTION_KEY` nếu có health data
+
+## So với tool khác
 
 | | Yuvomi | TREK | ntfy |
 |--|--------|------|------|
@@ -49,7 +48,7 @@ UI `:3000`. Image: `ghcr.io/ulsklyc/yuvomi`.
 | AI-first | ❌ planner + MCP | ❌ + MCP | ❌ |
 | Tags | `self-host` `mcp` `api` `notification` | `mcp` `gis` | `notification` `cli` |
 
-## Use case Odoo / ai_core
+## Dùng với Odoo / ai_core
 
 - Prototype agent → household API (pattern MCP scoped tools).  
 - Reminder bridge: Yuvomi → ntfy; Odoo notification parallel.  

@@ -6,25 +6,45 @@
 > **Type:** Agent-native CLI harness  
 > **Path:** [`libreoffice/agent-harness`](https://github.com/HKUDS/CLI-Anything/tree/main/libreoffice/agent-harness)
 
-## Tổng quan
+## Đây là gì?
 
 Harness **LibreOffice** headless: convert, export document (Writer/Calc/…) qua CLI — agent batch office file không cần GUI.
 
-## Agent làm gì được
+Là con của CLI-Anything — preprocess doc trước khi ingest RAG. Cạnh [Stirling-PDF](../stirling-pdf.md) (chuyên PDF toolkit).
 
-- Convert định dạng (DOCX↔PDF, …)  
-- Xử lý batch tài liệu  
-- Pipeline doc trước khi ingest RAG  
+**Cùng kiểu:** [Stirling-PDF](../stirling-pdf.md) (PDF), [MinerU](../mineru.md) (PDF→MD), [CLI-Anything](../cli-anything.md) (cha).
 
-## Quan hệ catalog
+## Dùng khi nào?
 
-| | Vai trò |
-|--|---------|
-| **Cha** | CLI-Anything |
-| **Domain** | DevTools |
-| **ai_core / RAG** | Preprocess attachment trước `ai_rag_core` ingest |
+| Nhu cầu | LibreOffice harness |
+|---------|---------------------|
+| Convert định dạng (DOCX↔PDF, …) | ✅ |
+| Xử lý batch tài liệu | ✅ |
+| Pipeline doc trước khi ingest RAG | ✅ |
+| PDF OCR / merge / redact | → [Stirling-PDF](../stirling-pdf.md) |
+
+## Chạy thử
+
+```bash
+# Harness: https://github.com/HKUDS/CLI-Anything/tree/main/libreoffice/agent-harness
+# Cần LibreOffice headless cài local
+```
+
+## So với tool khác
+
+| | LibreOffice harness | Stirling-PDF | MinerU |
+|--|---------------------|--------------|--------|
+| Focus | Office convert | PDF toolkit + UI | PDF→MD pipeline |
+| Tags | `harness` `office` `cli` | `pdf` `ocr` `api` | `ocr` `pdf` |
+
+## Dùng với Odoo / ai_core
+
+- Preprocess attachment trước `ai_rag_core` ingest.  
+- Convert DOCX hóa đơn → PDF trước lưu `ir.attachment`.  
+- Agent batch convert qua harness thay shell script thủ công.
 
 ## Link
 
 - Harness: https://github.com/HKUDS/CLI-Anything/tree/main/libreoffice/agent-harness  
-- Upstream: https://www.libreoffice.org
+- Upstream: https://www.libreoffice.org  
+- Peers: [stirling-pdf.md](../stirling-pdf.md) · [mineru.md](../mineru.md)

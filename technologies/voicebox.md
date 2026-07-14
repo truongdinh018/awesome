@@ -6,13 +6,15 @@
 > **Ngôn ngữ:** TypeScript · Tauri (Rust) · Python backend · **⭐** ~41.1k · **License:** MIT  
 > Site: [voicebox.sh](https://voicebox.sh) · *Không nhầm với Meta Voicebox research*
 
-## Tổng quan
+## Đây là gì?
 
-**Voicebox** — studio giọng **local-first** (OSS thay ElevenLabs + WisprFlow): clone voice, TTS 7 engines / 23 ngôn ngữ, dictation hotkey (Whisper STT), Stories multi-track, REST + **MCP** (`voicebox.speak` cho Claude/Cursor). Chạy trên máy (macOS MLX/Metal, Win CUDA, Linux, ROCm, Docker); privacy — data không lên cloud.
+**Voicebox** là studio giọng **local-first** (OSS thay ElevenLabs + WisprFlow): clone voice, TTS 7 engines / 23 ngôn ngữ, dictation hotkey (Whisper STT), Stories multi-track, REST + **MCP** (`voicebox.speak` cho Claude/Cursor).
 
-Peer: [OmniVoice Studio](omnivoice-studio.md), [VieNeu-TTS](vieneu-tts.md), [VoxCPM](voxcpm.md), [VibeVoice](vibevoice.md), [XiaoZhi](xiaozhi-esp32.md), [pyVideoTrans](pyvideotrans.md).
+Chạy trên máy (macOS MLX/Metal, Win CUDA, Linux, ROCm, Docker); privacy — data không lên cloud. Engines: Qwen3-TTS · [LuxTTS](luxtts.md) · Chatterbox · HumeAI TADA · Kokoro… Paralinguistic tags `[laugh]` / `[sigh]`.
 
-## Để làm gì?
+**Cùng kiểu:** [OmniVoice Studio](omnivoice-studio.md), [VieNeu-TTS](vieneu-tts.md), [VoxCPM](voxcpm.md), [LuxTTS](luxtts.md), [XiaoZhi](xiaozhi-esp32.md), [pyVideoTrans](pyvideotrans.md).
+
+## Dùng khi nào?
 
 | Nhu cầu | Voicebox |
 |---------|----------|
@@ -22,7 +24,7 @@ Peer: [OmniVoice Studio](omnivoice-studio.md), [VieNeu-TTS](vieneu-tts.md), [Vox
 | Dịch/dub video end-to-end | → [pyVideoTrans](pyvideotrans.md) |
 | Cloud ElevenLabs SaaS | ❌ local-first |
 
-## Highlight
+## Chạy thử
 
 ```bash
 # Desktop: voicebox.sh/download (macOS DMG · Windows MSI)
@@ -30,11 +32,9 @@ docker compose up
 # MCP / REST — xem docs trên voicebox.sh
 ```
 
-- Engines: Qwen3-TTS · LuxTTS · Chatterbox · HumeAI TADA · Kokoro…  
-- Paralinguistic tags `[laugh]` / `[sigh]` · unlimited chunk+crossfade  
-- RESPONSIBLE_USE.md — deepfake / consent  
+RESPONSIBLE_USE.md — deepfake / consent.
 
-## So sánh catalog
+## So với tool khác
 
 | | Voicebox | OmniVoice | VieNeu-TTS |
 |--|----------|-----------|------------|
@@ -42,7 +42,7 @@ docker compose up
 | Shape | Tauri desktop | Desktop | SDK + Web UI |
 | Tags | `stt` `tts` `mcp` `desktop` | `stt` `tts` `desktop` | `tts` `voice-clone` `api` |
 
-## Use case Odoo / ai_core
+## Dùng với Odoo / ai_core
 
 - Dictation / voice note → text trước khi agent Odoo.  
 - MCP speak thông báo pipeline từ Cursor.  

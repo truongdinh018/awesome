@@ -6,25 +6,46 @@
 > **Type:** Agent-native CLI harness  
 > **Path:** [`n8n/agent-harness`](https://github.com/HKUDS/CLI-Anything/tree/main/n8n/agent-harness)
 
-## Tổng quan
+## Đây là gì?
 
 Harness **n8n** (self-host workflow automation): agent tạo/chạy/quản lý workflow qua CLI thay vì chỉ kéo node trên UI.
 
-## Agent làm gì được
+Là con của [CLI-Anything](../cli-anything.md) — expose lệnh có cấu trúc + skill cho coding agent.
 
-- Import / export / trigger workflow  
-- Kiểm tra execution  
-- Tích hợp stack automation ngoài Odoo  
+**Cùng kiểu:** [n8n-workflows ★](../n8n-workflows.md) (workflow templates), [CLI-Anything](../cli-anything.md) (cha).
 
-## Quan hệ catalog
+## Dùng khi nào?
 
-| | Vai trò |
-|--|---------|
-| **Cha** | CLI-Anything |
-| **Domain** | DevTools — cạnh ntfy, Google Workspace CLI |
-| **ai_core** | Bổ sung `ai_agentic_workflow` / Automation Studio — n8n là runtime ngoài ERP |
+| Nhu cầu | n8n harness |
+|---------|-------------|
+| Agent import / export / trigger workflow | ✅ |
+| Kiểm tra execution qua CLI | ✅ |
+| Tích hợp automation ngoài Odoo | ✅ |
+| UI kéo node trực quan | → n8n web UI |
+
+## Chạy thử
+
+```bash
+# Harness path trong monorepo CLI-Anything:
+# https://github.com/HKUDS/CLI-Anything/tree/main/n8n/agent-harness
+# Cài qua CLI-Hub — xem https://clianything.cc/
+```
+
+## So với tool khác
+
+| | n8n harness | n8n UI | EpicStaff |
+|--|-------------|--------|-----------|
+| Điều khiển | Agent CLI | Drag-drop | Visual agent ops |
+| Tags | `harness` `workflow` `cli` | `workflow` | `agent` `workflow` |
+
+## Dùng với Odoo / ai_core
+
+- Bổ sung `ai_agentic_workflow` / Automation Studio — n8n là runtime ngoài ERP.  
+- Agent trigger workflow sau webhook Odoo.  
+- Không thay Odoo automation rules — layer bên ngoài.
 
 ## Link
 
 - Harness: https://github.com/HKUDS/CLI-Anything/tree/main/n8n/agent-harness  
-- Upstream: https://github.com/n8n-io/n8n
+- Upstream: https://github.com/n8n-io/n8n  
+- Cha: [cli-anything.md](../cli-anything.md)

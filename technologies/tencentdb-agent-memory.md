@@ -6,15 +6,15 @@
 > **Ngôn ngữ:** TypeScript · **⭐** ~8.8k · **License:** MIT (npm)  
 > npm: `@tencentdb-agent-memory/memory-tencentdb` · Slogan: *Agents remember, Humans innovate*
 
-## Tổng quan
+## Đây là gì?
 
-**TencentDB Agent Memory** — long-term memory **fully local** cho AI agents (zero external API bắt buộc): pipeline **4 tầng** progressive + **symbolic short-term** (Mermaid canvas offload tool logs). Plugin OpenClaw / Hermes. Báo cáo: −61% tokens / +51% pass (WideSearch) trên OpenClaw; PersonaMem 48%→76%.
+**TencentDB Agent Memory** là long-term memory **fully local** cho AI agents (zero external API bắt buộc): pipeline **4 tầng** progressive + **symbolic short-term** (Mermaid canvas offload tool logs).
 
-Khác Headroom (nén context generic): đây là **memory layering** (Conversation→Atom→Scenario→Persona) + symbol graph có `node_id` drill-down.
+Plugin OpenClaw / Hermes. Báo cáo: −61% tokens / +51% pass (WideSearch) trên OpenClaw; PersonaMem 48%→76%. Khác Headroom (nén context generic): đây là **memory layering** (Conversation→Atom→Scenario→Persona) + symbol graph có `node_id` drill-down.
 
-Peer: [Headroom](headroom.md) (context compression), [Hermes](hermes-agent.md) (runtime + plugin), [Ponytail](ponytail.md) / [Addy's Agent Skills](agent-skills.md) (skills), [WeKnora](weknora.md) (KB).
+**Cùng kiểu:** [Headroom](headroom.md) (context compression), [Hermes](hermes-agent.md) (runtime + plugin), [WeKnora](weknora.md) (KB).
 
-## Để làm gì?
+## Dùng khi nào?
 
 | Nhu cầu | TencentDB Agent Memory |
 |---------|------------------------|
@@ -24,7 +24,7 @@ Peer: [Headroom](headroom.md) (context compression), [Hermes](hermes-agent.md) (
 | Chỉ nén prompt window | → [Headroom](headroom.md) |
 | RAG documents doanh nghiệp | → [RAGFlow](ragflow.md) / [Pathway](pathway.md) |
 
-## Highlight
+## Chạy thử
 
 ```bash
 openclaw plugins install @tencentdb-agent-memory/memory-tencentdb
@@ -34,9 +34,9 @@ openclaw plugins install @tencentdb-agent-memory/memory-tencentdb
 - Short-term: refs/*.md → jsonl → Mermaid canvas  
 - Long-term: L0 Conversation → L1 Atom → L2 Scenario → L3 Persona  
 - Traceable: symbol → index → raw text (không compress mất nguồn)  
-- Hermes: Docker greenfield hoặc plug-in existing install  
+- Hermes: Docker greenfield hoặc plug-in existing install
 
-## So sánh catalog
+## So với tool khác
 
 | | TencentDB Memory | Headroom | Hermes |
 |--|------------------|----------|--------|
@@ -44,7 +44,7 @@ openclaw plugins install @tencentdb-agent-memory/memory-tencentdb
 | Storage | SQLite-vec + Markdown | Library/proxy | — |
 | Tags | `agent` `self-host` `coding-agent` | `mcp` `cli` `agent` | `agent` `mcp` `skill` |
 
-## Use case Odoo / ai_core
+## Dùng với Odoo / ai_core
 
 - Session memory cho ERP agents (user prefs, SOP) trước khi dump full chat.  
 - Ghép Hermes / coding agents trong monorepo.  

@@ -6,13 +6,15 @@
 > **Ngôn ngữ:** Python · **⭐** ~85k · **License:** xem repo  
 > Site / docs: [ragflow.io](https://ragflow.io) · Cloud: [cloud.ragflow.io](https://cloud.ragflow.io)
 
-## Tổng quan
+## Đây là gì?
 
-**RAGFlow** (InfiniFlow) — **RAG engine** mã nguồn mở kết hợp deep document understanding (**DeepDoc**), template chunking, citations grounded, multi-recall + rerank, và **Agent** (workflow + MCP). Mục tiêu: “quality in, quality out” — biến dữ liệu phức tạp thành context layer production cho LLM.
+**RAGFlow** (InfiniFlow) là **RAG engine** mã nguồn mở kết hợp deep document understanding (**DeepDoc**), template chunking, citations grounded, multi-recall + rerank, và **Agent** (workflow + MCP).
 
-Khác [PageIndex](pageindex.md) (vectorless tree): RAGFlow = stack ingest/chunk/vector đầy đủ + UI/API. Peer platform: [WeKnora](weknora.md).
+Mục tiêu: “quality in, quality out” — biến dữ liệu phức tạp thành context layer production cho LLM. Khác [PageIndex](pageindex.md) (vectorless tree): RAGFlow = stack ingest/chunk/vector đầy đủ + UI/API.
 
-## Để làm gì?
+**Cùng kiểu:** [WeKnora](weknora.md), [PageIndex](pageindex.md), [PixelRAG](pixelrag.md), [Pathway](pathway.md), [SAG](sag.md), [AnythingLLM](anything-llm.md), [Open Notebook](open-notebook.md)
+
+## Dùng khi nào?
 
 | Nhu cầu | RAGFlow |
 |---------|---------|
@@ -22,7 +24,7 @@ Khác [PageIndex](pageindex.md) (vectorless tree): RAGFlow = stack ingest/chunk/
 | Sync Notion / Drive / S3 / Confluence | ✅ |
 | Chỉ tree-search PDF không full stack | → [PageIndex](pageindex.md) |
 
-## Docker nhanh
+## Chạy thử
 
 ```bash
 git clone https://github.com/infiniflow/ragflow.git
@@ -32,10 +34,9 @@ sudo sysctl -w vm.max_map_count=262144   # cần ≥ 262144
 docker compose -f docker-compose.yml up -d
 ```
 
-Mở `http://IP` (port 80). Cấu hình LLM trong `service_conf.yaml.template`.  
-ARM64: build image riêng (image x86 mặc định). Doc engine mặc định Elasticsearch; tùy chọn **Infinity**.
+Mở `http://IP` (port 80). Cấu hình LLM trong `service_conf.yaml.template`. ARM64: build image riêng. Doc engine mặc định Elasticsearch; tùy chọn **Infinity**.
 
-## So sánh catalog
+## So với tool khác
 
 | | RAGFlow | WeKnora | PageIndex | SAG |
 |--|---------|---------|-----------|-----|
@@ -43,7 +44,7 @@ ARM64: build image riêng (image x86 mặc định). Doc engine mặc định El
 | Stars-class | Rất lớn | Lớn | Lớn | Nhỏ hơn |
 | Tags | `rag` `agent` `mcp` | `rag` `agent` `mcp` `cli` | `rag` `mcp` `cli` | `rag` `mcp` |
 
-## Use case Odoo / ai_core
+## Dùng với Odoo / ai_core
 
 - Benchmark ingest PDF/HĐ trước khi thiết kế `ai_rag_core`.  
 - Agent/MCP hỏi dataset nội bộ; cross-check với WeKnora.  

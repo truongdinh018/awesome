@@ -6,13 +6,15 @@
 > **Ngôn ngữ:** Python · **⭐** ~6.6k · **License:** Apache-2.0  
 > Paper: [arXiv 2606.28344](https://arxiv.org/pdf/2606.28344) · Demo: [pixelrag.ai](https://pixelrag.ai) · API: [api.pixelrag.ai](https://api.pixelrag.ai)
 
-## Tổng quan
+## Đây là gì?
 
-**PixelRAG** (Berkeley SkyLab / BAIR) — *Web Screenshots Beat Text for RAG*: render docs/web/PDF thành **screenshot tiles**, embed bằng **VLM** (`Qwen3-VL-Embedding` LoRA), retrieve theo hình thay vì parse HTML/text. Giữ tables, charts, layout, infographics mà text RAG thường mất. Hosted index **8.28M Wikipedia**; self-host FAISS + `pixelrag serve`.
+**PixelRAG** (Berkeley SkyLab / BAIR) — *Web Screenshots Beat Text for RAG*: render docs/web/PDF thành **screenshot tiles**, embed bằng **VLM** (`Qwen3-VL-Embedding` LoRA), retrieve theo hình thay vì parse HTML/text.
 
-Peer: [PageIndex](pageindex.md) (vectorless tree RAG), [RAGFlow](ragflow.md) / [Hyper-Extract](hyper-extract.md) (text/graph RAG), [Midscene](midscene.md) (vision → *action*, không phải retrieve).
+Giữ tables, charts, layout, infographics mà text RAG thường mất. Hosted index **8.28M Wikipedia**; self-host FAISS + `pixelrag serve`.
 
-## Để làm gì?
+**Cùng kiểu:** [PageIndex](pageindex.md), [RAGFlow](ragflow.md), [Hyper-Extract](hyper-extract.md), [Midscene](midscene.md)
+
+## Dùng khi nào?
 
 | Nhu cầu | PixelRAG |
 |---------|----------|
@@ -22,7 +24,7 @@ Peer: [PageIndex](pageindex.md) (vectorless tree RAG), [RAGFlow](ragflow.md) / [
 | Agent click/fill browser | → [Stagehand](stagehand.md) / [Midscene](midscene.md) |
 | Chunk text + DeepDoc | → [RAGFlow](ragflow.md) |
 
-## Highlight
+## Chạy thử
 
 ```bash
 pip install pixelrag
@@ -37,7 +39,7 @@ curl -X POST https://api.pixelrag.ai/search \
 CLI stages: `pixelshot` · `pixelrag chunk|embed|build-index|index|serve`  
 Claude: `uv tool install pixelrag` → marketplace plugin **pixelbrowse** (no MCP).
 
-## So sánh catalog
+## So với tool khác
 
 | | PixelRAG | PageIndex | Midscene |
 |--|----------|-----------|----------|
@@ -45,7 +47,7 @@ Claude: `uv tool install pixelrag` → marketplace plugin **pixelbrowse** (no MC
 | Index | Screenshot tiles + VLM | Doc tree (no vectors) | — |
 | Tags | `rag` `cli` `skill` `api` | `rag` `mcp` `cli` | `computer-use` |
 
-## Use case Odoo / ai_core
+## Dùng với Odoo / ai_core
 
 - KB tài liệu scan / PDF layout nặng (invoice, catalog) nơi OCR/chunk lỗi.  
 - Agent skill: chụp portal web rồi hỏi VLM thay vì scrape HTML.  

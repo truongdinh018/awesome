@@ -6,15 +6,15 @@
 > **Ngôn ngữ:** TypeScript · Node 20+ · **⭐** ~16k · **License:** MIT  
 > Site: [freellmapi.co](https://freellmapi.co) · *Personal experimentation only*
 
-## Tổng quan
+## Đây là gì?
 
-**FreeLLMAPI** — proxy **OpenAI-compatible** gom free tiers của ~16+ LLM providers (~1.7B tokens/tháng theo README) sau một endpoint `/v1`. Smart routing, failover, key AES-256-GCM, catalog tự cập nhật từ freellmapi.co. Dashboard + Docker + desktop `.exe`. Có **MCP** (`POST /mcp`) và shim Anthropic Messages / Responses API (Claude Code, Codex).
+**FreeLLMAPI** là proxy **tương thích OpenAI** (*OpenAI-compatible*) gom free tier của ~16+ LLM provider (~1.7B tokens/tháng theo README) sau một endpoint `/v1`. Smart routing, failover, key AES-256-GCM, catalog tự cập nhật từ freellmapi.co. Dashboard + Docker + desktop `.exe`. Có **MCP** (`POST /mcp`) và shim Anthropic Messages / Responses API (Claude Code, Codex).
 
 ⚠️ Chỉ dùng thử cá nhân — tuân thủ ToS từng provider; **không** cho production SaaS / multi-tenant.
 
-Peer: [Headroom](headroom.md) (context compression proxy), [LocalAI](localai.md) (local multi-modal engine), [Hermes](hermes-agent.md) / Continue (clients trỏ `base_url`).
+**Cùng kiểu:** [Headroom](headroom.md) (context compression proxy), [LocalAI](localai.md) (local multi-modal engine), [Hermes](hermes-agent.md) / Continue (clients trỏ `base_url`).
 
-## Để làm gì?
+## Dùng khi nào?
 
 | Nhu cầu | FreeLLMAPI |
 |---------|------------|
@@ -24,24 +24,16 @@ Peer: [Headroom](headroom.md) (context compression proxy), [LocalAI](localai.md)
 | MCP: xem model health / đổi strategy | ✅ |
 | Production billing / multi-user | ❌ single-user by design |
 
-## Highlight
-
-- Strategies: `priority` · `balanced` · `smartest` · `fastest` · `reliable` · `custom`  
-- Fusion (multi-model + judge) · embeddings · image/TTS routing  
-- Unified models (cùng model nhiều provider) · model profiles  
-- Install: `curl -fsSL https://freellmapi.co/install.sh | bash` → `:3001`  
-- Custom provider → Ollama / vLLM / LM Studio
-
-## Deploy
+## Chạy thử
 
 ```bash
 curl -fsSL https://freellmapi.co/install.sh | bash
 # hoặc docker compose + ENCRYPTION_KEY
 ```
 
-Dashboard → Keys → Fallback Chain → lấy unified key `freellmapi-…`.
+Dashboard → Keys → Fallback Chain → lấy unified key `freellmapi-…`. Strategies: `priority` · `balanced` · `smartest` · `fastest` · `reliable` · `custom`. Fusion (multi-model + judge) · embeddings · image/TTS routing · unified models · model profiles. Custom provider → Ollama / vLLM / LM Studio.
 
-## So sánh catalog
+## So với tool khác
 
 | | FreeLLMAPI | Headroom | AnythingLLM |
 |--|------------|----------|-------------|
@@ -49,7 +41,7 @@ Dashboard → Keys → Fallback Chain → lấy unified key `freellmapi-…`.
 | OpenAI `/v1` | ✅ primary | proxy layer | app embed |
 | Tags | `api` `mcp` `desktop` | `mcp` `cli` `agent` | `rag` `desktop` |
 
-## Use case Odoo / ai_core
+## Dùng với Odoo / ai_core
 
 - Dev/sandbox: trỏ LiteLLM-style client / agent local sang free pool trước khi gắn paid API.  
 - Không dùng cho customer-facing Odoo (ToS + single-user + không SLA).  

@@ -1,21 +1,23 @@
 # AI-auto-generate-video (Template Video)
 
 > **Repo:** [huytranvan2010/AI-auto-generate-video](https://github.com/huytranvan2010/AI-auto-generate-video)  
-> **Category:** Image & Video Generation · Template / short-form pipeline  
+> **Category:** Image & Video Generation · Pipeline template / short-form  
 > **Tags:** `video` · `skill` · `tts` · `cli` · `agent`  
 > **Ngôn ngữ:** TypeScript (Node ≥22) · **⭐** ~181 · **License:** MIT  
 > Slogan: *A Vietnamese article in. A 9:16 short out.*
 
-## Tổng quan
+## Đây là gì?
 
-**AI-auto-generate-video** (AI Coding) — pipeline **bài viết / URL → video Shorts 9:16** deterministic:
+**AI-auto-generate-video** (AI Coding) là pipeline **bài viết / URL → video Shorts 9:16** theo cách xác định (*deterministic*):
 
-- **AI** (Claude Code skill `/create-template-video`) = content: fetch bài → `script.json` + chọn template  
-- **Code** = production: TTS · SFX · HyperFrames · FFmpeg mux — cùng `script.json` → cùng pixels
+- **AI** (Claude Code skill `/create-template-video`) = nội dung: fetch bài → `script.json` + chọn template  
+- **Code** = sản xuất: TTS · SFX · HyperFrames · FFmpeg mux — cùng `script.json` → cùng pixels
 
 Stack đã có trong catalog: **[HyperFrames](hyperframes.md)** (render) + **[OmniVoice](omnivoice-studio.md)** (TTS local, không API key).
 
-## Để làm gì?
+**Cùng kiểu:** [HyperFrames](hyperframes.md) (engine render), [OpenMontage](openmontage.md) (studio agentic đầy đủ), [ComfyUI](comfyui.md) (diffusion GUI).
+
+## Dùng khi nào?
 
 | Nhu cầu | Repo này |
 |---------|----------|
@@ -25,7 +27,9 @@ Stack đã có trong catalog: **[HyperFrames](hyperframes.md)** (render) + **[Om
 | Template HTML sẵn (hook/body/outro) | ✅ Catalog trong `templates/` |
 | Engine tuỳ biến sâu (không template) | → dùng [HyperFrames](hyperframes.md) trực tiếp |
 
-## Pipeline
+## Chạy thử
+
+**Pipeline:**
 
 ```
 URL / .txt
@@ -38,8 +42,6 @@ URL / .txt
 ```
 
 Output: `video.mp4` · `voice.mp3` · `script.txt`.
-
-## Quick start
 
 ```bash
 git clone https://github.com/huytranvan2010/AI-auto-generate-video.git
@@ -60,11 +62,9 @@ Manual:
 npm run pipeline -- output/my-video/script.json
 ```
 
-## Templates (HyperFrames)
+**Templates (HyperFrames):** ví dụ `frame-liquid-bg-hero` (hook), `frame-pentagram-stat`, `frame-glitch-title`, `frame-logo-outro`… — chi tiết `templates/CATALOG.md`.
 
-Ví dụ: `frame-liquid-bg-hero` (hook), `frame-pentagram-stat`, `frame-glitch-title`, `frame-logo-outro`… — chi tiết `templates/CATALOG.md`.
-
-## So sánh catalog
+## So với tool khác
 
 | | AI-auto-generate-video | HyperFrames | ComfyUI |
 |--|------------------------|-------------|---------|
@@ -72,11 +72,11 @@ Ví dụ: `frame-liquid-bg-hero` (hook), `frame-pentagram-stat`, `frame-glitch-t
 | TTS | OmniVoice bắt buộc | Không | Không |
 | Skill Claude | ✅ `/create-template-video` | Agent tự viết HTML | Workflow graph |
 
-## Use case
+## Dùng với Odoo / ai_core
 
-- Content channel công nghệ VN: URL bài → Short hàng ngày  
-- Marketing Odoo / internal: script cố định → batch render  
-- Học agent skill: `.claude/skills/create-template-video`
+- Content channel công nghệ VN: URL bài → Short hàng ngày.  
+- Marketing Odoo / internal: script cố định → batch render.  
+- Học agent skill: `.claude/skills/create-template-video`.
 
 ## Link
 
@@ -84,4 +84,4 @@ Ví dụ: `frame-liquid-bg-hero` (hook), `frame-pentagram-stat`, `frame-glitch-t
 - README VI: `README.vi.md`  
 - Engine: [hyperframes.md](hyperframes.md) · TTS: [omnivoice-studio.md](omnivoice-studio.md)  
 - Full agentic studio peer: [openmontage.md](openmontage.md)  
-- Demo Short: https://youtube.com/shorts/LUAgRhPBONg  
+- Demo Short: https://youtube.com/shorts/LUAgRhPBONg

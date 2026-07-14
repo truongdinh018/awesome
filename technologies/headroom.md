@@ -6,13 +6,15 @@
 > **Ngôn ngữ:** Python CLI/SDK · TypeScript SDK · Rust crates · **⭐** ~59k · **License:** xem repo  
 > Docs: [headroom-docs.vercel.app](https://headroom-docs.vercel.app) · Slogan: *The context compression layer for AI agents*
 
-## Tổng quan
+## Đây là gì?
 
 **Headroom** nén **tool output, logs, file, RAG chunks, history** trước khi vào LLM — claim ~**60–95%** ít token cho JSON, ~**15–20%** cho coding agents, cùng câu trả lời. Chạy **local-first**; bản gốc reversible qua CCR + `headroom_retrieve`.
 
 Ba lối vào: **library** (`compress()`), **proxy** (drop-in, zero code), **MCP** (`headroom_compress` / `retrieve` / `stats`). Có `headroom wrap` cho Claude Code, Cursor, Codex, OpenHands, …
 
-## Để làm gì?
+**Cùng kiểu:** [Ponytail](ponytail.md) (YAGNI — ít code), [Caveman](caveman.md) (nén output), [FreeLLMAPI](freellmapi.md) (LLM gateway).
+
+## Dùng khi nào?
 
 | Nhu cầu | Headroom |
 |---------|----------|
@@ -23,7 +25,7 @@ Ba lối vào: **library** (`compress()`), **proxy** (drop-in, zero code), **MCP
 | Memory chung nhiều agent | ✅ Cross-agent store |
 | YAGNI ruleset (ít code hơn) | → [Ponytail](ponytail.md) (không nén token) |
 
-## Quick start
+## Chạy thử
 
 ```bash
 uv tool install "headroom-ai[all]"   # hoặc: pip install "headroom-ai[all]"
@@ -39,26 +41,14 @@ from headroom import compress
 # compress(messages) …
 ```
 
-## Kiến trúc ngắn
-
-```
-Agent/app → Headroom (local)
-            CacheAligner → ContentRouter
-              ├ SmartCrusher (JSON)
-              ├ CodeCompressor (AST)
-              └ Kompress-v2-base (text)
-            + CCR cache originals
-         → LLM provider
-```
-
-## So sánh catalog
+## So với tool khác
 
 | | Headroom | Ponytail | dcg | PageIndex |
 |--|----------|----------|-----|-----------|
 | Việc | **Nén context** vào LLM | Viết **ít code** | Chặn lệnh nguy hiểm | RAG tree |
 | Tags | `mcp` `cli` `agent` | `skill` `prompt` | `guardrail` | `rag` `mcp` |
 
-## Use case Odoo / ai_core
+## Dùng với Odoo / ai_core
 
 - Proxy trước call LLM trong `xb_ai` / agent khi tool trả JSON Odoo lớn.  
 - Wrap Cursor/Claude khi làm addon → bớt token log/test.  

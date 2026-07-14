@@ -1,15 +1,15 @@
 # CLI-Anything
 
 > **Repo:** [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything)  
-> **Category:** MCP & AI Agents  
+> **Category:** MCP & AI Agents · Biến mọi phần mềm thành agent-native qua CLI  
 > **Tags:** `cli` · `harness` · `skill` · `agent`  
 > **Ngôn ngữ:** Python · **⭐** ~45.3k · **License:** Apache-2.0  
 > **Hub:** [clianything.cc](https://clianything.cc/)  
 > **Con (harness):** [technologies/cli-anything/](cli-anything/README.md)
 
-## Tổng quan
+## Đây là gì?
 
-**CLI-Anything** (HKUDS) — **làm mọi phần mềm trở thành agent-native** qua CLI có cấu trúc, thay vì để agent “bấm UI” mù.
+**CLI-Anything** (HKUDS) **làm mọi phần mềm trở thành agent-native** qua CLI có cấu trúc, thay vì để agent “bấm UI” mù.
 
 Slogan: *Today's software serves humans. Tomorrow's users will be agents.*
 
@@ -20,7 +20,26 @@ Hai lối vào chính:
 
 Mỗi CLI kèm **SKILL.md** để agent discover lệnh (`--help`, output JSON).
 
-## Cây cha → con (catalog)
+**Cùng kiểu:** [Midscene](midscene.md) (vision + NL trên screenshot), [Google Workspace CLI](google-workspace-cli.md) (CLI domain cố định GWS).
+
+## Dùng khi nào?
+
+| Nhu cầu | CLI-Anything |
+|---------|--------------|
+| Agent coding điều khiển CAD / design / GIS không cần Midscene | ✅ |
+| Chuẩn hóa “agent tool surface” cho stack nội bộ | ✅ |
+| Gắn Cursor / Claude Code / OpenClaw qua Skills | ✅ |
+| Test / thao tác UI nhìn thấy (vision) | → [Midscene](midscene.md) |
+| UI là nguồn sự thật duy nhất | → Midscene / Slay Spire demo |
+
+## Chạy thử
+
+```bash
+pip install cli-anything-hub
+# cli-hub install <name>
+```
+
+**Cây cha → con (catalog):**
 
 ```
 CLI-Anything ★  (MCP & AI Agents)
@@ -53,17 +72,9 @@ Chi tiết từng harness: **[cli-anything/README.md](cli-anything/README.md)**
 | LibreOffice | DevTools | [libreoffice.md](cli-anything/libreoffice.md) |
 | Godot | Image & Video | [godot.md](cli-anything/godot.md) |
 
-## Vì sao CLI (không phải GUI click)?
+**Vì sao CLI (không phải GUI click)?** Structured & composable (text khớp LLM) · lightweight · self-describing (`--help`) · deterministic · JSON output.
 
-| Ưu điểm CLI cho agent | Ý nghĩa |
-|----------------------|---------|
-| Structured & composable | Text khớp LLM, chain workflow |
-| Lightweight | Ít phụ thuộc, chạy cross-platform |
-| Self-describing | `--help` = docs agent tự đọc |
-| Deterministic | Ít flaky hơn computer-use bằng vision |
-| JSON output | Parse ổn định |
-
-## So với công nghệ trong catalog
+## So với tool khác
 
 | | CLI-Anything | Midscene | Google Workspace CLI |
 |--|--------------|----------|----------------------|
@@ -72,18 +83,13 @@ Chi tiết từng harness: **[cli-anything/README.md](cli-anything/README.md)**
 | Determinism | Cao | Thấp hơn | Cao |
 | Catalog | ★ + cây con theo domain | ★ UI Automation | ★ DevTools |
 
-## Use case
+**Hạn chế:** không phải mọi app đều scriptable — harness phức tạp / experimental; sinh harness 7 pha tốn thời gian + cần review bảo mật.
 
-- Agent coding điều khiển CAD / design / GIS mà không cần Midscene  
-- Chuẩn hóa “agent tool surface” cho stack nội bộ  
-- Gắn Cursor / Claude Code / OpenClaw qua Skills  
-- **Odoo / ai_core:** song song `xb_mcp` — expose capability có schema cho desktop/pro software
+## Dùng với Odoo / ai_core
 
-## Hạn chế
-
-- Không phải mọi app đều scriptable — harness phức tạp / experimental  
-- Sinh harness 7 pha tốn thời gian + cần review bảo mật  
-- Không thay computer-use khi UI là nguồn sự thật duy nhất (→ Midscene / Slay Spire demo)
+- Agent coding điều khiển CAD / design / GIS mà không cần Midscene.  
+- Song song `xb_mcp` — expose capability có schema cho desktop/pro software.  
+- Không thay computer-use khi UI là nguồn sự thật duy nhất.
 
 ## Link
 

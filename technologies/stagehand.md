@@ -6,13 +6,15 @@
 > **Ngôn ngữ:** TypeScript · **⭐** ~23.5k · **License:** MIT  
 > Site: [stagehand.dev](https://stagehand.dev) · Docs: [docs.stagehand.dev](https://docs.stagehand.dev) · Python: [stagehand-python](https://github.com/browserbase/stagehand-python)
 
-## Tổng quan
+## Đây là gì?
 
-**Stagehand** (Browserbase) — *The SDK for Browser Agents*: framework automation trình duyệt **kết hợp NL + code**. Dùng AI khi page lạ, dùng code khi đã biết selector; preview/cache action → workflow lặp lại; auto-cache + self-healing khi UI đổi. Dựa CDP / Playwright-class stack, không chỉ pure vision và không chỉ inject DOM in-page.
+**Stagehand** (Browserbase) là SDK cho **browser agents**: framework automation trình duyệt **kết hợp NL + code**.
 
-Peer: [Puppeteer](puppeteer.md) (CDP driver), [Midscene](midscene.md) (screenshot → action / multi-OS), [Page Agent](page-agent.md) (in-page DOM MCP).
+Dùng AI khi page lạ, dùng code khi đã biết selector. Preview/cache action → workflow lặp lại; auto-cache + self-healing khi UI đổi. Dựa CDP / Playwright-class stack — không chỉ pure vision và không chỉ inject DOM in-page.
 
-## Để làm gì?
+**Cùng kiểu:** [Puppeteer](puppeteer.md) (CDP driver), [Midscene](midscene.md) (screenshot → action / multi-OS), [Page Agent](page-agent.md) (in-page DOM MCP).
+
+## Dùng khi nào?
 
 | Nhu cầu | Stagehand |
 |---------|-----------|
@@ -22,7 +24,7 @@ Peer: [Puppeteer](puppeteer.md) (CDP driver), [Midscene](midscene.md) (screensho
 | Pure vision (native/mobile/canvas) | → [Midscene](midscene.md) |
 | Agent nhúng trong page (DOM) | → [Page Agent](page-agent.md) |
 
-## Highlight
+## Chạy thử
 
 ```ts
 await stagehand.act("click on the stagehand repo");
@@ -38,7 +40,7 @@ const { author, title } = await stagehand.extract(
 - Tốt nhất với LLM key + [Browserbase](https://www.browserbase.com) credentials (local vẫn chạy được)  
 - Package: `@browserbasehq/stagehand`
 
-## So sánh catalog
+## So với tool khác
 
 | | Stagehand | Midscene | Page Agent |
 |--|-----------|----------|------------|
@@ -46,10 +48,10 @@ const { author, title } = await stagehand.extract(
 | Surface | Web browser | Web + mobile + desktop | Same-origin page |
 | Tags | `ui-automation` `browser` `agent` | `computer-use` `skill` | `dom` `mcp` |
 
-## Use case Odoo / ai_core
+## Dùng với Odoo / ai_core
 
 - Agent scrape / fill form portal web bên ngoài Odoo.  
-- E2E “AI path” có cache (ổn định CI hơn pure agent).  
+- E2E "AI path" có cache (ổn định CI hơn pure agent).  
 - Kết hợp Browserbase cloud browsers khi cần scale / stealth.
 
 ## Link

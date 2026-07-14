@@ -6,25 +6,45 @@
 > **Type:** Agent-native CLI harness  
 > **Path:** [`obsidian/agent-harness`](https://github.com/HKUDS/CLI-Anything/tree/main/obsidian/agent-harness)
 
-## Tổng quan
+## Đây là gì?
 
 Harness **Obsidian** (Local REST API): agent đọc/ghi vault, search, note workflow — knowledge management agent-native (persistent memory patterns).
 
-## Agent làm gì được
+Là con của CLI-Anything — vault bên ngoài Odoo, agent CRUD notes qua CLI.
 
-- CRUD notes / folders  
-- Search nội dung vault  
-- Workflow gắn skill agent  
+**Cùng kiểu:** [NotebookLM MCP](../notebooklm-mcp.md), [SAG](../sag.md), [Khoj](../khoj.md) (tri thức cho agent).
 
-## Quan hệ catalog
+## Dùng khi nào?
 
-| | Vai trò |
-|--|---------|
-| **Cha** | CLI-Anything |
-| **Cùng nhóm Agents** | NotebookLM MCP, SAG — tri thức cho agent (Obsidian = local vault) |
-| **ai_core** | Song song RAG / agent memory — vault bên ngoài Odoo |
+| Nhu cầu | Obsidian harness |
+|---------|------------------|
+| Agent CRUD notes / folders | ✅ |
+| Search nội dung vault | ✅ |
+| Workflow gắn skill agent | ✅ |
+| RAG enterprise full platform | → [WeKnora](../weknora.md) |
+
+## Chạy thử
+
+```bash
+# Harness: https://github.com/HKUDS/CLI-Anything/tree/main/obsidian/agent-harness
+# Cần Obsidian + Local REST API plugin
+```
+
+## So với tool khác
+
+| | Obsidian harness | WeKnora | SAG |
+|--|------------------|---------|-----|
+| Storage | Local vault Markdown | Full KB platform | Graph event RAG |
+| Tags | `harness` `rag` `cli` | `rag` `agent` `mcp` | `rag` `mcp` |
+
+## Dùng với Odoo / ai_core
+
+- Song song RAG / agent memory — vault bên ngoài Odoo.  
+- Handoff notes agent → vault trước khi commit code.  
+- Không thay `ai_rag_core` — personal/team knowledge layer.
 
 ## Link
 
 - Harness: https://github.com/HKUDS/CLI-Anything/tree/main/obsidian/agent-harness  
-- Upstream: https://obsidian.md
+- Upstream: https://obsidian.md  
+- Cha: [cli-anything.md](../cli-anything.md)

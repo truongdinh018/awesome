@@ -7,13 +7,15 @@
 > **Docs:** [yifanfeng97.github.io/Hyper-Extract](https://yifanfeng97.github.io/Hyper-Extract/latest/)  
 > **PyPI:** `hyperextract` · CLI: `he`
 
-## Tổng quan
+## Đây là gì?
 
-**Hyper-Extract** — CLI/framework LLM biến văn bản / PDF không cấu trúc thành **Knowledge Abstract** có kiểu mạnh: List/Set/Pydantic → **Knowledge Graph**, **Hypergraph**, **Spatio-Temporal Graph**.
+**Hyper-Extract** là CLI/framework LLM biến văn bản / PDF không cấu trúc thành **Knowledge Abstract** có kiểu mạnh: List/Set/Pydantic → **Knowledge Graph**, **Hypergraph**, **Spatio-Temporal Graph**.
 
 Slogan: *Stop reading. Start understanding.* — `he parse` một lệnh, template YAML domain, tăng tri thức incremental, search, export Obsidian, **MCP** (`he-mcp`).
 
-## Để làm gì?
+**Cùng kiểu:** [SAG](sag.md) (retrieval workbench), [PageIndex](pageindex.md) (tree ToC vectorless), [Understand Anything](understand-anything.md) (code/wiki knowledge graph).
+
+## Dùng khi nào?
 
 | Nhu cầu | Hyper-Extract |
 |---------|----------------|
@@ -24,7 +26,7 @@ Slogan: *Stop reading. Start understanding.* — `he parse` một lệnh, templa
 | Self-host (vLLM + bge-m3) | ✅ Không gửi data ra ngoài |
 | Agent IDE đọc KB | ✅ MCP stdio `he-mcp` |
 
-## Quick start
+## Chạy thử
 
 ```bash
 uv tool install hyperextract
@@ -37,7 +39,7 @@ he export obsidian ./output/ -o ./vault/
 
 MCP: `pip install 'hyperextract[mcp]'` → `he-mcp` (tools: `list_templates`, `info`, `search`, `ask`, `export_obsidian`).
 
-## So sánh catalog
+## So với tool khác
 
 | | Hyper-Extract | SAG | ai_rag_core |
 |--|---------------|-----|-------------|
@@ -46,15 +48,11 @@ MCP: `pip install 'hyperextract[mcp]'` → `he-mcp` (tools: `list_templates`, `i
 | Domain templates | ✅ 80+ YAML | Project docs | Chunk config Odoo |
 | MCP | ✅ he-mcp | ✅ per project | xb_mcp tools |
 
-## Quan hệ
+## Dùng với Odoo / ai_core
 
-| | Vai trò |
-|--|---------|
-| **[SAG](sag.md)** | Retrieval workbench; Hyper-Extract = pipeline extract đa cấu trúc |
-| **[PageIndex](pageindex.md)** | Tree ToC vectorless; Hyper-Extract = schema extract → graph |
-| **Obsidian harness / vault** | `he export obsidian` → wikilinks |
-| **NotebookLM MCP** | Citation RAG cloud; Hyper-Extract = self-host extract |
-| **ai_rag_core** | Có thể dùng HE offline → dump graph/MD rồi ingest Odoo |
+- Offline extract → dump graph/MD rồi ingest Odoo `ai_rag_core`.  
+- `he export obsidian` → wikilinks cho vault nội bộ.  
+- Khác NotebookLM MCP — Hyper-Extract self-host extract.
 
 ## Link
 

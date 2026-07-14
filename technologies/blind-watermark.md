@@ -1,18 +1,18 @@
 # blind_watermark
 
 > **Repo:** [guofei9987/blind_watermark](https://github.com/guofei9987/blind_watermark)  
-> **Category:** Image & Video Generation · Image watermark  
+> **Category:** Image & Video Generation · Watermark ảnh invisible  
 > **Tags:** `watermark` · `cli`  
 > **Ngôn ngữ:** Python · **⭐** ~14.1k · **License:** MIT  
 > PyPI: `blind-watermark` · Docs: [BlindWatermark.github.io](https://BlindWatermark.github.io/blind_watermark/#/en/)
 
-## Tổng quan
+## Đây là gì?
 
-**blind_watermark** — **ảnh blind / invisible watermark** (DWT-DCT-SVD): nhúng chữ / ảnh / bit vào ảnh; **extract không cần ảnh gốc**. Chịu rotate, crop, mask, resize, noise, chỉnh sáng ở mức demo trong README.
+**blind_watermark** là thư viện **ảnh blind / invisible watermark** (DWT-DCT-SVD): nhúng chữ / ảnh / bit vào ảnh; **extract không cần ảnh gốc**. Chịu rotate, crop, mask, resize, noise, chỉnh sáng ở mức demo trong README.
 
-Peer audio trong catalog: **[AudioSeal](audioseal.md)** (speech watermark).
+**Cùng kiểu:** [AudioSeal](audioseal.md) (watermark speech audio).
 
-## Để làm gì?
+## Dùng khi nào?
 
 | Nhu cầu | blind_watermark |
 |---------|-----------------|
@@ -23,7 +23,7 @@ Peer audio trong catalog: **[AudioSeal](audioseal.md)** (speech watermark).
 | Watermark **audio** | → [AudioSeal](audioseal.md) |
 | Watermark **text** | → `text_blind_watermark` (cùng author) |
 
-## CLI
+## Chạy thử
 
 ```bash
 pip install blind-watermark
@@ -31,8 +31,6 @@ pip install blind-watermark
 blind_watermark --embed --pwd 1234 ori.jpeg "watermark text" embedded.png
 blind_watermark --extract --pwd 1234 --wm_shape 111 embedded.png
 ```
-
-## Python
 
 ```python
 from blind_watermark import WaterMark
@@ -48,7 +46,7 @@ wm = WaterMark(password_img=1, password_wm=1).extract(
 )
 ```
 
-## So sánh catalog
+## So với tool khác
 
 | | blind_watermark | AudioSeal |
 |--|-----------------|-----------|
@@ -56,11 +54,11 @@ wm = WaterMark(password_img=1, password_wm=1).extract(
 | Mục tiêu | Blind extract, robust attack | Localized AI-speech watermark |
 | Tags | `watermark` `cli` | `watermark` |
 
-## Use case
+## Dùng với Odoo / ai_core
 
-- Gắn provenance vào ảnh ComfyUI / ScreenCoder / marketing trước publish  
-- Batch: pipeline sau render [AI-auto-generate-video](ai-auto-generate-video.md) / HyperFrames (frame still)  
-- Odoo: watermark ảnh sản phẩm / attachment trước khi share
+- Gắn provenance vào ảnh ComfyUI / ScreenCoder / marketing trước publish.  
+- Batch: pipeline sau render [AI-auto-generate-video](ai-auto-generate-video.md) / HyperFrames (frame still).  
+- Odoo: watermark ảnh sản phẩm / attachment trước khi share.
 
 ## Link
 

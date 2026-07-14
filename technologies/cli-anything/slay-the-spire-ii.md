@@ -6,24 +6,45 @@
 > **Type:** Agent-native CLI harness  
 > **Path:** [`slay_the_spire_ii`](https://github.com/HKUDS/CLI-Anything/tree/main/slay_the_spire_ii)
 
-## Tổng quan
+## Đây là gì?
 
-Harness **game automation** cho Slay the Spire II: agent chơi / thao tác game qua CLI (deck, combat), minh họa computer-use kiểu **lệnh có cấu trúc** thay vì vision click.
+Harness **game automation** cho Slay the Spire II: agent chơi / thao tác game qua CLI (deck, combat).
 
-## Agent làm gì được
+Minh họa computer-use kiểu **lệnh có cấu trúc** thay vì vision click. Demo biên giới agent-native — không phải stack production Odoo.
 
-- Điều khiển run / combat theo command surface của harness  
-- Demo autonomy + trajectory (theo README CLI-Anything)  
+**Cùng kiểu:** [Midscene](../midscene.md) (vision UI — harness này = CLI game API), [CLI-Anything](../cli-anything.md) (cha).
 
-## Quan hệ catalog
+## Dùng khi nào?
 
-| | Vai trò |
-|--|---------|
-| **Cha** | CLI-Anything |
-| **Cùng domain Midscene** | Cả hai đều “agent điều khiển phần mềm tương tác” — Midscene = vision UI; harness này = CLI game API |
-| **Mục đích catalog** | Demo biên giới agent-native, không phải stack production Odoo |
+| Nhu cầu | Slay the Spire harness |
+|---------|------------------------|
+| Demo agent autonomy + trajectory | ✅ |
+| Điều khiển run / combat qua command surface | ✅ |
+| Production UI automation web | → [Stagehand](../stagehand.md) / [Midscene](../midscene.md) |
+
+## Chạy thử
+
+```bash
+# Path: https://github.com/HKUDS/CLI-Anything/tree/main/slay_the_spire_ii
+# Xem README harness + CLI-Anything docs
+```
+
+## So với tool khác
+
+| | Slay harness | Midscene | Stagehand |
+|--|--------------|----------|-----------|
+| Surface | Game CLI API | Vision screenshot | Browser NL+code |
+| Mục đích | Demo agent-native | Production UI | Production web |
+| Tags | `harness` `game` `cli` | `computer-use` `skill` | `ui-automation` `browser` |
+
+## Dùng với Odoo / ai_core
+
+- Demo biên giới agent — không gắn ERP.  
+- Pattern tham khảo: command surface thay vision khi app hỗ trợ CLI.  
+- Không dùng production.
 
 ## Link
 
 - Harness: https://github.com/HKUDS/CLI-Anything/tree/main/slay_the_spire_ii  
-- So sánh: [midscene.md](../midscene.md)
+- So sánh: [midscene.md](../midscene.md)  
+- Cha: [cli-anything.md](../cli-anything.md)

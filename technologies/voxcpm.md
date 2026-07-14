@@ -5,34 +5,35 @@
 > **Tags:** `tts` · `voice-clone`  
 > **Ngôn ngữ:** Python · **⭐** ~33k
 
-## Tổng quan
+## Đây là gì?
 
-**VoxCPM** (VoxCPM2) là mô hình **Text-to-Speech (TTS)** **tokenizer-free**, hỗ trợ:
+**VoxCPM** (VoxCPM2) là mô hình **Text-to-Speech (TTS)** **tokenizer-free** của OpenBMB (Tsinghua) — cùng hệ sinh thái với MiniCPM.
 
-- Sinh giọng nói **đa ngôn ngữ**
-- **Creative voice design** — thiết kế giọng mới
-- **Voice cloning** — clone từ mẫu ngắn
-- Chất lượng gần **true-to-life**
+Hỗ trợ: sinh giọng nói **đa ngôn ngữ**, **creative voice design** (thiết kế giọng mới), **voice cloning** (few-shot từ audio mẫu), chất lượng gần **true-to-life**. Không phụ thuộc phoneme/token TTS truyền thống.
 
-OpenBMB (Tsinghua) — cùng hệ sinh thái với MiniCPM.
+**Cùng kiểu:** [VibeVoice](vibevoice.md) (long multi-speaker), [VieNeu-TTS](vieneu-tts.md) (VN local), [OmniVoice Studio](omnivoice-studio.md) (desktop studio), [Voicebox](voicebox.md) (studio + MCP).
 
-## Điểm khác biệt kỹ thuật
+## Dùng khi nào?
 
-| Đặc điểm | Ý nghĩa |
-|----------|---------|
-| Tokenizer-free | Không phụ thuộc phoneme/token TTS truyền thống |
-| Multilingual | Một model nhiều ngôn ngữ |
-| Voice design | Tạo persona giọng mới không cần dataset lớn |
-| Cloning | Few-shot từ audio mẫu |
+| Nhu cầu | VoxCPM |
+|---------|--------|
+| TTS đa ngôn ngữ + clone few-shot | ✅ |
+| Creative voice design (persona mới) | ✅ |
+| Long podcast multi-speaker | → [VibeVoice](vibevoice.md) |
+| TTS tiếng Việt chuyên sâu | → [VieNeu-TTS](vieneu-tts.md) |
+| Cloud ElevenLabs SaaS | → commercial API |
 
-## Use case
+## Chạy thử
 
-- **Trợ lý ảo Odoo** — đọc báo cáo, thông báo
-- **IVR / call center** — giọng thống nhất thương hiệu
-- **Dubbing** nội dung đa ngôn ngữ
-- **Accessibility** — đọc nội dung ERP cho người khiếm thị
+```bash
+# Xem README repo OpenBMB/VoxCPM
+git clone https://github.com/OpenBMB/VoxCPM.git && cd VoxCPM
+pip install -e .
+```
 
-## So sánh
+Pipeline gợi ý: Text từ LLM / report → VoxCPM TTS → Audio file → attachment / ntfy push.
+
+## So với tool khác
 
 | | VoxCPM | ElevenLabs | OmniVoice Studio |
 |--|--------|------------|------------------|
@@ -41,26 +42,14 @@ OpenBMB (Tsinghua) — cùng hệ sinh thái với MiniCPM.
 | License | Open (kiểm tra repo) | Commercial | Open |
 | Latency | Tùy GPU | API | Local GPU |
 
-## Pipeline gợi ý (Odoo)
+## Dùng với Odoo / ai_core
 
-```
-Text từ LLM / report
-        │
-        ▼
-VoxCPM TTS
-        │
-        ▼
-Audio file → attachment / ntfy push
-```
-
-## Liên quan ai_core
-
-- TTS provider abstraction (tương tự Ollama cho LLM)
-- Kết hợp `faster-whisper` cho voice chat hai chiều
+- Trợ lý ảo Odoo — đọc báo cáo, thông báo (TTS provider abstraction).  
+- IVR / call center — giọng thống nhất thương hiệu.  
+- Kết hợp `faster-whisper` cho voice chat hai chiều.
 
 ## Link
 
-- Repo: https://github.com/OpenBMB/VoxCPM
-- Long multi-speaker peer: [vibevoice.md](vibevoice.md)
-- Vietnamese local TTS: [vieneu-tts.md](vieneu-tts.md)
-- OpenBMB: https://github.com/OpenBMB
+- Repo: https://github.com/OpenBMB/VoxCPM  
+- OpenBMB: https://github.com/OpenBMB  
+- Peers: [vibevoice.md](vibevoice.md) · [vieneu-tts.md](vieneu-tts.md) · [omnivoice-studio.md](omnivoice-studio.md) · [voicebox.md](voicebox.md)

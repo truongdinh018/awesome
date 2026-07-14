@@ -6,13 +6,15 @@
 > **Ngôn ngữ:** Python · Remotion (React) · HyperFrames · **⭐** ~38.3k · **License:** AGPL-3.0  
 > README CN: [README_zh-CN.md](https://github.com/calesthio/OpenMontage/blob/main/README_zh-CN.md)
 
-## Tổng quan
+## Đây là gì?
 
-**OpenMontage** — hệ thống **agentic video production** open-source: biến coding assistant (Claude Code, Cursor, Copilot, Windsurf, Codex) thành studio — research → script → assets → edit → compose. **12 pipelines · 52 tools · 500+ skills**. Compose qua **Remotion** hoặc **HyperFrames**; Backlot = living storyboard / approval gate local. Hỗ trợ cả “video thật” từ stock/archive, không chỉ Ken Burns trên stills.
+**OpenMontage** là hệ thống **agentic video production** open-source: biến coding assistant (Claude Code, Cursor, Copilot, Windsurf, Codex) thành studio — research → script → assets → edit → compose.
 
-Peer: [HyperFrames](hyperframes.md) (render runtime), [AI-auto-generate-video](ai-auto-generate-video.md), [HTML Anything](html-anything.md), [AudioBook KJ](audiobook-kj.md), [Addy's Agent Skills](agent-skills.md).
+Có **12 pipelines · 52 tools · 500+ skills**. Compose qua **Remotion** hoặc **HyperFrames**; Backlot = living storyboard / approval gate local. Hỗ trợ cả “video thật” từ stock/archive, không chỉ Ken Burns trên stills.
 
-## Để làm gì?
+**Cùng kiểu:** [HyperFrames](hyperframes.md), [AI-auto-generate-video](ai-auto-generate-video.md), [HTML Anything](html-anything.md), [AudioBook KJ](audiobook-kj.md), [Addy's Agent Skills](agent-skills.md)
+
+## Dùng khi nào?
 
 | Nhu cầu | OpenMontage |
 |---------|-------------|
@@ -22,7 +24,7 @@ Peer: [HyperFrames](hyperframes.md) (render runtime), [AI-auto-generate-video](a
 | Chỉ engine HTML→MP4 | → [HyperFrames](hyperframes.md) |
 | Shorts TikTok cứng template | → [AI-auto-generate-video](ai-auto-generate-video.md) |
 
-## Highlight
+## Chạy thử
 
 ```bash
 git clone https://github.com/calesthio/OpenMontage.git && cd OpenMontage
@@ -31,12 +33,9 @@ make setup
 python -m backlot open              # living storyboard library
 ```
 
-- Optional keys: fal / Kling / OpenAI / ElevenLabs / Runway / Pexels…  
-- GPU local: `make install-gpu` (Wan, Hunyuan, LTX…)  
-- Self-review: ffprobe · frame sample · audio levels · subtitle checks  
-- AGPL-3.0 — chú ý license khi embed commercial  
+Optional keys: fal / Kling / OpenAI / ElevenLabs / Runway / Pexels… GPU local: `make install-gpu` (Wan, Hunyuan, LTX…). AGPL-3.0 — chú ý license khi embed commercial.
 
-## So sánh catalog
+## So với tool khác
 
 | | OpenMontage | HyperFrames | AI-auto-generate-video |
 |--|-------------|-------------|------------------------|
@@ -44,7 +43,7 @@ python -m backlot open              # living storyboard library
 | Shape | Pipelines + 500+ skills | Render framework | Domain skill pack |
 | Tags | `video` `agent` `skill` `workflow` | `video` `cli` `agent` | `video` `skill` `tts` |
 
-## Use case Odoo / ai_core
+## Dùng với Odoo / ai_core
 
 - Training / release explainer từ changelog module (agent trong Cursor).  
 - Product demos marketing với approval gate Backlot.  

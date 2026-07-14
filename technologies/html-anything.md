@@ -6,13 +6,13 @@
 > **Ngôn ngữ:** Next.js · HTML · **⭐** ~7.8k · **License:** Apache-2.0  
 > Site: [open-design.ai/html-anything](https://open-design.ai/html-anything/) · Built on [open-design](https://github.com/nexu-io/open-design)
 
-## Tổng quan
+## Đây là gì?
 
-**HTML Anything** — *agentic HTML editor* local-first: AI coding CLI (Claude/Cursor/Codex/Gemini/Copilot/OpenCode/Qwen/Aider) viết **single-file HTML ship-ready** từ Markdown/CSV/JSON/notes — **zero API key** (reuse login session). **75 skills × 9 surfaces** (magazine, deck, poster, XHS/tweet, prototype, data report, **Hyperframes**…). Preview sandboxed; 1-click export WeChat / X / Zhihu / HTML / PNG.
+**HTML Anything** là *agentic HTML editor* local-first: AI coding CLI (Claude/Cursor/Codex/Gemini/Copilot/OpenCode/Qwen/Aider) viết **single-file HTML ship-ready** từ Markdown/CSV/JSON/notes — **zero API key** (reuse login session). **75 skills × 9 surfaces** (magazine, deck, poster, XHS/tweet, prototype, data report, **Hyperframes**…). Preview sandboxed; 1-click export WeChat / X / Zhihu / HTML / PNG.
 
-Peer: [HyperFrames](hyperframes.md) (render frame → mp4), [AI Website Cloner](ai-website-cloner.md) (URL → Next app), [AI-auto-generate-video](ai-auto-generate-video.md) (VN short pipeline), [CLI-Anything](cli-anything.md) / [Ponytail](ponytail.md) (skill ecosystem).
+**Cùng kiểu:** [HyperFrames](hyperframes.md) (render frame → mp4), [AI Website Cloner](ai-website-cloner.md) (URL → Next app), [AI-auto-generate-video](ai-auto-generate-video.md) (VN short pipeline), [CLI-Anything](cli-anything.md) / [Ponytail](ponytail.md) (skill ecosystem).
 
-## Để làm gì?
+## Dùng khi nào?
 
 | Nhu cầu | HTML Anything |
 |---------|---------------|
@@ -22,7 +22,7 @@ Peer: [HyperFrames](hyperframes.md) (render frame → mp4), [AI Website Cloner](
 | Screenshot UI → React | → [ScreenCoder](screencoder.md) / Cloner |
 | Full video pipeline TTS | → [AI-auto-generate-video](ai-auto-generate-video.md) |
 
-## Highlight
+## Chạy thử
 
 ```bash
 git clone https://github.com/nexu-io/html-anything
@@ -30,11 +30,9 @@ cd html-anything && pnpm install
 pnpm -F @html-anything/next dev   # → :3000
 ```
 
-- SSE streaming preview · interrupt & re-prompt  
-- Agent stays on laptop; Vercel chỉ web layer  
-- CJK-first · anti-slop constraints trong mỗi `SKILL.md`  
+SSE streaming preview · interrupt & re-prompt. Agent stays on laptop; Vercel chỉ web layer. CJK-first · anti-slop constraints trong mỗi `SKILL.md`.
 
-## So sánh catalog
+## So với tool khác
 
 | | HTML Anything | HyperFrames | AI Website Cloner |
 |--|---------------|-------------|-------------------|
@@ -42,7 +40,7 @@ pnpm -F @html-anything/next dev   # → :3000
 | Agent | Local CLI (BYO session) | Agent-native video | Coding agents |
 | Tags | `skill` `coding-agent` `video` | `video` `cli` `agent` | `ui-to-code` `skill` |
 
-## Use case Odoo / ai_core
+## Dùng với Odoo / ai_core
 
 - Pitch / release notes / training deck từ markdown nội bộ.  
 - Social card marketing Odoo module.  
