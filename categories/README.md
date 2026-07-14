@@ -51,7 +51,7 @@ flowchart TB
     CV --> T_SP
 ```
 
-**Phân bố ★:** Agents 24 · Speech 12 · Image/Video 10 · UI 4 · DevTools 23 · CV 2 · Security 1 · **= 76**
+**Phân bố ★:** Agents 24 · Speech 12 · Image/Video 11 · UI 4 · DevTools 23 · CV 2 · Security 1 · **= 77**
 
 ---
 
@@ -164,13 +164,19 @@ flowchart TB
 | OpenMontage | `video` `agent` `skill` `coding-agent` `workflow` `cli` `tts` | [openmontage.md](../technologies/openmontage.md) |
 | AI-auto-generate-video | `video` `skill` `tts` `cli` `agent` | [ai-auto-generate-video.md](../technologies/ai-auto-generate-video.md) |
 
-### 3.2 Localize · dub
+### 3.2 Browser NLE
+
+| Công nghệ | Tags | Bài viết |
+|-----------|------|----------|
+| FreeCut | `video` `self-host` `stt` `tts` | [freecut.md](../technologies/freecut.md) |
+
+### 3.3 Localize · dub
 
 | Công nghệ | Tags | Bài viết |
 |-----------|------|----------|
 | pyVideoTrans | `video` `stt` `tts` `voice-clone` `desktop` `self-host` `cli` | [pyvideotrans.md](../technologies/pyvideotrans.md) |
 
-### 3.3 UI → code · Agentic HTML
+### 3.4 UI → code · Agentic HTML
 
 | Công nghệ | Tags | Bài viết |
 |-----------|------|----------|
@@ -178,7 +184,7 @@ flowchart TB
 | AI Website Cloner | `ui-to-code` `coding-agent` `skill` | [ai-website-cloner.md](../technologies/ai-website-cloner.md) |
 | HTML Anything | `skill` `coding-agent` `agent` `video` `self-host` | [html-anything.md](../technologies/html-anything.md) |
 
-### 3.4 CAD · 3D · Game (harness)
+### 3.5 CAD · 3D · Game (harness)
 
 | Harness | Tags | Bài viết |
 |---------|------|----------|
@@ -186,7 +192,7 @@ flowchart TB
 | Blender | `harness` `3d` `cli` | [blender.md](../technologies/cli-anything/blender.md) |
 | Godot | `harness` `game` `cli` | [godot.md](../technologies/cli-anything/godot.md) |
 
-### 3.5 Watermark · playlists
+### 3.6 Watermark · playlists
 
 | Công nghệ | Tags | Bài viết |
 |-----------|------|----------|
