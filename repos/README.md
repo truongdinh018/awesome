@@ -1,6 +1,6 @@
 # Starred Repos — Index
 
-> **71 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-07-14** (OCR cluster)  
+> **72 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-07-14** (sherpa-onnx)  
 > **Primary** = 1 nhóm mục lục · **Tags** = nhiều capability  
 > Duyệt theo domain: [../README.md](../README.md) · Quy tắc: [../categories/README.md](../categories/README.md)
 
@@ -77,6 +77,7 @@
 | 69 | [deepseek-ai/DeepSeek-OCR](https://huggingface.co/deepseek-ai/DeepSeek-OCR) | HF❤️3.3k | — | DevTools | `ocr` `self-host` `cli` `api` | [deepseek-ocr.md](../technologies/deepseek-ocr.md) |
 | 70 | [nvidia/LocateAnything-3B](https://huggingface.co/nvidia/LocateAnything-3B) | HF❤️2.7k | — | CV & Edge | `cv` `ocr` `self-host` `cli` | [locate-anything.md](../technologies/locate-anything.md) |
 | 71 | [mcikalmerdeka/vlms-ocr-playground](https://huggingface.co/spaces/mcikalmerdeka/vlms-ocr-playground) | Space | Gradio | DevTools | `ocr` `self-host` | [vlms-ocr-playground.md](../technologies/vlms-ocr-playground.md) |
+| 72 | [k2-fsa/sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) | 13.6k | C++ | Speech | `stt` `tts` `edge` `self-host` `cli` `api` | [sherpa-onnx.md](../technologies/sherpa-onnx.md) |
 
 ## Mô tả ngắn (GitHub)
 

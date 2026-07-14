@@ -65,3 +65,4 @@ for segment in segments:
 - Industrial ASR toolkit peer: [funasr.md](funasr.md)
 - CapCut unofficial CLI (cloud STT/TTS): [capcut-tts-api.md](capcut-tts-api.md)
 - Video translate / dub suite: [pyvideotrans.md](pyvideotrans.md)
+- Offline edge ASR/TTS kit: [sherpa-onnx.md](sherpa-onnx.md)

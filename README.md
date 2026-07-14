@@ -6,10 +6,10 @@
 
 ### Catalog công nghệ AI — star → Primary + multi-tags → bài viết chi tiết
 
-**7 domain · ~30 tags · 71 ★ · 11 CLI harness**
+**7 domain · ~30 tags · 72 ★ · 11 CLI harness**
 
 <p>
-  <img src="https://img.shields.io/badge/Technologies-71-success?style=flat-square" />
+  <img src="https://img.shields.io/badge/Technologies-72-success?style=flat-square" />
   <img src="https://img.shields.io/badge/CLI_harnesses-11-informational?style=flat-square" />
   <img src="https://img.shields.io/badge/Categories-7-blue?style=flat-square" />
   <img src="https://img.shields.io/badge/Multi--tags-yes-purple?style=flat-square" />
@@ -40,7 +40,7 @@
    - [5. CV & Edge](#5-computer-vision--edge)
    - [6. DevTools](#6-devtools--integration)
    - [7. Security](#7-security--pentesting)
-5. [Index 71 ★ theo Primary](#index-71--theo-primary)
+5. [Index 72 ★ theo Primary](#index-72--theo-primary)
 6. [Cấu trúc · Cập nhật](#cấu-trúc-thư-mục)
 
 ---
@@ -122,8 +122,8 @@ Star GitHub  →  repos/README.md  →  technologies/<slug>.md  →  README + ca
 | `rag` | RAGFlow · WeKnora · AnythingLLM · SAG · Pathway · Understand Anything |
 | `extract` | Hyper-Extract |
 | `skill` / `prompt` | CLI-Anything · Addy's Agent Skills · Ponytail · prompts.chat · OpenMontage |
-| `stt` | faster-whisper · FunASR · Voicebox · pyVideoTrans |
-| `tts` / `voice-clone` | Voicebox · VieNeu-TTS · VoxCPM · VibeVoice · OmniVoice |
+| `stt` | faster-whisper · FunASR · sherpa-onnx · Voicebox · pyVideoTrans |
+| `tts` / `voice-clone` | Voicebox · VieNeu-TTS · VoxCPM · VibeVoice · OmniVoice · sherpa-onnx *(TTS)* |
 | `video` | OpenMontage · HyperFrames · ComfyUI · pyVideoTrans |
 | `ui-automation` / `browser` | Midscene · Stagehand · Page Agent · Puppeteer |
 | `api` / `self-host` | LocalAI · FreeLLMAPI · Stirling-PDF · hầu hết RAG stack |
@@ -196,6 +196,7 @@ Star GitHub  →  repos/README.md  →  technologies/<slug>.md  →  README + ca
 |-----------|------|----------|
 | **faster-whisper** | `stt` `cli` | [faster-whisper.md](technologies/faster-whisper.md) |
 | **FunASR** | `stt` `cli` `api` `self-host` `mcp` | [funasr.md](technologies/funasr.md) |
+| **sherpa-onnx** | `stt` `tts` `edge` `self-host` `cli` `api` | [sherpa-onnx.md](technologies/sherpa-onnx.md) |
 | **CapCut TTS/STT API** | `stt` `tts` `cli` `api` | [capcut-tts-api.md](technologies/capcut-tts-api.md) |
 | └ VideoCaptioner harness | `harness` `stt` `video` | [cli-anything/videocaptioner.md](technologies/cli-anything/videocaptioner.md) |
 
@@ -215,6 +216,7 @@ Star GitHub  →  repos/README.md  →  technologies/<slug>.md  →  README + ca
 | **VoxCPM** | `tts` `voice-clone` | [voxcpm.md](technologies/voxcpm.md) |
 | **VibeVoice** | `tts` `voice-clone` `self-host` | [vibevoice.md](technologies/vibevoice.md) |
 | **VieNeu-TTS** | `tts` `voice-clone` `self-host` `api` `desktop` | [vieneu-tts.md](technologies/vieneu-tts.md) |
+| **sherpa-onnx** | *(xem 2.1 — cũng TTS edge)* | |
 
 #### 2.4 Audiobook / narration pipeline
 
@@ -228,6 +230,7 @@ Star GitHub  →  repos/README.md  →  technologies/<slug>.md  →  README + ca
 |-----------|------|----------|
 | **AudioSeal** | `watermark` | [audioseal.md](technologies/audioseal.md) |
 | **XiaoZhi ESP32** | `stt` `tts` `edge` `iot` `mcp` | [xiaozhi-esp32.md](technologies/xiaozhi-esp32.md) |
+| **sherpa-onnx** | *(xem 2.1 — ONNX edge runtime)* | |
 
 > Blind watermark ảnh: [blind_watermark](technologies/blind-watermark.md) *(Primary §3)*.
 
@@ -375,7 +378,7 @@ Star GitHub  →  repos/README.md  →  technologies/<slug>.md  →  README + ca
 
 ---
 
-## Index 71 ★ theo Primary
+## Index 72 ★ theo Primary
 
 > `#` = ID trong [repos/README.md](repos/README.md) (thứ tự star). Bên dưới nhóm theo **Primary** để duyệt nhanh.
 
@@ -408,7 +411,7 @@ Star GitHub  →  repos/README.md  →  technologies/<slug>.md  →  README + ca
 | 53 | [TencentDB Agent Memory](technologies/tencentdb-agent-memory.md) | `agent` `self-host` `coding-agent` |
 | 58 | [Understand Anything](technologies/understand-anything.md) | `skill` `coding-agent` `rag` `cli` `agent` |
 
-### Speech & Audio (11)
+### Speech & Audio (12)
 
 | # | Công nghệ | Tags |
 |---|-----------|------|
@@ -423,6 +426,7 @@ Star GitHub  →  repos/README.md  →  technologies/<slug>.md  →  README + ca
 | 60 | [CapCut TTS/STT API](technologies/capcut-tts-api.md) | `stt` `tts` `cli` `api` |
 | 62 | [VieNeu-TTS](technologies/vieneu-tts.md) | `tts` `voice-clone` `self-host` `api` `desktop` |
 | 64 | [Voicebox](technologies/voicebox.md) | `stt` `tts` `voice-clone` `desktop` `self-host` `mcp` `api` |
+| 72 | [sherpa-onnx](technologies/sherpa-onnx.md) | `stt` `tts` `edge` `self-host` `cli` `api` |
 
 ### Image & Video (10)
 
@@ -525,6 +529,6 @@ awesome-ai/
 
 **Awesome AI Knowledge Base**
 
-*2026-07-14 — 71 ★ · thêm cụm OCR (MinerU · Hunyuan · dots · Nanonets · DeepSeek · LocateAnything · Playground)*
+*2026-07-14 — 72 ★ · thêm sherpa-onnx*
 
 </div>

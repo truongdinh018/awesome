@@ -51,4 +51,4 @@ funasr-server --device cuda   # → localhost:8000 OpenAI-compat
 
 - Repo: https://github.com/modelscope/FunASR  
 - Docs · ModelScope / HF FunAudioLLM  
-- Peers: [faster-whisper.md](faster-whisper.md) · [localai.md](localai.md) · [omnivoice-studio.md](omnivoice-studio.md) · [capcut-tts-api.md](capcut-tts-api.md)
+- Peers: [faster-whisper.md](faster-whisper.md) · [localai.md](localai.md) · [omnivoice-studio.md](omnivoice-studio.md) · [capcut-tts-api.md](capcut-tts-api.md) · [sherpa-onnx.md](sherpa-onnx.md)

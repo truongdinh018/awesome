@@ -51,7 +51,7 @@ flowchart TB
     CV --> T_SP
 ```
 
-**Phân bố ★:** Agents 24 · Speech 11 · Image/Video 10 · UI 4 · DevTools 19 · CV 2 · Security 1 · **= 71**
+**Phân bố ★:** Agents 24 · Speech 12 · Image/Video 10 · UI 4 · DevTools 19 · CV 2 · Security 1 · **= 72**
 
 ---
 
@@ -114,6 +114,7 @@ flowchart TB
 |-----------|------|----------|
 | faster-whisper | `stt` `cli` | [faster-whisper.md](../technologies/faster-whisper.md) |
 | FunASR | `stt` `cli` `api` `self-host` `mcp` | [funasr.md](../technologies/funasr.md) |
+| sherpa-onnx | `stt` `tts` `edge` `self-host` `cli` `api` | [sherpa-onnx.md](../technologies/sherpa-onnx.md) |
 | CapCut TTS/STT API | `stt` `tts` `cli` `api` | [capcut-tts-api.md](../technologies/capcut-tts-api.md) |
 | VideoCaptioner harness | `harness` `stt` `video` | [videocaptioner.md](../technologies/cli-anything/videocaptioner.md) |
 
@@ -131,6 +132,7 @@ flowchart TB
 | VoxCPM | `tts` `voice-clone` | [voxcpm.md](../technologies/voxcpm.md) |
 | VibeVoice | `tts` `voice-clone` `self-host` | [vibevoice.md](../technologies/vibevoice.md) |
 | VieNeu-TTS | `tts` `voice-clone` `self-host` `api` `desktop` | [vieneu-tts.md](../technologies/vieneu-tts.md) |
+| sherpa-onnx | *(đa tag — xem 2.1)* | |
 
 ### 2.4 Audiobook pipeline
 
@@ -144,6 +146,7 @@ flowchart TB
 |-----------|------|----------|
 | AudioSeal | `watermark` | [audioseal.md](../technologies/audioseal.md) |
 | XiaoZhi ESP32 | `stt` `tts` `edge` `iot` `mcp` | [xiaozhi-esp32.md](../technologies/xiaozhi-esp32.md) |
+| sherpa-onnx | *(đa tag — xem 2.1)* | |
 
 > Ảnh: [blind_watermark](../technologies/blind-watermark.md) *(Primary Image & Video)*.
 
