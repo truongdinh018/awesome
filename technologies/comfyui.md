@@ -63,6 +63,13 @@
 - Agent gọi ComfyUI API qua MCP tool → lưu ảnh `ir.attachment`
 - Workflow JSON version control trong repo marketing
 
+## Liên quan CLI-Anything (con)
+
+Harness agent-native CLI (cha [CLI-Anything](cli-anything.md)):
+
+- Bài harness: [cli-anything/comfyui.md](cli-anything/comfyui.md)
+- Path: [`comfyui/agent-harness`](https://github.com/HKUDS/CLI-Anything/tree/main/comfyui/agent-harness)
+
 ## Link
 
 - Repo: https://github.com/Comfy-Org/ComfyUI
