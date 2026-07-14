@@ -1,7 +1,8 @@
 # Starred Repos — Index
 
-> **64 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-07-14** (Voicebox)  
-> **Primary** = 1 nhóm mục lục · **Tags** = nhiều capability (repo đa năng gắn nhiều tags)
+> **64 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-07-14** (tái cấu trúc README)  
+> **Primary** = 1 nhóm mục lục · **Tags** = nhiều capability  
+> Duyệt theo domain: [../README.md](../README.md) · Quy tắc: [../categories/README.md](../categories/README.md)
 
 | # | Repo | ⭐ | Lang | Primary | Tags | Bài viết |
 |---|------|---|------|---------|------|----------|
