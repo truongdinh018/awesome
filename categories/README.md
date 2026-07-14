@@ -269,6 +269,13 @@ flowchart TB
 
 > [ai-training](../../ai-training/README.md)
 
+### 6.5 Datasets · Vietnam legal (RAG)
+
+| Công nghệ | Tags | Bài viết |
+|-----------|------|----------|
+| Án lệ TOAAN | `rag` `dataset` `self-host` | [anle-toaan.md](../technologies/anle-toaan.md) |
+| Bộ Pháp Điển MOJ | `rag` `dataset` `self-host` | [phapdien-moj.md](../technologies/phapdien-moj.md) |
+
 ---
 
 ## 7. Security & Pentesting

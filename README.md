@@ -542,6 +542,6 @@ awesome-ai/
 
 **Awesome AI Knowledge Base**
 
-*2026-07-14 — 72 ★ · thêm sherpa-onnx*
+*2026-07-14 — 74 ★ · thêm datasets án lệ TOAAN + Bộ Pháp Điển MOJ*
 
 </div>

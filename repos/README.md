@@ -78,6 +78,8 @@
 | 70 | [nvidia/LocateAnything-3B](https://huggingface.co/nvidia/LocateAnything-3B) | HF❤️2.7k | — | CV & Edge | `cv` `ocr` `self-host` `cli` | [locate-anything.md](../technologies/locate-anything.md) |
 | 71 | [mcikalmerdeka/vlms-ocr-playground](https://huggingface.co/spaces/mcikalmerdeka/vlms-ocr-playground) | Space | Gradio | DevTools | `ocr` `self-host` | [vlms-ocr-playground.md](../technologies/vlms-ocr-playground.md) |
 | 72 | [k2-fsa/sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) | 13.6k | C++ | Speech | `stt` `tts` `edge` `self-host` `cli` `api` | [sherpa-onnx.md](../technologies/sherpa-onnx.md) |
+| 73 | [tmquan/anle-toaan-gov-vn](https://huggingface.co/datasets/tmquan/anle-toaan-gov-vn) | HF❤️9 | Dataset | DevTools | `rag` `dataset` `self-host` | [anle-toaan.md](../technologies/anle-toaan.md) |
+| 74 | [tmquan/phapdien-moj-gov-vn](https://huggingface.co/datasets/tmquan/phapdien-moj-gov-vn) | HF❤️9 | Dataset | DevTools | `rag` `dataset` `self-host` | [phapdien-moj.md](../technologies/phapdien-moj.md) |
 
 ## Mô tả ngắn (GitHub)
 
@@ -155,6 +157,8 @@
 | LocateAnything-3B | NVIDIA VL grounding / text localization |
 | VLMs OCR Playground | Gradio Space to compare open VLM OCR models |
 | sherpa-onnx | Offline STT/TTS/VAD/diarization (Kaldi + ONNX, edge ready) |
+| Án lệ TOAAN | Vietnamese court judgments + precedents corpus (TOAAN) |
+| Bộ Pháp Điển MOJ | Article-level Vietnamese legal codification (MOJ) |
 
 ## Ecosystem — CLI-Anything harnesses (con của #16)
 
