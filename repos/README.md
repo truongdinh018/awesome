@@ -358,3 +358,201 @@
 # 4. Cập nhật README.md gốc + categories/ (subgroup phù hợp)
 # Harness CLI-Anything → technologies/cli-anything/<slug>.md
 ```
+
+---
+
+## Index theo Primary
+
+> `#` = ID trong [repos/README.md](repos/README.md) (thứ tự star). Bên dưới nhóm theo **Primary** để duyệt nhanh.
+
+### MCP & Agents (54)
+
+| # | Công nghệ | Tags |
+|---|-----------|------|
+| 2 | [NotebookLM MCP](../technologies/notebooklm-mcp.md) | `mcp` `rag` |
+| 3 | [Destructive Command Guard](../technologies/destructive-command-guard.md) | `guardrail` `cli` |
+| 15 | [SAG](../technologies/sag.md) | `rag` `mcp` `self-host` |
+| 16 | [CLI-Anything](../technologies/cli-anything.md) | `cli` `harness` `skill` `agent` |
+| 18 | [prompts.chat](../technologies/prompts-chat.md) | `prompt` `mcp` `cli` `self-host` |
+| 19 | [drawio-skill](../technologies/drawio-skill.md) | `skill` `diagram` `cli` |
+| 21 | [Hyper-Extract](../technologies/hyper-extract.md) | `extract` `rag` `mcp` `cli` |
+| 22 | [Hermes Agent](../technologies/hermes-agent.md) | `agent` `mcp` `skill` `cli` `self-host` |
+| 23 | [OpenHands](../technologies/openhands.md) | `coding-agent` `agent` `self-host` |
+| 26 | [Ponytail](../technologies/ponytail.md) | `skill` `coding-agent` `prompt` |
+| 27 | [PageIndex](../technologies/pageindex.md) | `rag` `mcp` `self-host` `cli` |
+| 32 | [EpicStaff](../technologies/epicstaff.md) | `agent` `mcp` `rag` `self-host` `workflow` |
+| 34 | [Headroom](../technologies/headroom.md) | `mcp` `cli` `agent` `coding-agent` `self-host` |
+| 36 | [WeKnora](../technologies/weknora.md) | `rag` `mcp` `agent` `self-host` `cli` `skill` |
+| 37 | [RAGFlow](../technologies/ragflow.md) | `rag` `agent` `mcp` `self-host` `api` |
+| 38 | [AnythingLLM](../technologies/anything-llm.md) | `rag` `agent` `mcp` `self-host` `desktop` `api` |
+| 39 | [Open Notebook](../technologies/open-notebook.md) | `rag` `self-host` `api` `tts` |
+| 40 | [Khoj](../technologies/khoj.md) | `rag` `agent` `self-host` `desktop` `stt` |
+| 41 | [SurfSense](../technologies/surfsense.md) | `rag` `agent` `mcp` `self-host` `api` `workflow` |
+| 43 | [PixelRAG](../technologies/pixelrag.md) | `rag` `cli` `skill` `api` |
+| 50 | [Addy's Agent Skills](../technologies/agent-skills.md) | `skill` `coding-agent` `prompt` |
+| 52 | [Pathway](../technologies/pathway.md) | `rag` `cli` `self-host` `workflow` `api` |
+| 53 | [TencentDB Agent Memory](../technologies/tencentdb-agent-memory.md) | `agent` `self-host` `coding-agent` |
+| 58 | [Understand Anything](../technologies/understand-anything.md) | `skill` `coding-agent` `rag` `cli` `agent` |
+| 78 | [Atomic Agents](../technologies/atomic-agents.md) | `agent` `cli` `api` `workflow` |
+| 81 | [Taste Skill](../technologies/taste-skill.md) | `skill` `coding-agent` `prompt` `image-gen` |
+| 86 | [Scrapling](../technologies/scrapling.md) | `extract` `mcp` `cli` `browser` `self-host` |
+| 87 | [Happy](../technologies/happy.md) | `coding-agent` `cli` `agent` `self-host` `desktop` |
+| 89 | [OpenHuman](../technologies/openhuman.md) | `rag` `agent` `mcp` `self-host` `desktop` `workflow` `skill` |
+| 90 | [Vibe Kanban](../technologies/vibe-kanban.md) | `coding-agent` `agent` `cli` `self-host` `workflow` `mcp` |
+| 95 | [MiroFish](../technologies/mirofish.md) | `agent` `self-host` `rag` `workflow` `api` |
+| 96 | [knowledge-work-plugins](../technologies/knowledge-work-plugins.md) | `skill` `prompt` `workspace` `office` |
+| 100 | [CC Workflow Studio](../technologies/cc-wf-studio.md) | `coding-agent` `skill` `mcp` `cli` `workflow` |
+| 107 | [Caveman](../technologies/caveman.md) | `skill` `coding-agent` `prompt` `cli` `mcp` |
+| 108 | [Spec Kit](../technologies/spec-kit.md) | `coding-agent` `skill` `cli` `workflow` `prompt` |
+| 109 | [AI Engineering Coach](../technologies/ai-engineering-coach.md) | `coding-agent` `skill` `desktop` `cli` |
+| 111 | [Agent Governance Toolkit](../technologies/agent-governance-toolkit.md) | `guardrail` `security` `agent` `cli` `mcp` |
+| 114 | [Crawl4AI](../technologies/crawl4ai.md) | `extract` `cli` `browser` `self-host` `api` |
+| 115 | [Semble](../technologies/semble.md) | `mcp` `cli` `coding-agent` `rag` `self-host` |
+| 124 | [Trilium Notes](../technologies/trilium.md) | `rag` `self-host` `desktop` `api` |
+| 126 | [Lanes](../technologies/lanes.md) | `coding-agent` `agent` `desktop` `mcp` `workflow` `cli` |
+| 128 | [Docmost](../technologies/docmost.md) | `rag` `self-host` `api` `workspace` |
+| 131 | [Gitingest](../technologies/gitingest.md) | `cli` `coding-agent` `rag` `self-host` |
+| 132 | [Easy-Vibe](../technologies/easy-vibe.md) | `coding-agent` `skill` `prompt` `workflow` |
+| 133 | [Firecrawl](../technologies/firecrawl.md) | `extract` `api` `mcp` `cli` `self-host` `browser` |
+| 140 | [Karpathy Guidelines](../technologies/karpathy-skills.md) | `skill` `coding-agent` `prompt` |
+| 141 | [Matt Pocock Skills](../technologies/mattpocock-skills.md) | `skill` `coding-agent` `prompt` |
+| 142 | [Claude-Mem](../technologies/claude-mem.md) | `agent` `coding-agent` `mcp` `self-host` `rag` |
+| 143 | [GitReverse](../technologies/gitreverse.md) | `coding-agent` `prompt` `self-host` |
+| 148 | [Vibe-Trading](../technologies/vibe-trading.md) | `agent` `mcp` `skill` `cli` `self-host` `workflow` `desktop` |
+| 149 | [ghgrab](../technologies/ghgrab.md) | `cli` `coding-agent` `self-host` |
+| 152 | [OpenSpace](../technologies/openspace.md) | `skill` `agent` `mcp` `cli` `self-host` `coding-agent` `workflow` |
+| 153 | [Claude Peers MCP](../technologies/claude-peers-mcp.md) | `mcp` `coding-agent` `agent` `cli` `self-host` |
+| 154 | [DeerFlow](../technologies/deer-flow.md) | `agent` `skill` `coding-agent` `self-host` `workflow` `mcp` `cli` |
+
+### Speech & Audio (19)
+
+| # | Công nghệ | Tags |
+|---|-----------|------|
+| 5 | [AudioSeal](../technologies/audioseal.md) | `watermark` |
+| 6 | [faster-whisper](../technologies/faster-whisper.md) | `stt` `cli` |
+| 7 | [OmniVoice Studio](../technologies/omnivoice-studio.md) | `stt` `tts` `voice-clone` `desktop` `self-host` |
+| 8 | [VoxCPM](../technologies/voxcpm.md) | `tts` `voice-clone` |
+| 14 | [XiaoZhi ESP32](../technologies/xiaozhi-esp32.md) | `stt` `tts` `edge` `iot` `mcp` |
+| 55 | [FunASR](../technologies/funasr.md) | `stt` `cli` `api` `self-host` `mcp` |
+| 57 | [VibeVoice](../technologies/vibevoice.md) | `tts` `voice-clone` `self-host` |
+| 59 | [AudioBook KJ](../technologies/audiobook-kj.md) | `tts` `voice-clone` `desktop` `self-host` `video` |
+| 60 | [CapCut TTS/STT API](../technologies/capcut-tts-api.md) | `stt` `tts` `cli` `api` |
+| 62 | [VieNeu-TTS](../technologies/vieneu-tts.md) | `tts` `voice-clone` `self-host` `api` `desktop` |
+| 64 | [Voicebox](../technologies/voicebox.md) | `stt` `tts` `voice-clone` `desktop` `self-host` `mcp` `api` |
+| 72 | [sherpa-onnx](../technologies/sherpa-onnx.md) | `stt` `tts` `edge` `self-host` `cli` `api` |
+| 79 | [CosyVoice](../technologies/cosyvoice.md) | `tts` `voice-clone` `self-host` `api` `cli` |
+| 91 | [MOSS-TTS](../technologies/moss-tts.md) | `tts` `voice-clone` `self-host` `api` `cli` |
+| 99 | [Voice-Pro](../technologies/voice-pro.md) | `stt` `tts` `voice-clone` `self-host` `desktop` `video` |
+| 105 | [SoulX-Singer](../technologies/soulx-singer.md) | `tts` `voice-clone` `self-host` `cli` |
+| 119 | [Supertonic](../technologies/supertonic.md) | `tts` `voice-clone` `self-host` `cli` `api` `edge` |
+| 120 | [KhanhTTS-OmniVoice](../technologies/khanhtts-omnivoice.md) | `tts` `voice-clone` `self-host` `cli` |
+| 150 | [LuxTTS](../technologies/luxtts.md) | `tts` `voice-clone` `self-host` `cli` |
+
+### Image & Video (19)
+
+| # | Công nghệ | Tags |
+|---|-----------|------|
+| 4 | [ScreenCoder](../technologies/screencoder.md) | `ui-to-code` |
+| 9 | [ComfyUI](../technologies/comfyui.md) | `image-gen` `video` `self-host` |
+| 11 | [HyperFrames](../technologies/hyperframes.md) | `video` `cli` `agent` |
+| 20 | [AI Website Cloner](../technologies/ai-website-cloner.md) | `ui-to-code` `coding-agent` `skill` |
+| 28 | [AI-auto-generate-video](../technologies/ai-auto-generate-video.md) | `video` `skill` `tts` `cli` `agent` |
+| 29 | [blind_watermark](../technologies/blind-watermark.md) | `watermark` `cli` |
+| 35 | [iptv-org/iptv](../technologies/iptv-org.md) | `video` |
+| 49 | [HTML Anything](../technologies/html-anything.md) | `skill` `coding-agent` `agent` `video` `self-host` |
+| 61 | [OpenMontage](../technologies/openmontage.md) | `video` `agent` `skill` `coding-agent` `workflow` `cli` `tts` |
+| 63 | [pyVideoTrans](../technologies/pyvideotrans.md) | `video` `stt` `tts` `voice-clone` `desktop` `self-host` `cli` |
+| 77 | [FreeCut](../technologies/freecut.md) | `video` `self-host` `stt` `tts` |
+| 82 | [yt-dlp](../technologies/yt-dlp.md) | `video` `cli` `self-host` |
+| 94 | [MagicMirror](../technologies/magicmirror.md) | `image-gen` `desktop` `self-host` `cv` |
+| 101 | [MoneyPrinterTurbo](../technologies/moneyprinterturbo.md) | `video` `tts` `cli` `self-host` `api` `skill` |
+| 103 | [Toonflow](../technologies/toonflow.md) | `video` `image-gen` `desktop` `self-host` `agent` `skill` |
+| 104 | [SANA](../technologies/sana.md) | `image-gen` `video` `self-host` `cli` `api` |
+| 106 | [Open Generative AI](../technologies/open-generative-ai.md) | `image-gen` `video` `desktop` `self-host` `api` |
+| 136 | [Pixelle-Video](../technologies/pixelle-video.md) | `video` `tts` `image-gen` `self-host` `workflow` `api` |
+| 151 | [Deep-Live-Cam](../technologies/deep-live-cam.md) | `video` `image-gen` `desktop` `self-host` `cv` `cli` |
+
+### UI Automation (6)
+
+| # | Công nghệ | Tags |
+|---|-----------|------|
+| 13 | [Midscene.js](../technologies/midscene.md) | `ui-automation` `computer-use` `browser` `skill` |
+| 25 | [Page Agent](../technologies/page-agent.md) | `ui-automation` `browser` `dom` `mcp` `agent` |
+| 42 | [Stagehand](../technologies/stagehand.md) | `ui-automation` `browser` `agent` |
+| 51 | [Puppeteer](../technologies/puppeteer.md) | `browser` `ui-automation` `api` `mcp` |
+| 122 | [Chrome DevTools MCP](../technologies/chrome-devtools-mcp.md) | `mcp` `browser` `ui-automation` `cli` `coding-agent` |
+| 127 | [CloakBrowser](../technologies/cloakbrowser.md) | `browser` `ui-automation` `api` `cli` `self-host` |
+
+### CV & Edge (7)
+
+| # | Công nghệ | Tags |
+|---|-----------|------|
+| 12 | [ALPR](../technologies/alpr.md) | `cv` `edge` `self-host` |
+| 70 | [LocateAnything-3B](../technologies/locate-anything.md) | `cv` `ocr` `self-host` `cli` |
+| 93 | [InsightFace](../technologies/insightface.md) | `cv` `self-host` `cli` |
+| 102 | [PLFM RADAR](../technologies/plfm-radar.md) | `edge` `iot` `self-host` |
+| 112 | [Supervision](../technologies/supervision.md) | `cv` `cli` `self-host` `video` |
+| 138 | [RuView](../technologies/ruview.md) | `cv` `edge` `iot` `self-host` |
+| 139 | [LingBot-Map](../technologies/lingbot-map.md) | `cv` `self-host` `cli` `video` |
+
+### DevTools (46)
+
+| # | Công nghệ | Tags |
+|---|-----------|------|
+| 1 | [ntfy](../technologies/ntfy.md) | `notification` `self-host` `cli` |
+| 10 | [Google Workspace CLI](../technologies/google-workspace-cli.md) | `cli` `workspace` `skill` `office` |
+| 17 | [Stirling-PDF](../technologies/stirling-pdf.md) | `pdf` `ocr` `self-host` `api` |
+| 30 | [TREK](../technologies/trek.md) | `mcp` `self-host` `notification` `gis` |
+| 31 | [Magika](../technologies/magika.md) | `cli` `security` |
+| 33 | [Vietnamese Provinces DB](../technologies/vietnamese-provinces-database.md) | `gis` |
+| 44 | [FreeLLMAPI](../technologies/freellmapi.md) | `api` `self-host` `mcp` `desktop` |
+| 45 | [Yuvomi](../technologies/yuvomi.md) | `self-host` `mcp` `api` `notification` |
+| 46 | [Jitsi Meet](../technologies/jitsi-meet.md) | `self-host` `video` `api` |
+| 47 | [LocalAI](../technologies/localai.md) | `api` `self-host` `mcp` `agent` `stt` `tts` `image-gen` |
+| 48 | [Unsloth](../technologies/unsloth.md) | `self-host` `cli` `api` `desktop` |
+| 54 | [DFlash](../technologies/dflash.md) | `cli` `self-host` `api` |
+| 56 | [Folo](../technologies/folo.md) | `desktop` `self-host` |
+| 65 | [MinerU](../technologies/mineru.md) | `ocr` `pdf` `cli` `self-host` `api` |
+| 66 | [HunyuanOCR](../technologies/hunyuan-ocr.md) | `ocr` `self-host` `cli` |
+| 67 | [dots.ocr](../technologies/dots-ocr.md) | `ocr` `pdf` `self-host` `cli` |
+| 68 | [Nanonets-OCR2](../technologies/nanonets-ocr2.md) | `ocr` `pdf` `self-host` `api` |
+| 69 | [DeepSeek-OCR](../technologies/deepseek-ocr.md) | `ocr` `self-host` `cli` `api` |
+| 71 | [VLMs OCR Playground](../technologies/vlms-ocr-playground.md) | `ocr` `self-host` |
+| 73 | [Án lệ TOAAN](../technologies/anle-toaan.md) | `rag` `dataset` `self-host` |
+| 74 | [Bộ Pháp Điển MOJ](../technologies/phapdien-moj.md) | `rag` `dataset` `self-host` |
+| 75 | [docmd](../technologies/docmd.md) | `mcp` `skill` `cli` `self-host` `api` `rag` |
+| 76 | [zca-bridge](../technologies/zca-bridge.md) | `self-host` `api` `notification` `workflow` |
+| 80 | [MiniCPM](../technologies/minicpm.md) | `self-host` `cli` `edge` `desktop` `skill` |
+| 83 | [OpenResume](../technologies/open-resume.md) | `pdf` `self-host` |
+| 84 | [Surya](../technologies/surya.md) | `ocr` `pdf` `self-host` `cli` |
+| 85 | [Infinity-Parser2](../technologies/infinity-parser2.md) | `ocr` `pdf` `self-host` `cli` |
+| 88 | [Horizon](../technologies/horizon.md) | `mcp` `self-host` `workflow` `notification` `cli` |
+| 92 | [n8n-workflows](../technologies/n8n-workflows.md) | `workflow` `self-host` `dataset` |
+| 97 | [protonx-legal-tc](../technologies/protonx-legal-tc.md) | `ocr` `self-host` `cli` |
+| 98 | [ViT5-base](../technologies/vit5-base.md) | `self-host` `cli` `api` |
+| 110 | [Duckle](../technologies/duckle.md) | `workflow` `self-host` `desktop` `mcp` `cli` `agent` |
+| 113 | [AirLLM](../technologies/airllm.md) | `self-host` `cli` `api` |
+| 116 | [exo](../technologies/exo.md) | `self-host` `api` `cli` `desktop` |
+| 117 | [Cake](../technologies/cake.md) | `api` `self-host` `cli` `tts` `image-gen` `edge` |
+| 121 | [Tabularis](../technologies/tabularis.md) | `mcp` `desktop` `self-host` `cli` `agent` |
+| 123 | [changedetection.io](../technologies/changedetection-io.md) | `notification` `self-host` `browser` `workflow` `api` |
+| 125 | [Floci](../technologies/floci.md) | `self-host` `cli` `api` |
+| 129 | [VeloxDB](../technologies/veloxdb.md) | `desktop` `self-host` `cli` |
+| 130 | [Dashy](../technologies/dashy.md) | `self-host` `desktop` `workspace` |
+| 134 | [MarkItDown](../technologies/markitdown.md) | `cli` `pdf` `ocr` |
+| 135 | [Whisper Money](../technologies/whisper-money.md) | `self-host` `desktop` `workspace` |
+| 144 | [COBE](../technologies/cobe.md) | `gis` |
+| 145 | [FossFLOW](../technologies/fossflow.md) | `diagram` `self-host` |
+| 146 | [LLM Checker](../technologies/llm-checker.md) | `cli` `mcp` `self-host` |
+| 147 | [llmfit](../technologies/llmfit.md) | `cli` `desktop` `self-host` `skill` |
+
+### Security (3)
+
+| # | Công nghệ | Tags |
+|---|-----------|------|
+| 24 | [Strix](../technologies/strix.md) | `security` `pentest` `agent` `cli` |
+| 118 | [OSIRIS](../technologies/osiris.md) | `security` `gis` `self-host` `desktop` `api` |
+| 137 | [HackingTool](../technologies/hackingtool.md) | `security` `pentest` `cli` `self-host` |
+
+---
+
