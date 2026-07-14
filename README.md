@@ -6,10 +6,10 @@
 
 ### Catalog công nghệ AI — star → Primary + multi-tags → bài viết chi tiết
 
-**7 domain · ~30 tags · 75 ★ · 11 CLI harness**
+**7 domain · ~30 tags · 76 ★ · 11 CLI harness**
 
 <p>
-  <img src="https://img.shields.io/badge/Technologies-75-success?style=flat-square" />
+  <img src="https://img.shields.io/badge/Technologies-76-success?style=flat-square" />
   <img src="https://img.shields.io/badge/CLI_harnesses-11-informational?style=flat-square" />
   <img src="https://img.shields.io/badge/Categories-7-blue?style=flat-square" />
   <img src="https://img.shields.io/badge/Multi--tags-yes-purple?style=flat-square" />
@@ -40,7 +40,7 @@
    - [5. CV & Edge](#5-computer-vision--edge)
    - [6. DevTools](#6-devtools--integration)
    - [7. Security](#7-security--pentesting)
-5. [Index 75 ★ theo Primary](#index-75--theo-primary)
+5. [Index 76 ★ theo Primary](#index-76--theo-primary)
 6. [Cấu trúc · Cập nhật](#cấu-trúc-thư-mục)
 
 ---
@@ -127,7 +127,8 @@ Star GitHub  →  repos/README.md  →  technologies/<slug>.md  →  README + ca
 | `tts` / `voice-clone` | Voicebox · VieNeu-TTS · VoxCPM · VibeVoice · OmniVoice · sherpa-onnx *(TTS)* |
 | `video` | OpenMontage · HyperFrames · ComfyUI · pyVideoTrans |
 | `ui-automation` / `browser` | Midscene · Stagehand · Page Agent · Puppeteer |
-| `api` / `self-host` | LocalAI · FreeLLMAPI · Stirling-PDF · hầu hết RAG stack |
+| `api` / `self-host` | LocalAI · FreeLLMAPI · Stirling-PDF · **zca-bridge** · hầu hết RAG stack |
+| `notification` / `workflow` | ntfy · Yuvomi · TREK · OpenMontage · **zca-bridge** |
 | `ocr` / `pdf` | MinerU · HunyuanOCR · Nanonets-OCR2 · DeepSeek-OCR · dots.ocr · Stirling-PDF |
 | `dataset` / `rag` *(corpora)* | Án lệ TOAAN · Bộ Pháp Điển MOJ · (+ RAG platforms §1.2) |
 | `security` / `pentest` | Strix · Magika *(file-type)* · dcg *(guardrail)* |
@@ -320,6 +321,7 @@ Star GitHub  →  repos/README.md  →  technologies/<slug>.md  →  README + ca
 | **ntfy** | `notification` `self-host` `cli` | [ntfy.md](technologies/ntfy.md) |
 | **TREK** | `mcp` `self-host` `notification` `gis` | [trek.md](technologies/trek.md) |
 | **Yuvomi** | `self-host` `mcp` `api` `notification` | [yuvomi.md](technologies/yuvomi.md) |
+| **zca-bridge** | `self-host` `api` `notification` `workflow` | [zca-bridge.md](technologies/zca-bridge.md) |
 | **Jitsi Meet** | `self-host` `video` `api` | [jitsi-meet.md](technologies/jitsi-meet.md) |
 | **Folo** | `desktop` `self-host` | [folo.md](technologies/folo.md) |
 
@@ -390,7 +392,7 @@ Star GitHub  →  repos/README.md  →  technologies/<slug>.md  →  README + ca
 
 ---
 
-## Index 75 ★ theo Primary
+## Index 76 ★ theo Primary
 
 > `#` = ID trong [repos/README.md](repos/README.md) (thứ tự star). Bên dưới nhóm theo **Primary** để duyệt nhanh.
 
@@ -471,7 +473,7 @@ Star GitHub  →  repos/README.md  →  technologies/<slug>.md  →  README + ca
 | 12 | [ALPR](technologies/alpr.md) | `cv` `edge` `self-host` |
 | 70 | [LocateAnything-3B](technologies/locate-anything.md) | `cv` `ocr` `self-host` `cli` |
 
-### DevTools (22)
+### DevTools (23)
 
 | # | Công nghệ | Tags |
 |---|-----------|------|
@@ -497,6 +499,7 @@ Star GitHub  →  repos/README.md  →  technologies/<slug>.md  →  README + ca
 | 73 | [Án lệ TOAAN](technologies/anle-toaan.md) | `rag` `dataset` `self-host` |
 | 74 | [Bộ Pháp Điển MOJ](technologies/phapdien-moj.md) | `rag` `dataset` `self-host` |
 | 75 | [docmd](technologies/docmd.md) | `mcp` `skill` `cli` `self-host` `api` `rag` |
+| 76 | [zca-bridge](technologies/zca-bridge.md) | `self-host` `api` `notification` `workflow` |
 
 ### Security (1)
 
@@ -544,6 +547,6 @@ awesome-ai/
 
 **Awesome AI Knowledge Base**
 
-*2026-07-14 — 75 ★ · thêm docmd*
+*2026-07-14 — 76 ★ · thêm zca-bridge*
 
 </div>

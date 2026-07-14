@@ -51,7 +51,7 @@ flowchart TB
     CV --> T_SP
 ```
 
-**Phân bố ★:** Agents 24 · Speech 12 · Image/Video 10 · UI 4 · DevTools 22 · CV 2 · Security 1 · **= 75**
+**Phân bố ★:** Agents 24 · Speech 12 · Image/Video 10 · UI 4 · DevTools 23 · CV 2 · Security 1 · **= 76**
 
 ---
 
@@ -226,6 +226,7 @@ flowchart TB
 | ntfy | `notification` `self-host` `cli` | [ntfy.md](../technologies/ntfy.md) |
 | TREK | `mcp` `self-host` `notification` `gis` | [trek.md](../technologies/trek.md) |
 | Yuvomi | `self-host` `mcp` `api` `notification` | [yuvomi.md](../technologies/yuvomi.md) |
+| zca-bridge | `self-host` `api` `notification` `workflow` | [zca-bridge.md](../technologies/zca-bridge.md) |
 | Jitsi Meet | `self-host` `video` `api` | [jitsi-meet.md](../technologies/jitsi-meet.md) |
 | Folo | `desktop` `self-host` | [folo.md](../technologies/folo.md) |
 
