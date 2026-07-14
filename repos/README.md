@@ -154,6 +154,7 @@
 | DeepSeek-OCR | DeepSeek VLM OCR (+ community BF16.I64 quant) |
 | LocateAnything-3B | NVIDIA VL grounding / text localization |
 | VLMs OCR Playground | Gradio Space to compare open VLM OCR models |
+| sherpa-onnx | Offline STT/TTS/VAD/diarization (Kaldi + ONNX, edge ready) |
 
 ## Ecosystem — CLI-Anything harnesses (con của #16)
 
