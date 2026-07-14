@@ -57,3 +57,4 @@ Tài liệu user đã upload (PDF, doc…)
 
 - Repo: https://github.com/PleasePrompto/notebooklm-mcp
 - MCP spec: https://modelcontextprotocol.io
+- Peers: [open-notebook.md](open-notebook.md) *(OSS Notebook LM)* · [surfsense.md](surfsense.md) *(CI agents)* · [anything-llm.md](anything-llm.md) · [weknora.md](weknora.md)

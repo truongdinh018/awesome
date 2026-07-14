@@ -60,4 +60,5 @@ MCP: `pip install 'hyperextract[mcp]'` → `he-mcp` (tools: `list_templates`, `i
 
 - Repo: https://github.com/yifanfeng97/Hyper-Extract  
 - Docs: https://yifanfeng97.github.io/Hyper-Extract/latest/  
+- Peer: [understand-anything.md](understand-anything.md) (code/wiki knowledge graph)  
 - README CN: https://github.com/yifanfeng97/Hyper-Extract/blob/main/README_ZH.md

@@ -58,4 +58,4 @@ Claude Code (khuyến nghị) · Codex · Cursor · OpenCode · Copilot · Winds
 
 - Repo: https://github.com/JCodesMore/ai-website-cloner-template  
 - Skill path: `.claude/skills/clone-website`  
-- Companion: [screencoder.md](screencoder.md)
+- Companion: [screencoder.md](screencoder.md) · Agentic HTML design: [html-anything.md](html-anything.md)

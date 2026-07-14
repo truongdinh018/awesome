@@ -83,4 +83,5 @@ Ví dụ: `frame-liquid-bg-hero` (hook), `frame-pentagram-stat`, `frame-glitch-t
 - Repo: https://github.com/huytranvan2010/AI-auto-generate-video  
 - README VI: `README.vi.md`  
 - Engine: [hyperframes.md](hyperframes.md) · TTS: [omnivoice-studio.md](omnivoice-studio.md)  
+- Full agentic studio peer: [openmontage.md](openmontage.md)  
 - Demo Short: https://youtube.com/shorts/LUAgRhPBONg  

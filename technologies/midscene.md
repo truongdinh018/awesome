@@ -71,7 +71,7 @@ Data extraction / page understanding: tùy chọn thêm DOM khi cần.
 ## Link
 
 - Repo: https://github.com/web-infra-dev/midscene
-- Companion in-page: [page-agent.md](page-agent.md)
+- Companion in-page: [page-agent.md](page-agent.md) · Hybrid SDK: [stagehand.md](stagehand.md) · Driver: [puppeteer.md](puppeteer.md)
 - Docs: https://midscenejs.com
 - API: https://midscenejs.com/api
 - Examples: [midscene-example](https://github.com/web-infra-dev/midscene-example)

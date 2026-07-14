@@ -62,3 +62,6 @@ for segment in segments:
 
 - Repo: https://github.com/SYSTRAN/faster-whisper
 - Whisper paper: https://arxiv.org/abs/2212.04356
+- Industrial ASR toolkit peer: [funasr.md](funasr.md)
+- CapCut unofficial CLI (cloud STT/TTS): [capcut-tts-api.md](capcut-tts-api.md)
+- Video translate / dub suite: [pyvideotrans.md](pyvideotrans.md)

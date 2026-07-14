@@ -68,4 +68,5 @@ await agent.execute('Click the login button')
 
 - Repo: https://github.com/alibaba/page-agent  
 - Docs: https://alibaba.github.io/page-agent/  
-- npm: https://www.npmjs.com/package/page-agent
+- npm: https://www.npmjs.com/package/page-agent  
+- Peers: [midscene.md](midscene.md) · [stagehand.md](stagehand.md) · [puppeteer.md](puppeteer.md)

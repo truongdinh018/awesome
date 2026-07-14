@@ -123,6 +123,7 @@ Không có API key → fallback local deterministic (test UI), chất lượng r
 
 - Repo: https://github.com/Zleap-AI/SAG
 - Companion extract: [hyper-extract.md](hyper-extract.md)
+- Peer: [understand-anything.md](understand-anything.md) (code/wiki knowledge graph)
 - Paper: https://arxiv.org/abs/2606.15971
 - Benchmark: https://github.com/Zleap-AI/SAG-Benchmark
 - README CN: [README-CN.md](https://github.com/Zleap-AI/SAG/blob/main/README-CN.md)

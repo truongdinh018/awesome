@@ -71,6 +71,15 @@ flowchart TB
 | SAG | `rag` `mcp` `self-host` | [sag.md](../technologies/sag.md) |
 | Hyper-Extract | `extract` `rag` `mcp` `cli` | [hyper-extract.md](../technologies/hyper-extract.md) |
 | PageIndex | `rag` `mcp` `self-host` `cli` | [pageindex.md](../technologies/pageindex.md) |
+| WeKnora | `rag` `mcp` `agent` `self-host` `cli` `skill` | [weknora.md](../technologies/weknora.md) |
+| RAGFlow | `rag` `agent` `mcp` `self-host` `api` | [ragflow.md](../technologies/ragflow.md) |
+| AnythingLLM | `rag` `agent` `mcp` `self-host` `desktop` `api` | [anything-llm.md](../technologies/anything-llm.md) |
+| Open Notebook | `rag` `self-host` `api` `tts` | [open-notebook.md](../technologies/open-notebook.md) |
+| Khoj | `rag` `agent` `self-host` `desktop` `stt` | [khoj.md](../technologies/khoj.md) |
+| SurfSense | `rag` `agent` `mcp` `self-host` `api` `workflow` | [surfsense.md](../technologies/surfsense.md) |
+| PixelRAG | `rag` `cli` `skill` `api` | [pixelrag.md](../technologies/pixelrag.md) |
+| Pathway | `rag` `cli` `self-host` `workflow` `api` | [pathway.md](../technologies/pathway.md) |
+| Understand Anything | `skill` `coding-agent` `rag` `cli` `agent` | [understand-anything.md](../technologies/understand-anything.md) |
 | Obsidian harness | `harness` `rag` `cli` | [obsidian.md](../technologies/cli-anything/obsidian.md) |
 
 ### 1.2 Agent runtime & coding agents
@@ -79,14 +88,18 @@ flowchart TB
 |-----------|------|----------|
 | Hermes Agent | `agent` `mcp` `skill` `cli` `self-host` | [hermes-agent.md](../technologies/hermes-agent.md) |
 | OpenHands | `coding-agent` `agent` `self-host` | [openhands.md](../technologies/openhands.md) |
+| EpicStaff | `agent` `mcp` `rag` `self-host` `workflow` | [epicstaff.md](../technologies/epicstaff.md) |
 | CLI-Anything ★ | `cli` `harness` `skill` `agent` | [cli-anything.md](../technologies/cli-anything.md) |
 
-### 1.3 Prompt · Skill · Guardrail
+### 1.3 Prompt · Skill · Guardrail · Context
 
 | Công nghệ | Tags | Bài viết |
 |-----------|------|----------|
 | prompts.chat | `prompt` `mcp` `cli` `self-host` | [prompts-chat.md](../technologies/prompts-chat.md) |
 | Ponytail | `skill` `coding-agent` `prompt` | [ponytail.md](../technologies/ponytail.md) |
+| Addy's Agent Skills | `skill` `coding-agent` `prompt` | [agent-skills.md](../technologies/agent-skills.md) |
+| Headroom | `mcp` `cli` `agent` `coding-agent` `self-host` | [headroom.md](../technologies/headroom.md) |
+| TencentDB Agent Memory | `agent` `self-host` `coding-agent` | [tencentdb-agent-memory.md](../technologies/tencentdb-agent-memory.md) |
 | drawio-skill | `skill` `diagram` `cli` | [drawio-skill.md](../technologies/drawio-skill.md) |
 | Destructive Command Guard | `guardrail` `cli` | [destructive-command-guard.md](../technologies/destructive-command-guard.md) |
 
@@ -102,7 +115,10 @@ flowchart TB
 | Công nghệ | Tags | Bài viết |
 |-----------|------|----------|
 | faster-whisper | `stt` `cli` | [faster-whisper.md](../technologies/faster-whisper.md) |
+| FunASR | `stt` `cli` `api` `self-host` `mcp` | [funasr.md](../technologies/funasr.md) |
+| CapCut TTS/STT API | `stt` `tts` `cli` `api` | [capcut-tts-api.md](../technologies/capcut-tts-api.md) |
 | OmniVoice Studio | `stt` `tts` `voice-clone` `desktop` `self-host` | [omnivoice-studio.md](../technologies/omnivoice-studio.md) |
+| Voicebox | `stt` `tts` `voice-clone` `desktop` `self-host` `mcp` `api` | [voicebox.md](../technologies/voicebox.md) |
 | VideoCaptioner harness | `harness` `stt` `video` | [videocaptioner.md](../technologies/cli-anything/videocaptioner.md) |
 
 ### 2.2 TTS · Voice clone
@@ -110,6 +126,11 @@ flowchart TB
 | Công nghệ | Tags | Bài viết |
 |-----------|------|----------|
 | VoxCPM | `tts` `voice-clone` | [voxcpm.md](../technologies/voxcpm.md) |
+| VibeVoice | `tts` `voice-clone` `self-host` | [vibevoice.md](../technologies/vibevoice.md) |
+| VieNeu-TTS | `tts` `voice-clone` `self-host` `api` `desktop` | [vieneu-tts.md](../technologies/vieneu-tts.md) |
+| Voicebox | *(đa tag — xem 2.1)* | |
+| AudioBook KJ | `tts` `voice-clone` `desktop` `self-host` `video` | [audiobook-kj.md](../technologies/audiobook-kj.md) |
+| CapCut TTS/STT API | *(đa tag — xem 2.1)* | |
 | OmniVoice Studio | *(đa tag — xem 2.1)* | |
 
 ### 2.3 Watermark & Edge
@@ -135,13 +156,16 @@ flowchart TB
 | ComfyUI harness | `harness` `image-gen` `cli` | [comfyui.md](../technologies/cli-anything/comfyui.md) |
 | HyperFrames | `video` `cli` `agent` | [hyperframes.md](../technologies/hyperframes.md) |
 | AI-auto-generate-video | `video` `skill` `tts` `cli` `agent` | [ai-auto-generate-video.md](../technologies/ai-auto-generate-video.md) |
+| OpenMontage | `video` `agent` `skill` `coding-agent` `workflow` `cli` `tts` | [openmontage.md](../technologies/openmontage.md) |
+| pyVideoTrans | `video` `stt` `tts` `voice-clone` `desktop` `self-host` `cli` | [pyvideotrans.md](../technologies/pyvideotrans.md) |
 
-### 3.2 UI → code
+### 3.2 UI → code · Agentic HTML
 
 | Công nghệ | Tags | Bài viết |
 |-----------|------|----------|
 | ScreenCoder | `ui-to-code` | [screencoder.md](../technologies/screencoder.md) |
 | AI Website Cloner | `ui-to-code` `coding-agent` `skill` | [ai-website-cloner.md](../technologies/ai-website-cloner.md) |
+| HTML Anything | `skill` `coding-agent` `agent` `video` `self-host` | [html-anything.md](../technologies/html-anything.md) |
 
 ### 3.3 CAD · 3D · Game (harness)
 
@@ -157,9 +181,21 @@ flowchart TB
 |-----------|------|----------|
 | blind_watermark | `watermark` `cli` | [blind-watermark.md](../technologies/blind-watermark.md) |
 
+### 3.5 Media playlists (dataset)
+
+| Công nghệ | Tags | Bài viết |
+|-----------|------|----------|
+| iptv-org/iptv | `video` | [iptv-org.md](../technologies/iptv-org.md) |
+
 ---
 
 ## 4. UI Automation & Computer Use
+
+### 4.0 Browser CDP drivers (foundation)
+
+| Công nghệ | Tags | Bài viết |
+|-----------|------|----------|
+| Puppeteer | `browser` `ui-automation` `api` `mcp` | [puppeteer.md](../technologies/puppeteer.md) |
 
 ### 4.1 Vision / computer-use
 
@@ -167,19 +203,25 @@ flowchart TB
 |-----------|------|----------|
 | Midscene.js | `ui-automation` `computer-use` `browser` `skill` | [midscene.md](../technologies/midscene.md) |
 
-### 4.2 DOM in-page
+### 4.2 Hybrid NL + code SDK
+
+| Công nghệ | Tags | Bài viết |
+|-----------|------|----------|
+| Stagehand | `ui-automation` `browser` `agent` | [stagehand.md](../technologies/stagehand.md) |
+
+### 4.3 DOM in-page
 
 | Công nghệ | Tags | Bài viết |
 |-----------|------|----------|
 | Page Agent | `ui-automation` `browser` `dom` `mcp` `agent` | [page-agent.md](../technologies/page-agent.md) |
 
-### 4.3 Game CLI harness
+### 4.4 Game CLI harness
 
 | Harness | Tags | Bài viết |
 |---------|------|----------|
 | Slay the Spire II | `harness` `ui-automation` `game` `cli` | [slay-the-spire-ii.md](../technologies/cli-anything/slay-the-spire-ii.md) |
 
-**Ranh giới:** ScreenCoder = screenshot → **code**; Midscene = screenshot → **action**; Page Agent = DOM → action; CLI harness = surface có cấu trúc.
+**Ranh giới:** Puppeteer = CDP **driver**; ScreenCoder = screenshot → **code**; Midscene = screenshot → **action**; Stagehand = NL↔**code**; Page Agent = DOM → action; CLI harness = surface có cấu trúc.
 
 ---
 
@@ -201,11 +243,16 @@ flowchart TB
 |-----------|------|----------|
 | Google Workspace CLI | `cli` `workspace` `skill` `office` | [google-workspace-cli.md](../technologies/google-workspace-cli.md) |
 | ntfy | `notification` `self-host` `cli` | [ntfy.md](../technologies/ntfy.md) |
+| TREK | `mcp` `self-host` `notification` `gis` | [trek.md](../technologies/trek.md) |
+| Yuvomi | `self-host` `mcp` `api` `notification` | [yuvomi.md](../technologies/yuvomi.md) |
+| Jitsi Meet | `self-host` `video` `api` | [jitsi-meet.md](../technologies/jitsi-meet.md) |
+| Folo | `desktop` `self-host` | [folo.md](../technologies/folo.md) |
 
-### 6.2 PDF · Office
+### 6.2 PDF · Office · file type
 
 | Công nghệ | Tags | Bài viết |
 |-----------|------|----------|
+| Magika | `cli` `security` | [magika.md](../technologies/magika.md) |
 | Stirling-PDF | `pdf` `ocr` `self-host` `api` | [stirling-pdf.md](../technologies/stirling-pdf.md) |
 | LibreOffice harness | `harness` `office` `cli` | [libreoffice.md](../technologies/cli-anything/libreoffice.md) |
 
@@ -217,6 +264,28 @@ flowchart TB
 | Draw.io harness | `harness` `diagram` `cli` | [drawio.md](../technologies/cli-anything/drawio.md) |
 | n8n harness | `harness` `workflow` `cli` | [n8n.md](../technologies/cli-anything/n8n.md) |
 | ArcGIS Pro harness | `harness` `gis` `mcp` `cli` | [arcgis-pro.md](../technologies/cli-anything/arcgis-pro.md) |
+| Vietnamese Provinces DB | `gis` | [vietnamese-provinces-database.md](../technologies/vietnamese-provinces-database.md) |
+
+### 6.4 LLM gateway / proxy
+
+| Công nghệ | Tags | Bài viết |
+|-----------|------|----------|
+| FreeLLMAPI | `api` `self-host` `mcp` `desktop` | [freellmapi.md](../technologies/freellmapi.md) |
+| LocalAI | `api` `self-host` `mcp` `agent` `stt` `tts` `image-gen` | [localai.md](../technologies/localai.md) |
+
+### 6.5 Fine-tuning / Train
+
+| Công nghệ | Tags | Bài viết |
+|-----------|------|----------|
+| Unsloth | `self-host` `cli` `api` `desktop` | [unsloth.md](../technologies/unsloth.md) |
+
+> Liên quan: [ai-training](../../ai-training/README.md)
+
+### 6.6 Inference acceleration
+
+| Công nghệ | Tags | Bài viết |
+|-----------|------|----------|
+| DFlash | `cli` `self-host` `api` | [dflash.md](../technologies/dflash.md) |
 
 ---
 
@@ -226,7 +295,8 @@ flowchart TB
 |-----------|------|----------|
 | Strix | `security` `pentest` `agent` `cli` | [strix.md](../technologies/strix.md) |
 
-**Khác guardrail:** dcg = phòng agent; Strix = pentest đích được phép (RoE).
+**Khác guardrail:** dcg = phòng agent; Strix = pentest đích được phép (RoE).  
+**Magika** (Primary DevTools): AI detect file type trước ingest/scan — [magika.md](../technologies/magika.md).
 
 ---
 

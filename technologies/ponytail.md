@@ -80,3 +80,5 @@ hermes plugins install DietrichGebert/ponytail --enable
 - Repo: https://github.com/DietrichGebert/ponytail
 - Portability: `docs/agent-portability.md` trong repo
 - Benchmark: `benchmarks/results/2026-06-18-agentic.md`
+- Context compress peer: [headroom.md](headroom.md)
+- Lifecycle skills pack: [agent-skills.md](agent-skills.md)

@@ -63,3 +63,5 @@ MP4 / GIF output
 - Repo: https://github.com/heygen-com/hyperframes
 - HeyGen: https://www.heygen.com
 - App pipeline Shorts (VN): [ai-auto-generate-video.md](ai-auto-generate-video.md)
+- Agentic HTML → frames: [html-anything.md](html-anything.md)
+- Full agentic studio (dùng HyperFrames làm runtime): [openmontage.md](openmontage.md)

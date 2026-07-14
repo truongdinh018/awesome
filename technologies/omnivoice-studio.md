@@ -55,3 +55,5 @@ Mục tiêu: toàn bộ pipeline voice **không phụ thuộc cloud** (privacy, 
 
 - Repo: https://github.com/debpalash/OmniVoice-Studio
 - Consumer pipeline (Shorts + TTS): [ai-auto-generate-video.md](ai-auto-generate-video.md)
+- Peer studio: [audiobook-kj.md](audiobook-kj.md) (audiobook/video pipeline dùng OmniVoice)
+- Local voice I/O studio + MCP: [voicebox.md](voicebox.md)

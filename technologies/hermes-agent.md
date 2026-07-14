@@ -67,3 +67,6 @@ Compatible [agentskills.io](https://agentskills.io).
 - Install: https://hermes-agent.nousresearch.com/install.sh
 - Coding-agent peer: [openhands.md](openhands.md)
 - YAGNI skill: [ponytail.md](ponytail.md)
+- Ops visual flows: [epicstaff.md](epicstaff.md)
+- Context compress: [headroom.md](headroom.md)
+- Layered memory plugin: [tencentdb-agent-memory.md](tencentdb-agent-memory.md)

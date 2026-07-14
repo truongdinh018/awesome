@@ -77,5 +77,5 @@ python3 examples/agentic_vectorless_rag_demo.py
 - Site / Chat: https://pageindex.ai  
 - Docs / MCP: developer hub trên pageindex.ai  
 - Intro blog: https://pageindex.ai/blog/pageindex-intro  
-- Peer RAG: [sag.md](sag.md) · [hyper-extract.md](hyper-extract.md) · [notebooklm-mcp.md](notebooklm-mcp.md)  
+- Peer RAG: [sag.md](sag.md) · [hyper-extract.md](hyper-extract.md) · [notebooklm-mcp.md](notebooklm-mcp.md) · [weknora.md](weknora.md) · [ragflow.md](ragflow.md) · [pixelrag.md](pixelrag.md)  
 - Preprocess PDF: [stirling-pdf.md](stirling-pdf.md)

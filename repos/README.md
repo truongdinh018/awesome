@@ -1,6 +1,6 @@
 # Starred Repos — Index
 
-> **29 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-07-14** (blind_watermark)  
+> **64 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-07-14** (Voicebox)  
 > **Primary** = 1 nhóm mục lục · **Tags** = nhiều capability (repo đa năng gắn nhiều tags)
 
 | # | Repo | ⭐ | Lang | Primary | Tags | Bài viết |
@@ -34,6 +34,41 @@
 | 27 | [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) | 34k | Python | MCP & Agents | `rag` `mcp` `self-host` `cli` | [pageindex.md](../technologies/pageindex.md) |
 | 28 | [huytranvan2010/AI-auto-generate-video](https://github.com/huytranvan2010/AI-auto-generate-video) | 181 | TS | Image & Video | `video` `skill` `tts` `cli` `agent` | [ai-auto-generate-video.md](../technologies/ai-auto-generate-video.md) |
 | 29 | [guofei9987/blind_watermark](https://github.com/guofei9987/blind_watermark) | 14.1k | Python | Image & Video | `watermark` `cli` | [blind-watermark.md](../technologies/blind-watermark.md) |
+| 30 | [mauriceboe/TREK](https://github.com/mauriceboe/TREK) | 10.3k | TS | DevTools | `mcp` `self-host` `notification` `gis` | [trek.md](../technologies/trek.md) |
+| 31 | [google/magika](https://github.com/google/magika) | 17.2k | Rust/Py/JS | DevTools | `cli` `security` | [magika.md](../technologies/magika.md) |
+| 32 | [EpicStaff/EpicStaff](https://github.com/EpicStaff/EpicStaff) | 267 | Python/Django | MCP & Agents | `agent` `mcp` `rag` `self-host` `workflow` | [epicstaff.md](../technologies/epicstaff.md) |
+| 33 | [thanglequoc/vietnamese-provinces-database](https://github.com/thanglequoc/vietnamese-provinces-database) | 1.7k | SQL/GIS | DevTools | `gis` | [vietnamese-provinces-database.md](../technologies/vietnamese-provinces-database.md) |
+| 34 | [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | 59k | Python/TS | MCP & Agents | `mcp` `cli` `agent` `coding-agent` `self-host` | [headroom.md](../technologies/headroom.md) |
+| 35 | [iptv-org/iptv](https://github.com/iptv-org/iptv) | 133k | TS/M3U | Image & Video | `video` | [iptv-org.md](../technologies/iptv-org.md) |
+| 36 | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | 18.3k | Go | MCP & Agents | `rag` `mcp` `agent` `self-host` `cli` `skill` | [weknora.md](../technologies/weknora.md) |
+| 37 | [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | 85k | Python | MCP & Agents | `rag` `agent` `mcp` `self-host` `api` | [ragflow.md](../technologies/ragflow.md) |
+| 38 | [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) | 63.3k | Node/React | MCP & Agents | `rag` `agent` `mcp` `self-host` `desktop` `api` | [anything-llm.md](../technologies/anything-llm.md) |
+| 39 | [lfnovo/open-notebook](https://github.com/lfnovo/open-notebook) | 35.6k | Py/Next.js | MCP & Agents | `rag` `self-host` `api` `tts` | [open-notebook.md](../technologies/open-notebook.md) |
+| 40 | [khoj-ai/khoj](https://github.com/khoj-ai/khoj) | 35.7k | Python/TS | MCP & Agents | `rag` `agent` `self-host` `desktop` `stt` | [khoj.md](../technologies/khoj.md) |
+| 41 | [MODSetter/SurfSense](https://github.com/MODSetter/SurfSense) | 15.2k | Python/Next | MCP & Agents | `rag` `agent` `mcp` `self-host` `api` `workflow` | [surfsense.md](../technologies/surfsense.md) |
+| 42 | [browserbase/stagehand](https://github.com/browserbase/stagehand) | 23.5k | TypeScript | UI Automation | `ui-automation` `browser` `agent` | [stagehand.md](../technologies/stagehand.md) |
+| 43 | [StarTrail-org/PixelRAG](https://github.com/StarTrail-org/PixelRAG) | 6.6k | Python | MCP & Agents | `rag` `cli` `skill` `api` | [pixelrag.md](../technologies/pixelrag.md) |
+| 44 | [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) | 16k | TypeScript | DevTools | `api` `self-host` `mcp` `desktop` | [freellmapi.md](../technologies/freellmapi.md) |
+| 45 | [ulsklyc/yuvomi](https://github.com/ulsklyc/yuvomi) | 938 | JavaScript | DevTools | `self-host` `mcp` `api` `notification` | [yuvomi.md](../technologies/yuvomi.md) |
+| 46 | [jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) | 29.6k | TypeScript | DevTools | `self-host` `video` `api` | [jitsi-meet.md](../technologies/jitsi-meet.md) |
+| 47 | [mudler/LocalAI](https://github.com/mudler/LocalAI) | 47.5k | Go | DevTools | `api` `self-host` `mcp` `agent` `stt` `tts` `image-gen` | [localai.md](../technologies/localai.md) |
+| 48 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 68.2k | Python | DevTools | `self-host` `cli` `api` `desktop` | [unsloth.md](../technologies/unsloth.md) |
+| 49 | [nexu-io/html-anything](https://github.com/nexu-io/html-anything) | 7.8k | Next.js | Image & Video | `skill` `coding-agent` `agent` `video` `self-host` | [html-anything.md](../technologies/html-anything.md) |
+| 50 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 78.1k | Skills/JS | MCP & Agents | `skill` `coding-agent` `prompt` | [agent-skills.md](../technologies/agent-skills.md) |
+| 51 | [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) | 95.4k | TypeScript | UI Automation | `browser` `ui-automation` `api` `mcp` | [puppeteer.md](../technologies/puppeteer.md) |
+| 52 | [pathwaycom/pathway](https://github.com/pathwaycom/pathway) | 62.7k | Python/Rust | MCP & Agents | `rag` `cli` `self-host` `workflow` `api` | [pathway.md](../technologies/pathway.md) |
+| 53 | [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 8.8k | TypeScript | MCP & Agents | `agent` `self-host` `coding-agent` | [tencentdb-agent-memory.md](../technologies/tencentdb-agent-memory.md) |
+| 54 | [z-lab/dflash](https://github.com/z-lab/dflash) | 5.5k | Python | DevTools | `cli` `self-host` `api` | [dflash.md](../technologies/dflash.md) |
+| 55 | [modelscope/FunASR](https://github.com/modelscope/FunASR) | 19.2k | Python | Speech | `stt` `cli` `api` `self-host` `mcp` | [funasr.md](../technologies/funasr.md) |
+| 56 | [RSSNext/Folo](https://github.com/RSSNext/Folo) | 38.6k | TypeScript | DevTools | `desktop` `self-host` | [folo.md](../technologies/folo.md) |
+| 57 | [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) | 50.1k | Python | Speech | `tts` `voice-clone` `self-host` | [vibevoice.md](../technologies/vibevoice.md) |
+| 58 | [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | 73.9k | TypeScript | MCP & Agents | `skill` `coding-agent` `rag` `cli` `agent` | [understand-anything.md](../technologies/understand-anything.md) |
+| 59 | [kentjuno/AudioBookKJ-v2.1](https://github.com/kentjuno/AudioBookKJ-v2.1) | 51 | TypeScript / Python | Speech | `tts` `voice-clone` `desktop` `self-host` `video` | [audiobook-kj.md](../technologies/audiobook-kj.md) |
+| 60 | [K07VN/capcut-tts-api](https://github.com/K07VN/capcut-tts-api) | 213 | Python | Speech | `stt` `tts` `cli` `api` | [capcut-tts-api.md](../technologies/capcut-tts-api.md) |
+| 61 | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | 38.3k | Python | Image & Video | `video` `agent` `skill` `coding-agent` `workflow` `cli` `tts` | [openmontage.md](../technologies/openmontage.md) |
+| 62 | [pnnbao97/VieNeu-TTS](https://github.com/pnnbao97/VieNeu-TTS) | 2.2k | Python | Speech | `tts` `voice-clone` `self-host` `api` `desktop` | [vieneu-tts.md](../technologies/vieneu-tts.md) |
+| 63 | [jianchang512/pyvideotrans](https://github.com/jianchang512/pyvideotrans) | 18.3k | Python | Image & Video | `video` `stt` `tts` `voice-clone` `desktop` `self-host` `cli` | [pyvideotrans.md](../technologies/pyvideotrans.md) |
+| 64 | [jamiepine/voicebox](https://github.com/jamiepine/voicebox) | 41.1k | TypeScript | Speech | `stt` `tts` `voice-clone` `desktop` `self-host` `mcp` `api` | [voicebox.md](../technologies/voicebox.md) |
 
 ## Mô tả ngắn (GitHub)
 
@@ -68,6 +103,41 @@
 | PageIndex | Vectorless reasoning-based RAG — tree index, no chunk/vector DB |
 | AI-auto-generate-video | VN article/URL → 9:16 short via HyperFrames + OmniVoice |
 | blind_watermark | Blind invisible image watermark (DWT-DCT-SVD), extract without original |
+| TREK | Self-hosted collaborative travel planner with maps, budgets, MCP |
+| Magika | AI-powered file content type detection (Google) |
+| EpicStaff | Self-hosted visual AI agent orchestration (Django + MCP) |
+| Vietnamese Provinces DB | SQL/GIS dataset of VN provinces & wards (34 tỉnh era) |
+| Headroom | Context compression layer for AI agents — library, proxy, MCP |
+| iptv-org/iptv | Public IPTV channel M3U playlists (org also: epg, database, api) |
+| WeKnora | Tencent LLM knowledge platform — RAG, ReAct agent, auto-Wiki |
+| RAGFlow | Leading open-source RAG engine — DeepDoc, agents, MCP |
+| AnythingLLM | Local-first all-in-one AI app — docs chat, agents, MCP, desktop |
+| Open Notebook | Open-source Notebook LM — private, multi-model, podcasts, REST API |
+| Khoj | AI second brain — docs+web RAG, agents, automations, self-host (AGPL) |
+| SurfSense | Competitive intel for agents — live scrapers, MCP, RAG, workflows |
+| Stagehand | SDK for browser agents — NL + code hybrid, act/agent/extract |
+| PixelRAG | Pixel-native RAG — screenshot tiles beat text parsing (Berkeley) |
+| FreeLLMAPI | OpenAI-compatible proxy stacking free LLM tiers (~1.7B tok/mo) |
+| Yuvomi | Self-hosted family planner PWA — tasks/meals/budget + MCP |
+| Jitsi Meet | Secure scalable video conferences — self-host or embed SDK |
+| LocalAI | Open-source AI engine — local LLM/vision/voice/image via OpenAI API |
+| Unsloth | Fast fine-tuning + Unsloth Studio UI (2× speed, less VRAM) |
+| HTML Anything | Agentic HTML editor — 75 skills, local coding CLIs, export social |
+| Addy's Agent Skills | Production engineering skills pack for coding agents (spec→ship) |
+| Puppeteer | JavaScript API for Chrome and Firefox (CDP browser automation) |
+| Pathway | Python ETL — stream processing, real-time analytics, live RAG |
+| TencentDB Agent Memory | Local layered long-term memory for agents (OpenClaw/Hermes) |
+| DFlash | Block diffusion speculative decoding — faster LLM draft (vLLM/SGLang) |
+| FunASR | Industrial ASR toolkit — diarization, emotion, streaming, OpenAI API |
+| Folo | AI RSS reader — timeline, summary/translate, multi-platform apps |
+| VibeVoice | Long multi-speaker TTS / podcast (Microsoft; fork: rsxdalv/VibeVoice) |
+| Understand Anything | Code/wiki → interactive knowledge graph for coding agents |
+| AudioBook KJ | Experimental AI audiobook/video studio (TTS + timeline + export) |
+| CapCut TTS/STT API | Unofficial CapCut common-task CLI (TTS + STT / subtitles) |
+| OpenMontage | Agentic video production system (pipelines + skills + Remotion/HyperFrames) |
+| VieNeu-TTS | On-device Vietnamese TTS + instant voice cloning (En-Vi bilingual) |
+| pyVideoTrans | Video translation + ASR/TTS dubbing + subtitles (GUI/CLI/WebUI) |
+| Voicebox | Local-first AI voice studio (clone, dictate, MCP speak) |
 
 ## Ecosystem — CLI-Anything harnesses (con của #16)
 

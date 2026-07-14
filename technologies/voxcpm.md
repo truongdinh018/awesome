@@ -61,4 +61,6 @@ Audio file → attachment / ntfy push
 ## Link
 
 - Repo: https://github.com/OpenBMB/VoxCPM
+- Long multi-speaker peer: [vibevoice.md](vibevoice.md)
+- Vietnamese local TTS: [vieneu-tts.md](vieneu-tts.md)
 - OpenBMB: https://github.com/OpenBMB

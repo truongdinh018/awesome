@@ -71,3 +71,5 @@ docker run -p 80:80 -itd binwiederhier/ntfy serve
 
 - Repo: https://github.com/binwiederhier/ntfy
 - Docs: https://docs.ntfy.sh
+- Consumer apps: [trek.md](trek.md) · [yuvomi.md](yuvomi.md) *(reminders)*  
+- Video rooms (collab): [jitsi-meet.md](jitsi-meet.md)
