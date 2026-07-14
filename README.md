@@ -6,10 +6,10 @@
 
 ### Catalog công nghệ AI — star → Primary + multi-tags → bài viết chi tiết
 
-**7 domain · ~30 tags · 72 ★ · 11 CLI harness**
+**7 domain · ~30 tags · 74 ★ · 11 CLI harness**
 
 <p>
-  <img src="https://img.shields.io/badge/Technologies-72-success?style=flat-square" />
+  <img src="https://img.shields.io/badge/Technologies-74-success?style=flat-square" />
   <img src="https://img.shields.io/badge/CLI_harnesses-11-informational?style=flat-square" />
   <img src="https://img.shields.io/badge/Categories-7-blue?style=flat-square" />
   <img src="https://img.shields.io/badge/Multi--tags-yes-purple?style=flat-square" />
@@ -40,7 +40,7 @@
    - [5. CV & Edge](#5-computer-vision--edge)
    - [6. DevTools](#6-devtools--integration)
    - [7. Security](#7-security--pentesting)
-5. [Index 72 ★ theo Primary](#index-72--theo-primary)
+5. [Index 74 ★ theo Primary](#index-74--theo-primary)
 6. [Cấu trúc · Cập nhật](#cấu-trúc-thư-mục)
 
 ---
@@ -102,6 +102,7 @@ Star GitHub  →  repos/README.md  →  technologies/<slug>.md  →  README + ca
 | `ui-automation` / `computer-use` / `browser` / `dom` | UI automation |
 | `cv` / `edge` / `iot` | Vision · edge |
 | `pdf` / `ocr` / `office` / `notification` / `workspace` | Productivity |
+| `dataset` | Corpus / HF datasets (RAG training & ingest) |
 | `workflow` / `diagram` / `gis` | Automation · GIS |
 | `security` / `pentest` | AppSec |
 | `self-host` / `desktop` / `api` | Deploy shape |
@@ -119,7 +120,7 @@ Star GitHub  →  repos/README.md  →  technologies/<slug>.md  →  README + ca
 | `mcp` | Hermes · RAGFlow · AnythingLLM · Voicebox · NotebookLM MCP |
 | `agent` | Hermes · OpenHands · OpenMontage · EpicStaff · Stagehand |
 | `coding-agent` | OpenHands · Addy's Agent Skills · Understand Anything · OpenMontage |
-| `rag` | RAGFlow · WeKnora · AnythingLLM · SAG · Pathway · Understand Anything |
+| `rag` | RAGFlow · WeKnora · AnythingLLM · SAG · Pathway · Understand Anything · **Án lệ TOAAN** · **Bộ Pháp Điển MOJ** |
 | `extract` | Hyper-Extract |
 | `skill` / `prompt` | CLI-Anything · Addy's Agent Skills · Ponytail · prompts.chat · OpenMontage |
 | `stt` | faster-whisper · FunASR · sherpa-onnx · Voicebox · pyVideoTrans |
@@ -128,6 +129,7 @@ Star GitHub  →  repos/README.md  →  technologies/<slug>.md  →  README + ca
 | `ui-automation` / `browser` | Midscene · Stagehand · Page Agent · Puppeteer |
 | `api` / `self-host` | LocalAI · FreeLLMAPI · Stirling-PDF · hầu hết RAG stack |
 | `ocr` / `pdf` | MinerU · HunyuanOCR · Nanonets-OCR2 · DeepSeek-OCR · dots.ocr · Stirling-PDF |
+| `dataset` / `rag` *(corpora)* | Án lệ TOAAN · Bộ Pháp Điển MOJ · (+ RAG platforms §1.2) |
 | `security` / `pentest` | Strix · Magika *(file-type)* · dcg *(guardrail)* |
 
 ---
@@ -362,6 +364,15 @@ Star GitHub  →  repos/README.md  →  technologies/<slug>.md  →  README + ca
 
 > Fine-tune Odoo: [ai-training](../ai-training/README.md).
 
+#### 6.5 Datasets · Vietnam legal (RAG)
+
+| Công nghệ | Tags | Bài viết |
+|-----------|------|----------|
+| **Án lệ TOAAN** | `rag` `dataset` `self-host` | [anle-toaan.md](technologies/anle-toaan.md) |
+| **Bộ Pháp Điển MOJ** | `rag` `dataset` `self-host` | [phapdien-moj.md](technologies/phapdien-moj.md) |
+
+> Nguồn công khai cổng nhà nước · CC-BY-4.0 · verify văn bản gốc khi dùng agent.
+
 ---
 
 ### 7. Security & Pentesting
@@ -378,7 +389,7 @@ Star GitHub  →  repos/README.md  →  technologies/<slug>.md  →  README + ca
 
 ---
 
-## Index 72 ★ theo Primary
+## Index 74 ★ theo Primary
 
 > `#` = ID trong [repos/README.md](repos/README.md) (thứ tự star). Bên dưới nhóm theo **Primary** để duyệt nhanh.
 
@@ -459,7 +470,7 @@ Star GitHub  →  repos/README.md  →  technologies/<slug>.md  →  README + ca
 | 12 | [ALPR](technologies/alpr.md) | `cv` `edge` `self-host` |
 | 70 | [LocateAnything-3B](technologies/locate-anything.md) | `cv` `ocr` `self-host` `cli` |
 
-### DevTools (19)
+### DevTools (21)
 
 | # | Công nghệ | Tags |
 |---|-----------|------|
@@ -482,6 +493,8 @@ Star GitHub  →  repos/README.md  →  technologies/<slug>.md  →  README + ca
 | 68 | [Nanonets-OCR2](technologies/nanonets-ocr2.md) | `ocr` `pdf` `self-host` `api` |
 | 69 | [DeepSeek-OCR](technologies/deepseek-ocr.md) | `ocr` `self-host` `cli` `api` |
 | 71 | [VLMs OCR Playground](technologies/vlms-ocr-playground.md) | `ocr` `self-host` |
+| 73 | [Án lệ TOAAN](technologies/anle-toaan.md) | `rag` `dataset` `self-host` |
+| 74 | [Bộ Pháp Điển MOJ](technologies/phapdien-moj.md) | `rag` `dataset` `self-host` |
 
 ### Security (1)
 

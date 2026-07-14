@@ -51,7 +51,7 @@ flowchart TB
     CV --> T_SP
 ```
 
-**Phân bố ★:** Agents 24 · Speech 12 · Image/Video 10 · UI 4 · DevTools 19 · CV 2 · Security 1 · **= 72**
+**Phân bố ★:** Agents 24 · Speech 12 · Image/Video 10 · UI 4 · DevTools 21 · CV 2 · Security 1 · **= 74**
 
 ---
 

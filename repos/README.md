@@ -1,6 +1,6 @@
 # Starred Repos — Index
 
-> **72 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-07-14** (sherpa-onnx)  
+> **74 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-07-14** (datasets pháp lý VN)  
 > **Primary** = 1 nhóm mục lục · **Tags** = nhiều capability  
 > Duyệt theo domain: [../README.md](../README.md) · Quy tắc: [../categories/README.md](../categories/README.md)
 
