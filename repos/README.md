@@ -1,6 +1,6 @@
 # Starred Repos — Index
 
-> **74 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-07-14** (datasets pháp lý VN)  
+> **75 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-07-14** (docmd)  
 > **Primary** = 1 nhóm mục lục · **Tags** = nhiều capability  
 > Duyệt theo domain: [../README.md](../README.md) · Quy tắc: [../categories/README.md](../categories/README.md)
 
@@ -80,6 +80,7 @@
 | 72 | [k2-fsa/sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) | 13.6k | C++ | Speech | `stt` `tts` `edge` `self-host` `cli` `api` | [sherpa-onnx.md](../technologies/sherpa-onnx.md) |
 | 73 | [tmquan/anle-toaan-gov-vn](https://huggingface.co/datasets/tmquan/anle-toaan-gov-vn) | HF❤️9 | Dataset | DevTools | `rag` `dataset` `self-host` | [anle-toaan.md](../technologies/anle-toaan.md) |
 | 74 | [tmquan/phapdien-moj-gov-vn](https://huggingface.co/datasets/tmquan/phapdien-moj-gov-vn) | HF❤️9 | Dataset | DevTools | `rag` `dataset` `self-host` | [phapdien-moj.md](../technologies/phapdien-moj.md) |
+| 75 | [docmd-io/docmd](https://github.com/docmd-io/docmd) | 2.2k | TypeScript | DevTools | `mcp` `skill` `cli` `self-host` `api` `rag` | [docmd.md](../technologies/docmd.md) |
 
 ## Mô tả ngắn (GitHub)
 
@@ -159,6 +160,7 @@
 | sherpa-onnx | Offline STT/TTS/VAD/diarization (Kaldi + ONNX, edge ready) |
 | Án lệ TOAAN | Vietnamese court judgments + precedents corpus (TOAAN) |
 | Bộ Pháp Điển MOJ | Article-level Vietnamese legal codification (MOJ) |
+| docmd | Markdown docs SSG — MCP, semantic search, AI skills |
 
 ## Ecosystem — CLI-Anything harnesses (con của #16)
 

@@ -51,7 +51,7 @@ flowchart TB
     CV --> T_SP
 ```
 
-**Phân bố ★:** Agents 24 · Speech 12 · Image/Video 10 · UI 4 · DevTools 21 · CV 2 · Security 1 · **= 74**
+**Phân bố ★:** Agents 24 · Speech 12 · Image/Video 10 · UI 4 · DevTools 22 · CV 2 · Security 1 · **= 75**
 
 ---
 
@@ -235,6 +235,7 @@ flowchart TB
 |-----------|------|----------|
 | Magika | `cli` `security` | [magika.md](../technologies/magika.md) |
 | Stirling-PDF | `pdf` `ocr` `self-host` `api` | [stirling-pdf.md](../technologies/stirling-pdf.md) |
+| docmd | `mcp` `skill` `cli` `self-host` `api` `rag` | [docmd.md](../technologies/docmd.md) |
 | LibreOffice harness | `harness` `office` `cli` | [libreoffice.md](../technologies/cli-anything/libreoffice.md) |
 
 ### 6.2b OCR · Document VLMs
