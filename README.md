@@ -6,10 +6,10 @@
 
 ### Catalog công nghệ AI — star → Primary + multi-tags → bài viết chi tiết
 
-**7 domain · ~30 tags · 64 ★ · 11 CLI harness**
+**7 domain · ~30 tags · 71 ★ · 11 CLI harness**
 
 <p>
-  <img src="https://img.shields.io/badge/Technologies-64-success?style=flat-square" />
+  <img src="https://img.shields.io/badge/Technologies-71-success?style=flat-square" />
   <img src="https://img.shields.io/badge/CLI_harnesses-11-informational?style=flat-square" />
   <img src="https://img.shields.io/badge/Categories-7-blue?style=flat-square" />
   <img src="https://img.shields.io/badge/Multi--tags-yes-purple?style=flat-square" />
@@ -40,7 +40,7 @@
    - [5. CV & Edge](#5-computer-vision--edge)
    - [6. DevTools](#6-devtools--integration)
    - [7. Security](#7-security--pentesting)
-5. [Index 64 ★ theo Primary](#index-64--theo-primary)
+5. [Index 71 ★ theo Primary](#index-71--theo-primary)
 6. [Cấu trúc · Cập nhật](#cấu-trúc-thư-mục)
 
 ---
@@ -127,6 +127,7 @@ Star GitHub  →  repos/README.md  →  technologies/<slug>.md  →  README + ca
 | `video` | OpenMontage · HyperFrames · ComfyUI · pyVideoTrans |
 | `ui-automation` / `browser` | Midscene · Stagehand · Page Agent · Puppeteer |
 | `api` / `self-host` | LocalAI · FreeLLMAPI · Stirling-PDF · hầu hết RAG stack |
+| `ocr` / `pdf` | MinerU · HunyuanOCR · Nanonets-OCR2 · DeepSeek-OCR · dots.ocr · Stirling-PDF |
 | `security` / `pentest` | Strix · Magika *(file-type)* · dcg *(guardrail)* |
 
 ---
@@ -298,6 +299,7 @@ Star GitHub  →  repos/README.md  →  technologies/<slug>.md  →  README + ca
 | Công nghệ | Tags | Bài viết |
 |-----------|------|----------|
 | **ALPR** | `cv` `edge` `self-host` | [alpr.md](technologies/alpr.md) |
+| **LocateAnything-3B** | `cv` `ocr` `self-host` `cli` | [locate-anything.md](technologies/locate-anything.md) |
 
 ---
 
@@ -323,6 +325,20 @@ Star GitHub  →  repos/README.md  →  technologies/<slug>.md  →  README + ca
 | **Magika** | `cli` `security` | [magika.md](technologies/magika.md) |
 | **Stirling-PDF** | `pdf` `ocr` `self-host` `api` | [stirling-pdf.md](technologies/stirling-pdf.md) |
 | └ LibreOffice harness | `harness` `office` `cli` | [libreoffice.md](technologies/cli-anything/libreoffice.md) |
+
+#### 6.2b OCR · Document VLMs
+
+| Công nghệ | Tags | Bài viết |
+|-----------|------|----------|
+| **MinerU** | `ocr` `pdf` `cli` `self-host` `api` | [mineru.md](technologies/mineru.md) |
+| **HunyuanOCR** | `ocr` `self-host` `cli` | [hunyuan-ocr.md](technologies/hunyuan-ocr.md) |
+| **dots.ocr** | `ocr` `pdf` `self-host` `cli` | [dots-ocr.md](technologies/dots-ocr.md) |
+| **Nanonets-OCR2** | `ocr` `pdf` `self-host` `api` | [nanonets-ocr2.md](technologies/nanonets-ocr2.md) |
+| **DeepSeek-OCR** | `ocr` `self-host` `cli` `api` | [deepseek-ocr.md](technologies/deepseek-ocr.md) |
+| **VLMs OCR Playground** | `ocr` `self-host` | [vlms-ocr-playground.md](technologies/vlms-ocr-playground.md) |
+
+> Dots demo Space: [yahtzee/Dots-OCR](https://huggingface.co/spaces/yahtzee/Dots-OCR) · DeepSeek quant: `DeepSeek-OCR-Latest-BF16.I64` (xem [deepseek-ocr.md](technologies/deepseek-ocr.md)).  
+> Grounding / text-locate (không thay PDF→MD): [LocateAnything-3B](technologies/locate-anything.md) *(Primary §5)*.
 
 #### 6.3 Diagram · Workflow · GIS
 
@@ -359,7 +375,7 @@ Star GitHub  →  repos/README.md  →  technologies/<slug>.md  →  README + ca
 
 ---
 
-## Index 64 ★ theo Primary
+## Index 71 ★ theo Primary
 
 > `#` = ID trong [repos/README.md](repos/README.md) (thứ tự star). Bên dưới nhóm theo **Primary** để duyệt nhanh.
 
@@ -432,13 +448,14 @@ Star GitHub  →  repos/README.md  →  technologies/<slug>.md  →  README + ca
 | 42 | [Stagehand](technologies/stagehand.md) | `ui-automation` `browser` `agent` |
 | 51 | [Puppeteer](technologies/puppeteer.md) | `browser` `ui-automation` `api` `mcp` |
 
-### CV & Edge (1)
+### CV & Edge (2)
 
 | # | Công nghệ | Tags |
 |---|-----------|------|
 | 12 | [ALPR](technologies/alpr.md) | `cv` `edge` `self-host` |
+| 70 | [LocateAnything-3B](technologies/locate-anything.md) | `cv` `ocr` `self-host` `cli` |
 
-### DevTools (13)
+### DevTools (19)
 
 | # | Công nghệ | Tags |
 |---|-----------|------|
@@ -455,6 +472,12 @@ Star GitHub  →  repos/README.md  →  technologies/<slug>.md  →  README + ca
 | 48 | [Unsloth](technologies/unsloth.md) | `self-host` `cli` `api` `desktop` |
 | 54 | [DFlash](technologies/dflash.md) | `cli` `self-host` `api` |
 | 56 | [Folo](technologies/folo.md) | `desktop` `self-host` |
+| 65 | [MinerU](technologies/mineru.md) | `ocr` `pdf` `cli` `self-host` `api` |
+| 66 | [HunyuanOCR](technologies/hunyuan-ocr.md) | `ocr` `self-host` `cli` |
+| 67 | [dots.ocr](technologies/dots-ocr.md) | `ocr` `pdf` `self-host` `cli` |
+| 68 | [Nanonets-OCR2](technologies/nanonets-ocr2.md) | `ocr` `pdf` `self-host` `api` |
+| 69 | [DeepSeek-OCR](technologies/deepseek-ocr.md) | `ocr` `self-host` `cli` `api` |
+| 71 | [VLMs OCR Playground](technologies/vlms-ocr-playground.md) | `ocr` `self-host` |
 
 ### Security (1)
 
@@ -502,6 +525,6 @@ awesome-ai/
 
 **Awesome AI Knowledge Base**
 
-*2026-07-14 — tái cấu trúc README · 64 ★ · 11 harness*
+*2026-07-14 — 71 ★ · thêm cụm OCR (MinerU · Hunyuan · dots · Nanonets · DeepSeek · LocateAnything · Playground)*
 
 </div>

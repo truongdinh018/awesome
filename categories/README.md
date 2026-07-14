@@ -51,7 +51,7 @@ flowchart TB
     CV --> T_SP
 ```
 
-**Phân bố ★:** Agents 24 · Speech 11 · Image/Video 10 · UI 4 · DevTools 13 · CV 1 · Security 1 · **= 64**
+**Phân bố ★:** Agents 24 · Speech 11 · Image/Video 10 · UI 4 · DevTools 19 · CV 2 · Security 1 · **= 71**
 
 ---
 
@@ -209,6 +209,7 @@ flowchart TB
 | Công nghệ | Tags | Bài viết |
 |-----------|------|----------|
 | ALPR | `cv` `edge` `self-host` | [alpr.md](../technologies/alpr.md) |
+| LocateAnything-3B | `cv` `ocr` `self-host` `cli` | [locate-anything.md](../technologies/locate-anything.md) |
 
 ---
 
@@ -232,6 +233,19 @@ flowchart TB
 | Magika | `cli` `security` | [magika.md](../technologies/magika.md) |
 | Stirling-PDF | `pdf` `ocr` `self-host` `api` | [stirling-pdf.md](../technologies/stirling-pdf.md) |
 | LibreOffice harness | `harness` `office` `cli` | [libreoffice.md](../technologies/cli-anything/libreoffice.md) |
+
+### 6.2b OCR · Document VLMs
+
+| Công nghệ | Tags | Bài viết |
+|-----------|------|----------|
+| MinerU | `ocr` `pdf` `cli` `self-host` `api` | [mineru.md](../technologies/mineru.md) |
+| HunyuanOCR | `ocr` `self-host` `cli` | [hunyuan-ocr.md](../technologies/hunyuan-ocr.md) |
+| dots.ocr | `ocr` `pdf` `self-host` `cli` | [dots-ocr.md](../technologies/dots-ocr.md) |
+| Nanonets-OCR2 | `ocr` `pdf` `self-host` `api` | [nanonets-ocr2.md](../technologies/nanonets-ocr2.md) |
+| DeepSeek-OCR | `ocr` `self-host` `cli` `api` | [deepseek-ocr.md](../technologies/deepseek-ocr.md) |
+| VLMs OCR Playground | `ocr` `self-host` | [vlms-ocr-playground.md](../technologies/vlms-ocr-playground.md) |
+
+> LocateAnything (Primary CV): [locate-anything.md](../technologies/locate-anything.md)
 
 ### 6.3 Diagram · Workflow · GIS
 

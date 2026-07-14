@@ -1,6 +1,6 @@
 # Starred Repos — Index
 
-> **64 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-07-14** (tái cấu trúc README)  
+> **71 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-07-14** (OCR cluster)  
 > **Primary** = 1 nhóm mục lục · **Tags** = nhiều capability  
 > Duyệt theo domain: [../README.md](../README.md) · Quy tắc: [../categories/README.md](../categories/README.md)
 
@@ -70,6 +70,13 @@
 | 62 | [pnnbao97/VieNeu-TTS](https://github.com/pnnbao97/VieNeu-TTS) | 2.2k | Python | Speech | `tts` `voice-clone` `self-host` `api` `desktop` | [vieneu-tts.md](../technologies/vieneu-tts.md) |
 | 63 | [jianchang512/pyvideotrans](https://github.com/jianchang512/pyvideotrans) | 18.3k | Python | Image & Video | `video` `stt` `tts` `voice-clone` `desktop` `self-host` `cli` | [pyvideotrans.md](../technologies/pyvideotrans.md) |
 | 64 | [jamiepine/voicebox](https://github.com/jamiepine/voicebox) | 41.1k | TypeScript | Speech | `stt` `tts` `voice-clone` `desktop` `self-host` `mcp` `api` | [voicebox.md](../technologies/voicebox.md) |
+| 65 | [opendatalab/MinerU](https://github.com/opendatalab/MinerU) | 74.6k | Python | DevTools | `ocr` `pdf` `cli` `self-host` `api` | [mineru.md](../technologies/mineru.md) |
+| 66 | [tencent/HunyuanOCR](https://huggingface.co/tencent/HunyuanOCR) | HF❤️771 | Python | DevTools | `ocr` `self-host` `cli` | [hunyuan-ocr.md](../technologies/hunyuan-ocr.md) |
+| 67 | [rednote-hilab/dots.ocr](https://github.com/rednote-hilab/dots.ocr) | 9.0k | Python | DevTools | `ocr` `pdf` `self-host` `cli` | [dots-ocr.md](../technologies/dots-ocr.md) |
+| 68 | [nanonets/Nanonets-OCR2-3B](https://huggingface.co/nanonets/Nanonets-OCR2-3B) | HF❤️509 | Python | DevTools | `ocr` `pdf` `self-host` `api` | [nanonets-ocr2.md](../technologies/nanonets-ocr2.md) |
+| 69 | [deepseek-ai/DeepSeek-OCR](https://huggingface.co/deepseek-ai/DeepSeek-OCR) | HF❤️3.3k | — | DevTools | `ocr` `self-host` `cli` `api` | [deepseek-ocr.md](../technologies/deepseek-ocr.md) |
+| 70 | [nvidia/LocateAnything-3B](https://huggingface.co/nvidia/LocateAnything-3B) | HF❤️2.7k | — | CV & Edge | `cv` `ocr` `self-host` `cli` | [locate-anything.md](../technologies/locate-anything.md) |
+| 71 | [mcikalmerdeka/vlms-ocr-playground](https://huggingface.co/spaces/mcikalmerdeka/vlms-ocr-playground) | Space | Gradio | DevTools | `ocr` `self-host` | [vlms-ocr-playground.md](../technologies/vlms-ocr-playground.md) |
 
 ## Mô tả ngắn (GitHub)
 
@@ -139,6 +146,13 @@
 | VieNeu-TTS | On-device Vietnamese TTS + instant voice cloning (En-Vi bilingual) |
 | pyVideoTrans | Video translation + ASR/TTS dubbing + subtitles (GUI/CLI/WebUI) |
 | Voicebox | Local-first AI voice studio (clone, dictate, MCP speak) |
+| MinerU | PDF/Office → LLM-ready Markdown/JSON |
+| HunyuanOCR | Tencent VLM OCR / document parsing (HF) |
+| dots.ocr | Multilingual document layout parsing VLM |
+| Nanonets-OCR2 | Image→structured Markdown OCR (Qwen2.5-VL-3B) |
+| DeepSeek-OCR | DeepSeek VLM OCR (+ community BF16.I64 quant) |
+| LocateAnything-3B | NVIDIA VL grounding / text localization |
+| VLMs OCR Playground | Gradio Space to compare open VLM OCR models |
 
 ## Ecosystem — CLI-Anything harnesses (con của #16)
 

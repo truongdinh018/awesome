@@ -58,4 +58,5 @@ docker run -p 8080:8080 docker.stirlingpdf.com/stirlingtools/stirling-pdf
 - Repo: https://github.com/Stirling-Tools/Stirling-PDF  
 - Site: https://stirling.com  
 - Docs: https://docs.stirlingpdf.com  
-- Pre-classify files: [magika.md](magika.md)
+- Pre-classify files: [magika.md](magika.md)  
+- Document OCR / PDF→MD: [mineru.md](mineru.md) · [nanonets-ocr2.md](nanonets-ocr2.md)
