@@ -6,10 +6,10 @@
 
 ### Catalog công nghệ AI — star → Primary + multi-tags → bài viết chi tiết
 
-**7 domain · ~30 tags · 76 ★ · 11 CLI harness**
+**7 domain · ~30 tags · 77 ★ · 11 CLI harness**
 
 <p>
-  <img src="https://img.shields.io/badge/Technologies-76-success?style=flat-square" />
+  <img src="https://img.shields.io/badge/Technologies-77-success?style=flat-square" />
   <img src="https://img.shields.io/badge/CLI_harnesses-11-informational?style=flat-square" />
   <img src="https://img.shields.io/badge/Categories-7-blue?style=flat-square" />
   <img src="https://img.shields.io/badge/Multi--tags-yes-purple?style=flat-square" />
@@ -40,7 +40,7 @@
    - [5. CV & Edge](#5-computer-vision--edge)
    - [6. DevTools](#6-devtools--integration)
    - [7. Security](#7-security--pentesting)
-5. [Index 76 ★ theo Primary](#index-76--theo-primary)
+5. [Index 77 ★ theo Primary](#index-77--theo-primary)
 6. [Cấu trúc · Cập nhật](#cấu-trúc-thư-mục)
 
 ---
@@ -125,7 +125,7 @@ Star GitHub  →  repos/README.md  →  technologies/<slug>.md  →  README + ca
 | `skill` / `prompt` | CLI-Anything · Addy's Agent Skills · Ponytail · prompts.chat · OpenMontage · **docmd** |
 | `stt` | faster-whisper · FunASR · sherpa-onnx · Voicebox · pyVideoTrans |
 | `tts` / `voice-clone` | Voicebox · VieNeu-TTS · VoxCPM · VibeVoice · OmniVoice · sherpa-onnx *(TTS)* |
-| `video` | OpenMontage · HyperFrames · ComfyUI · pyVideoTrans |
+| `video` | OpenMontage · HyperFrames · ComfyUI · pyVideoTrans · **FreeCut** |
 | `ui-automation` / `browser` | Midscene · Stagehand · Page Agent · Puppeteer |
 | `api` / `self-host` | LocalAI · FreeLLMAPI · Stirling-PDF · **zca-bridge** · hầu hết RAG stack |
 | `notification` / `workflow` | ntfy · Yuvomi · TREK · OpenMontage · **zca-bridge** |
@@ -253,13 +253,19 @@ Star GitHub  →  repos/README.md  →  technologies/<slug>.md  →  README + ca
 | **OpenMontage** | `video` `agent` `skill` `coding-agent` `workflow` `cli` `tts` | [openmontage.md](technologies/openmontage.md) |
 | **AI-auto-generate-video** | `video` `skill` `tts` `cli` `agent` | [ai-auto-generate-video.md](technologies/ai-auto-generate-video.md) |
 
-#### 3.2 Localize · dub · subtitle
+#### 3.2 Browser NLE
+
+| Công nghệ | Tags | Bài viết |
+|-----------|------|----------|
+| **FreeCut** | `video` `self-host` `stt` `tts` | [freecut.md](technologies/freecut.md) |
+
+#### 3.3 Localize · dub · subtitle
 
 | Công nghệ | Tags | Bài viết |
 |-----------|------|----------|
 | **pyVideoTrans** | `video` `stt` `tts` `voice-clone` `desktop` `self-host` `cli` | [pyvideotrans.md](technologies/pyvideotrans.md) |
 
-#### 3.3 UI → code · Agentic HTML
+#### 3.4 UI → code · Agentic HTML
 
 | Công nghệ | Tags | Bài viết |
 |-----------|------|----------|
@@ -267,7 +273,7 @@ Star GitHub  →  repos/README.md  →  technologies/<slug>.md  →  README + ca
 | **AI Website Cloner** | `ui-to-code` `coding-agent` `skill` | [ai-website-cloner.md](technologies/ai-website-cloner.md) |
 | **HTML Anything** | `skill` `coding-agent` `agent` `video` `self-host` | [html-anything.md](technologies/html-anything.md) |
 
-#### 3.4 CAD · 3D · Game *(harness)*
+#### 3.5 CAD · 3D · Game *(harness)*
 
 | Harness | Tags | Bài viết |
 |---------|------|----------|
@@ -275,7 +281,7 @@ Star GitHub  →  repos/README.md  →  technologies/<slug>.md  →  README + ca
 | Blender | `harness` `3d` `cli` | [blender.md](technologies/cli-anything/blender.md) |
 | Godot | `harness` `game` `cli` | [godot.md](technologies/cli-anything/godot.md) |
 
-#### 3.5 Watermark · playlists
+#### 3.6 Watermark · playlists
 
 | Công nghệ | Tags | Bài viết |
 |-----------|------|----------|
@@ -392,7 +398,7 @@ Star GitHub  →  repos/README.md  →  technologies/<slug>.md  →  README + ca
 
 ---
 
-## Index 76 ★ theo Primary
+## Index 77 ★ theo Primary
 
 > `#` = ID trong [repos/README.md](repos/README.md) (thứ tự star). Bên dưới nhóm theo **Primary** để duyệt nhanh.
 
@@ -442,7 +448,7 @@ Star GitHub  →  repos/README.md  →  technologies/<slug>.md  →  README + ca
 | 64 | [Voicebox](technologies/voicebox.md) | `stt` `tts` `voice-clone` `desktop` `self-host` `mcp` `api` |
 | 72 | [sherpa-onnx](technologies/sherpa-onnx.md) | `stt` `tts` `edge` `self-host` `cli` `api` |
 
-### Image & Video (10)
+### Image & Video (11)
 
 | # | Công nghệ | Tags |
 |---|-----------|------|
@@ -456,6 +462,7 @@ Star GitHub  →  repos/README.md  →  technologies/<slug>.md  →  README + ca
 | 49 | [HTML Anything](technologies/html-anything.md) | `skill` `coding-agent` `agent` `video` `self-host` |
 | 61 | [OpenMontage](technologies/openmontage.md) | `video` `agent` `skill` `coding-agent` `workflow` `cli` `tts` |
 | 63 | [pyVideoTrans](technologies/pyvideotrans.md) | `video` `stt` `tts` `voice-clone` `desktop` `self-host` `cli` |
+| 77 | [FreeCut](technologies/freecut.md) | `video` `self-host` `stt` `tts` |
 
 ### UI Automation (4)
 
@@ -547,6 +554,6 @@ awesome-ai/
 
 **Awesome AI Knowledge Base**
 
-*2026-07-14 — 76 ★ · thêm zca-bridge*
+*2026-07-14 — 77 ★ · thêm freecut*
 
 </div>
