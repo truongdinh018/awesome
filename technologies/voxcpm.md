@@ -2,6 +2,7 @@
 
 > **Repo:** [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM)  
 > **Category:** Speech & Audio  
+> **Tags:** `tts` · `voice-clone`  
 > **Ngôn ngữ:** Python · **⭐** ~33k
 
 ## Tổng quan

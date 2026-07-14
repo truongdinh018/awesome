@@ -2,6 +2,7 @@
 
 > **Repo:** [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything)  
 > **Category:** MCP & AI Agents  
+> **Tags:** `cli` · `harness` · `skill` · `agent`  
 > **Ngôn ngữ:** Python · **⭐** ~45.3k · **License:** Apache-2.0  
 > **Hub:** [clianything.cc](https://clianything.cc/)  
 > **Con (harness):** [technologies/cli-anything/](cli-anything/README.md)

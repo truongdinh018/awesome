@@ -2,6 +2,7 @@
 
 > **Parent:** [CLI-Anything](../cli-anything.md)  
 > **Domain:** UI Automation & Computer Use · Game  
+> **Tags:** `harness` · `ui-automation` · `game` · `cli`  
 > **Type:** Agent-native CLI harness  
 > **Path:** [`slay_the_spire_ii`](https://github.com/HKUDS/CLI-Anything/tree/main/slay_the_spire_ii)
 

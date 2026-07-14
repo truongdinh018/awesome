@@ -2,6 +2,7 @@
 
 > **Parent:** [CLI-Anything](../cli-anything.md)  
 > **Domain:** DevTools & Integration · GIS  
+> **Tags:** `harness` · `gis` · `mcp` · `cli`  
 > **Type:** Agent-native CLI + MCP bridge  
 > **Ghi chú:** Đề xuất / registry (Windows · ArcPy) — cartography, geoprocessing, live Pro MCP
 

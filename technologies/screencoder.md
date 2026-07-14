@@ -2,6 +2,7 @@
 
 > **Repo:** [leigest519/ScreenCoder](https://github.com/leigest519/ScreenCoder)  
 > **Category:** Image & Video Generation  
+> **Tags:** `ui-to-code`  
 > **Ngôn ngữ:** Python · **⭐** ~2.8k
 
 ## Tổng quan
@@ -53,6 +54,11 @@ Developer chỉnh sửa → deploy
 - Tool MCP: `screenshot_to_html` → dev paste vào QWeb/OWL scaffold
 - Bổ sung **ComfyUI** (sinh ảnh mockup) → **ScreenCoder** (ảnh → code)
 
+## Liên quan catalog
+
+- **[AI Website Cloner](ai-website-cloner.md)** — URL live → Next.js bằng coding agent (sâu hơn screenshot→HTML)
+
 ## Link
 
 - Repo: https://github.com/leigest519/ScreenCoder
+

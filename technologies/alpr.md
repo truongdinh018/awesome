@@ -2,6 +2,7 @@
 
 > **Repo:** [joshkautz/alpr](https://github.com/joshkautz/alpr)  
 > **Category:** Computer Vision & Edge  
+> **Tags:** `cv` · `edge` · `self-host`  
 > **Ngôn ngữ:** Python · **⭐** ~1
 
 ## Tổng quan

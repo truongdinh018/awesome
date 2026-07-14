@@ -2,6 +2,7 @@
 
 > **Repo:** [facebookresearch/audioseal](https://github.com/facebookresearch/audioseal)  
 > **Category:** Speech & Audio  
+> **Tags:** `watermark`  
 > **Ngôn ngữ:** Python · **⭐** ~751
 
 ## Tổng quan
@@ -58,3 +59,4 @@ Detector → "AI-generated / watermarked"
 
 - Repo: https://github.com/facebookresearch/audioseal
 - Paper: tìm trên Meta AI Research publications
+- Image peer: [blind-watermark.md](blind-watermark.md)

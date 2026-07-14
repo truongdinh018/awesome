@@ -2,6 +2,7 @@
 
 > **Parent:** [CLI-Anything](../cli-anything.md)  
 > **Domain:** MCP & AI Agents · Knowledge  
+> **Tags:** `harness` · `rag` · `cli`  
 > **Type:** Agent-native CLI harness  
 > **Path:** [`obsidian/agent-harness`](https://github.com/HKUDS/CLI-Anything/tree/main/obsidian/agent-harness)
 

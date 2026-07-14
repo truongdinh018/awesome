@@ -2,6 +2,7 @@
 
 > **Repo:** [Zleap-AI/SAG](https://github.com/Zleap-AI/SAG)  
 > **Category:** MCP & AI Agents · RAG  
+> **Tags:** `rag` · `mcp` · `self-host`  
 > **Ngôn ngữ:** TypeScript · **⭐** ~2.0k · **License:** MIT  
 > **Paper:** [arXiv:2606.15971](https://arxiv.org/abs/2606.15971)
 
@@ -100,6 +101,8 @@ Không có API key → fallback local deterministic (test UI), chất lượng r
 ## Liên quan Awesome AI / ai_core
 
 - **NotebookLM MCP** — RAG citation-backed qua NotebookLM; SAG = **self-host** + graph event/entity + MCP local
+- **[Hyper-Extract](hyper-extract.md)** — extract đa cấu trúc (graph/hypergraph/spatial) bằng CLI `he`; SAG mạnh retrieval workbench
+- **[PageIndex](pageindex.md)** — RAG vectorless (cây ToC + reasoning); SAG = event/entity + vector
 - **ai_rag_core / xb_mcp** — pattern ingest + search tool cho agent Odoo; SAG là reference implementation workbench
 - Có thể ghép STT/TTS catalog (faster-whisper, VoxCPM) → voice Q&A trên KB SAG
 
@@ -119,6 +122,7 @@ Không có API key → fallback local deterministic (test UI), chất lượng r
 ## Link
 
 - Repo: https://github.com/Zleap-AI/SAG
+- Companion extract: [hyper-extract.md](hyper-extract.md)
 - Paper: https://arxiv.org/abs/2606.15971
 - Benchmark: https://github.com/Zleap-AI/SAG-Benchmark
 - README CN: [README-CN.md](https://github.com/Zleap-AI/SAG/blob/main/README-CN.md)

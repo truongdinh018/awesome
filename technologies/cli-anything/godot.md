@@ -2,6 +2,7 @@
 
 > **Parent:** [CLI-Anything](../cli-anything.md)  
 > **Domain:** Image & Video · Game engine  
+> **Tags:** `harness` · `game` · `cli`  
 > **Type:** Agent-native CLI harness  
 > **Path:** [`godot/agent-harness`](https://github.com/HKUDS/CLI-Anything/tree/main/godot/agent-harness)
 

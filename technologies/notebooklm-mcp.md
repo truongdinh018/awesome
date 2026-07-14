@@ -2,6 +2,7 @@
 
 > **Repo:** [PleasePrompto/notebooklm-mcp](https://github.com/PleasePrompto/notebooklm-mcp)  
 > **Category:** MCP & AI Agents  
+> **Tags:** `mcp` · `rag`  
 > **Ngôn ngữ:** TypeScript · **⭐** ~3k
 
 ## Tổng quan

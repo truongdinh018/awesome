@@ -1,7 +1,8 @@
 # CLI-Anything — Harness con (ecosystem)
 
 > **Cha:** [CLI-Anything](../cli-anything.md) (`HKUDS/CLI-Anything`)  
-> Các bài dưới đây **không phải** star riêng — là **agent-native CLI harness** trong monorepo / CLI-Hub.
+> Các bài dưới đây **không phải** star riêng — là **agent-native CLI harness** trong monorepo / CLI-Hub.  
+> Tags: luôn có `harness` (+ `cli`); domain tags theo capability ngang.
 
 ## Sơ đồ cha → con
 
@@ -22,20 +23,20 @@ flowchart TB
     CU -.->|cùng catalog| COMFY[ComfyUI ★]
 ```
 
-## Index theo domain (category)
+## Index theo domain + tags
 
-| Harness | Domain category | Bài viết | Path trong repo |
-|---------|-----------------|----------|-----------------|
-| FreeCAD | Image & Video · CAD/3D | [freecad.md](freecad.md) | `freecad/agent-harness` |
-| Blender | Image & Video · 3D | [blender.md](blender.md) | `blender` / demos |
-| Draw.io | DevTools & Integration | [drawio.md](drawio.md) | `drawio/agent-harness` |
-| VideoCaptioner | Speech & Audio · Video | [videocaptioner.md](videocaptioner.md) | `videocaptioner/agent-harness` |
-| Slay the Spire II | UI Automation & Computer Use | [slay-the-spire-ii.md](slay-the-spire-ii.md) | `slay_the_spire_ii` |
-| ArcGIS Pro | DevTools · GIS + MCP | [arcgis-pro.md](arcgis-pro.md) | registry / MCP bridge |
-| ComfyUI (harness) | Image & Video | [comfyui.md](comfyui.md) | `comfyui/agent-harness` |
-| Obsidian | MCP & AI Agents · Knowledge | [obsidian.md](obsidian.md) | `obsidian/agent-harness` |
-| n8n | DevTools · Workflow | [n8n.md](n8n.md) | `n8n/agent-harness` |
-| LibreOffice | DevTools · Office | [libreoffice.md](libreoffice.md) | `libreoffice/agent-harness` |
-| Godot | Image & Video · Game | [godot.md](godot.md) | `godot/agent-harness` |
+| Harness | Domain | Tags | Bài viết |
+|---------|--------|------|----------|
+| FreeCAD | Image & Video · CAD/3D | `harness` `cad` `cli` | [freecad.md](freecad.md) |
+| Blender | Image & Video · 3D | `harness` `3d` `cli` | [blender.md](blender.md) |
+| Draw.io | DevTools · Diagram | `harness` `diagram` `cli` | [drawio.md](drawio.md) |
+| VideoCaptioner | Speech · Video | `harness` `stt` `video` | [videocaptioner.md](videocaptioner.md) |
+| Slay the Spire II | UI Automation · Game | `harness` `ui-automation` `game` `cli` | [slay-the-spire-ii.md](slay-the-spire-ii.md) |
+| ArcGIS Pro | DevTools · GIS | `harness` `gis` `mcp` `cli` | [arcgis-pro.md](arcgis-pro.md) |
+| ComfyUI (harness) | Image & Video | `harness` `image-gen` `cli` | [comfyui.md](comfyui.md) |
+| Obsidian | MCP & Agents · Knowledge | `harness` `rag` `cli` | [obsidian.md](obsidian.md) |
+| n8n | DevTools · Workflow | `harness` `workflow` `cli` | [n8n.md](n8n.md) |
+| LibreOffice | DevTools · Office | `harness` `office` `cli` | [libreoffice.md](libreoffice.md) |
+| Godot | Image & Video · Game | `harness` `game` `cli` | [godot.md](godot.md) |
 
-**Quy ước:** mỗi file con ghi `Parent: CLI-Anything` + `Domain: …`. ComfyUI đã có bài ★ riêng — harness chỉ là lớp agent CLI, link hai chiều.
+**Quy ước:** mỗi file con ghi `Parent: CLI-Anything` + `Domain` + `Tags`. ComfyUI ★ có bài riêng — harness là lớp agent CLI, link hai chiều.

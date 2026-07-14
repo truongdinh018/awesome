@@ -2,6 +2,7 @@
 
 > **Parent:** [CLI-Anything](../cli-anything.md)  
 > **Domain:** DevTools & Integration · Office  
+> **Tags:** `harness` · `office` · `cli`  
 > **Type:** Agent-native CLI harness  
 > **Path:** [`libreoffice/agent-harness`](https://github.com/HKUDS/CLI-Anything/tree/main/libreoffice/agent-harness)
 

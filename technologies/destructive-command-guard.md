@@ -2,6 +2,7 @@
 
 > **Repo:** [Dicklesworthstone/destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard)  
 > **Category:** MCP & AI Agents  
+> **Tags:** `guardrail` · `cli`  
 > **Ngôn ngữ:** Rust · **⭐** ~3.6k
 
 ## Tổng quan

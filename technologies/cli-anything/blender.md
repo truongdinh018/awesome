@@ -2,6 +2,7 @@
 
 > **Parent:** [CLI-Anything](../cli-anything.md)  
 > **Domain:** Image & Video · 3D  
+> **Tags:** `harness` · `3d` · `cli`  
 > **Type:** Agent-native CLI harness  
 > **Demo:** Orbital Relay Drone — preview / live preview / trajectory
 

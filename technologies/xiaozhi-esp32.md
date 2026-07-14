@@ -2,6 +2,7 @@
 
 > **Repo:** [78/xiaozhi-esp32](https://github.com/78/xiaozhi-esp32)  
 > **Category:** Speech & Audio · Edge Voice  
+> **Tags:** `stt` · `tts` · `edge` · `iot` · `mcp`  
 > **Ngôn ngữ:** C++ (ESP-IDF) · **License:** MIT  
 > **Liên quan:** Lily Box / Heylily (thương mại VN), [xiaozhi.me](https://xiaozhi.me)
 

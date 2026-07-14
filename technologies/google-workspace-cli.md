@@ -2,6 +2,7 @@
 
 > **Repo:** [googleworkspace/cli](https://github.com/googleworkspace/cli)  
 > **Category:** DevTools & Integration  
+> **Tags:** `cli` · `workspace` · `skill` · `office`  
 > **Ngôn ngữ:** Rust · **⭐** ~29k
 
 ## Tổng quan

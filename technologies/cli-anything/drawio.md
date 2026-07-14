@@ -2,6 +2,7 @@
 
 > **Parent:** [CLI-Anything](../cli-anything.md)  
 > **Domain:** DevTools & Integration · Diagram  
+> **Tags:** `harness` · `diagram` · `cli`  
 > **Type:** Agent-native CLI harness  
 > **Path:** [`drawio/agent-harness`](https://github.com/HKUDS/CLI-Anything/tree/main/drawio/agent-harness)
 
@@ -21,9 +22,11 @@ Harness **diagrams.net / Draw.io**: agent sinh sơ đồ (vd. HTTPS handshake) b
 |--|---------|
 | **Cha** | CLI-Anything |
 | **Domain** | DevTools — artifact kỹ thuật (cùng tinh thần Google Workspace CLI / n8n) |
+| **Cùng domain ★** | [drawio-skill](../drawio-skill.md) — Agent Skill NL→Draw.io (không qua CLI-Hub) |
 | **Use case Odoo** | Sequence diagram luồng approval / MCP trước khi viết spec |
 
 ## Link
 
 - Upstream: https://github.com/jgraph/drawio  
-- Harness: https://github.com/HKUDS/CLI-Anything/tree/main/drawio/agent-harness
+- Harness: https://github.com/HKUDS/CLI-Anything/tree/main/drawio/agent-harness  
+- Skill ★: [../drawio-skill.md](../drawio-skill.md)

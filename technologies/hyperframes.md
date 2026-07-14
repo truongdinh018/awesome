@@ -2,6 +2,7 @@
 
 > **Repo:** [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)  
 > **Category:** Image & Video Generation  
+> **Tags:** `video` · `cli` · `agent`  
 > **Ngôn ngữ:** TypeScript · **⭐** ~34k
 
 ## Tổng quan
@@ -61,3 +62,4 @@ MP4 / GIF output
 
 - Repo: https://github.com/heygen-com/hyperframes
 - HeyGen: https://www.heygen.com
+- App pipeline Shorts (VN): [ai-auto-generate-video.md](ai-auto-generate-video.md)

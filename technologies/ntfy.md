@@ -2,6 +2,7 @@
 
 > **Repo:** [binwiederhier/ntfy](https://github.com/binwiederhier/ntfy)  
 > **Category:** DevTools & Integration  
+> **Tags:** `notification` · `self-host` · `cli`  
 > **Ngôn ngữ:** Go · **⭐** ~31k
 
 ## Tổng quan

@@ -2,6 +2,7 @@
 
 > **Parent:** [CLI-Anything](../cli-anything.md)  
 > **Domain:** Image & Video Generation  
+> **Tags:** `harness` · `image-gen` · `cli`  
 > **Type:** Agent-native CLI harness (lớp trên app ★)  
 > **Path:** [`comfyui/agent-harness`](https://github.com/HKUDS/CLI-Anything/tree/main/comfyui/agent-harness)  
 > **App ★ trong catalog:** [ComfyUI](../comfyui.md)

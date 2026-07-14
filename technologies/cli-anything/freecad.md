@@ -2,6 +2,7 @@
 
 > **Parent:** [CLI-Anything](../cli-anything.md)  
 > **Domain:** Image & Video · CAD / 3D  
+> **Tags:** `harness` · `cad` · `cli`  
 > **Type:** Agent-native CLI harness  
 > **Path:** [`freecad/agent-harness`](https://github.com/HKUDS/CLI-Anything/tree/main/freecad/agent-harness)
 

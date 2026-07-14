@@ -2,6 +2,7 @@
 
 > **Parent:** [CLI-Anything](../cli-anything.md)  
 > **Domain:** Speech & Audio · Image & Video  
+> **Tags:** `harness` · `stt` · `video`  
 > **Type:** Agent-native CLI harness  
 > **Path:** [`videocaptioner/agent-harness`](https://github.com/HKUDS/CLI-Anything/tree/main/videocaptioner/agent-harness)
 

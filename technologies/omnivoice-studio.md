@@ -2,6 +2,7 @@
 
 > **Repo:** [debpalash/OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio)  
 > **Category:** Speech & Audio  
+> **Tags:** `stt` · `tts` · `voice-clone` · `desktop` · `self-host`  
 > **Ngôn ngữ:** Python · **⭐** ~8.3k
 
 ## Tổng quan
@@ -53,3 +54,4 @@ Mục tiêu: toàn bộ pipeline voice **không phụ thuộc cloud** (privacy, 
 ## Link
 
 - Repo: https://github.com/debpalash/OmniVoice-Studio
+- Consumer pipeline (Shorts + TTS): [ai-auto-generate-video.md](ai-auto-generate-video.md)

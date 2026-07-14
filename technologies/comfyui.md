@@ -2,6 +2,7 @@
 
 > **Repo:** [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI)  
 > **Category:** Image & Video Generation  
+> **Tags:** `image-gen` · `video` · `self-host`  
 > **Ngôn ngữ:** Python · **⭐** ~120k
 
 ## Tổng quan

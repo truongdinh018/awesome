@@ -2,6 +2,7 @@
 
 > **Repo:** [web-infra-dev/midscene](https://github.com/web-infra-dev/midscene)  
 > **Category:** UI Automation & Computer Use  
+> **Tags:** `ui-automation` · `computer-use` · `browser` · `skill`  
 > **Ngôn ngữ:** TypeScript · **⭐** ~14.1k · **License:** MIT
 
 ## Tổng quan
@@ -65,10 +66,12 @@ Data extraction / page understanding: tùy chọn thêm DOM khi cần.
 - E2E smoke cho `ai_agentic` / backend UI khi deploy
 - Agent Skills: Midscene điều khiển browser/mobile thay vì hardcode Playwright
 - Kết hợp **ScreenCoder** (screenshot → HTML) vs Midscene (screenshot → **hành động**)
+- **[Page Agent](page-agent.md)** — in-page DOM/NL (không vision); Midscene = vision cross-platform
 
 ## Link
 
 - Repo: https://github.com/web-infra-dev/midscene
+- Companion in-page: [page-agent.md](page-agent.md)
 - Docs: https://midscenejs.com
 - API: https://midscenejs.com/api
 - Examples: [midscene-example](https://github.com/web-infra-dev/midscene-example)

@@ -2,6 +2,7 @@
 
 > **Repo:** [SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper)  
 > **Category:** Speech & Audio  
+> **Tags:** `stt` · `cli`  
 > **Ngôn ngữ:** Python · **⭐** ~24k
 
 ## Tổng quan
