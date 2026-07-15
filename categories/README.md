@@ -27,10 +27,10 @@
 | 3 | [Image & Video](#3-image--video) | 28 | Gen ảnh/video, NLE |
 | 4 | [UI Automation](#4-ui-automation--computer-use) | 7 | Browser / computer-use |
 | 5 | [CV & Edge](#5-computer-vision--edge) | 9 | Vision, IoT, edge |
-| 6 | [DevTools](#6-devtools--integration) | 72 | OCR, gateway, office, train, self-host |
+| 6 | [DevTools](#6-devtools--integration) | 73 | OCR, gateway, office, train, self-host |
 | 7 | [Security](#7-security--pentesting) | 4 | Pentest, OSINT, guardrail |
 
-**Tổng = 211 ★** (+ 11 CLI-Anything harnesses)
+**Tổng = 212 ★** (+ 11 CLI-Anything harnesses)
 
 ---
 
@@ -378,6 +378,7 @@
 | └ Draw.io · n8n · ArcGIS harnesses | `harness` … | [cli-anything/](../technologies/cli-anything/README.md) |
 | **FossFLOW** | `diagram` `self-host` | [fossflow.md](../technologies/devtools/fossflow.md) |
 | **n8n-workflows** | `workflow` `self-host` `dataset` | [n8n-workflows.md](../technologies/devtools/n8n-workflows.md) |
+| **System Design 101** | `diagram` `dataset` | [system-design-101.md](../technologies/devtools/system-design-101.md) |
 | **Duckle** | `workflow` `self-host` `desktop` `mcp` `cli` `agent` | [duckle.md](../technologies/devtools/duckle.md) |
 | **Tabularis** | `mcp` `desktop` `self-host` `cli` `agent` | [tabularis.md](../technologies/devtools/tabularis.md) |
 | **Floci** | `self-host` `cli` `api` | [floci.md](../technologies/devtools/floci.md) |

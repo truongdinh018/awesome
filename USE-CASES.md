@@ -2,7 +2,7 @@
 
 > **Bắt đầu từ đây** nếu bạn chưa biết tool thuộc domain nào. Mỗi mục = một việc cần làm → tool + tóm tắt “là gì”.
 >
-> **225** bài · generated từ `technologies/*/…md` · **2026-07-15**.
+> **226** bài · generated từ `technologies/*/…md` · **2026-07-15**.
 >
 > Song song: [categories/](categories/README.md) · [repos/](repos/README.md) · [TAGS.md](TAGS.md).
 
@@ -31,7 +31,7 @@
 - [Thị giác máy & edge/IoT](#15-cv) — **9**
 - [PDF, OCR, tài liệu văn phòng](#16-pdf-ocr) — **23**
 - [Thông báo & cầu nối chat](#17-notify) — **7**
-- [Workflow / automation glue](#18-workflow) — **15**
+- [Workflow / automation glue](#18-workflow) — **16**
 - [Bảo mật & pentest](#19-security) — **7**
 - [Hạ tầng chạy LLM (gateway / inference / train)](#20-llm-infra) — **11**
 - [DB / storage / file browser](#21-data) — **5**
@@ -39,7 +39,7 @@
 - [CLI-Anything harness (điều khiển app bằng agent)](#23-harness) — **12**
 - [3D / CAD / game engine](#24-3d) — **7**
 - [Watermark nội dung AI](#25-watermark) — **2**
-- [Sơ đồ / GIS / bản đồ](#26-diagram-gis) — **11**
+- [Sơ đồ / GIS / bản đồ](#26-diagram-gis) — **12**
 
 ---
 
@@ -559,6 +559,7 @@
 | **LangBot** | MCP & AI Agents | `agent` `mcp` `skill` `rag` `self-host` `api` | LangBot — platform production-grade xây bot AI trên IM : Discord · Telegram · Slack · LINE · QQ · WeChat/WeCom · Feishu · DingT… | [langbot.md](technologies/mcp-ai-agents/langbot.md) |
 | **MiroFish** | MCP & AI Agents | `agent` `self-host` `rag` `workflow` `api` | MiroFish là swarm intelligence engine dự đoán: lấy seed (tin tức, policy, báo cáo, tiểu thuyết…) → GraphRAG + persona agents → … | [mirofish.md](technologies/mcp-ai-agents/mirofish.md) |
 | **n8n Workflows (Zie619)** | DevTools | `workflow` `self-host` `dataset` | n8n Workflow Collection là kho ~4,3k workflow JSON production-ready (365+ integrations, 15 categories), gom từ community + site… | [n8n-workflows.md](technologies/devtools/n8n-workflows.md) |
+| **System Design 101** | DevTools | `diagram` `dataset` | System Design 101 (ByteByteGo) là kho giải thích hệ thống phức tạp bằng hình + ngôn ngữ đơn giản: API/web, load balancer, cache, DB, message queue, microservices, cloud (AWS…), interview system… | [system-design-101.md](technologies/devtools/system-design-101.md) |
 | **OpenHuman** | MCP & AI Agents | `rag` `agent` `mcp` `self-host` `desktop` `workflow` | OpenHuman là personal AI super intelligence local-first gồm ba phần: (1) brain — memory tree / Obsidian-style wiki từ email·cal… | [openhuman.md](technologies/mcp-ai-agents/openhuman.md) |
 | **Pathway** | MCP & AI Agents | `rag` `cli` `self-host` `workflow` `api` | Pathway ( Live Data Framework ) là Python ETL stream + batch cùng một codebase: real-time analytics, connectors (Kafka, GDrive,… | [pathway.md](technologies/mcp-ai-agents/pathway.md) |
 | **SurfSense** | MCP & AI Agents | `rag` `agent` `mcp` `self-host` `api` `workflow` | SurfSense là NotebookLM for Competitive Intelligence : nền tảng OSS cho AI agents theo dõi thị trường với live connectors (Redd… | [surfsense.md](technologies/mcp-ai-agents/surfsense.md) |
@@ -646,6 +647,7 @@
 | **OpenTickly** | DevTools | `self-host` `api` `cli` `workspace` `agent` | OpenTickly là time tracker self-host , private-first, tương thích Toggl (import/export, giữ workflow hiện có). | [opentickly.md](technologies/devtools/opentickly.md) |
 | **React Scan** | DevTools | `browser` `cli` `desktop` | React Scan tự phát hiện vấn đề performance React (render thừa): không cần sửa app nhiều — drop-in script / npx react-scan init … | [react-scan.md](technologies/devtools/react-scan.md) |
 | **SmolVM** | DevTools | `cli` `self-host` `desktop` `coding-agent` | SmolVM là CLI chạy Linux microVM cục bộ: cold start dưới giây, macOS / Linux / Windows, RAM elastic (virtio balloon). | [smolvm.md](technologies/devtools/smolvm.md) |
+| **System Design 101** | DevTools | `diagram` `dataset` | System Design 101 (ByteByteGo) là kho giải thích hệ thống phức tạp bằng hình + ngôn ngữ đơn giản: API/web, load balancer, cache, DB, message queue, microservices, cloud (AWS…), interview system… | [system-design-101.md](technologies/devtools/system-design-101.md) |
 | **Tab Harbor** | DevTools | `browser` `workspace` `desktop` | Tab Harbor biến New Tab Chrome thành bàn làm việc yên hơn: xem tab đang mở (gom theo domain + nhóm thủ công), quick links, save… | [tab-harbor.md](technologies/devtools/tab-harbor.md) |
 | **Tabularis** | DevTools | `mcp` `desktop` `self-host` `cli` `agent` | Tabularis là client SQL desktop OSS (PostgreSQL, MySQL/MariaDB, SQLite + plugins DuckDB, ClickHouse, Redis, Firestore…). | [tabularis.md](technologies/devtools/tabularis.md) |
 | **termshot** | DevTools | `cli` `desktop` | termshot tạo ảnh screenshot terminal đẹp từ lệnh bạn chạy: prefix như time / watch — đọc ANSI escape (màu/format thật), render … | [termshot.md](technologies/devtools/termshot.md) |
@@ -724,6 +726,7 @@
 | **LingBot-Map** | CV & Edge | `cv` `self-host` `cli` `video` | LingBot-Map (Robbyant) là feed-forward 3D foundation model cho streaming 3D reconstruction : video / frame stream → pose + geom… | [lingbot-map.md](technologies/cv-edge/lingbot-map.md) |
 | **OSIRIS** | Security | `security` `gis` `self-host` `desktop` `api` | OSIRIS là dashboard OSINT self-host: gom flight (OpenSky), maritime, CCTV (2k+), động đất (USGS), cháy (NASA FIRMS), thời tiết/… | [osiris.md](technologies/security/osiris.md) |
 | **QuiverAI** | Bookmarks | `image-gen` `mcp` `api` `diagram` | QuiverAI — foundational model SaaS cho vector design : generate / edit / (sắp) animate SVG (logo, illustration, typography). | [quiverai.md](technologies/bookmarks/quiverai.md) |
+| **System Design 101** | DevTools | `diagram` `dataset` | System Design 101 (ByteByteGo) là kho giải thích hệ thống phức tạp bằng hình + ngôn ngữ đơn giản: API/web, load balancer, cache, DB, message queue, microservices, cloud (AWS…), interview system… | [system-design-101.md](technologies/devtools/system-design-101.md) |
 | **TREK** | DevTools | `mcp` `self-host` `notification` `gis` | TREK là travel / trip planner self-host : kế hoạch ngày, bản đồ tương tác, ngân sách, packing list, journal, collab realtime (W… | [trek.md](technologies/devtools/trek.md) |
 | **Vietnamese Provinces Database** | DevTools | `gis` | vietnamese-provinces-database là dataset đơn vị hành chính Việt Nam (không phải AI model): tỉnh/thành + xã/phường/đặc khu, kèm … | [vietnamese-provinces-database.md](technologies/devtools/vietnamese-provinces-database.md) |
 
