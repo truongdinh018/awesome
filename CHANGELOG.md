@@ -2,6 +2,8 @@
 
 Lịch sử thêm ★ / bookmark (mới nhất trên cùng).
 
+*2026-07-15 — 157 ★ · thêm Drizzle ORM*
+
 *2026-07-15 — 156 ★ · thêm RTK*
 
 *2026-07-15 — 155 ★ · thêm WSL Dashboard*
