@@ -43,7 +43,7 @@
 |-----|--------|
 | `ui-automation` / `computer-use` / `browser` / `dom` | UI automation |
 | `cv` / `edge` / `iot` | Vision · edge |
-| `pdf` / `ocr` / `office` / `notification` / `workspace` | Productivity |
+| `pdf` / `ocr` / `office` / `notification` / `workspace` | Productivity · **WSL Dashboard** *(WSL manager)* |
 | `dataset` | Corpus / HF datasets (RAG training & ingest) |
 | `workflow` / `diagram` / `gis` | Automation · GIS |
 | `security` / `pentest` | AppSec |
