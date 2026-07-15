@@ -20,7 +20,7 @@
 
 | # | Primary | ★ | Mục đích ngắn |
 |---|---------|---|----------------|
-| 1 | [MCP & AI Agents](#1-mcp--ai-agents) | 54 | MCP, RAG, agent, skill |
+| 1 | [MCP & AI Agents](#1-mcp--ai-agents) | 55 | MCP, RAG, agent, skill |
 | 2 | [Speech & Audio](#2-speech--audio) | 19 | STT / TTS / voice |
 | 3 | [Image & Video](#3-image--video) | 19 | Gen ảnh/video, NLE |
 | 4 | [UI Automation](#4-ui-automation--computer-use) | 6 | Browser / computer-use |
@@ -28,7 +28,7 @@
 | 6 | [DevTools](#6-devtools--integration) | 47 | OCR, gateway, office, self-host |
 | 7 | [Security](#7-security--pentesting) | 3 | Pentest, OSINT, guardrail |
 
-**Tổng = 155 ★** (+ 11 CLI-Anything harnesses)
+**Tổng = 156 ★** (+ 11 CLI-Anything harnesses)
 
 ---
 
@@ -101,6 +101,7 @@
 | **knowledge-work-plugins** | `skill` `prompt` `workspace` `office` | [knowledge-work-plugins.md](../technologies/knowledge-work-plugins.md) |
 | **Understand Anything** | `skill` `coding-agent` `rag` `cli` `agent` | [understand-anything.md](../technologies/understand-anything.md) |
 | **Headroom** | `mcp` `cli` `agent` `coding-agent` `self-host` | [headroom.md](../technologies/headroom.md) |
+| **RTK** | `cli` `coding-agent` | [rtk.md](../technologies/rtk.md) |
 | **Semble** | `mcp` `cli` `coding-agent` `rag` `self-host` | [semble.md](../technologies/semble.md) |
 | **Gitingest** | `cli` `coding-agent` `rag` `self-host` | [gitingest.md](../technologies/gitingest.md) |
 | **GitReverse** | `coding-agent` `prompt` `self-host` | [gitreverse.md](../technologies/gitreverse.md) |
