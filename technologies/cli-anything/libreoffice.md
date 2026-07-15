@@ -1,6 +1,6 @@
 # LibreOffice (CLI-Anything harness)
 
-> **Parent:** [CLI-Anything](../cli-anything.md)  
+> **Parent:** [CLI-Anything](../mcp-ai-agents/cli-anything.md)  
 > **Domain:** DevTools & Integration · Office  
 > **Tags:** `harness` · `office` · `cli`  
 > **Type:** Agent-native CLI harness  
@@ -10,9 +10,9 @@
 
 Harness **LibreOffice** headless: convert, export document (Writer/Calc/…) qua CLI — agent batch office file không cần GUI.
 
-Là con của CLI-Anything — preprocess doc trước khi ingest RAG. Cạnh [Stirling-PDF](../stirling-pdf.md) (chuyên PDF toolkit).
+Là con của CLI-Anything — preprocess doc trước khi ingest RAG. Cạnh [Stirling-PDF](../devtools/stirling-pdf.md) (chuyên PDF toolkit).
 
-**Cùng kiểu:** [Stirling-PDF](../stirling-pdf.md) (PDF), [MinerU](../mineru.md) (PDF→MD), [CLI-Anything](../cli-anything.md) (cha).
+**Cùng kiểu:** [Stirling-PDF](../devtools/stirling-pdf.md) (PDF), [MinerU](../devtools/mineru.md) (PDF→MD), [CLI-Anything](../mcp-ai-agents/cli-anything.md) (cha).
 
 ## Dùng khi nào?
 
@@ -21,7 +21,7 @@ Là con của CLI-Anything — preprocess doc trước khi ingest RAG. Cạnh [S
 | Convert định dạng (DOCX↔PDF, …) | ✅ |
 | Xử lý batch tài liệu | ✅ |
 | Pipeline doc trước khi ingest RAG | ✅ |
-| PDF OCR / merge / redact | → [Stirling-PDF](../stirling-pdf.md) |
+| PDF OCR / merge / redact | → [Stirling-PDF](../devtools/stirling-pdf.md) |
 
 ## Chạy thử
 
@@ -47,4 +47,4 @@ Là con của CLI-Anything — preprocess doc trước khi ingest RAG. Cạnh [S
 
 - Harness: https://github.com/HKUDS/CLI-Anything/tree/main/libreoffice/agent-harness  
 - Upstream: https://www.libreoffice.org  
-- Peers: [stirling-pdf.md](../stirling-pdf.md) · [mineru.md](../mineru.md)
+- Peers: [stirling-pdf.md](../devtools/stirling-pdf.md) · [mineru.md](../devtools/mineru.md)

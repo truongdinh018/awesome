@@ -1,6 +1,6 @@
 # FreeCAD (CLI-Anything harness)
 
-> **Parent:** [CLI-Anything](../cli-anything.md)  
+> **Parent:** [CLI-Anything](../mcp-ai-agents/cli-anything.md)  
 > **Domain:** Image & Video · CAD / 3D  
 > **Tags:** `harness` · `cad` · `cli`  
 > **Type:** Agent-native CLI harness  
@@ -10,9 +10,9 @@
 
 Harness biến **FreeCAD** thành CLI agent điều khiển được — CAD parametric, model 3D, demo Curiosity Rover (preview / live preview / trajectory).
 
-Không thay FreeCAD GUI; expose lệnh có cấu trúc + skill để agent build artifact. Không nhầm [Midscene](../midscene.md) (click UI) — FreeCAD dùng CLI deterministic.
+Không thay FreeCAD GUI; expose lệnh có cấu trúc + skill để agent build artifact. Không nhầm [Midscene](../ui-automation/midscene.md) (click UI) — FreeCAD dùng CLI deterministic.
 
-**Cùng kiểu:** [Blender](blender.md) (3D render), [Godot](godot.md) (realtime), [CLI-Anything](../cli-anything.md) (cha).
+**Cùng kiểu:** [Blender](blender.md) (3D render), [Godot](godot.md) (realtime), [CLI-Anything](../mcp-ai-agents/cli-anything.md) (cha).
 
 ## Dùng khi nào?
 
@@ -21,7 +21,7 @@ Không thay FreeCAD GUI; expose lệnh có cấu trúc + skill để agent build
 | Tạo / chỉnh solid, assembly qua CLI | ✅ |
 | Export mesh / STEP | ✅ |
 | Vòng preview — agent iterate theo ảnh/preview loop | ✅ |
-| Vision click UI | → [Midscene](../midscene.md) |
+| Vision click UI | → [Midscene](../ui-automation/midscene.md) |
 
 ## Chạy thử
 

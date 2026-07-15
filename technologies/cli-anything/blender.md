@@ -1,6 +1,6 @@
 # Blender (CLI-Anything harness)
 
-> **Parent:** [CLI-Anything](../cli-anything.md)  
+> **Parent:** [CLI-Anything](../mcp-ai-agents/cli-anything.md)  
 > **Domain:** Image & Video · 3D  
 > **Tags:** `harness` · `3d` · `cli`  
 > **Type:** Agent-native CLI harness  
@@ -12,7 +12,7 @@ Harness agent cho **Blender**: scene 3D, mesh, render — agent ra lệnh CLI th
 
 Demo tiêu biểu: dựng orbital relay drone qua vòng preview. Không cần vision click UI Blender.
 
-**Cùng kiểu:** [FreeCAD](freecad.md) (CAD), [Godot](godot.md) (realtime), [ComfyUI harness](comfyui.md) (2D diffusion).
+**Cùng kiểu:** [FreeCAD](freecad.md) (CAD), [Godot](godot.md) (realtime), [ComfyUI harness](../image-video/comfyui.md) (2D diffusion).
 
 ## Dùng khi nào?
 
@@ -21,7 +21,7 @@ Demo tiêu biểu: dựng orbital relay drone qua vòng preview. Không cần vi
 | Agent tạo object, material, camera | ✅ |
 | Render (EEVEE / Cycles) | ✅ |
 | Iterate theo preview loop | ✅ |
-| Vision click UI Blender | → [Midscene](../midscene.md) |
+| Vision click UI Blender | → [Midscene](../ui-automation/midscene.md) |
 
 ## Chạy thử
 

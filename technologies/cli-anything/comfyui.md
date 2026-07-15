@@ -1,17 +1,17 @@
 # ComfyUI (CLI-Anything harness)
 
-> **Parent:** [CLI-Anything](../cli-anything.md)  
+> **Parent:** [CLI-Anything](../mcp-ai-agents/cli-anything.md)  
 > **Domain:** Image & Video Generation  
 > **Tags:** `harness` · `image-gen` · `cli`  
 > **Type:** Agent-native CLI harness (lớp trên app ★)  
 > **Path:** [`comfyui/agent-harness`](https://github.com/HKUDS/CLI-Anything/tree/main/comfyui/agent-harness)  
-> **App ★ trong catalog:** [ComfyUI](../comfyui.md)
+> **App ★ trong catalog:** [ComfyUI](../image-video/comfyui.md)
 
 ## Đây là gì?
 
 Harness CLI-Anything cho **ComfyUI**: agent gọi / điều khiển workflow diffusion qua CLI + skill, thay vì chỉ GUI node graph hoặc raw HTTP API.
 
-**Không trùng bài ComfyUI ★** — bài này chỉ mô tả lớp agent-native; chi tiết ComfyUI xem [comfyui.md](../comfyui.md).
+**Không trùng bài ComfyUI ★** — bài này chỉ mô tả lớp agent-native; chi tiết ComfyUI xem [comfyui.md](../image-video/comfyui.md).
 
 ```
 CLI-Anything (cha)
@@ -19,7 +19,7 @@ CLI-Anything (cha)
             └── liên kết ngang → ComfyUI ★
 ```
 
-**Cùng kiểu:** [ComfyUI ★](../comfyui.md) (app), [CLI-Anything](../cli-anything.md) (cha).
+**Cùng kiểu:** [ComfyUI ★](../image-video/comfyui.md) (app), [CLI-Anything](../mcp-ai-agents/cli-anything.md) (cha).
 
 ## Dùng khi nào?
 
@@ -46,11 +46,11 @@ CLI-Anything (cha)
 ## Dùng với Odoo / ai_core
 
 - Agent gen ảnh marketing qua harness thay raw API.  
-- Ghép [Toonflow](../toonflow.md) khi cần video drama — ComfyUI cho still image.  
+- Ghép [Toonflow](../image-video/toonflow.md) khi cần video drama — ComfyUI cho still image.  
 - GPU server riêng — không chạy trên Odoo worker.
 
 ## Link
 
 - Harness: https://github.com/HKUDS/CLI-Anything/tree/main/comfyui/agent-harness  
-- ComfyUI ★: [../comfyui.md](../comfyui.md)  
+- ComfyUI ★: [../comfyui.md](../image-video/comfyui.md)  
 - Upstream: https://github.com/Comfy-Org/ComfyUI

@@ -1,6 +1,6 @@
 # VideoCaptioner (CLI-Anything harness)
 
-> **Parent:** [CLI-Anything](../cli-anything.md)  
+> **Parent:** [CLI-Anything](../mcp-ai-agents/cli-anything.md)  
 > **Domain:** Speech & Audio · Image & Video  
 > **Tags:** `harness` · `stt` · `video`  
 > **Type:** Agent-native CLI harness  
@@ -12,7 +12,7 @@ Harness **VideoCaptioner** — phụ đề / caption video bằng AI qua CLI: ag
 
 Là con của CLI-Anything — expose generate/adjust subtitle qua lệnh có cấu trúc.
 
-**Cùng kiểu:** [faster-whisper](../faster-whisper.md) (STT engine), [pyVideoTrans](../pyvideotrans.md) (dub video), [HyperFrames](../hyperframes.md) (compose).
+**Cùng kiểu:** [faster-whisper](../speech-audio/faster-whisper.md) (STT engine), [pyVideoTrans](../image-video/pyvideotrans.md) (dub video), [HyperFrames](../image-video/hyperframes.md) (compose).
 
 ## Dùng khi nào?
 
@@ -21,7 +21,7 @@ Là con của CLI-Anything — expose generate/adjust subtitle qua lệnh có c�
 | Agent generate / adjust subtitle tracks | ✅ |
 | Export SRT/VTT | ✅ |
 | Gắn vào workflow batch | ✅ |
-| Dub + translate end-to-end | → [pyVideoTrans](../pyvideotrans.md) |
+| Dub + translate end-to-end | → [pyVideoTrans](../image-video/pyvideotrans.md) |
 
 ## Chạy thử
 
@@ -47,4 +47,4 @@ Là con của CLI-Anything — expose generate/adjust subtitle qua lệnh có c�
 ## Link
 
 - Harness: https://github.com/HKUDS/CLI-Anything/tree/main/videocaptioner/agent-harness  
-- Cha: [cli-anything.md](../cli-anything.md)
+- Cha: [cli-anything.md](../mcp-ai-agents/cli-anything.md)

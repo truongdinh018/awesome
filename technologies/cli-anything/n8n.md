@@ -1,6 +1,6 @@
 # n8n (CLI-Anything harness)
 
-> **Parent:** [CLI-Anything](../cli-anything.md)  
+> **Parent:** [CLI-Anything](../mcp-ai-agents/cli-anything.md)  
 > **Domain:** DevTools & Integration · Workflow  
 > **Tags:** `harness` · `workflow` · `cli`  
 > **Type:** Agent-native CLI harness  
@@ -10,9 +10,9 @@
 
 Harness **n8n** (self-host workflow automation): agent tạo/chạy/quản lý workflow qua CLI thay vì chỉ kéo node trên UI.
 
-Là con của [CLI-Anything](../cli-anything.md) — expose lệnh có cấu trúc + skill cho coding agent.
+Là con của [CLI-Anything](../mcp-ai-agents/cli-anything.md) — expose lệnh có cấu trúc + skill cho coding agent.
 
-**Cùng kiểu:** [n8n-workflows ★](../n8n-workflows.md) (workflow templates), [CLI-Anything](../cli-anything.md) (cha).
+**Cùng kiểu:** [n8n-workflows ★](../devtools/n8n-workflows.md) (workflow templates), [CLI-Anything](../mcp-ai-agents/cli-anything.md) (cha).
 
 ## Dùng khi nào?
 
@@ -48,4 +48,4 @@ Là con của [CLI-Anything](../cli-anything.md) — expose lệnh có cấu tr�
 
 - Harness: https://github.com/HKUDS/CLI-Anything/tree/main/n8n/agent-harness  
 - Upstream: https://github.com/n8n-io/n8n  
-- Cha: [cli-anything.md](../cli-anything.md)
+- Cha: [cli-anything.md](../mcp-ai-agents/cli-anything.md)

@@ -1,6 +1,6 @@
 # ArcGIS Pro (CLI-Anything harness)
 
-> **Parent:** [CLI-Anything](../cli-anything.md)  
+> **Parent:** [CLI-Anything](../mcp-ai-agents/cli-anything.md)  
 > **Domain:** DevTools & Integration · GIS  
 > **Tags:** `harness` · `gis` · `mcp` · `cli`  
 > **Type:** Agent-native CLI + MCP bridge  
@@ -10,9 +10,9 @@
 
 Harness **ArcGIS Pro**: agent làm bản đồ, geoprocessing, chỉnh feature — CLI kèm **MCP bridge** để điều khiển Pro live (demo cartography).
 
-Chạy trên Windows với ArcPy. Không nhầm [ALPR](../alpr.md) (edge plate CV) — đây là GIS desktop authoring.
+Chạy trên Windows với ArcPy. Không nhầm [ALPR](../cv-edge/alpr.md) (edge plate CV) — đây là GIS desktop authoring.
 
-**Cùng kiểu:** [Vietnamese Provinces Database](../vietnamese-provinces-database.md) (master data ĐVHC VN), [TREK](../trek.md) (trip planner + map).
+**Cùng kiểu:** [Vietnamese Provinces Database](../devtools/vietnamese-provinces-database.md) (master data ĐVHC VN), [TREK](../devtools/trek.md) (trip planner + map).
 
 ## Dùng khi nào?
 
@@ -22,7 +22,7 @@ Chạy trên Windows với ArcPy. Không nhầm [ALPR](../alpr.md) (edge plate C
 | Geoprocessing pipelines | ✅ |
 | Feature edit qua ArcPy-style surface | ✅ |
 | MCP bridge ↔ AI agent | ✅ |
-| Edge plate OCR Jetson | → [ALPR](../alpr.md) |
+| Edge plate OCR Jetson | → [ALPR](../cv-edge/alpr.md) |
 
 ## Chạy thử
 
@@ -41,7 +41,7 @@ Chạy trên Windows với ArcPy. Không nhầm [ALPR](../alpr.md) (edge plate C
 
 ## Dùng với Odoo / ai_core
 
-- Map fleet / boundary join GeoJSON từ [vietnamese-provinces-database](../vietnamese-provinces-database.md).  
+- Map fleet / boundary join GeoJSON từ [vietnamese-provinces-database](../devtools/vietnamese-provinces-database.md).  
 - MCP tool schema cho agent GIS — pattern giống `xb_mcp`.  
 - Chỉ Windows + license ArcGIS Pro.
 
@@ -49,4 +49,4 @@ Chạy trên Windows với ArcPy. Không nhầm [ALPR](../alpr.md) (edge plate C
 
 - Parent / registry: https://github.com/HKUDS/CLI-Anything  
 - Hub: https://clianything.cc/  
-- Peers: [vietnamese-provinces-database.md](../vietnamese-provinces-database.md) · [trek.md](../trek.md)
+- Peers: [vietnamese-provinces-database.md](../devtools/vietnamese-provinces-database.md) · [trek.md](../devtools/trek.md)

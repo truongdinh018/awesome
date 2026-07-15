@@ -1,6 +1,6 @@
 # CLI-Anything — Harness con (ecosystem)
 
-> **Cha:** [CLI-Anything](../cli-anything.md) (`HKUDS/CLI-Anything`)  
+> **Cha:** [CLI-Anything](../mcp-ai-agents/cli-anything.md) (`HKUDS/CLI-Anything`)  
 > Các bài dưới đây **không phải** star riêng — là **agent-native CLI harness** trong monorepo / CLI-Hub.  
 > Tags: luôn có `harness` (+ `cli`); domain tags theo capability ngang.
 
@@ -10,7 +10,7 @@
 
 Monorepo `HKUDS/CLI-Anything` chứa nhiều harness con — mỗi con có bài riêng trong thư mục này. **ComfyUI ★** có bài star riêng; harness ComfyUI chỉ mô tả lớp agent CLI.
 
-**Cùng kiểu:** [CLI-Anything](../cli-anything.md) (cha), [drawio-skill](../drawio-skill.md) (skill NL→diagram, không qua CLI-Hub).
+**Cùng kiểu:** [CLI-Anything](../mcp-ai-agents/cli-anything.md) (cha), [drawio-skill](../mcp-ai-agents/drawio-skill.md) (skill NL→diagram, không qua CLI-Hub).
 
 ## Dùng khi nào?
 
@@ -21,7 +21,7 @@ Monorepo `HKUDS/CLI-Anything` chứa nhiều harness con — mỗi con có bài 
 | Vault Obsidian / RAG local | [obsidian.md](obsidian.md) |
 | Office convert headless | [libreoffice.md](libreoffice.md) |
 | Diagram / GIS / video caption | [drawio.md](drawio.md) · [arcgis-pro.md](arcgis-pro.md) · [videocaptioner.md](videocaptioner.md) |
-| Image gen diffusion | [comfyui.md](comfyui.md) → [ComfyUI ★](../comfyui.md) |
+| Image gen diffusion | [comfyui.md](../image-video/comfyui.md) → [ComfyUI ★](../image-video/comfyui.md) |
 | Demo game automation | [slay-the-spire-ii.md](slay-the-spire-ii.md) |
 
 ## Chạy thử
@@ -50,7 +50,7 @@ Mỗi harness có path riêng trong monorepo — xem bài con tương ứng.
 
 ## Link
 
-- Cha: [cli-anything.md](../cli-anything.md)  
+- Cha: [cli-anything.md](../mcp-ai-agents/cli-anything.md)  
 - Repo: https://github.com/HKUDS/CLI-Anything  
 - Hub: https://clianything.cc/  
-- Index harness: [freecad.md](freecad.md) · [blender.md](blender.md) · [drawio.md](drawio.md) · [n8n.md](n8n.md) · [obsidian.md](obsidian.md) · [comfyui.md](comfyui.md)
+- Index harness: [freecad.md](freecad.md) · [blender.md](blender.md) · [drawio.md](drawio.md) · [n8n.md](n8n.md) · [obsidian.md](obsidian.md) · [comfyui.md](../image-video/comfyui.md)

@@ -1,6 +1,6 @@
 # Obsidian (CLI-Anything harness)
 
-> **Parent:** [CLI-Anything](../cli-anything.md)  
+> **Parent:** [CLI-Anything](../mcp-ai-agents/cli-anything.md)  
 > **Domain:** MCP & AI Agents · Knowledge  
 > **Tags:** `harness` · `rag` · `cli`  
 > **Type:** Agent-native CLI harness  
@@ -12,7 +12,7 @@ Harness **Obsidian** (Local REST API): agent đọc/ghi vault, search, note work
 
 Là con của CLI-Anything — vault bên ngoài Odoo, agent CRUD notes qua CLI.
 
-**Cùng kiểu:** [NotebookLM MCP](../notebooklm-mcp.md), [SAG](../sag.md), [Khoj](../khoj.md) (tri thức cho agent).
+**Cùng kiểu:** [NotebookLM MCP](../mcp-ai-agents/notebooklm-mcp.md), [SAG](../mcp-ai-agents/sag.md), [Khoj](../mcp-ai-agents/khoj.md) (tri thức cho agent).
 
 ## Dùng khi nào?
 
@@ -21,7 +21,7 @@ Là con của CLI-Anything — vault bên ngoài Odoo, agent CRUD notes qua CLI.
 | Agent CRUD notes / folders | ✅ |
 | Search nội dung vault | ✅ |
 | Workflow gắn skill agent | ✅ |
-| RAG enterprise full platform | → [WeKnora](../weknora.md) |
+| RAG enterprise full platform | → [WeKnora](../mcp-ai-agents/weknora.md) |
 
 ## Chạy thử
 
@@ -47,4 +47,4 @@ Là con của CLI-Anything — vault bên ngoài Odoo, agent CRUD notes qua CLI.
 
 - Harness: https://github.com/HKUDS/CLI-Anything/tree/main/obsidian/agent-harness  
 - Upstream: https://obsidian.md  
-- Cha: [cli-anything.md](../cli-anything.md)
+- Cha: [cli-anything.md](../mcp-ai-agents/cli-anything.md)

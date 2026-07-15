@@ -1,6 +1,6 @@
 # Godot (CLI-Anything harness)
 
-> **Parent:** [CLI-Anything](../cli-anything.md)  
+> **Parent:** [CLI-Anything](../mcp-ai-agents/cli-anything.md)  
 > **Domain:** Image & Video · Game engine  
 > **Tags:** `harness` · `game` · `cli`  
 > **Type:** Agent-native CLI harness  
@@ -21,7 +21,7 @@ Là con của CLI-Anything — engine realtime 3D/2D, cạnh Blender (offline 3D
 | Project scaffold / run headless | ✅ |
 | Export build | ✅ |
 | Pipeline demo E2E (theo harness tests) | ✅ |
-| Vision click editor UI | → [Midscene](../midscene.md) |
+| Vision click editor UI | → [Midscene](../ui-automation/midscene.md) |
 
 ## Chạy thử
 
@@ -47,4 +47,4 @@ Là con của CLI-Anything — engine realtime 3D/2D, cạnh Blender (offline 3D
 
 - Harness: https://github.com/HKUDS/CLI-Anything/tree/main/godot/agent-harness  
 - Upstream: https://godotengine.org  
-- Cha: [cli-anything.md](../cli-anything.md)
+- Cha: [cli-anything.md](../mcp-ai-agents/cli-anything.md)

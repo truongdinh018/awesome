@@ -1,6 +1,6 @@
 # Slay the Spire II (CLI-Anything harness)
 
-> **Parent:** [CLI-Anything](../cli-anything.md)  
+> **Parent:** [CLI-Anything](../mcp-ai-agents/cli-anything.md)  
 > **Domain:** UI Automation & Computer Use · Game  
 > **Tags:** `harness` · `ui-automation` · `game` · `cli`  
 > **Type:** Agent-native CLI harness  
@@ -12,7 +12,7 @@ Harness **game automation** cho Slay the Spire II: agent chơi / thao tác game 
 
 Minh họa computer-use kiểu **lệnh có cấu trúc** thay vì vision click. Demo biên giới agent-native — không phải stack production Odoo.
 
-**Cùng kiểu:** [Midscene](../midscene.md) (vision UI — harness này = CLI game API), [CLI-Anything](../cli-anything.md) (cha).
+**Cùng kiểu:** [Midscene](../ui-automation/midscene.md) (vision UI — harness này = CLI game API), [CLI-Anything](../mcp-ai-agents/cli-anything.md) (cha).
 
 ## Dùng khi nào?
 
@@ -20,7 +20,7 @@ Minh họa computer-use kiểu **lệnh có cấu trúc** thay vì vision click.
 |---------|------------------------|
 | Demo agent autonomy + trajectory | ✅ |
 | Điều khiển run / combat qua command surface | ✅ |
-| Production UI automation web | → [Stagehand](../stagehand.md) / [Midscene](../midscene.md) |
+| Production UI automation web | → [Stagehand](../ui-automation/stagehand.md) / [Midscene](../ui-automation/midscene.md) |
 
 ## Chạy thử
 
@@ -46,5 +46,5 @@ Minh họa computer-use kiểu **lệnh có cấu trúc** thay vì vision click.
 ## Link
 
 - Harness: https://github.com/HKUDS/CLI-Anything/tree/main/slay_the_spire_ii  
-- So sánh: [midscene.md](../midscene.md)  
-- Cha: [cli-anything.md](../cli-anything.md)
+- So sánh: [midscene.md](../ui-automation/midscene.md)  
+- Cha: [cli-anything.md](../mcp-ai-agents/cli-anything.md)
