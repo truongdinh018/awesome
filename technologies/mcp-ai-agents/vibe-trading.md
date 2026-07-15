@@ -21,7 +21,7 @@ Khác [Whisper Money](../devtools/whisper-money.md) (sổ chi tiêu, không AI t
 | Backtest / research quant từ prompt | ✅ primary |
 | Shadow Account từ journal broker | ✅ |
 | MCP + Alpha Zoo bench | ✅ |
-| Personal finance ledger | → [Whisper Money](../devtools/whisper-money.md) |
+| Personal finance ledger | → [Whisper Money](../devtools/whisper-money.md) · [ezBookkeeping](../devtools/ezbookkeeping.md) |
 | Orchestrate coding agents | → [Vibe Kanban](vibe-kanban.md) / [Lanes](lanes.md) |
 
 ⚠️ **Không phải tư vấn đầu tư.** Live order chỉ khi bạn authorize + mandate; đọc security docs. Token/X giả mạo từng bị cảnh báo trên README — chỉ tin [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) / vibetrading.wiki.

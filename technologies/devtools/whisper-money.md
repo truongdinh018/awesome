@@ -10,7 +10,7 @@
 
 **Whisper Money** — app **personal finance** privacy-first: theo dõi tài khoản, phân loại giao dịch (manual + rule automation), insight chi tiêu; data mã hóa, không bán cho bên thứ ba. Self-host local hoặc Docker/Coolify. **Không phải AI agent / LLM finance** — tool tiền bạc cá nhân cho homelab (cùng kiểu hub như Dashy).
 
-Peer: [Dashy](dashy.md) (homelab startpage), [ntfy](ntfy.md) (push), [VeloxDB](veloxdb.md) / [Tabularis](tabularis.md) (SQL desktop — nếu export DB phân tích).
+Peer: [ezBookkeeping](ezbookkeeping.md) (ledger nhẹ + MCP/OCR), [OpenTickly](opentickly.md) (time tracker Toggl-compatible), [Dashy](dashy.md) (homelab startpage), [ntfy](ntfy.md) (push), [VeloxDB](veloxdb.md) / [Tabularis](tabularis.md) (SQL desktop — nếu export DB phân tích).
 
 ## Dùng khi nào?
 
@@ -19,6 +19,8 @@ Peer: [Dashy](dashy.md) (homelab startpage), [ntfy](ntfy.md) (push), [VeloxDB](v
 | Self-host sổ chi tiêu / multi-account | ✅ primary |
 | Auto-categorize bằng **rule** (không LLM) | ✅ |
 | Homelab dashboard links | → [Dashy](dashy.md) |
+| Timesheet / Toggl self-host | → [OpenTickly](opentickly.md) |
+| Bookkeeping + MCP/OCR import | → [ezBookkeeping](ezbookkeeping.md) |
 | Agent SQL trên DB finance | → [Tabularis](tabularis.md) (+ DB riêng) |
 
 ## Chạy thử

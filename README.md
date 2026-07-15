@@ -8,10 +8,10 @@
 
 Mỗi ★ = 1 repo đã star + 1 bài **tiếng Việt dễ hiểu** (giữ thuật ngữ Anh: API, LLM, RAG, MCP…).
 
-**7 domain · ~30 tags · 157 ★ · 11 CLI harness**
+**7 domain · ~30 tags · 204 ★ · 11 CLI harness**
 
 <p>
-  <img src="https://img.shields.io/badge/Technologies-157-success?style=flat-square" />
+  <img src="https://img.shields.io/badge/Technologies-204-success?style=flat-square" />
   <img src="https://img.shields.io/badge/CLI_harnesses-11-informational?style=flat-square" />
   <img src="https://img.shields.io/badge/Categories-7-blue?style=flat-square" />
   <img src="https://img.shields.io/badge/License-Private-red?style=flat-square" />
@@ -25,78 +25,66 @@ Mỗi ★ = 1 repo đã star + 1 bài **tiếng Việt dễ hiểu** (giữ thu�
 
 | Bạn muốn… | Mở file |
 |-----------|---------|
-| Duyệt theo **domain** (Agents, Speech, …) | [categories/README.md](categories/README.md) |
-| Đọc **bài chi tiết** theo folder domain | [technologies/](technologies/README.md) |
+| Duyệt theo **domain / subgroup** | [categories/README.md](categories/README.md) |
+| Danh sách star **`#1…#204`** | [repos/README.md](repos/README.md) |
 | Tìm theo **tag** (`tts`, `rag`, `mcp`…) | [TAGS.md](TAGS.md) |
-| Xem **danh sách star** `#1…#157` | [repos/README.md](repos/README.md) |
-| Viết / sửa bài mới | [technologies/WRITING.md](technologies/WRITING.md) |
-| Lịch sử thêm ★ | [CHANGELOG.md](CHANGELOG.md) |
-| CLI-Anything harnesses | [technologies/cli-anything/README.md](technologies/cli-anything/README.md) |
+| Viết / sửa bài | [technologies/WRITING.md](technologies/WRITING.md) |
+
+Khác: [CHANGELOG](CHANGELOG.md) · [cli-anything](technologies/cli-anything/README.md) · [bookmarks](technologies/bookmarks/README.md) · [technologies/](technologies/README.md)
 
 ```
 Star GitHub
-    ↓
-repos/README.md                    ← bảng master (#, Primary, Tags)
-    ↓
-technologies/<domain>/<slug>.md    ← Đây là gì? / Chạy thử / Peers
-    ↓
-categories/ + TAGS.md              ← phân nhóm & capability
+    →  repos/README.md                 ← bảng master (#, Primary, Tags, link bài)
+    →  technologies/<domain>/<slug>.md ← nội dung VN
+Duyệt: categories/ (subgroup) · TAGS.md (capability)
 ```
 
 ---
 
 ## 7 domain (★)
 
-Mỗi domain có **2 lối vào**: taxonomy (subgroup) và folder bài viết.
-
-| # | Domain | ★ | Taxonomy | Bài viết |
-|---|--------|---|----------|----------|
-| 1 | MCP & AI Agents | 55 | [categories §1](categories/README.md#1-mcp--ai-agents) | [mcp-ai-agents/](technologies/mcp-ai-agents/README.md) |
-| 2 | Speech & Audio | 19 | [categories §2](categories/README.md#2-speech--audio) | [speech-audio/](technologies/speech-audio/README.md) |
-| 3 | Image & Video | 19 | [categories §3](categories/README.md#3-image--video) | [image-video/](technologies/image-video/README.md) |
-| 4 | UI Automation | 6 | [categories §4](categories/README.md#4-ui-automation--computer-use) | [ui-automation/](technologies/ui-automation/README.md) |
-| 5 | CV & Edge | 7 | [categories §5](categories/README.md#5-computer-vision--edge) | [cv-edge/](technologies/cv-edge/README.md) |
-| 6 | DevTools | 48 | [categories §6](categories/README.md#6-devtools--integration) | [devtools/](technologies/devtools/README.md) |
-| 7 | Security | 3 | [categories §7](categories/README.md#7-security--pentesting) | [security/](technologies/security/README.md) |
-
-Bookmarks (không ★): [technologies/bookmarks/](technologies/bookmarks/README.md)
+| # | Domain | ★ | Taxonomy | Folder bài |
+|---|--------|---|----------|------------|
+| 1 | MCP & AI Agents | 69 | [§1](categories/README.md#1-mcp--ai-agents) | [mcp-ai-agents/](technologies/mcp-ai-agents/README.md) |
+| 2 | Speech & Audio | 20 | [§2](categories/README.md#2-speech--audio) | [speech-audio/](technologies/speech-audio/README.md) |
+| 3 | Image & Video | 26 | [§3](categories/README.md#3-image--video) | [image-video/](technologies/image-video/README.md) |
+| 4 | UI Automation | 6 | [§4](categories/README.md#4-ui-automation--computer-use) | [ui-automation/](technologies/ui-automation/README.md) |
+| 5 | CV & Edge | 9 | [§5](categories/README.md#5-computer-vision--edge) | [cv-edge/](technologies/cv-edge/README.md) |
+| 6 | DevTools | 70 | [§6](categories/README.md#6-devtools--integration) | [devtools/](technologies/devtools/README.md) |
+| 7 | Security | 4 | [§7](categories/README.md#7-security--pentesting) | [security/](technologies/security/README.md) |
 
 ---
 
-## Cấu trúc thư mục
+## Cấu trúc
 
 ```
 awesome-ai/
-├── README.md                 ← hub (file này) — ngắn, chỉ định hướng
-├── TAGS.md                   ← chú giải tag + điểm neo
-├── CHANGELOG.md              ← lịch sử thêm ★
-├── categories/README.md      ← taxonomy đầy đủ theo domain
-├── repos/README.md           ← index star + index theo Primary
-└── technologies/
-    ├── README.md             ← cách đọc bài viết + index 7 domain
-    ├── WRITING.md            ← chuẩn viết tiếng Việt dễ hiểu
-    ├── mcp-ai-agents/        ← §1 MCP, RAG, agent, skill
-    ├── speech-audio/         ← §2 STT / TTS / voice
-    ├── image-video/          ← §3 gen ảnh/video, NLE
-    ├── ui-automation/        ← §4 browser / computer-use
-    ├── cv-edge/              ← §5 vision, IoT, edge
-    ├── devtools/             ← §6 OCR, gateway, office, self-host
-    ├── security/             ← §7 pentest, OSINT
-    ├── bookmarks/            ← bookmark (không ★)
-    └── cli-anything/         ← 11 harness
+├── README.md              ← hub (file này)
+├── TAGS.md                ← chú giải tag
+├── CHANGELOG.md
+├── categories/README.md   ← taxonomy theo domain
+├── repos/README.md        ← master star list
+└── technologies/          ← bài viết + WRITING.md
 ```
+
+**SSOT:** thứ tự star `#` → `repos/` · subgroup → `categories/` · nội dung bài → `technologies/` · nghĩa tag → `TAGS.md`
 
 ---
 
-## Thêm công nghệ mới (5 bước)
+## Checklist: thêm ★ mới
 
-1. Star repo → thêm dòng vào [repos/README.md](repos/README.md)  
-2. Viết `technologies/<domain>/<slug>.md` theo [WRITING.md](technologies/WRITING.md) (domain = 1 trong 7 folder)  
-3. Ghép vào subgroup đúng trong [categories/README.md](categories/README.md)  
-4. Cập nhật điểm neo trong [TAGS.md](TAGS.md) nếu tag mới/điểm neo đổi  
-5. Bump số ★ trên README này + dòng đầu [CHANGELOG.md](CHANGELOG.md)
+<a id="add-star-checklist"></a>
 
-Harness CLI-Anything → `technologies/cli-anything/<slug>.md` + index cha.
+1. Star repo → viết `technologies/<domain>/<slug>.md` theo [WRITING.md](technologies/WRITING.md)  
+2. Thêm **một dòng** vào bảng master [repos/README.md](repos/README.md) (`#`, URL, ⭐, Lang, Primary, Tags, link bài)  
+3. Ghép subgroup đúng trong [categories/README.md](categories/README.md)  
+4. Cập nhật [TAGS.md](TAGS.md) chỉ nếu cần điểm neo mới  
+5. Bump số ★: hub README (badge + bảng domain) · [technologies/README.md](technologies/README.md) · header domain README · totals `categories/`  
+6. Dòng đầu [CHANGELOG.md](CHANGELOG.md)
+
+Primary hợp lệ: **MCP & AI Agents** · **Speech & Audio** · **Image & Video** · **UI Automation** · **CV & Edge** · **DevTools** · **Security**.
+
+Harness CLI-Anything → `technologies/cli-anything/<slug>.md` + bảng harness trong `repos/` + nest trong `categories/`.
 
 ---
 
@@ -112,6 +100,6 @@ Harness CLI-Anything → `technologies/cli-anything/<slug>.md` + index cha.
 
 <div align="center">
 
-**Awesome AI Knowledge Base** · Xem cập nhật mới nhất ở [CHANGELOG.md](CHANGELOG.md)
+**Awesome AI Knowledge Base** · [CHANGELOG](CHANGELOG.md)
 
 </div>

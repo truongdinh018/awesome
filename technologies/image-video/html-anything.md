@@ -10,7 +10,7 @@
 
 **HTML Anything** là *agentic HTML editor* local-first: AI coding CLI (Claude/Cursor/Codex/Gemini/Copilot/OpenCode/Qwen/Aider) viết **single-file HTML ship-ready** từ Markdown/CSV/JSON/notes — **zero API key** (reuse login session). **75 skills × 9 surfaces** (magazine, deck, poster, XHS/tweet, prototype, data report, **Hyperframes**…). Preview sandboxed; 1-click export WeChat / X / Zhihu / HTML / PNG.
 
-**Cùng kiểu:** [HyperFrames](hyperframes.md) (render frame → mp4), [AI Website Cloner](ai-website-cloner.md) (URL → Next app), [AI-auto-generate-video](ai-auto-generate-video.md) (VN short pipeline), [CLI-Anything](../mcp-ai-agents/cli-anything.md) / [Ponytail](../mcp-ai-agents/ponytail.md) (skill ecosystem).
+**Cùng kiểu:** [HyperFrames](hyperframes.md) (render frame → mp4), [Huashu Design](huashu-design.md) (design skill HTML+motion), [AI Website Cloner](ai-website-cloner.md) (URL → Next app), [AI-auto-generate-video](ai-auto-generate-video.md) (VN short pipeline), [CLI-Anything](../mcp-ai-agents/cli-anything.md) / [Ponytail](../mcp-ai-agents/ponytail.md) (skill ecosystem).
 
 ## Dùng khi nào?
 
@@ -50,4 +50,4 @@ SSE streaming preview · interrupt & re-prompt. Agent stays on laptop; Vercel ch
 
 - Repo: https://github.com/nexu-io/html-anything  
 - Site: https://open-design.ai/html-anything/  
-- Peers: [hyperframes.md](hyperframes.md) · [ai-website-cloner.md](ai-website-cloner.md) · [ai-auto-generate-video.md](ai-auto-generate-video.md) · [openmontage.md](openmontage.md)
+- Peers: [hyperframes.md](hyperframes.md) · [huashu-design.md](huashu-design.md) · [ai-website-cloner.md](ai-website-cloner.md) · [ai-auto-generate-video.md](ai-auto-generate-video.md) · [openmontage.md](openmontage.md)

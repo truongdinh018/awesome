@@ -12,7 +12,7 @@
 
 Hỗ trợ **10+ agents**: Claude Code, Codex, Gemini CLI, Copilot, Amp, Cursor, OpenCode, Droid, CCR, Qwen Code… Có MCP host/port cho tool connection. Chạy nhanh: `npx vibe-kanban`.
 
-**Cùng kiểu:** [Happy](happy.md) (mobile/web remote Claude/Codex), [OpenHands](openhands.md) (self-host agent platform), [Spec Kit](spec-kit.md) (SDD workflow).
+**Cùng kiểu:** [Happy](happy.md) (mobile/web remote Claude/Codex), [Nezha](nezha.md) (IDE nhẹ multi-session), [OpenHands](openhands.md) (self-host agent platform), [Spec Kit](spec-kit.md) (SDD workflow).
 
 ## Dùng khi nào?
 

@@ -1,6 +1,102 @@
 # Changelog
 
-Lịch sử thêm ★ / bookmark (mới nhất trên cùng).
+Lịch sử thêm ★ / bookmark / cấu trúc catalog (mới nhất trên cùng).
+
+*2026-07-15 — restructure catalog · hub README gọn · repos bỏ Mô tả ngắn + Index Primary · domain README slim · TAGS điểm neo rút*
+
+*2026-07-15 — 204 ★ · thêm ChronoFrame*
+
+*2026-07-15 — 203 ★ · thêm ezBookkeeping*
+
+*2026-07-15 — 202 ★ · thêm Prompt Optimizer*
+
+*2026-07-15 — 201 ★ · thêm AstrBot*
+
+*2026-07-15 — 200 ★ · thêm LivePortrait*
+
+*2026-07-15 — 199 ★ · thêm Maths CS AI Compendium*
+
+*2026-07-15 — 198 ★ · thêm Gyroflow*
+
+*2026-07-15 — 197 ★ · thêm Paseo*
+
+*2026-07-15 — 196 ★ · thêm termshot*
+
+*2026-07-15 — 195 ★ · thêm Zerolang*
+
+*2026-07-15 — 194 ★ · thêm O3DE*
+
+*2026-07-15 — 193 ★ · thêm System Informer*
+
+*2026-07-15 — 192 ★ · thêm keyd*
+
+*2026-07-15 — 191 ★ · thêm STranslate*
+
+*2026-07-15 — 190 ★ · thêm PlainApp*
+
+*2026-07-15 — 189 ★ · thêm Learn Claude Code*
+
+*2026-07-15 — 188 ★ · thêm OpenTickly*
+
+*2026-07-15 — 187 ★ · thêm Nezha*
+
+*2026-07-15 — 186 ★ · thêm Graphify*
+
+*2026-07-15 — 185 ★ · thêm Sesame Robot*
+
+*2026-07-15 — 184 ★ · thêm Clawdmeter*
+
+*2026-07-15 — 183 ★ · thêm CodeBurn*
+
+*2026-07-15 — 182 ★ · thêm Huashu Design*
+
+*2026-07-15 — 181 ★ · thêm Recordly*
+
+*2026-07-15 — 180 ★ · thêm OpenToonz*
+
+*2026-07-15 — 179 ★ · thêm Tab Harbor*
+
+*2026-07-15 — 178 ★ · thêm React Scan*
+
+*2026-07-15 — 177 ★ · thêm WhatCable*
+
+*2026-07-15 — 176 ★ · thêm R2 Web*
+
+*2026-07-15 — 175 ★ · thêm Models.dev*
+
+*2026-07-15 — 174 ★ · thêm CheatReader*
+
+*2026-07-15 — 173 ★ · thêm MicYou*
+
+*2026-07-15 — 172 ★ · thêm OfficeCLI*
+
+*2026-07-15 — 171 ★ · thêm agentmemory*
+
+*2026-07-15 — 170 ★ · thêm Dolt*
+
+*2026-07-15 — 169 ★ · thêm CodeWhale*
+
+*2026-07-15 — 168 ★ · thêm KillerPDF*
+
+*2026-07-15 — 167 ★ · thêm ASCILINE*
+
+*2026-07-15 — 166 ★ · thêm vLLM-Omni*
+
+*2026-07-15 — 165 ★ · thêm Optocam Zero*
+
+*2026-07-15 — 164 ★ · thêm BleachBit*
+
+*2026-07-15 — 163 ★ · thêm FluentFlyout*
+
+*2026-07-15 — 162 ★ · thêm PPT Master*
+
+*2026-07-15 — 161 ★ · thêm WinPodX*
+
+*2026-07-15 — 160 ★ · thêm SmolVM*
+
+*2026-07-15 — 159 ★ · thêm Stop Slop*
+
+*2026-07-15 — 158 ★ · thêm Train LLM From Scratch*
 
 *2026-07-15 — tái cấu trúc `technologies/` → 7 folder domain (+ bookmarks/)*
 

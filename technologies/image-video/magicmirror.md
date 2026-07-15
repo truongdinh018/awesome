@@ -10,7 +10,7 @@
 
 **MagicMirror** là app desktop **AI face swap** một click: kéo-thả ảnh đổi mặt/kiểu tóc/trang phục. Offline, không cần GPU mạnh; installer &lt;10MB, models &lt;1GB. macOS 13+ / Windows 10+. Tauri + Python backend.
 
-**Cùng kiểu:** [Deep-Live-Cam](deep-live-cam.md) (live webcam deepfake), [InsightFace](../cv-edge/insightface.md) (engine face analysis), [ComfyUI](comfyui.md) (pipeline generative rộng hơn).
+**Cùng kiểu:** [Deep-Live-Cam](deep-live-cam.md) (live webcam deepfake), [LivePortrait](liveportrait.md) (animate portrait), [InsightFace](../cv-edge/insightface.md) (engine face), [ComfyUI](comfyui.md).
 
 ## Dùng khi nào?
 
@@ -18,6 +18,7 @@
 |---------|-------------|
 | Face swap thử đồ / hairstyle offline | ✅ Drag-drop |
 | Live webcam / video deepfake | → [Deep-Live-Cam](deep-live-cam.md) |
+| Animate portrait từ driving video | → [LivePortrait](liveportrait.md) |
 | Face embedding / verify API | → [InsightFace](../cv-edge/insightface.md) |
 | Full graph image/video gen | → [ComfyUI](comfyui.md) |
 

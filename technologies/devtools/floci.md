@@ -12,7 +12,7 @@
 
 Nhiều service chạy **Docker thật** (Lambda, RDS, ECS, EC2, EKS…) thay vì mock nông. Testcontainers / CI friendly. Định vị thay **LocalStack** khi cần “always free”.
 
-**Cùng kiểu:** [Cake](cake.md) / [exo](exo.md) (local inference cluster — khác domain), [Duckle](duckle.md) (local ETL), [LocalAI](localai.md) (local LLM API). Không thay cloud prod AWS.
+**Cùng kiểu:** [SmolVM](smolvm.md) (microVM sandbox), [R2 Web](r2-web.md) (Cloudflare R2 UI), [Cake](cake.md) / [exo](exo.md) (local inference cluster — khác domain), [Duckle](duckle.md) (local ETL), [LocalAI](localai.md) (local LLM API). Không thay cloud prod AWS.
 
 ## Dùng khi nào?
 
@@ -63,4 +63,4 @@ Image cũ `hectorvent/floci` → đổi sang `floci/floci:latest`.
 ## Link
 
 - Repo: https://github.com/floci-io/floci · Docs: https://floci.io/floci/  
-- Peers: [localai.md](localai.md) · [duckle.md](duckle.md) · [cake.md](cake.md) · [exo.md](exo.md)
+- Peers: [localai.md](localai.md) · [duckle.md](duckle.md) · [r2-web.md](r2-web.md) · [cake.md](cake.md) · [exo.md](exo.md)

@@ -11,7 +11,7 @@
 
 Được build **động** từ **Google Discovery Service** (API schema). Có **AI agent skills** — agent gọi CLI thay vì viết OAuth flow từ đầu.
 
-**Cùng kiểu:** [Knowledge Work Plugins](../mcp-ai-agents/knowledge-work-plugins.md) (role plugins Cowork), [Addy's Agent Skills](../mcp-ai-agents/agent-skills.md) (skills coding).
+**Cùng kiểu:** [OfficeCLI](officecli.md) (docx/xlsx/pptx local), [Knowledge Work Plugins](../mcp-ai-agents/knowledge-work-plugins.md) (role plugins Cowork), [Addy's Agent Skills](../mcp-ai-agents/agent-skills.md) (skills coding).
 
 ## Dùng khi nào?
 
@@ -53,4 +53,4 @@ OAuth credentials — **không** commit vào repo. Scope tối thiểu (*least p
 
 - Repo: https://github.com/googleworkspace/cli  
 - Google Workspace APIs: https://developers.google.com/workspace  
-- Peers: [knowledge-work-plugins.md](../mcp-ai-agents/knowledge-work-plugins.md) · [agent-skills.md](../mcp-ai-agents/agent-skills.md)
+- Peers: [officecli.md](officecli.md) · [knowledge-work-plugins.md](../mcp-ai-agents/knowledge-work-plugins.md) · [agent-skills.md](../mcp-ai-agents/agent-skills.md)

@@ -12,7 +12,7 @@
 
 ⚠️ Chỉ dùng thử cá nhân — tuân thủ ToS từng provider; **không** cho production SaaS / multi-tenant.
 
-**Cùng kiểu:** [Headroom](../mcp-ai-agents/headroom.md) (context compression proxy), [LocalAI](localai.md) (local multi-modal engine), [Hermes](../mcp-ai-agents/hermes-agent.md) / Continue (clients trỏ `base_url`).
+**Cùng kiểu:** [Headroom](../mcp-ai-agents/headroom.md) (context compression proxy), [Models.dev](models-dev.md) (catalog pricing/specs), [LocalAI](localai.md) (local multi-modal engine), [Hermes](../mcp-ai-agents/hermes-agent.md) / Continue (clients trỏ `base_url`).
 
 ## Dùng khi nào?
 
@@ -51,4 +51,4 @@ Dashboard → Keys → Fallback Chain → lấy unified key `freellmapi-…`. St
 
 - Repo: https://github.com/tashfeenahmed/freellmapi  
 - Site / models: https://freellmapi.co · https://freellmapi.co/models  
-- Peers: [headroom.md](../mcp-ai-agents/headroom.md) · [hermes-agent.md](../mcp-ai-agents/hermes-agent.md) · [localai.md](localai.md)
+- Peers: [headroom.md](../mcp-ai-agents/headroom.md) · [hermes-agent.md](../mcp-ai-agents/hermes-agent.md) · [localai.md](localai.md) · [models-dev.md](models-dev.md)

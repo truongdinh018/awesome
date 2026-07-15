@@ -13,7 +13,7 @@
 
 Không gắn laptop: chat Telegram trong khi agent chạy trên VPS / cloud / serverless (Modal, Daytona). Model linh hoạt — Nous Portal, OpenRouter, OpenAI, endpoint riêng (`hermes model`). Compatible [agentskills.io](https://agentskills.io).
 
-**Cùng kiểu:** [OpenHands](openhands.md) (dev team sandbox), [Headroom](headroom.md) (context compress), [Ponytail](ponytail.md) (YAGNI skill).
+**Cùng kiểu:** [AstrBot](astrbot.md) (IM chatbot + plugin hub), [OpenHands](openhands.md) (dev team sandbox), [Headroom](headroom.md) (context compress), [Ponytail](ponytail.md) (YAGNI skill).
 
 ## Dùng khi nào?
 

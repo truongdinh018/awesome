@@ -12,7 +12,7 @@
 
 Không phải inference server — chỉ **chọn model đúng máy** (+ skill advisor). Runtime vẫn cần Ollama / [LocalAI](localai.md) / llama.cpp…
 
-**Cùng kiểu:** [LLM Checker](llm-checker.md) (JS/npm + MCP), [LocalAI](localai.md), [MiniCPM](minicpm.md), [Unsloth](unsloth.md), [AirLLM](airllm.md).
+**Cùng kiểu:** [LLM Checker](llm-checker.md) (JS/npm + MCP), [Models.dev](models-dev.md) (catalog API đa provider), [LocalAI](localai.md), [MiniCPM](minicpm.md), [Unsloth](unsloth.md), [AirLLM](airllm.md).
 
 ## Dùng khi nào?
 
@@ -57,4 +57,4 @@ Skill agent: `skills/llmfit-advisor` trong repo.
 ## Link
 
 - Repo: https://github.com/AlexsJones/llmfit · Docs: [docs/](https://github.com/AlexsJones/llmfit/tree/main/docs)  
-- Peers: [llm-checker.md](llm-checker.md) · [localai.md](localai.md) · [minicpm.md](minicpm.md) · [unsloth.md](unsloth.md) · [airllm.md](airllm.md) · [exo.md](exo.md)
+- Peers: [llm-checker.md](llm-checker.md) · [models-dev.md](models-dev.md) · [localai.md](localai.md) · [minicpm.md](minicpm.md) · [unsloth.md](unsloth.md) · [airllm.md](airllm.md) · [exo.md](exo.md)

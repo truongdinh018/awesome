@@ -10,7 +10,7 @@
 
 **Deep-Live-Cam** — **face swap realtime** (webcam/live) + one-click **video deepfake** từ **một ảnh** nguồn. Mouth mask, multi-face mapping, GPU/CPU/Mac Silicon; GUI + CLI. Stack face/vision (cùng họ [InsightFace](../cv-edge/insightface.md)). Có bản prebuilt thương mại riêng (v2.7 RC) ngoài OSS.
 
-**Cùng kiểu:** [MagicMirror](magicmirror.md) (desktop swap ảnh offline, nhẹ hơn), [InsightFace](../cv-edge/insightface.md) (lib face analysis), [ComfyUI](comfyui.md) (pipeline gen rộng).
+**Cùng kiểu:** [MagicMirror](magicmirror.md) (desktop swap ảnh offline), [LivePortrait](liveportrait.md) (animate portrait từ driving video), [InsightFace](../cv-edge/insightface.md) (lib face), [ComfyUI](comfyui.md).
 
 ⚠️ **Đạo đức / pháp lý:** Chỉ dùng hợp pháp, có **consent** khi dùng khuôn mặt người thật; gắn nhãn deepfake khi đăng. Cấm mạo danh / lừa đảo / nội dung bị cấm luật. Upstream có filter nội dung nhạy cảm — **trách nhiệm thuộc end-user**. Catalog không hỗ trợ lạm dụng.
 
@@ -21,6 +21,7 @@
 | Webcam/live face swap realtime | ✅ primary |
 | Video deepfake 1 ảnh nguồn | ✅ |
 | Face swap ảnh desktop gọn (offline UI) | → [MagicMirror](magicmirror.md) |
+| Animate portrait từ driving video | → [LivePortrait](liveportrait.md) |
 | Face embed / verify API | → [InsightFace](../cv-edge/insightface.md) |
 | Node graph ảnh/video gen | → [ComfyUI](comfyui.md) |
 

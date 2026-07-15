@@ -10,7 +10,7 @@
 
 **RuView** (π / WiFi DensePose) biến **WiFi CSI** từ ESP32 (hoặc NIC nghiên cứu) thành **spatial intelligence**: presence, pose/DensePose, hô hấp/nhịp tim ước lượng, theo dõi phòng — **không pixel camera**, không wearable. Model edge nhỏ (int4 ~KB) + self-learning theo phòng; stack Docker / Raspberry Pi / Home Assistant–style IoT.
 
-**Cùng kiểu:** [PLFM RADAR](plfm-radar.md) (radar HW X-band), [Supervision](supervision.md) / [InsightFace](insightface.md) (CV camera), [XiaoZhi ESP32](../speech-audio/xiaozhi-esp32.md) (ESP32 voice — khác sensing RF).
+**Cùng kiểu:** [PLFM RADAR](plfm-radar.md) (radar HW X-band), [Sesame Robot](sesame-robot.md) (ESP quadruped), [Supervision](supervision.md) / [InsightFace](insightface.md) (CV camera), [XiaoZhi ESP32](../speech-audio/xiaozhi-esp32.md) (ESP32 voice — khác sensing RF).
 
 ## Dùng khi nào?
 
@@ -55,4 +55,4 @@ Live sensing: flash firmware ESP32-S3/C6 theo README repo (`esptool` / `idf.py`)
 ## Link
 
 - Repo: https://github.com/ruvnet/RuView · Site: https://Cognitum.One/RuView  
-- Peers: [plfm-radar.md](plfm-radar.md) · [xiaozhi-esp32.md](../speech-audio/xiaozhi-esp32.md) · [supervision.md](supervision.md) · [alpr.md](alpr.md) · [insightface.md](insightface.md)
+- Peers: [plfm-radar.md](plfm-radar.md) · [sesame-robot.md](sesame-robot.md) · [xiaozhi-esp32.md](../speech-audio/xiaozhi-esp32.md) · [supervision.md](supervision.md) · [alpr.md](alpr.md) · [insightface.md](insightface.md)

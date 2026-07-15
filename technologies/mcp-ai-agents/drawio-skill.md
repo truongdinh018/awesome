@@ -11,7 +11,7 @@
 
 Chạy trên Claude Code, Cursor, Copilot, OpenClaw, Codex… (Agent Skills format). **Không cần MCP server** — một `SKILL.md` + scripts; optional Node chỉ cho installer.
 
-**Cùng kiểu:** [CLI-Anything Draw.io harness](../cli-anything/drawio.md) (alternative path), [prompts.chat](prompts-chat.md) (prompt templates).
+**Cùng kiểu:** [PPT Master](ppt-master.md) (NL→editable `.pptx`), [CLI-Anything Draw.io harness](../cli-anything/drawio.md) (alternative path), [prompts.chat](prompts-chat.md) (prompt templates).
 
 ## Dùng khi nào?
 
@@ -61,4 +61,4 @@ Claude: `/plugin marketplace add Agents365-ai/365-skills` → `/plugin install d
 
 - Repo: https://github.com/Agents365-ai/drawio-skill  
 - Upstream Draw.io: https://github.com/jgraph/drawio  
-- Harness bạn cùng catalog: [cli-anything/drawio.md](../cli-anything/drawio.md)
+- Peers: [ppt-master.md](ppt-master.md) · [cli-anything/drawio.md](../cli-anything/drawio.md)

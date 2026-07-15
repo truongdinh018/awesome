@@ -15,7 +15,7 @@ Chạy agent local / Docker / VM / cloud. Canvas kết nối nhiều **Agent Ser
 
 Core agent SDK: [OpenHands/software-agent-sdk](https://github.com/OpenHands/software-agent-sdk) · Canvas chuyển dần: [OpenHands/agent-canvas](https://github.com/OpenHands/agent-canvas).
 
-**Cùng kiểu:** [Hermes Agent](hermes-agent.md), [Midscene](../ui-automation/midscene.md), [Destructive Command Guard](destructive-command-guard.md)
+**Cùng kiểu:** [CodeWhale](codewhale.md) (TUI coding agent), [Hermes Agent](hermes-agent.md), [Midscene](../ui-automation/midscene.md), [Destructive Command Guard](destructive-command-guard.md)
 
 ## Dùng khi nào?
 
@@ -67,4 +67,4 @@ docker run -it --rm -p 8000:8000 \
 - Repo: https://github.com/OpenHands/OpenHands  
 - Docs: https://docs.openhands.dev  
 - SDK: https://github.com/OpenHands/software-agent-sdk  
-- Peers: [hermes-agent.md](hermes-agent.md) · [midscene.md](../ui-automation/midscene.md) · [destructive-command-guard.md](destructive-command-guard.md)
+- Peers: [codewhale.md](codewhale.md) · [hermes-agent.md](hermes-agent.md) · [midscene.md](../ui-automation/midscene.md) · [destructive-command-guard.md](destructive-command-guard.md)

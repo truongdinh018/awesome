@@ -14,7 +14,7 @@
 
 Stream audio: Mic I2S → Opus 60ms frame → WebSocket/MQTT+UDP → server ASR/LLM/TTS → Opus về ESP → loa. ESP **không** giữ lịch sử chat dài — chỉ buffer ngắn; memory trên server.
 
-**Cùng kiểu:** [faster-whisper](faster-whisper.md) (STT server), [VoxCPM](voxcpm.md) / [VieNeu-TTS](vieneu-tts.md) (TTS), [ALPR](../cv-edge/alpr.md) (edge CV sibling).
+**Cùng kiểu:** [faster-whisper](faster-whisper.md) (STT server), [VoxCPM](voxcpm.md) / [VieNeu-TTS](vieneu-tts.md) (TTS), [Sesame Robot](../cv-edge/sesame-robot.md) (ESP quadruped), [ALPR](../cv-edge/alpr.md) (edge CV sibling).
 
 ## Dùng khi nào?
 

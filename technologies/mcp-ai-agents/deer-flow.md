@@ -10,7 +10,7 @@
 
 **DeerFlow** (*Deep Exploration and Efficient Research Flow*) — OSS **super agent harness** (ByteDance): research · code · create trên task dài (phút→giờ). Orchestrate **sub-agents**, **memory**, **sandbox**, **skills/tools**, message gateway (IM), MCP. **v2.0** rewrite (LangGraph); nhánh 1.x = deep-research cũ.
 
-**Cùng kiểu:** [Hermes](hermes-agent.md) (personal gateway + skills), [OpenHands](openhands.md) (coding sandbox), [OpenSpace](openspace.md) (skill evolve hub), [EpicStaff](epicstaff.md) / [Atomic Agents](atomic-agents.md).
+**Cùng kiểu:** [AstrBot](astrbot.md) (IM agent chatbot), [Hermes](hermes-agent.md) (personal gateway + skills), [OpenHands](openhands.md) (coding sandbox), [OpenSpace](openspace.md) (skill evolve hub), [EpicStaff](epicstaff.md) / [Atomic Agents](atomic-agents.md).
 
 ## Dùng khi nào?
 

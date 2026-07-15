@@ -1,7 +1,8 @@
 # Categories — phân nhóm Primary & Tags
 
-> **Đây là bản taxonomy chuẩn** (bảng đầy đủ theo domain).  
-> Hub: [../README.md](../README.md) · Stars: [../repos/README.md](../repos/README.md) · Tags: [../TAGS.md](../TAGS.md) · Viết bài: [../technologies/WRITING.md](../technologies/WRITING.md)
+> **Taxonomy theo domain / subgroup** (duyệt capability).  
+> **Thứ tự star `#` và URL repo** → [repos/README.md](../repos/README.md) (bảng master).  
+> Hub + checklist: [../README.md](../README.md) · Tags: [../TAGS.md](../TAGS.md) · Viết bài: [../technologies/WRITING.md](../technologies/WRITING.md)
 
 ---
 
@@ -20,15 +21,15 @@
 
 | # | Primary | ★ | Mục đích ngắn |
 |---|---------|---|----------------|
-| 1 | [MCP & AI Agents](#1-mcp--ai-agents) | 55 | MCP, RAG, agent, skill |
-| 2 | [Speech & Audio](#2-speech--audio) | 19 | STT / TTS / voice |
-| 3 | [Image & Video](#3-image--video) | 19 | Gen ảnh/video, NLE |
+| 1 | [MCP & AI Agents](#1-mcp--ai-agents) | 69 | MCP, RAG, agent, skill |
+| 2 | [Speech & Audio](#2-speech--audio) | 20 | STT / TTS / voice |
+| 3 | [Image & Video](#3-image--video) | 26 | Gen ảnh/video, NLE |
 | 4 | [UI Automation](#4-ui-automation--computer-use) | 6 | Browser / computer-use |
-| 5 | [CV & Edge](#5-computer-vision--edge) | 7 | Vision, IoT, edge |
-| 6 | [DevTools](#6-devtools--integration) | 48 | OCR, gateway, office, self-host |
-| 7 | [Security](#7-security--pentesting) | 3 | Pentest, OSINT, guardrail |
+| 5 | [CV & Edge](#5-computer-vision--edge) | 9 | Vision, IoT, edge |
+| 6 | [DevTools](#6-devtools--integration) | 70 | OCR, gateway, office, train, self-host |
+| 7 | [Security](#7-security--pentesting) | 4 | Pentest, OSINT, guardrail |
 
-**Tổng = 157 ★** (+ 11 CLI-Anything harnesses)
+**Tổng = 204 ★** (+ 11 CLI-Anything harnesses)
 
 ---
 
@@ -70,10 +71,15 @@
 | Công nghệ | Tags | Bài viết |
 |-----------|------|----------|
 | **Hermes Agent** | `agent` `mcp` `skill` `cli` `self-host` | [hermes-agent.md](../technologies/mcp-ai-agents/hermes-agent.md) |
+| **AstrBot** | `agent` `mcp` `skill` `rag` `self-host` `api` `workflow` | [astrbot.md](../technologies/mcp-ai-agents/astrbot.md) |
 | **OpenHands** | `coding-agent` `agent` `self-host` | [openhands.md](../technologies/mcp-ai-agents/openhands.md) |
+| **CodeWhale** | `coding-agent` `cli` `agent` `self-host` `mcp` `skill` | [codewhale.md](../technologies/mcp-ai-agents/codewhale.md) |
+| **Zerolang** | `coding-agent` `agent` `cli` `skill` | [zerolang.md](../technologies/mcp-ai-agents/zerolang.md) |
 | **Happy** | `coding-agent` `cli` `agent` `self-host` `desktop` | [happy.md](../technologies/mcp-ai-agents/happy.md) |
 | **Vibe Kanban** | `coding-agent` `agent` `cli` `self-host` `workflow` `mcp` | [vibe-kanban.md](../technologies/mcp-ai-agents/vibe-kanban.md) |
 | **Lanes** | `coding-agent` `agent` `desktop` `mcp` `workflow` `cli` | [lanes.md](../technologies/mcp-ai-agents/lanes.md) |
+| **Nezha** | `coding-agent` `agent` `desktop` `workflow` `cli` `skill` | [nezha.md](../technologies/mcp-ai-agents/nezha.md) |
+| **Paseo** | `coding-agent` `agent` `desktop` `cli` `skill` `self-host` `mcp` | [paseo.md](../technologies/mcp-ai-agents/paseo.md) |
 | **Claude Peers MCP** | `mcp` `coding-agent` `agent` `cli` `self-host` | [claude-peers-mcp.md](../technologies/mcp-ai-agents/claude-peers-mcp.md) |
 | **DeerFlow** | `agent` `skill` `coding-agent` `self-host` `workflow` `mcp` `cli` | [deer-flow.md](../technologies/mcp-ai-agents/deer-flow.md) |
 | **CC Workflow Studio** | `coding-agent` `skill` `mcp` `cli` `workflow` | [cc-wf-studio.md](../technologies/mcp-ai-agents/cc-wf-studio.md) |
@@ -90,17 +96,25 @@
 | Công nghệ | Tags | Bài viết |
 |-----------|------|----------|
 | **prompts.chat** | `prompt` `mcp` `cli` `self-host` | [prompts-chat.md](../technologies/mcp-ai-agents/prompts-chat.md) |
+| **Prompt Optimizer** | `prompt` `mcp` `self-host` `desktop` `browser` `image-gen` | [prompt-optimizer.md](../technologies/mcp-ai-agents/prompt-optimizer.md) |
 | **Ponytail** | `skill` `coding-agent` `prompt` | [ponytail.md](../technologies/mcp-ai-agents/ponytail.md) |
 | **Taste Skill** | `skill` `coding-agent` `prompt` `image-gen` | [taste-skill.md](../technologies/mcp-ai-agents/taste-skill.md) |
+| **Stop Slop** | `skill` `coding-agent` `prompt` | [stop-slop.md](../technologies/mcp-ai-agents/stop-slop.md) |
 | **Caveman** | `skill` `coding-agent` `prompt` `cli` `mcp` | [caveman.md](../technologies/mcp-ai-agents/caveman.md) |
 | **Karpathy Guidelines** | `skill` `coding-agent` `prompt` | [karpathy-skills.md](../technologies/mcp-ai-agents/karpathy-skills.md) |
 | **Matt Pocock Skills** | `skill` `coding-agent` `prompt` | [mattpocock-skills.md](../technologies/mcp-ai-agents/mattpocock-skills.md) |
 | **AI Engineering Coach** | `coding-agent` `skill` `desktop` `cli` | [ai-engineering-coach.md](../technologies/mcp-ai-agents/ai-engineering-coach.md) |
 | **Easy-Vibe** | `coding-agent` `skill` `prompt` `workflow` | [easy-vibe.md](../technologies/mcp-ai-agents/easy-vibe.md) |
+| **Learn Claude Code** | `coding-agent` `agent` `skill` `cli` `prompt` | [learn-claude-code.md](../technologies/mcp-ai-agents/learn-claude-code.md) |
+| **Maths CS AI Compendium** | `prompt` `mcp` `skill` `rag` `cli` | [maths-cs-ai-compendium.md](../technologies/mcp-ai-agents/maths-cs-ai-compendium.md) |
 | **Addy's Agent Skills** | `skill` `coding-agent` `prompt` | [agent-skills.md](../technologies/mcp-ai-agents/agent-skills.md) |
 | **knowledge-work-plugins** | `skill` `prompt` `workspace` `office` | [knowledge-work-plugins.md](../technologies/mcp-ai-agents/knowledge-work-plugins.md) |
+| **PPT Master** | `skill` `office` `cli` `coding-agent` `workflow` | [ppt-master.md](../technologies/mcp-ai-agents/ppt-master.md) |
 | **Understand Anything** | `skill` `coding-agent` `rag` `cli` `agent` | [understand-anything.md](../technologies/mcp-ai-agents/understand-anything.md) |
+| **Graphify** | `skill` `coding-agent` `rag` `cli` `agent` | [graphify.md](../technologies/mcp-ai-agents/graphify.md) |
 | **Headroom** | `mcp` `cli` `agent` `coding-agent` `self-host` | [headroom.md](../technologies/mcp-ai-agents/headroom.md) |
+| **CodeBurn** | `cli` `coding-agent` `mcp` `desktop` `self-host` | [codeburn.md](../technologies/mcp-ai-agents/codeburn.md) |
+| **Clawdmeter** | `coding-agent` `edge` `iot` `desktop` `cli` | [clawdmeter.md](../technologies/mcp-ai-agents/clawdmeter.md) |
 | **RTK** | `cli` `coding-agent` | [rtk.md](../technologies/mcp-ai-agents/rtk.md) |
 | **Semble** | `mcp` `cli` `coding-agent` `rag` `self-host` | [semble.md](../technologies/mcp-ai-agents/semble.md) |
 | **Gitingest** | `cli` `coding-agent` `rag` `self-host` | [gitingest.md](../technologies/mcp-ai-agents/gitingest.md) |
@@ -108,6 +122,7 @@
 | **ghgrab** | `cli` `coding-agent` `self-host` | [ghgrab.md](../technologies/mcp-ai-agents/ghgrab.md) |
 | **TencentDB Agent Memory** | `agent` `self-host` `coding-agent` | [tencentdb-agent-memory.md](../technologies/mcp-ai-agents/tencentdb-agent-memory.md) |
 | **Claude-Mem** | `agent` `coding-agent` `mcp` `self-host` `rag` | [claude-mem.md](../technologies/mcp-ai-agents/claude-mem.md) |
+| **agentmemory** | `agent` `coding-agent` `mcp` `self-host` `rag` `cli` `skill` | [agentmemory.md](../technologies/mcp-ai-agents/agentmemory.md) |
 | **drawio-skill** | `skill` `diagram` `cli` | [drawio-skill.md](../technologies/mcp-ai-agents/drawio-skill.md) |
 | **Destructive Command Guard** | `guardrail` `cli` | [destructive-command-guard.md](../technologies/mcp-ai-agents/destructive-command-guard.md) |
 | **Agent Governance Toolkit** | `guardrail` `security` `agent` `cli` `mcp` | [agent-governance-toolkit.md](../technologies/mcp-ai-agents/agent-governance-toolkit.md) |
@@ -141,6 +156,7 @@
 | **Voicebox** | `stt` `tts` `voice-clone` `desktop` `self-host` `mcp` `api` | [voicebox.md](../technologies/speech-audio/voicebox.md) |
 | **OmniVoice Studio** | `stt` `tts` `voice-clone` `desktop` `self-host` | [omnivoice-studio.md](../technologies/speech-audio/omnivoice-studio.md) |
 | **Voice-Pro** | `stt` `tts` `voice-clone` `self-host` `desktop` `video` | [voice-pro.md](../technologies/speech-audio/voice-pro.md) |
+| **MicYou** | `stt` `desktop` `edge` | [micyou.md](../technologies/speech-audio/micyou.md) |
 
 ### 2.3 TTS · Voice cloning
 
@@ -192,17 +208,21 @@
 | **AI-auto-generate-video** | `video` `skill` `tts` `cli` `agent` | [ai-auto-generate-video.md](../technologies/image-video/ai-auto-generate-video.md) |
 | **MagicMirror** | `image-gen` `desktop` `self-host` `cv` | [magicmirror.md](../technologies/image-video/magicmirror.md) |
 | **Deep-Live-Cam** | `video` `image-gen` `desktop` `self-host` `cv` `cli` | [deep-live-cam.md](../technologies/image-video/deep-live-cam.md) |
+| **LivePortrait** | `video` `image-gen` `self-host` `cv` `cli` | [liveportrait.md](../technologies/image-video/liveportrait.md) |
 | **MoneyPrinterTurbo** | `video` `tts` `cli` `self-host` `api` `skill` | [moneyprinterturbo.md](../technologies/image-video/moneyprinterturbo.md) |
 | **Toonflow** | `video` `image-gen` `desktop` `self-host` `agent` `skill` | [toonflow.md](../technologies/image-video/toonflow.md) |
 | **Pixelle-Video** | `video` `tts` `image-gen` `self-host` `workflow` `api` | [pixelle-video.md](../technologies/image-video/pixelle-video.md) |
 
 > **Vector SVG SaaS** (bookmark, không ★): [quiverai.md](../technologies/bookmarks/quiverai.md) — [QuiverAI](https://quiver.ai/) (text/image→SVG · MCP/API)
 
-### 3.2 Browser NLE
+### 3.2 NLE · 2D animation · stabilize
 
 | Công nghệ | Tags | Bài viết |
 |-----------|------|----------|
 | **FreeCut** | `video` `self-host` `stt` `tts` | [freecut.md](../technologies/image-video/freecut.md) |
+| **Recordly** | `video` `desktop` `self-host` | [recordly.md](../technologies/image-video/recordly.md) |
+| **Gyroflow** | `video` `desktop` `self-host` | [gyroflow.md](../technologies/image-video/gyroflow.md) |
+| **OpenToonz** | `video` `desktop` `self-host` | [opentoonz.md](../technologies/image-video/opentoonz.md) |
 
 ### 3.3 Localize · dub · subtitle
 
@@ -217,8 +237,13 @@
 | **ScreenCoder** | `ui-to-code` | [screencoder.md](../technologies/image-video/screencoder.md) |
 | **AI Website Cloner** | `ui-to-code` `coding-agent` `skill` | [ai-website-cloner.md](../technologies/image-video/ai-website-cloner.md) |
 | **HTML Anything** | `skill` `coding-agent` `agent` `video` `self-host` | [html-anything.md](../technologies/image-video/html-anything.md) |
+| **Huashu Design** | `skill` `coding-agent` `agent` `video` | [huashu-design.md](../technologies/image-video/huashu-design.md) |
 
-### 3.5 CAD · 3D · Game *(harness)*
+### 3.5 CAD · 3D · Game
+
+| Công nghệ | Tags | Bài viết |
+|-----------|------|----------|
+| **O3DE** | `desktop` `self-host` | [o3de.md](../technologies/image-video/o3de.md) |
 
 | Harness | Tags | Bài viết |
 |---------|------|----------|
@@ -233,6 +258,7 @@
 | **blind_watermark** | `watermark` `cli` | [blind-watermark.md](../technologies/image-video/blind-watermark.md) |
 | **iptv-org/iptv** | `video` | [iptv-org.md](../technologies/image-video/iptv-org.md) |
 | **yt-dlp** | `video` `cli` `self-host` | [yt-dlp.md](../technologies/image-video/yt-dlp.md) |
+| **ASCILINE** | `video` `cli` `self-host` `browser` | [asciline.md](../technologies/image-video/asciline.md) |
 
 ---
 
@@ -259,12 +285,14 @@
 | Công nghệ | Tags | Bài viết |
 |-----------|------|----------|
 | **ALPR** | `cv` `edge` `self-host` | [alpr.md](../technologies/cv-edge/alpr.md) |
+| **Optocam Zero** | `cv` `edge` `iot` `self-host` | [optocam-zero.md](../technologies/cv-edge/optocam-zero.md) |
 | **PLFM RADAR (AERIS-10)** | `edge` `iot` `self-host` | [plfm-radar.md](../technologies/cv-edge/plfm-radar.md) |
 | **RuView** | `cv` `edge` `iot` `self-host` | [ruview.md](../technologies/cv-edge/ruview.md) |
 | **LingBot-Map** | `cv` `self-host` `cli` `video` | [lingbot-map.md](../technologies/cv-edge/lingbot-map.md) |
 | **InsightFace** | `cv` `self-host` `cli` | [insightface.md](../technologies/cv-edge/insightface.md) |
 | **LocateAnything-3B** | `cv` `ocr` `self-host` `cli` | [locate-anything.md](../technologies/cv-edge/locate-anything.md) |
 | **Supervision** | `cv` `cli` `self-host` `video` | [supervision.md](../technologies/cv-edge/supervision.md) |
+| **Sesame Robot** | `edge` `iot` `api` `self-host` | [sesame-robot.md](../technologies/cv-edge/sesame-robot.md) |
 
 ---
 
@@ -286,8 +314,22 @@
 | **Horizon** | `mcp` `self-host` `workflow` `notification` `cli` | [horizon.md](../technologies/devtools/horizon.md) |
 | **changedetection.io** | `notification` `self-host` `browser` `workflow` `api` | [changedetection-io.md](../technologies/devtools/changedetection-io.md) |
 | **Dashy** | `self-host` `desktop` `workspace` | [dashy.md](../technologies/devtools/dashy.md) |
+| **R2 Web** | `self-host` `desktop` `api` `workspace` | [r2-web.md](../technologies/devtools/r2-web.md) |
+| **ChronoFrame** | `self-host` `desktop` `workspace` `browser` | [chronoframe.md](../technologies/devtools/chronoframe.md) |
 | **Whisper Money** | `self-host` `desktop` `workspace` | [whisper-money.md](../technologies/devtools/whisper-money.md) |
+| **ezBookkeeping** | `self-host` `desktop` `workspace` `mcp` `api` `ocr` | [ezbookkeeping.md](../technologies/devtools/ezbookkeeping.md) |
+| **OpenTickly** | `self-host` `api` `cli` `workspace` `agent` | [opentickly.md](../technologies/devtools/opentickly.md) |
+| **PlainApp** | `self-host` `desktop` `workspace` `edge` `notification` | [plain-app.md](../technologies/devtools/plain-app.md) |
 | **WSL Dashboard** | `desktop` `cli` `workspace` | [wsl-dashboard.md](../technologies/devtools/wsl-dashboard.md) |
+| **FluentFlyout** | `desktop` `workspace` | [fluent-flyout.md](../technologies/devtools/fluent-flyout.md) |
+| **WhatCable** | `desktop` `cli` `workspace` | [whatcable.md](../technologies/devtools/whatcable.md) |
+| **keyd** | `cli` `desktop` `workspace` | [keyd.md](../technologies/devtools/keyd.md) |
+| **termshot** | `cli` `desktop` | [termshot.md](../technologies/devtools/termshot.md) |
+| **React Scan** | `browser` `cli` `desktop` | [react-scan.md](../technologies/devtools/react-scan.md) |
+| **Tab Harbor** | `browser` `workspace` `desktop` | [tab-harbor.md](../technologies/devtools/tab-harbor.md) |
+| **CheatReader** | `desktop` `workspace` `pdf` | [cheatreader.md](../technologies/devtools/cheatreader.md) |
+| **BleachBit** | `desktop` `cli` `security` | [bleachbit.md](../technologies/devtools/bleachbit.md) |
+| **WinPodX** | `desktop` `cli` `workspace` `self-host` `office` | [winpodx.md](../technologies/devtools/winpodx.md) |
 
 ### 6.2 Documents · PDF · file type
 
@@ -295,10 +337,14 @@
 |-----------|------|----------|
 | **Magika** | `cli` `security` | [magika.md](../technologies/devtools/magika.md) |
 | **Stirling-PDF** | `pdf` `ocr` `self-host` `api` | [stirling-pdf.md](../technologies/devtools/stirling-pdf.md) |
+| **KillerPDF** | `pdf` `ocr` `desktop` | [killer-pdf.md](../technologies/devtools/killer-pdf.md) |
+| **STranslate** | `ocr` `desktop` | [stranslate.md](../technologies/devtools/stranslate.md) |
 | **MarkItDown** | `cli` `pdf` `ocr` | [markitdown.md](../technologies/devtools/markitdown.md) |
 | **OpenResume** | `pdf` `self-host` | [open-resume.md](../technologies/devtools/open-resume.md) |
 | **docmd** | `mcp` `skill` `cli` `self-host` `api` `rag` | [docmd.md](../technologies/devtools/docmd.md) |
 | └ LibreOffice harness | `harness` `office` `cli` | [libreoffice.md](../technologies/cli-anything/libreoffice.md) |
+| **OfficeCLI** | `cli` `office` `skill` `coding-agent` `workspace` | [officecli.md](../technologies/devtools/officecli.md) |
+| **PPT Master** *(Primary §1)* | `skill` `office` `cli` `coding-agent` `workflow` | [ppt-master.md](../technologies/mcp-ai-agents/ppt-master.md) |
 
 ### 6.2b OCR · Document VLMs
 
@@ -327,7 +373,9 @@
 | **Duckle** | `workflow` `self-host` `desktop` `mcp` `cli` `agent` | [duckle.md](../technologies/devtools/duckle.md) |
 | **Tabularis** | `mcp` `desktop` `self-host` `cli` `agent` | [tabularis.md](../technologies/devtools/tabularis.md) |
 | **Floci** | `self-host` `cli` `api` | [floci.md](../technologies/devtools/floci.md) |
+| **SmolVM** | `cli` `self-host` `desktop` `coding-agent` | [smolvm.md](../technologies/devtools/smolvm.md) |
 | **VeloxDB** | `desktop` `self-host` `cli` | [veloxdb.md](../technologies/devtools/veloxdb.md) |
+| **Dolt** | `cli` `self-host` `api` `workflow` `agent` | [dolt.md](../technologies/devtools/dolt.md) |
 | **Drizzle ORM** | `api` `cli` `self-host` | [drizzle-orm.md](../technologies/devtools/drizzle-orm.md) |
 | **Vietnamese Provinces DB** | `gis` | [vietnamese-provinces-database.md](../technologies/devtools/vietnamese-provinces-database.md) |
 | **COBE** | `gis` | [cobe.md](../technologies/devtools/cobe.md) |
@@ -337,9 +385,12 @@
 | Công nghệ | Tags | Bài viết |
 |-----------|------|----------|
 | **FreeLLMAPI** | `api` `self-host` `mcp` `desktop` | [freellmapi.md](../technologies/devtools/freellmapi.md) |
+| **Models.dev** | `api` `dataset` `skill` | [models-dev.md](../technologies/devtools/models-dev.md) |
 | **LocalAI** | `api` `self-host` `mcp` `agent` `stt` `tts` `image-gen` | [localai.md](../technologies/devtools/localai.md) |
+| **vLLM-Omni** | `api` `self-host` `cli` `tts` `image-gen` `video` | [vllm-omni.md](../technologies/devtools/vllm-omni.md) |
 | **MiniCPM** | `self-host` `cli` `edge` `desktop` `skill` | [minicpm.md](../technologies/devtools/minicpm.md) |
 | **Unsloth** | `self-host` `cli` `api` `desktop` | [unsloth.md](../technologies/devtools/unsloth.md) |
+| **Train LLM From Scratch** | `self-host` `cli` `desktop` | [train-llm-from-scratch.md](../technologies/devtools/train-llm-from-scratch.md) |
 | **DFlash** | `cli` `self-host` `api` | [dflash.md](../technologies/devtools/dflash.md) |
 | **AirLLM** | `self-host` `cli` `api` | [airllm.md](../technologies/devtools/airllm.md) |
 | **exo** | `self-host` `api` `cli` `desktop` | [exo.md](../technologies/devtools/exo.md) |
@@ -370,6 +421,7 @@
 | **Strix** | `security` `pentest` `agent` `cli` | [strix.md](../technologies/security/strix.md) |
 | **HackingTool** | `security` `pentest` `cli` `self-host` | [hackingtool.md](../technologies/security/hackingtool.md) |
 | **OSIRIS** | `security` `gis` `self-host` `desktop` `api` | [osiris.md](../technologies/security/osiris.md) |
+| **System Informer** | `security` `desktop` | [system-informer.md](../technologies/security/system-informer.md) |
 
 | Khác biệt | Vai trò |
 |-----------|---------|
@@ -378,6 +430,7 @@
 | **Strix** | Pentest AI có kiểm soát (RoE) |
 | **HackingTool** | Menu cài tool pentest cổ điển (lab/CTF) |
 | **OSIRIS** | OSINT map + RECON toolkit |
+| **System Informer** | Windows process/handle monitor (ex-Process Hacker) |
 | **Magika** (§6.2) | AI file-type trước ingest/scan |
 
 ---

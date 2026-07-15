@@ -12,7 +12,7 @@
 
 Multi-agent pipeline → `.ua/knowledge-graph.json` + dashboard. Claude Code, Cursor, Codex, Copilot, Gemini CLI, Hermes, OpenCode… (slash/`$understand`).
 
-**Cùng kiểu:** [SAG](sag.md) (event–entity RAG), [Hyper-Extract](hyper-extract.md) (extract graph), [Addy's Agent Skills](agent-skills.md) (lifecycle skills), [PageIndex](pageindex.md) (doc trees).
+**Cùng kiểu:** [SAG](sag.md) (event–entity RAG), [Graphify](graphify.md) (folder→KG /graphify), [Hyper-Extract](hyper-extract.md) (extract graph), [Addy's Agent Skills](agent-skills.md) (lifecycle skills), [PageIndex](pageindex.md) (doc trees).
 
 ## Dùng khi nào?
 
@@ -22,6 +22,7 @@ Multi-agent pipeline → `.ua/knowledge-graph.json` + dashboard. Claude Code, Cu
 | Chat "payment flow?" trên graph | ✅ `/understand-chat` |
 | Diff impact trước commit | ✅ `/understand-diff` |
 | Wiki → knowledge graph | ✅ `/understand-knowledge` |
+| Folder→KG query/path (AST local) | → [Graphify](graphify.md) |
 | Flat vector RAG docs | → [RAGFlow](ragflow.md) / [Pathway](pathway.md) |
 
 ## Chạy thử
@@ -59,4 +60,4 @@ curl -fsSL …/install.sh | bash -s codex   # gemini|opencode|hermes|…
 
 - Repo: https://github.com/Egonex-AI/Understand-Anything  
 - Site: https://understand-anything.com/  
-- Peers: [sag.md](sag.md) · [hyper-extract.md](hyper-extract.md) · [agent-skills.md](agent-skills.md) · [cli-anything.md](cli-anything.md)
+- Peers: [sag.md](sag.md) · [graphify.md](graphify.md) · [hyper-extract.md](hyper-extract.md) · [agent-skills.md](agent-skills.md) · [cli-anything.md](cli-anything.md)

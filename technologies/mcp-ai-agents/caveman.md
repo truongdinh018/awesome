@@ -12,7 +12,7 @@
 
 Mục đích chính: giảm **output tokens** (~65% theo benchmark của tác giả — không giảm input / reasoning; bản thân skill cũng tốn ~1–1.5k token mỗi lượt). Có mức: `lite` · `full` · `ultra` · `wenyan`. Thêm lệnh `/caveman-commit`, `/caveman-review`, `/caveman-compress` (nén file kiểu `CLAUDE.md`), và **caveman-shrink** (middleware MCP nén mô tả tool).
 
-**Cùng kiểu:** [Headroom](headroom.md) (nén *context* MCP), [Ponytail](ponytail.md) (ít code hơn — YAGNI), [Taste Skill](taste-skill.md) (gu UI), [Addy's Agent Skills](agent-skills.md).
+**Cùng kiểu:** [Headroom](headroom.md) (nén *context* MCP), [Ponytail](ponytail.md) (ít code hơn — YAGNI), [Taste Skill](taste-skill.md) (gu UI), [Stop Slop](stop-slop.md) (gỡ AI tells khỏi prose), [Addy's Agent Skills](agent-skills.md).
 
 ## Dùng khi nào?
 

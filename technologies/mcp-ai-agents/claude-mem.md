@@ -12,7 +12,7 @@
 
 Khác [Headroom](headroom.md) (nén output trong một request): Claude-Mem = **nhớ qua nhiều session**. Khác [TencentDB Agent Memory](tencentdb-agent-memory.md) (layered persona local): Claude-Mem gắn tight hook/plugin Claude ecosystem + MCP search.
 
-**Cùng kiểu:** [TencentDB Agent Memory](tencentdb-agent-memory.md), [Headroom](headroom.md), [Hermes](hermes-agent.md), [Semble](semble.md) (code search — không memory session).
+**Cùng kiểu:** [agentmemory](agentmemory.md) (MCP memory đa agent), [TencentDB Agent Memory](tencentdb-agent-memory.md), [Headroom](headroom.md), [Hermes](hermes-agent.md), [Semble](semble.md) (code search — không memory session).
 
 ## Dùng khi nào?
 
@@ -21,6 +21,7 @@ Khác [Headroom](headroom.md) (nén output trong một request): Claude-Mem = **
 | Agent nhớ project qua session Claude Code | ✅ primary |
 | MCP search memory + progressive disclosure | ✅ |
 | Multi-agent harness (Codex / OpenClaw…) | ✅ |
+| Memory server MCP đa agent (Cursor+Claude+…) | → [agentmemory](agentmemory.md) |
 | Chỉ nén tool output lần này | → [Headroom](headroom.md) |
 | Layered persona/SOP OpenClaw | → [TencentDB Agent Memory](tencentdb-agent-memory.md) |
 | RAG docs doanh nghiệp | → [RAGFlow](ragflow.md) / [WeKnora](weknora.md) |
@@ -54,4 +55,4 @@ Restart Claude Code → context session cũ hiện tự động. MCP: `search` (
 ## Link
 
 - Repo: https://github.com/thedotmack/claude-mem · Site: https://claude-mem.ai  
-- Peers: [tencentdb-agent-memory.md](tencentdb-agent-memory.md) · [headroom.md](headroom.md) · [hermes-agent.md](hermes-agent.md) · [semble.md](semble.md) · [gitingest.md](gitingest.md)
+- Peers: [agentmemory.md](agentmemory.md) · [tencentdb-agent-memory.md](tencentdb-agent-memory.md) · [headroom.md](headroom.md) · [hermes-agent.md](hermes-agent.md) · [semble.md](semble.md) · [gitingest.md](gitingest.md)

@@ -12,7 +12,7 @@
 
 UI Slint + Skia (dark/light), system tray (~10MB RAM khi minimize), đa ngôn ngữ (có Tiếng Việt). Không phải AI agent — là **GUI quản lý môi trường dev** khi bạn chạy Ollama, coding agent, hoặc stack Linux trong WSL2.
 
-**Cùng kiểu:** [llmfit](llmfit.md) (chọn model cho WSL), [VeloxDB](veloxdb.md) (SQL desktop), [Floci](floci.md) (local AWS emulator), [Dashy](dashy.md) (homelab hub).
+**Cùng kiểu:** [FluentFlyout](fluent-flyout.md) (media flyout Win11), [WinPodX](winpodx.md) (Linux chạy app Windows), [llmfit](llmfit.md) (chọn model cho WSL), [VeloxDB](veloxdb.md) (SQL desktop), [Floci](floci.md) (local AWS emulator), [Dashy](dashy.md) (homelab hub).
 
 ## Dùng khi nào?
 
@@ -59,4 +59,4 @@ Build từ source (Rust 1.92+): `git clone` → `cargo run` hoặc `.\build\port
 ## Link
 
 - Repo: https://github.com/owu/wsl-dashboard · Releases: https://github.com/owu/wsl-dashboard/releases  
-- Peers: [llmfit.md](llmfit.md) · [veloxdb.md](veloxdb.md) · [floci.md](floci.md) · [dashy.md](dashy.md) · [localai.md](localai.md)
+- Peers: [fluent-flyout.md](fluent-flyout.md) · [winpodx.md](winpodx.md) · [llmfit.md](llmfit.md) · [veloxdb.md](veloxdb.md) · [floci.md](floci.md) · [dashy.md](dashy.md) · [localai.md](localai.md)

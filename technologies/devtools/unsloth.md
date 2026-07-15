@@ -14,7 +14,7 @@ Core Python + Studio installer. Export GGUF / safetensors; inference API cho Cla
 
 Liên quan repo nội bộ: [ai-training](../../ai-training/README.md) · notebook `odoo_assistant_finetune_unsloth.ipynb` · [FINE_TUNING.md](../../ai-training/docs/FINE_TUNING.md).
 
-**Cùng kiểu:** [LocalAI](localai.md) (serve model sau train), [VoxCPM](../speech-audio/voxcpm.md) (TTS FT).
+**Cùng kiểu:** [Train LLM From Scratch](train-llm-from-scratch.md) (học pretrain+SFT/RL từ đầu), [LocalAI](localai.md) (serve model sau train), [VoxCPM](../speech-audio/voxcpm.md) (TTS FT).
 
 ## Dùng khi nào?
 

@@ -12,7 +12,7 @@ Harness **Godot Engine**: agent build/run project, export, demo-game E2E qua CLI
 
 Là con của CLI-Anything — engine realtime 3D/2D, cạnh Blender (offline 3D) và Slay the Spire (game play automation).
 
-**Cùng kiểu:** [Blender](blender.md) (offline 3D), [Slay the Spire II](slay-the-spire-ii.md) (game play CLI).
+**Cùng kiểu:** [O3DE](../image-video/o3de.md) (full AAA engine ★), [Blender](blender.md) (offline 3D), [Slay the Spire II](slay-the-spire-ii.md) (game play CLI).
 
 ## Dùng khi nào?
 

@@ -10,7 +10,7 @@
 
 **FreeCut** là trình chỉnh sửa video **chạy hoàn toàn trên trình duyệt** (*browser NLE*): timeline đa track, keyframe, hiệu ứng WebGPU, preview realtime, export WebCodecs. **Không cài app, không upload** — project và media nằm local (File System Access API + OPFS). AI on-device: transcription (Parakeet / Whisper fallback), Kokoro TTS, MusicGen, scene detection, captioning.
 
-**Cùng kiểu:** [OpenMontage](openmontage.md) (agentic studio), [HyperFrames](hyperframes.md) (HTML→video), [pyVideoTrans](pyvideotrans.md) (dub/translate), [AudioBook KJ](../speech-audio/audiobook-kj.md) (timeline + TTS).
+**Cùng kiểu:** [OpenMontage](openmontage.md) (agentic studio), [Recordly](recordly.md) (screen demo desktop), [Gyroflow](gyroflow.md) (gyro stabilize), [OpenToonz](opentoonz.md) (2D animation desktop), [HyperFrames](hyperframes.md) (HTML→video), [pyVideoTrans](pyvideotrans.md) (dub/translate), [AudioBook KJ](../speech-audio/audiobook-kj.md) (timeline + TTS).
 
 ## Dùng khi nào?
 
@@ -20,6 +20,7 @@
 | Media + project local, không cloud upload | ✅ workspace folder trên disk |
 | Transcription / caption / TTS on-device | ✅ Parakeet · Kokoro · MusicGen |
 | Agent/code → video tự động | → [OpenMontage](openmontage.md) · [HyperFrames](hyperframes.md) |
+| Stabilize footage có IMU/gyro | → [Gyroflow](gyroflow.md) |
 | Dịch/dub video hàng loạt | → [pyVideoTrans](pyvideotrans.md) |
 
 ## Chạy thử
@@ -51,4 +52,4 @@ Export MP4/WebM/MOV/MKV — H.264, H.265, VP9, AV1 (tùy browser encoder). Effec
 
 - Repo: https://github.com/walterlow/freecut  
 - Site: https://freecut.net/  
-- Peers: [openmontage.md](openmontage.md) · [hyperframes.md](hyperframes.md) · [pyvideotrans.md](pyvideotrans.md) · [audiobook-kj.md](../speech-audio/audiobook-kj.md)
+- Peers: [openmontage.md](openmontage.md) · [recordly.md](recordly.md) · [opentoonz.md](opentoonz.md) · [hyperframes.md](hyperframes.md) · [pyvideotrans.md](pyvideotrans.md) · [audiobook-kj.md](../speech-audio/audiobook-kj.md)

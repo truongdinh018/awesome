@@ -12,7 +12,7 @@
 
 Có UI YAML editor, auth/SSO, multi-page, search/hotkeys, PWA, workspace view. Chạy Docker hoặc bare metal; privacy-focused, không phải AI agent.
 
-**Cùng kiểu:** [ntfy](ntfy.md) (push notify), [Folo](folo.md) (RSS reader), [Horizon](horizon.md) (news radar), [changedetection.io](changedetection-io.md) (watch URL).
+**Cùng kiểu:** [ntfy](ntfy.md) (push notify), [Folo](folo.md) (RSS reader), [Horizon](horizon.md) (news radar), [PlainApp](plain-app.md) (phone hub từ browser), [R2 Web](r2-web.md) (R2 file manager), [ChronoFrame](chronoframe.md) (photo gallery), [changedetection.io](changedetection-io.md) (watch URL).
 
 ## Dùng khi nào?
 
@@ -22,6 +22,7 @@ Có UI YAML editor, auth/SSO, multi-page, search/hotkeys, PWA, workspace view. C
 | Status + widgets dịch vụ nội bộ | ✅ |
 | Push alerts | → [ntfy](ntfy.md) |
 | AI RSS / news digest | → [Folo](folo.md) / [Horizon](horizon.md) |
+| Quản Android từ browser (LAN) | → [PlainApp](plain-app.md) |
 
 ## Chạy thử
 
@@ -52,4 +53,4 @@ Config: file YAML hoặc UI editor trong app. Demo: xem [dashy.to](https://dashy
 ## Link
 
 - Repo: https://github.com/Lissy93/dashy · Site: https://dashy.to  
-- Peers: [ntfy.md](ntfy.md) · [folo.md](folo.md) · [horizon.md](horizon.md) · [changedetection-io.md](changedetection-io.md)
+- Peers: [ntfy.md](ntfy.md) · [folo.md](folo.md) · [horizon.md](horizon.md) · [r2-web.md](r2-web.md) · [changedetection-io.md](changedetection-io.md)

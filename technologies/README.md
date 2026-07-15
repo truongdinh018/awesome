@@ -1,31 +1,25 @@
 # Technologies — bài viết chi tiết
 
-Mỗi file `<domain>/<slug>.md` = **một công nghệ đã star**, nhóm theo **7 domain** (cùng taxonomy [categories](../categories/README.md)).
+Mỗi file `<domain>/<slug>.md` = **một công nghệ đã star**, nhóm theo **7 domain**.
 
-## Đọc một bài như thế nào?
+## Đọc một bài
 
-1. **Đây là gì?** — hiểu trong 30 giây  
-2. **Dùng khi nào?** — bảng nhu cầu  
-3. **Chạy thử** — lệnh tối thiểu  
-4. **So với tool khác** — peers  
-5. **Dùng với Odoo / ai_core** — gợi ý thực tế  
+1. **Đây là gì?** → 2. **Dùng khi nào?** → 3. **Chạy thử** → 4. **So với tool khác** → 5. **Odoo / ai_core**
 
-Chuẩn viết: [WRITING.md](WRITING.md)
+Chuẩn viết: [WRITING.md](WRITING.md) · Checklist thêm ★: [../README.md](../README.md#add-star-checklist)
 
-## Thư mục theo domain
+## Domain
 
-| Path | Nội dung | ★ |
-|------|----------|---|
-| [mcp-ai-agents/](mcp-ai-agents/README.md) | MCP & AI Agents | 55 |
-| [speech-audio/](speech-audio/README.md) | Speech & Audio | 19 |
-| [image-video/](image-video/README.md) | Image & Video | 19 |
-| [ui-automation/](ui-automation/README.md) | UI Automation | 6 |
-| [cv-edge/](cv-edge/README.md) | CV & Edge | 7 |
-| [devtools/](devtools/README.md) | DevTools | 48 |
-| [security/](security/README.md) | Security | 3 |
-| [cli-anything/](cli-anything/README.md) | 11 harness con của CLI-Anything | — |
-| [bookmarks/](bookmarks/README.md) | Bookmarks (không ★) | — |
+| Path | Domain | ★ | Taxonomy |
+|------|--------|---|----------|
+| [mcp-ai-agents/](mcp-ai-agents/README.md) | MCP & AI Agents | 69 | [§1](../categories/README.md#1-mcp--ai-agents) |
+| [speech-audio/](speech-audio/README.md) | Speech & Audio | 20 | [§2](../categories/README.md#2-speech--audio) |
+| [image-video/](image-video/README.md) | Image & Video | 26 | [§3](../categories/README.md#3-image--video) |
+| [ui-automation/](ui-automation/README.md) | UI Automation | 6 | [§4](../categories/README.md#4-ui-automation--computer-use) |
+| [cv-edge/](cv-edge/README.md) | CV & Edge | 9 | [§5](../categories/README.md#5-computer-vision--edge) |
+| [devtools/](devtools/README.md) | DevTools | 70 | [§6](../categories/README.md#6-devtools--integration) |
+| [security/](security/README.md) | Security | 4 | [§7](../categories/README.md#7-security--pentesting) |
+| [cli-anything/](cli-anything/README.md) | CLI-Anything harnesses | — | — |
+| [bookmarks/](bookmarks/README.md) | Bookmarks (không ★) | — | — |
 
-## Quay lại hub
-
-← [README chính](../README.md) · [Categories](../categories/README.md) · [Repos](../repos/README.md)
+← [Hub](../README.md) · [Categories](../categories/README.md) · [Repos](../repos/README.md)

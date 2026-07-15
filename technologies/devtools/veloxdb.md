@@ -12,7 +12,7 @@
 
 Có **ER diagram** (ReactFlow) + migration DDL preview; SSH tunnel; credentials lưu OS keychain. Không cloud proxy / telemetry. *(Khác hoàn toàn [VeloxDB/VeloxDB](https://github.com/VeloxDB/VeloxDB) — engine OO .NET.)*
 
-**Cùng kiểu:** [Tabularis](tabularis.md) (multi-DB + MCP + notebooks), [Duckle](duckle.md) (ETL), [Floci](floci.md) (AWS local).
+**Cùng kiểu:** [Dolt](dolt.md) (Git for SQL data), [Tabularis](tabularis.md) (multi-DB + MCP + notebooks), [Duckle](duckle.md) (ETL), [Floci](floci.md) (AWS local).
 
 ## Dùng khi nào?
 
@@ -49,4 +49,4 @@ pnpm install && pnpm tauri   # build from source
 ## Link
 
 - Repo: https://github.com/veloxbase/veloxdb · Site: https://veloxdb.dev  
-- Peers: [tabularis.md](tabularis.md) · [duckle.md](duckle.md) · [floci.md](floci.md)
+- Peers: [dolt.md](dolt.md) · [tabularis.md](tabularis.md) · [duckle.md](duckle.md) · [floci.md](floci.md)

@@ -12,7 +12,7 @@
 
 Bạn có: bảng issue (Planning → Done), **terminal PTY** gắn từng card, git worktrees, labels, dependencies, file browser/Monaco, process manager. Hiện hỗ trợ mạnh **Claude Code**; Codex/Gemini/OpenCode trên roadmap. Chạy local-first; có **MCP SSE** localhost `:5353` (~30 tools) + Claude plugin marketplace (`lanes-desktop` / `lanes-forms`).
 
-**Cùng kiểu:** [Vibe Kanban](vibe-kanban.md) (OSS multi-agent board), [Happy](happy.md) (remote Claude/Codex), [Claude Peers MCP](claude-peers-mcp.md) (peer chat giữa session Claude), [CC Workflow Studio](cc-wf-studio.md), [OpenHands](openhands.md).
+**Cùng kiểu:** [Vibe Kanban](vibe-kanban.md) (OSS multi-agent board), [Nezha](nezha.md) (IDE nhẹ Claude/Codex), [Happy](happy.md) (remote Claude/Codex), [Claude Peers MCP](claude-peers-mcp.md) (peer chat giữa session Claude), [CC Workflow Studio](cc-wf-studio.md), [OpenHands](openhands.md).
 
 ## Dùng khi nào?
 
@@ -22,6 +22,7 @@ Bạn có: bảng issue (Planning → Done), **terminal PTY** gắn từng card,
 | Worktree per issue + live terminal | ✅ |
 | MCP agents đọc board / start session | ✅ `lanes-local` |
 | OSS kanban + 10+ agent adapters | → [Vibe Kanban](vibe-kanban.md) |
+| IDE nhẹ + Git/worktree trong 1 app | → [Nezha](nezha.md) |
 | Phone remote Claude | → [Happy](happy.md) |
 
 ## Chạy thử

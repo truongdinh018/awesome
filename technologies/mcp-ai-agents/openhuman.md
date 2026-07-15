@@ -12,7 +12,7 @@
 
 (1) **brain** — memory tree / Obsidian-style wiki từ email·calendar·docs (auto-fetch ~20 phút). (2) **orchestrator** — fleets agent trên graph durable (tinyagents/tinyflows), workflow canvas approval-gated. (3) **deep researcher** — SuperContext trước khi trả lời.
 
-Có 100+ OAuth · MCP · Skills; voice (Whisper); meeting bots; multi-channel chat. Optional backend [agentmemory](https://github.com/rohitg00/agentmemory).
+Có 100+ OAuth · MCP · Skills; voice (Whisper); meeting bots; multi-channel chat. Optional backend [agentmemory](agentmemory.md) (`rohitg00/agentmemory`).
 
 **Cùng kiểu:** [Khoj](khoj.md), [AnythingLLM](anything-llm.md), [Hermes](hermes-agent.md), [EpicStaff](epicstaff.md), [Happy](happy.md)
 

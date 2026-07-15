@@ -12,7 +12,7 @@
 
 Có phần interactive: IDE sim, RAG demo, diffusion, terminal. Dạy Claude Code / MCP / Skills / Agent Teams. Có `llms.txt` cho agent (OpenClaw, Cursor…). Không phải runtime agent — là **giáo trình + playground**.
 
-**Cùng kiểu:** [Spec Kit](spec-kit.md) (SDD workflow), [AI Engineering Coach](ai-engineering-coach.md), [prompts.chat](prompts-chat.md), [Vibe Kanban](vibe-kanban.md) / [Lanes](lanes.md) (orchestrate agents), [ai-training](../../ai-training/README.md) (fine-tune Odoo).
+**Cùng kiểu:** [Spec Kit](spec-kit.md) (SDD workflow), [AI Engineering Coach](ai-engineering-coach.md), [Learn Claude Code](learn-claude-code.md) (nano harness tutorial), [Maths CS AI Compendium](maths-cs-ai-compendium.md) (textbook+MCP), [prompts.chat](prompts-chat.md), [Vibe Kanban](vibe-kanban.md) / [Lanes](lanes.md) (orchestrate agents), [ai-training](../../ai-training/README.md) (fine-tune Odoo).
 
 ## Dùng khi nào?
 
@@ -22,6 +22,8 @@ Có phần interactive: IDE sim, RAG demo, diffusion, terminal. Dạy Claude Cod
 | Roadmap prototype → SaaS | ✅ Stages 1–3 |
 | Chạy fleet agent trên board | → [Vibe Kanban](vibe-kanban.md) / [Lanes](lanes.md) |
 | Spec-driven PRD → code | → [Spec Kit](spec-kit.md) |
+| Nano harness Claude Code 0→1 | → [Learn Claude Code](learn-claude-code.md) |
+| Giáo trình toán→AI/ML + MCP | → [Maths CS AI Compendium](maths-cs-ai-compendium.md) |
 
 ## Chạy thử
 

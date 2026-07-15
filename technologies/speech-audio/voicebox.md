@@ -12,7 +12,7 @@
 
 Chạy trên máy (macOS MLX/Metal, Win CUDA, Linux, ROCm, Docker); privacy — data không lên cloud. Engines: Qwen3-TTS · [LuxTTS](luxtts.md) · Chatterbox · HumeAI TADA · Kokoro… Paralinguistic tags `[laugh]` / `[sigh]`.
 
-**Cùng kiểu:** [OmniVoice Studio](omnivoice-studio.md), [VieNeu-TTS](vieneu-tts.md), [VoxCPM](voxcpm.md), [LuxTTS](luxtts.md), [XiaoZhi](xiaozhi-esp32.md), [pyVideoTrans](../image-video/pyvideotrans.md).
+**Cùng kiểu:** [MicYou](micyou.md) (Android→PC mic), [OmniVoice Studio](omnivoice-studio.md), [VieNeu-TTS](vieneu-tts.md), [VoxCPM](voxcpm.md), [LuxTTS](luxtts.md), [XiaoZhi](xiaozhi-esp32.md), [pyVideoTrans](../image-video/pyvideotrans.md).
 
 ## Dùng khi nào?
 
@@ -52,4 +52,4 @@ RESPONSIBLE_USE.md — deepfake / consent.
 
 - Repo: https://github.com/jamiepine/voicebox  
 - Site / docs: https://voicebox.sh  
-- Peers: [omnivoice-studio.md](omnivoice-studio.md) · [vieneu-tts.md](vieneu-tts.md) · [voxcpm.md](voxcpm.md) · [pyvideotrans.md](../image-video/pyvideotrans.md)
+- Peers: [micyou.md](micyou.md) · [omnivoice-studio.md](omnivoice-studio.md) · [vieneu-tts.md](vieneu-tts.md) · [voxcpm.md](voxcpm.md) · [pyvideotrans.md](../image-video/pyvideotrans.md)

@@ -12,7 +12,7 @@
 
 Ba lớp agent (decision / execution / supervision), memory ONNX local, skill files Markdown cho prompt, provider TypeScript hot-plug trong Settings. Deploy: release Electron (Win/Mac/Linux) hoặc Docker / yarn.
 
-**Cùng kiểu:** [MoneyPrinterTurbo](moneyprinterturbo.md) (TikTok-style short, không canvas drama), [OpenMontage](openmontage.md) / [HyperFrames](hyperframes.md) (compose khác shape), [ComfyUI](comfyui.md) (node image — Toonflow thường gọi model/Comfy bên ngoài).
+**Cùng kiểu:** [MoneyPrinterTurbo](moneyprinterturbo.md) (TikTok-style short, không canvas drama), [OpenToonz](opentoonz.md) (2D animation cổ điển — không AI), [OpenMontage](openmontage.md) / [HyperFrames](hyperframes.md) (compose khác shape), [ComfyUI](comfyui.md) (node image — Toonflow thường gọi model/Comfy bên ngoài).
 
 ## Dùng khi nào?
 
@@ -55,4 +55,4 @@ yarn install && yarn start   # Electron + backend
 
 - Repo: https://github.com/HBAI-Ltd/Toonflow-app  
 - Docs VI: https://github.com/HBAI-Ltd/Toonflow-app/blob/master/docs/README.vi.md  
-- Peers: [moneyprinterturbo.md](moneyprinterturbo.md) · [openmontage.md](openmontage.md) · [hyperframes.md](hyperframes.md) · [comfyui.md](comfyui.md) · [ai-auto-generate-video.md](ai-auto-generate-video.md)
+- Peers: [moneyprinterturbo.md](moneyprinterturbo.md) · [opentoonz.md](opentoonz.md) · [openmontage.md](openmontage.md) · [hyperframes.md](hyperframes.md) · [comfyui.md](comfyui.md) · [ai-auto-generate-video.md](ai-auto-generate-video.md)

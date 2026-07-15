@@ -12,7 +12,7 @@
 
 Kèm **image-generation skills** (web/mobile comps, brand kit) → xuất reference rồi handoff coding agent. Default skill `design-taste-frontend` = **v2 experimental** (rewrite: brief inference, dials VARIANCE/MOTION/DENSITY, GSAP skeletons, redesign-audit, pre-flight). Pin v1 nếu cần: `design-taste-frontend-v1`.
 
-**Cùng kiểu:** [Addy's Agent Skills](agent-skills.md) (lifecycle eng), [Ponytail](ponytail.md) (YAGNI), [ScreenCoder](../image-video/screencoder.md) / [HTML Anything](../image-video/html-anything.md) (UI→code / HTML agents), [HyperFrames](../image-video/hyperframes.md) (motion video).
+**Cùng kiểu:** [Addy's Agent Skills](agent-skills.md) (lifecycle eng), [Ponytail](ponytail.md) (YAGNI), [Stop Slop](stop-slop.md) (anti-slop **prose**), [ScreenCoder](../image-video/screencoder.md) / [HTML Anything](../image-video/html-anything.md) (UI→code / HTML agents), [HyperFrames](../image-video/hyperframes.md) (motion video).
 
 ## Dùng khi nào?
 

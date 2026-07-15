@@ -12,7 +12,7 @@
 
 Ba lối vào: **library** (`compress()`), **proxy** (drop-in, zero code), **MCP** (`headroom_compress` / `retrieve` / `stats`). Có `headroom wrap` cho Claude Code, Cursor, Codex, OpenHands, …
 
-**Cùng kiểu:** [Ponytail](ponytail.md) (YAGNI — ít code), [Caveman](caveman.md) (nén output), [FreeLLMAPI](../devtools/freellmapi.md) (LLM gateway).
+**Cùng kiểu:** [Ponytail](ponytail.md) (YAGNI — ít code), [Caveman](caveman.md) (nén output), [CodeBurn](codeburn.md) (track spend), [FreeLLMAPI](../devtools/freellmapi.md) (LLM gateway).
 
 ## Dùng khi nào?
 
@@ -59,4 +59,4 @@ from headroom import compress
 - Repo: https://github.com/headroomlabs-ai/headroom  
 - Docs: https://headroom-docs.vercel.app  
 - llms.txt: trong repo / site docs  
-- Peers: [ponytail.md](ponytail.md) · [openhands.md](openhands.md) · [hermes-agent.md](hermes-agent.md) · [freellmapi.md](../devtools/freellmapi.md) · [tencentdb-agent-memory.md](tencentdb-agent-memory.md)
+- Peers: [ponytail.md](ponytail.md) · [codeburn.md](codeburn.md) · [openhands.md](openhands.md) · [hermes-agent.md](hermes-agent.md) · [freellmapi.md](../devtools/freellmapi.md) · [tencentdb-agent-memory.md](tencentdb-agent-memory.md)

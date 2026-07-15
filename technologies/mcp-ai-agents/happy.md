@@ -12,7 +12,7 @@
 
 Trong catalog: **remote control** coding agent — không thay [OpenHands](openhands.md) (self-host agent runtime) hay [Headroom](headroom.md) (MCP hub). Happy bọc Claude Code/Codex đã có trên máy.
 
-**Cùng kiểu:** [OpenHands](openhands.md), [Headroom](headroom.md), [Hermes](hermes-agent.md).
+**Cùng kiểu:** [CodeWhale](codewhale.md) (TUI coding agent), [OpenHands](openhands.md), [Headroom](headroom.md), [Hermes](hermes-agent.md).
 
 ## Dùng khi nào?
 
@@ -51,4 +51,4 @@ App Store / Google Play · Web app · docs trên site dự án.
 ## Link
 
 - Repo: https://github.com/slopus/happy · Site: https://happy.engineering  
-- Peers: [openhands.md](openhands.md) · [hermes-agent.md](hermes-agent.md) · [headroom.md](headroom.md) · [taste-skill.md](taste-skill.md)
+- Peers: [codewhale.md](codewhale.md) · [openhands.md](openhands.md) · [hermes-agent.md](hermes-agent.md) · [headroom.md](headroom.md) · [taste-skill.md](taste-skill.md)
