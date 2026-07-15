@@ -21,15 +21,15 @@
 
 | # | Primary | ★ | Mục đích ngắn |
 |---|---------|---|----------------|
-| 1 | [MCP & AI Agents](#1-mcp--ai-agents) | 69 | MCP, RAG, agent, skill |
+| 1 | [MCP & AI Agents](#1-mcp--ai-agents) | 71 | MCP, RAG, agent, skill |
 | 2 | [Speech & Audio](#2-speech--audio) | 20 | STT / TTS / voice |
-| 3 | [Image & Video](#3-image--video) | 26 | Gen ảnh/video, NLE |
-| 4 | [UI Automation](#4-ui-automation--computer-use) | 6 | Browser / computer-use |
+| 3 | [Image & Video](#3-image--video) | 28 | Gen ảnh/video, NLE |
+| 4 | [UI Automation](#4-ui-automation--computer-use) | 7 | Browser / computer-use |
 | 5 | [CV & Edge](#5-computer-vision--edge) | 9 | Vision, IoT, edge |
-| 6 | [DevTools](#6-devtools--integration) | 70 | OCR, gateway, office, train, self-host |
+| 6 | [DevTools](#6-devtools--integration) | 72 | OCR, gateway, office, train, self-host |
 | 7 | [Security](#7-security--pentesting) | 4 | Pentest, OSINT, guardrail |
 
-**Tổng = 204 ★** (+ 11 CLI-Anything harnesses)
+**Tổng = 211 ★** (+ 11 CLI-Anything harnesses)
 
 ---
 
@@ -59,6 +59,7 @@
 | **RAGFlow** | `rag` `agent` `mcp` `self-host` `api` | [ragflow.md](../technologies/mcp-ai-agents/ragflow.md) |
 | **AnythingLLM** | `rag` `agent` `mcp` `self-host` `desktop` `api` | [anything-llm.md](../technologies/mcp-ai-agents/anything-llm.md) |
 | **Open Notebook** | `rag` `self-host` `api` `tts` | [open-notebook.md](../technologies/mcp-ai-agents/open-notebook.md) |
+| **Deta Surf** | `rag` `desktop` `self-host` `browser` | [deta-surf.md](../technologies/mcp-ai-agents/deta-surf.md) |
 | **Khoj** | `rag` `agent` `self-host` `desktop` `stt` | [khoj.md](../technologies/mcp-ai-agents/khoj.md) |
 | **Trilium Notes** | `rag` `self-host` `desktop` `api` | [trilium.md](../technologies/mcp-ai-agents/trilium.md) |
 | **Docmost** | `rag` `self-host` `api` `workspace` | [docmost.md](../technologies/mcp-ai-agents/docmost.md) |
@@ -72,6 +73,7 @@
 |-----------|------|----------|
 | **Hermes Agent** | `agent` `mcp` `skill` `cli` `self-host` | [hermes-agent.md](../technologies/mcp-ai-agents/hermes-agent.md) |
 | **AstrBot** | `agent` `mcp` `skill` `rag` `self-host` `api` `workflow` | [astrbot.md](../technologies/mcp-ai-agents/astrbot.md) |
+| **LangBot** | `agent` `mcp` `skill` `rag` `self-host` `api` `workflow` | [langbot.md](../technologies/mcp-ai-agents/langbot.md) |
 | **OpenHands** | `coding-agent` `agent` `self-host` | [openhands.md](../technologies/mcp-ai-agents/openhands.md) |
 | **CodeWhale** | `coding-agent` `cli` `agent` `self-host` `mcp` `skill` | [codewhale.md](../technologies/mcp-ai-agents/codewhale.md) |
 | **Zerolang** | `coding-agent` `agent` `cli` `skill` | [zerolang.md](../technologies/mcp-ai-agents/zerolang.md) |
@@ -244,6 +246,7 @@
 | Công nghệ | Tags | Bài viết |
 |-----------|------|----------|
 | **O3DE** | `desktop` `self-host` | [o3de.md](../technologies/image-video/o3de.md) |
+| **Chili3D** | `cad` `3d` `browser` `self-host` | [chili3d.md](../technologies/image-video/chili3d.md) |
 
 | Harness | Tags | Bài viết |
 |---------|------|----------|
@@ -258,6 +261,7 @@
 | **blind_watermark** | `watermark` `cli` | [blind-watermark.md](../technologies/image-video/blind-watermark.md) |
 | **iptv-org/iptv** | `video` | [iptv-org.md](../technologies/image-video/iptv-org.md) |
 | **yt-dlp** | `video` `cli` `self-host` | [yt-dlp.md](../technologies/image-video/yt-dlp.md) |
+| **LibreTube** | `video` `desktop` `self-host` | [libretube.md](../technologies/image-video/libretube.md) |
 | **ASCILINE** | `video` `cli` `self-host` `browser` | [asciline.md](../technologies/image-video/asciline.md) |
 
 ---
@@ -273,10 +277,11 @@
 | 4.06 | Stealth Chromium | **CloakBrowser** | `browser` `ui-automation` `api` `cli` `self-host` | [cloakbrowser.md](../technologies/ui-automation/cloakbrowser.md) |
 | 4.1 | Vision | **Midscene.js** | `ui-automation` `computer-use` `browser` `skill` | [midscene.md](../technologies/ui-automation/midscene.md) |
 | 4.2 | NL ↔ code | **Stagehand** | `ui-automation` `browser` `agent` | [stagehand.md](../technologies/ui-automation/stagehand.md) |
+| 4.25 | Agent loop (Py) | **Browser Use** | `ui-automation` `browser` `agent` `cli` `computer-use` | [browser-use.md](../technologies/ui-automation/browser-use.md) |
 | 4.3 | DOM agent | **Page Agent** | `ui-automation` `browser` `dom` `mcp` `agent` | [page-agent.md](../technologies/ui-automation/page-agent.md) |
 | 4.4 | Game CLI | Slay the Spire II | `harness` `ui-automation` `game` `cli` | [slay-the-spire-ii.md](../technologies/cli-anything/slay-the-spire-ii.md) |
 
-**Ranh giới:** Puppeteer = CDP API · **Chrome DevTools MCP** = MCP/CLI DevTools · **CloakBrowser** = stealth Chromium drop-in · Midscene = screenshot→action · Stagehand = NL↔code · Page Agent = DOM LLM · harness = surface có cấu trúc.
+**Ranh giới:** Puppeteer = CDP API · **Chrome DevTools MCP** = MCP/CLI DevTools · **CloakBrowser** = stealth Chromium · Midscene = screenshot→action · Stagehand = NL↔code · **Browser Use** = Python agent loop · Page Agent = DOM LLM · harness = surface có cấu trúc.
 
 ---
 
@@ -316,6 +321,7 @@
 | **Dashy** | `self-host` `desktop` `workspace` | [dashy.md](../technologies/devtools/dashy.md) |
 | **R2 Web** | `self-host` `desktop` `api` `workspace` | [r2-web.md](../technologies/devtools/r2-web.md) |
 | **ChronoFrame** | `self-host` `desktop` `workspace` `browser` | [chronoframe.md](../technologies/devtools/chronoframe.md) |
+| **FileBrowser Quantum** | `self-host` `desktop` `api` `workspace` `browser` | [filebrowser-quantum.md](../technologies/devtools/filebrowser-quantum.md) |
 | **Whisper Money** | `self-host` `desktop` `workspace` | [whisper-money.md](../technologies/devtools/whisper-money.md) |
 | **ezBookkeeping** | `self-host` `desktop` `workspace` `mcp` `api` `ocr` | [ezbookkeeping.md](../technologies/devtools/ezbookkeeping.md) |
 | **OpenTickly** | `self-host` `api` `cli` `workspace` `agent` | [opentickly.md](../technologies/devtools/opentickly.md) |
@@ -326,6 +332,7 @@
 | **keyd** | `cli` `desktop` `workspace` | [keyd.md](../technologies/devtools/keyd.md) |
 | **termshot** | `cli` `desktop` | [termshot.md](../technologies/devtools/termshot.md) |
 | **React Scan** | `browser` `cli` `desktop` | [react-scan.md](../technologies/devtools/react-scan.md) |
+| **SnapDOM** | `browser` `dom` | [snapdom.md](../technologies/devtools/snapdom.md) |
 | **Tab Harbor** | `browser` `workspace` `desktop` | [tab-harbor.md](../technologies/devtools/tab-harbor.md) |
 | **CheatReader** | `desktop` `workspace` `pdf` | [cheatreader.md](../technologies/devtools/cheatreader.md) |
 | **BleachBit** | `desktop` `cli` `security` | [bleachbit.md](../technologies/devtools/bleachbit.md) |

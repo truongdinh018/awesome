@@ -1,6 +1,6 @@
 # Starred Repos — Index
 
-> **204 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-07-15**  
+> **211 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-07-15**  
 > Đây là bảng master: mỗi dòng = 1 repo đã star + link bài `technologies/<domain>/<slug>.md`.
 > **Primary** = 1 trong 7 domain · **Tags** = nhiều capability.
 > Duyệt subgroup: [../categories/README.md](../categories/README.md) · Hub / checklist: [../README.md](../README.md) · Viết bài: [../technologies/WRITING.md](../technologies/WRITING.md)
@@ -211,6 +211,13 @@
 | 202 | [linshenkx/prompt-optimizer](https://github.com/linshenkx/prompt-optimizer) | 32.2k | TypeScript | MCP & AI Agents | `prompt` `mcp` `self-host` `desktop` `browser` `image-gen` | [prompt-optimizer.md](../technologies/mcp-ai-agents/prompt-optimizer.md) |
 | 203 | [mayswind/ezbookkeeping](https://github.com/mayswind/ezbookkeeping) | 5.2k | Go | DevTools | `self-host` `desktop` `workspace` `mcp` `api` `ocr` | [ezbookkeeping.md](../technologies/devtools/ezbookkeeping.md) |
 | 204 | [HoshinoSuzumi/chronoframe](https://github.com/HoshinoSuzumi/chronoframe) | 1.9k | Vue | DevTools | `self-host` `desktop` `workspace` `browser` | [chronoframe.md](../technologies/devtools/chronoframe.md) |
+| 205 | [libre-tube/LibreTube](https://github.com/libre-tube/LibreTube) | 12.3k | Kotlin | Image & Video | `video` `desktop` `self-host` | [libretube.md](../technologies/image-video/libretube.md) |
+| 206 | [gtsteffaniak/filebrowser](https://github.com/gtsteffaniak/filebrowser) | 7.4k | Go | DevTools | `self-host` `desktop` `api` `workspace` `browser` | [filebrowser-quantum.md](../technologies/devtools/filebrowser-quantum.md) |
+| 207 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | 104.8k | Python | UI Automation | `ui-automation` `browser` `agent` `cli` `computer-use` | [browser-use.md](../technologies/ui-automation/browser-use.md) |
+| 208 | [langbot-app/LangBot](https://github.com/langbot-app/LangBot) | 16.9k | Python | MCP & AI Agents | `agent` `mcp` `skill` `rag` `self-host` `api` `workflow` | [langbot.md](../technologies/mcp-ai-agents/langbot.md) |
+| 209 | [xiangechen/chili3d](https://github.com/xiangechen/chili3d) | 4.7k | TypeScript | Image & Video | `cad` `3d` `browser` `self-host` | [chili3d.md](../technologies/image-video/chili3d.md) |
+| 210 | [deta/surf](https://github.com/deta/surf) | 3.5k | TypeScript | MCP & AI Agents | `rag` `desktop` `self-host` `browser` | [deta-surf.md](../technologies/mcp-ai-agents/deta-surf.md) |
+| 211 | [zumerlab/snapdom](https://github.com/zumerlab/snapdom) | 7.9k | JavaScript | DevTools | `browser` `dom` | [snapdom.md](../technologies/devtools/snapdom.md) |
 
 
 ## Ecosystem — CLI-Anything harnesses (con của #16)

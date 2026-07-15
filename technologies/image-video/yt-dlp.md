@@ -12,7 +12,7 @@
 
 Hạ tầng cho pipeline media, RAG trên transcript, hoặc feed HyperFrames / pyVideoTrans — **không** sinh nội dung AI. Tôn trọng ToS / luật bản quyền site nguồn.
 
-**Cùng kiểu:** [pyVideoTrans](pyvideotrans.md) (dub/STT sau khi có file), [HyperFrames](hyperframes.md) / [OpenMontage](openmontage.md) (compose), [faster-whisper](../speech-audio/faster-whisper.md) (transcribe file tải về), [iptv-org](iptv-org.md) (live playlist).
+**Cùng kiểu:** [LibreTube](libretube.md) (app YouTube Android privacy), [pyVideoTrans](pyvideotrans.md) (dub/STT sau khi có file), [HyperFrames](hyperframes.md) / [OpenMontage](openmontage.md) (compose), [faster-whisper](../speech-audio/faster-whisper.md) (transcribe file tải về), [iptv-org](iptv-org.md) (live playlist).
 
 ## Dùng khi nào?
 
@@ -21,6 +21,7 @@ Hạ tầng cho pipeline media, RAG trên transcript, hoặc feed HyperFrames / 
 | Tải video/audio + playlist từ URL | ✅ |
 | Chọn format / height / audio-only | ✅ `-f` / `-x` |
 | Subtitle / cookie / sponsorblock | ✅ |
+| Xem YouTube Android (privacy UI) | → [LibreTube](libretube.md) |
 | Live IPTV M3U không archive | → [iptv-org](iptv-org.md) |
 | Dub / translate video đã tải | → [pyVideoTrans](pyvideotrans.md) |
 

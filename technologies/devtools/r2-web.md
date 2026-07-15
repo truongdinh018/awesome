@@ -12,7 +12,7 @@
 
 **Không backend** — ký S3 request trên browser, credential chỉ `localStorage`. Zero-build (HTML/CSS/JS). Không phải AI.
 
-**Cùng kiểu:** [ChronoFrame](chronoframe.md) (photo gallery + EXIF/map), [Floci](floci.md) (local AWS emu), [Dashy](dashy.md) (homelab hub), [Stirling-PDF](stirling-pdf.md) (PDF ops — khác R2), [Magika](magika.md) (file-type).
+**Cùng kiểu:** [FileBrowser Quantum](filebrowser-quantum.md) (FS file manager self-host), [ChronoFrame](chronoframe.md) (photo gallery + EXIF/map), [Floci](floci.md) (local AWS emu), [Dashy](dashy.md) (homelab hub), [Stirling-PDF](stirling-pdf.md) (PDF ops — khác R2), [Magika](magika.md) (file-type).
 
 ## Dùng khi nào?
 
@@ -21,6 +21,7 @@
 | Quản lý bucket R2 nhanh trong browser | ✅ |
 | Hình bed riêng + nén ảnh local | ✅ |
 | File > ~300MB / script tự động | → rclone / SDK |
+| Web file manager trên disk/NAS | → [FileBrowser Quantum](filebrowser-quantum.md) |
 | Gallery / album self-host + map | → [ChronoFrame](chronoframe.md) |
 | Emulate AWS local | → [Floci](floci.md) |
 

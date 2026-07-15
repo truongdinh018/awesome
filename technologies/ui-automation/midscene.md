@@ -11,7 +11,7 @@
 
 Khác Playwright/Selenium thuần: Midscene “nhìn” UI như người dùng, nên thao tác được cả icon-only, custom control, `<canvas>`, native app, iframe cross-origin. API chính: `aiAct`, `aiQuery`, `aiAssert`, …
 
-**Cùng kiểu:** [Page Agent](page-agent.md) (in-page DOM/NL), [Stagehand](stagehand.md) (hybrid SDK), [Puppeteer](puppeteer.md) (driver).
+**Cùng kiểu:** [Browser Use](browser-use.md) (Python agent loop), [Page Agent](page-agent.md) (in-page DOM/NL), [Stagehand](stagehand.md) (hybrid SDK), [Puppeteer](puppeteer.md) (driver).
 
 ## Dùng khi nào?
 

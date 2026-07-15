@@ -10,7 +10,7 @@
 
 **ChronoFrame** — **gallery ảnh cá nhân self-host**: quản lý album online, Live/Motion Photos, parse EXIF, reverse geocoding, bản đồ explore; JPEG/PNG/HEIC; thumbnail ThumbHash. Stack Nuxt 4 · Drizzle; storage local / S3-compatible / OpenList + CDN. Docker (GHCR/Docker Hub). Không phải AI agent — viewer/manager ảnh (có WebGL).
 
-**Cùng kiểu:** [R2 Web](r2-web.md) (file manager R2, không album/EXIF map), [Dashy](dashy.md) (homelab hub), [ezBookkeeping](ezbookkeeping.md) (finance self-host — khác domain).
+**Cùng kiểu:** [R2 Web](r2-web.md) (file manager R2, không album/EXIF map), [FileBrowser Quantum](filebrowser-quantum.md) (FS web manager), [Dashy](dashy.md) (homelab hub), [ezBookkeeping](ezbookkeeping.md) (finance self-host — khác domain).
 
 ## Dùng khi nào?
 

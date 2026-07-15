@@ -12,7 +12,7 @@
 
 Không phải AI generator — runtime/editor dựng thế giới 3D. Harness agent điều khiển: xem [Godot](../cli-anything/godot.md) / [Blender](../cli-anything/blender.md) (CLI-Anything); O3DE là **engine đầy đủ** cạnh Godot.
 
-**Cùng kiểu:** [Godot harness](../cli-anything/godot.md), [Blender harness](../cli-anything/blender.md), [OpenToonz](opentoonz.md) (2D animation), [LingBot-Map](../cv-edge/lingbot-map.md) (3D reconstr. — khác engine).
+**Cùng kiểu:** [Chili3D](chili3d.md) (CAD browser · OCCT WASM), [Godot harness](../cli-anything/godot.md), [Blender harness](../cli-anything/blender.md), [OpenToonz](opentoonz.md) (2D animation), [LingBot-Map](../cv-edge/lingbot-map.md) (3D reconstr. — khác engine).
 
 ## Dùng khi nào?
 

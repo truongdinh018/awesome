@@ -12,7 +12,7 @@
 
 Dùng AI khi page lạ, dùng code khi đã biết selector. Preview/cache action → workflow lặp lại; auto-cache + self-healing khi UI đổi. Dựa CDP / Playwright-class stack — không chỉ pure vision và không chỉ inject DOM in-page.
 
-**Cùng kiểu:** [Puppeteer](puppeteer.md) (CDP driver), [Midscene](midscene.md) (screenshot → action / multi-OS), [Page Agent](page-agent.md) (in-page DOM MCP).
+**Cùng kiểu:** [Browser Use](browser-use.md) (Python agent), [Puppeteer](puppeteer.md) (CDP driver), [Midscene](midscene.md) (screenshot → action / multi-OS), [Page Agent](page-agent.md) (in-page DOM MCP).
 
 ## Dùng khi nào?
 
@@ -21,6 +21,7 @@ Dùng AI khi page lạ, dùng code khi đã biết selector. Preview/cache actio
 | Production browser agent (hybrid NL/code) | ✅ `act` / `agent` / `extract` |
 | Cache + self-heal, giảm token | ✅ |
 | Structured extract (Zod schema) | ✅ |
+| Agent Python “làm task trên web” | → [Browser Use](browser-use.md) |
 | Pure vision (native/mobile/canvas) | → [Midscene](midscene.md) |
 | Agent nhúng trong page (DOM) | → [Page Agent](page-agent.md) |
 

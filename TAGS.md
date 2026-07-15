@@ -60,17 +60,17 @@
 
 | Tag | Điểm neo |
 |-----|----------|
-| `mcp` | Hermes · RAGFlow · NotebookLM MCP · Firecrawl · AstrBot · Prompt Optimizer |
-| `agent` | Hermes · OpenHands · AstrBot · DeerFlow · Atomic Agents |
+| `mcp` | Hermes · RAGFlow · NotebookLM MCP · Firecrawl · AstrBot · LangBot · Prompt Optimizer |
+| `agent` | Hermes · OpenHands · AstrBot · LangBot · DeerFlow · Atomic Agents |
 | `coding-agent` | OpenHands · CodeWhale · Paseo · Nezha · Spec Kit · Claude-Mem |
 | `skill` / `prompt` | CLI-Anything · prompts.chat · Prompt Optimizer · Ponytail · Spec Kit |
 | `rag` | RAGFlow · WeKnora · AnythingLLM · Graphify · Semble |
 | `extract` | Hyper-Extract · Scrapling · Crawl4AI · Firecrawl |
 | `stt` | faster-whisper · FunASR · Voicebox · sherpa-onnx |
 | `tts` / `voice-clone` | Voicebox · VieNeu-TTS · CosyVoice · Supertonic · LuxTTS |
-| `video` | ComfyUI · OpenMontage · LivePortrait · FreeCut · Gyroflow |
-| `api` / `self-host` | LocalAI · vLLM-Omni · ezBookkeeping · ChronoFrame · OpenTickly |
+| `video` | ComfyUI · OpenMontage · LivePortrait · LibreTube · FreeCut · Gyroflow · yt-dlp |
+| `api` / `self-host` | LocalAI · vLLM-Omni · ezBookkeeping · ChronoFrame · FileBrowser Quantum · OpenTickly |
 | `notification` / `workflow` | ntfy · zca-bridge · Horizon · Vibe Kanban |
 | `ocr` / `pdf` | MinerU · Stirling-PDF · STranslate · MarkItDown |
 | `security` / `pentest` | Strix · OSIRIS · System Informer · Magika · AGT |
-| `ui-automation` / `browser` | Midscene · Stagehand · Puppeteer · Chrome DevTools MCP |
+| `ui-automation` / `browser` | Midscene · Stagehand · **Browser Use** · Puppeteer · Chrome DevTools MCP |

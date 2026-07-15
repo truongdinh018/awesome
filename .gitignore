@@ -4,3 +4,7 @@
 *.swp
 .idea/
 .vscode/
+
+# Local reader/editor
+site/node_modules/
+site/dist/

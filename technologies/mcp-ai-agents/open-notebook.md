@@ -12,7 +12,7 @@
 
 Bạn dùng để: chat với research notes, full-text + vector search, podcast multi-speaker (1–4 speakers), REST API. Hỗ trợ 18+ provider (Ollama, Anthropic…). Dữ liệu ở máy bạn, không lock-in Google. Stack: Python · Next.js · SurrealDB · LangChain.
 
-**Cùng kiểu:** [NotebookLM MCP](notebooklm-mcp.md), [AnythingLLM](anything-llm.md), [Khoj](khoj.md), [SurfSense](surfsense.md), [WeKnora](weknora.md), [RAGFlow](ragflow.md)
+**Cùng kiểu:** [Deta Surf](deta-surf.md) (desktop AI notebook), [NotebookLM MCP](notebooklm-mcp.md), [AnythingLLM](anything-llm.md), [Khoj](khoj.md), [SurfSense](surfsense.md), [WeKnora](weknora.md), [RAGFlow](ragflow.md)
 
 ## Dùng khi nào?
 
@@ -54,4 +54,4 @@ UI `:8502` · REST API `:5055`. Docs: [User Guide](https://www.open-notebook.ai)
 
 - Repo: https://github.com/lfnovo/open-notebook  
 - Site: https://www.open-notebook.ai  
-- Peers: [notebooklm-mcp.md](notebooklm-mcp.md) · [anything-llm.md](anything-llm.md) · [khoj.md](khoj.md) · [surfsense.md](surfsense.md) · [weknora.md](weknora.md) · [ragflow.md](ragflow.md)
+- Peers: [deta-surf.md](deta-surf.md) · [notebooklm-mcp.md](notebooklm-mcp.md) · [anything-llm.md](anything-llm.md) · [khoj.md](khoj.md) · [surfsense.md](surfsense.md) · [weknora.md](weknora.md) · [ragflow.md](ragflow.md)

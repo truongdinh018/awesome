@@ -2,6 +2,20 @@
 
 Lịch sử thêm ★ / bookmark / cấu trúc catalog (mới nhất trên cùng).
 
+*2026-07-15 — 211 ★ · thêm SnapDOM*
+
+*2026-07-15 — 210 ★ · thêm Deta Surf*
+
+*2026-07-15 — 209 ★ · thêm Chili3D*
+
+*2026-07-15 — 208 ★ · thêm LangBot*
+
+*2026-07-15 — 207 ★ · thêm Browser Use*
+
+*2026-07-15 — 206 ★ · thêm FileBrowser Quantum*
+
+*2026-07-15 — 205 ★ · thêm LibreTube*
+
 *2026-07-15 — restructure catalog · hub README gọn · repos bỏ Mô tả ngắn + Index Primary · domain README slim · TAGS điểm neo rút*
 
 *2026-07-15 — 204 ★ · thêm ChronoFrame*

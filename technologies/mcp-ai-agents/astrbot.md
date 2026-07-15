@@ -12,7 +12,7 @@
 
 Không phải coding-agent IDE — là **hạ tầng hội thoại agent trên messenger**. Coding sandbox sâu hơn → [OpenHands](openhands.md) / [DeerFlow](deer-flow.md).
 
-**Cùng kiểu:** [Hermes Agent](hermes-agent.md) (personal gateway + learning loop), [DeerFlow](deer-flow.md) (super-agent research/code), [WeKnora](weknora.md) / [RAGFlow](ragflow.md) (RAG + IM), [zca-bridge](../devtools/zca-bridge.md) (Zalo↔Chatwoot, không LLM).
+**Cùng kiểu:** [LangBot](langbot.md) (IM bots production, Apache), [Hermes Agent](hermes-agent.md) (personal gateway + learning loop), [DeerFlow](deer-flow.md) (super-agent research/code), [WeKnora](weknora.md) / [RAGFlow](ragflow.md) (RAG + IM), [zca-bridge](../devtools/zca-bridge.md) (Zalo↔Chatwoot, không LLM).
 
 ## Dùng khi nào?
 
@@ -21,6 +21,7 @@ Không phải coding-agent IDE — là **hạ tầng hội thoại agent trên m
 | Bot AI trên QQ / Telegram / Feishu / Discord… | ✅ primary |
 | Agent + MCP + plugins + KB trên IM | ✅ |
 | Self-host chatbot enterprise / CS | ✅ Docker + WebUI |
+| Production IM bots (Apache, panel/orchestration) | → [LangBot](langbot.md) |
 | Personal agent + learn skills + cron | → [Hermes](hermes-agent.md) |
 | Research/code SuperAgent dài hạn | → [DeerFlow](deer-flow.md) |
 | Chỉ bridge Zalo ↔ helpdesk | → [zca-bridge](../devtools/zca-bridge.md) |

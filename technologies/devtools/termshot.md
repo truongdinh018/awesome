@@ -11,7 +11,7 @@
 
 Hữu ích docs, README, blog: chụp `ls`, pipeline, demo CLI. Có `--edit`, `--show-cmd`, margin/padding, shell interactive (`termshot /bin/zsh`).
 
-**Cùng kiểu:** [ASCILINE](../image-video/asciline.md) (video→ASCII — khác), [Recordly](../image-video/recordly.md) (screen demo), [React Scan](react-scan.md) (devtools — khác miền), [CheatReader](cheatreader.md) (desktop UX).
+**Cùng kiểu:** [SnapDOM](snapdom.md) (DOM→PNG/SVG), [ASCILINE](../image-video/asciline.md) (video→ASCII — khác), [Recordly](../image-video/recordly.md) (screen demo), [React Scan](react-scan.md) (devtools — khác miền), [CheatReader](cheatreader.md) (desktop UX).
 
 ## Dùng khi nào?
 
