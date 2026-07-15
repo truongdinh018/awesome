@@ -10,6 +10,7 @@ import {
 
 const HUB_FILES = [
   'README.md',
+  'USE-CASES.md',
   'TAGS.md',
   'CHANGELOG.md',
   'categories/README.md',

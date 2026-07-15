@@ -1,8 +1,9 @@
 # Categories — phân nhóm Primary & Tags
 
 > **Taxonomy theo domain / subgroup** (duyệt capability).  
+> **“Dùng để làm gì?” theo nhu cầu** → [USE-CASES.md](../USE-CASES.md).  
 > **Thứ tự star `#` và URL repo** → [repos/README.md](../repos/README.md) (bảng master).  
-> Hub + checklist: [../README.md](../README.md) · Tags: [../TAGS.md](../TAGS.md) · Viết bài: [../technologies/WRITING.md](../technologies/WRITING.md)
+> Hub: [../README.md](../README.md) · Tags: [../TAGS.md](../TAGS.md) · Viết bài: [../technologies/WRITING.md](../technologies/WRITING.md)
 
 ---
 

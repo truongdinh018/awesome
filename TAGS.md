@@ -1,76 +1,91 @@
-# Tags — chú giải & điểm neo
+# Tags — chú giải & “dùng để làm gì”
 
-> Dùng khi bạn biết **capability** (vd. `tts`, `rag`) nhưng chưa biết tool nào.  
-> Danh sách đầy đủ theo domain: [categories/README.md](categories/README.md) · Theo `#` star: [repos/README.md](repos/README.md)
+> Tag = **capability** (làm được gì). Domain/Primary = chỗ xếp folder.  
+> **Duyệt theo nhu cầu tiếng Việt:** [USE-CASES.md](USE-CASES.md)  
+> Subgroup domain: [categories/README.md](categories/README.md) · Star `#`: [repos/README.md](repos/README.md)
 
-## Chú giải Tags
+## Cách đọc bảng
 
-<details>
-<summary><strong>Agent & tri thức</strong></summary>
-
-| Tag | Nghĩa |
-|-----|--------|
-| `mcp` | MCP server / client |
-| `agent` | Agent runtime / orchestrator |
-| `coding-agent` | Software / coding agent |
-| `rag` | Retrieval / RAG |
-| `extract` | Extract → graph / structured data |
-| `prompt` | Prompt library |
-| `skill` | Agent Skills (`SKILL.md`) |
-| `cli` | CLI-first |
-| `harness` | CLI-Anything child harness |
-| `guardrail` | Agent / shell safety |
-
-</details>
-
-<details>
-<summary><strong>Speech & media</strong></summary>
-
-| Tag | Nghĩa |
-|-----|--------|
-| `stt` / `tts` / `voice-clone` | Speech I/O |
-| `watermark` | Watermark nội dung AI |
-| `image-gen` / `video` | Sinh ảnh / video |
-| `ui-to-code` | Screenshot / URL → code |
-| `3d` / `cad` / `game` | 3D · CAD · game |
-
-</details>
-
-<details>
-<summary><strong>Automation · edge · DevTools · security</strong></summary>
-
-| Tag | Nghĩa |
-|-----|--------|
-| `ui-automation` / `computer-use` / `browser` / `dom` | UI automation |
-| `cv` / `edge` / `iot` | Vision · edge |
-| `pdf` / `ocr` / `office` | Documents |
-| `notification` / `workspace` | Notify · productivity shell |
-| `dataset` | Corpus / HF datasets |
-| `workflow` / `diagram` / `gis` | Automation · GIS |
-| `security` / `pentest` | AppSec |
-| `self-host` / `desktop` / `api` | Deploy shape |
-
-</details>
+| Cột | Ý nghĩa |
+|-----|---------|
+| Tag | Giá trị trong metadata bài / cột Tags của `repos/` |
+| Dùng để | Việc thực tế bạn đang cần |
+| Không phải | Tránh nhầm với capability gần |
 
 ---
 
-## Điểm neo (representative)
+## Agent · tri thức · MCP
 
-> Vài tool tiêu biểu mỗi capability — **không** catalog đầy đủ. Muốn đủ → [categories](categories/README.md) hoặc lọc Tags trong [repos](repos/README.md).
+| Tag | Dùng để | Không phải |
+|-----|---------|------------|
+| `mcp` | Gắn tool/API vào Cursor/Claude qua MCP | Agent tự suy luận端到端 |
+| `agent` | Runtime/orchestrator agent hoặc bot đa kênh | Chỉ một skill/prompt lẻ |
+| `coding-agent` | Agent chuyên viết/sửa code, PR, repo | Bot chat support thuần |
+| `rag` | Hỏi đáp / truy vấn trên tài liệu đã ingest | Fine-tune model |
+| `extract` | Cào web / extract → markdown·JSON·graph | RAG UI hoàn chỉnh |
+| `prompt` | Thư viện / tối ưu prompt | Runtime agent |
+| `skill` | Gói `SKILL.md` hướng dẫn agent làm việc | MCP server |
+| `cli` | Dùng chủ yếu bằng dòng lệnh | Bắt buộc phải có GUI |
+| `harness` | Harness CLI-Anything điều khiển 1 app | Agent framework đầy đủ |
+| `guardrail` | Chặn lệnh nguy hiểm / governance | Antivirus máy chủ |
+| `workflow` | Nối nhiều bước tự động (pipeline) | Một lệnh CLI đơn |
 
-| Tag | Điểm neo |
-|-----|----------|
-| `mcp` | Hermes · RAGFlow · NotebookLM MCP · Firecrawl · AstrBot · LangBot · Prompt Optimizer |
-| `agent` | Hermes · OpenHands · AstrBot · LangBot · DeerFlow · Atomic Agents |
-| `coding-agent` | OpenHands · CodeWhale · Paseo · Nezha · Spec Kit · Claude-Mem |
-| `skill` / `prompt` | CLI-Anything · prompts.chat · Prompt Optimizer · Ponytail · Spec Kit |
-| `rag` | RAGFlow · WeKnora · AnythingLLM · Graphify · Semble |
-| `extract` | Hyper-Extract · Scrapling · Crawl4AI · Firecrawl |
-| `stt` | faster-whisper · FunASR · Voicebox · sherpa-onnx |
-| `tts` / `voice-clone` | Voicebox · VieNeu-TTS · CosyVoice · Supertonic · LuxTTS |
-| `video` | ComfyUI · OpenMontage · LivePortrait · LibreTube · FreeCut · Gyroflow · yt-dlp |
-| `api` / `self-host` | LocalAI · vLLM-Omni · ezBookkeeping · ChronoFrame · FileBrowser Quantum · OpenTickly |
-| `notification` / `workflow` | ntfy · zca-bridge · Horizon · Vibe Kanban |
-| `ocr` / `pdf` | MinerU · Stirling-PDF · STranslate · MarkItDown |
-| `security` / `pentest` | Strix · OSIRIS · System Informer · Magika · AGT |
-| `ui-automation` / `browser` | Midscene · Stagehand · **Browser Use** · Puppeteer · Chrome DevTools MCP |
+---
+
+## Speech · media
+
+| Tag | Dùng để | Không phải |
+|-----|---------|------------|
+| `stt` | Nghe nói → chữ (họp, phụ đề) | TTS |
+| `tts` | Chữ → tiếng nói | STT |
+| `voice-clone` | Nhân bản / giữ tembre giọng | Chỉ TTS giọng mặc định |
+| `watermark` | Đánh dấu / phát hiện watermark AI | DRM Netflix |
+| `image-gen` | Sinh ảnh (diffusion / studio) | Chỉ edit ảnh thủ công |
+| `video` | Pipeline video (gen, edit, tải, stream) | Chỉ audio |
+| `ui-to-code` | Screenshot/URL → code giao diện | Browser automation click |
+| `3d` / `cad` / `game` | 3D, CAD, hoặc điều khiển game engine | Video 2D thuần |
+
+---
+
+## Automation · edge · docs · ops
+
+| Tag | Dùng để | Không phải |
+|-----|---------|------------|
+| `ui-automation` | Điều khiển UI (thường browser) | MCP lấy dữ liệu thuần |
+| `computer-use` | Agent nhìn màn hình / NL→hành động | Script Selenium cố định |
+| `browser` | Thao tác hoặc capture trong trình duyệt | App desktop native |
+| `dom` | Làm việc trên DOM (capture/agent) | Screenshot-only vision |
+| `cv` | Thị giác máy: detect/recognize | Gen ảnh artistic |
+| `edge` / `iot` | Chạy trên thiết bị biên / IoT | Cloud GPU lớn |
+| `pdf` / `ocr` | PDF và nhận dạng chữ trong ảnh/PDF | Word/Excel thuần |
+| `office` | Word/Excel/Slide / Workspace office | Chỉ PDF merge |
+| `notification` | Push/alert/bridge tin nhắn | Email marketing |
+| `workspace` | Môi trường làm việc / productivity shell | Inference LLM |
+| `dataset` | Corpus / dataset train-eval | Vector DB production |
+| `diagram` | Vẽ/sửa sơ đồ (draw.io…) | Whiteboard realtime |
+| `gis` | Bản đồ / GIS / định vị | CV thuần |
+| `security` / `pentest` | AppSec, pentest, scan rủi ro | Backup/restore |
+| `self-host` | Tự host trên máy/VPS của bạn | Chỉ SaaS closed |
+| `desktop` | Có app desktop (hoặc UX desktop-first) | Chỉ API server |
+| `api` | Expose HTTP/API để hệ khác gọi | Chỉ GUI không API |
+
+---
+
+## Điểm neo nhanh
+
+> Vài tool tiêu biểu — catalog đầy đủ theo nhu cầu → [USE-CASES.md](USE-CASES.md).
+
+| Nhu cầu | Điểm neo |
+|---------|----------|
+| RAG | RAGFlow · WeKnora · AnythingLLM · PageIndex |
+| Extract/crawl | Firecrawl · Crawl4AI · Scrapling · Hyper-Extract |
+| Coding agent | OpenHands · CodeWhale · Paseo · Nezha · Spec Kit |
+| MCP | Hermes · NotebookLM MCP · Firecrawl · AstrBot |
+| Skill/prompt | prompts.chat · Prompt Optimizer · CLI-Anything · Ponytail |
+| STT | faster-whisper · FunASR · Voicebox |
+| TTS/clone | Voicebox · VieNeu-TTS · CosyVoice · VoxCPM |
+| Video gen | ComfyUI · OpenMontage · LivePortrait · Toonflow |
+| Browser agent | Midscene · Stagehand · Browser Use · Page Agent |
+| PDF/OCR | Stirling-PDF · MinerU · MarkItDown · STranslate |
+| Security | Strix · Magika · System Informer · AGT |
+| Notify | ntfy · TREK · Horizon · zca-bridge |

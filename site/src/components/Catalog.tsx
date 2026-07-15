@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useId, useMemo, useRef, useState } from 'react'
 import type { CatalogItem } from '../api'
 import { domainHue, domainLabel, hueStyle, tagHue } from '../domainLabels'
 import { ThemeToggle } from './ThemeToggle'
@@ -40,10 +40,16 @@ export function Catalog({
   onOpenHub,
 }: Props) {
   const searchRef = useRef<HTMLInputElement>(null)
+  const filterBtnRef = useRef<HTMLButtonElement>(null)
+  const drawerTitleId = useId()
   const [draftQuery, setDraftQuery] = useState(query)
   const [searching, setSearching] = useState(false)
   const [displayItems, setDisplayItems] = useState<CatalogItem[]>([])
+  const [drawerOpen, setDrawerOpen] = useState(false)
   const searchGen = useRef(0)
+
+  const openDrawer = () => setDrawerOpen(true)
+  const closeDrawer = () => setDrawerOpen(false)
 
   useEffect(() => {
     setDraftQuery(query)
@@ -53,12 +59,31 @@ export function Catalog({
     const onKey = (e: KeyboardEvent) => {
       if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
         e.preventDefault()
-        searchRef.current?.focus()
+        setDrawerOpen(true)
+      }
+      if (e.key === 'Escape' && drawerOpen) {
+        e.preventDefault()
+        closeDrawer()
       }
     }
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
-  }, [])
+  }, [drawerOpen])
+
+  useEffect(() => {
+    if (!drawerOpen) return
+    const prev = document.body.style.overflow
+    document.body.style.overflow = 'hidden'
+    const id = window.requestAnimationFrame(() => {
+      searchRef.current?.focus()
+      searchRef.current?.select()
+    })
+    return () => {
+      document.body.style.overflow = prev
+      window.cancelAnimationFrame(id)
+      filterBtnRef.current?.focus()
+    }
+  }, [drawerOpen])
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase()
@@ -152,6 +177,14 @@ export function Catalog({
     )
   }
 
+  const activeFilterCount =
+    (draftQuery.trim() ? 1 : 0) + activeDomains.length + activeTags.length
+
+  const clearAllFilters = () => {
+    setDraftQuery('')
+    beginFilter({ q: '', domains: [], tags: [] })
+  }
+
   return (
     <div className="catalog">
       <div className="catalog-orb catalog-orb-a" aria-hidden />
@@ -167,6 +200,9 @@ export function Catalog({
             <button type="button" className="hub-link" onClick={() => onOpenHub('README.md')}>
               Hub
             </button>
+            <button type="button" className="hub-link" onClick={() => onOpenHub('USE-CASES.md')}>
+              Use cases
+            </button>
             <button type="button" className="hub-link" onClick={() => onOpenHub('repos/README.md')}>
               Stars
             </button>
@@ -181,6 +217,22 @@ export function Catalog({
               Writing
             </button>
           </nav>
+          <button
+            ref={filterBtnRef}
+            type="button"
+            className={`filter-drawer-btn${activeFilterCount > 0 ? ' has-filters' : ''}`}
+            onClick={openDrawer}
+            aria-expanded={drawerOpen}
+            aria-controls="catalog-filter-drawer"
+          >
+            <span aria-hidden>⌕</span>
+            <span>Lọc</span>
+            {activeFilterCount > 0 ? (
+              <span className="filter-drawer-count">{activeFilterCount}</span>
+            ) : (
+              <kbd className="search-kbd">Ctrl K</kbd>
+            )}
+          </button>
           <ThemeToggle theme={theme} onToggle={onToggleTheme} />
         </div>
       </header>
@@ -206,75 +258,140 @@ export function Catalog({
                 <strong>{items.length}</strong> bài
                 <span aria-hidden>·</span>
                 <strong>{tags.length}</strong> tags
+                {activeFilterCount > 0 ? (
+                  <>
+                    <span aria-hidden>·</span>
+                    <button
+                      type="button"
+                      className="hero-filter-chip"
+                      onClick={openDrawer}
+                    >
+                      {activeFilterCount} lọc đang bật
+                    </button>
+                  </>
+                ) : null}
               </>
             )}
           </p>
         </div>
       </section>
 
-      <div className="catalog-filters" aria-label="Bộ lọc">
-        <div className="filter-block search-block">
-          <label className="filter-label" htmlFor="catalog-search">
-            Tìm kiếm
-          </label>
-          <div className={`search-shell${searching ? ' is-loading' : ''}`}>
-            <span className="search-icon" aria-hidden>
-              {searching ? <span className="spinner spinner-inline" /> : '⌕'}
-            </span>
-            <input
-              id="catalog-search"
-              ref={searchRef}
-              type="search"
-              className="catalog-search"
-              placeholder="Tool, repo, tag…"
-              value={draftQuery}
-              onChange={(e) => setDraftQuery(e.target.value)}
-              aria-busy={searching}
-            />
-            <kbd className="search-kbd">Ctrl K</kbd>
-          </div>
-        </div>
+      {drawerOpen ? (
+        <div className="filter-drawer-root">
+          <button
+            type="button"
+            className="filter-drawer-backdrop"
+            aria-label="Đóng bộ lọc"
+            onClick={closeDrawer}
+          />
+          <aside
+            id="catalog-filter-drawer"
+            className="filter-drawer"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby={drawerTitleId}
+          >
+            <div className="filter-drawer-header">
+              <h2 id={drawerTitleId} className="filter-drawer-title">
+                Bộ lọc
+              </h2>
+              <div className="filter-drawer-header-actions">
+                {activeFilterCount > 0 ? (
+                  <button
+                    type="button"
+                    className="clear-tags"
+                    onClick={clearAllFilters}
+                  >
+                    Xóa hết
+                  </button>
+                ) : null}
+                <button
+                  type="button"
+                  className="filter-drawer-close"
+                  onClick={closeDrawer}
+                  aria-label="Đóng"
+                >
+                  ✕
+                </button>
+              </div>
+            </div>
 
-        <div className="filter-block domain-block">
-          <div className="filter-label-row">
-            <p className="filter-label">Domain</p>
-            {activeDomains.length > 0 && (
+            <div className="catalog-filters" aria-label="Bộ lọc">
+              <div className="filter-block search-block">
+                <label className="filter-label" htmlFor="catalog-search">
+                  Tìm kiếm
+                </label>
+                <div className={`search-shell${searching ? ' is-loading' : ''}`}>
+                  <span className="search-icon" aria-hidden>
+                    {searching ? <span className="spinner spinner-inline" /> : '⌕'}
+                  </span>
+                  <input
+                    id="catalog-search"
+                    ref={searchRef}
+                    type="search"
+                    className="catalog-search"
+                    placeholder="Tool, repo, tag…"
+                    value={draftQuery}
+                    onChange={(e) => setDraftQuery(e.target.value)}
+                    aria-busy={searching}
+                  />
+                  <kbd className="search-kbd">Ctrl K</kbd>
+                </div>
+              </div>
+
+              <div className="filter-block domain-block">
+                <div className="filter-label-row">
+                  <p className="filter-label">Domain</p>
+                  {activeDomains.length > 0 && (
+                    <button
+                      type="button"
+                      className="clear-tags"
+                      onClick={() => setActiveDomains([])}
+                    >
+                      Xóa lọc ({activeDomains.length})
+                    </button>
+                  )}
+                </div>
+                <DomainMultiSelect
+                  domains={domains}
+                  value={activeDomains}
+                  onChange={setActiveDomains}
+                />
+              </div>
+
+              <div className="filter-block tags-block">
+                <div className="filter-label-row">
+                  <p className="filter-label">Tags</p>
+                  {activeTags.length > 0 && (
+                    <button
+                      type="button"
+                      className="clear-tags"
+                      onClick={() => setActiveTags([])}
+                    >
+                      Xóa lọc ({activeTags.length})
+                    </button>
+                  )}
+                </div>
+                <TagMultiSelect
+                  tags={tags}
+                  value={activeTags}
+                  onChange={setActiveTags}
+                />
+              </div>
+            </div>
+
+            <div className="filter-drawer-footer">
               <button
                 type="button"
-                className="clear-tags"
-                onClick={() => setActiveDomains([])}
+                className="filter-drawer-apply"
+                onClick={closeDrawer}
               >
-                Xóa lọc ({activeDomains.length})
+                Xem {filtered.length} kết quả
               </button>
-            )}
-          </div>
-          <DomainMultiSelect
-            domains={domains}
-            value={activeDomains}
-            onChange={setActiveDomains}
-          />
+            </div>
+          </aside>
         </div>
-
-        <div className="filter-block tags-block">
-          <div className="filter-label-row">
-            <p className="filter-label">Tags</p>
-            {activeTags.length > 0 && (
-              <button
-                type="button"
-                className="clear-tags"
-                onClick={() => setActiveTags([])}
-              >
-                Xóa lọc ({activeTags.length})
-              </button>
-            )}
-          </div>
-          <TagMultiSelect
-            tags={tags}
-            value={activeTags}
-            onChange={setActiveTags}
-          />
-        </div>
-      </div>
+      ) : null}
 
       <div className={`results-panel${searching ? ' is-loading' : ''}`}>
         {searching && (
@@ -285,63 +402,100 @@ export function Catalog({
         )}
 
         <section
-          className="card-grid"
+          className="card-stack"
           aria-label="Danh sách bài"
           aria-busy={searching}
         >
-          {displayItems.map((item, index) => (
-            <article
-              key={item.path}
-              className="post-card"
-              style={hueStyle(domainHue(item.domain))}
-            >
-              <div className="post-card-accent" aria-hidden />
-              <div className="post-card-body">
-                <button
-                  type="button"
-                  className="post-card-btn"
-                  onClick={() => onOpen(item.path)}
-                  disabled={searching}
+          <ul className="card-rows">
+            {displayItems.map((item, index) => {
+              const repoLabel = item.repo || item.repoUrl || '—'
+              const repoShort = repoLabel.includes('/')
+                ? repoLabel.split('/').pop() || repoLabel
+                : repoLabel
+              const visibleTags = item.tags.slice(0, 5)
+              const hiddenTagCount = Math.max(0, item.tags.length - visibleTags.length)
+
+              return (
+                <li
+                  key={item.path}
+                  className="repo-card"
+                  style={hueStyle(domainHue(item.domain))}
                 >
-                  <div className="post-card-meta">
+                  <span className="list-index">
+                    {String(index + 1).padStart(2, '0')}
+                  </span>
+
+                  <div className="repo-card-main">
+                    <button
+                      type="button"
+                      className="list-title"
+                      onClick={() => onOpen(item.path)}
+                      disabled={searching}
+                    >
+                      {item.title}
+                    </button>
+
+                    {item.repoUrl ? (
+                      <a
+                        className="list-repo"
+                        href={item.repoUrl}
+                        target="_blank"
+                        rel="noreferrer"
+                        title={repoLabel}
+                        onClick={(e) => e.stopPropagation()}
+                      >
+                        <span className="list-repo-full">{repoLabel}</span>
+                        <span className="list-repo-short">{repoShort}</span>
+                      </a>
+                    ) : (
+                      <span className="list-repo muted">
+                        <span className="list-repo-full">{repoLabel}</span>
+                        <span className="list-repo-short">{repoShort}</span>
+                      </span>
+                    )}
+
+                    {item.excerpt ? (
+                      <p className="repo-card-desc" title={item.excerpt}>
+                        {item.excerpt}
+                      </p>
+                    ) : null}
+
+                    {visibleTags.length > 0 ? (
+                      <div className="list-tags">
+                        {visibleTags.map((t) => (
+                          <button
+                            key={t}
+                            type="button"
+                            className={`post-tag colored${activeTags.includes(t) ? ' active' : ''}`}
+                            style={hueStyle(tagHue(t))}
+                            onClick={() => toggleTag(t)}
+                            disabled={searching}
+                          >
+                            {t}
+                          </button>
+                        ))}
+                        {hiddenTagCount > 0 ? (
+                          <span className="tag-more">+{hiddenTagCount}</span>
+                        ) : null}
+                      </div>
+                    ) : null}
+                  </div>
+
+                  <div className="repo-card-meta">
                     <span
-                      className="post-domain badge-domain"
+                      className="list-domain badge-domain"
                       style={hueStyle(domainHue(item.domain))}
                     >
                       {domainLabel(item.domain)}
                     </span>
-                    <span className="post-index">
-                      {String(index + 1).padStart(2, '0')}
+                    <span className="list-stars" title="Stars">
+                      ★ {item.stars || '—'}
                     </span>
                   </div>
-                  <h2 className="post-title">{item.title}</h2>
-                  <div className="post-sub">
-                    {item.repo && <span className="post-repo">{item.repo}</span>}
-                    {item.stars && <span className="post-stars">{item.stars}</span>}
-                  </div>
-                  <p className="post-excerpt">{item.excerpt || 'Chưa có tóm tắt.'}</p>
-                  <span className="read-cue">Đọc bài →</span>
-                </button>
-                {item.tags.length > 0 && (
-                  <ul className="post-tags">
-                    {item.tags.slice(0, 6).map((t) => (
-                      <li key={t}>
-                        <button
-                          type="button"
-                          className={`post-tag colored${activeTags.includes(t) ? ' active' : ''}`}
-                          style={hueStyle(tagHue(t))}
-                          onClick={() => toggleTag(t)}
-                          disabled={searching}
-                        >
-                          {t}
-                        </button>
-                      </li>
-                    ))}
-                  </ul>
-                )}
-              </div>
-            </article>
-          ))}
+                </li>
+              )
+            })}
+          </ul>
         </section>
 
         {!searching && filtered.length === 0 && (

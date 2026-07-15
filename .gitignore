@@ -8,3 +8,4 @@
 # Local reader/editor
 site/node_modules/
 site/dist/
+site/tsconfig.tsbuildinfo

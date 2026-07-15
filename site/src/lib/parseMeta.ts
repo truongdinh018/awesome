@@ -6,6 +6,7 @@ export type CatalogItem = {
   category: string
   tags: string[]
   repo: string
+  repoUrl: string
   stars: string
   excerpt: string
 }
@@ -31,6 +32,38 @@ function extractTags(block: string): string[] {
   return [...new Set(found.filter(Boolean))]
 }
 
+/**
+ * Cut on real sentence boundaries (. ! ?) — not ellipsis (…) or file
+ * extensions (.md). Ends when punctuation is followed by a capital / end.
+ */
+function takeSentences(text: string, count = 1): string {
+  const ends: number[] = []
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i]
+    if (ch !== '.' && ch !== '!' && ch !== '?') continue
+    // Skip ASCII ellipsis ...
+    if (ch === '.' && text.slice(i, i + 3) === '...') {
+      i += 2
+      continue
+    }
+    // Skip initials like "A. "
+    if (
+      ch === '.' &&
+      i > 0 &&
+      /[A-ZÀ-Ỵ]/i.test(text[i - 1] ?? '') &&
+      (i === 1 || /\s/.test(text[i - 2] ?? ''))
+    ) {
+      continue
+    }
+    const rest = text.slice(i + 1).trimStart()
+    if (rest && !/^\p{Lu}/u.test(rest)) continue
+    ends.push(i + 1)
+    if (ends.length >= count) break
+  }
+  if (ends.length === 0) return text
+  return text.slice(0, ends[count - 1]!).trim()
+}
+
 function extractExcerpt(md: string): string {
   const section = md.match(
     /##\s*Đây là gì\?\s*\n([\s\S]*?)(?=\n##\s|\n---+|\s*$)/i,
@@ -40,10 +73,10 @@ function extractExcerpt(md: string): string {
     .replace(/!\[[^\]]*]\([^)]*\)/g, '')
     .replace(/\[([^\]]+)]\([^)]*\)/g, '$1')
     .replace(/[*_>#`|]/g, ' ')
+    .replace(/…+/g, '…')
     .replace(/\s+/g, ' ')
     .trim()
-  if (plain.length <= 180) return plain
-  return `${plain.slice(0, 177).trim()}…`
+  return takeSentences(plain, 1)
 }
 
 export function parseArticleMeta(relPath: string, content: string): CatalogItem {
@@ -60,12 +93,14 @@ export function parseArticleMeta(relPath: string, content: string): CatalogItem 
   const category =
     head.match(/\*\*Category:\*\*\s*(.+)/i)?.[1]?.trim().replace(/\s+/g, ' ') ??
     ''
-  const repo =
-    head
-      .match(/\*\*Repo:\*\*\s*\[([^\]]+)]\(([^)]+)\)/i)?.[1]
-      ?.trim() ??
-    head.match(/\*\*Repo:\*\*\s*(\S+)/i)?.[1]?.trim() ??
-    ''
+  const repoMatch = head.match(/\*\*Repo:\*\*\s*\[([^\]]+)]\(([^)]+)\)/i)
+  const repo = repoMatch?.[1]?.trim()
+    ?? head.match(/\*\*Repo:\*\*\s*(\S+)/i)?.[1]?.trim()
+    ?? ''
+  let repoUrl = repoMatch?.[2]?.trim() ?? ''
+  if (!repoUrl && repo && /^[\w.-]+\/[\w.-]+$/.test(repo)) {
+    repoUrl = `https://github.com/${repo}`
+  }
   const stars =
     head.match(/\*\*⭐\*\*\s*([^\n·*]+)/)?.[1]?.trim() ||
     head.match(/⭐\*\*\s*([^\n·]+)/)?.[1]?.trim() ||
@@ -79,6 +114,7 @@ export function parseArticleMeta(relPath: string, content: string): CatalogItem 
     category,
     tags: extractTags(head),
     repo,
+    repoUrl,
     stars,
     excerpt: extractExcerpt(content),
   }

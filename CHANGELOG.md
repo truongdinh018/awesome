@@ -2,6 +2,8 @@
 
 Lịch sử thêm ★ / bookmark / cấu trúc catalog (mới nhất trên cùng).
 
+*2026-07-15 — taxonomy: thêm [USE-CASES.md](USE-CASES.md) (phân loại theo nhu cầu) · làm rõ TAGS “dùng để / không phải”*
+
 *2026-07-15 — 211 ★ · thêm SnapDOM*
 
 *2026-07-15 — 210 ★ · thêm Deta Surf*
