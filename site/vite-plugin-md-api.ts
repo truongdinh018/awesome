@@ -155,6 +155,35 @@ async function buildTree(root: string): Promise<TreeNode[]> {
   ]
 }
 
+async function collectFiles(
+  root: string,
+): Promise<Record<string, string>> {
+  const paths = new Set<string>([
+    ...HUB_FILES,
+    ...(await listMdFiles(root, 'technologies')),
+  ])
+  const files: Record<string, string> = {}
+  for (const rel of paths) {
+    const abs = resolveSafe(root, rel)
+    if (!abs) continue
+    try {
+      files[rel.replace(/\\/g, '/')] = await fs.readFile(abs, 'utf8')
+    } catch {
+      /* skip */
+    }
+  }
+  return files
+}
+
+async function buildStaticPayload(root: string) {
+  const [catalog, tree, files] = await Promise.all([
+    buildCatalog(root),
+    buildTree(root),
+    collectFiles(root),
+  ])
+  return { catalog, tree, files }
+}
+
 export function mdApiPlugin(contentRoot: string): Plugin {
   const root = path.resolve(contentRoot)
 
@@ -221,6 +250,29 @@ export function mdApiPlugin(contentRoot: string): Plugin {
           const message = err instanceof Error ? err.message : 'Server error'
           return sendJson(res, 500, { error: message })
         }
+      })
+    },
+    async generateBundle() {
+      const { catalog, tree, files } = await buildStaticPayload(root)
+      this.emitFile({
+        type: 'asset',
+        fileName: 'data/catalog.json',
+        source: JSON.stringify(catalog),
+      })
+      this.emitFile({
+        type: 'asset',
+        fileName: 'data/tree.json',
+        source: JSON.stringify({ tree }),
+      })
+      this.emitFile({
+        type: 'asset',
+        fileName: 'data/files.json',
+        source: JSON.stringify(files),
+      })
+      this.emitFile({
+        type: 'asset',
+        fileName: '.nojekyll',
+        source: '',
       })
     },
   }

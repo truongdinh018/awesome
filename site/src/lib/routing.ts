@@ -2,6 +2,11 @@ export type RouteState =
   | { view: 'catalog'; q: string; domains: string[]; tags: string[] }
   | { view: 'article'; doc: string }
 
+function appBase(): string {
+  const base = import.meta.env.BASE_URL || '/'
+  return base.endsWith('/') ? base : `${base}/`
+}
+
 export function readRoute(url: URL = new URL(window.location.href)): RouteState {
   const doc = url.searchParams.get('doc')?.trim()
   if (doc) {
@@ -37,23 +42,25 @@ export function catalogHref(opts: {
     if (tag) params.append('tag', tag)
   }
   const qs = params.toString()
-  return qs ? `/?${qs}` : '/'
+  const base = appBase()
+  return qs ? `${base}?${qs}` : base
 }
 
 export function articleHref(doc: string): string {
   const params = new URLSearchParams()
   params.set('doc', doc)
-  return `/?${params.toString()}`
+  return `${appBase()}?${params.toString()}`
 }
 
 export function navigate(
   href: string,
   mode: 'push' | 'replace' = 'push',
 ): void {
-  const url = new URL(href, window.location.origin)
+  const url = new URL(href, window.location.href)
+  const next = `${url.pathname}${url.search}`
   if (mode === 'replace') {
-    window.history.replaceState(null, '', url.pathname + url.search)
+    window.history.replaceState(null, '', next)
   } else {
-    window.history.pushState(null, '', url.pathname + url.search)
+    window.history.pushState(null, '', next)
   }
 }

@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import {
+  canEditMarkdown,
   fetchCatalog,
   fetchFile,
   saveFile,
@@ -309,7 +310,7 @@ export default function App() {
     const onKey = (e: KeyboardEvent) => {
       if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 's') {
         e.preventDefault()
-        if (mode === 'edit') void handleSave()
+        if (canEditMarkdown && mode === 'edit') void handleSave()
       }
       if (e.key === 'Escape') {
         if (mode === 'edit' && !dirty) {
@@ -366,35 +367,37 @@ export default function App() {
           <ThemeToggle theme={theme} onToggle={handleToggleTheme} />
           {status && <span className="status ok">{status}</span>}
           {dirty && <span className="status dirty">Chưa lưu</span>}
-          {mode === 'read' ? (
-            <button
-              type="button"
-              className="btn primary"
-              disabled={!currentPath || loading}
-              onClick={() => setMode('edit')}
-            >
-              Sửa
-            </button>
-          ) : (
-            <>
-              <button
-                type="button"
-                className="btn ghost"
-                onClick={handleCancel}
-                disabled={saving}
-              >
-                Hủy
-              </button>
+          {canEditMarkdown ? (
+            mode === 'read' ? (
               <button
                 type="button"
                 className="btn primary"
-                onClick={() => void handleSave()}
-                disabled={!dirty || saving}
+                disabled={!currentPath || loading}
+                onClick={() => setMode('edit')}
               >
-                {saving ? 'Đang lưu…' : 'Lưu'}
+                Sửa
               </button>
-            </>
-          )}
+            ) : (
+              <>
+                <button
+                  type="button"
+                  className="btn ghost"
+                  onClick={handleCancel}
+                  disabled={saving}
+                >
+                  Hủy
+                </button>
+                <button
+                  type="button"
+                  className="btn primary"
+                  onClick={() => void handleSave()}
+                  disabled={!dirty || saving}
+                >
+                  {saving ? 'Đang lưu…' : 'Lưu'}
+                </button>
+              </>
+            )
+          ) : null}
         </div>
       </header>
 
