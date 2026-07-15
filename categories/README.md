@@ -25,10 +25,10 @@
 | 3 | [Image & Video](#3-image--video) | 19 | Gen ảnh/video, NLE |
 | 4 | [UI Automation](#4-ui-automation--computer-use) | 6 | Browser / computer-use |
 | 5 | [CV & Edge](#5-computer-vision--edge) | 7 | Vision, IoT, edge |
-| 6 | [DevTools](#6-devtools--integration) | 47 | OCR, gateway, office, self-host |
+| 6 | [DevTools](#6-devtools--integration) | 48 | OCR, gateway, office, self-host |
 | 7 | [Security](#7-security--pentesting) | 3 | Pentest, OSINT, guardrail |
 
-**Tổng = 156 ★** (+ 11 CLI-Anything harnesses)
+**Tổng = 157 ★** (+ 11 CLI-Anything harnesses)
 
 ---
 
@@ -328,6 +328,7 @@
 | **Tabularis** | `mcp` `desktop` `self-host` `cli` `agent` | [tabularis.md](../technologies/tabularis.md) |
 | **Floci** | `self-host` `cli` `api` | [floci.md](../technologies/floci.md) |
 | **VeloxDB** | `desktop` `self-host` `cli` | [veloxdb.md](../technologies/veloxdb.md) |
+| **Drizzle ORM** | `api` `cli` `self-host` | [drizzle-orm.md](../technologies/drizzle-orm.md) |
 | **Vietnamese Provinces DB** | `gis` | [vietnamese-provinces-database.md](../technologies/vietnamese-provinces-database.md) |
 | **COBE** | `gis` | [cobe.md](../technologies/cobe.md) |
 

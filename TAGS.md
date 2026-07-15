@@ -69,7 +69,7 @@
 | `stt` | faster-whisper · FunASR · sherpa-onnx · Voicebox · pyVideoTrans · **Voice-Pro** |
 | `tts` / `voice-clone` | Voicebox · VieNeu-TTS · **KhanhTTS** · VoxCPM · **CosyVoice** · **MOSS-TTS** · **SoulX-Singer** · **Supertonic** · **LuxTTS** · VibeVoice · OmniVoice · **Voice-Pro** · sherpa-onnx *(TTS)* |
 | `video` | OpenMontage · HyperFrames · ComfyUI · pyVideoTrans · **FreeCut** · **yt-dlp** · **MoneyPrinterTurbo** · **Toonflow** · **Pixelle-Video** · **SANA** · **Open Generative AI** · **Supervision** · **LingBot-Map** *(3D reconstr.)* · **Deep-Live-Cam** |
-| `api` / `self-host` | LocalAI · FreeLLMAPI · **MiniCPM** · **exo** · **Cake** · **Floci** · Stirling-PDF · **zca-bridge** · **Firecrawl** · hầu hết RAG stack |
+| `api` / `self-host` | LocalAI · FreeLLMAPI · **MiniCPM** · **exo** · **Cake** · **Floci** · Stirling-PDF · **zca-bridge** · **Firecrawl** · **Drizzle ORM** *(TS ORM)* · hầu hết RAG stack |
 | `notification` / `workflow` | ntfy · Yuvomi · TREK · OpenMontage · **zca-bridge** · **Horizon** · **changedetection.io** · **Vibe Kanban** · **n8n-workflows** · **Duckle** · **CC WF Studio** |
 | `ocr` / `pdf` | MinerU · HunyuanOCR · Nanonets-OCR2 · DeepSeek-OCR · dots.ocr · Stirling-PDF · **MarkItDown** · **OpenResume** · **Surya** · **Infinity-Parser2** · **protonx-legal-tc** |
 | `dataset` / `rag` *(corpora)* | Án lệ TOAAN · Bộ Pháp Điển MOJ · (+ RAG platforms §1.2) · **n8n-workflows** *(templates)* · **ViT5** *(VN backbone)* |
