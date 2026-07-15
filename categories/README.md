@@ -25,10 +25,10 @@
 | 3 | [Image & Video](#3-image--video) | 19 | Gen ảnh/video, NLE |
 | 4 | [UI Automation](#4-ui-automation--computer-use) | 6 | Browser / computer-use |
 | 5 | [CV & Edge](#5-computer-vision--edge) | 7 | Vision, IoT, edge |
-| 6 | [DevTools](#6-devtools--integration) | 46 | OCR, gateway, office, self-host |
+| 6 | [DevTools](#6-devtools--integration) | 47 | OCR, gateway, office, self-host |
 | 7 | [Security](#7-security--pentesting) | 3 | Pentest, OSINT, guardrail |
 
-**Tổng = 154 ★** (+ 11 CLI-Anything harnesses)
+**Tổng = 155 ★** (+ 11 CLI-Anything harnesses)
 
 ---
 
@@ -286,6 +286,7 @@
 | **changedetection.io** | `notification` `self-host` `browser` `workflow` `api` | [changedetection-io.md](../technologies/changedetection-io.md) |
 | **Dashy** | `self-host` `desktop` `workspace` | [dashy.md](../technologies/dashy.md) |
 | **Whisper Money** | `self-host` `desktop` `workspace` | [whisper-money.md](../technologies/whisper-money.md) |
+| **WSL Dashboard** | `desktop` `cli` `workspace` | [wsl-dashboard.md](../technologies/wsl-dashboard.md) |
 
 ### 6.2 Documents · PDF · file type
 

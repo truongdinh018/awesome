@@ -1,6 +1,6 @@
 # Starred Repos — Index
 
-> **154 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-07-15**  
+> **155 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-07-15**  
 > Đây là bảng master: mỗi dòng = 1 repo đã star + link bài `technologies/*.md`.  
 > **Primary** = 1 nhóm mục lục · **Tags** = nhiều capability.  
 > Duyệt theo domain: [../README.md](../README.md) · Quy tắc nhóm: [../categories/README.md](../categories/README.md) · Chuẩn viết: [../technologies/WRITING.md](../technologies/WRITING.md)
@@ -161,6 +161,7 @@
 | 152 | [HKUDS/OpenSpace](https://github.com/HKUDS/OpenSpace) | 6.7k | Python | MCP & Agents | `skill` `agent` `mcp` `cli` `self-host` `coding-agent` `workflow` | [openspace.md](../technologies/openspace.md) |
 | 153 | [louislva/claude-peers-mcp](https://github.com/louislva/claude-peers-mcp) | 2.2k | TypeScript | MCP & Agents | `mcp` `coding-agent` `agent` `cli` `self-host` | [claude-peers-mcp.md](../technologies/claude-peers-mcp.md) |
 | 154 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 77k | Python | MCP & Agents | `agent` `skill` `coding-agent` `self-host` `workflow` `mcp` `cli` | [deer-flow.md](../technologies/deer-flow.md) |
+| 155 | [owu/wsl-dashboard](https://github.com/owu/wsl-dashboard) | 3.1k | Rust | DevTools | `desktop` `cli` `workspace` | [wsl-dashboard.md](../technologies/wsl-dashboard.md) |
 
 ## Mô tả ngắn (GitHub)
 
@@ -302,6 +303,7 @@
 | OpenSpace | Quality-first self-evolving skill hub for AI agents (MCP + cloud) |
 | Claude Peers MCP | Ad-hoc messaging between Claude Code sessions (localhost broker) |
 | DeerFlow | ByteDance SuperAgent harness — research, code, sandbox, skills (v2) |
+| wsl-dashboard | GUI manager for WSL — lightweight native dashboard to manage WSL instances |
 | semble | Fast accurate code search for agents — ~98% fewer tokens than grep+read |
 | exo | Run frontier AI locally — multi-device cluster, MLX, Thunderbolt RDMA |
 | cake | Multimodal distributed inference — text/image/TTS, shard across devices |
@@ -495,7 +497,7 @@
 | 138 | [RuView](../technologies/ruview.md) | `cv` `edge` `iot` `self-host` |
 | 139 | [LingBot-Map](../technologies/lingbot-map.md) | `cv` `self-host` `cli` `video` |
 
-### DevTools (46)
+### DevTools (47)
 
 | # | Công nghệ | Tags |
 |---|-----------|------|
@@ -545,6 +547,7 @@
 | 145 | [FossFLOW](../technologies/fossflow.md) | `diagram` `self-host` |
 | 146 | [LLM Checker](../technologies/llm-checker.md) | `cli` `mcp` `self-host` |
 | 147 | [llmfit](../technologies/llmfit.md) | `cli` `desktop` `self-host` `skill` |
+| 155 | [WSL Dashboard](../technologies/wsl-dashboard.md) | `desktop` `cli` `workspace` |
 
 ### Security (3)
 

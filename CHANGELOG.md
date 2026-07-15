@@ -2,6 +2,8 @@
 
 Lịch sử thêm ★ / bookmark (mới nhất trên cùng).
 
+*2026-07-15 — 155 ★ · thêm WSL Dashboard*
+
 *2026-07-15 — 154 ★ · thêm DeerFlow*
 
 *2026-07-15 — 153 ★ · thêm Claude Peers MCP*
