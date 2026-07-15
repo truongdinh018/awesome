@@ -17,7 +17,7 @@ Chuẩn viết: [WRITING.md](WRITING.md) · Checklist thêm ★: [../README.md](
 | [image-video/](image-video/README.md) | Image & Video | 28 | [§3](../categories/README.md#3-image--video) |
 | [ui-automation/](ui-automation/README.md) | UI Automation | 7 | [§4](../categories/README.md#4-ui-automation--computer-use) |
 | [cv-edge/](cv-edge/README.md) | CV & Edge | 9 | [§5](../categories/README.md#5-computer-vision--edge) |
-| [devtools/](devtools/README.md) | DevTools | 72 | [§6](../categories/README.md#6-devtools--integration) |
+| [devtools/](devtools/README.md) | DevTools | 73 | [§6](../categories/README.md#6-devtools--integration) |
 | [security/](security/README.md) | Security | 4 | [§7](../categories/README.md#7-security--pentesting) |
 | [cli-anything/](cli-anything/README.md) | CLI-Anything harnesses | — | — |
 | [bookmarks/](bookmarks/README.md) | Bookmarks (không ★) | — | — |
