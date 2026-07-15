@@ -2,7 +2,7 @@
 
 > **Bắt đầu từ đây** nếu bạn chưa biết tool thuộc domain nào. Mỗi mục = một việc cần làm → tool + tóm tắt “là gì”.
 >
-> **226** bài · generated từ `technologies/*/…md` · **2026-07-15**.
+> **227** bài · generated từ `technologies/*/…md` · **2026-07-15**.
 >
 > Song song: [categories/](categories/README.md) · [repos/](repos/README.md) · [TAGS.md](TAGS.md).
 
@@ -16,9 +16,9 @@
 
 - [Hỏi đáp trên tài liệu / knowledge (RAG)](#01-rag) — **31**
 - [Cào web & extract dữ liệu](#02-extract) — **4**
-- [Agent lập trình](#03-coding) — **46**
+- [Agent lập trình](#03-coding) — **47**
 - [Agent runtime / bot đa kênh](#04-agent-runtime) — **15**
-- [MCP — gắn tool vào AI coding assistant](#05-mcp) — **52**
+- [MCP — gắn tool vào AI coding assistant](#05-mcp) — **53**
 - [Skill / prompt / guideline](#06-skills) — **50**
 - [Memory dài hạn cho agent](#07-memory) — **3**
 - [An toàn lệnh & governance](#08-guardrail) — **2**
@@ -27,7 +27,7 @@
 - [Sinh ảnh & video bằng AI](#11-image-video-gen) — **16**
 - [Sửa / tải / xem video (không gen)](#12-video-tools) — **13**
 - [UI / web → code](#13-ui2code) — **4**
-- [Tự động hóa trình duyệt (computer-use)](#14-browser) — **14**
+- [Tự động hóa trình duyệt (computer-use)](#14-browser) — **15**
 - [Thị giác máy & edge/IoT](#15-cv) — **9**
 - [PDF, OCR, tài liệu văn phòng](#16-pdf-ocr) — **23**
 - [Thông báo & cầu nối chat](#17-notify) — **7**
@@ -110,6 +110,7 @@
 | **agentmemory** | MCP & AI Agents | `agent` `coding-agent` `mcp` `self-host` `rag` `cli` | agentmemory là engine persistent memory local cho coding agents: tự capture (hooks), nén, hybrid search (BM25 + vector + graph)… | [agentmemory.md](technologies/mcp-ai-agents/agentmemory.md) |
 | **AI Engineering Coach** | MCP & AI Agents | `coding-agent` `skill` `desktop` `cli` | AI Engineer Coach là extension VS Code đọc local AI session logs → dashboard hành vi agentic: practice scores, anti-patterns (4… | [ai-engineering-coach.md](technologies/mcp-ai-agents/ai-engineering-coach.md) |
 | **AI Website Cloner Template** | Image & Video | `ui-to-code` `coding-agent` `skill` | Template tái sử dụng để reverse-engineer bất kỳ website thành codebase Next.js hiện đại bằng AI coding agent (khuyến nghị Claud… | [ai-website-cloner.md](technologies/image-video/ai-website-cloner.md) |
+| **BrowserOS** | UI Automation | `browser` `ui-automation` `agent` `mcp` `desktop` `self-host` `coding-agent` | BrowserOS là Chromium fork mã nguồn mở với AI agent tích hợp — thay thế kiểu ChatGPT Atlas / Perplexity Comet / Dia nhưng local-first: BYO API keys hoặc Ollama / LM Studio, dữ liệu trên máy bạn. | [browseros.md](technologies/ui-automation/browseros.md) |
 | **Caveman** | MCP & AI Agents | `skill` `coding-agent` `prompt` `cli` `mcp` | Caveman là skill / plugin bắt coding agent trả lời ngắn (kiểu “người hang đá”), nhưng giữ nguyên code, lệnh shell và thông báo … | [caveman.md](technologies/mcp-ai-agents/caveman.md) |
 | **CC Workflow Studio** | MCP & AI Agents | `coding-agent` `skill` `mcp` `cli` `workflow` | CC Workflow Studio là công cụ thiết kế workflow agent trên canvas (React Flow), export sang format agent đã hiểu ( .claude/ , .… | [cc-wf-studio.md](technologies/mcp-ai-agents/cc-wf-studio.md) |
 | **Chrome DevTools MCP** | UI Automation | `mcp` `browser` `ui-automation` `cli` `coding-agent` | chrome-devtools-mcp (Chrome DevTools / Google) là MCP server để coding agent (Cursor, Claude, Copilot, Antigravity…) điều khiển… | [chrome-devtools-mcp.md](technologies/ui-automation/chrome-devtools-mcp.md) |
@@ -191,6 +192,7 @@
 | **AnythingLLM** | MCP & AI Agents | `rag` `agent` `mcp` `self-host` `desktop` `api` | AnythingLLM (Mintplex Labs) là app all-in-one local-first : chat với documents, AI agents, multi-user (Docker), vector DB, MCP,… | [anything-llm.md](technologies/mcp-ai-agents/anything-llm.md) |
 | **ArcGIS Pro (CLI-Anything harness)** | CLI-Anything | `harness` `gis` `mcp` `cli` | Harness ArcGIS Pro : agent làm bản đồ, geoprocessing, chỉnh feature — CLI kèm MCP bridge để điều khiển Pro live (demo cartograp… | [arcgis-pro.md](technologies/cli-anything/arcgis-pro.md) |
 | **AstrBot** | MCP & AI Agents | `agent` `mcp` `skill` `rag` `self-host` `api` | AstrBot — platform agent chatbot all-in-one gắn IM (QQ, Telegram, Discord, Feishu, DingTalk, WeCom, Slack, LINE…). | [astrbot.md](technologies/mcp-ai-agents/astrbot.md) |
+| **BrowserOS** | UI Automation | `browser` `ui-automation` `agent` `mcp` `desktop` `self-host` `coding-agent` | BrowserOS là Chromium fork mã nguồn mở với AI agent tích hợp — thay thế kiểu ChatGPT Atlas / Perplexity Comet / Dia nhưng local-first: BYO API keys hoặc Ollama / LM Studio, dữ liệu trên máy bạn. | [browseros.md](technologies/ui-automation/browseros.md) |
 | **Caveman** | MCP & AI Agents | `skill` `coding-agent` `prompt` `cli` `mcp` | Caveman là skill / plugin bắt coding agent trả lời ngắn (kiểu “người hang đá”), nhưng giữ nguyên code, lệnh shell và thông báo … | [caveman.md](technologies/mcp-ai-agents/caveman.md) |
 | **CC Workflow Studio** | MCP & AI Agents | `coding-agent` `skill` `mcp` `cli` `workflow` | CC Workflow Studio là công cụ thiết kế workflow agent trên canvas (React Flow), export sang format agent đã hiểu ( .claude/ , .… | [cc-wf-studio.md](technologies/mcp-ai-agents/cc-wf-studio.md) |
 | **Chrome DevTools MCP** | UI Automation | `mcp` `browser` `ui-automation` `cli` `coding-agent` | chrome-devtools-mcp (Chrome DevTools / Google) là MCP server để coding agent (Cursor, Claude, Copilot, Antigravity…) điều khiển… | [chrome-devtools-mcp.md](technologies/ui-automation/chrome-devtools-mcp.md) |
@@ -457,6 +459,7 @@
 | Công nghệ | Domain | Tags | Dùng để (tóm tắt) | Bài |
 |-----------|--------|------|-------------------|-----|
 | **Browser Use** | UI Automation | `ui-automation` `browser` `agent` `cli` `computer-use` | Browser Use — thư viện Python để AI agent điều khiển trình duyệt như người: mở trang, click, gõ, điền form, extract. | [browser-use.md](technologies/ui-automation/browser-use.md) |
+| **BrowserOS** | UI Automation | `browser` `ui-automation` `agent` `mcp` `desktop` `self-host` `coding-agent` | BrowserOS là Chromium fork mã nguồn mở với AI agent tích hợp — thay thế kiểu ChatGPT Atlas / Perplexity Comet / Dia nhưng local-first: BYO API keys hoặc Ollama / LM Studio, dữ liệu trên máy bạn. | [browseros.md](technologies/ui-automation/browseros.md) |
 | **changedetection.io** | DevTools | `notification` `self-host` `browser` `workflow` `api` | changedetection.io là công cụ self-host (hoặc SaaS) theo dõi thay đổi webpage : diff text/HTML/PDF/JSON, price/restock, visual … | [changedetection-io.md](technologies/devtools/changedetection-io.md) |
 | **Chrome DevTools MCP** | UI Automation | `mcp` `browser` `ui-automation` `cli` `coding-agent` | chrome-devtools-mcp (Chrome DevTools / Google) là MCP server để coding agent (Cursor, Claude, Copilot, Antigravity…) điều khiển… | [chrome-devtools-mcp.md](technologies/ui-automation/chrome-devtools-mcp.md) |
 | **ChronoFrame** | DevTools | `self-host` `desktop` `workspace` `browser` | ChronoFrame — gallery ảnh cá nhân self-host : quản lý album online, Live/Motion Photos, parse EXIF, reverse geocoding, bản đồ e… | [chronoframe.md](technologies/devtools/chronoframe.md) |

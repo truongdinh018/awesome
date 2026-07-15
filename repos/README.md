@@ -1,6 +1,6 @@
 # Starred Repos — Index
 
-> **212 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-07-15**  
+> **213 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-07-15**  
 > Đây là bảng master: mỗi dòng = 1 repo đã star + link bài `technologies/<domain>/<slug>.md`.
 > **Primary** = 1 trong 7 domain · **Tags** = nhiều capability.
 > Duyệt subgroup: [../categories/README.md](../categories/README.md) · Hub / checklist: [../README.md](../README.md) · Viết bài: [../technologies/WRITING.md](../technologies/WRITING.md)
@@ -219,6 +219,7 @@
 | 210 | [deta/surf](https://github.com/deta/surf) | 3.5k | TypeScript | MCP & AI Agents | `rag` `desktop` `self-host` `browser` | [deta-surf.md](../technologies/mcp-ai-agents/deta-surf.md) |
 | 211 | [zumerlab/snapdom](https://github.com/zumerlab/snapdom) | 7.9k | JavaScript | DevTools | `browser` `dom` | [snapdom.md](../technologies/devtools/snapdom.md) |
 | 212 | [ByteByteGoHq/system-design-101](https://github.com/ByteByteGoHq/system-design-101) | 86k | Docs | DevTools | `diagram` `dataset` | [system-design-101.md](../technologies/devtools/system-design-101.md) |
+| 213 | [browseros-ai/BrowserOS](https://github.com/browseros-ai/BrowserOS) | 12.2k | TypeScript | UI Automation | `browser` `ui-automation` `agent` `mcp` `desktop` `self-host` `coding-agent` | [browseros.md](../technologies/ui-automation/browseros.md) |
 
 
 ## Ecosystem — CLI-Anything harnesses (con của #16)
