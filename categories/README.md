@@ -25,12 +25,12 @@
 | 1 | [MCP & AI Agents](#1-mcp--ai-agents) | 71 | MCP, RAG, agent, skill |
 | 2 | [Speech & Audio](#2-speech--audio) | 20 | STT / TTS / voice |
 | 3 | [Image & Video](#3-image--video) | 28 | Gen ảnh/video, NLE |
-| 4 | [UI Automation](#4-ui-automation--computer-use) | 7 | Browser / computer-use |
+| 4 | [UI Automation](#4-ui-automation--computer-use) | 8 | Browser / computer-use |
 | 5 | [CV & Edge](#5-computer-vision--edge) | 9 | Vision, IoT, edge |
 | 6 | [DevTools](#6-devtools--integration) | 73 | OCR, gateway, office, train, self-host |
 | 7 | [Security](#7-security--pentesting) | 4 | Pentest, OSINT, guardrail |
 
-**Tổng = 212 ★** (+ 11 CLI-Anything harnesses)
+**Tổng = 213 ★** (+ 11 CLI-Anything harnesses)
 
 ---
 
@@ -280,6 +280,7 @@
 | 4.2 | NL ↔ code | **Stagehand** | `ui-automation` `browser` `agent` | [stagehand.md](../technologies/ui-automation/stagehand.md) |
 | 4.25 | Agent loop (Py) | **Browser Use** | `ui-automation` `browser` `agent` `cli` `computer-use` | [browser-use.md](../technologies/ui-automation/browser-use.md) |
 | 4.3 | DOM agent | **Page Agent** | `ui-automation` `browser` `dom` `mcp` `agent` | [page-agent.md](../technologies/ui-automation/page-agent.md) |
+| 4.35 | Agentic browser | **BrowserOS** | `browser` `ui-automation` `agent` `mcp` `desktop` `self-host` `coding-agent` | [browseros.md](../technologies/ui-automation/browseros.md) |
 | 4.4 | Game CLI | Slay the Spire II | `harness` `ui-automation` `game` `cli` | [slay-the-spire-ii.md](../technologies/cli-anything/slay-the-spire-ii.md) |
 
 **Ranh giới:** Puppeteer = CDP API · **Chrome DevTools MCP** = MCP/CLI DevTools · **CloakBrowser** = stealth Chromium · Midscene = screenshot→action · Stagehand = NL↔code · **Browser Use** = Python agent loop · Page Agent = DOM LLM · harness = surface có cấu trúc.
