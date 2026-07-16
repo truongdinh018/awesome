@@ -185,11 +185,10 @@ async function getEmbedder(): Promise<
   return embedderPromise
 }
 
-/** Warm model + SQLite after catalog paints (idle). */
-export function preloadSearchRuntime(): void {
+/** Optional: warm SQLite only (does not load the embed model). */
+export function preloadSearchDb(): void {
   const run = () => {
     void loadSearchDb()
-    void getEmbedder()
   }
   const w = window as Window & {
     requestIdleCallback?: (
@@ -202,6 +201,11 @@ export function preloadSearchRuntime(): void {
   } else {
     globalThis.setTimeout(run, 400)
   }
+}
+
+/** @deprecated Model loads on first semantic/hybrid search — use getEmbedder via semanticSearch. */
+export function preloadSearchRuntime(): void {
+  preloadSearchDb()
 }
 
 export function getSearchModelId(): string {

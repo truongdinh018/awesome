@@ -13,9 +13,9 @@ Catalog dùng **SQLite** (`site/public/data/search.sqlite`) để lưu metadata,
 
 ## UX
 
-- Mở catalog → **preload** SQLite + model lúc idle
-- Lần đầu: hiện *“Đang tải model tìm kiếm…”* (cache browser cho lần sau)
-- Thanh meta: `semantic sẵn sàng` / lỗi → fallback từ khóa
+- Model **chỉ tải khi lần đầu** search **Ngữ nghĩa / Hybrid** (không preload lúc mở catalog)
+- Lúc đó hiện *“Đang tải model tìm kiếm…”* — lần sau dùng cache browser
+- Sau khi sẵn sàng: meta hiện `semantic sẵn sàng`
 
 ## Audit
 

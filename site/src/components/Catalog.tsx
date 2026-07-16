@@ -13,7 +13,6 @@ import {
   loadArticlesStatus,
   loadSeenPaths,
   markPathSeen,
-  preloadSearchRuntime,
   semanticSearch,
   subscribeEmbedderStatus,
   type ArticleStatus,
@@ -104,7 +103,7 @@ export function Catalog({
   }, [])
 
   useEffect(() => {
-    preloadSearchRuntime()
+    // Model loads lazily on first semantic/hybrid search — only subscribe for UI status
     return subscribeEmbedderStatus((status, detail) => {
       setEmbedderStatus(status)
       setEmbedderDetail(detail ?? '')
@@ -400,16 +399,12 @@ export function Catalog({
             Kho bài ngắn về tool bạn đã star — lọc domain &amp; tag theo nhóm capability, mở card để đọc Markdown.
           </p>
           <p className="hero-meta" aria-live="polite">
-            {embedderStatus === 'loading' ? (
+            {searching && embedderStatus === 'loading' ? (
               <span className="hero-meta-loading model-loading">
                 Đang tải model tìm kiếm… (lần đầu có thể chậm, lần sau dùng cache)
               </span>
             ) : searching ? (
-              <span className="hero-meta-loading">
-                {embedderStatus === 'ready' || searchMode === 'keyword'
-                  ? 'Đang tìm…'
-                  : 'Đang chuẩn bị tìm kiếm…'}
-              </span>
+              <span className="hero-meta-loading">Đang tìm…</span>
             ) : (
               <>
                 <strong>{filtered.length}</strong> đang hiện
@@ -601,7 +596,7 @@ export function Catalog({
           <div className="results-loading" role="status" aria-live="polite">
             <span className="spinner" aria-hidden />
             <span>
-              {embedderStatus === 'loading'
+              {embedderStatus === 'loading' && searchMode !== 'keyword'
                 ? 'Đang tải model tìm kiếm… (lần đầu ~30–80MB, lần sau cache)'
                 : 'Đang tìm kết quả…'}
             </span>
