@@ -197,23 +197,17 @@ export function Catalog({
       return keywordFilter(list, q, tagLabel)
     }
 
-    // Semantic/hybrid still loading, or draft ahead of applied query → keyword preview
-    if (semanticHits === null || draftQuery.trim() !== query.trim()) {
-      return keywordFilter(list, q, tagLabel)
+    // Prefer semantic/hybrid hits whenever we have them (keep scores + score order)
+    if (semanticHits && semanticHits.length > 0) {
+      const ranked = applySearchRanking(list, semanticHits)
+      if (ranked.length > 0) return ranked
     }
 
-    // Empty hits after search finished → keyword fallback (never show full catalog)
-    if (semanticHits.length === 0) {
-      return keywordFilter(list, q, tagLabel)
-    }
-
-    const ranked = applySearchRanking(list, semanticHits)
-    if (ranked.length === 0) return keywordFilter(list, q, tagLabel)
-    return ranked
+    // Loading or no vector hits yet → keyword preview (no scores)
+    return keywordFilter(list, q, tagLabel)
   }, [
     items,
     draftQuery,
-    query,
     activeDomains,
     activeTags,
     tagMatchMode,
@@ -222,12 +216,14 @@ export function Catalog({
   ])
 
   const scoreByPath = useMemo(() => {
-    if (!semanticHits || draftQuery.trim() !== query.trim()) return null
     if (searchMode === 'keyword') return null
+    if (!semanticHits || semanticHits.length === 0) return null
     const map = new Map<string, number>()
-    for (const h of semanticHits) map.set(h.path, h.score)
-    return map
-  }, [semanticHits, draftQuery, query, searchMode])
+    for (const h of semanticHits) {
+      if (h.score > 0) map.set(h.path, h.score)
+    }
+    return map.size > 0 ? map : null
+  }, [semanticHits, searchMode])
 
   // Semantic / hybrid retrieval — runs on debounced `query` (not every keystroke)
   useEffect(() => {
@@ -665,6 +661,16 @@ export function Catalog({
                           {badge}
                         </span>
                       ) : null}
+                      {semanticScore != null &&
+                      semanticScore > 0 &&
+                      semanticScore <= 1.0001 ? (
+                        <span
+                          className="list-semantic-score"
+                          title="Điểm tương đồng ngữ nghĩa (cosine 0–1)"
+                        >
+                          {semanticScore.toFixed(3)}
+                        </span>
+                      ) : null}
                     </button>
 
                     {item.repoUrl ? (
@@ -715,14 +721,6 @@ export function Catalog({
                   </div>
 
                   <div className="repo-card-meta">
-                    {semanticScore != null ? (
-                      <span
-                        className="list-semantic-score"
-                        title="Điểm tương đồng ngữ nghĩa (cosine)"
-                      >
-                        {semanticScore.toFixed(3)}
-                      </span>
-                    ) : null}
                     <span
                       className="list-domain badge-domain"
                       style={hueStyle(domainHue(item.domain))}
