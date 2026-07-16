@@ -19,13 +19,13 @@
 - [Agent lập trình](#03-coding) — **47**
 - [Agent runtime / bot đa kênh](#04-agent-runtime) — **15**
 - [MCP — gắn tool vào AI coding assistant](#05-mcp) — **53**
-- [Skill / prompt / guideline](#06-skills) — **50**
+- [Skill / prompt / guideline](#06-skills) — **52**
 - [Memory dài hạn cho agent](#07-memory) — **3**
 - [An toàn lệnh & governance](#08-guardrail) — **2**
 - [Nhận dạng giọng nói (STT)](#09-stt) — **14**
 - [Tổng hợp tiếng nói / clone giọng (TTS)](#10-tts) — **26**
 - [Sinh ảnh & video bằng AI](#11-image-video-gen) — **16**
-- [Sửa / tải / xem video (không gen)](#12-video-tools) — **13**
+- [Sửa / tải / xem video (không gen)](#12-video-tools) — **14**
 - [UI / web → code](#13-ui2code) — **4**
 - [Tự động hóa trình duyệt (computer-use)](#14-browser) — **15**
 - [Thị giác máy & edge/IoT](#15-cv) — **9**
@@ -267,6 +267,7 @@
 | **GitReverse** | MCP & AI Agents | `coding-agent` `prompt` `self-host` | GitReverse — “reverse engineer” public GitHub repo thành một user prompt tổng hợp (kiểu paste vào Cursor / Claude Code / Codex … | [gitreverse.md](technologies/mcp-ai-agents/gitreverse.md) |
 | **Google Workspace CLI** | DevTools | `cli` `workspace` `skill` `office` | Google Workspace CLI ( gws hoặc tên binary theo repo) là một công cụ dòng lệnh cho toàn bộ Google Workspace: Drive, Gmail, Cale… | [google-workspace-cli.md](technologies/devtools/google-workspace-cli.md) |
 | **Graphify** | MCP & AI Agents | `skill` `coding-agent` `rag` `cli` `agent` | Graphify là skill / CLI cho coding agent: map cả folder (code, SQL schema, docs, PDF, ảnh, video…) thành knowledge graph tra cứ… | [graphify.md](technologies/mcp-ai-agents/graphify.md) |
+| **Hallmark** | MCP & AI Agents | `skill` `coding-agent` `prompt` | Hallmark (Nutlope / Together AI) — design skill anti-AI-slop: 20 theme + Custom, 57 slop gates, audit/redesign/study DNA. | [hallmark.md](technologies/mcp-ai-agents/hallmark.md) |
 | **Hermes Agent** | MCP & AI Agents | `agent` `mcp` `skill` `cli` `self-host` | Hermes Agent (Nous Research) là self-improving AI agent với vòng học khép kín: tạo/cải thiện skills từ trải nghiệm, nhớ người d… | [hermes-agent.md](technologies/mcp-ai-agents/hermes-agent.md) |
 | **HTML Anything** | Image & Video | `skill` `coding-agent` `agent` `video` `self-host` | HTML Anything là agentic HTML editor local-first: AI coding CLI (Claude/Cursor/Codex/Gemini/Copilot/OpenCode/Qwen/Aider) viết s… | [html-anything.md](technologies/image-video/html-anything.md) |
 | **Huashu Design** | Image & Video | `skill` `coding-agent` `agent` `video` | Huashu Design ( 花叔设计 ) là agent skill HTML-native: một câu prompt → prototype App/Web (click được), slide HTML + PPTX chỉnh sửa… | [huashu-design.md](technologies/image-video/huashu-design.md) |
@@ -278,6 +279,7 @@
 | **Maths, CS & AI Compendium** | MCP & AI Agents | `prompt` `mcp` `skill` `rag` `cli` | Maths, CS & AI Compendium là sách giáo khoa mở (intuition-first): toán → ML → NLP/CV/speech/multimodal → hệ thống / GPU / infer… | [maths-cs-ai-compendium.md](technologies/mcp-ai-agents/maths-cs-ai-compendium.md) |
 | **Matt Pocock Skills** | MCP & AI Agents | `skill` `coding-agent` `prompt` | mattpocock/skills — bộ Agent Skills từ .claude của Matt Pocock (Total TypeScript / AI Hero): nhỏ, composable, giữ quyền kiểm so… | [mattpocock-skills.md](technologies/mcp-ai-agents/mattpocock-skills.md) |
 | **Midscene.js** | UI Automation | `ui-automation` `computer-use` `browser` `skill` | Midscene.js là framework UI automation / testing dựa trên vision ( vision-based automation ): mô tả bước bằng ngôn ngữ tự nhiên… | [midscene.md](technologies/ui-automation/midscene.md) |
+| **Minimalist Entrepreneur Skills** | MCP & AI Agents | `skill` `coding-agent` `prompt` | slavingia/skills — 10 Claude Code skills theo sách The Minimalist Entrepreneur: validate, MVP, pricing, marketing, grow, review… | [slavingia-skills.md](technologies/mcp-ai-agents/slavingia-skills.md) |
 | **MiniCPM** | DevTools | `self-host` `cli` `edge` `desktop` `skill` | MiniCPM (OpenBMB / Tsinghua) là dòng LLM nhỏ, mạnh trên edge/on-device. | [minicpm.md](technologies/devtools/minicpm.md) |
 | **Models.dev** | DevTools | `api` `dataset` `skill` | Models.dev là database mở về thông số model AI: tên, context limit, modality, reasoning/tool-call, giá theo provider, benchmark… | [models-dev.md](technologies/devtools/models-dev.md) |
 | **MoneyPrinterTurbo** | Image & Video | `video` `tts` `cli` `self-host` `api` `skill` | MoneyPrinterTurbo là pipeline một click short video : LLM viết kịch bản, lấy素材, TTS (Edge/Azure/ElevenLabs/Gemini/Chatterbox…),… | [moneyprinterturbo.md](technologies/image-video/moneyprinterturbo.md) |
@@ -417,11 +419,12 @@
 <a id="12-video-tools"></a>
 ## Sửa / tải / xem video (không gen)
 
-> NLE, stabilize, yt-dlp, IPTV, trim.
+> NLE, stabilize, yt-dlp, agent watch/analyze, IPTV, trim.
 
 | Công nghệ | Domain | Tags | Dùng để (tóm tắt) | Bài |
 |-----------|--------|------|-------------------|-----|
 | **AI-auto-generate-video (Template Video)** | Image & Video | `video` `skill` `tts` `cli` `agent` | AI-auto-generate-video (AI Coding) là pipeline bài viết / URL → video Shorts 9:16 theo cách xác định ( deterministic ): - AI (C… | [ai-auto-generate-video.md](technologies/image-video/ai-auto-generate-video.md) |
+| **Claude Video** | Image & Video | `video` `skill` `coding-agent` `stt` `cli` `agent` | Claude Video (`/watch`) — Agent Skill giúp Claude/Cursor xem video: yt-dlp + frame + transcript → vision. Phân tích YouTube, sc… | [claude-video.md](technologies/image-video/claude-video.md)
 | **ASCILINE** | Image & Video | `video` `cli` `self-host` `browser` | ASCILINE là engine render video → ASCII / pixel-grid realtime: server Python (OpenCV + NumPy + FastAPI) map pixel → khung chữ, … | [asciline.md](technologies/image-video/asciline.md) |
 | **FreeCut** | Image & Video | `video` `self-host` `stt` `tts` | FreeCut là trình chỉnh sửa video chạy hoàn toàn trên trình duyệt ( browser NLE ): timeline đa track, keyframe, hiệu ứng WebGPU,… | [freecut.md](technologies/image-video/freecut.md) |
 | **Gyroflow** | Image & Video | `video` `desktop` `self-host` | Gyroflow ổn định video bằng dữ liệu gyroscope (và accelerometer) ghi trong camera — GoPro, Sony, Insta360, DJI… hoặc log ngoài … | [gyroflow.md](technologies/image-video/gyroflow.md) |

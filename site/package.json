@@ -6,9 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "build:pages": "VITE_BASE=/awesome-ai/ npm run build",
+    "build:pages": "VITE_BASE=/awesome/ npm run build",
     "preview": "vite preview",
-    "preview:pages": "VITE_BASE=/awesome-ai/ vite preview"
+    "preview:pages": "VITE_BASE=/awesome/ vite preview"
   },
   "dependencies": {
     "react": "^19.1.0",

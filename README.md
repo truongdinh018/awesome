@@ -10,7 +10,7 @@ Mỗi ★ = 1 repo đã star + 1 bài **tiếng Việt dễ hiểu**
 (giữ thuật ngữ Anh: API, LLM, RAG, MCP…)
 
 <p>
-  <img src="https://img.shields.io/badge/★_213-success?style=flat-square" alt="213 stars" />
+  <img src="https://img.shields.io/badge/★_216-success?style=flat-square" alt="216 stars" />
   <img src="https://img.shields.io/badge/CLI_harness-11-22C55E?style=flat-square" alt="11 harnesses" />
   <img src="https://img.shields.io/badge/Domain-7-blue?style=flat-square" alt="7 domains" />
   <img src="https://img.shields.io/badge/License-Private-red?style=flat-square" alt="Private" />
@@ -39,7 +39,7 @@ Mỗi ★ = 1 repo đã star + 1 bài **tiếng Việt dễ hiểu**
 |-----------|---------|-------|
 | Biết tool **dùng để làm gì** | [USE-CASES.md](USE-CASES.md) | ![](https://img.shields.io/badge/START_HERE-22C55E?style=flat-square) |
 | Duyệt theo **domain / subgroup** | [categories/README.md](categories/README.md) | ![](https://img.shields.io/badge/taxonomy-6366F1?style=flat-square) |
-| Danh sách star **`#1…#213`** | [repos/README.md](repos/README.md) | ![](https://img.shields.io/badge/master_list-0EA5E9?style=flat-square) |
+| Danh sách star **`#1…#216`** | [repos/README.md](repos/README.md) | ![](https://img.shields.io/badge/master_list-0EA5E9?style=flat-square) |
 | Chú giải **tag** (`tts`, `rag`…) | [TAGS.md](TAGS.md) | ![](https://img.shields.io/badge/tags-A855F7?style=flat-square) |
 | Viết / sửa bài | [technologies/WRITING.md](technologies/WRITING.md) | ![](https://img.shields.io/badge/writing-F97316?style=flat-square) |
 | Đọc / sửa MD trên web | [site/](site/) | ![](https://img.shields.io/badge/web_app-14B8A6?style=flat-square) |
@@ -65,18 +65,18 @@ Nội dung VN        →  technologies/<domain>/<slug>.md
 
 | # | Domain | ★ | Taxonomy | Folder |
 |---|--------|---|----------|--------|
-| 1 | [![](https://img.shields.io/badge/MCP_&_AI_Agents-14B8A6?style=flat-square)](categories/README.md#1-mcp--ai-agents) | **71** | [§1](categories/README.md#1-mcp--ai-agents) | [mcp-ai-agents/](technologies/mcp-ai-agents/README.md) |
+| 1 | [![](https://img.shields.io/badge/MCP_&_AI_Agents-14B8A6?style=flat-square)](categories/README.md#1-mcp--ai-agents) | **73** | [§1](categories/README.md#1-mcp--ai-agents) | [mcp-ai-agents/](technologies/mcp-ai-agents/README.md) |
 | 2 | [![](https://img.shields.io/badge/Speech_&_Audio-A855F7?style=flat-square)](categories/README.md#2-speech--audio) | **20** | [§2](categories/README.md#2-speech--audio) | [speech-audio/](technologies/speech-audio/README.md) |
-| 3 | [![](https://img.shields.io/badge/Image_&_Video-F97316?style=flat-square)](categories/README.md#3-image--video) | **28** | [§3](categories/README.md#3-image--video) | [image-video/](technologies/image-video/README.md) |
+| 3 | [![](https://img.shields.io/badge/Image_&_Video-F97316?style=flat-square)](categories/README.md#3-image--video) | **29** | [§3](categories/README.md#3-image--video) | [image-video/](technologies/image-video/README.md) |
 | 4 | [![](https://img.shields.io/badge/UI_Automation-3B82F6?style=flat-square)](categories/README.md#4-ui-automation--computer-use) | **8** | [§4](categories/README.md#4-ui-automation--computer-use) | [ui-automation/](technologies/ui-automation/README.md) |
 | 5 | [![](https://img.shields.io/badge/CV_&_Edge-EAB308?style=flat-square)](categories/README.md#5-computer-vision--edge) | **9** | [§5](categories/README.md#5-computer-vision--edge) | [cv-edge/](technologies/cv-edge/README.md) |
 | 6 | [![](https://img.shields.io/badge/DevTools-0EA5E9?style=flat-square)](categories/README.md#6-devtools--integration) | **73** | [§6](categories/README.md#6-devtools--integration) | [devtools/](technologies/devtools/README.md) |
 | 7 | [![](https://img.shields.io/badge/Security-F43F5E?style=flat-square)](categories/README.md#7-security--pentesting) | **4** | [§7](categories/README.md#7-security--pentesting) | [security/](technologies/security/README.md) |
 
 <p align="center">
-  <img src="https://img.shields.io/badge/MCP_&_AI_Agents-71-14B8A6?style=for-the-badge" alt="MCP 71" />
+  <img src="https://img.shields.io/badge/MCP_&_AI_Agents-73-14B8A6?style=for-the-badge" alt="MCP 73" />
   <img src="https://img.shields.io/badge/DevTools-73-0EA5E9?style=for-the-badge" alt="DevTools 73" />
-  <img src="https://img.shields.io/badge/Image_&_Video-28-F97316?style=for-the-badge" alt="Image 28" />
+  <img src="https://img.shields.io/badge/Image_&_Video-29-F97316?style=for-the-badge" alt="Image 29" />
   <img src="https://img.shields.io/badge/Speech_&_Audio-20-A855F7?style=for-the-badge" alt="Speech 20" />
 </p>
 <p align="center">
@@ -106,7 +106,7 @@ App Vite trong [`site/`](site/) — card + search + lọc domain/tag + đọc Ma
 | Môi trường | URL | Ghi chú |
 |------------|-----|---------|
 | 💻 Local | http://localhost:5177 | `npm run dev` — có **Sửa / Lưu** MD |
-| 📄 GitHub Pages | https://truongdinh018.github.io/awesome-ai/ | build static, **chỉ đọc** |
+| 📄 GitHub Pages | https://truongdinh018.github.io/awesome/ | build static, **chỉ đọc** |
 
 ```bash
 cd site
@@ -123,13 +123,13 @@ Deploy: [`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.ym
 ## 📁 Cấu trúc
 
 ```
-awesome-ai/
+awesome/
 ├── README.md                 ← hub (file này)
 ├── USE-CASES.md              ← “dùng để làm gì?”
 ├── TAGS.md                   ← chú giải tag
 ├── CHANGELOG.md
 ├── categories/README.md      ← taxonomy domain / subgroup
-├── repos/README.md           ← master star list #1…#213
+├── repos/README.md           ← master star list #1…#216
 ├── technologies/             ← bài VN + WRITING.md
 │   ├── mcp-ai-agents/        ■ teal
 │   ├── speech-audio/         ■ purple
@@ -183,7 +183,7 @@ Harness CLI-Anything → `technologies/cli-anything/<slug>.md` + bảng harness 
 
 | Repo | Quan hệ |
 |------|---------|
-| [truongdinh018/awesome-ai](https://github.com/truongdinh018/awesome-ai) | **Repo này** |
+| [truongdinh018/awesome](https://github.com/truongdinh018/awesome) | **Repo này** |
 | [truongdinh018/ai-training](https://github.com/truongdinh018/ai-training) | Fine-tune / kiến thức nền |
 | [truongdinh018/ai_core](https://github.com/truongdinh018/ai_core) | Runtime Odoo — RAG, MCP, agents |
 

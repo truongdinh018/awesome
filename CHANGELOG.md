@@ -2,6 +2,12 @@
 
 Lịch sử thêm ★ / bookmark / cấu trúc catalog (mới nhất trên cùng).
 
+*2026-07-16 — 216 ★ · thêm Hallmark (`Nutlope/hallmark`)*
+
+*2026-07-16 — 215 ★ · thêm Minimalist Entrepreneur Skills (`slavingia/skills`)*
+
+*2026-07-16 — 214 ★ · thêm Claude Video (`bradautomates/claude-video`)*
+
 *2026-07-15 — 213 ★ · thêm BrowserOS*
 
 *2026-07-15 — 212 ★ · thêm System Design 101*

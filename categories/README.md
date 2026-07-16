@@ -22,15 +22,15 @@
 
 | # | Primary | ★ | Mục đích ngắn |
 |---|---------|---|----------------|
-| 1 | [MCP & AI Agents](#1-mcp--ai-agents) | 71 | MCP, RAG, agent, skill |
+| 1 | [MCP & AI Agents](#1-mcp--ai-agents) | 73 | MCP, RAG, agent, skill |
 | 2 | [Speech & Audio](#2-speech--audio) | 20 | STT / TTS / voice |
-| 3 | [Image & Video](#3-image--video) | 28 | Gen ảnh/video, NLE |
+| 3 | [Image & Video](#3-image--video) | 29 | Gen ảnh/video, NLE |
 | 4 | [UI Automation](#4-ui-automation--computer-use) | 8 | Browser / computer-use |
 | 5 | [CV & Edge](#5-computer-vision--edge) | 9 | Vision, IoT, edge |
 | 6 | [DevTools](#6-devtools--integration) | 73 | OCR, gateway, office, train, self-host |
 | 7 | [Security](#7-security--pentesting) | 4 | Pentest, OSINT, guardrail |
 
-**Tổng = 213 ★** (+ 11 CLI-Anything harnesses)
+**Tổng = 216 ★** (+ 11 CLI-Anything harnesses)
 
 ---
 
@@ -102,6 +102,7 @@
 | **Prompt Optimizer** | `prompt` `mcp` `self-host` `desktop` `browser` `image-gen` | [prompt-optimizer.md](../technologies/mcp-ai-agents/prompt-optimizer.md) |
 | **Ponytail** | `skill` `coding-agent` `prompt` | [ponytail.md](../technologies/mcp-ai-agents/ponytail.md) |
 | **Taste Skill** | `skill` `coding-agent` `prompt` `image-gen` | [taste-skill.md](../technologies/mcp-ai-agents/taste-skill.md) |
+| **Hallmark** | `skill` `coding-agent` `prompt` | [hallmark.md](../technologies/mcp-ai-agents/hallmark.md) |
 | **Stop Slop** | `skill` `coding-agent` `prompt` | [stop-slop.md](../technologies/mcp-ai-agents/stop-slop.md) |
 | **Caveman** | `skill` `coding-agent` `prompt` `cli` `mcp` | [caveman.md](../technologies/mcp-ai-agents/caveman.md) |
 | **Karpathy Guidelines** | `skill` `coding-agent` `prompt` | [karpathy-skills.md](../technologies/mcp-ai-agents/karpathy-skills.md) |
@@ -111,6 +112,7 @@
 | **Learn Claude Code** | `coding-agent` `agent` `skill` `cli` `prompt` | [learn-claude-code.md](../technologies/mcp-ai-agents/learn-claude-code.md) |
 | **Maths CS AI Compendium** | `prompt` `mcp` `skill` `rag` `cli` | [maths-cs-ai-compendium.md](../technologies/mcp-ai-agents/maths-cs-ai-compendium.md) |
 | **Addy's Agent Skills** | `skill` `coding-agent` `prompt` | [agent-skills.md](../technologies/mcp-ai-agents/agent-skills.md) |
+| **Minimalist Entrepreneur Skills** | `skill` `coding-agent` `prompt` | [slavingia-skills.md](../technologies/mcp-ai-agents/slavingia-skills.md) |
 | **knowledge-work-plugins** | `skill` `prompt` `workspace` `office` | [knowledge-work-plugins.md](../technologies/mcp-ai-agents/knowledge-work-plugins.md) |
 | **PPT Master** | `skill` `office` `cli` `coding-agent` `workflow` | [ppt-master.md](../technologies/mcp-ai-agents/ppt-master.md) |
 | **Understand Anything** | `skill` `coding-agent` `rag` `cli` `agent` | [understand-anything.md](../technologies/mcp-ai-agents/understand-anything.md) |
@@ -196,7 +198,7 @@
 
 ## 3. Image & Video
 
-**Mục đích:** Sinh / compose video, localize+dub, UI→code, CAD/3D harness, watermark, playlist, download.
+**Mục đích:** Sinh / compose video, localize+dub, analyze/watch, UI→code, CAD/3D harness, watermark, playlist, download.
 
 ### 3.1 Generate · compose · agentic studio
 
@@ -255,13 +257,14 @@
 | Blender | `harness` `3d` `cli` | [blender.md](../technologies/cli-anything/blender.md) |
 | Godot | `harness` `game` `cli` | [godot.md](../technologies/cli-anything/godot.md) |
 
-### 3.6 Watermark · playlists · download
+### 3.6 Watermark · playlists · download · analyze
 
 | Công nghệ | Tags | Bài viết |
 |-----------|------|----------|
 | **blind_watermark** | `watermark` `cli` | [blind-watermark.md](../technologies/image-video/blind-watermark.md) |
 | **iptv-org/iptv** | `video` | [iptv-org.md](../technologies/image-video/iptv-org.md) |
 | **yt-dlp** | `video` `cli` `self-host` | [yt-dlp.md](../technologies/image-video/yt-dlp.md) |
+| **Claude Video** | `video` `skill` `coding-agent` `stt` `cli` `agent` | [claude-video.md](../technologies/image-video/claude-video.md) |
 | **LibreTube** | `video` `desktop` `self-host` | [libretube.md](../technologies/image-video/libretube.md) |
 | **ASCILINE** | `video` `cli` `self-host` `browser` | [asciline.md](../technologies/image-video/asciline.md) |
 
