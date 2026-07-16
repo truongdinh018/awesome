@@ -82,16 +82,9 @@ function assetUrl(rel: string): string {
 function getSql(): Promise<SqlJsStatic> {
   if (!sqlPromise) {
     sqlPromise = initSqlJs({
-      // Bundled sql.js may request sql-wasm.wasm or sql-wasm-browser.wasm
-      locateFile: (file) => {
-        if (file.endsWith('.wasm')) {
-          const name = file.includes('browser')
-            ? 'sql-wasm-browser.wasm'
-            : 'sql-wasm.wasm'
-          return assetUrl(name)
-        }
-        return assetUrl(file)
-      },
+      // Always use the wasm we ship under public/ (sql.js may ask for *-browser.wasm)
+      locateFile: (file) =>
+        file.endsWith('.wasm') ? assetUrl('sql-wasm.wasm') : assetUrl(file),
     })
   }
   return sqlPromise
