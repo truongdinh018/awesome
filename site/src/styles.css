@@ -1171,6 +1171,21 @@ a.list-repo:hover {
   white-space: nowrap;
 }
 
+.list-semantic-score {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  color: var(--accent-ink);
+  background: var(--accent);
+  border-radius: 999px;
+  padding: 0.18rem 0.5rem;
+  line-height: 1.2;
+  white-space: nowrap;
+  tabular-nums: true;
+  font-variant-numeric: tabular-nums;
+}
+
 .repo-card-desc {
   margin: 0.15rem 0 0;
   width: 100%;

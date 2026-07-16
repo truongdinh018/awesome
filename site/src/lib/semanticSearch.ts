@@ -20,6 +20,7 @@ export type SearchMode = 'keyword' | 'semantic' | 'hybrid'
 
 export type SearchHit = {
   path: string
+  /** Cosine similarity for semantic/hybrid display (0–1). */
   score: number
   source: 'vector' | 'fts' | 'hybrid'
 }
@@ -428,10 +429,20 @@ export async function semanticSearch(
 
   // Short / tag-like queries: trust keyword (title/tag) more than pure vector
   const short = isShortQuery(q)
-  return rrfMerge(vec, kw, {
+  const merged = rrfMerge(vec, kw, {
     vectorWeight: short ? 0.85 : 1,
     keywordWeight: short ? 1.75 : 1.15,
   }).slice(0, limit)
+
+  // Attach real cosine scores and sort high → low for UI
+  const vecScore = new Map(vec.map((h) => [h.path, h.score]))
+  return merged
+    .map((h) => ({
+      path: h.path,
+      source: 'hybrid' as const,
+      score: vecScore.get(h.path) ?? 0,
+    }))
+    .sort((a, b) => b.score - a.score)
 }
 
 export function keywordFilter(
@@ -497,10 +508,15 @@ export function applySearchRanking(
   hits: SearchHit[] | null,
 ): CatalogItem[] {
   if (!hits || hits.length === 0) return []
-  const order = new Map(hits.map((h, i) => [h.path, i]))
+  const order = new Map(hits.map((h, i) => [h.path, { i, score: h.score }]))
   return items
     .filter((item) => order.has(item.path))
-    .sort((a, b) => (order.get(a.path) ?? 0) - (order.get(b.path) ?? 0))
+    .sort((a, b) => {
+      const ha = order.get(a.path)!
+      const hb = order.get(b.path)!
+      if (hb.score !== ha.score) return hb.score - ha.score
+      return ha.i - hb.i
+    })
 }
 
 const SEEN_KEY = 'awesome-article-seen-v1'

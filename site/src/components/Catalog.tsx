@@ -18,6 +18,7 @@ import {
   type ArticleStatus,
   type ArticleStatusInfo,
   type EmbedderStatus,
+  type SearchHit,
   type SearchMode,
 } from '../lib/semanticSearch'
 
@@ -89,7 +90,7 @@ export function Catalog({
     Record<string, ArticleStatusInfo>
   >({})
   const [seenPaths, setSeenPaths] = useState<Set<string>>(() => loadSeenPaths())
-  const [semanticHits, setSemanticHits] = useState<string[] | null>(null)
+  const [semanticHits, setSemanticHits] = useState<SearchHit[] | null>(null)
   const [embedderStatus, setEmbedderStatus] =
     useState<EmbedderStatus>('idle')
   const [embedderDetail, setEmbedderDetail] = useState('')
@@ -206,10 +207,7 @@ export function Catalog({
       return keywordFilter(list, q, tagLabel)
     }
 
-    const ranked = applySearchRanking(
-      list,
-      semanticHits.map((path) => ({ path, score: 1, source: 'hybrid' as const })),
-    )
+    const ranked = applySearchRanking(list, semanticHits)
     if (ranked.length === 0) return keywordFilter(list, q, tagLabel)
     return ranked
   }, [
@@ -222,6 +220,14 @@ export function Catalog({
     searchMode,
     semanticHits,
   ])
+
+  const scoreByPath = useMemo(() => {
+    if (!semanticHits || draftQuery.trim() !== query.trim()) return null
+    if (searchMode === 'keyword') return null
+    const map = new Map<string, number>()
+    for (const h of semanticHits) map.set(h.path, h.score)
+    return map
+  }, [semanticHits, draftQuery, query, searchMode])
 
   // Semantic / hybrid retrieval — runs on debounced `query` (not every keystroke)
   useEffect(() => {
@@ -240,14 +246,11 @@ export function Catalog({
       try {
         const hits = await semanticSearch(q, { mode: searchMode, limit: 40 })
         if (cancelled || semanticGen.current !== gen) return
-        setSemanticHits(hits.map((h) => h.path))
+        // Already sorted high → low by cosine in semanticSearch
+        setSemanticHits(hits)
       } catch {
         if (cancelled || semanticGen.current !== gen) return
         setSemanticHits([])
-      } finally {
-        if (!cancelled && semanticGen.current === gen) {
-          // loading cleared by the displayItems effect when draft===query
-        }
       }
     })()
 
@@ -635,6 +638,7 @@ export function Catalog({
                 effectiveStatus(statusByPath[item.path], seenPaths, item.path) ??
                   'current',
               )
+              const semanticScore = scoreByPath?.get(item.path)
 
               return (
                 <li
@@ -711,6 +715,14 @@ export function Catalog({
                   </div>
 
                   <div className="repo-card-meta">
+                    {semanticScore != null ? (
+                      <span
+                        className="list-semantic-score"
+                        title="Điểm tương đồng ngữ nghĩa (cosine)"
+                      >
+                        {semanticScore.toFixed(3)}
+                      </span>
+                    ) : null}
                     <span
                       className="list-domain badge-domain"
                       style={hueStyle(domainHue(item.domain))}
