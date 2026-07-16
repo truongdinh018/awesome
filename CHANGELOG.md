@@ -2,6 +2,8 @@
 
 Lịch sử thêm ★ / bookmark / cấu trúc catalog (mới nhất trên cùng).
 
+*2026-07-16 — site: PWA (installable) cho GitHub Pages — manifest + service worker + icons*
+
 *2026-07-16 — search: e5-small + preload/UX tải model + hybrid boost câu ngắn; deploy short-e5-v1*
 
 *2026-07-16 — search: audit + fix embed short-v2 (MRR ~0.40→~0.85), keyword whole-word, hybrid RRF*

@@ -2,8 +2,21 @@
 <html lang="vi">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Awesome AI — catalog công nghệ, đọc và sửa Markdown" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta
+      name="description"
+      content="Awesome AI — catalog công nghệ AI, đọc Markdown, tìm kiếm ngữ nghĩa"
+    />
+    <meta name="theme-color" content="#0f7668" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#070a0f" media="(prefers-color-scheme: dark)" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Awesome AI" />
+    <link rel="icon" type="image/svg+xml" href="/icons/icon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
     <title>Awesome AI</title>
     <script>
       (function () {
@@ -15,6 +28,11 @@
               : 'light';
           }
           document.documentElement.setAttribute('data-theme', t);
+          var meta = document.querySelectorAll('meta[name="theme-color"]');
+          var color = t === 'dark' ? '#070a0f' : '#0f7668';
+          meta.forEach(function (m) {
+            m.setAttribute('content', color);
+          });
         } catch (e) {
           document.documentElement.setAttribute('data-theme', 'light');
         }

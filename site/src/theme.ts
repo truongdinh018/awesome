@@ -16,6 +16,10 @@ export function getPreferredTheme(): ThemeMode {
 
 export function applyTheme(theme: ThemeMode): void {
   document.documentElement.setAttribute('data-theme', theme)
+  const color = theme === 'dark' ? '#070a0f' : '#0f7668'
+  document
+    .querySelectorAll('meta[name="theme-color"]')
+    .forEach((el) => el.setAttribute('content', color))
   try {
     localStorage.setItem(KEY, theme)
   } catch {

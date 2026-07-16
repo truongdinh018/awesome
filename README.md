@@ -108,7 +108,7 @@ Chi tiết index SQLite + badge Mới/Cập nhật: [SEARCH.md](SEARCH.md).
 | Môi trường | URL | Ghi chú |
 |------------|-----|---------|
 | 💻 Local | http://localhost:5177 | `npm run dev` — có **Sửa / Lưu** MD |
-| 📄 GitHub Pages | https://truongdinh018.github.io/awesome/ | build static, **chỉ đọc** |
+| 📄 GitHub Pages | https://truongdinh018.github.io/awesome/ | build static, **chỉ đọc** · **PWA** (cài app / offline shell) |
 
 ```bash
 cd site
