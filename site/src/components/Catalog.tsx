@@ -647,20 +647,22 @@ export function Catalog({
                   </span>
 
                   <div className="repo-card-main">
-                    <button
-                      type="button"
-                      className="list-title"
-                      onClick={() => openArticle(item.path)}
-                      disabled={searching}
-                    >
-                      {item.title}
-                      {badge ? (
-                        <span
-                          className={`freshness-badge freshness-${badge === 'Mới' ? 'new' : 'updated'}`}
-                        >
-                          {badge}
-                        </span>
-                      ) : null}
+                    <div className="list-title-row">
+                      <button
+                        type="button"
+                        className="list-title"
+                        onClick={() => openArticle(item.path)}
+                        disabled={searching}
+                      >
+                        {item.title}
+                        {badge ? (
+                          <span
+                            className={`freshness-badge freshness-${badge === 'Mới' ? 'new' : 'updated'}`}
+                          >
+                            {badge}
+                          </span>
+                        ) : null}
+                      </button>
                       {semanticScore != null &&
                       semanticScore > 0 &&
                       semanticScore <= 1.0001 ? (
@@ -671,7 +673,7 @@ export function Catalog({
                           {semanticScore.toFixed(3)}
                         </span>
                       ) : null}
-                    </button>
+                    </div>
 
                     {item.repoUrl ? (
                       <a

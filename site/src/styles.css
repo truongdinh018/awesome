@@ -1061,6 +1061,19 @@ input {
   padding-top: 0.15rem;
 }
 
+.list-title-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 0;
+  width: 100%;
+}
+
+.list-title-row .list-title {
+  flex: 1;
+  min-width: 0;
+}
+
 .list-title {
   border: 0;
   background: transparent;
@@ -1174,17 +1187,17 @@ a.list-repo:hover {
 .list-semantic-score {
   flex-shrink: 0;
   font-family: 'JetBrains Mono', ui-monospace, monospace;
-  font-size: 0.68rem;
+  font-size: 0.75rem;
   font-weight: 800;
   letter-spacing: 0.02em;
-  color: var(--accent-ink);
-  background: var(--accent);
+  color: #fff;
+  background: #0d9488;
   border-radius: 999px;
-  padding: 0.16rem 0.48rem;
+  padding: 0.22rem 0.55rem;
   line-height: 1.2;
   white-space: nowrap;
   font-variant-numeric: tabular-nums;
-  vertical-align: middle;
+  box-shadow: 0 0 0 1px color-mix(in srgb, #0d9488 40%, transparent);
 }
 
 .repo-card-desc {

@@ -424,7 +424,9 @@ export async function semanticSearch(
     vectorSearch(db, q, limit),
     Promise.resolve(keywordDbSearch(db, q, limit)),
   ])
-  if (vec.length === 0) return kw
+
+  // No embeddings → empty (UI keeps keyword preview; do not fake cosine scores)
+  if (vec.length === 0) return []
   if (kw.length === 0) return vec
 
   // Short / tag-like queries: trust keyword (title/tag) more than pure vector
@@ -442,6 +444,7 @@ export async function semanticSearch(
       source: 'hybrid' as const,
       score: vecScore.get(h.path) ?? 0,
     }))
+    .filter((h) => h.score > 0)
     .sort((a, b) => b.score - a.score)
 }
 
