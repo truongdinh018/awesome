@@ -6,6 +6,18 @@ import { ThemeToggle } from './ThemeToggle'
 import { TagMultiSelect, type TagMatchMode } from './TagMultiSelect'
 import { DomainMultiSelect } from './DomainMultiSelect'
 import type { ThemeMode } from '../theme'
+import {
+  applySearchRanking,
+  effectiveStatus,
+  keywordFilter,
+  loadArticlesStatus,
+  loadSeenPaths,
+  markPathSeen,
+  semanticSearch,
+  type ArticleStatus,
+  type ArticleStatusInfo,
+  type SearchMode,
+} from '../lib/semanticSearch'
 
 type Props = {
   items: CatalogItem[]
@@ -27,6 +39,13 @@ type Props = {
 
 const SEARCH_DEBOUNCE_MS = 320
 const TAG_MODE_KEY = 'awesome-tag-match-mode'
+const SEARCH_MODE_KEY = 'awesome-search-mode'
+
+function statusBadgeLabel(status: ArticleStatus): string | null {
+  if (status === 'new') return 'Mới'
+  if (status === 'updated') return 'Cập nhật'
+  return null
+}
 
 export function Catalog({
   items,
@@ -55,7 +74,35 @@ export function Catalog({
       return 'and'
     }
   })
+  const [searchMode, setSearchMode] = useState<SearchMode>(() => {
+    try {
+      const v = localStorage.getItem(SEARCH_MODE_KEY)
+      if (v === 'semantic' || v === 'hybrid' || v === 'keyword') return v
+    } catch {
+      /* ignore */
+    }
+    return 'hybrid'
+  })
+  const [statusByPath, setStatusByPath] = useState<
+    Record<string, ArticleStatusInfo>
+  >({})
+  const [seenPaths, setSeenPaths] = useState<Set<string>>(() => loadSeenPaths())
+  const [semanticHits, setSemanticHits] = useState<string[] | null>(null)
   const searchGen = useRef(0)
+
+  useEffect(() => {
+    void loadArticlesStatus().then((data) => {
+      if (data?.articles) setStatusByPath(data.articles)
+    })
+  }, [])
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(SEARCH_MODE_KEY, searchMode)
+    } catch {
+      /* ignore */
+    }
+  }, [searchMode])
 
   const openDrawer = () => setDrawerOpen(true)
   const closeDrawer = () => setDrawerOpen(false)
@@ -113,8 +160,8 @@ export function Catalog({
   }, [drawerOpen])
 
   const filtered = useMemo(() => {
-    const q = query.trim().toLowerCase()
-    return items.filter((item) => {
+    const q = query.trim()
+    let list = items.filter((item) => {
       if (activeDomains.length > 0 && !activeDomains.includes(item.domain)) {
         return false
       }
@@ -125,22 +172,66 @@ export function Catalog({
             : activeTags.some((t) => item.tags.includes(t))
         if (!hit) return false
       }
-      if (!q) return true
-      const hay = [
-        item.title,
-        item.slug,
-        item.repo,
-        item.category,
-        item.excerpt,
-        item.domain,
-        ...item.tags,
-        ...item.tags.map(tagLabel),
-      ]
-        .join(' ')
-        .toLowerCase()
-      return hay.includes(q)
+      return true
     })
-  }, [items, query, activeDomains, activeTags, tagMatchMode])
+
+    if (!q) return list
+
+    if (searchMode === 'keyword' || !semanticHits) {
+      return keywordFilter(list, q, tagLabel)
+    }
+
+    const ranked = applySearchRanking(
+      list,
+      semanticHits.map((path) => ({ path, score: 1, source: 'hybrid' as const })),
+    )
+    // Fallback if DB/embed unavailable
+    if (ranked.length === 0) return keywordFilter(list, q, tagLabel)
+    return ranked
+  }, [
+    items,
+    query,
+    activeDomains,
+    activeTags,
+    tagMatchMode,
+    searchMode,
+    semanticHits,
+  ])
+
+  // Semantic / hybrid retrieval (async)
+  useEffect(() => {
+    const q = query.trim()
+    if (!q || searchMode === 'keyword') {
+      setSemanticHits(null)
+      return
+    }
+
+    const gen = ++searchGen.current
+    let cancelled = false
+    setSemanticHits(null)
+    setSearching(true)
+
+    void (async () => {
+      try {
+        const hits = await semanticSearch(q, { mode: searchMode, limit: 80 })
+        if (cancelled || searchGen.current !== gen) return
+        setSemanticHits(hits.map((h) => h.path))
+      } catch {
+        if (cancelled || searchGen.current !== gen) return
+        setSemanticHits([])
+      }
+    })()
+
+    return () => {
+      cancelled = true
+    }
+  }, [query, searchMode])
+
+  const openArticle = (path: string) => {
+    markPathSeen(path)
+    setSeenPaths(loadSeenPaths())
+    onOpen(path)
+  }
 
   // Debounce text search → apply filters → keep loading until results are ready
   useEffect(() => {
@@ -380,12 +471,34 @@ export function Catalog({
                     ref={searchRef}
                     type="search"
                     className="catalog-search"
-                    placeholder="Tool, repo, tag…"
+                    placeholder={
+                      searchMode === 'keyword'
+                        ? 'Tool, repo, tag…'
+                        : 'Hỏi theo nghĩa — ví dụ: agent gọi tool, TTS tiếng Việt…'
+                    }
                     value={draftQuery}
                     onChange={(e) => setDraftQuery(e.target.value)}
                     aria-busy={searching}
                   />
                   <kbd className="search-kbd">Ctrl K</kbd>
+                </div>
+                <div className="search-mode-row" role="group" aria-label="Kiểu tìm">
+                  {(
+                    [
+                      ['keyword', 'Từ khóa'],
+                      ['semantic', 'Ngữ nghĩa'],
+                      ['hybrid', 'Hybrid'],
+                    ] as const
+                  ).map(([mode, label]) => (
+                    <button
+                      key={mode}
+                      type="button"
+                      className={`search-mode-btn${searchMode === mode ? ' active' : ''}`}
+                      onClick={() => setSearchMode(mode)}
+                    >
+                      {label}
+                    </button>
+                  ))}
                 </div>
               </div>
 
@@ -467,6 +580,10 @@ export function Catalog({
                 : repoLabel
               const visibleTags = item.tags.slice(0, 5)
               const hiddenTagCount = Math.max(0, item.tags.length - visibleTags.length)
+              const badge = statusBadgeLabel(
+                effectiveStatus(statusByPath[item.path], seenPaths, item.path) ??
+                  'current',
+              )
 
               return (
                 <li
@@ -482,10 +599,17 @@ export function Catalog({
                     <button
                       type="button"
                       className="list-title"
-                      onClick={() => onOpen(item.path)}
+                      onClick={() => openArticle(item.path)}
                       disabled={searching}
                     >
                       {item.title}
+                      {badge ? (
+                        <span
+                          className={`freshness-badge freshness-${badge === 'Mới' ? 'new' : 'updated'}`}
+                        >
+                          {badge}
+                        </span>
+                      ) : null}
                     </button>
 
                     {item.repoUrl ? (

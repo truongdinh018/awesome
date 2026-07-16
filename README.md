@@ -27,6 +27,7 @@ Mỗi ★ = 1 repo đã star + 1 bài **tiếng Việt dễ hiểu**
 | 🧭 | [Bắt đầu từ đâu?](#-bắt-đầu-từ-đâu) |
 | 🎨 | [7 domain (màu phân loại)](#-7-domain-màu-phân-loại) |
 | 🌐 | [Catalog web](#-catalog-web-local--github-pages) |
+| 🔎 | [Search ngữ nghĩa (SQLite)](SEARCH.md) |
 | 📁 | [Cấu trúc repo](#-cấu-trúc) |
 | ✅ | [Thêm ★ mới](#-checklist-thêm--mới) |
 | 🔗 | [Repo liên quan](#-repo-liên-quan) |
@@ -101,7 +102,8 @@ Nội dung VN        →  technologies/<domain>/<slug>.md
 
 ## 🌐 Catalog web (local + GitHub Pages)
 
-App Vite trong [`site/`](site/) — card + search + lọc domain/tag + đọc Markdown.
+App Vite trong [`site/`](site/) — card + search (từ khóa / ngữ nghĩa / hybrid) + lọc domain/tag + đọc Markdown.  
+Chi tiết index SQLite + badge Mới/Cập nhật: [SEARCH.md](SEARCH.md).
 
 | Môi trường | URL | Ghi chú |
 |------------|-----|---------|
@@ -111,8 +113,9 @@ App Vite trong [`site/`](site/) — card + search + lọc domain/tag + đọc Ma
 ```bash
 cd site
 npm install
-npm run dev          # local editor
-npm run build:pages  # static cho Pages
+npm run index:search   # embed + SQLite (lần đầu / khi thêm bài)
+npm run dev            # local editor
+npm run build:pages    # static cho Pages
 npm run preview:pages
 ```
 

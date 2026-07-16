@@ -16,6 +16,7 @@ import {
   navigate,
   readRoute,
 } from './lib/routing'
+import { markPathSeen } from './lib/semanticSearch'
 import {
   applyTheme,
   getPreferredTheme,
@@ -241,6 +242,7 @@ export default function App() {
   const handleSelect = useCallback(
     async (path: string) => {
       if (!confirmLeaveEdit()) return
+      markPathSeen(path)
       await openFile(path, true)
     },
     [confirmLeaveEdit, openFile],

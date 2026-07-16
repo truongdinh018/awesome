@@ -8,21 +8,28 @@
     "build": "tsc -b && vite build",
     "build:pages": "VITE_BASE=/awesome/ npm run build",
     "preview": "vite preview",
-    "preview:pages": "VITE_BASE=/awesome/ vite preview"
+    "preview:pages": "VITE_BASE=/awesome/ vite preview",
+    "index:search": "tsx scripts/build-search-index.mjs",
+    "index:search:meta": "SKIP_EMBED=1 tsx scripts/build-search-index.mjs",
+    "index:search:mark-current": "MARK_CURRENT=1 SKIP_EMBED=1 tsx scripts/build-search-index.mjs"
   },
   "dependencies": {
+    "@xenova/transformers": "^2.17.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-markdown": "^10.1.0",
     "rehype-raw": "^7.0.0",
     "rehype-sanitize": "^6.0.0",
-    "remark-gfm": "^4.0.1"
+    "remark-gfm": "^4.0.1",
+    "sql.js": "^1.14.1"
   },
   "devDependencies": {
     "@types/node": "^22.15.21",
     "@types/react": "^19.1.5",
     "@types/react-dom": "^19.1.5",
+    "@types/sql.js": "^1.4.11",
     "@vitejs/plugin-react": "^4.5.0",
+    "tsx": "^4.23.1",
     "typescript": "~5.8.3",
     "vite": "^6.3.5"
   }

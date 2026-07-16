@@ -17,4 +17,8 @@ export default defineConfig({
     port: 5177,
     strictPort: true,
   },
+  optimizeDeps: {
+    exclude: ['@xenova/transformers'],
+  },
+  assetsInclude: ['**/*.wasm'],
 })

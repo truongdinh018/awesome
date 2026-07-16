@@ -345,6 +345,35 @@ input {
   box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 16%, transparent);
 }
 
+.search-mode-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.55rem;
+}
+
+.search-mode-btn {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--muted);
+  border-radius: 999px;
+  padding: 0.28rem 0.7rem;
+  font-size: 0.72rem;
+  font-weight: 750;
+  cursor: pointer;
+}
+
+.search-mode-btn:hover {
+  color: var(--ink);
+  border-color: color-mix(in srgb, var(--accent) 40%, var(--line));
+}
+
+.search-mode-btn.active {
+  color: var(--accent-ink);
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
 .search-kbd {
   font-family: 'JetBrains Mono', ui-monospace, monospace;
   font-size: 0.66rem;
@@ -1044,9 +1073,11 @@ input {
   padding: 0;
   min-width: 0;
   line-height: 1.28;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  max-width: 100%;
   overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 
 .list-title:hover:not(:disabled) {
@@ -1056,6 +1087,35 @@ input {
 .list-title:disabled {
   opacity: 0.55;
   cursor: not-allowed;
+}
+
+.freshness-badge {
+  flex-shrink: 0;
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-radius: 999px;
+  padding: 0.12rem 0.45rem;
+  line-height: 1.2;
+}
+
+.freshness-badge.freshness-new {
+  background: color-mix(in srgb, #16a34a 18%, var(--surface));
+  color: #15803d;
+}
+
+.freshness-badge.freshness-updated {
+  background: color-mix(in srgb, #2563eb 16%, var(--surface));
+  color: #1d4ed8;
+}
+
+:root[data-theme='dark'] .freshness-badge.freshness-new {
+  color: #86efac;
+}
+
+:root[data-theme='dark'] .freshness-badge.freshness-updated {
+  color: #93c5fd;
 }
 
 .list-repo {

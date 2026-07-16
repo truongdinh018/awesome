@@ -1,0 +1,1386 @@
+{
+  "indexedAt": "2026-07-16T10:37:33.960Z",
+  "model": "Xenova/paraphrase-multilingual-MiniLM-L12-v2",
+  "articles": {
+    "technologies/bookmarks/codex-pets.md": {
+      "status": "current",
+      "contentHash": "ef7224c6b8f4e1e2b33e959c959e3ee301fcedf24da4f9eff370af5cd2b82399",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/bookmarks/quiverai.md": {
+      "status": "current",
+      "contentHash": "2f894b4984d5cf229921807329469f9f657b2e8c72c3f4515c9501e8d595a024",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/bookmarks/skill-registries.md": {
+      "status": "current",
+      "contentHash": "a52d40ce47ddc45a7a96211fe836f5d19e3530729d8f2a8cbf733e598e485745",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/cli-anything/arcgis-pro.md": {
+      "status": "current",
+      "contentHash": "975eaba9ee1de8e1f82356966e7cd8b3a32c301396c2f4c756e528fdfc7a1eec",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/cli-anything/blender.md": {
+      "status": "current",
+      "contentHash": "bfa3c32850714605537764cffb62b1f0a4d02bb20ace377feaf7d8444d3d01d8",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/cli-anything/comfyui.md": {
+      "status": "current",
+      "contentHash": "d2f87ac459f1bc758e08b6e7892c4c82b21a2407d8ee3d84a35dd4956bcc3202",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/cli-anything/drawio.md": {
+      "status": "current",
+      "contentHash": "81f9a464cd00369eb7c928f69bd14dc3cb58f41caa1a22d1055026c3af225f44",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/cli-anything/freecad.md": {
+      "status": "current",
+      "contentHash": "8835193d3a7e8765c42857c0370c29b403e1b24b51ddc8ac8deea725f6f85063",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/cli-anything/godot.md": {
+      "status": "current",
+      "contentHash": "94b81327b2b7f85a72cc4738f942e7959a55f98d93e6d5675dc71117a4280cd0",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/cli-anything/libreoffice.md": {
+      "status": "current",
+      "contentHash": "07112bf02094e554f53f00e6b63e859a02f21a8b8bb7d1b072ed81662023fc77",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/cli-anything/n8n.md": {
+      "status": "current",
+      "contentHash": "b97c8ed9dba9a2a7082f70611cfbff176d357817ec30a35da656ce8c3d628acb",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/cli-anything/obsidian.md": {
+      "status": "current",
+      "contentHash": "4c1db13fcb313818b47e3c1eed447c3bae63e19dfc61c9091cb5567cc18afead",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/cli-anything/slay-the-spire-ii.md": {
+      "status": "current",
+      "contentHash": "d04072fca5d6f4e0bf0d04ce5fa2bf27fae9f2bacc996fb2189d5635739c7124",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/cli-anything/videocaptioner.md": {
+      "status": "current",
+      "contentHash": "f8a21cd2dcc3e475d53996fceb26e74e57ba4b8e447ae0d6c35d0fb185cdf22c",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/cv-edge/alpr.md": {
+      "status": "current",
+      "contentHash": "c4f2c482d4ba23d0a4462c9d0adbf955fd7f420f2550f3f3c7b908c0ebd8eae1",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/cv-edge/insightface.md": {
+      "status": "current",
+      "contentHash": "e8567de9f6c0ad53ab7b2726ea69ac9325deb3a6ae55f08f292a8e07b258bce5",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/cv-edge/lingbot-map.md": {
+      "status": "current",
+      "contentHash": "a412bb60e38258a9ee4d987b9d29cb65651674e047133e9373b7feeba5ba98d4",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/cv-edge/locate-anything.md": {
+      "status": "current",
+      "contentHash": "5e38239092734c08b48faa321544db52d71ec15b163831e4ab7b0b82fe495088",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/cv-edge/optocam-zero.md": {
+      "status": "current",
+      "contentHash": "e7f8ce16ae3567eeafdc13b29d010aa7ad9b437f73dafd4f897c56a52eea88ec",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/cv-edge/plfm-radar.md": {
+      "status": "current",
+      "contentHash": "172b24acdc76b762e7cf55ebb0d3059651923efbe26d66c9f511ef31b76b68fa",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/cv-edge/ruview.md": {
+      "status": "current",
+      "contentHash": "9b99e477909c6b15cd0a9ff4d7d868112a03c1bf9c7beee1375d87d4104f3b39",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/cv-edge/sesame-robot.md": {
+      "status": "current",
+      "contentHash": "d7ffe12d8b71793d93164990ec8e73b80ee405f11a0daef6efd271e18718ec08",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/cv-edge/supervision.md": {
+      "status": "current",
+      "contentHash": "c46d761143a6bf77c239b15e2302c36e40a64d9bce80cf15c583ebe57810d2e8",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/airllm.md": {
+      "status": "current",
+      "contentHash": "b0f21fd73a5b36af9bc8b5f9b230d545e23a56fb7e77b5a8678d1adbb468de78",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/anle-toaan.md": {
+      "status": "current",
+      "contentHash": "4e304ad562ddad9790457d530625c122879f6a5f8b11a3624aab543e8f5cd7a9",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/bleachbit.md": {
+      "status": "current",
+      "contentHash": "81de224d08760d09e5a74904c1a62636a9e3857c00a8289e8d79b9829b9ae9b4",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/cake.md": {
+      "status": "current",
+      "contentHash": "353d7f5f79e9cf6eb033ad4041dbd4478ed596e0ad2236bce996441d21421848",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/changedetection-io.md": {
+      "status": "current",
+      "contentHash": "d665ec87d0c2a4b765fde490ac0b0f03ea456222035ac85cb8f57ed71b1333e7",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/cheatreader.md": {
+      "status": "current",
+      "contentHash": "5703157378419d77ef18df2704d39407b9b988dd9da70d08e15e63b8eef6260e",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/chronoframe.md": {
+      "status": "current",
+      "contentHash": "a97c387eb66d207587b5eab76486ae6960c0914892a12a4421b90f950f4beb44",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/cobe.md": {
+      "status": "current",
+      "contentHash": "6fae7008829f7998cccce8a983de9faf329c47f2479788c02beaef946ab555f6",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/dashy.md": {
+      "status": "current",
+      "contentHash": "d63249e53a659483b080bca9041d21778b4f86f0e6ddfa9cb0bdb0621c0ad155",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/deepseek-ocr.md": {
+      "status": "current",
+      "contentHash": "bebe3c251b4e13afbb36ddb3430ab70a0482d96dfe08c72858baa7fc5b080aaf",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/dflash.md": {
+      "status": "current",
+      "contentHash": "0692291b80f06ce7ed561585c0cb2111d89b0bf51cfad46aa788a883523f4efb",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/docmd.md": {
+      "status": "current",
+      "contentHash": "ce6624e77773031c8a4d6eaf5b69fedd552d9712115a743384b11c56e3cb3517",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/dolt.md": {
+      "status": "current",
+      "contentHash": "da39d66e2b0d165af9777c751ecd6678cc600ff0ea9a765ba169cacd678a7c9d",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/dots-ocr.md": {
+      "status": "current",
+      "contentHash": "8e665c055072ac69d7481c09d592a3730665c344a37110065d1bb30900ecfbf1",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/drizzle-orm.md": {
+      "status": "current",
+      "contentHash": "1a5e345a90ba22bfb2e74f946840808c503865c6073c38f35a3ee6591a68a62e",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/duckle.md": {
+      "status": "current",
+      "contentHash": "819b1178fdb2714d4174b462461414ba549566b6b516aafd8e2e9ecd3ca98bc2",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/exo.md": {
+      "status": "current",
+      "contentHash": "def2d1e688c28d189aaf51a72cfe0e377cca0bfe7fbbbc69ef9cbacc4e10df1d",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/ezbookkeeping.md": {
+      "status": "current",
+      "contentHash": "1fd6b3697781d5b8c0408eff96fafd881248ad551a57187ad3034e5c32270539",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/filebrowser-quantum.md": {
+      "status": "current",
+      "contentHash": "5932ac46b662442a822d31a6af48519235702e9ed92afd378788bd604412f5f8",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/floci.md": {
+      "status": "current",
+      "contentHash": "2c8bee388a306222700f25b015e9d0c5bbb30f4e9d72a31126d9a1d87aae3cde",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/fluent-flyout.md": {
+      "status": "current",
+      "contentHash": "756fcc22a50d140f6b418d90e382ff26ac0e5395b969b003c827d9a8b2084f70",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/folo.md": {
+      "status": "current",
+      "contentHash": "cebd47cf6f1971f1b497ab986f17d145581333c75f61cb261a5c35772def7143",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/fossflow.md": {
+      "status": "current",
+      "contentHash": "d031c533ea6c8fcda28120faa5fe9e8ff910088457aa4e28f6a0f9d0ec13966a",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/freellmapi.md": {
+      "status": "current",
+      "contentHash": "e03138234e9b7f8937d11da5919e984f7102ee040c169c145d01b238f091b1f4",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/google-workspace-cli.md": {
+      "status": "current",
+      "contentHash": "e2c4bc00e239c4ad77bb7b9adf965df55b746dd46cf4b6df6372334d8b78d4cf",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/horizon.md": {
+      "status": "current",
+      "contentHash": "143f0b8e972a867cd2bf1ff0a2190aad1cfb6c480341220e5069c940cf7ed5d2",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/hunyuan-ocr.md": {
+      "status": "current",
+      "contentHash": "24283c2115162765f0efe9faa54d3df332a459b68bf476053124af65d7231064",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/infinity-parser2.md": {
+      "status": "current",
+      "contentHash": "34c6821c5196b92925ab36a01355470be173a5fbd14ecd7fab59d2af0cf1fa1f",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/jitsi-meet.md": {
+      "status": "current",
+      "contentHash": "408658b18347084606dcc8dd5491d65e41441f07a5c799182513bd3c68e74785",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/keyd.md": {
+      "status": "current",
+      "contentHash": "2b9e161e34ce629aa1e55236bfee1045c3fa2f28a50201a786b73c9198f02d22",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/killer-pdf.md": {
+      "status": "current",
+      "contentHash": "6c0dd92f8c879bc391bd3dac6ec8264c11a16c0bbf9291c1938bc3dec87a9315",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/llm-checker.md": {
+      "status": "current",
+      "contentHash": "6bc3acc2d2f8283da65d2692d54f6693ed3a3641a5e856fcf9e28db939a4a8c5",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/llmfit.md": {
+      "status": "current",
+      "contentHash": "03ef105402db5d064788bbc8fd7ebdc8e96d483cb53fd0f66f452c8099d92fde",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/localai.md": {
+      "status": "current",
+      "contentHash": "af5e61814111bf38a8f95b0eb422eda5c41d29ed31b582711b5e99f35ef91c63",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/magika.md": {
+      "status": "current",
+      "contentHash": "005cf5f1f393f5afbe6088ed077af591f7416210a22f1bc347fbc49c4aaa4c55",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/markitdown.md": {
+      "status": "current",
+      "contentHash": "5120ff02d4cf53621542b1f82675c1c063e8c0a3440ed9053761df310b090e8f",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/mineru.md": {
+      "status": "current",
+      "contentHash": "3c5876ef22def8bdda8bcc3270090a8a3ebae70f65fc461adf323f5fb238d4a8",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/minicpm.md": {
+      "status": "current",
+      "contentHash": "766dd4ad36eb4f071a99b3cfb3e98d5faba00d40106e78736d7bf8d7e1eef585",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/models-dev.md": {
+      "status": "current",
+      "contentHash": "e57c825f193f098467e26628ed31353ac37a4495ce9659d30ac62155a21d53e2",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/n8n-workflows.md": {
+      "status": "current",
+      "contentHash": "703994e7288ff7e647067882a89fd51a451c5d54d1555c6213db8194767ee23f",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/nanonets-ocr2.md": {
+      "status": "current",
+      "contentHash": "6676a9050a53cf8992e384394865af017e15106a78dce0de71ce42cff86704ef",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/ntfy.md": {
+      "status": "current",
+      "contentHash": "3bc37fb07a001286f9c9461ba7f179c4f8a2ee12d6bc5fc88e584ac886d588ac",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/officecli.md": {
+      "status": "current",
+      "contentHash": "a54ce5bbdeb6e13da42ea62887f0733db2ca7229491ba6c324c4dcd17fc98d7f",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/open-resume.md": {
+      "status": "current",
+      "contentHash": "75f672162c5b3f7a6d3f702e4493ec1ee05ad604799994f595a000fdc33b2a0d",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/opentickly.md": {
+      "status": "current",
+      "contentHash": "f3db9cba47caf0cee9fa9ede329a50a82986d69458381f798fbfaf18b26387ee",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/phapdien-moj.md": {
+      "status": "current",
+      "contentHash": "78997cf2406bf696970aab2774a0eb94e157b2a5dc5e3309c1c39e5fba2863b9",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/plain-app.md": {
+      "status": "current",
+      "contentHash": "fd9a9bfcab454bddadb5460a22bed1a7571b05f3b6a5d6ac924168b4c684847f",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/protonx-legal-tc.md": {
+      "status": "current",
+      "contentHash": "3d01688ee1d80d36ba1fc803a73b54e65d6725bfb4008a916448b4539f85f6cc",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/r2-web.md": {
+      "status": "current",
+      "contentHash": "254c8806fa3a4e4dc727192eec8525185e8e415b3643207d33b037c78cbbe9e3",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/react-scan.md": {
+      "status": "current",
+      "contentHash": "dd5df091887cf4d1a761d7946d2dc223b088e8b438f3efd412b861ecf04c4e2a",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/smolvm.md": {
+      "status": "current",
+      "contentHash": "4b044a4a6a77b13148d9f122808990926cfcde825094b85ebbe91207f8e60ee9",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/snapdom.md": {
+      "status": "current",
+      "contentHash": "7ce2c4bd38c5aac562d74cff38533785609ae7a5b68a1929ef8413cf9e0c12a6",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/stirling-pdf.md": {
+      "status": "current",
+      "contentHash": "f6cb598fa4a4fdb85bae4946e7deebcbb2d4c730a8f1b0b16e98f0a5a6981660",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/stranslate.md": {
+      "status": "current",
+      "contentHash": "b1a2728b61f181a66360f9982d84628eff4da9db4b462ca2b1ed86872fa259e4",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/surya.md": {
+      "status": "current",
+      "contentHash": "992845d8c8d39a64a31334ddd897722b7de382103221e5c4ea36f88a80b022e8",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/system-design-101.md": {
+      "status": "current",
+      "contentHash": "9197416a5040318b653a25db92f086d9444a3373a124026c0e0ead2240557643",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/tab-harbor.md": {
+      "status": "current",
+      "contentHash": "28412951c6be79e64028415a1b9c2ec87be3c9b6f4486b55a7484ca1c00fd4fd",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/tabularis.md": {
+      "status": "current",
+      "contentHash": "f1bc74cf4e8b5294540f0b5c7a0bab068321cc20f814017068c68401f0aa3e0b",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/termshot.md": {
+      "status": "current",
+      "contentHash": "13c6044c0eb5be5c6fc4a698832f9457aca3643bef6a83426174ff0b187fb4b3",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/train-llm-from-scratch.md": {
+      "status": "current",
+      "contentHash": "16b39b13a788cf31428525a71b51a5d044a233c285b3567239a56429b5cd3e9b",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/trek.md": {
+      "status": "current",
+      "contentHash": "a7c88ed94cb857dd3169da26f518ca1409114c9dfd79991647ae16b51c7cd60a",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/unsloth.md": {
+      "status": "current",
+      "contentHash": "37b9a993749749c8c2533338e6fb38a125d8b3543ba85db70a75969dd4ed7132",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/veloxdb.md": {
+      "status": "current",
+      "contentHash": "ab94d287c6ae610b221ea881bad0e5d4fb86364038f389f5d4bc409b65cfa215",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/vietnamese-provinces-database.md": {
+      "status": "current",
+      "contentHash": "df6de69f99003674e187249e5662cf056be845237386c12392f41ed1d0ba9158",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/vit5-base.md": {
+      "status": "current",
+      "contentHash": "115b7d3fda22b16bde373f3b28b2e4ec1474276dcae9f20cb1faa00819d36561",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/vllm-omni.md": {
+      "status": "current",
+      "contentHash": "1ba6c667f0e038b30982ad09137a14ea9f4d556fe051d3555aac1b789636259e",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/vlms-ocr-playground.md": {
+      "status": "current",
+      "contentHash": "42a82f5c998c1cf2acdd72423507ed18bc0b81300cce6c8f17b137bcc860cf9d",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/whatcable.md": {
+      "status": "current",
+      "contentHash": "9f4800f6d7ed46f4fd39decfe11315af8f41f009152d205c398ad51defab0402",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/whisper-money.md": {
+      "status": "current",
+      "contentHash": "f8f59f1f5617be6d54eb70d7667f13b212508eb260cb9c7d917fe05761a5d0e6",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/winpodx.md": {
+      "status": "current",
+      "contentHash": "5993a5947c41a599e5eecb4848d1013566b6aab6c3ae3e5b5a7ed646f6842af5",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/wsl-dashboard.md": {
+      "status": "current",
+      "contentHash": "b5206a5400e5f65f35d25f4a625bbd7658aad20ae28cd15866a86acd12fe2dd3",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/yuvomi.md": {
+      "status": "current",
+      "contentHash": "b7c8d9c68d4962cde9235e344e999f73dad181cf191133cddd7d2ade8613c8a6",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/zca-bridge.md": {
+      "status": "current",
+      "contentHash": "c7d4df84309794cc18fc4bc45bf6eaa3f04fd7b85a5a82c1b4f5c8ddbe9389ae",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/image-video/ai-auto-generate-video.md": {
+      "status": "current",
+      "contentHash": "de4708b3142a8e29eb1fa05bdc873e6acd31b630d9280e2e852e219e92fcc8a1",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/image-video/ai-website-cloner.md": {
+      "status": "current",
+      "contentHash": "aafe2e030264a431aa31c15958727a16e6f17090cdca448b3aad47984b400c29",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/image-video/asciline.md": {
+      "status": "current",
+      "contentHash": "ad5ab29f30d866a66341129d073c7c96f1c26df52544ca31e55cb3c83c75956a",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/image-video/blind-watermark.md": {
+      "status": "current",
+      "contentHash": "2dca92ee3856fb9c293fbdb12ee84d2592254c6d424789bcddf49e92703b4d65",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/image-video/chili3d.md": {
+      "status": "current",
+      "contentHash": "890bae6f948974d9297b9086c7f7a9db24ad7d478224d09697b06796707c75cb",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/image-video/claude-video.md": {
+      "status": "current",
+      "contentHash": "9f001d011bf8ef8830f3f06ff64c38b9c11a9582a5c4acfa5cba786204ddb7a0",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/image-video/comfyui.md": {
+      "status": "current",
+      "contentHash": "bebe62503aeffe496a6fda23482d881145c4443644160a3a6c673f437a956abf",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/image-video/deep-live-cam.md": {
+      "status": "current",
+      "contentHash": "3e55cb40721089880615404ebe18e5fa93e43d9a641821641f39fe94d9c6b9c9",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/image-video/freecut.md": {
+      "status": "current",
+      "contentHash": "d5f9a0bb75fcd9f388e5d7392e124a4c24aa38c3dff478e86b91c0437a640d95",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/image-video/gyroflow.md": {
+      "status": "current",
+      "contentHash": "55f085e3fcc7f89c759aaabfc597de6fa62256f28ef779cf1194ed2888c5c4a3",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/image-video/html-anything.md": {
+      "status": "current",
+      "contentHash": "cd624b5893ea53795026922e7db30509b892f06dd47a84859bad60da2fbdc227",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/image-video/huashu-design.md": {
+      "status": "current",
+      "contentHash": "c277fee29b24aa374f63474f17fc57b0fd2be9c8f58ae55ed8bd50a4360017bd",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/image-video/hyperframes.md": {
+      "status": "current",
+      "contentHash": "0a01f58af6cd4087f002be2da77cc28750529ef7b3af1e3368abb937ad5cd605",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/image-video/iptv-org.md": {
+      "status": "current",
+      "contentHash": "68ba4adb8f0a8122476ee37cdd46385ddb53e8b22605f5b4b98b96c9cd9affb0",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/image-video/libretube.md": {
+      "status": "current",
+      "contentHash": "1d1b7c5d737b82840a7e97e80fd0ecd8a54a053256ec75276419815c8897d797",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/image-video/liveportrait.md": {
+      "status": "current",
+      "contentHash": "83e2ac25e4658280cf58f255f1e73169185e7e70eb2e7643d4fe48a8d0c0f45f",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/image-video/magicmirror.md": {
+      "status": "current",
+      "contentHash": "6321b6e05a4bbd6173e4d84a2a92225895e04b3d09ec927845954b51d9f128ef",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/image-video/moneyprinterturbo.md": {
+      "status": "current",
+      "contentHash": "ab212f8ad0c5bfac74c479cc282ce7399b1f61d2fe1620a74647a14a60ca51ab",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/image-video/o3de.md": {
+      "status": "current",
+      "contentHash": "c092adf55c77478b4bd0061424d287a869bcc574b62a3be81abfa0b74c26c6bf",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/image-video/open-generative-ai.md": {
+      "status": "current",
+      "contentHash": "97109d7d8952afa0fd29f3e64cfc1dec6cd50ebdba2b88996061cf49eed1cf16",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/image-video/openmontage.md": {
+      "status": "current",
+      "contentHash": "1cceb332995f0972cdf156a752b8f82e310ee1ae9fea21b1751577e76cfd4533",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/image-video/opentoonz.md": {
+      "status": "current",
+      "contentHash": "cb762e6b7378f20c18708d3a4b1c0d83f49e404775a43f6757b5475600aad396",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/image-video/pixelle-video.md": {
+      "status": "current",
+      "contentHash": "f6cb5a3c22cd5803cfe1de3e85d4d348c4de8f1101a13983b0a9f96fbea1fb86",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/image-video/pyvideotrans.md": {
+      "status": "current",
+      "contentHash": "81724e16ff9bb2162a72a8f645872ffa079a647925d6425412a32f3b1610c598",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/image-video/recordly.md": {
+      "status": "current",
+      "contentHash": "84610af392ef0616c8ee5f991c36ea7269819e678b67d0ab8eeaa7ac998cba94",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/image-video/sana.md": {
+      "status": "current",
+      "contentHash": "f83511b61fec0c32e730441b8a63f1c061f526e7c539c86ce9503f91e6fb1f21",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/image-video/screencoder.md": {
+      "status": "current",
+      "contentHash": "7e33e735b25e51cd1c488048494cb67a3aac6b48b2ba583058639fe9f2f952e0",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/image-video/toonflow.md": {
+      "status": "current",
+      "contentHash": "13e5734780fb632706764487b63405e24a0cc897e275d7bb4dab29db71d9ea34",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/image-video/yt-dlp.md": {
+      "status": "current",
+      "contentHash": "89107c2ad2d703f80d2514ad2b6c12c21286cb3f9cf290f65fe967da8ad5bf61",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/agent-governance-toolkit.md": {
+      "status": "current",
+      "contentHash": "3a6428c11c177d1fdc208caeb8a1314d56736dd3e13ad3db021af83276d5063e",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/agent-skills.md": {
+      "status": "current",
+      "contentHash": "0a3addee89bf3f7df683689cda5b15b77e729b141c8637f496b0bee5dacd692c",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/agentmemory.md": {
+      "status": "current",
+      "contentHash": "fea5fd1e833f266b9de1bc572a6a55f0cc5170d8bc939dcedae0c694d67cd29d",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/ai-engineering-coach.md": {
+      "status": "current",
+      "contentHash": "b77a5032ea3ac9b0c7cc8d99180c31bb4aa5ea6c14d83eba4bfde50476e20230",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/anything-llm.md": {
+      "status": "current",
+      "contentHash": "038b702a9a98c19c6ace4bb39b0ad21b902aa263f0926ae500905e2da8ca144c",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/astrbot.md": {
+      "status": "current",
+      "contentHash": "408973806c240347eb3c2345278b16f9c94ab601015f2cad16396bd560e0443e",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/atomic-agents.md": {
+      "status": "current",
+      "contentHash": "3a9bb72724f28e919eb1ea4b1826a8a89b9eb4ba361e91fa9ddf7052fdc3063d",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/caveman.md": {
+      "status": "current",
+      "contentHash": "5b7e87c3ed74ccd95a3361f42c7874b2d8e8429b3848010ff3de75104780621f",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/cc-wf-studio.md": {
+      "status": "current",
+      "contentHash": "80a9611141c1ac83d0a124a841dee25ad541ef3dba8b8537855c693c6f5e8751",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/claude-mem.md": {
+      "status": "current",
+      "contentHash": "a2c0d090dd699dde6c816fb129d343f1af1a6e0110d29331de0fa7b3531558cd",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/claude-peers-mcp.md": {
+      "status": "current",
+      "contentHash": "0c3081ec043c5800ef54d6249d81064a4d18ef20efdc6c1a87a12e0d9f8316d7",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/clawdmeter.md": {
+      "status": "current",
+      "contentHash": "2cfa352daf22c9fb5ea9d0a677ed21501eb275bbc1048b2703ea5506a4c5031d",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/cli-anything.md": {
+      "status": "current",
+      "contentHash": "c0ee3a4d5f1d0adfc8d5219998a6564e0043dbbe803947cd2ddb8cacfc3f7276",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/codeburn.md": {
+      "status": "current",
+      "contentHash": "8e82dcc284dd0ccad642e9360083599b75c7b06092464ab165e7a659aeb095d9",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/codewhale.md": {
+      "status": "current",
+      "contentHash": "a918faebad21bd7b13d77bceca6c597f5f38c499345d3d96007583566ef6e09d",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/crawl4ai.md": {
+      "status": "current",
+      "contentHash": "9cbac922ae85cd2154fe1a36ca4db1c2d1dc3164963a0850a5dbda7abab4e2a2",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/deer-flow.md": {
+      "status": "current",
+      "contentHash": "00f8aaee08e6c2895e879f6240307e3e67d0ba49cd80d474fbd00bdcc70c89f4",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/destructive-command-guard.md": {
+      "status": "current",
+      "contentHash": "074721ab588e4d3786c618b3d9e17fe7814ffdeb9d89b79efa54d9b6b9f76abe",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/deta-surf.md": {
+      "status": "current",
+      "contentHash": "398d6bc6e582d7b063701da6826009d75fc66cbd1689ed0ec49a71d910e8123c",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/docmost.md": {
+      "status": "current",
+      "contentHash": "28c7cfff58420853794f3118607fd896d84e58a80e04e811100dc99ccb39b2e9",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/drawio-skill.md": {
+      "status": "current",
+      "contentHash": "2e662c8b0c8dec2676f7bb58678f6b502658b2e2b4e6e24bc85982ac2f247220",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/easy-vibe.md": {
+      "status": "current",
+      "contentHash": "98116b5732c982b415dd5d58641cc2c8c1aaed111d12917f13e915015e8616c4",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/epicstaff.md": {
+      "status": "current",
+      "contentHash": "5546e8da2e4700eff581a971e10d0ac9bcca18743a08215058f3cdebfdae6d13",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/firecrawl.md": {
+      "status": "current",
+      "contentHash": "5ff6f34554e02e9990566108d9a8fc0393e4883b506e7051b85a39c847428193",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/ghgrab.md": {
+      "status": "current",
+      "contentHash": "3f9988a54c9b2daea0e5a61b26e93fcbc233e0a853b5d0ecb854133509e392a3",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/gitingest.md": {
+      "status": "current",
+      "contentHash": "4e4e8471ca2350954a5574441eb2261014222972a1ad83696be52f8ba7839c3c",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/gitreverse.md": {
+      "status": "current",
+      "contentHash": "e38aa50fb689000b6fd5e248a3b3830a6bf32410cc280c5c5205d5f3181b992b",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/graphify.md": {
+      "status": "current",
+      "contentHash": "d4eaeacacc38dc1abed8f1ea161e4f1591466cb5b064c61603791180c0c44f61",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/hallmark.md": {
+      "status": "current",
+      "contentHash": "3bbc7793fc94f6b52daed3d33245259e7664fd267f7b708008a159bab4d874c8",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/happy.md": {
+      "status": "current",
+      "contentHash": "5648b46d36330d1c7dc28344effea653df48a0cbb2c1aff46c7ad86d57dabe40",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/headroom.md": {
+      "status": "current",
+      "contentHash": "859dc051b42ea08c23a830b3cef383c9726aa00b9fa200c0b086913c9f0ae1b1",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/hermes-agent.md": {
+      "status": "current",
+      "contentHash": "853cb39cbc1bae2362a78c960040871d7129d9b44d5178ede36a2b945c604a00",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/hyper-extract.md": {
+      "status": "current",
+      "contentHash": "7f3d8f2649dac0b9717df4bc7020fb787d43bd826c8025f1762cd604beb54f74",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/karpathy-skills.md": {
+      "status": "current",
+      "contentHash": "a4df82fcfc43dc857420873132f2d921a8b0af513fcc752b03f82b6ca758427f",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/khoj.md": {
+      "status": "current",
+      "contentHash": "50b769397af1412a506071e225e88d305741069d8884150486ca4ea640736e3c",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/knowledge-work-plugins.md": {
+      "status": "current",
+      "contentHash": "18e35811dc01b5225dcef0d34b9887f355e9f7da5f9dbdd9c7d6de4584574f9a",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/lanes.md": {
+      "status": "current",
+      "contentHash": "d31ee3611a639efb770e57e487e761919607917befb1e1a4854ff1717a6a3ada",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/langbot.md": {
+      "status": "current",
+      "contentHash": "a14c8790a3912dd664523dba615666ac33ea8bcea07aba566be9130b58c2549e",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/learn-claude-code.md": {
+      "status": "current",
+      "contentHash": "5633f83e452e8bc221b9f352ac91d4c30567807ca1ac2507bebfae7ffa65bcd7",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/maths-cs-ai-compendium.md": {
+      "status": "current",
+      "contentHash": "ea1524d47553ec2c8baff6693d37e7a83816c7a94e96797530b590c82c980920",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/mattpocock-skills.md": {
+      "status": "current",
+      "contentHash": "5cd17ee66a73748710d29e5bd8362e21d59800544cf162046dcc86ff24761736",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/mirofish.md": {
+      "status": "current",
+      "contentHash": "fba44c38d0318d2c50d0e3349adea1366f6dab70995718878304d21fa247e44b",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/nezha.md": {
+      "status": "current",
+      "contentHash": "30426f33d4724a6c467982e3410b8a72d7f7cab769c28ade7ca4ef03c383da38",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/notebooklm-mcp.md": {
+      "status": "current",
+      "contentHash": "9a4d16334801d3466c7c9be4f022e5abf9cd768e579ecb2696af561465e55dcf",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/open-notebook.md": {
+      "status": "current",
+      "contentHash": "4f425e4688be7360d0da47fb2e0bc56d9d84ae496069dc53169bd9269b03e95c",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/openhands.md": {
+      "status": "current",
+      "contentHash": "1d5d14648607ddafbb3b76fa0fd0aa71fc712d4f7ad4b66d2aa824a3ca7a63de",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/openhuman.md": {
+      "status": "current",
+      "contentHash": "62138338ed6f19a27284963ef24753de7a54157361483fd4b31ac7e502992481",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/openspace.md": {
+      "status": "current",
+      "contentHash": "9e682770dbe8051a05f34ae117bbfbc493f1027262799908e46843adf3ce4949",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/pageindex.md": {
+      "status": "current",
+      "contentHash": "ddca8bae9cb1ca4ac0a8bd67727866906e0dc8c0607eab61c72a63489650f0d6",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/paseo.md": {
+      "status": "current",
+      "contentHash": "cb6bc1669a6f97cb23d97377c714110ec667ac1c2c155885d67a8bb3bdb6fb6c",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/pathway.md": {
+      "status": "current",
+      "contentHash": "484d8cf8eba56dd8be1ad760546427335d93a3075d4aa8e24afd902e9b2ebbba",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/pixelrag.md": {
+      "status": "current",
+      "contentHash": "a399d6648b40f926018347db31f7cc44fe440d69dc2485c4eca0b6ae5d6df856",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/ponytail.md": {
+      "status": "current",
+      "contentHash": "4ddb79a7bddff7fa10bc10e1ad9f6d3c9436d21cd2b521ca77eb2a4b632c6e70",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/ppt-master.md": {
+      "status": "current",
+      "contentHash": "a640edbce7d5c1a5fb56e46ff84033b8fca841fd760688408b1623bbfb1dd54c",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/prompt-optimizer.md": {
+      "status": "current",
+      "contentHash": "f496adde9572486ef6965ec7e3fbb6955b5d4ad8251b045eff8395297bc6edbf",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/prompts-chat.md": {
+      "status": "current",
+      "contentHash": "3a5834db70bee57ea75e94723f6e142f5bca5a391f547a4c31676be4694a89e3",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/ragflow.md": {
+      "status": "current",
+      "contentHash": "623e915f83a663cdff64a7370449fb3e62b44049caab987b08bd766a84343a20",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/rtk.md": {
+      "status": "current",
+      "contentHash": "205815d5934a574cb4d53a350369a28b6b8d5a13e793c962a6e5431b8da4ab45",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/sag.md": {
+      "status": "current",
+      "contentHash": "e2d518ee7a61937adef4b56823990c6c795b46fb192b6f03bdb17f136a6a8d82",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/scrapling.md": {
+      "status": "current",
+      "contentHash": "c2dfc057ecdf46730f882261817ec902b71f28687eef7b0ae8d432a251472dc0",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/semble.md": {
+      "status": "current",
+      "contentHash": "d7db70d177bf940e2a64b033ee13c2159fc15933d2ff5fcbe67c2ab328333bc5",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/slavingia-skills.md": {
+      "status": "current",
+      "contentHash": "0c90abc5b8ddc78feaf01367b4e6b2466e6664d69ba20fa9d44fd2a5f323f4b3",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/spec-kit.md": {
+      "status": "current",
+      "contentHash": "3d6665ccceb636a9adde98613ec2304bd82542727a1a9c77e03eba00fca0135b",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/stop-slop.md": {
+      "status": "current",
+      "contentHash": "da06d242b04975b75c8d317aa255ad649726b0902d43a8d17910a0a07bfe1730",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/surfsense.md": {
+      "status": "current",
+      "contentHash": "9407618e11dffe18938752a928c10ee4f5d073e08f7d8676380ae12202a9448f",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/taste-skill.md": {
+      "status": "current",
+      "contentHash": "9e964820e0b2df44dbd937b74ece1eca489d3700ae688a8d64497ae9f1e39cb7",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/tencentdb-agent-memory.md": {
+      "status": "current",
+      "contentHash": "0b93bc3987920ae97c28332fa81a89fd1240a27e9de2c6defdf94baaf70dc827",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/trilium.md": {
+      "status": "current",
+      "contentHash": "9e320cda18495a1a84b43663e1b6399507cb1949d64cf3d71362652a0216ecd0",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/understand-anything.md": {
+      "status": "current",
+      "contentHash": "e86d6cf82de039e4228d712386bd0fa0b1f97e065de4a232bb20e04b49f559c4",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/vibe-kanban.md": {
+      "status": "current",
+      "contentHash": "fc13ccf9e4f4c61f41942b14c3f39d5268388ad23401a37fefe17893030d5eba",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/vibe-trading.md": {
+      "status": "current",
+      "contentHash": "f44faa56edb60573a2f980dc987f4699da9082135792b24fb614ac145f379ba6",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/weknora.md": {
+      "status": "current",
+      "contentHash": "1c2ae947a55780ccec5db91df0784927dae89ef587364f551f5f5be76fc4376a",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/mcp-ai-agents/zerolang.md": {
+      "status": "current",
+      "contentHash": "7a8512fe84e42c3a1c999ca47dec5bf721f404ca2a67200f721e35bd6f97f95e",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/security/hackingtool.md": {
+      "status": "current",
+      "contentHash": "b9fa5f47e95595501eb223d50eed9ce818588f7708ded77a18fad824dd4ba1df",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/security/osiris.md": {
+      "status": "current",
+      "contentHash": "dd435348acf263a7d4d047a41b7dc8add6374ab737ed5f868ae017b8f9ab9585",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/security/strix.md": {
+      "status": "current",
+      "contentHash": "1e47b2f6bc11dfb98d964053270d91dbe19196f48746a9b5fdabcfcf73c34cf8",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/security/system-informer.md": {
+      "status": "current",
+      "contentHash": "a0ded53593669c25dfe3e087e38506f3427065e9bbd6328b4b9f0728fcb9b5bc",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/speech-audio/audiobook-kj.md": {
+      "status": "current",
+      "contentHash": "0e0ba5ae113770cf5ab449f1bcb8b7b9ae2c1a20776c574c67e84aab683928ad",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/speech-audio/audioseal.md": {
+      "status": "current",
+      "contentHash": "8563e71c5ec7401a368bf27b95912b699299b6874817001480626fd838e41b68",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/speech-audio/capcut-tts-api.md": {
+      "status": "current",
+      "contentHash": "c281cab1f19a8e7a7bdbafab24ba43edb7fda98c48e9e6944b411fba6bf7321a",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/speech-audio/cosyvoice.md": {
+      "status": "current",
+      "contentHash": "6f49a2865fb06c673ccba1e01892f7162a357658c133ab3bc5e0b23906d2f959",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/speech-audio/faster-whisper.md": {
+      "status": "current",
+      "contentHash": "0c38dc299005cbba94babbd193fb321a47dc485d1c5a2bcad1b1fa7df5d89ae6",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/speech-audio/funasr.md": {
+      "status": "current",
+      "contentHash": "f522d944e117fe35a9932e804d5933cd5d8d207cf377d874b5d586a07f1ceeae",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/speech-audio/khanhtts-omnivoice.md": {
+      "status": "current",
+      "contentHash": "06e8c4bcb2ea7b8b8d5ee3cb57f188c9e34765f4ca674290cf780a25a0b078e2",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/speech-audio/luxtts.md": {
+      "status": "current",
+      "contentHash": "f1c867bbff5be50689a575870a0705593937ce5376fe9b80ad6e76ad864e16af",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/speech-audio/micyou.md": {
+      "status": "current",
+      "contentHash": "c545dd19a5591228c0074bcbd12dbc6dfd5c09e736131b9fe389e59b1b7e84cb",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/speech-audio/moss-tts.md": {
+      "status": "current",
+      "contentHash": "d801f577cefcdd8694978d02553316c3f9778509d68ffc9089ee39daa8e0ea8c",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/speech-audio/omnivoice-studio.md": {
+      "status": "current",
+      "contentHash": "52ddb23daf9df0684f99aef75b0fdb33e40ab196c7fd5ae4fdfc9f402d9a9f19",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/speech-audio/sherpa-onnx.md": {
+      "status": "current",
+      "contentHash": "a0aac72deb81f46438a38475c9aef5773a21214b6fbc4758f1c0036aa919232c",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/speech-audio/soulx-singer.md": {
+      "status": "current",
+      "contentHash": "54dbf7d4169da3e389dbdfa5d56cecbdd51083647281ac0d72437c38df7f1b88",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/speech-audio/supertonic.md": {
+      "status": "current",
+      "contentHash": "04b84029423cb209c53ebeb3d636772529f1502c7d7cc872ca4348d809c38ffb",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/speech-audio/vibevoice.md": {
+      "status": "current",
+      "contentHash": "4d5d16ba9fe8f151b30b4dd2ded9d1cf362158b8db041f31e10d20ef1edac99c",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/speech-audio/vieneu-tts.md": {
+      "status": "current",
+      "contentHash": "a2f97746faf0fdc75af8d4e90d90bd5a5543ae938bbff216d79998fea1c01a5c",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/speech-audio/voice-pro.md": {
+      "status": "current",
+      "contentHash": "653f07ef90420a013c252f0ddde97f430fa9eb2f74d1959d09339d49fcbc7cb9",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/speech-audio/voicebox.md": {
+      "status": "current",
+      "contentHash": "0209c7a747ebd365b34c13aa0ddc133c4c202d042c34bf60ef9205b82c72de66",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/speech-audio/voxcpm.md": {
+      "status": "current",
+      "contentHash": "5717e479cae7c96310104011c156ba6aad9bc88755cc7edb3507aa6707f0b1a5",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/speech-audio/xiaozhi-esp32.md": {
+      "status": "current",
+      "contentHash": "1d8268357a6f605dbe0f330adc3d99026e2746216499a496f823a3e679454d12",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/ui-automation/browser-use.md": {
+      "status": "current",
+      "contentHash": "5d54480fa344162510786db006167e7fefa626ddceb3914c415f0fb1683af7c0",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/ui-automation/browseros.md": {
+      "status": "current",
+      "contentHash": "fcaf0f54d9089fde0ffe11445a66b4f573a3b3888e2c39b89a395c407c7b7cb2",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/ui-automation/chrome-devtools-mcp.md": {
+      "status": "current",
+      "contentHash": "dab075e24495e7a9f365a7d9605388169b76ef19569a5d83692c6ce300e8c7ac",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/ui-automation/cloakbrowser.md": {
+      "status": "current",
+      "contentHash": "f27b6647cd9787547aa52327fa3374bff4fb93095a112e45776eb7b14dceaa89",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/ui-automation/midscene.md": {
+      "status": "current",
+      "contentHash": "2de9a4408fad84ff42fee649abe9de66f8b47166ad8c81164c7c5e0e51d0e98e",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/ui-automation/page-agent.md": {
+      "status": "current",
+      "contentHash": "445e6b6e984f66e5fa040841cb1b9a7c6a7343407e73dd16d65a13dbbda7b241",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/ui-automation/puppeteer.md": {
+      "status": "current",
+      "contentHash": "b4d93c9e60947debf4edbbf131311d8ca917087797e960d5c9524e025c1623ca",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/ui-automation/stagehand.md": {
+      "status": "current",
+      "contentHash": "02e381a355d5ea568f1e149970e584ad8f62853ce2eae7bdb29449178c81b471",
+      "firstSeenAt": "2026-07-16T10:34:43.376Z",
+      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    }
+  }
+}
