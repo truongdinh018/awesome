@@ -313,7 +313,8 @@ function keywordDbSearch(
           if (tokenMatchScore(tagHay, t) > 0) score += 2.5
         }
       }
-      if (matched === 0) continue
+      const need = tokens.length >= 2 ? tokens.length : 1
+      if (matched < need) continue
       score += matched * 0.5
       scored.push({
         path: String(row.path),
@@ -353,7 +354,15 @@ async function vectorSearch(
     })
   }
   scored.sort((a, b) => b.score - a.score)
-  return scored.slice(0, limit)
+  if (scored.length === 0) return []
+
+  // e5 scores cluster tightly — keep near the best hit, not a bare top-K tail
+  const best = scored[0]!.score
+  const cutoff = Math.max(best - 0.025, best * 0.97)
+  const tight = scored.filter((h) => h.score >= cutoff)
+  // Soft cap so vague queries don't flood the UI
+  const softCap = Math.min(limit, 24)
+  return (tight.length > 0 ? tight : scored.slice(0, 12)).slice(0, softCap)
 }
 
 function isShortQuery(q: string): boolean {
@@ -474,9 +483,11 @@ export function keywordFilter(
           score += s
         }
       }
-      return { item, score, matched }
+      // Multi-token: require all tokens (AND) so "tài liệu" doesn't match half the catalog
+      const need = tokens.length >= 2 ? tokens.length : 1
+      return { item, score, matched, need }
     })
-    .filter((x) => x.matched > 0)
+    .filter((x) => x.matched >= x.need)
     .sort((a, b) => b.score - a.score || b.matched - a.matched)
     .map((x) => x.item)
 }
@@ -485,7 +496,7 @@ export function applySearchRanking(
   items: CatalogItem[],
   hits: SearchHit[] | null,
 ): CatalogItem[] {
-  if (!hits || hits.length === 0) return items
+  if (!hits || hits.length === 0) return []
   const order = new Map(hits.map((h, i) => [h.path, i]))
   return items
     .filter((item) => order.has(item.path))

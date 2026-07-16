@@ -174,7 +174,8 @@ export function Catalog({
   }, [drawerOpen])
 
   const filtered = useMemo(() => {
-    const q = query.trim()
+    // Use draftQuery so typing in the drawer filters immediately (URL `query` is debounced)
+    const q = draftQuery.trim()
     let list = items.filter((item) => {
       if (activeDomains.length > 0 && !activeDomains.includes(item.domain)) {
         return false
@@ -191,7 +192,17 @@ export function Catalog({
 
     if (!q) return list
 
-    if (searchMode === 'keyword' || !semanticHits) {
+    if (searchMode === 'keyword') {
+      return keywordFilter(list, q, tagLabel)
+    }
+
+    // Semantic/hybrid still loading, or draft ahead of applied query → keyword preview
+    if (semanticHits === null || draftQuery.trim() !== query.trim()) {
+      return keywordFilter(list, q, tagLabel)
+    }
+
+    // Empty hits after search finished → keyword fallback (never show full catalog)
+    if (semanticHits.length === 0) {
       return keywordFilter(list, q, tagLabel)
     }
 
@@ -199,11 +210,11 @@ export function Catalog({
       list,
       semanticHits.map((path) => ({ path, score: 1, source: 'hybrid' as const })),
     )
-    // Fallback if DB/embed unavailable
     if (ranked.length === 0) return keywordFilter(list, q, tagLabel)
     return ranked
   }, [
     items,
+    draftQuery,
     query,
     activeDomains,
     activeTags,
@@ -212,7 +223,7 @@ export function Catalog({
     semanticHits,
   ])
 
-  // Semantic / hybrid retrieval (async) — own generation counter (don't share with debounce)
+  // Semantic / hybrid retrieval — runs on debounced `query` (not every keystroke)
   useEffect(() => {
     const q = query.trim()
     if (!q || searchMode === 'keyword') {
@@ -227,12 +238,16 @@ export function Catalog({
 
     void (async () => {
       try {
-        const hits = await semanticSearch(q, { mode: searchMode, limit: 80 })
+        const hits = await semanticSearch(q, { mode: searchMode, limit: 40 })
         if (cancelled || semanticGen.current !== gen) return
         setSemanticHits(hits.map((h) => h.path))
       } catch {
         if (cancelled || semanticGen.current !== gen) return
         setSemanticHits([])
+      } finally {
+        if (!cancelled && semanticGen.current === gen) {
+          // loading cleared by the displayItems effect when draft===query
+        }
       }
     })()
 
