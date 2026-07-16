@@ -2,7 +2,7 @@
 
 > **Repo:** [bradautomates/claude-video](https://github.com/bradautomates/claude-video)  
 > **Category:** Image & Video · Analyze / watch  
-> **Tags:** `video` · `skill` · `coding-agent` · `stt` · `cli` · `agent`  
+> **Tags:** `video` · `skill` · `coding-agent` · `stt` · `cli` · `agent` · `multimodal` · `subtitle`
 > **Ngôn ngữ:** Python · **⭐** ~8.7k · **License:** MIT
 
 ## Đây là gì?

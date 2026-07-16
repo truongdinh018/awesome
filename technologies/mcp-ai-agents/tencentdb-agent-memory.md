@@ -2,7 +2,7 @@
 
 > **Repo:** [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory)  
 > **Category:** MCP & AI Agents · Layered agent memory  
-> **Tags:** `agent` · `self-host` · `coding-agent`  
+> **Tags:** `agent` · `self-host` · `coding-agent` · `memory`
 > **Ngôn ngữ:** TypeScript · **⭐** ~8.8k · **License:** MIT (npm)  
 > npm: `@tencentdb-agent-memory/memory-tencentdb` · Slogan: *Agents remember, Humans innovate*
 

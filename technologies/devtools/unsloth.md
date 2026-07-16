@@ -2,7 +2,7 @@
 
 > **Repo:** [unslothai/unsloth](https://github.com/unslothai/unsloth)  
 > **Category:** DevTools · Fine-tuning & Unsloth Studio  
-> **Tags:** `self-host` · `cli` · `api` · `desktop`  
+> **Tags:** `self-host` · `cli` · `api` · `desktop` · `finetune` · `local-llm`
 > **Ngôn ngữ:** Python · Triton · **⭐** ~68.2k · **License:** Apache-2.0  
 > Docs: [unsloth.ai/docs](https://unsloth.ai/docs) · Site: [unsloth.ai](https://unsloth.ai)
 

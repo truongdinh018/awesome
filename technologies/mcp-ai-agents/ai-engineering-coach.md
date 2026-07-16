@@ -2,7 +2,7 @@
 
 > **Repo:** [microsoft/AI-Engineering-Coach](https://github.com/microsoft/AI-Engineering-Coach)  
 > **Category:** MCP & AI Agents · Dashboard phân tích local cho AI coding harness  
-> **Tags:** `coding-agent` · `skill` · `desktop` · `cli`  
+> **Tags:** `coding-agent` · `skill` · `desktop` · `cli` · `observability` · `edu`
 > **Ngôn ngữ:** TypeScript · VS Code extension (+ Copilot canvas) · **⭐** ~3.3k · **License:** MIT  
 > Disclaimer upstream: community effort by MS employees — **không** phải sản phẩm Microsoft chính thức
 

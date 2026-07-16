@@ -2,7 +2,7 @@
 
 > **Repo:** [whisper-money/whisper-money](https://github.com/whisper-money/whisper-money)  
 > **Category:** DevTools · Productivity · personal finance (self-host)  
-> **Tags:** `self-host` · `desktop` · `workspace`  
+> **Tags:** `self-host` · `desktop` · `workspace` · `finance`
 > **Ngôn ngữ:** PHP (Laravel 12) · React 19 / Inertia · MySQL · Redis · **⭐** ~1.1k · **License:** CC-BY-NC-4.0  
 > Site: [whisper.money](https://whisper.money)
 

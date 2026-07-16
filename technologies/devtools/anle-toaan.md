@@ -2,7 +2,7 @@
 
 > **Dataset:** [tmquan/anle-toaan-gov-vn](https://huggingface.co/datasets/tmquan/anle-toaan-gov-vn)  
 > **Category:** DevTools · Corpus pháp lý Việt Nam (án lệ / bản án)  
-> **Tags:** `rag` · `dataset` · `self-host`  
+> **Tags:** `rag` · `dataset` · `self-host` · `vietnam` · `legal`
 > HF ❤️ ~9 · ↓ ~5.3k · **License:** CC-BY-4.0 · **Language:** Vietnamese  
 > Source portal: [anle.toaan.gov.vn](https://anle.toaan.gov.vn) (Tòa án nhân dân tối cao)
 

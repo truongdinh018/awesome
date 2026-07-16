@@ -2,7 +2,7 @@
 
 > **HF:** [VietAI/vit5-base](https://huggingface.co/VietAI/vit5-base)  
 > **Category:** DevTools · Vietnamese pretrained seq2seq (T5)  
-> **Tags:** `self-host` · `cli` · `api`  
+> **Tags:** `self-host` · `cli` · `api` · `vietnam`
 > HF ❤️ ~20 · ↓ ~12k/mo · **License:** MIT  
 > Paper: ViT5 (NAACL 2022 SRW) · train data: CC100 Vietnamese
 

@@ -2,7 +2,7 @@
 
 > **Repo:** [deta/surf](https://github.com/deta/surf)  
 > **Category:** MCP & AI Agents · Personal AI Notebook (local-first)  
-> **Tags:** `rag` · `desktop` · `self-host` · `browser`  
+> **Tags:** `rag` · `desktop` · `self-host` · `browser` · `knowledge`
 > **Ngôn ngữ:** TypeScript · Svelte · Rust · **⭐** ~3.5k · **License:** Apache-2.0  
 > Site: [deta.surf](https://deta.surf) · Discord: [deta.surf/discord](https://deta.surf/discord)
 

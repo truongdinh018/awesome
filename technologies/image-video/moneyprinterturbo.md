@@ -2,7 +2,7 @@
 
 > **Repo:** [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)  
 > **Category:** Image & Video · One-click AI short video  
-> **Tags:** `video` · `tts` · `cli` · `self-host` · `api` · `skill`  
+> **Tags:** `video` · `tts` · `cli` · `self-host` · `api` · `skill` · `batch` · `docker`
 > **Ngôn ngữ:** Python · MoviePy · **⭐** ~97.4k · **License:** MIT  
 > LLM script → stock/material → TTS → subtitle → short video (TikTok-style)
 

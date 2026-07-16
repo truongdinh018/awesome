@@ -2,7 +2,7 @@
 
 > **Repo:** [pnnbao97/VieNeu-TTS](https://github.com/pnnbao97/VieNeu-TTS)  
 > **Category:** Speech & Audio · Vietnamese TTS + voice clone  
-> **Tags:** `tts` · `voice-clone` · `self-host` · `api` · `desktop`  
+> **Tags:** `tts` · `voice-clone` · `self-host` · `api` · `desktop` · `vietnam`
 > **Ngôn ngữ:** Python · **⭐** ~2.2k · **License:** Apache-2.0  
 > Site: [vieneu.io](https://www.vieneu.io) · README VI: [README.vi.md](https://github.com/pnnbao97/VieNeu-TTS/blob/main/README.vi.md)
 

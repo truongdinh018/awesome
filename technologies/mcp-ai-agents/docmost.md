@@ -2,7 +2,7 @@
 
 > **Repo:** [docmost/docmost](https://github.com/Docmost/docmost)  
 > **Category:** MCP & AI Agents · Collaborative wiki / docs (Confluence·Notion OSS)  
-> **Tags:** `rag` · `self-host` · `api` · `workspace`  
+> **Tags:** `rag` · `self-host` · `api` · `workspace` · `knowledge`
 > **Ngôn ngữ:** TypeScript · Docker · **⭐** ~21k · **License:** AGPL-3.0 (core) · EE proprietary dirs  
 > Site: [docmost.com](https://docmost.com) · Docs: site documentation
 

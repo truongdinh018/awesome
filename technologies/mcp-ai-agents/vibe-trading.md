@@ -2,7 +2,7 @@
 
 > **Repo:** [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)  
 > **Category:** MCP & AI Agents · Domain agent — trading research / backtest  
-> **Tags:** `agent` · `mcp` · `skill` · `cli` · `self-host` · `workflow` · `desktop`  
+> **Tags:** `agent` · `mcp` · `skill` · `cli` · `self-host` · `workflow` · `desktop` · `trading`
 > **Ngôn ngữ:** Python · FastAPI · React · **⭐** ~22.7k · **License:** MIT  
 > Site: [vibetrading.wiki](https://vibetrading.wiki/) · PyPI: [`vibe-trading-ai`](https://pypi.org/project/vibe-trading-ai/)
 

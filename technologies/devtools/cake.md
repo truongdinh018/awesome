@@ -2,7 +2,7 @@
 
 > **Repo:** [evilsocket/cake](https://github.com/evilsocket/cake)  
 > **Category:** DevTools · Máy chủ AI đa phương thức, có thể chia nhiều máy (Rust)  
-> **Tags:** `api` · `self-host` · `cli` · `tts` · `image-gen` · `edge`  
+> **Tags:** `api` · `self-host` · `cli` · `tts` · `image-gen` · `edge` · `local-llm`
 > **Ngôn ngữ:** Rust · **⭐** ~3.1k · **License:** FAIR (không phải MIT/Apache — xem mục License)  
 > Docs: thư mục `docs/` trong repo · Code còn experimental, thay đổi nhanh
 

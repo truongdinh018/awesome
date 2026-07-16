@@ -2,7 +2,7 @@
 
 > **Repo:** [HBAI-Ltd/Toonflow-app](https://github.com/HBAI-Ltd/Toonflow-app)  
 > **Category:** Image & Video · AI short-drama / novel→anime studio  
-> **Tags:** `video` · `image-gen` · `desktop` · `self-host` · `agent` · `skill`  
+> **Tags:** `video` · `image-gen` · `desktop` · `self-host` · `agent` · `skill` · `docker`
 > **Ngôn ngữ:** TypeScript · Electron · Vue3 · Node · Docker · **⭐** ~11.5k  
 > **License:** Apache-2.0 (+ supplemental commercial terms) · Site: [toonflow.net](https://toonflow.net)
 

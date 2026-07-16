@@ -2,7 +2,7 @@
 
 > **Repo:** [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)  
 > **Category:** MCP & AI Agents  
-> **Tags:** `agent` · `mcp` · `skill` · `cli` · `self-host`  
+> **Tags:** `agent` · `mcp` · `skill` · `cli` · `self-host` · `memory`
 > **Ngôn ngữ:** Python · **⭐** ~214k · **License:** MIT  
 > **Docs:** [hermes-agent.nousresearch.com](https://hermes-agent.nousresearch.com/)  
 > Slogan: *The agent that grows with you*

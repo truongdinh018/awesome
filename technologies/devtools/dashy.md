@@ -2,7 +2,7 @@
 
 > **Repo:** [Lissy93/dashy](https://github.com/Lissy93/dashy)  
 > **Category:** DevTools · Homelab / personal homepage dashboard  
-> **Tags:** `self-host` · `desktop` · `workspace`  
+> **Tags:** `self-host` · `desktop` · `workspace` · `docker`
 > **Ngôn ngữ:** Vue · Node · Docker · **⭐** ~25.9k · **License:** MIT  
 > Site: [dashy.to](https://dashy.to)
 

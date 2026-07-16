@@ -2,7 +2,7 @@
 
 > **Repo:** [lyogavin/airllm](https://github.com/lyogavin/airllm)  
 > **Category:** DevTools · Suy luận LLM từng layer trên GPU VRAM nhỏ  
-> **Tags:** `self-host` · `cli` · `api`  
+> **Tags:** `self-host` · `cli` · `api` · `local-llm`
 > **Ngôn ngữ:** Python · PyTorch · notebooks · **⭐** ~22.6k · **License:** Apache-2.0  
 > PyPI: [airllm](https://pypi.org/project/airllm/)
 

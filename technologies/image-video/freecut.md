@@ -2,7 +2,7 @@
 
 > **Repo:** [walterlow/freecut](https://github.com/walterlow/freecut)  
 > **Category:** Image & Video · Browser NLE (multi-track editor)  
-> **Tags:** `video` `self-host` `stt` `tts`  
+> **Tags:** `video` · `self-host` · `stt` · `tts` · `nle`
 > **Ngôn ngữ:** TypeScript · React 19 · WebGPU/WebCodecs · **⭐** ~1.6k · **License:** MIT  
 > **Site:** [freecut.net](https://freecut.net/) · Docs: [freecut.net/docs](https://freecut.net/docs)
 

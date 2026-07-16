@@ -2,7 +2,7 @@
 
 > **Repo:** [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code)  
 > **Category:** MCP & AI Agents · Educational nano Claude Code harness (0→1)  
-> **Tags:** `coding-agent` · `agent` · `skill` · `cli` · `prompt`  
+> **Tags:** `coding-agent` · `agent` · `skill` · `cli` · `prompt` · `edu`
 > **Ngôn ngữ:** Python · **⭐** ~71k · **License:** MIT  
 > Site: [learn.shareai.run](https://learn.shareai.run)
 

@@ -2,7 +2,7 @@
 
 > **Repo:** [Agents365-ai/drawio-skill](https://github.com/Agents365-ai/drawio-skill)  
 > **Category:** MCP & AI Agents · Domain: Diagram / DevTools  
-> **Tags:** `skill` · `diagram` · `cli`  
+> **Tags:** `skill` · `diagram` · `cli` · `plugin`
 > **Ngôn ngữ:** Python scripts + SKILL.md · **⭐** ~5.7k · **License:** MIT
 
 ## Đây là gì?

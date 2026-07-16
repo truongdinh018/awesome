@@ -2,7 +2,7 @@
 
 > **Repo:** [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)  
 > **Category:** MCP & AI Agents · Frontend design Agent Skills  
-> **Tags:** `skill` · `coding-agent` · `prompt` · `image-gen`  
+> **Tags:** `skill` · `coding-agent` · `prompt` · `image-gen` · `design` · `anti-slop`
 > **Ngôn ngữ:** SKILL.md / JS tooling · **⭐** ~63.3k · **License:** MIT  
 > Site: [tasteskill.dev](https://tasteskill.dev) · Slogan: *gives your AI good taste — anti-slop frontends*
 

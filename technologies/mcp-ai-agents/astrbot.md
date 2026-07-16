@@ -2,7 +2,7 @@
 
 > **Repo:** [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot)  
 > **Category:** MCP & AI Agents · IM agent chatbot platform  
-> **Tags:** `agent` · `mcp` · `skill` · `rag` · `self-host` · `api` · `workflow`  
+> **Tags:** `agent` · `mcp` · `skill` · `rag` · `self-host` · `api` · `workflow` · `chatbot`
 > **Ngôn ngữ:** Python · **⭐** ~36.4k · **License:** AGPL-3.0  
 > Site: [astrbot.app](https://astrbot.app) · Docs: [docs.astrbot.app](https://docs.astrbot.app)
 

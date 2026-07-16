@@ -413,7 +413,7 @@ input {
   z-index: 1;
   display: flex;
   flex-direction: column;
-  width: min(26rem, 100%);
+  width: min(32rem, 100%);
   height: 100%;
   background:
     linear-gradient(
@@ -536,6 +536,192 @@ input {
   position: relative;
   z-index: 2;
   overflow: visible;
+}
+
+/* Grouped capability tag filter */
+.tag-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.tag-filter-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.tag-filter-search {
+  flex: 1 1 12rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 2.4rem;
+  padding: 0.35rem 0.65rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface-soft);
+  color: var(--muted);
+}
+
+.tag-filter-search input {
+  flex: 1;
+  border: 0;
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+  outline: none;
+  min-width: 0;
+}
+
+.tag-match-mode {
+  display: inline-flex;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  overflow: hidden;
+  background: var(--surface-soft);
+}
+
+.tag-match-mode button {
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  padding: 0.45rem 0.7rem;
+  cursor: pointer;
+}
+
+.tag-match-mode button.active {
+  background: color-mix(in srgb, var(--accent) 18%, transparent);
+  color: var(--text);
+}
+
+.tag-match-hint {
+  margin: 0;
+  font-size: 0.72rem;
+  color: var(--muted);
+  line-height: 1.35;
+}
+
+.tag-filter-selected {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px dashed var(--line);
+}
+
+.tag-filter-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  max-height: min(48vh, 420px);
+  overflow: auto;
+  padding-right: 0.15rem;
+}
+
+.tag-filter-empty {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.tag-group-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  border: 0;
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+  padding: 0.15rem 0;
+  font: inherit;
+}
+
+.tag-group-dot {
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 999px;
+  background: hsl(var(--hue), var(--hue-sat), 52%);
+  flex-shrink: 0;
+}
+
+.tag-group-title {
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.tag-group-count {
+  margin-left: auto;
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--muted);
+  opacity: 0.85;
+}
+
+.tag-group-chevron {
+  font-size: 0.7rem;
+  color: var(--muted);
+}
+
+.tag-group-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  padding: 0.25rem 0 0.35rem;
+}
+
+.tag-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.28rem;
+  border: 1px solid hsla(var(--hue), var(--hue-sat), 45%, 0.32);
+  background: hsla(var(--hue), var(--hue-sat), 50%, var(--hue-bg-b));
+  color: hsl(var(--hue), calc(var(--hue-sat) + 5%), var(--hue-fg));
+  border-radius: 999px;
+  padding: 0.28rem 0.55rem;
+  font-size: 0.74rem;
+  font-weight: 650;
+  cursor: pointer;
+  line-height: 1.2;
+}
+
+.tag-chip:hover {
+  filter: brightness(0.97);
+}
+
+.tag-chip.active,
+.tag-chip.selected {
+  box-shadow: 0 0 0 2px color-mix(in srgb, hsl(var(--hue), 70%, 50%) 35%, transparent);
+  font-weight: 800;
+}
+
+.tag-chip-label {
+  max-width: 9.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tag-chip-id {
+  font-size: 0.62rem;
+  opacity: 0.72;
+  font-weight: 600;
+}
+
+.tag-chip-n {
+  font-size: 0.62rem;
+  font-weight: 800;
+  opacity: 0.8;
+  min-width: 1rem;
+  text-align: center;
 }
 
 .domain-block {

@@ -2,7 +2,7 @@
 
 > **Repo:** [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)  
 > **Category:** Image & Video · Agentic video production studio  
-> **Tags:** `video` · `agent` · `skill` · `coding-agent` · `workflow` · `cli` · `tts`  
+> **Tags:** `video` · `agent` · `skill` · `coding-agent` · `workflow` · `cli` · `tts` · `nle`
 > **Ngôn ngữ:** Python · Remotion (React) · HyperFrames · **⭐** ~38.3k · **License:** AGPL-3.0  
 > README CN: [README_zh-CN.md](https://github.com/calesthio/OpenMontage/blob/main/README_zh-CN.md)
 

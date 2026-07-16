@@ -2,7 +2,7 @@
 
 > **Repo:** [OpenBMB/MiniCPM](https://github.com/OpenBMB/MiniCPM)  
 > **Category:** DevTools · On-device LLM family  
-> **Tags:** `self-host` · `cli` · `edge` · `desktop` · `skill`  
+> **Tags:** `self-host` · `cli` · `edge` · `desktop` · `skill` · `local-llm`
 > **Ngôn ngữ:** Python · **⭐** ~9.8k · **License:** Apache-2.0  
 > Flagship hiện tại: **MiniCPM5-1B** · Multi-modal: [MiniCPM-V](https://github.com/OpenBMB/MiniCPM-V) (repo riêng)  
 > HF: [openbmb/MiniCPM5-1B](https://huggingface.co/openbmb/MiniCPM5-1B) (+ GGUF / MLX)

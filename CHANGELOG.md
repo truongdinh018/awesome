@@ -2,6 +2,8 @@
 
 Lịch sử thêm ★ / bookmark / cấu trúc catalog (mới nhất trên cùng).
 
+*2026-07-16 — UX: bộ lọc tags theo nhóm capability + nhãn VI + AND/OR + đếm; mở rộng TAGS.md (memory, design, local-llm…)*
+
 *2026-07-16 — 216 ★ · thêm Hallmark (`Nutlope/hallmark`)*
 
 *2026-07-16 — 215 ★ · thêm Minimalist Entrepreneur Skills (`slavingia/skills`)*

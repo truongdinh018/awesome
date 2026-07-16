@@ -2,7 +2,7 @@
 
 > **Repo:** [khoj-ai/khoj](https://github.com/khoj-ai/khoj)  
 > **Category:** MCP & AI Agents · Personal AI second brain  
-> **Tags:** `rag` · `agent` · `self-host` · `desktop` · `stt`  
+> **Tags:** `rag` · `agent` · `self-host` · `desktop` · `stt` · `knowledge`
 > **Ngôn ngữ:** Python · TypeScript · **⭐** ~35.7k · **License:** AGPL-3.0  
 > Site: [khoj.dev](https://khoj.dev) · Cloud: [app.khoj.dev](https://app.khoj.dev) · Docs: [docs.khoj.dev](https://docs.khoj.dev)
 

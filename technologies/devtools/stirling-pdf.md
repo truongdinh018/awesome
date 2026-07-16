@@ -2,7 +2,7 @@
 
 > **Repo:** [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)  
 > **Category:** DevTools & Integration  
-> **Tags:** `pdf` · `ocr` · `self-host` · `api`  
+> **Tags:** `pdf` · `ocr` · `self-host` · `api` · `docker`
 > **Ngôn ngữ:** Java · TypeScript · **⭐** ~87k · **License:** Open-core  
 > **Docs:** [docs.stirlingpdf.com](https://docs.stirlingpdf.com)
 

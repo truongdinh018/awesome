@@ -2,7 +2,7 @@
 
 > **Repo:** [infiniflow/ragflow](https://github.com/infiniflow/ragflow)  
 > **Category:** MCP & AI Agents · RAG engine  
-> **Tags:** `rag` · `agent` · `mcp` · `self-host` · `api`  
+> **Tags:** `rag` · `agent` · `mcp` · `self-host` · `api` · `vector`
 > **Ngôn ngữ:** Python · **⭐** ~85k · **License:** xem repo  
 > Site / docs: [ragflow.io](https://ragflow.io) · Cloud: [cloud.ragflow.io](https://cloud.ragflow.io)
 

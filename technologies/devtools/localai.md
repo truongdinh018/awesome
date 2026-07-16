@@ -2,7 +2,7 @@
 
 > **Repo:** [mudler/LocalAI](https://github.com/mudler/LocalAI)  
 > **Category:** DevTools · Engine AI local, API giống OpenAI  
-> **Tags:** `api` · `self-host` · `mcp` · `agent` · `stt` · `tts` · `image-gen`  
+> **Tags:** `api` · `self-host` · `mcp` · `agent` · `stt` · `tts` · `image-gen` · `local-llm` · `gateway`
 > **Ngôn ngữ:** Go · **⭐** ~47.5k · **License:** MIT  
 > Site: [localai.io](https://localai.io) · Models: [models.localai.io](https://models.localai.io)
 

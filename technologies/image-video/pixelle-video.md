@@ -2,7 +2,7 @@
 
 > **Repo:** [ATH-MaaS/Pixelle-Video](https://github.com/ATH-MaaS/Pixelle-Video)  
 > **Category:** Image & Video · AI short video engine (topic → clip)  
-> **Tags:** `video` · `tts` · `image-gen` · `self-host` · `workflow` · `api`  
+> **Tags:** `video` · `tts` · `image-gen` · `self-host` · `workflow` · `api` · `batch`
 > **Ngôn ngữ:** Python · Streamlit · ComfyUI / RunningHub · **⭐** ~25.4k · **License:** Apache-2.0  
 > Docs: [aidc-ai.github.io/Pixelle-Video](https://aidc-ai.github.io/Pixelle-Video/zh)
 

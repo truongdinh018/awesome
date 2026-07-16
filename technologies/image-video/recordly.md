@@ -2,7 +2,7 @@
 
 > **Repo:** [webadderallorg/Recordly](https://github.com/webadderallorg/Recordly)  
 > **Category:** Image & Video · Screen recorder + demo editor (desktop)  
-> **Tags:** `video` · `desktop` · `self-host`  
+> **Tags:** `video` · `desktop` · `self-host` · `nle`
 > **Ngôn ngữ:** TypeScript · Electron · **⭐** ~19.1k · **License:** AGPL-3.0  
 > Site: [recordly.dev](https://recordly.dev)
 

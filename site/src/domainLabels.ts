@@ -1,4 +1,5 @@
 import type { CSSProperties } from 'react'
+import { taxonomyTagHue } from './tagTaxonomy'
 
 export const DOMAIN_LABELS: Record<string, string> = {
   'mcp-ai-agents': 'MCP & AI Agents',
@@ -35,13 +36,9 @@ export function domainHue(domain: string): number {
   return DOMAIN_HUE[domain] ?? 168
 }
 
-/** Stable hue for tag chips */
+/** Tag chip hue — taxonomy group when known */
 export function tagHue(tag: string): number {
-  let h = 0
-  for (let i = 0; i < tag.length; i++) {
-    h = (h * 31 + tag.charCodeAt(i)) % 360
-  }
-  return h
+  return taxonomyTagHue(tag)
 }
 
 export function hueStyle(hue: number): CSSProperties {

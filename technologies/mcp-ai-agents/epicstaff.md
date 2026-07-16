@@ -2,7 +2,7 @@
 
 > **Repo:** [EpicStaff/EpicStaff](https://github.com/EpicStaff/EpicStaff)  
 > **Category:** MCP & AI Agents · Orchestration agent visual  
-> **Tags:** `agent` · `mcp` · `rag` · `self-host` · `workflow`  
+> **Tags:** `agent` · `mcp` · `rag` · `self-host` · `workflow` · `docker`
 > **Ngôn ngữ:** Python (Django) · frontend · **⭐** ~267 · **License:** source-available (xem `LICENSE.md`)  
 > Slogan: *We hide the complexity, not the logic.* · Site/wiki trong org EpicStaff
 

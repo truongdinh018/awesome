@@ -2,7 +2,7 @@
 
 > **Repo:** [langbot-app/LangBot](https://github.com/langbot-app/LangBot)  
 > **Category:** MCP & AI Agents · Production IM agent bots  
-> **Tags:** `agent` · `mcp` · `skill` · `rag` · `self-host` · `api` · `workflow`  
+> **Tags:** `agent` · `mcp` · `skill` · `rag` · `self-host` · `api` · `workflow` · `chatbot` · `docker`
 > **Ngôn ngữ:** Python · **⭐** ~16.9k · **License:** Apache-2.0  
 > Site: [langbot.app](https://langbot.app) · Docs / Cloud / Plugin market: xem hub site
 

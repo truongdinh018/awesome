@@ -2,7 +2,7 @@
 
 > **Repo:** [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)  
 > **Category:** MCP & AI Agents · Persistent session memory cho coding agents  
-> **Tags:** `agent` · `coding-agent` · `mcp` · `self-host` · `rag`  
+> **Tags:** `agent` · `coding-agent` · `mcp` · `self-host` · `rag` · `memory`
 > **Ngôn ngữ:** TypeScript / JavaScript · Node ≥20 · SQLite · **⭐** ~87.2k · **License:** Apache-2.0  
 > Site: [claude-mem.ai](https://claude-mem.ai)
 

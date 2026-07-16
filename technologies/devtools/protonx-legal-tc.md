@@ -2,7 +2,7 @@
 
 > **HF:** [protonx-models/protonx-legal-tc](https://huggingface.co/protonx-models/protonx-legal-tc)  
 > **Category:** DevTools · Vietnamese legal text correction (OCR post-process)  
-> **Tags:** `ocr` · `self-host` · `cli`  
+> **Tags:** `ocr` · `self-host` · `cli` · `vietnam` · `legal`
 > HF ❤️ ~43 · ↓ ~30k/mo · **~0.2B** Seq2Seq · **License:** ProtonX NC (v1.3-NC — xem LICENSE.md)  
 > Base lineage: [VietAI/vit5-base](vit5-base.md)
 

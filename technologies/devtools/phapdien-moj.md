@@ -2,7 +2,7 @@
 
 > **Dataset:** [tmquan/phapdien-moj-gov-vn](https://huggingface.co/datasets/tmquan/phapdien-moj-gov-vn)  
 > **Category:** DevTools · Vietnam legal corpus (Bộ Pháp Điển)  
-> **Tags:** `rag` · `dataset` · `self-host`  
+> **Tags:** `rag` · `dataset` · `self-host` · `vietnam` · `legal`
 > HF ❤️ ~9 · ↓ ~1.5k · **License:** CC-BY-4.0 · **Language:** Vietnamese  
 > Source portal: [phapdien.moj.gov.vn](https://phapdien.moj.gov.vn) (Bộ Tư pháp) · backlinks [vbpl.vn](https://vbpl.vn)
 

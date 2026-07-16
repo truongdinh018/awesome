@@ -2,7 +2,7 @@
 
 > **Repo:** [Nutlope/hallmark](https://github.com/Nutlope/hallmark)  
 > **Category:** MCP & AI Agents · Frontend design skill (anti-slop)  
-> **Tags:** `skill` · `coding-agent` · `prompt`  
+> **Tags:** `skill` · `coding-agent` · `prompt` · `design` · `anti-slop` · `plugin`
 > **Ngôn ngữ:** CSS / HTML / JS · SKILL.md · **⭐** ~8.9k · **License:** MIT  
 > Site: [usehallmark.com](https://www.usehallmark.com/) · Together AI (Hassan / Nutlope)
 

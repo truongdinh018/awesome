@@ -2,7 +2,7 @@
 
 > **Parent:** [CLI-Anything](../mcp-ai-agents/cli-anything.md)  
 > **Domain:** DevTools & Integration · Workflow  
-> **Tags:** `harness` · `workflow` · `cli`  
+> **Tags:** `harness` · `workflow` · `cli` · `webhook`
 > **Type:** Agent-native CLI harness  
 > **Path:** [`n8n/agent-harness`](https://github.com/HKUDS/CLI-Anything/tree/main/n8n/agent-harness)
 

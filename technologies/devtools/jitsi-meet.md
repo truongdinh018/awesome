@@ -2,7 +2,7 @@
 
 > **Repo:** [jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet)  
 > **Category:** DevTools · Self-hosted video conferencing  
-> **Tags:** `self-host` · `video` · `api`  
+> **Tags:** `self-host` · `video` · `api` · `realtime` · `docker`
 > **Ngôn ngữ:** TypeScript · React · WebRTC · **⭐** ~29.6k · **License:** Apache-2.0  
 > Site: [jitsi.org/meet](https://jitsi.org/meet) · Try: [meet.jit.si](https://meet.jit.si) · Handbook: [jitsi.github.io/handbook](https://jitsi.github.io/handbook/)
 

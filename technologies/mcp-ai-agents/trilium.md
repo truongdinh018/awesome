@@ -2,7 +2,7 @@
 
 > **Repo:** [TriliumNext/Trilium](https://github.com/TriliumNext/Trilium)  
 > **Category:** MCP & AI Agents · Hierarchical personal knowledge base  
-> **Tags:** `rag` · `self-host` · `desktop` · `api`  
+> **Tags:** `rag` · `self-host` · `desktop` · `api` · `knowledge`
 > **Ngôn ngữ:** TypeScript · Electron · Docker · **⭐** ~36.9k · **License:** AGPL-3.0  
 > Site: [triliumnotes.org](https://triliumnotes.org) · Docs: [docs.triliumnotes.org](https://docs.triliumnotes.org)
 

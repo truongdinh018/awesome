@@ -2,7 +2,7 @@
 
 > **Repo:** [exo-explore/exo](https://github.com/exo-explore/exo)  
 > **Category:** DevTools · Cụm AI local nhiều thiết bị  
-> **Tags:** `self-host` · `api` · `cli` · `desktop`  
+> **Tags:** `self-host` · `api` · `cli` · `desktop` · `local-llm`
 > **Ngôn ngữ:** Python · MLX · Rust · dashboard · **⭐** ~46.3k · **License:** Apache-2.0  
 > Slogan: *Run frontier AI locally* · Dashboard: `http://localhost:52415`
 

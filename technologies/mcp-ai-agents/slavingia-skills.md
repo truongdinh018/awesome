@@ -2,7 +2,7 @@
 
 > **Repo:** [slavingia/skills](https://github.com/slavingia/skills)  
 > **Category:** MCP & AI Agents · Skill pack (startup / product)  
-> **Tags:** `skill` · `coding-agent` · `prompt`  
+> **Tags:** `skill` · `coding-agent` · `prompt` · `plugin`
 > **Ngôn ngữ:** Claude Code plugin / SKILL.md · **⭐** ~9.6k · **License:** (chưa SPDX trên GitHub)  
 > Dựa trên sách *The Minimalist Entrepreneur* (Sahil Lavingia)
 

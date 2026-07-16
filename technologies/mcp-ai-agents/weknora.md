@@ -2,7 +2,7 @@
 
 > **Repo:** [Tencent/WeKnora](https://github.com/Tencent/WeKnora)  
 > **Category:** MCP & AI Agents · RAG / Knowledge platform  
-> **Tags:** `rag` · `mcp` · `agent` · `self-host` · `cli` · `skill`  
+> **Tags:** `rag` · `mcp` · `agent` · `self-host` · `cli` · `skill` · `vector`
 > **Ngôn ngữ:** Go · frontend · Python parsers · **⭐** ~18.3k · **License:** MIT  
 > Site: [weknora.weixin.qq.com](https://weknora.weixin.qq.com) · Slogan: *Turn documents into living knowledge*
 

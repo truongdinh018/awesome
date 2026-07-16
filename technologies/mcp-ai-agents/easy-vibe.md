@@ -2,7 +2,7 @@
 
 > **Repo:** [datawhalechina/easy-vibe](https://github.com/datawhalechina/easy-vibe)  
 > **Category:** MCP & AI Agents · Vibe coding course (beginner → ship)  
-> **Tags:** `coding-agent` · `skill` · `prompt` · `workflow`  
+> **Tags:** `coding-agent` · `skill` · `prompt` · `workflow` · `edu`
 > **Ngôn ngữ:** Docs / Next.js tutorial site · **⭐** ~18.2k · **License:** CC-BY-NC-SA-4.0  
 > Site: [datawhalechina.github.io/easy-vibe](https://datawhalechina.github.io/easy-vibe/) · 10 ngôn ngữ (có **vi**)
 

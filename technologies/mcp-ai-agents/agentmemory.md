@@ -2,7 +2,7 @@
 
 > **Repo:** [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)  
 > **Category:** MCP & AI Agents · Persistent memory cho coding agents  
-> **Tags:** `agent` · `coding-agent` · `mcp` · `self-host` · `rag` · `cli` · `skill`  
+> **Tags:** `agent` · `coding-agent` · `mcp` · `self-host` · `rag` · `cli` · `skill` · `memory`
 > **Ngôn ngữ:** TypeScript · SQLite · iii-engine · **⭐** ~25.2k · **License:** Apache-2.0  
 > npm: `@agentmemory/agentmemory`
 

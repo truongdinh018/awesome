@@ -2,7 +2,7 @@
 
 > **Repo:** [mayswind/ezbookkeeping](https://github.com/mayswind/ezbookkeeping)  
 > **Category:** DevTools · Productivity · personal finance (self-host)  
-> **Tags:** `self-host` · `desktop` · `workspace` · `mcp` · `api` · `ocr`  
+> **Tags:** `self-host` · `desktop` · `workspace` · `mcp` · `api` · `ocr` · `finance`
 > **Ngôn ngữ:** Go · TypeScript/Vue · **⭐** ~5.2k · **License:** MIT  
 > Site: [ezbookkeeping.mayswind.net](https://ezbookkeeping.mayswind.net) · Demo: [ezbookkeeping-demo.mayswind.net](https://ezbookkeeping-demo.mayswind.net)
 

@@ -2,7 +2,7 @@
 
 > **Repo:** [vllm-project/vllm-omni](https://github.com/vllm-project/vllm-omni)  
 > **Category:** DevTools · Serve omni-modality trên nền vLLM  
-> **Tags:** `api` · `self-host` · `cli` · `tts` · `image-gen` · `video`  
+> **Tags:** `api` · `self-host` · `cli` · `tts` · `image-gen` · `video` · `local-llm` · `multimodal`
 > **Ngôn ngữ:** Python · **⭐** ~5.6k · **License:** Apache-2.0  
 > Docs: [vllm-omni.readthedocs.io](https://vllm-omni.readthedocs.io/en/latest/) · Paper: [arXiv:2602.02204](https://arxiv.org/abs/2602.02204)
 

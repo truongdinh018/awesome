@@ -2,7 +2,7 @@
 
 > **Repo:** [thanglequoc/vietnamese-provinces-database](https://github.com/thanglequoc/vietnamese-provinces-database)  
 > **Category:** DevTools & Integration · Geo / địa chính VN  
-> **Tags:** `gis`  
+> **Tags:** `gis` · `vietnam`
 > **Ngôn ngữ:** SQL · JSON · Mongo · Redis · GeoJSON · **⭐** ~1.7k · **License:** MIT  
 > Cập nhật theo nghị quyết/NQ mới nhất (vd. **30/2026/QH16** — **34 tỉnh/TP**, ~3321 xã/phường)
 

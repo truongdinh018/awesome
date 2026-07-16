@@ -2,7 +2,7 @@
 
 > **Repo:** [lfnovo/open-notebook](https://github.com/lfnovo/open-notebook)  
 > **Category:** MCP & AI Agents · Local-first knowledge notebook  
-> **Tags:** `rag` · `self-host` · `api` · `tts`  
+> **Tags:** `rag` · `self-host` · `api` · `tts` · `knowledge`
 > **Ngôn ngữ:** Python · Next.js · SurrealDB · **⭐** ~35.6k · **License:** MIT  
 > Site: [open-notebook.ai](https://www.open-notebook.ai) · Slogan: *Privacy-focused alternative to Notebook LM*
 

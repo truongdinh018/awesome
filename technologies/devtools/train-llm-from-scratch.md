@@ -2,7 +2,7 @@
 
 > **Repo:** [FareedKhan-dev/train-llm-from-scratch](https://github.com/FareedKhan-dev/train-llm-from-scratch)  
 > **Category:** DevTools · Pretrain + post-training LLM từ đầu (PyTorch)  
-> **Tags:** `self-host` · `cli` · `desktop`  
+> **Tags:** `self-host` · `cli` · `desktop` · `finetune` · `edu`
 > **Ngôn ngữ:** Python · PyTorch · **⭐** ~8.3k · **License:** MIT  
 > Docs: [fareedkhan-dev.github.io/train-llm-from-scratch](https://fareedkhan-dev.github.io/train-llm-from-scratch/)
 

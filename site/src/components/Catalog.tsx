@@ -1,8 +1,9 @@
 import { useEffect, useId, useMemo, useRef, useState } from 'react'
 import type { CatalogItem } from '../api'
 import { domainHue, domainLabel, hueStyle, tagHue } from '../domainLabels'
+import { tagLabel } from '../tagTaxonomy'
 import { ThemeToggle } from './ThemeToggle'
-import { TagMultiSelect } from './TagMultiSelect'
+import { TagMultiSelect, type TagMatchMode } from './TagMultiSelect'
 import { DomainMultiSelect } from './DomainMultiSelect'
 import type { ThemeMode } from '../theme'
 
@@ -25,6 +26,7 @@ type Props = {
 }
 
 const SEARCH_DEBOUNCE_MS = 320
+const TAG_MODE_KEY = 'awesome-tag-match-mode'
 
 export function Catalog({
   items,
@@ -46,14 +48,39 @@ export function Catalog({
   const [searching, setSearching] = useState(false)
   const [displayItems, setDisplayItems] = useState<CatalogItem[]>([])
   const [drawerOpen, setDrawerOpen] = useState(false)
+  const [tagMatchMode, setTagMatchMode] = useState<TagMatchMode>(() => {
+    try {
+      return localStorage.getItem(TAG_MODE_KEY) === 'or' ? 'or' : 'and'
+    } catch {
+      return 'and'
+    }
+  })
   const searchGen = useRef(0)
 
   const openDrawer = () => setDrawerOpen(true)
   const closeDrawer = () => setDrawerOpen(false)
 
+  const tagCounts = useMemo(() => {
+    const map: Record<string, number> = {}
+    for (const item of items) {
+      for (const t of item.tags) {
+        map[t] = (map[t] ?? 0) + 1
+      }
+    }
+    return map
+  }, [items])
+
   useEffect(() => {
     setDraftQuery(query)
   }, [query])
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(TAG_MODE_KEY, tagMatchMode)
+    } catch {
+      /* ignore */
+    }
+  }, [tagMatchMode])
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -91,8 +118,12 @@ export function Catalog({
       if (activeDomains.length > 0 && !activeDomains.includes(item.domain)) {
         return false
       }
-      if (activeTags.length > 0 && !activeTags.every((t) => item.tags.includes(t))) {
-        return false
+      if (activeTags.length > 0) {
+        const hit =
+          tagMatchMode === 'and'
+            ? activeTags.every((t) => item.tags.includes(t))
+            : activeTags.some((t) => item.tags.includes(t))
+        if (!hit) return false
       }
       if (!q) return true
       const hay = [
@@ -103,12 +134,13 @@ export function Catalog({
         item.excerpt,
         item.domain,
         ...item.tags,
+        ...item.tags.map(tagLabel),
       ]
         .join(' ')
         .toLowerCase()
       return hay.includes(q)
     })
-  }, [items, query, activeDomains, activeTags])
+  }, [items, query, activeDomains, activeTags, tagMatchMode])
 
   // Debounce text search → apply filters → keep loading until results are ready
   useEffect(() => {
@@ -152,6 +184,21 @@ export function Catalog({
     })
     return () => window.cancelAnimationFrame(id)
   }, [searching, draftQuery, query, filtered])
+
+  const tagModeInit = useRef(true)
+  useEffect(() => {
+    if (tagModeInit.current) {
+      tagModeInit.current = false
+      return
+    }
+    searchGen.current += 1
+    setSearching(true)
+    const id = window.setTimeout(() => {
+      setDisplayItems(filtered)
+      setSearching(false)
+    }, 40)
+    return () => window.clearTimeout(id)
+  }, [tagMatchMode, filtered])
 
   const beginFilter = (next: {
     q: string
@@ -244,7 +291,7 @@ export function Catalog({
             Awesome <em>AI</em>
           </h1>
           <p className="catalog-lead">
-            Kho bài ngắn về tool bạn đã star — lọc domain &amp; tag, mở card để đọc Markdown.
+            Kho bài ngắn về tool bạn đã star — lọc domain &amp; tag theo nhóm capability, mở card để đọc Markdown.
           </p>
           <p className="hero-meta" aria-live="polite">
             {searching ? (
@@ -267,6 +314,9 @@ export function Catalog({
                       onClick={openDrawer}
                     >
                       {activeFilterCount} lọc đang bật
+                      {activeTags.length > 0
+                        ? ` · ${tagMatchMode.toUpperCase()}`
+                        : ''}
                     </button>
                   </>
                 ) : null}
@@ -361,7 +411,7 @@ export function Catalog({
 
               <div className="filter-block tags-block">
                 <div className="filter-label-row">
-                  <p className="filter-label">Tags</p>
+                  <p className="filter-label">Tags · capability</p>
                   {activeTags.length > 0 && (
                     <button
                       type="button"
@@ -374,8 +424,11 @@ export function Catalog({
                 </div>
                 <TagMultiSelect
                   tags={tags}
+                  counts={tagCounts}
                   value={activeTags}
+                  matchMode={tagMatchMode}
                   onChange={setActiveTags}
+                  onMatchModeChange={setTagMatchMode}
                 />
               </div>
             </div>
@@ -470,8 +523,9 @@ export function Catalog({
                             style={hueStyle(tagHue(t))}
                             onClick={() => toggleTag(t)}
                             disabled={searching}
+                            title={t}
                           >
-                            {t}
+                            {tagLabel(t)}
                           </button>
                         ))}
                         {hiddenTagCount > 0 ? (
@@ -500,7 +554,7 @@ export function Catalog({
 
         {!searching && filtered.length === 0 && (
           <p className="empty-state">
-            Không có bài khớp bộ lọc. Thử bỏ tag hoặc đổi từ khóa.
+            Không có bài khớp bộ lọc. Thử OR thay AND, bỏ tag, hoặc đổi từ khóa.
           </p>
         )}
       </div>

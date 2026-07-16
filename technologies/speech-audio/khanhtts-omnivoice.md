@@ -2,7 +2,7 @@
 
 > **HF:** [kjanh/KhanhTTS-OmniVoice](https://huggingface.co/kjanh/KhanhTTS-OmniVoice)  
 > **Category:** Speech & Audio · Vietnamese + English TTS (OmniVoice fine-tune)  
-> **Tags:** `tts` · `voice-clone` · `self-host` · `cli`  
+> **Tags:** `tts` · `voice-clone` · `self-host` · `cli` · `vietnam`
 > **Ngôn ngữ:** Python · HF ❤️ ~34 · ↓ ~2.3k/mo · **License:** Apache-2.0  
 > Base: [k2-fsa/OmniVoice](https://huggingface.co/k2-fsa/OmniVoice) · Paper: [arXiv:2604.00688](https://arxiv.org/abs/2604.00688)
 

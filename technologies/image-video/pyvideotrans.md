@@ -2,7 +2,7 @@
 
 > **Repo:** [jianchang512/pyvideotrans](https://github.com/jianchang512/pyvideotrans)  
 > **Category:** Image & Video · Video translation / dubbing suite  
-> **Tags:** `video` · `stt` · `tts` · `voice-clone` · `desktop` · `self-host` · `cli`  
+> **Tags:** `video` · `stt` · `tts` · `voice-clone` · `desktop` · `self-host` · `cli` · `subtitle` · `dubbing`
 > **Ngôn ngữ:** Python · **⭐** ~18.3k · **License:** GPL-3.0  
 > Docs: [pyvideotrans.com](https://pyvideotrans.com) · BBS: [bbs.pyvideotrans.com](https://bbs.pyvideotrans.com)
 

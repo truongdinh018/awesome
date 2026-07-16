@@ -2,7 +2,7 @@
 
 > **Repo:** [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm)  
 > **Category:** MCP & AI Agents · Workspace AI local-first  
-> **Tags:** `rag` · `agent` · `mcp` · `self-host` · `desktop` · `api`  
+> **Tags:** `rag` · `agent` · `mcp` · `self-host` · `desktop` · `api` · `vector` · `knowledge`
 > **Ngôn ngữ:** Node.js · React · **⭐** ~63.3k · **License:** MIT  
 > Docs: [docs.anythingllm.com](https://docs.anythingllm.com) · Slogan: *Stop renting your intelligence*
 

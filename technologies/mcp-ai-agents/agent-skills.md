@@ -2,7 +2,7 @@
 
 > **Repo:** [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)  
 > **Category:** MCP & AI Agents · Bộ skill production engineering  
-> **Tags:** `skill` · `coding-agent` · `prompt`  
+> **Tags:** `skill` · `coding-agent` · `prompt` · `plugin`
 > **Ngôn ngữ:** Markdown skills · JS tooling · **⭐** ~78.1k · **License:** MIT  
 > Install: `npx skills add addyosmani/agent-skills`
 

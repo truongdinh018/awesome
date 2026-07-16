@@ -2,7 +2,7 @@
 
 > **Repo:** [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop)  
 > **Category:** MCP & AI Agents · Skill gỡ “AI tells” khỏi văn xuôi  
-> **Tags:** `skill` · `coding-agent` · `prompt`  
+> **Tags:** `skill` · `coding-agent` · `prompt` · `anti-slop`
 > **Ngôn ngữ:** SKILL.md / Markdown · **⭐** ~13.8k · **License:** MIT  
 > Author: [Hardik Pandya](https://hvpandya.com)
 

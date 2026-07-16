@@ -2,7 +2,7 @@
 
 > **Repo:** [libre-tube/LibreTube](https://github.com/libre-tube/LibreTube)  
 > **Category:** Image & Video · YouTube client (Android, privacy)  
-> **Tags:** `video` · `desktop` · `self-host`  
+> **Tags:** `video` · `desktop` · `self-host` · `mobile`
 > **Ngôn ngữ:** Kotlin · **⭐** ~12.3k · **License:** GPL-3.0  
 > Site: [libretube.dev](https://libretube.dev)
 

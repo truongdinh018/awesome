@@ -2,7 +2,7 @@
 
 > **Repo:** [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex)  
 > **Category:** MCP & AI Agents · RAG (vectorless)  
-> **Tags:** `rag` · `mcp` · `self-host` · `cli`  
+> **Tags:** `rag` · `mcp` · `self-host` · `cli` · `vector`
 > **Ngôn ngữ:** Python · **⭐** ~34k · **License:** MIT  
 > **Site:** [pageindex.ai](https://pageindex.ai) · Slogan: *Reasoning-based RAG · No Vector DB · No Chunking*
 

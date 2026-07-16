@@ -2,7 +2,7 @@
 
 > **Repo:** [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi)  
 > **Category:** DevTools · OpenAI-compatible free-tier LLM proxy  
-> **Tags:** `api` · `self-host` · `mcp` · `desktop`  
+> **Tags:** `api` · `self-host` · `mcp` · `desktop` · `gateway` · `local-llm`
 > **Ngôn ngữ:** TypeScript · Node 20+ · **⭐** ~16k · **License:** MIT  
 > Site: [freellmapi.co](https://freellmapi.co) · *Personal experimentation only*
 
