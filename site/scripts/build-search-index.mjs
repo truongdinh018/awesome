@@ -32,11 +32,14 @@ const statusJsonPath = path.join(
 )
 
 const MODEL_ID =
-  process.env.EMBED_MODEL || 'Xenova/paraphrase-multilingual-MiniLM-L12-v2'
+  process.env.EMBED_MODEL || 'Xenova/multilingual-e5-small'
 const SKIP_EMBED = process.env.SKIP_EMBED === '1'
 const FORCE_EMBED = process.env.FORCE_EMBED === '1'
 const MARK_CURRENT = process.env.MARK_CURRENT === '1'
 const MAX_BODY_CHARS = 4000
+/** Bump when embed text recipe / model prefix changes */
+const EMBED_RECIPE = 'short-e5-v1'
+const USE_E5_PREFIX = !/minilm/i.test(MODEL_ID)
 
 function nowIso() {
   return new Date().toISOString()
@@ -56,14 +59,15 @@ function stripMd(md) {
     .trim()
 }
 
-function embedInput(item, bodyText) {
+/** Compact text for embedding — long body dilutes title/tag signal (audit MRR 0.40→0.85). */
+function embedInput(item, _bodyText) {
   return [
     item.title,
+    item.repo,
     item.domain,
     item.category,
-    item.tags.join(' '),
+    item.tags.join(', '),
     item.excerpt,
-    bodyText.slice(0, MAX_BODY_CHARS),
   ]
     .filter(Boolean)
     .join('\n')
@@ -111,12 +115,18 @@ function queryOne(db, sql, params = []) {
 
 async function loadEmbedder() {
   const { pipeline } = await import('@xenova/transformers')
-  console.log(`[index] loading embedder ${MODEL_ID} …`)
+  console.log(
+    `[index] loading embedder ${MODEL_ID} (recipe=${EMBED_RECIPE}, e5_prefix=${USE_E5_PREFIX}) …`,
+  )
   const extractor = await pipeline('feature-extraction', MODEL_ID, {
     quantized: true,
   })
   return async (text) => {
-    const out = await extractor(text, { pooling: 'mean', normalize: true })
+    const input =
+      USE_E5_PREFIX && !/^(query|passage):\s/i.test(text)
+        ? `passage: ${text}`
+        : text
+    const out = await extractor(input, { pooling: 'mean', normalize: true })
     return new Float32Array(out.data)
   }
 }
@@ -143,6 +153,11 @@ function setMeta(db, key, value) {
      ON CONFLICT(key) DO UPDATE SET value = excluded.value`,
     [key, value],
   )
+}
+
+function getMeta(db, key) {
+  const row = queryOne(db, 'SELECT value FROM meta WHERE key = ?', [key])
+  return row ? String(row.value) : null
 }
 
 /**
@@ -267,10 +282,12 @@ async function main() {
     const articleId = Number(idRow.id)
     const hasEmb = queryOne(
       db,
-      'SELECT article_id FROM embeddings WHERE article_id = ?',
+      'SELECT article_id, model FROM embeddings WHERE article_id = ?',
       [articleId],
     )
-    if (FORCE_EMBED || hashChanged || !hasEmb) {
+    const recipeChanged = getMeta(db, 'embed_recipe') !== EMBED_RECIPE
+    const modelChanged = hasEmb && String(hasEmb.model) !== MODEL_ID
+    if (FORCE_EMBED || hashChanged || !hasEmb || recipeChanged || modelChanged) {
       needEmbed.push({
         id: articleId,
         path: item.path,
@@ -316,6 +333,7 @@ async function main() {
   setMeta(db, 'indexed_at', ts)
   setMeta(db, 'article_count', String(seenPaths.size))
   setMeta(db, 'schema_version', '1')
+  setMeta(db, 'embed_recipe', EMBED_RECIPE)
 
   /** @type {Record<string, object>} */
   const statusMap = {}

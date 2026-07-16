@@ -1341,6 +1341,23 @@ a.list-repo:hover {
   font-weight: 750;
 }
 
+.hero-meta-loading.model-loading {
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.hero-meta-ready {
+  color: color-mix(in srgb, #16a34a 70%, var(--muted));
+  font-weight: 750;
+  font-size: 0.85em;
+}
+
+.hero-meta-error {
+  color: color-mix(in srgb, #dc2626 75%, var(--muted));
+  font-weight: 750;
+  font-size: 0.85em;
+}
+
 @keyframes spin {
   to {
     transform: rotate(360deg);

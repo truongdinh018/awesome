@@ -1,61 +1,49 @@
 # Semantic search (SQLite)
 
-Catalog dùng **SQLite** (`site/public/data/search.sqlite`) để:
+Catalog dùng **SQLite** (`site/public/data/search.sqlite`) để lưu metadata, freshness (`new` / `current` / `updated` / `removed`), và embeddings — chạy trên GitHub Pages (không server).
 
-1. Lưu metadata bài viết (title, tags, excerpt, body…)
-2. Đánh dấu freshness: `new` | `current` | `updated` | `removed`
-3. Lưu **embeddings** để tìm theo ngữ nghĩa trên GitHub Pages (không cần server)
+## Model & recipe hiện tại
 
-## Chạy index (offline)
+| | |
+|--|--|
+| Model | `Xenova/multilingual-e5-small` |
+| Prefix | `passage: …` (index) / `query: …` (web) |
+| Embed text | title + repo + domain + category + tags + excerpt (`short-e5-v1`) |
+| Hybrid | RRF; câu ngắn tăng trọng số keyword (title/tag boost) |
 
-Trong `site/`:
+## UX
+
+- Mở catalog → **preload** SQLite + model lúc idle
+- Lần đầu: hiện *“Đang tải model tìm kiếm…”* (cache browser cho lần sau)
+- Thanh meta: `semantic sẵn sàng` / lỗi → fallback từ khóa
+
+## Audit
 
 ```bash
-# Metadata + FTS + embed (lần đầu tải model ~50MB)
-npm run index:search
+cd site && node --import tsx scripts/audit-search.mjs
+```
 
-# Chỉ metadata/FTS (nhanh, không embed)
+(Lưu ý: audit script có thể cần cập nhật MODEL_ID nếu so sánh với MiniLM cũ.)
+
+## Index offline
+
+```bash
+cd site
+npm run index:search                 # metadata + embed
 npm run index:search:meta
-
-# Đánh dấu mọi bài đang active thành current (bỏ badge Mới/Cập nhật)
 npm run index:search:mark-current
-
-# Embed lại toàn bộ
 FORCE_EMBED=1 npm run index:search
 ```
 
-Khi bạn **dừng Cursor** để máy rảnh, chạy `npm run index:search` — script chỉ embed bài **mới** hoặc **đổi nội dung** (`content_hash`).
+Đổi `EMBED_MODEL` / `embed_recipe` → script tự re-embed.
 
-### Freshness / update
+## Search modes
 
-| Tình huống khi re-index | `status` |
-|-------------------------|----------|
-| Path chưa có trong DB | `new` |
-| Có rồi, `content_hash` đổi | `updated` (metadata + vector được cập nhật) |
-| Có rồi, hash giống | giữ `new` nếu còn mới; không thì `current` |
-| Có trong DB, không còn file | `removed` |
-| `MARK_CURRENT=1` | mọi bài active → `current` |
+- **Từ khóa** — token + whole-word + boost title/tag
+- **Ngữ nghĩa** — cosine e5
+- **Hybrid** — vector + keyword → RRF (mặc định)
 
-Trên web: mở bài → lưu `localStorage` “đã xem” → badge ẩn với máy đó.
+## Schema / deploy
 
-Artifact kèm theo: `public/data/articles-status.json` (badge nhanh, không cần đọc hết SQLite).
-
-## Search trên web
-
-Trong drawer **Lọc**:
-
-- **Từ khóa** — substring như trước
-- **Ngữ nghĩa** — cosine trên embedding (Transformers.js, cùng model lúc index)
-- **Hybrid** — vector + keyword (LIKE trong SQLite) rồi **RRF** merge (mặc định)
-
-Model mặc định: `Xenova/paraphrase-multilingual-MiniLM-L12-v2` (đổi bằng `EMBED_MODEL=...`).
-
-> sql.js (WASM) không có FTS5; keyword trong DB dùng `LIKE`. Client vẫn có mode **Từ khóa** thuần.
-
-## Schema
-
-Xem [`site/scripts/search-schema.sql`](site/scripts/search-schema.sql).
-
-## Deploy
-
-Commit `public/data/search.sqlite` + `articles-status.json` rồi build/deploy Pages như bình thường. Không cần backend.
+- `site/scripts/search-schema.sql`
+- Ship `public/data/search.sqlite` + `articles-status.json` + `sql-wasm.wasm`

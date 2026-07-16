@@ -13,9 +13,12 @@ import {
   loadArticlesStatus,
   loadSeenPaths,
   markPathSeen,
+  preloadSearchRuntime,
   semanticSearch,
+  subscribeEmbedderStatus,
   type ArticleStatus,
   type ArticleStatusInfo,
+  type EmbedderStatus,
   type SearchMode,
 } from '../lib/semanticSearch'
 
@@ -88,11 +91,23 @@ export function Catalog({
   >({})
   const [seenPaths, setSeenPaths] = useState<Set<string>>(() => loadSeenPaths())
   const [semanticHits, setSemanticHits] = useState<string[] | null>(null)
+  const [embedderStatus, setEmbedderStatus] =
+    useState<EmbedderStatus>('idle')
+  const [embedderDetail, setEmbedderDetail] = useState('')
   const searchGen = useRef(0)
+  const semanticGen = useRef(0)
 
   useEffect(() => {
     void loadArticlesStatus().then((data) => {
       if (data?.articles) setStatusByPath(data.articles)
+    })
+  }, [])
+
+  useEffect(() => {
+    preloadSearchRuntime()
+    return subscribeEmbedderStatus((status, detail) => {
+      setEmbedderStatus(status)
+      setEmbedderDetail(detail ?? '')
     })
   }, [])
 
@@ -198,7 +213,7 @@ export function Catalog({
     semanticHits,
   ])
 
-  // Semantic / hybrid retrieval (async)
+  // Semantic / hybrid retrieval (async) — own generation counter (don't share with debounce)
   useEffect(() => {
     const q = query.trim()
     if (!q || searchMode === 'keyword') {
@@ -206,7 +221,7 @@ export function Catalog({
       return
     }
 
-    const gen = ++searchGen.current
+    const gen = ++semanticGen.current
     let cancelled = false
     setSemanticHits(null)
     setSearching(true)
@@ -214,10 +229,10 @@ export function Catalog({
     void (async () => {
       try {
         const hits = await semanticSearch(q, { mode: searchMode, limit: 80 })
-        if (cancelled || searchGen.current !== gen) return
+        if (cancelled || semanticGen.current !== gen) return
         setSemanticHits(hits.map((h) => h.path))
       } catch {
-        if (cancelled || searchGen.current !== gen) return
+        if (cancelled || semanticGen.current !== gen) return
         setSemanticHits([])
       }
     })()
@@ -385,10 +400,16 @@ export function Catalog({
             Kho bài ngắn về tool bạn đã star — lọc domain &amp; tag theo nhóm capability, mở card để đọc Markdown.
           </p>
           <p className="hero-meta" aria-live="polite">
-            {searching ? (
-              <>
-                <span className="hero-meta-loading">Đang tìm…</span>
-              </>
+            {embedderStatus === 'loading' ? (
+              <span className="hero-meta-loading model-loading">
+                Đang tải model tìm kiếm… (lần đầu có thể chậm, lần sau dùng cache)
+              </span>
+            ) : searching ? (
+              <span className="hero-meta-loading">
+                {embedderStatus === 'ready' || searchMode === 'keyword'
+                  ? 'Đang tìm…'
+                  : 'Đang chuẩn bị tìm kiếm…'}
+              </span>
             ) : (
               <>
                 <strong>{filtered.length}</strong> đang hiện
@@ -396,6 +417,22 @@ export function Catalog({
                 <strong>{items.length}</strong> bài
                 <span aria-hidden>·</span>
                 <strong>{tags.length}</strong> tags
+                {searchMode !== 'keyword' && embedderStatus === 'ready' ? (
+                  <>
+                    <span aria-hidden>·</span>
+                    <span className="hero-meta-ready" title={embedderDetail}>
+                      semantic sẵn sàng
+                    </span>
+                  </>
+                ) : null}
+                {embedderStatus === 'error' ? (
+                  <>
+                    <span aria-hidden>·</span>
+                    <span className="hero-meta-error" title={embedderDetail}>
+                      semantic lỗi — dùng từ khóa
+                    </span>
+                  </>
+                ) : null}
                 {activeFilterCount > 0 ? (
                   <>
                     <span aria-hidden>·</span>
@@ -563,7 +600,11 @@ export function Catalog({
         {searching && (
           <div className="results-loading" role="status" aria-live="polite">
             <span className="spinner" aria-hidden />
-            <span>Đang tìm kết quả…</span>
+            <span>
+              {embedderStatus === 'loading'
+                ? 'Đang tải model tìm kiếm… (lần đầu ~30–80MB, lần sau cache)'
+                : 'Đang tìm kết quả…'}
+            </span>
           </div>
         )}
 

@@ -1,6 +1,6 @@
 {
-  "indexedAt": "2026-07-16T10:37:33.960Z",
-  "model": "Xenova/paraphrase-multilingual-MiniLM-L12-v2",
+  "indexedAt": "2026-07-16T10:50:21.799Z",
+  "model": "Xenova/multilingual-e5-small",
   "articles": {
     "technologies/bookmarks/codex-pets.md": {
       "status": "current",

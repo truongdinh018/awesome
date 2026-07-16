@@ -24,20 +24,59 @@ export type SearchHit = {
   source: 'vector' | 'fts' | 'hybrid'
 }
 
-const MODEL_ID = 'Xenova/paraphrase-multilingual-MiniLM-L12-v2'
+const MODEL_ID = 'Xenova/multilingual-e5-small'
+/** Must match index script (passage: … / query: …) */
+const E5_PREFIX = true
+const EMBED_RECIPE = 'short-e5-v1'
+
+export type EmbedderStatus =
+  | 'idle'
+  | 'loading'
+  | 'ready'
+  | 'error'
+  | 'unavailable'
+
+type EmbedderStatusListener = (status: EmbedderStatus, detail?: string) => void
+
+let sqlPromise: Promise<SqlJsStatic> | null = null
+let dbPromise: Promise<Database | null> | null = null
+let statusPromise: Promise<ArticlesStatusFile | null> | null = null
+let embedderPromise: Promise<
+  ((text: string, role: 'query' | 'passage') => Promise<Float32Array>) | null
+> | null = null
+let embedderStatus: EmbedderStatus = 'idle'
+let embedderDetail = ''
+const embedderListeners = new Set<EmbedderStatusListener>()
+
+export function getEmbedderStatus(): {
+  status: EmbedderStatus
+  detail: string
+  model: string
+} {
+  return { status: embedderStatus, detail: embedderDetail, model: MODEL_ID }
+}
+
+export function subscribeEmbedderStatus(
+  listener: EmbedderStatusListener,
+): () => void {
+  embedderListeners.add(listener)
+  listener(embedderStatus, embedderDetail)
+  return () => {
+    embedderListeners.delete(listener)
+  }
+}
+
+function setEmbedderStatus(status: EmbedderStatus, detail = '') {
+  embedderStatus = status
+  embedderDetail = detail
+  for (const listener of embedderListeners) listener(status, detail)
+}
 
 function assetUrl(rel: string): string {
   const base = import.meta.env.BASE_URL || '/'
   const normalized = rel.replace(/^\/+/, '')
   return `${base.endsWith('/') ? base : `${base}/`}${normalized}`
 }
-
-let sqlPromise: Promise<SqlJsStatic> | null = null
-let dbPromise: Promise<Database | null> | null = null
-let statusPromise: Promise<ArticlesStatusFile | null> | null = null
-let embedderPromise: Promise<
-  ((text: string) => Promise<Float32Array>) | null
-> | null = null
 
 function getSql(): Promise<SqlJsStatic> {
   if (!sqlPromise) {
@@ -98,11 +137,9 @@ function queryAll(
 function blobToFloat32(blob: Uint8Array | number[]): Float32Array {
   const bytes =
     blob instanceof Uint8Array ? blob : Uint8Array.from(blob as number[])
-  return new Float32Array(
-    bytes.buffer,
-    bytes.byteOffset,
-    bytes.byteLength / Float32Array.BYTES_PER_ELEMENT,
-  )
+  // Copy so byteOffset is 0 — Float32Array view requires 4-byte alignment
+  const copy = new Uint8Array(bytes)
+  return new Float32Array(copy.buffer)
 }
 
 function cosine(a: Float32Array, b: Float32Array): number {
@@ -113,23 +150,34 @@ function cosine(a: Float32Array, b: Float32Array): number {
 }
 
 async function getEmbedder(): Promise<
-  ((text: string) => Promise<Float32Array>) | null
+  ((text: string, role: 'query' | 'passage') => Promise<Float32Array>) | null
 > {
   if (!embedderPromise) {
     embedderPromise = (async () => {
       try {
+        setEmbedderStatus(
+          'loading',
+          'Đang tải model tìm kiếm (lần đầu ~30–80MB, lần sau dùng cache)…',
+        )
         const { pipeline } = await import('@xenova/transformers')
         const extractor = await pipeline('feature-extraction', MODEL_ID, {
           quantized: true,
         })
-        return async (text: string) => {
-          const out = await extractor(text, {
+        setEmbedderStatus('ready', 'Model sẵn sàng')
+        return async (text: string, role: 'query' | 'passage') => {
+          const prefixed =
+            E5_PREFIX && !/^(query|passage):\s/i.test(text)
+              ? `${role}: ${text}`
+              : text
+          const out = await extractor(prefixed, {
             pooling: 'mean',
             normalize: true,
           })
           return new Float32Array(out.data as Float32Array)
         }
-      } catch {
+      } catch (err) {
+        const msg = err instanceof Error ? err.message : 'Không tải được model'
+        setEmbedderStatus('error', msg)
         return null
       }
     })()
@@ -137,8 +185,87 @@ async function getEmbedder(): Promise<
   return embedderPromise
 }
 
-function escapeLike(q: string): string {
-  return q.trim().replace(/[%_]/g, '')
+/** Warm model + SQLite after catalog paints (idle). */
+export function preloadSearchRuntime(): void {
+  const run = () => {
+    void loadSearchDb()
+    void getEmbedder()
+  }
+  const w = window as Window & {
+    requestIdleCallback?: (
+      cb: () => void,
+      opts?: { timeout: number },
+    ) => number
+  }
+  if (typeof w.requestIdleCallback === 'function') {
+    w.requestIdleCallback(() => run(), { timeout: 2500 })
+  } else {
+    globalThis.setTimeout(run, 400)
+  }
+}
+
+export function getSearchModelId(): string {
+  return MODEL_ID
+}
+
+export function getEmbedRecipe(): string {
+  return EMBED_RECIPE
+}
+
+const STOPWORDS = new Set([
+  'a',
+  'an',
+  'the',
+  'and',
+  'or',
+  'to',
+  'for',
+  'of',
+  'in',
+  'on',
+  'with',
+  'is',
+  'là',
+  'và',
+  'của',
+  'cho',
+  'với',
+  'một',
+  'các',
+  'để',
+  'trong',
+  'về',
+  'tìm',
+  'kiếm',
+  'làm',
+  'sao',
+  'như',
+  'thế',
+])
+
+function tokenizeQuery(q: string): string[] {
+  return q
+    .trim()
+    .toLowerCase()
+    .replace(/[%_]/g, '')
+    .split(/[^\p{L}\p{N}+#.-]+/u)
+    .map((t) => t.trim())
+    .filter((t) => t.length >= 2 && !STOPWORDS.has(t))
+}
+
+/** Whole-token / tag-aware match — avoids LIKE %rag% hitting "storage". */
+function tokenMatchScore(hay: string, token: string): number {
+  if (token.length <= 4) {
+    const re = new RegExp(
+      `(^|[^\\p{L}\\p{N}])${token.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?=[^\\p{L}\\p{N}]|$)`,
+      'iu',
+    )
+    if (!re.test(hay)) return 0
+    // Boost exact tag / title-ish hits
+    if (hay.includes(`"${token}"`) || hay.includes(`\`${token}\``)) return 3
+    return 2
+  }
+  return hay.includes(token) ? 1 : 0
 }
 
 function keywordDbSearch(
@@ -146,34 +273,52 @@ function keywordDbSearch(
   query: string,
   limit: number,
 ): SearchHit[] {
-  const raw = escapeLike(query)
-  if (!raw) return []
-  const tokens = raw.split(/\s+/).filter(Boolean).slice(0, 6)
+  const tokens = tokenizeQuery(query)
   if (tokens.length === 0) return []
-
-  const clauses = tokens.map(
-    () =>
-      `(title LIKE ? OR excerpt LIKE ? OR body_text LIKE ? OR tags_json LIKE ? OR category LIKE ? OR repo LIKE ?)`,
-  )
-  const params: string[] = []
-  for (const t of tokens) {
-    const p = `%${t}%`
-    params.push(p, p, p, p, p, p)
-  }
 
   try {
     const rows = queryAll(
       db,
-      `SELECT path FROM articles
-       WHERE status != 'removed' AND ${clauses.join(' AND ')}
-       LIMIT ?`,
-      [...params, limit],
+      `SELECT path, title, excerpt, body_text, tags_json, category, repo, slug
+       FROM articles WHERE status != 'removed'`,
     )
-    return rows.map((row, i) => ({
-      path: String(row.path),
-      score: 1 / (i + 1),
-      source: 'fts' as const,
-    }))
+    const scored: SearchHit[] = []
+    for (const row of rows) {
+      const titleHay = `${row.title} ${row.slug} ${row.repo}`.toLowerCase()
+      const tagHay = String(row.tags_json).toLowerCase()
+      const hay = [
+        row.title,
+        row.slug,
+        row.repo,
+        row.category,
+        row.tags_json,
+        row.excerpt,
+        row.body_text,
+      ]
+        .join(' ')
+        .toLowerCase()
+      let score = 0
+      let matched = 0
+      for (const t of tokens) {
+        const s = tokenMatchScore(hay, t)
+        if (s > 0) {
+          matched += 1
+          score += s
+          // Boost title / tag hits (short queries like RAG, TTS)
+          if (tokenMatchScore(titleHay, t) > 0) score += 2
+          if (tokenMatchScore(tagHay, t) > 0) score += 2.5
+        }
+      }
+      if (matched === 0) continue
+      score += matched * 0.5
+      scored.push({
+        path: String(row.path),
+        score,
+        source: 'fts',
+      })
+    }
+    scored.sort((a, b) => b.score - a.score)
+    return scored.slice(0, limit)
   } catch {
     return []
   }
@@ -186,7 +331,7 @@ async function vectorSearch(
 ): Promise<SearchHit[]> {
   const embed = await getEmbedder()
   if (!embed) return []
-  const qVec = await embed(query)
+  const qVec = await embed(query, 'query')
   const rows = queryAll(
     db,
     `SELECT a.path, e.vector
@@ -207,17 +352,31 @@ async function vectorSearch(
   return scored.slice(0, limit)
 }
 
+function isShortQuery(q: string): boolean {
+  const tokens = tokenizeQuery(q)
+  return tokens.length <= 2 || q.trim().length <= 18
+}
+
 function rrfMerge(
   vectorHits: SearchHit[],
   keywordHits: SearchHit[],
-  k = 60,
+  opts: { k?: number; vectorWeight?: number; keywordWeight?: number } = {},
 ): SearchHit[] {
+  const k = opts.k ?? 60
+  const vectorWeight = opts.vectorWeight ?? 1
+  const keywordWeight = opts.keywordWeight ?? 1
   const scores = new Map<string, number>()
   vectorHits.forEach((h, i) => {
-    scores.set(h.path, (scores.get(h.path) ?? 0) + 1 / (k + i + 1))
+    scores.set(
+      h.path,
+      (scores.get(h.path) ?? 0) + vectorWeight / (k + i + 1),
+    )
   })
   keywordHits.forEach((h, i) => {
-    scores.set(h.path, (scores.get(h.path) ?? 0) + 1 / (k + i + 1))
+    scores.set(
+      h.path,
+      (scores.get(h.path) ?? 0) + keywordWeight / (k + i + 1),
+    )
   })
   return [...scores.entries()]
     .map(([path, score]) => ({
@@ -253,7 +412,13 @@ export async function semanticSearch(
   ])
   if (vec.length === 0) return kw
   if (kw.length === 0) return vec
-  return rrfMerge(vec, kw).slice(0, limit)
+
+  // Short / tag-like queries: trust keyword (title/tag) more than pure vector
+  const short = isShortQuery(q)
+  return rrfMerge(vec, kw, {
+    vectorWeight: short ? 0.85 : 1,
+    keywordWeight: short ? 1.75 : 1.15,
+  }).slice(0, limit)
 }
 
 export function keywordFilter(
@@ -261,23 +426,55 @@ export function keywordFilter(
   query: string,
   tagLabelFn: (t: string) => string,
 ): CatalogItem[] {
-  const q = query.trim().toLowerCase()
-  if (!q) return items
-  return items.filter((item) => {
-    const hay = [
-      item.title,
-      item.slug,
-      item.repo,
-      item.category,
-      item.excerpt,
-      item.domain,
-      ...item.tags,
-      ...item.tags.map(tagLabelFn),
-    ]
-      .join(' ')
-      .toLowerCase()
-    return hay.includes(q)
-  })
+  const tokens = tokenizeQuery(query)
+  if (tokens.length === 0) {
+    const q = query.trim().toLowerCase()
+    if (!q) return items
+    return items.filter((item) => {
+      const hay = [
+        item.title,
+        item.slug,
+        item.repo,
+        item.category,
+        item.excerpt,
+        item.domain,
+        ...item.tags,
+        ...item.tags.map(tagLabelFn),
+      ]
+        .join(' ')
+        .toLowerCase()
+      return hay.includes(q)
+    })
+  }
+
+  return items
+    .map((item) => {
+      const hay = [
+        item.title,
+        item.slug,
+        item.repo,
+        item.category,
+        item.excerpt,
+        item.domain,
+        ...item.tags,
+        ...item.tags.map(tagLabelFn),
+      ]
+        .join(' ')
+        .toLowerCase()
+      let score = 0
+      let matched = 0
+      for (const t of tokens) {
+        const s = tokenMatchScore(hay, t)
+        if (s > 0) {
+          matched += 1
+          score += s
+        }
+      }
+      return { item, score, matched }
+    })
+    .filter((x) => x.matched > 0)
+    .sort((a, b) => b.score - a.score || b.matched - a.matched)
+    .map((x) => x.item)
 }
 
 export function applySearchRanking(
