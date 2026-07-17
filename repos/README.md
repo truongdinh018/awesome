@@ -1,6 +1,6 @@
 # Starred Repos — Index
 
-> **216 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-07-16**  
+> **217 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-07-17**  
 > Đây là bảng master: mỗi dòng = 1 repo đã star + link bài `technologies/<domain>/<slug>.md`.
 > **Primary** = 1 trong 7 domain · **Tags** = nhiều capability.
 > Duyệt subgroup: [../categories/README.md](../categories/README.md) · Hub / checklist: [../README.md](../README.md) · Viết bài: [../technologies/WRITING.md](../technologies/WRITING.md)
@@ -223,6 +223,7 @@
 | 214 | [bradautomates/claude-video](https://github.com/bradautomates/claude-video) | 8.7k | Python | Image & Video | `video` `skill` `coding-agent` `stt` `cli` `agent` `multimodal` `subtitle` | [claude-video.md](../technologies/image-video/claude-video.md) |
 | 215 | [slavingia/skills](https://github.com/slavingia/skills) | 9.6k | Skills | MCP & AI Agents | `skill` `coding-agent` `prompt` `plugin` | [slavingia-skills.md](../technologies/mcp-ai-agents/slavingia-skills.md) |
 | 216 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | 8.9k | CSS/HTML | MCP & AI Agents | `skill` `coding-agent` `prompt` `design` `anti-slop` `plugin` | [hallmark.md](../technologies/mcp-ai-agents/hallmark.md) |
+| 217 | [vuejs/vitepress](https://github.com/vuejs/vitepress) | 18k | TS/Vue | DevTools | `cli` `self-host` `knowledge` | [vitepress.md](../technologies/devtools/vitepress.md) |
 
 
 ## Ecosystem — CLI-Anything harnesses (con của #16)

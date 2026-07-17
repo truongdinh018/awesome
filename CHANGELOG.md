@@ -2,6 +2,8 @@
 
 Lịch sử thêm ★ / bookmark / cấu trúc catalog (mới nhất trên cùng).
 
+*2026-07-17 — 217 ★ · thêm VitePress (`vuejs/vitepress`)*
+
 *2026-07-16 — site: PWA (installable) cho GitHub Pages — manifest + service worker + icons*
 
 *2026-07-16 — search: e5-small + preload/UX tải model + hybrid boost câu ngắn; deploy short-e5-v1*

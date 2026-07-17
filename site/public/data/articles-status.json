@@ -1,5 +1,5 @@
 {
-  "indexedAt": "2026-07-16T10:50:21.799Z",
+  "indexedAt": "2026-07-17T04:32:37.032Z",
   "model": "Xenova/multilingual-e5-small",
   "articles": {
     "technologies/bookmarks/codex-pets.md": {
@@ -1381,6 +1381,12 @@
       "contentHash": "02e381a355d5ea568f1e149970e584ad8f62853ce2eae7bdb29449178c81b471",
       "firstSeenAt": "2026-07-16T10:34:43.376Z",
       "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+    },
+    "technologies/devtools/vitepress.md": {
+      "status": "new",
+      "contentHash": "c911782693e8265eba764021e8903dba182dbce0115610085f131fc0a4812b95",
+      "firstSeenAt": "2026-07-17T04:32:37.032Z",
+      "contentUpdatedAt": "2026-07-17T04:32:37.032Z"
     }
   }
 }

@@ -27,10 +27,10 @@
 | 3 | [Image & Video](#3-image--video) | 29 | Gen ảnh/video, NLE |
 | 4 | [UI Automation](#4-ui-automation--computer-use) | 8 | Browser / computer-use |
 | 5 | [CV & Edge](#5-computer-vision--edge) | 9 | Vision, IoT, edge |
-| 6 | [DevTools](#6-devtools--integration) | 73 | OCR, gateway, office, train, self-host |
+| 6 | [DevTools](#6-devtools--integration) | 74 | OCR, gateway, office, train, self-host |
 | 7 | [Security](#7-security--pentesting) | 4 | Pentest, OSINT, guardrail |
 
-**Tổng = 216 ★** (+ 11 CLI-Anything harnesses)
+**Tổng = 217 ★** (+ 11 CLI-Anything harnesses)
 
 ---
 
@@ -354,6 +354,7 @@
 | **MarkItDown** | `cli` `pdf` `ocr` | [markitdown.md](../technologies/devtools/markitdown.md) |
 | **OpenResume** | `pdf` `self-host` | [open-resume.md](../technologies/devtools/open-resume.md) |
 | **docmd** | `mcp` `skill` `cli` `self-host` `api` `rag` | [docmd.md](../technologies/devtools/docmd.md) |
+| **VitePress** | `cli` `self-host` `knowledge` | [vitepress.md](../technologies/devtools/vitepress.md) |
 | └ LibreOffice harness | `harness` `office` `cli` | [libreoffice.md](../technologies/cli-anything/libreoffice.md) |
 | **OfficeCLI** | `cli` `office` `skill` `coding-agent` `workspace` | [officecli.md](../technologies/devtools/officecli.md) |
 | **PPT Master** *(Primary §1)* | `skill` `office` `cli` `coding-agent` `workflow` | [ppt-master.md](../technologies/mcp-ai-agents/ppt-master.md) |
