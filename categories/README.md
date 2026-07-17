@@ -22,7 +22,7 @@
 
 | # | Primary | ★ | Mục đích ngắn |
 |---|---------|---|----------------|
-| 1 | [MCP & AI Agents](#1-mcp--ai-agents) | 73 | MCP, RAG, agent, skill |
+| 1 | [MCP & AI Agents](#1-mcp--ai-agents) | 74 | MCP, RAG, agent, skill |
 | 2 | [Speech & Audio](#2-speech--audio) | 20 | STT / TTS / voice |
 | 3 | [Image & Video](#3-image--video) | 29 | Gen ảnh/video, NLE |
 | 4 | [UI Automation](#4-ui-automation--computer-use) | 8 | Browser / computer-use |
@@ -30,7 +30,7 @@
 | 6 | [DevTools](#6-devtools--integration) | 74 | OCR, gateway, office, train, self-host |
 | 7 | [Security](#7-security--pentesting) | 4 | Pentest, OSINT, guardrail |
 
-**Tổng = 217 ★** (+ 11 CLI-Anything harnesses)
+**Tổng = 218 ★** (+ 11 CLI-Anything harnesses)
 
 ---
 
@@ -76,6 +76,7 @@
 | **AstrBot** | `agent` `mcp` `skill` `rag` `self-host` `api` `workflow` | [astrbot.md](../technologies/mcp-ai-agents/astrbot.md) |
 | **LangBot** | `agent` `mcp` `skill` `rag` `self-host` `api` `workflow` | [langbot.md](../technologies/mcp-ai-agents/langbot.md) |
 | **OpenHands** | `coding-agent` `agent` `self-host` | [openhands.md](../technologies/mcp-ai-agents/openhands.md) |
+| **Cline** | `coding-agent` `agent` `cli` `desktop` `mcp` `self-host` `skill` | [cline.md](../technologies/mcp-ai-agents/cline.md) |
 | **CodeWhale** | `coding-agent` `cli` `agent` `self-host` `mcp` `skill` | [codewhale.md](../technologies/mcp-ai-agents/codewhale.md) |
 | **Zerolang** | `coding-agent` `agent` `cli` `skill` | [zerolang.md](../technologies/mcp-ai-agents/zerolang.md) |
 | **Happy** | `coding-agent` `cli` `agent` `self-host` `desktop` | [happy.md](../technologies/mcp-ai-agents/happy.md) |

@@ -2,6 +2,8 @@
 
 Lịch sử thêm ★ / bookmark / cấu trúc catalog (mới nhất trên cùng).
 
+*2026-07-17 — 218 ★ · thêm Cline (`cline/cline`)*
+
 *2026-07-17 — 217 ★ · thêm VitePress (`vuejs/vitepress`)*
 
 *2026-07-16 — site: PWA (installable) cho GitHub Pages — manifest + service worker + icons*
