@@ -2,6 +2,8 @@
 
 Lịch sử thêm ★ / bookmark / cấu trúc catalog (mới nhất trên cùng).
 
+*2026-07-17 — 219 ★ · thêm Continue (`continuedev/continue`)*
+
 *2026-07-17 — 218 ★ · thêm Cline (`cline/cline`)*
 
 *2026-07-17 — 217 ★ · thêm VitePress (`vuejs/vitepress`)*

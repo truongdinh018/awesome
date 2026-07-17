@@ -12,7 +12,7 @@ Chuẩn viết: [WRITING.md](WRITING.md) · Checklist thêm ★: [../README.md](
 
 | Path | Domain | ★ | Taxonomy |
 |------|--------|---|----------|
-| [mcp-ai-agents/](mcp-ai-agents/README.md) | MCP & AI Agents | 74 | [§1](../categories/README.md#1-mcp--ai-agents) |
+| [mcp-ai-agents/](mcp-ai-agents/README.md) | MCP & AI Agents | 75 | [§1](../categories/README.md#1-mcp--ai-agents) |
 | [speech-audio/](speech-audio/README.md) | Speech & Audio | 20 | [§2](../categories/README.md#2-speech--audio) |
 | [image-video/](image-video/README.md) | Image & Video | 29 | [§3](../categories/README.md#3-image--video) |
 | [ui-automation/](ui-automation/README.md) | UI Automation | 8 | [§4](../categories/README.md#4-ui-automation--computer-use) |
