@@ -2,7 +2,7 @@
 
 > **Bắt đầu từ đây** nếu bạn chưa biết tool thuộc domain nào. Mỗi mục = một việc cần làm → tool + tóm tắt “là gì”.
 >
-> **228** bài · generated từ `technologies/*/…md` · **2026-07-17**.
+> **229** bài · generated từ `technologies/*/…md` · **2026-07-18**.
 >
 > Song song: [categories/](categories/README.md) · [repos/](repos/README.md) · [TAGS.md](TAGS.md).
 
@@ -31,11 +31,11 @@
 - [Thị giác máy & edge/IoT](#15-cv) — **9**
 - [PDF, OCR, tài liệu văn phòng](#16-pdf-ocr) — **23**
 - [Thông báo & cầu nối chat](#17-notify) — **7**
-- [Workflow / automation glue](#18-workflow) — **16**
+- [Workflow / automation glue](#18-workflow) — **17**
 - [Bảo mật & pentest](#19-security) — **7**
 - [Hạ tầng chạy LLM (gateway / inference / train)](#20-llm-infra) — **11**
 - [DB / storage / file browser](#21-data) — **5**
-- [Năng suất & self-host tiện ích](#22-productivity) — **28**
+- [Năng suất & self-host tiện ích](#22-productivity) — **29**
 - [CLI-Anything harness (điều khiển app bằng agent)](#23-harness) — **12**
 - [3D / CAD / game engine](#24-3d) — **7**
 - [Watermark nội dung AI](#25-watermark) — **2**
@@ -557,6 +557,7 @@
 
 | Công nghệ | Domain | Tags | Dùng để (tóm tắt) | Bài |
 |-----------|--------|------|-------------------|-----|
+| **Appsmith** | DevTools | `self-host` `api` `workspace` `workflow` `browser` | Appsmith là nền tảng low-code mã nguồn mở để dựng admin panel, internal tool, dashboard: kéo-thả widget, query 25+ DB hoặc REST/… | [appsmith.md](technologies/devtools/appsmith.md) |
 | **AstrBot** | MCP & AI Agents | `agent` `mcp` `skill` `rag` `self-host` `api` | AstrBot — platform agent chatbot all-in-one gắn IM (QQ, Telegram, Discord, Feishu, DingTalk, WeCom, Slack, LINE…). | [astrbot.md](technologies/mcp-ai-agents/astrbot.md) |
 | **Atomic Agents** | MCP & AI Agents | `agent` `cli` `api` `workflow` | Atomic Agents (Eigenwise) là framework nhẹ, modular để dựng agent pipeline như LEGO: mỗi agent / tool / context provider single… | [atomic-agents.md](technologies/mcp-ai-agents/atomic-agents.md) |
 | **changedetection.io** | DevTools | `notification` `self-host` `browser` `workflow` `api` | changedetection.io là công cụ self-host (hoặc SaaS) theo dõi thay đổi webpage : diff text/HTML/PDF/JSON, price/restock, visual … | [changedetection-io.md](technologies/devtools/changedetection-io.md) |
@@ -636,6 +637,7 @@
 
 | Công nghệ | Domain | Tags | Dùng để (tóm tắt) | Bài |
 |-----------|--------|------|-------------------|-----|
+| **Appsmith** | DevTools | `self-host` `api` `workspace` `workflow` `browser` | Appsmith là nền tảng low-code mã nguồn mở để dựng admin panel, internal tool, dashboard: kéo-thả widget, query 25+ DB hoặc REST/… | [appsmith.md](technologies/devtools/appsmith.md) |
 | **AirLLM** | DevTools | `self-host` `cli` `api` | AirLLM là thư viện suy luận LLM lớn trên GPU nhỏ bằng cách chỉ giữ một layer trên VRAM (load layer-wise từ disk), không bắt buộ… | [airllm.md](technologies/devtools/airllm.md) |
 | **Cake** | DevTools | `api` `self-host` `cli` `tts` `image-gen` `edge` | Cake là máy chủ chạy mô hình AI viết bằng Rust ( inference server ). | [cake.md](technologies/devtools/cake.md) |
 | **ChronoFrame** | DevTools | `self-host` `desktop` `workspace` `browser` | ChronoFrame — gallery ảnh cá nhân self-host : quản lý album online, Live/Motion Photos, parse EXIF, reverse geocoding, bản đồ e… | [chronoframe.md](technologies/devtools/chronoframe.md) |

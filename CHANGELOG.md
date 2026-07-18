@@ -2,6 +2,8 @@
 
 Lịch sử thêm ★ / bookmark / cấu trúc catalog (mới nhất trên cùng).
 
+*2026-07-18 — 220 ★ · thêm Appsmith (`appsmithorg/appsmith`)*
+
 *2026-07-17 — 219 ★ · thêm Continue (`continuedev/continue`)*
 
 *2026-07-17 — 218 ★ · thêm Cline (`cline/cline`)*
