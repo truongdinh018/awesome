@@ -10,7 +10,7 @@ Mỗi ★ = 1 repo đã star + 1 bài **tiếng Việt dễ hiểu**
 (giữ thuật ngữ Anh: API, LLM, RAG, MCP…)
 
 <p>
-  <img src="https://img.shields.io/badge/★_219-success?style=flat-square" alt="219 stars" />
+  <img src="https://img.shields.io/badge/★_220-success?style=flat-square" alt="220 stars" />
   <img src="https://img.shields.io/badge/CLI_harness-11-22C55E?style=flat-square" alt="11 harnesses" />
   <img src="https://img.shields.io/badge/Domain-7-blue?style=flat-square" alt="7 domains" />
   <img src="https://img.shields.io/badge/License-Private-red?style=flat-square" alt="Private" />
@@ -40,7 +40,7 @@ Mỗi ★ = 1 repo đã star + 1 bài **tiếng Việt dễ hiểu**
 |-----------|---------|-------|
 | Biết tool **dùng để làm gì** | [USE-CASES.md](USE-CASES.md) | ![](https://img.shields.io/badge/START_HERE-22C55E?style=flat-square) |
 | Duyệt theo **domain / subgroup** | [categories/README.md](categories/README.md) | ![](https://img.shields.io/badge/taxonomy-6366F1?style=flat-square) |
-| Danh sách star **`#1…#219`** | [repos/README.md](repos/README.md) | ![](https://img.shields.io/badge/master_list-0EA5E9?style=flat-square) |
+| Danh sách star **`#1…#220`** | [repos/README.md](repos/README.md) | ![](https://img.shields.io/badge/master_list-0EA5E9?style=flat-square) |
 | Chú giải **tag** (`tts`, `rag`…) | [TAGS.md](TAGS.md) | ![](https://img.shields.io/badge/tags-A855F7?style=flat-square) |
 | Viết / sửa bài | [technologies/WRITING.md](technologies/WRITING.md) | ![](https://img.shields.io/badge/writing-F97316?style=flat-square) |
 | Đọc / sửa MD trên web | [site/](site/) | ![](https://img.shields.io/badge/web_app-14B8A6?style=flat-square) |
@@ -71,12 +71,12 @@ Nội dung VN        →  technologies/<domain>/<slug>.md
 | 3 | [![](https://img.shields.io/badge/Image_&_Video-F97316?style=flat-square)](categories/README.md#3-image--video) | **29** | [§3](categories/README.md#3-image--video) | [image-video/](technologies/image-video/README.md) |
 | 4 | [![](https://img.shields.io/badge/UI_Automation-3B82F6?style=flat-square)](categories/README.md#4-ui-automation--computer-use) | **8** | [§4](categories/README.md#4-ui-automation--computer-use) | [ui-automation/](technologies/ui-automation/README.md) |
 | 5 | [![](https://img.shields.io/badge/CV_&_Edge-EAB308?style=flat-square)](categories/README.md#5-computer-vision--edge) | **9** | [§5](categories/README.md#5-computer-vision--edge) | [cv-edge/](technologies/cv-edge/README.md) |
-| 6 | [![](https://img.shields.io/badge/DevTools-0EA5E9?style=flat-square)](categories/README.md#6-devtools--integration) | **74** | [§6](categories/README.md#6-devtools--integration) | [devtools/](technologies/devtools/README.md) |
+| 6 | [![](https://img.shields.io/badge/DevTools-0EA5E9?style=flat-square)](categories/README.md#6-devtools--integration) | **75** | [§6](categories/README.md#6-devtools--integration) | [devtools/](technologies/devtools/README.md) |
 | 7 | [![](https://img.shields.io/badge/Security-F43F5E?style=flat-square)](categories/README.md#7-security--pentesting) | **4** | [§7](categories/README.md#7-security--pentesting) | [security/](technologies/security/README.md) |
 
 <p align="center">
   <img src="https://img.shields.io/badge/MCP_&_AI_Agents-75-14B8A6?style=for-the-badge" alt="MCP 75" />
-  <img src="https://img.shields.io/badge/DevTools-74-0EA5E9?style=for-the-badge" alt="DevTools 74" />
+  <img src="https://img.shields.io/badge/DevTools-75-0EA5E9?style=for-the-badge" alt="DevTools 75" />
   <img src="https://img.shields.io/badge/Image_&_Video-29-F97316?style=for-the-badge" alt="Image 29" />
   <img src="https://img.shields.io/badge/Speech_&_Audio-20-A855F7?style=for-the-badge" alt="Speech 20" />
 </p>
@@ -132,7 +132,7 @@ awesome/
 ├── TAGS.md                   ← chú giải tag
 ├── CHANGELOG.md
 ├── categories/README.md      ← taxonomy domain / subgroup
-├── repos/README.md           ← master star list #1…#219
+├── repos/README.md           ← master star list #1…#220
 ├── technologies/             ← bài VN + WRITING.md
 │   ├── mcp-ai-agents/        ■ teal
 │   ├── speech-audio/         ■ purple
