@@ -1,5 +1,5 @@
 {
-  "indexedAt": "2026-07-17T04:32:37.032Z",
+  "indexedAt": "2026-07-18T14:32:32.368Z",
   "model": "Xenova/multilingual-e5-small",
   "articles": {
     "technologies/bookmarks/codex-pets.md": {
@@ -1387,6 +1387,24 @@
       "contentHash": "c911782693e8265eba764021e8903dba182dbce0115610085f131fc0a4812b95",
       "firstSeenAt": "2026-07-17T04:32:37.032Z",
       "contentUpdatedAt": "2026-07-17T04:32:37.032Z"
+    },
+    "technologies/devtools/appsmith.md": {
+      "status": "new",
+      "contentHash": "26017e178f4f927b81d8c11f76f28d4be99363e14139f9b80769d460ed1b6f7f",
+      "firstSeenAt": "2026-07-18T14:32:32.368Z",
+      "contentUpdatedAt": "2026-07-18T14:32:32.368Z"
+    },
+    "technologies/mcp-ai-agents/cline.md": {
+      "status": "new",
+      "contentHash": "b81696d81145a42f9e9b4dca50793e19a65cdd34c4cfcd48a7cf004c09e53851",
+      "firstSeenAt": "2026-07-18T14:32:32.368Z",
+      "contentUpdatedAt": "2026-07-18T14:32:32.368Z"
+    },
+    "technologies/mcp-ai-agents/continue.md": {
+      "status": "new",
+      "contentHash": "58a46829cc32f5ad57337a46b5581ceb100f8255a58deb115e6ef4f2eb987b8a",
+      "firstSeenAt": "2026-07-18T14:32:32.368Z",
+      "contentUpdatedAt": "2026-07-18T14:32:32.368Z"
     }
   }
 }
