@@ -22,7 +22,7 @@
 
 | # | Primary | ★ | Mục đích ngắn |
 |---|---------|---|----------------|
-| 1 | [MCP & AI Agents](#1-mcp--ai-agents) | 75 | MCP, RAG, agent, skill |
+| 1 | [MCP & AI Agents](#1-mcp--ai-agents) | 76 | MCP, RAG, agent, skill |
 | 2 | [Speech & Audio](#2-speech--audio) | 20 | STT / TTS / voice |
 | 3 | [Image & Video](#3-image--video) | 29 | Gen ảnh/video, NLE |
 | 4 | [UI Automation](#4-ui-automation--computer-use) | 8 | Browser / computer-use |
@@ -30,7 +30,7 @@
 | 6 | [DevTools](#6-devtools--integration) | 75 | OCR, gateway, office, train, self-host |
 | 7 | [Security](#7-security--pentesting) | 4 | Pentest, OSINT, guardrail |
 
-**Tổng = 220 ★** (+ 11 CLI-Anything harnesses)
+**Tổng = 221 ★** (+ 11 CLI-Anything harnesses)
 
 ---
 
@@ -127,6 +127,7 @@
 | **Gitingest** | `cli` `coding-agent` `rag` `self-host` | [gitingest.md](../technologies/mcp-ai-agents/gitingest.md) |
 | **GitReverse** | `coding-agent` `prompt` `self-host` | [gitreverse.md](../technologies/mcp-ai-agents/gitreverse.md) |
 | **ghgrab** | `cli` `coding-agent` `self-host` | [ghgrab.md](../technologies/mcp-ai-agents/ghgrab.md) |
+| **MemMachine** | `agent` `memory` `mcp` `self-host` `api` `docker` | [memmachine.md](../technologies/mcp-ai-agents/memmachine.md) |
 | **TencentDB Agent Memory** | `agent` `self-host` `coding-agent` | [tencentdb-agent-memory.md](../technologies/mcp-ai-agents/tencentdb-agent-memory.md) |
 | **Claude-Mem** | `agent` `coding-agent` `mcp` `self-host` `rag` | [claude-mem.md](../technologies/mcp-ai-agents/claude-mem.md) |
 | **agentmemory** | `agent` `coding-agent` `mcp` `self-host` `rag` `cli` `skill` | [agentmemory.md](../technologies/mcp-ai-agents/agentmemory.md) |

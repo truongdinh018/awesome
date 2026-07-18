@@ -2,7 +2,7 @@
 
 > **Bắt đầu từ đây** nếu bạn chưa biết tool thuộc domain nào. Mỗi mục = một việc cần làm → tool + tóm tắt “là gì”.
 >
-> **229** bài · generated từ `technologies/*/…md` · **2026-07-18**.
+> **230** bài · generated từ `technologies/*/…md` · **2026-07-18**.
 >
 > Song song: [categories/](categories/README.md) · [repos/](repos/README.md) · [TAGS.md](TAGS.md).
 
@@ -18,9 +18,9 @@
 - [Cào web & extract dữ liệu](#02-extract) — **4**
 - [Agent lập trình](#03-coding) — **47**
 - [Agent runtime / bot đa kênh](#04-agent-runtime) — **15**
-- [MCP — gắn tool vào AI coding assistant](#05-mcp) — **53**
+- [MCP — gắn tool vào AI coding assistant](#05-mcp) — **54**
 - [Skill / prompt / guideline](#06-skills) — **52**
-- [Memory dài hạn cho agent](#07-memory) — **3**
+- [Memory dài hạn cho agent](#07-memory) — **4**
 - [An toàn lệnh & governance](#08-guardrail) — **2**
 - [Nhận dạng giọng nói (STT)](#09-stt) — **14**
 - [Tổng hợp tiếng nói / clone giọng (TTS)](#10-tts) — **26**
@@ -215,6 +215,7 @@
 | **Horizon** | DevTools | `mcp` `self-host` `workflow` `notification` `cli` | Horizon là AI news radar cá nhân: lấy Hacker News · RSS · Reddit · Telegram · X · GitHub · OpenBB… → dedupe · score · filter · … | [horizon.md](technologies/devtools/horizon.md) |
 | **Hyper-Extract** | MCP & AI Agents | `extract` `rag` `mcp` `cli` | Hyper-Extract là CLI/framework LLM biến văn bản / PDF không cấu trúc thành Knowledge Abstract có kiểu mạnh: List/Set/Pydantic →… | [hyper-extract.md](technologies/mcp-ai-agents/hyper-extract.md) |
 | **Lanes** | MCP & AI Agents | `coding-agent` `agent` `desktop` `mcp` `workflow` `cli` | Lanes là app desktop ( mission control ) để điều phối nhiều AI coding CLI cùng lúc. | [lanes.md](technologies/mcp-ai-agents/lanes.md) |
+| **MemMachine** | MCP & AI Agents | `agent` `memory` `mcp` `self-host` `api` | MemMachine là lớp memory dài hạn mã nguồn mở cho AI agents: Working / Episodic (graph) / Profile (SQL), SDK + MCP + tích hợp Lang… | [memmachine.md](technologies/mcp-ai-agents/memmachine.md) |
 | **LangBot** | MCP & AI Agents | `agent` `mcp` `skill` `rag` `self-host` `api` | LangBot — platform production-grade xây bot AI trên IM : Discord · Telegram · Slack · LINE · QQ · WeChat/WeCom · Feishu · DingT… | [langbot.md](technologies/mcp-ai-agents/langbot.md) |
 | **LLM Checker** | DevTools | `cli` `mcp` `self-host` | LLM Checker — CLI (và MCP) quét phần cứng rồi recommend model LLM/sLLM local phù hợp (Ollama + registry HF/Ollama/GPT4All, scor… | [llm-checker.md](technologies/devtools/llm-checker.md) |
 | **LocalAI** | DevTools | `api` `self-host` `mcp` `agent` `stt` `tts` | LocalAI là engine AI mã nguồn mở: chạy LLM, nhìn ảnh ( vision ), giọng nói, tạo ảnh / video trên phần cứng của bạn (CPU cũng đư… | [localai.md](technologies/devtools/localai.md) |
@@ -314,6 +315,7 @@
 
 | Công nghệ | Domain | Tags | Dùng để (tóm tắt) | Bài |
 |-----------|--------|------|-------------------|-----|
+| **MemMachine** | MCP & AI Agents | `agent` `memory` `mcp` `self-host` `api` | MemMachine là lớp memory dài hạn mã nguồn mở cho AI agents: Working / Episodic (graph) / Profile (SQL), SDK + MCP + tích hợp Lang… | [memmachine.md](technologies/mcp-ai-agents/memmachine.md) |
 | **agentmemory** | MCP & AI Agents | `agent` `coding-agent` `mcp` `self-host` `rag` `cli` | agentmemory là engine persistent memory local cho coding agents: tự capture (hooks), nén, hybrid search (BM25 + vector + graph)… | [agentmemory.md](technologies/mcp-ai-agents/agentmemory.md) |
 | **Claude-Mem** | MCP & AI Agents | `agent` `coding-agent` `mcp` `self-host` `rag` | Claude-Mem — hệ persistent memory compression : capture tool usage trong session → nén/tóm tắt bằng AI → inject context liên qu… | [claude-mem.md](technologies/mcp-ai-agents/claude-mem.md) |
 | **TencentDB Agent Memory** | MCP & AI Agents | `agent` `self-host` `coding-agent` | TencentDB Agent Memory là long-term memory fully local cho AI agents (zero external API bắt buộc): pipeline 4 tầng progressive … | [tencentdb-agent-memory.md](technologies/mcp-ai-agents/tencentdb-agent-memory.md) |

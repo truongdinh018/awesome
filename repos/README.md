@@ -1,6 +1,6 @@
 # Starred Repos — Index
 
-> **220 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-07-18**  
+> **221 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-07-18**  
 > Đây là bảng master: mỗi dòng = 1 repo đã star + link bài `technologies/<domain>/<slug>.md`.
 > **Primary** = 1 trong 7 domain · **Tags** = nhiều capability.
 > Duyệt subgroup: [../categories/README.md](../categories/README.md) · Hub / checklist: [../README.md](../README.md) · Viết bài: [../technologies/WRITING.md](../technologies/WRITING.md)
@@ -227,6 +227,7 @@
 | 218 | [cline/cline](https://github.com/cline/cline) | 64.7k | TS | MCP & AI Agents | `coding-agent` `agent` `cli` `desktop` `mcp` `self-host` `skill` | [cline.md](../technologies/mcp-ai-agents/cline.md) |
 | 219 | [continuedev/continue](https://github.com/continuedev/continue) | 34.9k | TS | MCP & AI Agents | `coding-agent` `agent` `cli` `desktop` `mcp` `self-host` | [continue.md](../technologies/mcp-ai-agents/continue.md) |
 | 220 | [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) | 40.4k | TS/Java | DevTools | `self-host` `api` `workspace` `workflow` `browser` `docker` | [appsmith.md](../technologies/devtools/appsmith.md) |
+| 221 | [MemMachine/MemMachine](https://github.com/MemMachine/MemMachine) | 3.3k | Python | MCP & AI Agents | `agent` `memory` `mcp` `self-host` `api` `docker` | [memmachine.md](../technologies/mcp-ai-agents/memmachine.md) |
 
 
 ## Ecosystem — CLI-Anything harnesses (con của #16)
