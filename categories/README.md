@@ -22,15 +22,15 @@
 
 | # | Primary | ★ | Mục đích ngắn |
 |---|---------|---|----------------|
-| 1 | [MCP & AI Agents](#1-mcp--ai-agents) | 76 | MCP, RAG, agent, skill |
+| 1 | [MCP & AI Agents](#1-mcp--ai-agents) | 78 | MCP, RAG, agent, skill |
 | 2 | [Speech & Audio](#2-speech--audio) | 20 | STT / TTS / voice |
 | 3 | [Image & Video](#3-image--video) | 29 | Gen ảnh/video, NLE |
 | 4 | [UI Automation](#4-ui-automation--computer-use) | 8 | Browser / computer-use |
 | 5 | [CV & Edge](#5-computer-vision--edge) | 9 | Vision, IoT, edge |
-| 6 | [DevTools](#6-devtools--integration) | 75 | OCR, gateway, office, train, self-host |
+| 6 | [DevTools](#6-devtools--integration) | 77 | OCR, gateway, office, train, self-host |
 | 7 | [Security](#7-security--pentesting) | 4 | Pentest, OSINT, guardrail |
 
-**Tổng = 221 ★** (+ 11 CLI-Anything harnesses)
+**Tổng = 225 ★** (+ 11 CLI-Anything harnesses)
 
 ---
 
@@ -90,6 +90,7 @@
 | **CC Workflow Studio** | `coding-agent` `skill` `mcp` `cli` `workflow` | [cc-wf-studio.md](../technologies/mcp-ai-agents/cc-wf-studio.md) |
 | **Spec Kit** | `coding-agent` `skill` `cli` `workflow` `prompt` | [spec-kit.md](../technologies/mcp-ai-agents/spec-kit.md) |
 | **Atomic Agents** | `agent` `cli` `api` `workflow` | [atomic-agents.md](../technologies/mcp-ai-agents/atomic-agents.md) |
+| **PraisonAI** | `agent` `mcp` `rag` `cli` `workflow` `memory` `self-host` | [praisonai.md](../technologies/mcp-ai-agents/praisonai.md) |
 | **EpicStaff** | `agent` `mcp` `rag` `self-host` `workflow` | [epicstaff.md](../technologies/mcp-ai-agents/epicstaff.md) |
 | **MiroFish** | `agent` `self-host` `rag` `workflow` `api` | [mirofish.md](../technologies/mcp-ai-agents/mirofish.md) |
 | **Vibe-Trading** | `agent` `mcp` `skill` `cli` `self-host` `workflow` `desktop` | [vibe-trading.md](../technologies/mcp-ai-agents/vibe-trading.md) |
@@ -114,6 +115,7 @@
 | **Learn Claude Code** | `coding-agent` `agent` `skill` `cli` `prompt` | [learn-claude-code.md](../technologies/mcp-ai-agents/learn-claude-code.md) |
 | **Maths CS AI Compendium** | `prompt` `mcp` `skill` `rag` `cli` | [maths-cs-ai-compendium.md](../technologies/mcp-ai-agents/maths-cs-ai-compendium.md) |
 | **Addy's Agent Skills** | `skill` `coding-agent` `prompt` | [agent-skills.md](../technologies/mcp-ai-agents/agent-skills.md) |
+| **Agency Agents** | `skill` `prompt` `coding-agent` `agent` `desktop` `cli` | [agency-agents.md](../technologies/mcp-ai-agents/agency-agents.md) |
 | **Minimalist Entrepreneur Skills** | `skill` `coding-agent` `prompt` | [slavingia-skills.md](../technologies/mcp-ai-agents/slavingia-skills.md) |
 | **knowledge-work-plugins** | `skill` `prompt` `workspace` `office` | [knowledge-work-plugins.md](../technologies/mcp-ai-agents/knowledge-work-plugins.md) |
 | **PPT Master** | `skill` `office` `cli` `coding-agent` `workflow` | [ppt-master.md](../technologies/mcp-ai-agents/ppt-master.md) |
@@ -358,6 +360,7 @@
 | **OpenResume** | `pdf` `self-host` | [open-resume.md](../technologies/devtools/open-resume.md) |
 | **docmd** | `mcp` `skill` `cli` `self-host` `api` `rag` | [docmd.md](../technologies/devtools/docmd.md) |
 | **VitePress** | `cli` `self-host` `knowledge` | [vitepress.md](../technologies/devtools/vitepress.md) |
+| **Swup** | `browser` `cli` `self-host` | [swup.md](../technologies/devtools/swup.md) |
 | └ LibreOffice harness | `harness` `office` `cli` | [libreoffice.md](../technologies/cli-anything/libreoffice.md) |
 | **OfficeCLI** | `cli` `office` `skill` `coding-agent` `workspace` | [officecli.md](../technologies/devtools/officecli.md) |
 | **PPT Master** *(Primary §1)* | `skill` `office` `cli` `coding-agent` `workflow` | [ppt-master.md](../technologies/mcp-ai-agents/ppt-master.md) |
@@ -367,6 +370,7 @@
 | Công nghệ | Tags | Bài viết |
 |-----------|------|----------|
 | **MinerU** | `ocr` `pdf` `cli` `self-host` `api` | [mineru.md](../technologies/devtools/mineru.md) |
+| **Chunkr** | `ocr` `pdf` `rag` `self-host` `api` `docker` | [chunkr.md](../technologies/devtools/chunkr.md) |
 | **HunyuanOCR** | `ocr` `self-host` `cli` | [hunyuan-ocr.md](../technologies/devtools/hunyuan-ocr.md) |
 | **dots.ocr** | `ocr` `pdf` `self-host` `cli` | [dots-ocr.md](../technologies/devtools/dots-ocr.md) |
 | **Nanonets-OCR2** | `ocr` `pdf` `self-host` `api` | [nanonets-ocr2.md](../technologies/devtools/nanonets-ocr2.md) |

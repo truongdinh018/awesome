@@ -2,7 +2,7 @@
 
 > **Bắt đầu từ đây** nếu bạn chưa biết tool thuộc domain nào. Mỗi mục = một việc cần làm → tool + tóm tắt “là gì”.
 >
-> **230** bài · generated từ `technologies/*/…md` · **2026-07-18**.
+> **234** bài · generated từ `technologies/*/…md` · **2026-07-22**.
 >
 > Song song: [categories/](categories/README.md) · [repos/](repos/README.md) · [TAGS.md](TAGS.md).
 
@@ -14,12 +14,12 @@
 
 ## Mục lục nhanh
 
-- [Hỏi đáp trên tài liệu / knowledge (RAG)](#01-rag) — **31**
+- [Hỏi đáp trên tài liệu / knowledge (RAG)](#01-rag) — **33**
 - [Cào web & extract dữ liệu](#02-extract) — **4**
-- [Agent lập trình](#03-coding) — **47**
-- [Agent runtime / bot đa kênh](#04-agent-runtime) — **15**
+- [Agent lập trình](#03-coding) — **48**
+- [Agent runtime / bot đa kênh](#04-agent-runtime) — **16**
 - [MCP — gắn tool vào AI coding assistant](#05-mcp) — **54**
-- [Skill / prompt / guideline](#06-skills) — **52**
+- [Skill / prompt / guideline](#06-skills) — **53**
 - [Memory dài hạn cho agent](#07-memory) — **4**
 - [An toàn lệnh & governance](#08-guardrail) — **2**
 - [Nhận dạng giọng nói (STT)](#09-stt) — **14**
@@ -29,13 +29,13 @@
 - [UI / web → code](#13-ui2code) — **4**
 - [Tự động hóa trình duyệt (computer-use)](#14-browser) — **15**
 - [Thị giác máy & edge/IoT](#15-cv) — **9**
-- [PDF, OCR, tài liệu văn phòng](#16-pdf-ocr) — **23**
+- [PDF, OCR, tài liệu văn phòng](#16-pdf-ocr) — **24**
 - [Thông báo & cầu nối chat](#17-notify) — **7**
 - [Workflow / automation glue](#18-workflow) — **17**
 - [Bảo mật & pentest](#19-security) — **7**
 - [Hạ tầng chạy LLM (gateway / inference / train)](#20-llm-infra) — **11**
 - [DB / storage / file browser](#21-data) — **5**
-- [Năng suất & self-host tiện ích](#22-productivity) — **29**
+- [Năng suất & self-host tiện ích](#22-productivity) — **30**
 - [CLI-Anything harness (điều khiển app bằng agent)](#23-harness) — **12**
 - [3D / CAD / game engine](#24-3d) — **7**
 - [Watermark nội dung AI](#25-watermark) — **2**
@@ -53,6 +53,7 @@
 | **agentmemory** | MCP & AI Agents | `agent` `coding-agent` `mcp` `self-host` `rag` `cli` | agentmemory là engine persistent memory local cho coding agents: tự capture (hooks), nén, hybrid search (BM25 + vector + graph)… | [agentmemory.md](technologies/mcp-ai-agents/agentmemory.md) |
 | **AnythingLLM** | MCP & AI Agents | `rag` `agent` `mcp` `self-host` `desktop` `api` | AnythingLLM (Mintplex Labs) là app all-in-one local-first : chat với documents, AI agents, multi-user (Docker), vector DB, MCP,… | [anything-llm.md](technologies/mcp-ai-agents/anything-llm.md) |
 | **AstrBot** | MCP & AI Agents | `agent` `mcp` `skill` `rag` `self-host` `api` | AstrBot — platform agent chatbot all-in-one gắn IM (QQ, Telegram, Discord, Feishu, DingTalk, WeCom, Slack, LINE…). | [astrbot.md](technologies/mcp-ai-agents/astrbot.md) |
+| **Chunkr** | DevTools | `ocr` `pdf` `rag` `self-host` `api` | Chunkr là document intelligence OSS: layout analysis, OCR + bounding box, HTML/Markdown có cấu trúc, semantic chunking — PDF/PPT/Word/ảnh → chunk RAG/LLM-ready. | [chunkr.md](technologies/devtools/chunkr.md) |
 | **Bộ Pháp Điển MOJ (phapdien-moj-gov-vn)** | DevTools | `rag` `dataset` `self-host` | Dataset corpus cấp Điều của Bộ Pháp Điển Việt Nam chính thức: ~65,997 Điều , 43 chủ đề, 202 đề mục, ontology Việt–Anh, article … | [phapdien-moj.md](technologies/devtools/phapdien-moj.md) |
 | **Claude-Mem** | MCP & AI Agents | `agent` `coding-agent` `mcp` `self-host` `rag` | Claude-Mem — hệ persistent memory compression : capture tool usage trong session → nén/tóm tắt bằng AI → inject context liên qu… | [claude-mem.md](technologies/mcp-ai-agents/claude-mem.md) |
 | **Deta Surf** | MCP & AI Agents | `rag` `desktop` `self-host` `browser` | Deta Surf là AI Notebook desktop: gom file + webpage vào thư viện local, rồi sinh note thông minh ngay trên nguồn đó — giảm cop… | [deta-surf.md](technologies/mcp-ai-agents/deta-surf.md) |
@@ -106,6 +107,7 @@
 | Công nghệ | Domain | Tags | Dùng để (tóm tắt) | Bài |
 |-----------|--------|------|-------------------|-----|
 | **Addy's Agent Skills** | MCP & AI Agents | `skill` `coding-agent` `prompt` | Addy's Agent Skills là pack 24 skill production-grade + 8 slash commands ( /spec → /ship ) cho AI coding agents (Claude Code, C… | [agent-skills.md](technologies/mcp-ai-agents/agent-skills.md) |
+| **Agency Agents** | MCP & AI Agents | `skill` `prompt` `coding-agent` `agent` `desktop` `cli` | Agency Agents (The Agency) là roster agent personality theo domain (eng/design/sales…) — cài vào Claude Code, Cursor, Codex… qua app hoặc install.sh. | [agency-agents.md](technologies/mcp-ai-agents/agency-agents.md) |
 | **Agent Skill registries & websites** | Bookmarks | `skill` `coding-agent` `prompt` | Agent Skill registries là các website / marketplace để tìm và cài skill cho coding agent. | [skill-registries.md](technologies/bookmarks/skill-registries.md) |
 | **agentmemory** | MCP & AI Agents | `agent` `coding-agent` `mcp` `self-host` `rag` `cli` | agentmemory là engine persistent memory local cho coding agents: tự capture (hooks), nén, hybrid search (BM25 + vector + graph)… | [agentmemory.md](technologies/mcp-ai-agents/agentmemory.md) |
 | **AI Engineering Coach** | MCP & AI Agents | `coding-agent` `skill` `desktop` `cli` | AI Engineer Coach là extension VS Code đọc local AI session logs → dashboard hành vi agentic: practice scores, anti-patterns (4… | [ai-engineering-coach.md](technologies/mcp-ai-agents/ai-engineering-coach.md) |
@@ -168,6 +170,7 @@
 | **AnythingLLM** | MCP & AI Agents | `rag` `agent` `mcp` `self-host` `desktop` `api` | AnythingLLM (Mintplex Labs) là app all-in-one local-first : chat với documents, AI agents, multi-user (Docker), vector DB, MCP,… | [anything-llm.md](technologies/mcp-ai-agents/anything-llm.md) |
 | **AstrBot** | MCP & AI Agents | `agent` `mcp` `skill` `rag` `self-host` `api` | AstrBot — platform agent chatbot all-in-one gắn IM (QQ, Telegram, Discord, Feishu, DingTalk, WeCom, Slack, LINE…). | [astrbot.md](technologies/mcp-ai-agents/astrbot.md) |
 | **Atomic Agents** | MCP & AI Agents | `agent` `cli` `api` `workflow` | Atomic Agents (Eigenwise) là framework nhẹ, modular để dựng agent pipeline như LEGO: mỗi agent / tool / context provider single… | [atomic-agents.md](technologies/mcp-ai-agents/atomic-agents.md) |
+| **PraisonAI** | MCP & AI Agents | `agent` `mcp` `rag` `cli` `workflow` `memory` `self-host` | PraisonAI là framework multi-agent / AI workforce: SDK Python mỏng, CLI, UI, Flow builder, Claw (Telegram/Slack/Discord), MCP Registry, 100+ LLM. | [praisonai.md](technologies/mcp-ai-agents/praisonai.md) |
 | **CLI-Anything** | MCP & AI Agents | `cli` `harness` `skill` `agent` | CLI-Anything (HKUDS) làm mọi phần mềm trở thành agent-native qua CLI có cấu trúc, thay vì để agent “bấm UI” mù. | [cli-anything.md](technologies/mcp-ai-agents/cli-anything.md) |
 | **EpicStaff** | MCP & AI Agents | `agent` `mcp` `rag` `self-host` `workflow` | EpicStaff là platform self-host để ops/engineer xây AI agent flows : editor kéo-thả node trên backend Django ; mọi node có thể … | [epicstaff.md](technologies/mcp-ai-agents/epicstaff.md) |
 | **Hermes Agent** | MCP & AI Agents | `agent` `mcp` `skill` `cli` `self-host` | Hermes Agent (Nous Research) là self-improving AI agent với vòng học khép kín: tạo/cải thiện skills từ trải nghiệm, nhớ người d… | [hermes-agent.md](technologies/mcp-ai-agents/hermes-agent.md) |
@@ -254,6 +257,7 @@
 | Công nghệ | Domain | Tags | Dùng để (tóm tắt) | Bài |
 |-----------|--------|------|-------------------|-----|
 | **Addy's Agent Skills** | MCP & AI Agents | `skill` `coding-agent` `prompt` | Addy's Agent Skills là pack 24 skill production-grade + 8 slash commands ( /spec → /ship ) cho AI coding agents (Claude Code, C… | [agent-skills.md](technologies/mcp-ai-agents/agent-skills.md) |
+| **Agency Agents** | MCP & AI Agents | `skill` `prompt` `coding-agent` `agent` `desktop` `cli` | Agency Agents (The Agency) là roster agent personality theo domain (eng/design/sales…) — cài vào Claude Code, Cursor, Codex… qua app hoặc install.sh. | [agency-agents.md](technologies/mcp-ai-agents/agency-agents.md) |
 | **Agent Skill registries & websites** | Bookmarks | `skill` `coding-agent` `prompt` | Agent Skill registries là các website / marketplace để tìm và cài skill cho coding agent. | [skill-registries.md](technologies/bookmarks/skill-registries.md) |
 | **agentmemory** | MCP & AI Agents | `agent` `coding-agent` `mcp` `self-host` `rag` `cli` | agentmemory là engine persistent memory local cho coding agents: tự capture (hooks), nén, hybrid search (BM25 + vector + graph)… | [agentmemory.md](technologies/mcp-ai-agents/agentmemory.md) |
 | **AI Engineering Coach** | MCP & AI Agents | `coding-agent` `skill` `desktop` `cli` | AI Engineer Coach là extension VS Code đọc local AI session logs → dashboard hành vi agentic: practice scores, anti-patterns (4… | [ai-engineering-coach.md](technologies/mcp-ai-agents/ai-engineering-coach.md) |
@@ -522,6 +526,7 @@
 | **LocateAnything-3B** | CV & Edge | `cv` `ocr` `self-host` `cli` | LocateAnything-3B (NVIDIA Eagle) là VLM grounding nhanh: referring expression, multi-object detection, GUI grounding, text loca… | [locate-anything.md](technologies/cv-edge/locate-anything.md) |
 | **MarkItDown** | DevTools | `cli` `pdf` `ocr` | MarkItDown là utility Python nhẹ chuyển nhiều loại file → Markdown cho LLM / text pipelines (gần textract, nhưng giữ cấu trúc M… | [markitdown.md](technologies/devtools/markitdown.md) |
 | **MinerU** | DevTools | `ocr` `pdf` `cli` `self-host` `api` | MinerU là pipeline chuyển PDF / Office phức tạp thành Markdown/JSON LLM-ready cho agentic workflows: layout, bảng, công thức, m… | [mineru.md](technologies/devtools/mineru.md) |
+| **Chunkr** | DevTools | `ocr` `pdf` `rag` `self-host` `api` | Chunkr là document intelligence OSS: layout + OCR + semantic chunking → chunk RAG/LLM-ready (self-host Docker; Cloud API khác model). | [chunkr.md](technologies/devtools/chunkr.md) |
 | **Nanonets-OCR2** | DevTools | `ocr` `pdf` `self-host` `api` | Nanonets-OCR2-3B là VLM ( Vision Language Model ) biến ảnh tài liệu thành Markdown có cấu trúc. | [nanonets-ocr2.md](technologies/devtools/nanonets-ocr2.md) |
 | **OfficeCLI** | DevTools | `cli` `office` `skill` `coding-agent` `workspace` | OfficeCLI là suite đọc / sửa / tạo file Word (.docx), Excel (.xlsx), PowerPoint (.pptx) qua CLI — không cần cài Microsoft Office. | [officecli.md](technologies/devtools/officecli.md) |
 | **OpenResume** | DevTools | `pdf` `self-host` | OpenResume là resume builder + parser mã nguồn mở: PDF modern ATS-friendly, cập nhật UI realtime, import PDF sẵn có. | [open-resume.md](technologies/devtools/open-resume.md) |
@@ -665,6 +670,7 @@
 | **termshot** | DevTools | `cli` `desktop` | termshot tạo ảnh screenshot terminal đẹp từ lệnh bạn chạy: prefix như time / watch — đọc ANSI escape (màu/format thật), render … | [termshot.md](technologies/devtools/termshot.md) |
 | **VietAI ViT5-base** | DevTools | `self-host` `cli` `api` | ViT5-base là encoder-decoder Transformer pretrained text-to-text cho tiếng Việt (summarization, translation, generation, QA fin… | [vit5-base.md](technologies/devtools/vit5-base.md) |
 | **VitePress** | DevTools | `cli` `self-host` `knowledge` | VitePress là static site generator docs từ Markdown chạy trên Vite + Vue: dev server hot-reload, theme mặc định đẹp (sidebar, dark mode, search), nhúng Vue component trong Markdown. | [vitepress.md](technologies/devtools/vitepress.md) |
+| **Swup** | DevTools | `browser` `cli` `self-host` | Swup là thư viện page transition cho MPA server-rendered: fetch HTML, animate, history, cache/preload — site cảm giác SPA mà không viết router đầy đủ. | [swup.md](technologies/devtools/swup.md) |
 | **vLLM-Omni** | DevTools | `api` `self-host` `cli` `tts` `image-gen` `video` | vLLM-Omni mở rộng vLLM từ LLM text AR sang phục vụ model omni-modality : text, ảnh, audio, video, action — kèm Diffusion (DiT) … | [vllm-omni.md](technologies/devtools/vllm-omni.md) |
 | **WhatCable** | DevTools | `desktop` `cli` `workspace` | WhatCable là app menu bar macOS (Apple Silicon, macOS 14+) giải thích bằng tiếng thường: mỗi cáp USB-C cắm vào Mac thật sự hỗ t… | [whatcable.md](technologies/devtools/whatcable.md) |
 | **Whisper Money** | DevTools | `self-host` `desktop` `workspace` | Whisper Money — app personal finance privacy-first: theo dõi tài khoản, phân loại giao dịch (manual + rule automation), insight… | [whisper-money.md](technologies/devtools/whisper-money.md) |

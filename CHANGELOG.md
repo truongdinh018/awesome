@@ -2,6 +2,16 @@
 
 Lịch sử thêm ★ / bookmark / cấu trúc catalog (mới nhất trên cùng).
 
+*2026-07-22 — 225 ★ · thêm Swup (`swup/swup`)*
+
+*2026-07-22 — 224 ★ · thêm Agency Agents (`msitarzewski/agency-agents`)*
+
+*2026-07-22 — 223 ★ · thêm Chunkr (`lumina-ai-inc/chunkr`)*
+
+*2026-07-22 — 222 ★ · thêm PraisonAI (`MervinPraison/PraisonAI`)*
+
+*2026-07-22 — sync: pull origin/main; star lại `nexu-io/html-anything` (#49 đã có)*
+
 *2026-07-18 — 221 ★ · thêm MemMachine (`MemMachine/MemMachine`)*
 
 *2026-07-18 — 220 ★ · thêm Appsmith (`appsmithorg/appsmith`)*

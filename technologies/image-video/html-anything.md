@@ -3,7 +3,7 @@
 > **Repo:** [nexu-io/html-anything](https://github.com/nexu-io/html-anything)  
 > **Category:** Image & Video · Agentic HTML editor  
 > **Tags:** `skill` · `coding-agent` · `agent` · `video` · `self-host`  
-> **Ngôn ngữ:** Next.js · HTML · **⭐** ~7.8k · **License:** Apache-2.0  
+> **Ngôn ngữ:** Next.js · HTML · **⭐** ~7.9k · **License:** Apache-2.0  
 > Site: [open-design.ai/html-anything](https://open-design.ai/html-anything/) · Built on [open-design](https://github.com/nexu-io/open-design)
 
 ## Đây là gì?

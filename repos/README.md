@@ -1,6 +1,6 @@
 # Starred Repos — Index
 
-> **221 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-07-18**  
+> **225 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-07-22**  
 > Đây là bảng master: mỗi dòng = 1 repo đã star + link bài `technologies/<domain>/<slug>.md`.
 > **Primary** = 1 trong 7 domain · **Tags** = nhiều capability.
 > Duyệt subgroup: [../categories/README.md](../categories/README.md) · Hub / checklist: [../README.md](../README.md) · Viết bài: [../technologies/WRITING.md](../technologies/WRITING.md)
@@ -55,7 +55,7 @@
 | 46 | [jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) | 29.6k | TypeScript | DevTools | `self-host` `video` `api` `realtime` `docker` | [jitsi-meet.md](../technologies/devtools/jitsi-meet.md) |
 | 47 | [mudler/LocalAI](https://github.com/mudler/LocalAI) | 47.5k | Go | DevTools | `api` `self-host` `mcp` `agent` `stt` `tts` `image-gen` `local-llm` `gateway` | [localai.md](../technologies/devtools/localai.md) |
 | 48 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 68.2k | Python | DevTools | `self-host` `cli` `api` `desktop` `finetune` `local-llm` | [unsloth.md](../technologies/devtools/unsloth.md) |
-| 49 | [nexu-io/html-anything](https://github.com/nexu-io/html-anything) | 7.8k | Next.js | Image & Video | `skill` `coding-agent` `agent` `video` `self-host` | [html-anything.md](../technologies/image-video/html-anything.md) |
+| 49 | [nexu-io/html-anything](https://github.com/nexu-io/html-anything) | 7.9k | Next.js | Image & Video | `skill` `coding-agent` `agent` `video` `self-host` | [html-anything.md](../technologies/image-video/html-anything.md) |
 | 50 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 78.1k | Skills/JS | MCP & AI Agents | `skill` `coding-agent` `prompt` `plugin` | [agent-skills.md](../technologies/mcp-ai-agents/agent-skills.md) |
 | 51 | [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) | 95.4k | TypeScript | UI Automation | `browser` `ui-automation` `api` `mcp` | [puppeteer.md](../technologies/ui-automation/puppeteer.md) |
 | 52 | [pathwaycom/pathway](https://github.com/pathwaycom/pathway) | 62.7k | Python/Rust | MCP & AI Agents | `rag` `cli` `self-host` `workflow` `api` | [pathway.md](../technologies/mcp-ai-agents/pathway.md) |
@@ -228,6 +228,10 @@
 | 219 | [continuedev/continue](https://github.com/continuedev/continue) | 34.9k | TS | MCP & AI Agents | `coding-agent` `agent` `cli` `desktop` `mcp` `self-host` | [continue.md](../technologies/mcp-ai-agents/continue.md) |
 | 220 | [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith) | 40.4k | TS/Java | DevTools | `self-host` `api` `workspace` `workflow` `browser` `docker` | [appsmith.md](../technologies/devtools/appsmith.md) |
 | 221 | [MemMachine/MemMachine](https://github.com/MemMachine/MemMachine) | 3.3k | Python | MCP & AI Agents | `agent` `memory` `mcp` `self-host` `api` `docker` | [memmachine.md](../technologies/mcp-ai-agents/memmachine.md) |
+| 222 | [MervinPraison/PraisonAI](https://github.com/MervinPraison/PraisonAI) | 8.5k | Python | MCP & AI Agents | `agent` `mcp` `rag` `cli` `workflow` `memory` `self-host` | [praisonai.md](../technologies/mcp-ai-agents/praisonai.md) |
+| 223 | [lumina-ai-inc/chunkr](https://github.com/lumina-ai-inc/chunkr) | 4.0k | Rust | DevTools | `ocr` `pdf` `rag` `self-host` `api` `docker` | [chunkr.md](../technologies/devtools/chunkr.md) |
+| 224 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 135.5k | Shell | MCP & AI Agents | `skill` `prompt` `coding-agent` `agent` `desktop` `cli` | [agency-agents.md](../technologies/mcp-ai-agents/agency-agents.md) |
+| 225 | [swup/swup](https://github.com/swup/swup) | 5.2k | TypeScript | DevTools | `browser` `cli` `self-host` | [swup.md](../technologies/devtools/swup.md) |
 
 
 ## Ecosystem — CLI-Anything harnesses (con của #16)
