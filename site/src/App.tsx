@@ -3,10 +3,13 @@ import {
   canEditMarkdown,
   fetchCatalog,
   fetchFile,
+  fetchTrendingWeek,
   saveFile,
   type CatalogItem,
+  type TrendingWeek,
 } from './api'
 import { Catalog } from './components/Catalog'
+import { Trending } from './components/Trending'
 import { Reader } from './components/Reader'
 import { Editor } from './components/Editor'
 import { ThemeToggle } from './components/ThemeToggle'
@@ -15,6 +18,7 @@ import {
   catalogHref,
   navigate,
   readRoute,
+  trendingHref,
 } from './lib/routing'
 import { markPathSeen } from './lib/semanticSearch'
 import {
@@ -25,7 +29,7 @@ import {
 } from './theme'
 
 type Mode = 'read' | 'edit'
-type View = 'catalog' | 'article'
+type View = 'catalog' | 'trending' | 'article'
 
 function resolveRelative(fromPath: string, href: string): string | null {
   if (!href || href.startsWith('#') || /^[a-z]+:/i.test(href)) return null
@@ -83,6 +87,9 @@ export default function App() {
   const [catalogTags, setCatalogTags] = useState<string[]>(
     initial.view === 'catalog' ? initial.tags : [],
   )
+  const [trendingData, setTrendingData] = useState<TrendingWeek | null>(null)
+  const [trendingLoading, setTrendingLoading] = useState(false)
+  const [trendingError, setTrendingError] = useState<string | null>(null)
 
   const dirty = mode === 'edit' && draft !== content
   const dirtyRef = useRef(dirty)
@@ -142,6 +149,34 @@ export default function App() {
     }
   }, [scrollArticleTop])
 
+  const showTrending = useCallback(
+    async (opts?: { syncUrl?: boolean; mode?: 'push' | 'replace' }) => {
+      setView('trending')
+      setMode('read')
+      setCurrentPath(null)
+      setContent('')
+      setDraft('')
+      setStatus(null)
+      setTrendingError(null)
+      setTrendingLoading(true)
+      document.title = 'Awesome AI · Trending'
+      if (opts?.syncUrl !== false) {
+        navigate(trendingHref(), opts?.mode ?? 'push')
+      }
+      try {
+        const data = await fetchTrendingWeek()
+        setTrendingData(data)
+      } catch (err) {
+        setTrendingError(
+          err instanceof Error ? err.message : 'Không tải được trending',
+        )
+      } finally {
+        setTrendingLoading(false)
+      }
+    },
+    [],
+  )
+
   const showCatalog = useCallback(
     async (opts?: { syncUrl?: boolean; mode?: 'push' | 'replace' }) => {
       setView('catalog')
@@ -179,6 +214,8 @@ export default function App() {
         const route = readRoute()
         if (route.view === 'article') {
           await openFile(route.doc, false)
+        } else if (route.view === 'trending') {
+          await showTrending({ syncUrl: false })
         } else {
           setCatalogQuery(route.q)
           setCatalogDomains(route.domains)
@@ -197,7 +234,7 @@ export default function App() {
     return () => {
       cancelled = true
     }
-  }, [loadCatalog, openFile])
+  }, [loadCatalog, openFile, showTrending])
 
   useEffect(() => {
     const onPopState = () => {
@@ -217,6 +254,8 @@ export default function App() {
       const route = readRoute()
       if (route.view === 'article') {
         void openFile(route.doc, false)
+      } else if (route.view === 'trending') {
+        void showTrending({ syncUrl: false })
       } else {
         setCatalogQuery(route.q)
         setCatalogDomains(route.domains)
@@ -232,7 +271,7 @@ export default function App() {
     }
     window.addEventListener('popstate', onPopState)
     return () => window.removeEventListener('popstate', onPopState)
-  }, [openFile])
+  }, [openFile, showTrending])
 
   const confirmLeaveEdit = useCallback(() => {
     if (!dirty) return true
@@ -326,6 +365,23 @@ export default function App() {
     return () => window.removeEventListener('keydown', onKey)
   }, [mode, dirty, handleSave, view, handleBack])
 
+  if (view === 'trending') {
+    return (
+      <div className="blog-shell">
+        <Trending
+          data={trendingData}
+          loading={trendingLoading}
+          error={trendingError ?? error}
+          theme={theme}
+          onToggleTheme={handleToggleTheme}
+          onOpenCatalog={() => void showCatalog()}
+          onOpenArticle={(p) => void handleSelect(p)}
+          onOpenHub={(p) => void handleSelect(p)}
+        />
+      </div>
+    )
+  }
+
   if (view === 'catalog') {
     return (
       <div className="blog-shell">
@@ -345,6 +401,7 @@ export default function App() {
             onFiltersChange={syncCatalogUrl}
             onOpen={(p) => void handleSelect(p)}
             onOpenHub={(p) => void handleSelect(p)}
+            onOpenTrending={() => void showTrending()}
           />
         )}
       </div>

@@ -1,5 +1,6 @@
 export type RouteState =
   | { view: 'catalog'; q: string; domains: string[]; tags: string[] }
+  | { view: 'trending' }
   | { view: 'article'; doc: string }
 
 function appBase(): string {
@@ -11,6 +12,10 @@ export function readRoute(url: URL = new URL(window.location.href)): RouteState 
   const doc = url.searchParams.get('doc')?.trim()
   if (doc) {
     return { view: 'article', doc }
+  }
+
+  if (url.searchParams.get('trending') === '1') {
+    return { view: 'trending' }
   }
 
   const domains = [
@@ -25,6 +30,12 @@ export function readRoute(url: URL = new URL(window.location.href)): RouteState 
     domains: uniqueDomains,
     tags: url.searchParams.getAll('tag').filter(Boolean),
   }
+}
+
+export function trendingHref(): string {
+  const params = new URLSearchParams()
+  params.set('trending', '1')
+  return `${appBase()}?${params.toString()}`
 }
 
 export function catalogHref(opts: {

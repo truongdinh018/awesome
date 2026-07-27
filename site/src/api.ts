@@ -1,6 +1,8 @@
 import type { CatalogItem } from './lib/parseMeta'
+import type { TrendingWeek } from './lib/trending'
 
 export type { CatalogItem }
+export type { TrendingWeek } from './lib/trending'
 
 export type TreeNode = {
   name: string
@@ -53,6 +55,12 @@ export async function fetchCatalog(): Promise<CatalogResponse> {
     return parseJson<CatalogResponse>(await fetch('/api/catalog'))
   }
   return parseJson<CatalogResponse>(await fetch(assetUrl('data/catalog.json')))
+}
+
+export async function fetchTrendingWeek(): Promise<TrendingWeek> {
+  return parseJson<TrendingWeek>(
+    await fetch(assetUrl('data/trending-week.json')),
+  )
 }
 
 export async function fetchTree(): Promise<TreeNode[]> {
