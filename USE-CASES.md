@@ -2,7 +2,7 @@
 
 > **Bắt đầu từ đây** nếu bạn chưa biết tool thuộc domain nào. Mỗi mục = một việc cần làm → tool + tóm tắt “là gì”.
 >
-> **234** bài · generated từ `technologies/*/…md` · **2026-07-22**.
+> **235** bài · generated từ `technologies/*/…md` · **2026-07-27**.
 >
 > Song song: [categories/](categories/README.md) · [repos/](repos/README.md) · [TAGS.md](TAGS.md).
 
@@ -16,10 +16,10 @@
 
 - [Hỏi đáp trên tài liệu / knowledge (RAG)](#01-rag) — **33**
 - [Cào web & extract dữ liệu](#02-extract) — **4**
-- [Agent lập trình](#03-coding) — **48**
+- [Agent lập trình](#03-coding) — **49**
 - [Agent runtime / bot đa kênh](#04-agent-runtime) — **16**
-- [MCP — gắn tool vào AI coding assistant](#05-mcp) — **54**
-- [Skill / prompt / guideline](#06-skills) — **53**
+- [MCP — gắn tool vào AI coding assistant](#05-mcp) — **55**
+- [Skill / prompt / guideline](#06-skills) — **54**
 - [Memory dài hạn cho agent](#07-memory) — **4**
 - [An toàn lệnh & governance](#08-guardrail) — **2**
 - [Nhận dạng giọng nói (STT)](#09-stt) — **14**
@@ -27,7 +27,7 @@
 - [Sinh ảnh & video bằng AI](#11-image-video-gen) — **16**
 - [Sửa / tải / xem video (không gen)](#12-video-tools) — **14**
 - [UI / web → code](#13-ui2code) — **4**
-- [Tự động hóa trình duyệt (computer-use)](#14-browser) — **15**
+- [Tự động hóa trình duyệt (computer-use)](#14-browser) — **16**
 - [Thị giác máy & edge/IoT](#15-cv) — **9**
 - [PDF, OCR, tài liệu văn phòng](#16-pdf-ocr) — **24**
 - [Thông báo & cầu nối chat](#17-notify) — **7**
@@ -141,6 +141,7 @@
 | **Nezha (哪吒)** | MCP & AI Agents | `coding-agent` `agent` `desktop` `workflow` `cli` `skill` | Nezha (哪吒) là IDE nhẹ agent-first (cross-platform, ~7MB): một app quản lý nhiều project × nhiều session Claude Code / Codex , t… | [nezha.md](technologies/mcp-ai-agents/nezha.md) |
 | **OfficeCLI** | DevTools | `cli` `office` `skill` `coding-agent` `workspace` | OfficeCLI là suite đọc / sửa / tạo file Word (.docx), Excel (.xlsx), PowerPoint (.pptx) qua CLI — không cần cài Microsoft Office. | [officecli.md](technologies/devtools/officecli.md) |
 | **OpenHands** | MCP & AI Agents | `coding-agent` `agent` `self-host` | OpenHands là nền tảng AI-driven development self-host: Agent Canvas là control center cho coding agents + automations (Slack, G… | [openhands.md](technologies/mcp-ai-agents/openhands.md) |
+| **Open Interpreter** | MCP & AI Agents | `coding-agent` `agent` `cli` `skill` `mcp` `computer-use` | Open Interpreter là coding agent tối ưu cho open / low-cost models (Kimi K3, DeepSeek, Qwen…): fork Rust của Codex, TUI, harness… | [openinterpreter.md](technologies/mcp-ai-agents/openinterpreter.md) |
 | **OpenMontage** | Image & Video | `video` `agent` `skill` `coding-agent` `workflow` `cli` | OpenMontage là hệ thống agentic video production open-source: biến coding assistant (Claude Code, Cursor, Copilot, Windsurf, Co… | [openmontage.md](technologies/image-video/openmontage.md) |
 | **OpenSpace** | MCP & AI Agents | `skill` `agent` `mcp` `cli` `self-host` `coding-agent` | OpenSpace — quality-first skill hub cho AI agents: self-evolve skill (auto-fix / improve / learn từ task thật), share skill clo… | [openspace.md](technologies/mcp-ai-agents/openspace.md) |
 | **Paseo** | MCP & AI Agents | `coding-agent` `agent` `desktop` `cli` `skill` `self-host` | Paseo là một interface điều phối nhiều coding agent trên máy bạn: Claude Code · Codex · Copilot · OpenCode · Pi — desktop, iOS/… | [paseo.md](technologies/mcp-ai-agents/paseo.md) |
@@ -225,6 +226,7 @@
 | **Maths, CS & AI Compendium** | MCP & AI Agents | `prompt` `mcp` `skill` `rag` `cli` | Maths, CS & AI Compendium là sách giáo khoa mở (intuition-first): toán → ML → NLP/CV/speech/multimodal → hệ thống / GPU / infer… | [maths-cs-ai-compendium.md](technologies/mcp-ai-agents/maths-cs-ai-compendium.md) |
 | **NotebookLM MCP** | MCP & AI Agents | `mcp` `rag` | NotebookLM MCP là MCP server nối AI agent (Claude Code, Codex, Cursor…) với Google NotebookLM. | [notebooklm-mcp.md](technologies/mcp-ai-agents/notebooklm-mcp.md) |
 | **OpenHuman** | MCP & AI Agents | `rag` `agent` `mcp` `self-host` `desktop` `workflow` | OpenHuman là personal AI super intelligence local-first gồm ba phần: (1) brain — memory tree / Obsidian-style wiki từ email·cal… | [openhuman.md](technologies/mcp-ai-agents/openhuman.md) |
+| **Open Interpreter** | MCP & AI Agents | `coding-agent` `agent` `cli` `skill` `mcp` `computer-use` | Open Interpreter là coding agent tối ưu cho open / low-cost models (Kimi K3, DeepSeek, Qwen…): fork Rust của Codex, TUI, harness… | [openinterpreter.md](technologies/mcp-ai-agents/openinterpreter.md) |
 | **OpenSpace** | MCP & AI Agents | `skill` `agent` `mcp` `cli` `self-host` `coding-agent` | OpenSpace — quality-first skill hub cho AI agents: self-evolve skill (auto-fix / improve / learn từ task thật), share skill clo… | [openspace.md](technologies/mcp-ai-agents/openspace.md) |
 | **Page Agent** | UI Automation | `ui-automation` `browser` `dom` `mcp` `agent` | Page Agent (Alibaba) là GUI agent sống trong webpage : một script JS gắn vào trang → điều khiển UI bằng ngôn ngữ tự nhiên. | [page-agent.md](technologies/ui-automation/page-agent.md) |
 | **PageIndex** | MCP & AI Agents | `rag` `mcp` `self-host` `cli` | PageIndex (Vectify AI) là RAG không vector DB / không chunk giả : biến PDF dài thành cây hierarchical kiểu mục lục, rồi LLM lý … | [pageindex.md](technologies/mcp-ai-agents/pageindex.md) |
@@ -293,6 +295,7 @@
 | **Nezha (哪吒)** | MCP & AI Agents | `coding-agent` `agent` `desktop` `workflow` `cli` `skill` | Nezha (哪吒) là IDE nhẹ agent-first (cross-platform, ~7MB): một app quản lý nhiều project × nhiều session Claude Code / Codex , t… | [nezha.md](technologies/mcp-ai-agents/nezha.md) |
 | **OfficeCLI** | DevTools | `cli` `office` `skill` `coding-agent` `workspace` | OfficeCLI là suite đọc / sửa / tạo file Word (.docx), Excel (.xlsx), PowerPoint (.pptx) qua CLI — không cần cài Microsoft Office. | [officecli.md](technologies/devtools/officecli.md) |
 | **OpenHuman** | MCP & AI Agents | `rag` `agent` `mcp` `self-host` `desktop` `workflow` | OpenHuman là personal AI super intelligence local-first gồm ba phần: (1) brain — memory tree / Obsidian-style wiki từ email·cal… | [openhuman.md](technologies/mcp-ai-agents/openhuman.md) |
+| **Open Interpreter** | MCP & AI Agents | `coding-agent` `agent` `cli` `skill` `mcp` `computer-use` | Open Interpreter là coding agent tối ưu cho open / low-cost models (Kimi K3, DeepSeek, Qwen…): fork Rust của Codex, TUI, harness… | [openinterpreter.md](technologies/mcp-ai-agents/openinterpreter.md) |
 | **OpenMontage** | Image & Video | `video` `agent` `skill` `coding-agent` `workflow` `cli` | OpenMontage là hệ thống agentic video production open-source: biến coding assistant (Claude Code, Cursor, Copilot, Windsurf, Co… | [openmontage.md](technologies/image-video/openmontage.md) |
 | **OpenSpace** | MCP & AI Agents | `skill` `agent` `mcp` `cli` `self-host` `coding-agent` | OpenSpace — quality-first skill hub cho AI agents: self-evolve skill (auto-fix / improve / learn từ task thật), share skill clo… | [openspace.md](technologies/mcp-ai-agents/openspace.md) |
 | **Paseo** | MCP & AI Agents | `coding-agent` `agent` `desktop` `cli` `skill` `self-host` | Paseo là một interface điều phối nhiều coding agent trên máy bạn: Claude Code · Codex · Copilot · OpenCode · Pi — desktop, iOS/… | [paseo.md](technologies/mcp-ai-agents/paseo.md) |
@@ -477,6 +480,7 @@
 | **CloakBrowser** | UI Automation | `browser` `ui-automation` `api` `cli` `self-host` | CloakBrowser là Chromium anti-detect với fingerprint patch source-level C++ (không chỉ JS inject): canvas/WebGL/audio/fonts/Web… | [cloakbrowser.md](technologies/ui-automation/cloakbrowser.md) |
 | **FileBrowser Quantum** | DevTools | `self-host` `desktop` `api` `workspace` `browser` | FileBrowser Quantum — fork hiện đại của File Browser: web file manager self-host trên filesystem (multi-source, include/exclude). | [filebrowser-quantum.md](technologies/devtools/filebrowser-quantum.md) |
 | **Midscene.js** | UI Automation | `ui-automation` `computer-use` `browser` `skill` | Midscene.js là framework UI automation / testing dựa trên vision ( vision-based automation ): mô tả bước bằng ngôn ngữ tự nhiên… | [midscene.md](technologies/ui-automation/midscene.md) |
+| **Open Interpreter** | MCP & AI Agents | `coding-agent` `agent` `cli` `skill` `mcp` `computer-use` | Open Interpreter là coding agent tối ưu cho open / low-cost models (Kimi K3, DeepSeek, Qwen…): fork Rust của Codex, TUI, harness… | [openinterpreter.md](technologies/mcp-ai-agents/openinterpreter.md) |
 | **Page Agent** | UI Automation | `ui-automation` `browser` `dom` `mcp` `agent` | Page Agent (Alibaba) là GUI agent sống trong webpage : một script JS gắn vào trang → điều khiển UI bằng ngôn ngữ tự nhiên. | [page-agent.md](technologies/ui-automation/page-agent.md) |
 | **Puppeteer** | UI Automation | `browser` `ui-automation` `api` `mcp` | Puppeteer là JavaScript/TypeScript API điều khiển Chrome / Firefox (headless hoặc headed) qua CDP. | [puppeteer.md](technologies/ui-automation/puppeteer.md) |
 | **React Scan** | DevTools | `browser` `cli` `desktop` | React Scan tự phát hiện vấn đề performance React (render thừa): không cần sửa app nhiều — drop-in script / npx react-scan init … | [react-scan.md](technologies/devtools/react-scan.md) |

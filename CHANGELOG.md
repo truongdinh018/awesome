@@ -2,6 +2,8 @@
 
 Lịch sử thêm ★ / bookmark / cấu trúc catalog (mới nhất trên cùng).
 
+*2026-07-27 — 226 ★ · thêm Open Interpreter (`openinterpreter/openinterpreter`)*
+
 *2026-07-22 — 225 ★ · thêm Swup (`swup/swup`)*
 
 *2026-07-22 — 224 ★ · thêm Agency Agents (`msitarzewski/agency-agents`)*

@@ -1,6 +1,6 @@
 # Starred Repos — Index
 
-> **225 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-07-22**  
+> **226 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-07-27**  
 > Đây là bảng master: mỗi dòng = 1 repo đã star + link bài `technologies/<domain>/<slug>.md`.
 > **Primary** = 1 trong 7 domain · **Tags** = nhiều capability.
 > Duyệt subgroup: [../categories/README.md](../categories/README.md) · Hub / checklist: [../README.md](../README.md) · Viết bài: [../technologies/WRITING.md](../technologies/WRITING.md)
@@ -232,6 +232,7 @@
 | 223 | [lumina-ai-inc/chunkr](https://github.com/lumina-ai-inc/chunkr) | 4.0k | Rust | DevTools | `ocr` `pdf` `rag` `self-host` `api` `docker` | [chunkr.md](../technologies/devtools/chunkr.md) |
 | 224 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 135.5k | Shell | MCP & AI Agents | `skill` `prompt` `coding-agent` `agent` `desktop` `cli` | [agency-agents.md](../technologies/mcp-ai-agents/agency-agents.md) |
 | 225 | [swup/swup](https://github.com/swup/swup) | 5.2k | TypeScript | DevTools | `browser` `cli` `self-host` | [swup.md](../technologies/devtools/swup.md) |
+| 226 | [openinterpreter/openinterpreter](https://github.com/openinterpreter/openinterpreter) | 67.3k | Rust | MCP & AI Agents | `coding-agent` `agent` `cli` `skill` `mcp` `computer-use` | [openinterpreter.md](../technologies/mcp-ai-agents/openinterpreter.md) |
 
 
 ## Ecosystem — CLI-Anything harnesses (con của #16)
