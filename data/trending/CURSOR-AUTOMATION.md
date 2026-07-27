@@ -1,84 +1,85 @@
 # Thiết lập Cursor Automation — Trending hàng tuần
 
-Cursor **không** tự import automation từ repo. Bạn tạo **một lần** tại [cursor.com/automations/new](https://cursor.com/automations/new) hoặc dùng skill `/automate` trong Cursor Desktop.
+Cursor **không** tự import automation từ repo (chưa có API chính thức). Bạn tạo **một lần** bằng lệnh bên dưới.
 
-## Cách nhanh (Cursor Desktop)
+## Cách nhanh nhất (30 giây)
 
-Trong chat Agent, gõ:
+Trong **Cursor Desktop** (chat Agent), gõ:
 
 ```
-/automate Tạo automation "Weekly AI trending", cron 0 6 * * 1 (thứ Hai 06:00 UTC),
-repo truongdinh018/awesome branch main, bật Pull request.
-Instructions: đọc data/trending/CURSOR-AUTOMATION.md và chạy workflow trending hàng tuần.
+/create-weekly-trending-automation
 ```
 
-## Bước 1 — Secret GitHub token
+Hoặc dùng skill built-in:
 
-1. [Dashboard → Cloud Agents → Secrets](https://cursor.com/dashboard/cloud-agents)
-2. Thêm `GITHUB_TOKEN` = GitHub PAT (quyền `public_repo` hoặc đọc/ghi repo)
+```
+/automate Tạo automation "Weekly AI trending", cron 0 6 * * 1, repo truongdinh018/awesome branch main, bật PR. Instructions: đọc AGENTS.md mục cập nhật trending, chạy cd site && GITHUB_TOKEN="$GITHUB_TOKEN" npm run fetch:trending, commit data/trending và site/public/data/trending-week.json, mở PR chore(trending).
+```
 
-## Bước 2 — Environment (tuỳ chọn)
+Định nghĩa đầy đủ trong repo: `.cursor/automations/weekly-ai-trending/AUTOMATION.md`
 
-Tại [Cloud Agents → Environments](https://cursor.com/dashboard/cloud-agents#environments), tạo environment `awesome-ai`:
+---
+
+## Bước 1 — Môi trường Cloud Agent
 
 ```json
 {
+  "name": "awesome-ai",
   "install": "cd site && npm ci"
 }
 ```
 
+Vào [Cloud Agents → Environments](https://cursor.com/dashboard/cloud-agents#environments) và chọn environment **awesome-ai** (hoặc để agent dùng file trong repo).
+
+## Bước 2 — Secret GitHub token
+
+1. [Dashboard → Cloud Agents → Secrets](https://cursor.com/dashboard/cloud-agents)
+2. Thêm secret: `GITHUB_TOKEN` = GitHub PAT (`public_repo` hoặc quyền đọc repo)
+
 ## Bước 3 — Tạo automation
+
+Mở [cursor.com/automations/new](https://cursor.com/automations/new) và điền:
 
 | Trường | Giá trị |
 |--------|---------|
 | **Tên** | `Weekly AI trending` |
 | **Trigger** | Scheduled → cron `0 6 * * 1` (thứ Hai 06:00 UTC) |
 | **Repository** | `truongdinh018/awesome` — branch `main` |
-| **Tools** | Bật **Pull request** |
-| **Model** | Composer (mặc định) |
+| **Tools** | Bật **Pull request** (hoặc push trực tiếp nếu team cho phép) |
+| **Model** | Default / Composer |
 
-### Prompt (Instructions)
+### Prompt (copy vào ô Instructions)
 
 ```markdown
 Cập nhật repo AI trending tuần này cho Awesome AI catalog.
 
-1. Fetch trending:
-   cd site
-   GITHUB_TOKEN="$GITHUB_TOKEN" npm run fetch:trending
+Đọc AGENTS.md (mục "Cập nhật trending hàng tuần") và làm đúng các bước:
+1. Chạy `cd site && GITHUB_TOKEN="$GITHUB_TOKEN" npm run fetch:trending`
+2. Commit `data/trending/` và `site/public/data/trending-week.json`
+3. Push và mở PR vào main (title: chore(trending): cập nhật repo trending tuần YYYY-Www)
 
-2. (Tuỳ chọn) Tạo bài tiếng Việt cho repo mới — tối đa 8 repo/lần:
-   MAX_CREATE=8 npm run trending:create-articles
-   npm run index:search:meta
-
-3. Commit:
-   git add data/trending/ site/public/data/trending-week.json
-   git add technologies/ repos/README.md CHANGELOG.md site/public/data/ 2>/dev/null || true
-   git commit -m "chore(trending): cập nhật repo trending tuần $(date -u +%G-W%V)"
-
-4. Push và mở PR vào main
-   Title: chore(trending): cập nhật repo trending tuần YYYY-Www
-
-5. Deploy GitHub Pages (Actions đang bị billing lock — build local rồi push gh-pages):
-   npm run build:pages
-   # copy site/dist lên nhánh gh-pages (xem lịch sử deploy trước)
-
-Báo cáo: tuần, số repo mới/đã có bài, top 5 nổi bật, link PR.
+Báo cáo ngắn: tuần, số repo mới / đã có bài, top 5 repo nổi bật.
+Không viết bài technologies mới — chỉ cập nhật dữ liệu trending.
 ```
 
 ## Bước 4 — Kích hoạt
 
-Bật automation → **Test run** một lần để xác nhận PR đúng.
+Bật automation → **Test run** một lần để xác nhận PR được tạo đúng.
 
-## Lịch chạy
+## Cách khác — dùng `/automate` trong Cursor IDE
 
-| Múi giờ | Thứ Hai 06:00 UTC |
-|---------|-------------------|
-| Việt Nam (UTC+7) | **13:00** |
+Trong chat agent local, gõ:
 
-## GitHub Actions (backup)
+```
+/automate Tạo automation chạy mỗi thứ Hai 06:00 UTC trên repo awesome,
+chạy npm run fetch:trending trong site/, commit trending data và mở PR.
+Đọc AGENTS.md để biết chi tiết.
+```
 
-Workflow `.github/workflows/update-trending.yml` cũng có cron `0 6 * * 1` nhưng **đang fail** do billing lock. Ưu tiên Cursor Automation cho đến khi mở khóa billing.
+## GitHub Actions (tuỳ chọn)
 
-## Kiểm tra
+Workflow `.github/workflows/update-trending.yml` vẫn chạy song song nếu bạn muốn backup không qua Cursor. Tắt bằng cách xóa trigger `schedule` trong file đó.
 
-Sau merge PR: https://truongdinh018.github.io/awesome/?trending=1
+## Kiểm tra trên web
+
+Sau khi merge PR: mở catalog → menu **Trending** hoặc `?trending=1`.
