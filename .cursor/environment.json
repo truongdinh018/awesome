@@ -1,0 +1,4 @@
+{
+  "name": "awesome-ai",
+  "install": "cd site && npm ci"
+}
