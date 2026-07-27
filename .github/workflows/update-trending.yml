@@ -2,7 +2,7 @@ name: Weekly trending repos
 
 on:
   schedule:
-    # Thứ Hai 06:00 UTC — cập nhật trending tuần mới
+    # Backup — ưu tiên Cursor Automation (xem data/trending/CURSOR-AUTOMATION.md)
     - cron: '0 6 * * 1'
   workflow_dispatch:
 

@@ -19,6 +19,7 @@ const HUB_FILES = [
   'technologies/WRITING.md',
   'data/trending/README.md',
   'data/trending/pending.md',
+  'data/trending/CURSOR-AUTOMATION.md',
 ]
 
 type TreeNode = {
