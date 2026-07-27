@@ -1,10 +1,26 @@
 # Thiết lập Cursor Automation — Trending hàng tuần
 
-Cursor **không** đọc file automation từ repo. Bạn tạo automation một lần trong dashboard, agent sẽ đọc `AGENTS.md` và chạy script có sẵn.
+Cursor **không** tự import automation từ repo (chưa có API chính thức). Bạn tạo **một lần** bằng lệnh bên dưới.
+
+## Cách nhanh nhất (30 giây)
+
+Trong **Cursor Desktop** (chat Agent), gõ:
+
+```
+/create-weekly-trending-automation
+```
+
+Hoặc dùng skill built-in:
+
+```
+/automate Tạo automation "Weekly AI trending", cron 0 6 * * 1, repo truongdinh018/awesome branch main, bật PR. Instructions: đọc AGENTS.md mục cập nhật trending, chạy cd site && GITHUB_TOKEN="$GITHUB_TOKEN" npm run fetch:trending, commit data/trending và site/public/data/trending-week.json, mở PR chore(trending).
+```
+
+Định nghĩa đầy đủ trong repo: `.cursor/automations/weekly-ai-trending/AUTOMATION.md`
+
+---
 
 ## Bước 1 — Môi trường Cloud Agent
-
-Repo đã có `.cursor/environment.json`:
 
 ```json
 {
