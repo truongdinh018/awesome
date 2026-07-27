@@ -17,6 +17,8 @@ const HUB_FILES = [
   'repos/README.md',
   'technologies/README.md',
   'technologies/WRITING.md',
+  'data/trending/README.md',
+  'data/trending/pending.md',
 ]
 
 type TreeNode = {
