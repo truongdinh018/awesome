@@ -4,6 +4,20 @@
 
 Khi được gọi để **cập nhật repo trending tuần này**, làm theo thứ tự:
 
+### 0. Đồng bộ main trước (tránh conflict PR)
+
+```bash
+git fetch origin main
+git merge origin/main   # hoặc rebase nếu branch sạch
+# Nếu conflict ở site/public/data/search.sqlite hoặc articles-status.json:
+rm -f site/public/data/search.sqlite site/public/data/articles-status.json
+cd site && npm run index:search:meta && cd ..
+git add site/public/data/ && git commit --no-edit
+```
+
+- `search.sqlite` / `articles-status.json` là **file generated** — không merge tay, luôn regenerate.
+- Các file khác (README, CHANGELOG, bài mới trên main) thường auto-merge được.
+
 ### 1. Fetch dữ liệu GitHub
 
 ```bash
@@ -13,6 +27,7 @@ GITHUB_TOKEN="$GITHUB_TOKEN" npm run fetch:trending
 
 - `GITHUB_TOKEN` lấy từ **Cursor Dashboard → Cloud Agents → Secrets** (PAT có quyền `public_repo` hoặc repo private).
 - Không có token vẫn chạy được nhưng dễ bị rate limit GitHub API.
+- **Chạy ~2–3 phút** — đợi hoàn tất, không background rồi dừng agent giữa chừng.
 
 ### 2. (Tuỳ chọn) Tạo bài cho repo trending mới
 
@@ -53,6 +68,16 @@ npm run build:pages
 - Tuần (YYYY-Www), số repo mới, số repo đã có bài
 - 3–5 repo nổi bật nhất (tên + lý do trending)
 - Link PR (nếu có)
+
+## Tránh fail automation
+
+| Nguyên nhân | Cách xử lý |
+|-------------|------------|
+| Agent timeout sau `fetch:trending` (~2 phút) | Chạy hết pipeline trong **một run**; không dừng sau bước 1 |
+| PR conflict với main | Bước 0: merge main + regenerate index trước khi push |
+| Conflict `search.sqlite` (binary) | Xóa file → `npm run index:search:meta` → commit |
+| Bài đã tạo nhưng chưa commit | `git status` kiểm tra `technologies/` untracked → add + commit |
+| GitHub Actions billing lock | Deploy tay lên `gh-pages` (bước 5) |
 
 ## Tham khảo
 
