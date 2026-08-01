@@ -24,3 +24,13 @@ Không có token vẫn chạy được nhưng bị giới hạn 60 request/giờ
 ## Xem trên web
 
 Mở catalog → menu **Trending** (hoặc `?trending=1`).
+
+## Tự động hàng tuần (Cursor Automation — khuyến nghị)
+
+Xem hướng dẫn chi tiết: [CURSOR-AUTOMATION.md](./CURSOR-AUTOMATION.md)
+
+Tóm tắt: tạo automation tại [cursor.com/automations/new](https://cursor.com/automations/new) — cron `0 6 * * 1` (thứ Hai 13:00 giờ VN), repo `main`, prompt đọc `AGENTS.md`.
+
+## GitHub Actions (tuỳ chọn / backup)
+
+Workflow `.github/workflows/update-trending.yml` — hiện **fail do billing lock**; dùng Cursor Automation thay thế.
