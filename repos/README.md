@@ -1,6 +1,6 @@
 # Starred Repos — Index
 
-> **306 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-07-27**  
+> **307 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-07-27**  
 > Đây là bảng master: mỗi dòng = 1 repo đã star + link bài `technologies/<domain>/<slug>.md`.
 > **Primary** = 1 trong 7 domain · **Tags** = nhiều capability.
 > Duyệt subgroup: [../categories/README.md](../categories/README.md) · Hub / checklist: [../README.md](../README.md) · Viết bài: [../technologies/WRITING.md](../technologies/WRITING.md)
@@ -313,6 +313,7 @@
 | 304 | [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) | 28.4k | C# | MCP & AI Agents | `agent` | [semantic-kernel.md](../technologies/mcp-ai-agents/semantic-kernel.md) |
 | 305 | [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | 28.3k | Go | MCP & AI Agents | `agent` `cli` `coding-agent` | [deepseek-reasonix.md](../technologies/mcp-ai-agents/deepseek-reasonix.md) |
 | 306 | [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) | 27.7k | Python | Image & Video | `image-gen` `cli` | [invokeai.md](../technologies/image-video/invokeai.md) |
+| 307 | [go-vikunja/app](https://github.com/go-vikunja/app) | 0.6k | Dart | DevTools | `self-host` `desktop` `workspace` `api` | [vikunja-app.md](../technologies/devtools/vikunja-app.md) |
 
 
 ## Ecosystem — CLI-Anything harnesses (con của #16)

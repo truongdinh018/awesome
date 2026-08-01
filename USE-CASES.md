@@ -35,7 +35,7 @@
 - [Bảo mật & pentest](#19-security) — **7**
 - [Hạ tầng chạy LLM (gateway / inference / train)](#20-llm-infra) — **11**
 - [DB / storage / file browser](#21-data) — **5**
-- [Năng suất & self-host tiện ích](#22-productivity) — **30**
+- [Năng suất & self-host tiện ích](#22-productivity) — **31**
 - [CLI-Anything harness (điều khiển app bằng agent)](#23-harness) — **12**
 - [3D / CAD / game engine](#24-3d) — **7**
 - [Watermark nội dung AI](#25-watermark) — **2**
@@ -674,6 +674,7 @@
 | **termshot** | DevTools | `cli` `desktop` | termshot tạo ảnh screenshot terminal đẹp từ lệnh bạn chạy: prefix như time / watch — đọc ANSI escape (màu/format thật), render … | [termshot.md](technologies/devtools/termshot.md) |
 | **VietAI ViT5-base** | DevTools | `self-host` `cli` `api` | ViT5-base là encoder-decoder Transformer pretrained text-to-text cho tiếng Việt (summarization, translation, generation, QA fin… | [vit5-base.md](technologies/devtools/vit5-base.md) |
 | **VitePress** | DevTools | `cli` `self-host` `knowledge` | VitePress là static site generator docs từ Markdown chạy trên Vite + Vue: dev server hot-reload, theme mặc định đẹp (sidebar, dark mode, search), nhúng Vue component trong Markdown. | [vitepress.md](technologies/devtools/vitepress.md) |
+| **Vikunja App** | DevTools | `self-host` `desktop` `workspace` `api` | Vikunja App là client Flutter cross-platform cho Vikunja — to-do/Kanban/Gantt self-host; kết nối API backend Vikunja stable (alpha pre-release). | [vikunja-app.md](technologies/devtools/vikunja-app.md) |
 | **Swup** | DevTools | `browser` `cli` `self-host` | Swup là thư viện page transition cho MPA server-rendered: fetch HTML, animate, history, cache/preload — site cảm giác SPA mà không viết router đầy đủ. | [swup.md](technologies/devtools/swup.md) |
 | **vLLM-Omni** | DevTools | `api` `self-host` `cli` `tts` `image-gen` `video` | vLLM-Omni mở rộng vLLM từ LLM text AR sang phục vụ model omni-modality : text, ảnh, audio, video, action — kèm Diffusion (DiT) … | [vllm-omni.md](technologies/devtools/vllm-omni.md) |
 | **WhatCable** | DevTools | `desktop` `cli` `workspace` | WhatCable là app menu bar macOS (Apple Silicon, macOS 14+) giải thích bằng tiếng thường: mỗi cáp USB-C cắm vào Mac thật sự hỗ t… | [whatcable.md](technologies/devtools/whatcable.md) |

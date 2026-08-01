@@ -22,15 +22,15 @@
 
 | # | Primary | ★ | Mục đích ngắn |
 |---|---------|---|----------------|
-| 1 | [MCP & AI Agents](#1-mcp--ai-agents) | 79 | MCP, RAG, agent, skill |
+| 1 | [MCP & AI Agents](#1-mcp--ai-agents) | 134 | MCP, RAG, agent, skill |
 | 2 | [Speech & Audio](#2-speech--audio) | 20 | STT / TTS / voice |
-| 3 | [Image & Video](#3-image--video) | 29 | Gen ảnh/video, NLE |
+| 3 | [Image & Video](#3-image--video) | 31 | Gen ảnh/video, NLE |
 | 4 | [UI Automation](#4-ui-automation--computer-use) | 8 | Browser / computer-use |
-| 5 | [CV & Edge](#5-computer-vision--edge) | 9 | Vision, IoT, edge |
-| 6 | [DevTools](#6-devtools--integration) | 77 | OCR, gateway, office, train, self-host |
+| 5 | [CV & Edge](#5-computer-vision--edge) | 11 | Vision, IoT, edge |
+| 6 | [DevTools](#6-devtools--integration) | 99 | OCR, gateway, office, train, self-host |
 | 7 | [Security](#7-security--pentesting) | 4 | Pentest, OSINT, guardrail |
 
-**Tổng = 226 ★** (+ 11 CLI-Anything harnesses)
+**Tổng = 307 ★** (+ 11 CLI-Anything harnesses)
 
 ---
 
@@ -336,6 +336,7 @@
 | **Whisper Money** | `self-host` `desktop` `workspace` | [whisper-money.md](../technologies/devtools/whisper-money.md) |
 | **ezBookkeeping** | `self-host` `desktop` `workspace` `mcp` `api` `ocr` | [ezbookkeeping.md](../technologies/devtools/ezbookkeeping.md) |
 | **OpenTickly** | `self-host` `api` `cli` `workspace` `agent` | [opentickly.md](../technologies/devtools/opentickly.md) |
+| **Vikunja App** | `self-host` `desktop` `workspace` `api` | [vikunja-app.md](../technologies/devtools/vikunja-app.md) |
 | **PlainApp** | `self-host` `desktop` `workspace` `edge` `notification` | [plain-app.md](../technologies/devtools/plain-app.md) |
 | **WSL Dashboard** | `desktop` `cli` `workspace` | [wsl-dashboard.md](../technologies/devtools/wsl-dashboard.md) |
 | **FluentFlyout** | `desktop` `workspace` | [fluent-flyout.md](../technologies/devtools/fluent-flyout.md) |

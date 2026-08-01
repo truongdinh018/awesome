@@ -1,6 +1,7 @@
 # Changelog
 
 Lịch sử thêm ★ / bookmark / cấu trúc catalog (mới nhất trên cùng).
+*2026-08-01 — 307 ★ · thêm Vikunja App (`go-vikunja/app`) — client Flutter cho Vikunja self-host*
 *2026-08-01 — 234 ★ · thêm Langflow (`langflow-ai/langflow`) từ trending*
 *2026-08-01 — 233 ★ · thêm JavaGuide (`Snailclimb/JavaGuide`) từ trending*
 *2026-08-01 — 232 ★ · thêm Transformers (`huggingface/transformers`) từ trending*
