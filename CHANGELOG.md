@@ -1,6 +1,86 @@
 # Changelog
 
 Lịch sử thêm ★ / bookmark / cấu trúc catalog (mới nhất trên cùng).
+*2026-08-01 — 234 ★ · thêm Langflow (`langflow-ai/langflow`) từ trending*
+*2026-08-01 — 233 ★ · thêm JavaGuide (`Snailclimb/JavaGuide`) từ trending*
+*2026-08-01 — 232 ★ · thêm Transformers (`huggingface/transformers`) từ trending*
+*2026-08-01 — 231 ★ · thêm Ollama (`ollama/ollama`) từ trending*
+*2026-08-01 — 230 ★ · thêm AutoGPT (`Significant-Gravitas/AutoGPT`) từ trending*
+*2026-08-01 — 229 ★ · thêm Tensorflow (`tensorflow/tensorflow`) từ trending*
+*2026-08-01 — 228 ★ · thêm N8n (`n8n-io/n8n`) từ trending*
+*2026-08-01 — 227 ★ · thêm ECC (`affaan-m/ECC`) từ trending*
+*2026-08-01 — 246 ★ · thêm Lobehub (`lobehub/lobehub`) từ trending*
+*2026-08-01 — 245 ★ · thêm Open Design (`nexu-io/open-design`) từ trending*
+*2026-08-01 — 244 ★ · thêm Vllm (`vllm-project/vllm`) từ trending*
+*2026-08-01 — 243 ★ · thêm ML For Beginners (`microsoft/ML-For-Beginners`) từ trending*
+*2026-08-01 — 242 ★ · thêm Awesome Mcp Servers (`punkpeye/awesome-mcp-servers`) từ trending*
+*2026-08-01 — 241 ★ · thêm LLMs From Scratch (`rasbt/LLMs-from-scratch`) từ trending*
+*2026-08-01 — 240 ★ · thêm Pytorch (`pytorch/pytorch`) từ trending*
+*2026-08-01 — 239 ★ · thêm Generative Ai For Beginners (`microsoft/generative-ai-for-beginners`) từ trending*
+*2026-08-01 — 238 ★ · thêm Cc Switch (`farion1231/cc-switch`) từ trending*
+*2026-08-01 — 237 ★ · thêm Langchain (`langchain-ai/langchain`) từ trending*
+*2026-08-01 — 236 ★ · thêm Open Webui (`open-webui/open-webui`) từ trending*
+*2026-08-01 — 235 ★ · thêm Dify (`langgenius/dify`) từ trending*
+*2026-08-01 — 256 ★ · thêm Agent Reach (`Panniantong/Agent-Reach`) từ trending*
+*2026-08-01 — 255 ★ · thêm Keras (`keras-team/keras`) từ trending*
+*2026-08-01 — 254 ★ · thêm Scikit Learn (`scikit-learn/scikit-learn`) từ trending*
+*2026-08-01 — 253 ★ · thêm Hello Agents (`datawhalechina/hello-agents`) từ trending*
+*2026-08-01 — 252 ★ · thêm Ai Agents For Beginners (`microsoft/ai-agents-for-beginners`) từ trending*
+*2026-08-01 — 251 ★ · thêm OpenBB (`OpenBB-finance/OpenBB`) từ trending*
+*2026-08-01 — 250 ★ · thêm LlamaFactory (`hiyouga/LlamaFactory`) từ trending*
+*2026-08-01 — 249 ★ · thêm Tesseract (`tesseract-ocr/tesseract`) từ trending*
+*2026-08-01 — 248 ★ · thêm Worldmonitor (`koala73/worldmonitor`) từ trending*
+*2026-08-01 — 247 ★ · thêm Netdata (`netdata/netdata`) từ trending*
+*2026-08-01 — 281 ★ · thêm Photoprism (`photoprism/photoprism`) từ trending*
+*2026-08-01 — 280 ★ · thêm Tidb (`pingcap/tidb`) từ trending*
+*2026-08-01 — 279 ★ · thêm LibreChat (`danny-avila/LibreChat`) từ trending*
+*2026-08-01 — 278 ★ · thêm DeepSpeed (`deepspeedai/DeepSpeed`) từ trending*
+*2026-08-01 — 277 ★ · thêm Gradio (`gradio-app/gradio`) từ trending*
+*2026-08-01 — 276 ★ · thêm Ray (`ray-project/ray`) từ trending*
+*2026-08-01 — 275 ★ · thêm Paperless Ngx (`paperless-ngx/paperless-ngx`) từ trending*
+*2026-08-01 — 274 ★ · thêm Agentic Awesome Skills (`sickn33/agentic-awesome-skills`) từ trending*
+*2026-08-01 — 273 ★ · thêm Ai Engineering From Scratch (`rohitg00/ai-engineering-from-scratch`) từ trending*
+*2026-08-01 — 272 ★ · thêm Streamlit (`streamlit/streamlit`) từ trending*
+*2026-08-01 — 271 ★ · thêm Siyuan (`siyuan-note/siyuan`) từ trending*
+*2026-08-01 — 270 ★ · thêm CowAgent (`zhayujie/CowAgent`) từ trending*
+*2026-08-01 — 269 ★ · thêm Airflow (`apache/airflow`) từ trending*
+*2026-08-01 — 268 ★ · thêm Nanobot (`HKUDS/nanobot`) từ trending*
+*2026-08-01 — 267 ★ · thêm JeecgBoot (`jeecgboot/JeecgBoot`) từ trending*
+*2026-08-01 — 266 ★ · thêm Julia (`JuliaLang/julia`) từ trending*
+*2026-08-01 — 265 ★ · thêm Huginn (`huginn/huginn`) từ trending*
+*2026-08-01 — 264 ★ · thêm Goose (`aaif-goose/goose`) từ trending*
+*2026-08-01 — 263 ★ · thêm Flowise (`FlowiseAI/Flowise`) từ trending*
+*2026-08-01 — 262 ★ · thêm Mempalace (`MemPalace/mempalace`) từ trending*
+*2026-08-01 — 261 ★ · thêm Daily Stock Analysis (`ZhuLinsen/daily_stock_analysis`) từ trending*
+*2026-08-01 — 260 ★ · thêm Context7 (`upstash/context7`) từ trending*
+*2026-08-01 — 259 ★ · thêm Ultralytics (`ultralytics/ultralytics`) từ trending*
+*2026-08-01 — 258 ★ · thêm System Prompts Leaks (`asgeirtj/system_prompts_leaks`) từ trending*
+*2026-08-01 — 257 ★ · thêm Mem0 (`mem0ai/mem0`) từ trending*
+*2026-08-01 — 306 ★ · thêm InvokeAI (`invoke-ai/InvokeAI`) từ trending*
+*2026-08-01 — 305 ★ · thêm DeepSeek Reasonix (`esengine/DeepSeek-Reasonix`) từ trending*
+*2026-08-01 — 304 ★ · thêm Semantic Kernel (`microsoft/semantic-kernel`) từ trending*
+*2026-08-01 — 303 ★ · thêm Agentscope (`agentscope-ai/agentscope`) từ trending*
+*2026-08-01 — 302 ★ · thêm Awesome Generative Ai Guide (`aishwaryanr/awesome-generative-ai-guide`) từ trending*
+*2026-08-01 — 301 ★ · thêm Ai Agent Book (`bojieli/ai-agent-book`) từ trending*
+*2026-08-01 — 300 ★ · thêm RAG Techniques (`NirDiamant/RAG_Techniques`) từ trending*
+*2026-08-01 — 299 ★ · thêm FastGPT (`labring/FastGPT`) từ trending*
+*2026-08-01 — 298 ★ · thêm Sim (`simstudioai/sim`) từ trending*
+*2026-08-01 — 297 ★ · thêm FinceptTerminal (`Fincept-Corporation/FinceptTerminal`) từ trending*
+*2026-08-01 — 296 ★ · thêm Awesome Datascience (`academic/awesome-datascience`) từ trending*
+*2026-08-01 — 295 ★ · thêm Jobs Applier AI Agent AIHawk (`feder-cr/Jobs_Applier_AI_Agent_AIHawk`) từ trending*
+*2026-08-01 — 294 ★ · thêm Pytorch Lightning (`Lightning-AI/pytorch-lightning`) từ trending*
+*2026-08-01 — 293 ★ · thêm QwenPaw (`agentscope-ai/QwenPaw`) từ trending*
+*2026-08-01 — 292 ★ · thêm Zeroclaw (`zeroclaw-labs/zeroclaw`) từ trending*
+*2026-08-01 — 291 ★ · thêm Nacos (`alibaba/nacos`) từ trending*
+*2026-08-01 — 290 ★ · thêm Netron (`lutzroeder/netron`) từ trending*
+*2026-08-01 — 289 ★ · thêm Qdrant (`qdrant/qdrant`) từ trending*
+*2026-08-01 — 288 ★ · thêm CopilotKit (`CopilotKit/CopilotKit`) từ trending*
+*2026-08-01 — 287 ★ · thêm 1Panel (`1Panel-dev/1Panel`) từ trending*
+*2026-08-01 — 286 ★ · thêm Mediapipe (`google-ai-edge/mediapipe`) từ trending*
+*2026-08-01 — 285 ★ · thêm Ai Engineering Hub (`patchy631/ai-engineering-hub`) từ trending*
+*2026-08-01 — 284 ★ · thêm Codebase Memory Mcp (`DeusData/codebase-memory-mcp`) từ trending*
+*2026-08-01 — 283 ★ · thêm Google Research (`google-research/google-research`) từ trending*
+*2026-08-01 — 282 ★ · thêm Langgraph (`langchain-ai/langgraph`) từ trending*
 
 *2026-07-27 — 226 ★ · thêm Open Interpreter (`openinterpreter/openinterpreter`)*
 

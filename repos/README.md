@@ -1,6 +1,6 @@
 # Starred Repos — Index
 
-> **226 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-07-27**  
+> **306 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-07-27**  
 > Đây là bảng master: mỗi dòng = 1 repo đã star + link bài `technologies/<domain>/<slug>.md`.
 > **Primary** = 1 trong 7 domain · **Tags** = nhiều capability.
 > Duyệt subgroup: [../categories/README.md](../categories/README.md) · Hub / checklist: [../README.md](../README.md) · Viết bài: [../technologies/WRITING.md](../technologies/WRITING.md)
@@ -233,6 +233,86 @@
 | 224 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 135.5k | Shell | MCP & AI Agents | `skill` `prompt` `coding-agent` `agent` `desktop` `cli` | [agency-agents.md](../technologies/mcp-ai-agents/agency-agents.md) |
 | 225 | [swup/swup](https://github.com/swup/swup) | 5.2k | TypeScript | DevTools | `browser` `cli` `self-host` | [swup.md](../technologies/devtools/swup.md) |
 | 226 | [openinterpreter/openinterpreter](https://github.com/openinterpreter/openinterpreter) | 67.3k | Rust | MCP & AI Agents | `coding-agent` `agent` `cli` `skill` `mcp` `computer-use` | [openinterpreter.md](../technologies/mcp-ai-agents/openinterpreter.md) |
+| 227 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | 233.7k | JavaScript | MCP & AI Agents | `agent` `mcp` `cli` | [ecc.md](../technologies/mcp-ai-agents/ecc.md) |
+| 228 | [n8n-io/n8n](https://github.com/n8n-io/n8n) | 198.1k | TypeScript | DevTools | `workflow` `self-host` `mcp` `api` `docker` | [n8n-workflow.md](../technologies/devtools/n8n-workflow.md) |
+| 229 | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 196.6k | C++ | DevTools | `agent` | [tensorflow.md](../technologies/devtools/tensorflow.md) |
+| 230 | [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 185.7k | Python | MCP & AI Agents | `agent` `cli` | [autogpt.md](../technologies/mcp-ai-agents/autogpt.md) |
+| 231 | [ollama/ollama](https://github.com/ollama/ollama) | 177.0k | Go | MCP & AI Agents | `agent` `cli` | [ollama.md](../technologies/mcp-ai-agents/ollama.md) |
+| 232 | [huggingface/transformers](https://github.com/huggingface/transformers) | 163.0k | Python | DevTools | `agent` `api` `cli` | [huggingface-transformers.md](../technologies/devtools/huggingface-transformers.md) |
+| 233 | [Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide) | 157.3k | JavaScript | DevTools | `knowledge` | [javaguide.md](../technologies/devtools/javaguide.md) |
+| 234 | [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 152.5k | Python | MCP & AI Agents | `agent` `cli` | [langflow.md](../technologies/mcp-ai-agents/langflow.md) |
+| 235 | [langgenius/dify](https://github.com/langgenius/dify) | 150.3k | TypeScript | MCP & AI Agents | `agent` `workflow` `mcp` `rag` `cli` `self-host` | [dify.md](../technologies/mcp-ai-agents/dify.md) |
+| 236 | [open-webui/open-webui](https://github.com/open-webui/open-webui) | 146.9k | Python | MCP & AI Agents | `agent` `mcp` `rag` `self-host` `cli` | [open-webui.md](../technologies/mcp-ai-agents/open-webui.md) |
+| 237 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 142.6k | Python | MCP & AI Agents | `agent` `rag` `cli` | [langchain.md](../technologies/mcp-ai-agents/langchain.md) |
+| 238 | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | 121.5k | Rust | MCP & AI Agents | `mcp` `cli` | [cc-switch.md](../technologies/mcp-ai-agents/cc-switch.md) |
+| 239 | [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) | 113.5k | Jupyter Notebook | MCP & AI Agents | `agent` | [generative-ai-for-beginners.md](../technologies/mcp-ai-agents/generative-ai-for-beginners.md) |
+| 240 | [pytorch/pytorch](https://github.com/pytorch/pytorch) | 102.0k | Python | DevTools | `agent` `cli` | [pytorch.md](../technologies/devtools/pytorch.md) |
+| 241 | [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | 99.9k | Jupyter Notebook | MCP & AI Agents | `agent` | [llms-from-scratch.md](../technologies/mcp-ai-agents/llms-from-scratch.md) |
+| 242 | [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | 91.4k | — | MCP & AI Agents | `mcp` | [awesome-mcp-servers.md](../technologies/mcp-ai-agents/awesome-mcp-servers.md) |
+| 243 | [microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners) | 88.6k | Jupyter Notebook | DevTools | `agent` | [ml-for-beginners.md](../technologies/devtools/ml-for-beginners.md) |
+| 244 | [vllm-project/vllm](https://github.com/vllm-project/vllm) | 87.3k | Python | DevTools | `api` `self-host` `docker` | [vllm.md](../technologies/devtools/vllm.md) |
+| 245 | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 81.8k | TypeScript | MCP & AI Agents | `agent` `workflow` `cli` | [open-design.md](../technologies/mcp-ai-agents/open-design.md) |
+| 246 | [lobehub/lobehub](https://github.com/lobehub/lobehub) | 80.8k | TypeScript | MCP & AI Agents | `agent` `mcp` `cli` | [lobehub.md](../technologies/mcp-ai-agents/lobehub.md) |
+| 247 | [netdata/netdata](https://github.com/netdata/netdata) | 80.0k | Go | MCP & AI Agents | `docker` `agent` `mcp` `observability` `cli` | [netdata.md](../technologies/mcp-ai-agents/netdata.md) |
+| 248 | [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | 77.5k | TypeScript | MCP & AI Agents | `agent` `mcp` `observability` `cli` | [worldmonitor.md](../technologies/mcp-ai-agents/worldmonitor.md) |
+| 249 | [tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract) | 75.7k | C++ | DevTools | `ocr` `cli` | [tesseract.md](../technologies/devtools/tesseract.md) |
+| 250 | [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) | 73.7k | Python | MCP & AI Agents | `agent` `cli` | [llamafactory.md](../technologies/mcp-ai-agents/llamafactory.md) |
+| 251 | [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) | 71.2k | Python | MCP & AI Agents | `agent` `cli` | [openbb.md](../technologies/mcp-ai-agents/openbb.md) |
+| 252 | [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) | 70.8k | Jupyter Notebook | MCP & AI Agents | `agent` | [ai-agents-for-beginners.md](../technologies/mcp-ai-agents/ai-agents-for-beginners.md) |
+| 253 | [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) | 69.8k | Python | MCP & AI Agents | `agent` `rag` `cli` | [hello-agents.md](../technologies/mcp-ai-agents/hello-agents.md) |
+| 254 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | 66.8k | Python | DevTools | `agent` `cli` | [scikit-learn.md](../technologies/devtools/scikit-learn.md) |
+| 255 | [keras-team/keras](https://github.com/keras-team/keras) | 64.2k | Python | DevTools | `agent` `cli` | [keras.md](../technologies/devtools/keras.md) |
+| 256 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 63.5k | Python | MCP & AI Agents | `workflow` `cli` `mcp` | [agent-reach.md](../technologies/mcp-ai-agents/agent-reach.md) |
+| 257 | [mem0ai/mem0](https://github.com/mem0ai/mem0) | 62.2k | Python | MCP & AI Agents | `agent` `memory` `rag` `cli` | [mem0.md](../technologies/mcp-ai-agents/mem0.md) |
+| 258 | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | 61.7k | JavaScript | MCP & AI Agents | `agent` `prompt` `cli` | [system-prompts-leaks.md](../technologies/mcp-ai-agents/system-prompts-leaks.md) |
+| 259 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | 60.1k | Python | CV & Edge | `cv` `agent` `cli` | [ultralytics.md](../technologies/cv-edge/ultralytics.md) |
+| 260 | [upstash/context7](https://github.com/upstash/context7) | 60.1k | TypeScript | MCP & AI Agents | `agent` `mcp` `cli` | [context7.md](../technologies/mcp-ai-agents/context7.md) |
+| 261 | [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | 59.7k | Python | MCP & AI Agents | `agent` `cli` | [daily-stock-analysis.md](../technologies/mcp-ai-agents/daily-stock-analysis.md) |
+| 262 | [MemPalace/mempalace](https://github.com/MemPalace/mempalace) | 57.9k | Python | MCP & AI Agents | `agent` `mcp` `memory` `cli` | [mempalace.md](../technologies/mcp-ai-agents/mempalace.md) |
+| 263 | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) | 55.1k | TypeScript | MCP & AI Agents | `agent` `workflow` `rag` `cli` | [flowise.md](../technologies/mcp-ai-agents/flowise.md) |
+| 264 | [aaif-goose/goose](https://github.com/aaif-goose/goose) | 52.0k | Rust | MCP & AI Agents | `agent` `mcp` `cli` | [goose.md](../technologies/mcp-ai-agents/goose.md) |
+| 265 | [huginn/huginn](https://github.com/huginn/huginn) | 49.7k | Ruby | MCP & AI Agents | `agent` `workflow` `observability` | [huginn.md](../technologies/mcp-ai-agents/huginn.md) |
+| 266 | [JuliaLang/julia](https://github.com/JuliaLang/julia) | 49.0k | Julia | DevTools | `agent` | [julia.md](../technologies/devtools/julia.md) |
+| 267 | [jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot) | 47.2k | Java | MCP & AI Agents | `agent` `cli` `workflow` `mcp` `rag` | [jeecgboot.md](../technologies/mcp-ai-agents/jeecgboot.md) |
+| 268 | [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 46.5k | Python | MCP & AI Agents | `agent` `mcp` `self-host` `workflow` `cli` | [nanobot.md](../technologies/mcp-ai-agents/nanobot.md) |
+| 269 | [apache/airflow](https://github.com/apache/airflow) | 46.3k | Python | DevTools | `workflow` `agent` `cli` | [airflow.md](../technologies/devtools/airflow.md) |
+| 270 | [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 46.3k | Python | MCP & AI Agents | `agent` `mcp` `cli` | [cowagent.md](../technologies/mcp-ai-agents/cowagent.md) |
+| 271 | [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) | 45.5k | TypeScript | MCP & AI Agents | `mcp` `pdf` `self-host` `cli` | [siyuan.md](../technologies/mcp-ai-agents/siyuan.md) |
+| 272 | [streamlit/streamlit](https://github.com/streamlit/streamlit) | 45.4k | Python | DevTools | `agent` `cli` | [streamlit.md](../technologies/devtools/streamlit.md) |
+| 273 | [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | 45.4k | Python | MCP & AI Agents | `agent` `cv` `mcp` `cli` | [ai-engineering-from-scratch.md](../technologies/mcp-ai-agents/ai-engineering-from-scratch.md) |
+| 274 | [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) | 44.2k | Python | MCP & AI Agents | `agent` `mcp` `cli` | [agentic-awesome-skills.md](../technologies/mcp-ai-agents/agentic-awesome-skills.md) |
+| 275 | [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) | 43.8k | Python | DevTools | `agent` `ocr` `pdf` `cli` | [paperless-ngx.md](../technologies/devtools/paperless-ngx.md) |
+| 276 | [ray-project/ray](https://github.com/ray-project/ray) | 43.4k | Python | MCP & AI Agents | `agent` `cli` | [ray.md](../technologies/mcp-ai-agents/ray.md) |
+| 277 | [gradio-app/gradio](https://github.com/gradio-app/gradio) | 43.3k | Python | DevTools | `agent` `cli` | [gradio.md](../technologies/devtools/gradio.md) |
+| 278 | [deepspeedai/DeepSpeed](https://github.com/deepspeedai/DeepSpeed) | 42.8k | Python | DevTools | `agent` `api` `cli` | [deepspeed.md](../technologies/devtools/deepspeed.md) |
+| 279 | [danny-avila/LibreChat](https://github.com/danny-avila/LibreChat) | 41.5k | TypeScript | MCP & AI Agents | `mcp` `cli` `self-host` | [librechat.md](../technologies/mcp-ai-agents/librechat.md) |
+| 280 | [pingcap/tidb](https://github.com/pingcap/tidb) | 40.4k | Go | MCP & AI Agents | `agent` `memory` `cli` | [tidb.md](../technologies/mcp-ai-agents/tidb.md) |
+| 281 | [photoprism/photoprism](https://github.com/photoprism/photoprism) | 40.0k | Go | DevTools | `agent` `self-host` `cli` | [photoprism.md](../technologies/devtools/photoprism.md) |
+| 282 | [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) | 38.6k | Python | MCP & AI Agents | `agent` `rag` `cli` | [langgraph.md](../technologies/mcp-ai-agents/langgraph.md) |
+| 283 | [google-research/google-research](https://github.com/google-research/google-research) | 38.5k | Jupyter Notebook | DevTools | `agent` | [google-research.md](../technologies/devtools/google-research.md) |
+| 284 | [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | 36.9k | C | MCP & AI Agents | `mcp` | [codebase-memory-mcp.md](../technologies/mcp-ai-agents/codebase-memory-mcp.md) |
+| 285 | [patchy631/ai-engineering-hub](https://github.com/patchy631/ai-engineering-hub) | 36.8k | Jupyter Notebook | MCP & AI Agents | `agent` `mcp` `rag` | [ai-engineering-hub.md](../technologies/mcp-ai-agents/ai-engineering-hub.md) |
+| 286 | [google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe) | 36.4k | C++ | CV & Edge | `cv` `agent` `api` | [mediapipe.md](../technologies/cv-edge/mediapipe.md) |
+| 287 | [1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel) | 36.4k | Go | MCP & AI Agents | `agent` `docker` `cli` | [1panel.md](../technologies/mcp-ai-agents/1panel.md) |
+| 288 | [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) | 36.4k | TypeScript | MCP & AI Agents | `agent` `cli` | [copilotkit.md](../technologies/mcp-ai-agents/copilotkit.md) |
+| 289 | [qdrant/qdrant](https://github.com/qdrant/qdrant) | 33.7k | Rust | Image & Video | `agent` `cli` | [qdrant.md](../technologies/image-video/qdrant.md) |
+| 290 | [lutzroeder/netron](https://github.com/lutzroeder/netron) | 33.3k | JavaScript | DevTools | `agent` `cli` | [netron.md](../technologies/devtools/netron.md) |
+| 291 | [alibaba/nacos](https://github.com/alibaba/nacos) | 33.2k | Java | MCP & AI Agents | `agent` `docker` `mcp` `prompt` `cli` | [nacos.md](../technologies/mcp-ai-agents/nacos.md) |
+| 292 | [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | 32.5k | Rust | MCP & AI Agents | `agent` `cli` | [zeroclaw.md](../technologies/mcp-ai-agents/zeroclaw.md) |
+| 293 | [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw) | 31.5k | Python | MCP & AI Agents | `agent` `cli` | [qwenpaw.md](../technologies/mcp-ai-agents/qwenpaw.md) |
+| 294 | [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | 31.3k | Python | DevTools | `agent` `cli` | [pytorch-lightning.md](../technologies/devtools/pytorch-lightning.md) |
+| 295 | [feder-cr/Jobs_Applier_AI_Agent_AIHawk](https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk) | 30.1k | Python | MCP & AI Agents | `agent` `workflow` `cli` | [jobs-applier-ai-agent-aihawk.md](../technologies/mcp-ai-agents/jobs-applier-ai-agent-aihawk.md) |
+| 296 | [academic/awesome-datascience](https://github.com/academic/awesome-datascience) | 29.7k | — | DevTools | `agent` | [awesome-datascience.md](../technologies/devtools/awesome-datascience.md) |
+| 297 | [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) | 29.4k | C++ | MCP & AI Agents | `agent` | [finceptterminal.md](../technologies/mcp-ai-agents/finceptterminal.md) |
+| 298 | [simstudioai/sim](https://github.com/simstudioai/sim) | 29.3k | TypeScript | MCP & AI Agents | `agent` `workflow` `rag` `cli` | [sim.md](../technologies/mcp-ai-agents/sim.md) |
+| 299 | [labring/FastGPT](https://github.com/labring/FastGPT) | 29.2k | TypeScript | MCP & AI Agents | `agent` `mcp` `rag` `workflow` `cli` | [fastgpt.md](../technologies/mcp-ai-agents/fastgpt.md) |
+| 300 | [NirDiamant/RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) | 28.9k | Jupyter Notebook | MCP & AI Agents | `agent` `rag` | [rag-techniques.md](../technologies/mcp-ai-agents/rag-techniques.md) |
+| 301 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | 28.6k | Python | MCP & AI Agents | `agent` `coding-agent` `mcp` `rag` `cli` | [ai-agent-book.md](../technologies/mcp-ai-agents/ai-agent-book.md) |
+| 302 | [aishwaryanr/awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide) | 28.5k | HTML | MCP & AI Agents | `agent` | [awesome-generative-ai-guide.md](../technologies/mcp-ai-agents/awesome-generative-ai-guide.md) |
+| 303 | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | 28.5k | Python | MCP & AI Agents | `agent` `mcp` `cli` | [agentscope.md](../technologies/mcp-ai-agents/agentscope.md) |
+| 304 | [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) | 28.4k | C# | MCP & AI Agents | `agent` | [semantic-kernel.md](../technologies/mcp-ai-agents/semantic-kernel.md) |
+| 305 | [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | 28.3k | Go | MCP & AI Agents | `agent` `cli` `coding-agent` | [deepseek-reasonix.md](../technologies/mcp-ai-agents/deepseek-reasonix.md) |
+| 306 | [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) | 27.7k | Python | Image & Video | `image-gen` `cli` | [invokeai.md](../technologies/image-video/invokeai.md) |
 
 
 ## Ecosystem — CLI-Anything harnesses (con của #16)

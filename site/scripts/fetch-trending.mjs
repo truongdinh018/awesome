@@ -323,6 +323,19 @@ async function main() {
   console.log(`Wrote ${repos.length} repos (${newRepos.length} new, ${knownRepos.length} known)`)
   console.log(`→ ${outJsonPath}`)
   console.log(`→ ${prevWeekFile}`)
+
+  if (process.env.CREATE_ARTICLES === '1') {
+    console.log('\nCREATE_ARTICLES=1 → tạo bài cho repo trending mới…')
+    const { spawnSync } = await import('node:child_process')
+    const result = spawnSync('npm', ['run', 'trending:create-articles'], {
+      cwd: siteRoot,
+      stdio: 'inherit',
+      env: process.env,
+    })
+    if (result.status !== 0) {
+      process.exit(result.status ?? 1)
+    }
+  }
 }
 
 main().catch((err) => {

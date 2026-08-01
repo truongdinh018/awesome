@@ -1,5 +1,5 @@
 {
-  "indexedAt": "2026-07-22T05:05:39.873Z",
+  "indexedAt": "2026-08-01T04:09:52.823Z",
   "model": "Xenova/multilingual-e5-small",
   "articles": {
     "technologies/bookmarks/codex-pets.md": {
@@ -1435,6 +1435,492 @@
       "contentHash": "1cd3002920d631f30bbecf9d3bfa0637a10a527fa26297902c151bb315071463",
       "firstSeenAt": "2026-07-22T05:05:08.047Z",
       "contentUpdatedAt": "2026-07-22T05:05:08.047Z"
+    },
+    "technologies/devtools/huggingface-transformers.md": {
+      "status": "new",
+      "contentHash": "8a4712b8297b19250a90f82d3b63ba7b3e223f84be1b326a522b6cc816937d01",
+      "firstSeenAt": "2026-08-01T04:02:26.946Z",
+      "contentUpdatedAt": "2026-08-01T04:02:26.946Z"
+    },
+    "technologies/devtools/javaguide.md": {
+      "status": "current",
+      "contentHash": "9f843a0c274d34865269f6497d9f3de08cabd849c9083f5a946878da97be7e48",
+      "firstSeenAt": "2026-08-01T04:02:26.946Z",
+      "contentUpdatedAt": "2026-08-01T04:02:41.660Z"
+    },
+    "technologies/devtools/n8n-workflow.md": {
+      "status": "new",
+      "contentHash": "13590e8624b8b7b656182a0b5376ad5fa862ed60aa0f9862d03cbf4186b499f0",
+      "firstSeenAt": "2026-08-01T04:02:26.946Z",
+      "contentUpdatedAt": "2026-08-01T04:02:26.946Z"
+    },
+    "technologies/devtools/tensorflow.md": {
+      "status": "new",
+      "contentHash": "9f610011a2f15803b42e750d435ad2efc83fb2cdd7ba53652497b102917e1da1",
+      "firstSeenAt": "2026-08-01T04:02:26.946Z",
+      "contentUpdatedAt": "2026-08-01T04:02:26.946Z"
+    },
+    "technologies/mcp-ai-agents/autogpt.md": {
+      "status": "new",
+      "contentHash": "95aedf47d1160f34cb3a9fed0800898728c98aee8b9fbaaef0372a4903bc4ecf",
+      "firstSeenAt": "2026-08-01T04:02:26.946Z",
+      "contentUpdatedAt": "2026-08-01T04:02:26.946Z"
+    },
+    "technologies/mcp-ai-agents/ecc.md": {
+      "status": "new",
+      "contentHash": "bce47ae3786f41d4b513910cda80bc7e214a7832ec1780ee80fcf2fba2499af7",
+      "firstSeenAt": "2026-08-01T04:02:26.946Z",
+      "contentUpdatedAt": "2026-08-01T04:02:26.946Z"
+    },
+    "technologies/mcp-ai-agents/langflow.md": {
+      "status": "new",
+      "contentHash": "cef231af0c72ddf45e27e8e8e77f2c8d7bff280fea8537f1393b43c6c58e5539",
+      "firstSeenAt": "2026-08-01T04:02:26.946Z",
+      "contentUpdatedAt": "2026-08-01T04:02:26.946Z"
+    },
+    "technologies/mcp-ai-agents/ollama.md": {
+      "status": "new",
+      "contentHash": "bb0a1a8b92241880931a82b5be64f893a70f0223e216de66c7f19c92697628e7",
+      "firstSeenAt": "2026-08-01T04:02:26.946Z",
+      "contentUpdatedAt": "2026-08-01T04:02:26.946Z"
+    },
+    "technologies/mcp-ai-agents/openinterpreter.md": {
+      "status": "new",
+      "contentHash": "877cb505c41e0aa6a4406c9938e0c529f898636d7d3dfcc27624fbad0d992de0",
+      "firstSeenAt": "2026-08-01T04:02:26.946Z",
+      "contentUpdatedAt": "2026-08-01T04:02:26.946Z"
+    },
+    "technologies/devtools/ml-for-beginners.md": {
+      "status": "new",
+      "contentHash": "a82723d357df08296c80da9c4d052f57f98aa23d02546bbbc5b25b115db725a0",
+      "firstSeenAt": "2026-08-01T04:02:41.660Z",
+      "contentUpdatedAt": "2026-08-01T04:02:41.660Z"
+    },
+    "technologies/devtools/pytorch.md": {
+      "status": "new",
+      "contentHash": "cb4c76ac8e4aa59b2a157b99c138273d3132baf32d7d8565ca56207b1c1131ab",
+      "firstSeenAt": "2026-08-01T04:02:41.660Z",
+      "contentUpdatedAt": "2026-08-01T04:02:41.660Z"
+    },
+    "technologies/devtools/vllm.md": {
+      "status": "new",
+      "contentHash": "20779d2d4d4fada9efa29f14580f1b16ae9b5cd89bc6e559d7cc43a1443abe13",
+      "firstSeenAt": "2026-08-01T04:02:41.660Z",
+      "contentUpdatedAt": "2026-08-01T04:02:41.660Z"
+    },
+    "technologies/mcp-ai-agents/awesome-mcp-servers.md": {
+      "status": "new",
+      "contentHash": "e7d6b3396789300c463c1f767e86b5c8bcbee560221db79be69704a73cff98c2",
+      "firstSeenAt": "2026-08-01T04:02:41.660Z",
+      "contentUpdatedAt": "2026-08-01T04:02:41.660Z"
+    },
+    "technologies/mcp-ai-agents/cc-switch.md": {
+      "status": "new",
+      "contentHash": "72de9b89d1067e2cd9386f7c59284019a109a6bcf4741413dbad4cfc100722a5",
+      "firstSeenAt": "2026-08-01T04:02:41.660Z",
+      "contentUpdatedAt": "2026-08-01T04:02:41.660Z"
+    },
+    "technologies/mcp-ai-agents/dify.md": {
+      "status": "new",
+      "contentHash": "79ad98e9de5d9ce645940211e92b3da87dcde562f13991a8f49776874ef4b8fd",
+      "firstSeenAt": "2026-08-01T04:02:41.660Z",
+      "contentUpdatedAt": "2026-08-01T04:02:41.660Z"
+    },
+    "technologies/mcp-ai-agents/generative-ai-for-beginners.md": {
+      "status": "new",
+      "contentHash": "f1b0f74ff841307c8828f7c3d70684f9c0d70cbcac312ea5282a6b14fa546c72",
+      "firstSeenAt": "2026-08-01T04:02:41.660Z",
+      "contentUpdatedAt": "2026-08-01T04:02:41.660Z"
+    },
+    "technologies/mcp-ai-agents/langchain.md": {
+      "status": "new",
+      "contentHash": "5290ce04165969d815228c43c633a3cddc0d56f6e63f7453fdc10f75b9e2b384",
+      "firstSeenAt": "2026-08-01T04:02:41.660Z",
+      "contentUpdatedAt": "2026-08-01T04:02:41.660Z"
+    },
+    "technologies/mcp-ai-agents/llms-from-scratch.md": {
+      "status": "new",
+      "contentHash": "6ba9e4152ca59b6a31e6b849a5501534569824f5959e7de71b005182702b5388",
+      "firstSeenAt": "2026-08-01T04:02:41.660Z",
+      "contentUpdatedAt": "2026-08-01T04:02:41.660Z"
+    },
+    "technologies/mcp-ai-agents/lobehub.md": {
+      "status": "new",
+      "contentHash": "c00c68a9aef854c60ddd262375a5053aec07c77b6dddc72438b9a1d3cfda92f2",
+      "firstSeenAt": "2026-08-01T04:02:41.660Z",
+      "contentUpdatedAt": "2026-08-01T04:02:41.660Z"
+    },
+    "technologies/mcp-ai-agents/open-design.md": {
+      "status": "new",
+      "contentHash": "cdc38f62aaa8ac66d2b26a9c490b5892c6e05a8298831f5611544cb11e54ffa7",
+      "firstSeenAt": "2026-08-01T04:02:41.660Z",
+      "contentUpdatedAt": "2026-08-01T04:02:41.660Z"
+    },
+    "technologies/mcp-ai-agents/open-webui.md": {
+      "status": "new",
+      "contentHash": "25a8e0bc5c6fd5ea9a64ed731bea824b68df83afcfddea8e028414bcc1a20060",
+      "firstSeenAt": "2026-08-01T04:02:41.660Z",
+      "contentUpdatedAt": "2026-08-01T04:02:41.660Z"
+    },
+    "technologies/devtools/keras.md": {
+      "status": "new",
+      "contentHash": "49a2c11df94ef9999cf83aaee0651a5d4d6041a50c8951141fb23dc63aa4363f",
+      "firstSeenAt": "2026-08-01T04:04:26.483Z",
+      "contentUpdatedAt": "2026-08-01T04:04:26.483Z"
+    },
+    "technologies/devtools/scikit-learn.md": {
+      "status": "new",
+      "contentHash": "dc5afddc8f0935540cd54433cc08c15ab344b5cce6be7075155fa01c79a71cdf",
+      "firstSeenAt": "2026-08-01T04:04:26.483Z",
+      "contentUpdatedAt": "2026-08-01T04:04:26.483Z"
+    },
+    "technologies/devtools/tesseract.md": {
+      "status": "new",
+      "contentHash": "b8b8f80a6d4d9b89f993c7e7ba73da5661736470f302deaf129232e4e22de05e",
+      "firstSeenAt": "2026-08-01T04:04:26.483Z",
+      "contentUpdatedAt": "2026-08-01T04:04:26.483Z"
+    },
+    "technologies/mcp-ai-agents/agent-reach.md": {
+      "status": "new",
+      "contentHash": "e16cab67001d231610a03e723a96558158382c80d4465c5d94355e934f574c88",
+      "firstSeenAt": "2026-08-01T04:04:26.483Z",
+      "contentUpdatedAt": "2026-08-01T04:04:26.483Z"
+    },
+    "technologies/mcp-ai-agents/ai-agents-for-beginners.md": {
+      "status": "new",
+      "contentHash": "bd8e48735f8bf3a8496210436e584ca44ee49bdc0a028898a7de7433a74f229d",
+      "firstSeenAt": "2026-08-01T04:04:26.483Z",
+      "contentUpdatedAt": "2026-08-01T04:04:26.483Z"
+    },
+    "technologies/mcp-ai-agents/hello-agents.md": {
+      "status": "new",
+      "contentHash": "674b730435a0621d0bbae6f16e8c459bf62303ff704f6ac4e48c86e1c3b33f76",
+      "firstSeenAt": "2026-08-01T04:04:26.483Z",
+      "contentUpdatedAt": "2026-08-01T04:04:26.483Z"
+    },
+    "technologies/mcp-ai-agents/llamafactory.md": {
+      "status": "new",
+      "contentHash": "c72bbcbda45c69cb7af4f5e107990327de6420545540ca82999a3d62f4414d15",
+      "firstSeenAt": "2026-08-01T04:04:26.483Z",
+      "contentUpdatedAt": "2026-08-01T04:04:26.483Z"
+    },
+    "technologies/mcp-ai-agents/netdata.md": {
+      "status": "new",
+      "contentHash": "e9cdecaca5a778bf608e894b607000c464544a1c8783dfb8aac691ebdd726672",
+      "firstSeenAt": "2026-08-01T04:04:26.483Z",
+      "contentUpdatedAt": "2026-08-01T04:04:26.483Z"
+    },
+    "technologies/mcp-ai-agents/openbb.md": {
+      "status": "new",
+      "contentHash": "eeb70ddda89298a884034bc964511dd535629c3873e3300c11f98c987412e38f",
+      "firstSeenAt": "2026-08-01T04:04:26.483Z",
+      "contentUpdatedAt": "2026-08-01T04:04:26.483Z"
+    },
+    "technologies/mcp-ai-agents/worldmonitor.md": {
+      "status": "new",
+      "contentHash": "307e078522f63c2a1b4e3e2f26e7a5e83180d96e45f8041843698d7f7cf0d209",
+      "firstSeenAt": "2026-08-01T04:04:26.483Z",
+      "contentUpdatedAt": "2026-08-01T04:04:26.483Z"
+    },
+    "technologies/cv-edge/ultralytics.md": {
+      "status": "new",
+      "contentHash": "90df6e8e5c78bcbbfa8f056b39aa43b2e0d2367a01a22bebf8629f120232de4e",
+      "firstSeenAt": "2026-08-01T04:06:28.411Z",
+      "contentUpdatedAt": "2026-08-01T04:06:28.411Z"
+    },
+    "technologies/devtools/airflow.md": {
+      "status": "new",
+      "contentHash": "6db3d0e94ad2414cb04130816b6fd1f025c35327ad05872c2e83d761fe4245ea",
+      "firstSeenAt": "2026-08-01T04:06:28.411Z",
+      "contentUpdatedAt": "2026-08-01T04:06:28.411Z"
+    },
+    "technologies/devtools/deepspeed.md": {
+      "status": "new",
+      "contentHash": "f79c7d787efbedab28e01b204ca8a7baae8ec572fd7cc11f02a32d2b7a88d514",
+      "firstSeenAt": "2026-08-01T04:06:28.411Z",
+      "contentUpdatedAt": "2026-08-01T04:06:28.411Z"
+    },
+    "technologies/devtools/gradio.md": {
+      "status": "new",
+      "contentHash": "f77da94fc791c8301053b252adadf2e217f0d6dac97f586d4d6de41fe997a988",
+      "firstSeenAt": "2026-08-01T04:06:28.411Z",
+      "contentUpdatedAt": "2026-08-01T04:06:28.411Z"
+    },
+    "technologies/devtools/julia.md": {
+      "status": "new",
+      "contentHash": "54071c0da8b624d201f4b947ec71347f820edb1fbf7d344c0985a6f3065f6f4d",
+      "firstSeenAt": "2026-08-01T04:06:28.411Z",
+      "contentUpdatedAt": "2026-08-01T04:06:28.411Z"
+    },
+    "technologies/devtools/paperless-ngx.md": {
+      "status": "new",
+      "contentHash": "2c970c30af9b9ca0c9d3b8a286cfe910ef782dedb897932aeb0a23c6cca796ea",
+      "firstSeenAt": "2026-08-01T04:06:28.411Z",
+      "contentUpdatedAt": "2026-08-01T04:06:28.411Z"
+    },
+    "technologies/devtools/photoprism.md": {
+      "status": "new",
+      "contentHash": "5dc6eef9fd2ecb805df35b2f9a9b7ba97cfecad63028614b6b37950452452a18",
+      "firstSeenAt": "2026-08-01T04:06:28.411Z",
+      "contentUpdatedAt": "2026-08-01T04:06:28.411Z"
+    },
+    "technologies/devtools/streamlit.md": {
+      "status": "new",
+      "contentHash": "0703e2d1e7cb048e2457bfe31b4dbb9e291f7bac8313121245d15be34397a4bc",
+      "firstSeenAt": "2026-08-01T04:06:28.411Z",
+      "contentUpdatedAt": "2026-08-01T04:06:28.411Z"
+    },
+    "technologies/mcp-ai-agents/agentic-awesome-skills.md": {
+      "status": "new",
+      "contentHash": "13c1bd6cb417220fd92e8d6f2f65610857f728322e5767165deef9f171a67230",
+      "firstSeenAt": "2026-08-01T04:06:28.411Z",
+      "contentUpdatedAt": "2026-08-01T04:06:28.411Z"
+    },
+    "technologies/mcp-ai-agents/ai-engineering-from-scratch.md": {
+      "status": "new",
+      "contentHash": "b2d4559934eccb29b4d341494b9edd570e85fcdd8cfbf46703faa36954fc7193",
+      "firstSeenAt": "2026-08-01T04:06:28.411Z",
+      "contentUpdatedAt": "2026-08-01T04:06:28.411Z"
+    },
+    "technologies/mcp-ai-agents/context7.md": {
+      "status": "new",
+      "contentHash": "0479babd5ad4ad67eb9908f57e8ab23a65fac5ee4fc3d531a28fa198d1f83d25",
+      "firstSeenAt": "2026-08-01T04:06:28.411Z",
+      "contentUpdatedAt": "2026-08-01T04:06:28.411Z"
+    },
+    "technologies/mcp-ai-agents/cowagent.md": {
+      "status": "new",
+      "contentHash": "bcd2e847afd6b48fbd19f67a6f16af3b7e19a3e18929813751ab8f4f60481d96",
+      "firstSeenAt": "2026-08-01T04:06:28.411Z",
+      "contentUpdatedAt": "2026-08-01T04:06:28.411Z"
+    },
+    "technologies/mcp-ai-agents/daily-stock-analysis.md": {
+      "status": "new",
+      "contentHash": "b841d1474a4e3dbb5b56c55d7acd0364c8cccdd5c45664c06bb04034c8ea2c6d",
+      "firstSeenAt": "2026-08-01T04:06:28.411Z",
+      "contentUpdatedAt": "2026-08-01T04:06:28.411Z"
+    },
+    "technologies/mcp-ai-agents/flowise.md": {
+      "status": "new",
+      "contentHash": "8e1a402092166781264d88b3ce6af4c9e1a2e96cb9dcc3e32c72427b3bd747aa",
+      "firstSeenAt": "2026-08-01T04:06:28.411Z",
+      "contentUpdatedAt": "2026-08-01T04:06:28.411Z"
+    },
+    "technologies/mcp-ai-agents/goose.md": {
+      "status": "new",
+      "contentHash": "671d92df1698565d22dc6f0b29392b4d43a370a4c4f0d571fc8bae6c5636ffe3",
+      "firstSeenAt": "2026-08-01T04:06:28.411Z",
+      "contentUpdatedAt": "2026-08-01T04:06:28.411Z"
+    },
+    "technologies/mcp-ai-agents/huginn.md": {
+      "status": "new",
+      "contentHash": "52fc2d88b1dfd29d7887a8b2af18ca09b4e08d19303163bc4591ee087d7161da",
+      "firstSeenAt": "2026-08-01T04:06:28.411Z",
+      "contentUpdatedAt": "2026-08-01T04:06:28.411Z"
+    },
+    "technologies/mcp-ai-agents/jeecgboot.md": {
+      "status": "new",
+      "contentHash": "b0cff523ecd8aca05289d22b702228fe2ecb0ab6ab79abdf5edf7fda29ada7bf",
+      "firstSeenAt": "2026-08-01T04:06:28.411Z",
+      "contentUpdatedAt": "2026-08-01T04:06:28.411Z"
+    },
+    "technologies/mcp-ai-agents/librechat.md": {
+      "status": "new",
+      "contentHash": "6ee257c520e387ed2ae9aea47af96a97136ac5056696747ddfc181f65ea4b23c",
+      "firstSeenAt": "2026-08-01T04:06:28.411Z",
+      "contentUpdatedAt": "2026-08-01T04:06:28.411Z"
+    },
+    "technologies/mcp-ai-agents/mem0.md": {
+      "status": "new",
+      "contentHash": "e8190dd4274b2bb66aedd9b3ec6005761c92024738015b87d67a88d2d0e4203a",
+      "firstSeenAt": "2026-08-01T04:06:28.411Z",
+      "contentUpdatedAt": "2026-08-01T04:06:28.411Z"
+    },
+    "technologies/mcp-ai-agents/mempalace.md": {
+      "status": "new",
+      "contentHash": "fed909b6413012a04239e41c258e4e1954472cb334cdcba1470d31ffb08e3a87",
+      "firstSeenAt": "2026-08-01T04:06:28.411Z",
+      "contentUpdatedAt": "2026-08-01T04:06:28.411Z"
+    },
+    "technologies/mcp-ai-agents/nanobot.md": {
+      "status": "new",
+      "contentHash": "c56c129fe5804325706ebdab22536634411db333a80e89c36a0eee18c2674054",
+      "firstSeenAt": "2026-08-01T04:06:28.411Z",
+      "contentUpdatedAt": "2026-08-01T04:06:28.411Z"
+    },
+    "technologies/mcp-ai-agents/ray.md": {
+      "status": "new",
+      "contentHash": "b978feed857eb96d750cfd9738043c4a33ea0a8031cdcca86ac814ac62e150d2",
+      "firstSeenAt": "2026-08-01T04:06:28.411Z",
+      "contentUpdatedAt": "2026-08-01T04:06:28.411Z"
+    },
+    "technologies/mcp-ai-agents/siyuan.md": {
+      "status": "new",
+      "contentHash": "7e1a9a36895b73f8893bf0937eebf705f75278f0dcb49eb44fbef616b445c185",
+      "firstSeenAt": "2026-08-01T04:06:28.411Z",
+      "contentUpdatedAt": "2026-08-01T04:06:28.411Z"
+    },
+    "technologies/mcp-ai-agents/system-prompts-leaks.md": {
+      "status": "new",
+      "contentHash": "828983938b69912688e1f77c659a4b2b1db4a047965ecbc11811be86cec9912f",
+      "firstSeenAt": "2026-08-01T04:06:28.411Z",
+      "contentUpdatedAt": "2026-08-01T04:06:28.411Z"
+    },
+    "technologies/mcp-ai-agents/tidb.md": {
+      "status": "new",
+      "contentHash": "8ab28038686ca366725485a2e74daaec6336e2b39401ebf9befd53362bf89627",
+      "firstSeenAt": "2026-08-01T04:06:28.411Z",
+      "contentUpdatedAt": "2026-08-01T04:06:28.411Z"
+    },
+    "technologies/cv-edge/mediapipe.md": {
+      "status": "new",
+      "contentHash": "89cac697e2e067c529d356c488e573387e2635dd5215a07be978492b7ff80768",
+      "firstSeenAt": "2026-08-01T04:09:52.823Z",
+      "contentUpdatedAt": "2026-08-01T04:09:52.823Z"
+    },
+    "technologies/devtools/awesome-datascience.md": {
+      "status": "new",
+      "contentHash": "452657d96fe45ea9458afdf785377c12b10ff5cd1b309373754fa5c6b08f76b7",
+      "firstSeenAt": "2026-08-01T04:09:52.823Z",
+      "contentUpdatedAt": "2026-08-01T04:09:52.823Z"
+    },
+    "technologies/devtools/google-research.md": {
+      "status": "new",
+      "contentHash": "5fd9d1ba9d6b3180d16dc4bc552519f58a836a18f1e271e380ab780ce8db6ac2",
+      "firstSeenAt": "2026-08-01T04:09:52.823Z",
+      "contentUpdatedAt": "2026-08-01T04:09:52.823Z"
+    },
+    "technologies/devtools/netron.md": {
+      "status": "new",
+      "contentHash": "698bcea7bd621ad8bc94b524c94bfc6a5b3ac9f8976d0a355451589f4bf3993a",
+      "firstSeenAt": "2026-08-01T04:09:52.823Z",
+      "contentUpdatedAt": "2026-08-01T04:09:52.823Z"
+    },
+    "technologies/devtools/pytorch-lightning.md": {
+      "status": "new",
+      "contentHash": "7df49156c0c8a4d45d86cdeafd97de6a95da78df0c3ec6df09b3f296b7b474f2",
+      "firstSeenAt": "2026-08-01T04:09:52.823Z",
+      "contentUpdatedAt": "2026-08-01T04:09:52.823Z"
+    },
+    "technologies/image-video/invokeai.md": {
+      "status": "new",
+      "contentHash": "0f8dbd9d3a9b864280f218b2ad252d1e2a8bcbd28e13e63f363590d4d6157ac5",
+      "firstSeenAt": "2026-08-01T04:09:52.823Z",
+      "contentUpdatedAt": "2026-08-01T04:09:52.823Z"
+    },
+    "technologies/image-video/qdrant.md": {
+      "status": "new",
+      "contentHash": "897ca14ebccf53c601aefc2cc332824d9c57aee41942f74f8a9188e0c0783e46",
+      "firstSeenAt": "2026-08-01T04:09:52.823Z",
+      "contentUpdatedAt": "2026-08-01T04:09:52.823Z"
+    },
+    "technologies/mcp-ai-agents/1panel.md": {
+      "status": "new",
+      "contentHash": "a24039534696f8d0267967ab4a26ad089ed7ec928ad12a89a00d049954c6f26c",
+      "firstSeenAt": "2026-08-01T04:09:52.823Z",
+      "contentUpdatedAt": "2026-08-01T04:09:52.823Z"
+    },
+    "technologies/mcp-ai-agents/agentscope.md": {
+      "status": "new",
+      "contentHash": "6458c42b89be143ea7f2c6a3f8525383c9fb0cb7f44171c8c640efc1df411144",
+      "firstSeenAt": "2026-08-01T04:09:52.823Z",
+      "contentUpdatedAt": "2026-08-01T04:09:52.823Z"
+    },
+    "technologies/mcp-ai-agents/ai-agent-book.md": {
+      "status": "new",
+      "contentHash": "f3f967aa888b1ba034e2398ed4c8a5ca4d0ffef9608939fa68976f616e8258e2",
+      "firstSeenAt": "2026-08-01T04:09:52.823Z",
+      "contentUpdatedAt": "2026-08-01T04:09:52.823Z"
+    },
+    "technologies/mcp-ai-agents/ai-engineering-hub.md": {
+      "status": "new",
+      "contentHash": "c0d9c2f48ce6ab94d707772bb42802f8e5cfe1fc978280e87ce524721f620ffd",
+      "firstSeenAt": "2026-08-01T04:09:52.823Z",
+      "contentUpdatedAt": "2026-08-01T04:09:52.823Z"
+    },
+    "technologies/mcp-ai-agents/awesome-generative-ai-guide.md": {
+      "status": "new",
+      "contentHash": "bd88fded0264f063325768bb3ae502bd21da67e07759e52a4c90870606f558d3",
+      "firstSeenAt": "2026-08-01T04:09:52.823Z",
+      "contentUpdatedAt": "2026-08-01T04:09:52.823Z"
+    },
+    "technologies/mcp-ai-agents/codebase-memory-mcp.md": {
+      "status": "new",
+      "contentHash": "92e2b67f714033b71d78f3f0697c7cfb38e06f2067c38b7d9e2fac4d4c451732",
+      "firstSeenAt": "2026-08-01T04:09:52.823Z",
+      "contentUpdatedAt": "2026-08-01T04:09:52.823Z"
+    },
+    "technologies/mcp-ai-agents/copilotkit.md": {
+      "status": "new",
+      "contentHash": "e1ffd0e97e2573bf759f934f47dff7e24d4dc1a7f0413f889c0489763db9263b",
+      "firstSeenAt": "2026-08-01T04:09:52.823Z",
+      "contentUpdatedAt": "2026-08-01T04:09:52.823Z"
+    },
+    "technologies/mcp-ai-agents/deepseek-reasonix.md": {
+      "status": "new",
+      "contentHash": "123f807aa3a9958befe5f5cb262aaa404964036e6886dc185a07673ff7de9688",
+      "firstSeenAt": "2026-08-01T04:09:52.823Z",
+      "contentUpdatedAt": "2026-08-01T04:09:52.823Z"
+    },
+    "technologies/mcp-ai-agents/fastgpt.md": {
+      "status": "new",
+      "contentHash": "e60b4cfd392539f2d7ff5adf2337d3bcf257938d007bb35aa3906ce76f1cf122",
+      "firstSeenAt": "2026-08-01T04:09:52.823Z",
+      "contentUpdatedAt": "2026-08-01T04:09:52.823Z"
+    },
+    "technologies/mcp-ai-agents/finceptterminal.md": {
+      "status": "new",
+      "contentHash": "f49588c46100016daa995fb4652cd1a620b5aeac2f54df2e307ddd0c6a45fcce",
+      "firstSeenAt": "2026-08-01T04:09:52.823Z",
+      "contentUpdatedAt": "2026-08-01T04:09:52.823Z"
+    },
+    "technologies/mcp-ai-agents/jobs-applier-ai-agent-aihawk.md": {
+      "status": "new",
+      "contentHash": "5c4cebf88bd1b67f18da20332711858af3c9ed58992c8c9c8e3615a82dbd10a7",
+      "firstSeenAt": "2026-08-01T04:09:52.823Z",
+      "contentUpdatedAt": "2026-08-01T04:09:52.823Z"
+    },
+    "technologies/mcp-ai-agents/langgraph.md": {
+      "status": "new",
+      "contentHash": "3fd47b5581bc78b9674f29ecb83910673261125ac6e18a11b523321370817efb",
+      "firstSeenAt": "2026-08-01T04:09:52.823Z",
+      "contentUpdatedAt": "2026-08-01T04:09:52.823Z"
+    },
+    "technologies/mcp-ai-agents/nacos.md": {
+      "status": "new",
+      "contentHash": "cd3a17fed0b584603be41b57916dd892ddafc47d791789298f6e7fa56bc8c1df",
+      "firstSeenAt": "2026-08-01T04:09:52.823Z",
+      "contentUpdatedAt": "2026-08-01T04:09:52.823Z"
+    },
+    "technologies/mcp-ai-agents/qwenpaw.md": {
+      "status": "new",
+      "contentHash": "d44822f055f39869bc38708ad17d05a216b9c5ad0f3e2866dabd56cedca2a1e9",
+      "firstSeenAt": "2026-08-01T04:09:52.823Z",
+      "contentUpdatedAt": "2026-08-01T04:09:52.823Z"
+    },
+    "technologies/mcp-ai-agents/rag-techniques.md": {
+      "status": "new",
+      "contentHash": "c3135996a75e2649c005684ae7b302536c07698ccff7700ffba3964cf425cd18",
+      "firstSeenAt": "2026-08-01T04:09:52.823Z",
+      "contentUpdatedAt": "2026-08-01T04:09:52.823Z"
+    },
+    "technologies/mcp-ai-agents/semantic-kernel.md": {
+      "status": "new",
+      "contentHash": "19057acd8d0d258052111a7cfe44142946d4ecf89e798f540640800385e784d8",
+      "firstSeenAt": "2026-08-01T04:09:52.823Z",
+      "contentUpdatedAt": "2026-08-01T04:09:52.823Z"
+    },
+    "technologies/mcp-ai-agents/sim.md": {
+      "status": "new",
+      "contentHash": "ea0900bcba434594915e8ee1a3b0112e2d868560f94514be15c08e4dc21420de",
+      "firstSeenAt": "2026-08-01T04:09:52.823Z",
+      "contentUpdatedAt": "2026-08-01T04:09:52.823Z"
+    },
+    "technologies/mcp-ai-agents/zeroclaw.md": {
+      "status": "new",
+      "contentHash": "b63784d6c8f6b56c37d61f68605c4493319bf3b179ea0ad306681c3ec64ae287",
+      "firstSeenAt": "2026-08-01T04:09:52.823Z",
+      "contentUpdatedAt": "2026-08-01T04:09:52.823Z"
     }
   }
 }
