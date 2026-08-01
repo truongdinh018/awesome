@@ -27,10 +27,10 @@
 | 3 | [Image & Video](#3-image--video) | 29 | Gen ảnh/video, NLE |
 | 4 | [UI Automation](#4-ui-automation--computer-use) | 8 | Browser / computer-use |
 | 5 | [CV & Edge](#5-computer-vision--edge) | 9 | Vision, IoT, edge |
-| 6 | [DevTools](#6-devtools--integration) | 79 | OCR, gateway, office, train, self-host |
+| 6 | [DevTools](#6-devtools--integration) | 80 | OCR, gateway, office, train, self-host |
 | 7 | [Security](#7-security--pentesting) | 4 | Pentest, OSINT, guardrail |
 
-**Tổng = 308 ★** (+ 11 CLI-Anything harnesses)
+**Tổng = 309 ★** (+ 11 CLI-Anything harnesses)
 
 ---
 
@@ -337,6 +337,7 @@
 | **ezBookkeeping** | `self-host` `desktop` `workspace` `mcp` `api` `ocr` | [ezbookkeeping.md](../technologies/devtools/ezbookkeeping.md) |
 | **OpenTickly** | `self-host` `api` `cli` `workspace` `agent` | [opentickly.md](../technologies/devtools/opentickly.md) |
 | **Vikunja App** | `self-host` `desktop` `workspace` `api` `workflow` | [vikunja-app.md](../technologies/devtools/vikunja-app.md) |
+| **Vikunja** | `self-host` `api` `workspace` `workflow` | [vikunja.md](../technologies/devtools/vikunja.md) |
 | **PlainApp** | `self-host` `desktop` `workspace` `edge` `notification` | [plain-app.md](../technologies/devtools/plain-app.md) |
 | **WSL Dashboard** | `desktop` `cli` `workspace` | [wsl-dashboard.md](../technologies/devtools/wsl-dashboard.md) |
 | **FluentFlyout** | `desktop` `workspace` | [fluent-flyout.md](../technologies/devtools/fluent-flyout.md) |

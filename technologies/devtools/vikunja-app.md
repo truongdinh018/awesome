@@ -12,7 +12,7 @@
 
 Không phải AI app — nhưng phù hợp stack năng suất self-host: backend Go + Vue web UI, app mobile/desktop native. App đang **alpha pre-release**; cần Vikunja backend **stable** mới nhất.
 
-**Cùng kiểu:** [Yuvomi](yuvomi.md) (planner + MCP), [OpenTickly](opentickly.md) (productivity self-host), [Dashy](dashy.md) (homelab dashboard).
+**Cùng kiểu:** [Vikunja](vikunja.md) (backend + web UI), [Yuvomi](yuvomi.md) (planner + MCP), [OpenTickly](opentickly.md) (productivity self-host), [Dashy](dashy.md) (homelab dashboard).
 
 ## Dùng khi nào?
 
@@ -23,7 +23,7 @@ Không phải AI app — nhưng phù hợp stack năng suất self-host: backend
 | Kanban + Gantt + list trong một stack | ✅ |
 | Family planner + MCP cho agent | → [Yuvomi](yuvomi.md) |
 | Kanban cho coding agents | → [Vibe Kanban](../mcp-ai-agents/vibe-kanban.md) |
-| Chỉ cần web, không cài app | → [go-vikunja/vikunja](https://github.com/go-vikunja/vikunja) (có web UI sẵn) |
+| Chỉ cần web, không cài app | → [Vikunja](vikunja.md) (backend + web UI sẵn) |
 
 ## Chạy thử
 
@@ -66,4 +66,4 @@ flutter run
 
 - App: https://github.com/go-vikunja/app  
 - Backend: https://github.com/go-vikunja/vikunja · Docs: https://vikunja.io/docs/  
-- Peers: [yuvomi.md](yuvomi.md) · [opentickly.md](opentickly.md) · [dashy.md](dashy.md)
+- Peers: [vikunja.md](vikunja.md) · [yuvomi.md](yuvomi.md) · [opentickly.md](opentickly.md) · [dashy.md](dashy.md)
