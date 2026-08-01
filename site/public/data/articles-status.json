@@ -1,5 +1,5 @@
 {
-  "indexedAt": "2026-08-01T09:39:09.238Z",
+  "indexedAt": "2026-08-01T10:42:10.565Z",
   "model": "Xenova/multilingual-e5-small",
   "articles": {
     "technologies/bookmarks/codex-pets.md": {
@@ -1923,16 +1923,22 @@
       "contentUpdatedAt": "2026-08-01T04:09:52.823Z"
     },
     "technologies/devtools/vikunja-app.md": {
-      "status": "new",
-      "contentHash": "c1434f39dc16f9fddf64576a6fc3226a2cab707a5e2de09c704259a8dd06dfb2",
+      "status": "updated",
+      "contentHash": "8d86c29a0089d824a82637134a1c695dd9a83fd9ecb2a634170cf8148dc13616",
       "firstSeenAt": "2026-08-01T09:23:55.391Z",
-      "contentUpdatedAt": "2026-08-01T09:23:55.391Z"
+      "contentUpdatedAt": "2026-08-01T10:42:10.565Z"
     },
     "technologies/devtools/canvas-ui.md": {
       "status": "new",
       "contentHash": "7df4d9bb026df34df00a5fa7477d16116252fe7ab3991f33bff41b0f14637164",
       "firstSeenAt": "2026-08-01T09:39:09.238Z",
       "contentUpdatedAt": "2026-08-01T09:39:09.238Z"
+    },
+    "technologies/devtools/vikunja.md": {
+      "status": "new",
+      "contentHash": "f731c02b18eb2b0ee1ab2060b3cae71465c44690e6a146b25dd60db772f96dfa",
+      "firstSeenAt": "2026-08-01T10:42:10.565Z",
+      "contentUpdatedAt": "2026-08-01T10:42:10.565Z"
     }
   }
 }
