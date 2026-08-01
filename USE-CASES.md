@@ -27,7 +27,7 @@
 - [Sinh ảnh & video bằng AI](#11-image-video-gen) — **16**
 - [Sửa / tải / xem video (không gen)](#12-video-tools) — **14**
 - [UI / web → code](#13-ui2code) — **4**
-- [Tự động hóa trình duyệt (computer-use)](#14-browser) — **16**
+- [Tự động hóa trình duyệt (computer-use)](#14-browser) — **17**
 - [Thị giác máy & edge/IoT](#15-cv) — **9**
 - [PDF, OCR, tài liệu văn phòng](#16-pdf-ocr) — **24**
 - [Thông báo & cầu nối chat](#17-notify) — **7**
@@ -477,6 +477,7 @@
 | **changedetection.io** | DevTools | `notification` `self-host` `browser` `workflow` `api` | changedetection.io là công cụ self-host (hoặc SaaS) theo dõi thay đổi webpage : diff text/HTML/PDF/JSON, price/restock, visual … | [changedetection-io.md](technologies/devtools/changedetection-io.md) |
 | **Chrome DevTools MCP** | UI Automation | `mcp` `browser` `ui-automation` `cli` `coding-agent` | chrome-devtools-mcp (Chrome DevTools / Google) là MCP server để coding agent (Cursor, Claude, Copilot, Antigravity…) điều khiển… | [chrome-devtools-mcp.md](technologies/ui-automation/chrome-devtools-mcp.md) |
 | **ChronoFrame** | DevTools | `self-host` `desktop` `workspace` `browser` | ChronoFrame — gallery ảnh cá nhân self-host : quản lý album online, Live/Motion Photos, parse EXIF, reverse geocoding, bản đồ e… | [chronoframe.md](technologies/devtools/chronoframe.md) |
+| **Canvas UI** | DevTools | `browser` `design` `mcp` `cli` | Canvas UI là thư viện component creative coding: fluid, shader, glass, fire, particle… chạy trên live HTML — framework-agnostic, cài qua shadcn registry, MCP ready. | [canvas-ui.md](technologies/devtools/canvas-ui.md) |
 | **CloakBrowser** | UI Automation | `browser` `ui-automation` `api` `cli` `self-host` | CloakBrowser là Chromium anti-detect với fingerprint patch source-level C++ (không chỉ JS inject): canvas/WebGL/audio/fonts/Web… | [cloakbrowser.md](technologies/ui-automation/cloakbrowser.md) |
 | **FileBrowser Quantum** | DevTools | `self-host` `desktop` `api` `workspace` `browser` | FileBrowser Quantum — fork hiện đại của File Browser: web file manager self-host trên filesystem (multi-source, include/exclude). | [filebrowser-quantum.md](technologies/devtools/filebrowser-quantum.md) |
 | **Midscene.js** | UI Automation | `ui-automation` `computer-use` `browser` `skill` | Midscene.js là framework UI automation / testing dựa trên vision ( vision-based automation ): mô tả bước bằng ngôn ngữ tự nhiên… | [midscene.md](technologies/ui-automation/midscene.md) |

@@ -27,10 +27,10 @@
 | 3 | [Image & Video](#3-image--video) | 29 | Gen ảnh/video, NLE |
 | 4 | [UI Automation](#4-ui-automation--computer-use) | 8 | Browser / computer-use |
 | 5 | [CV & Edge](#5-computer-vision--edge) | 9 | Vision, IoT, edge |
-| 6 | [DevTools](#6-devtools--integration) | 78 | OCR, gateway, office, train, self-host |
+| 6 | [DevTools](#6-devtools--integration) | 79 | OCR, gateway, office, train, self-host |
 | 7 | [Security](#7-security--pentesting) | 4 | Pentest, OSINT, guardrail |
 
-**Tổng = 307 ★** (+ 11 CLI-Anything harnesses)
+**Tổng = 308 ★** (+ 11 CLI-Anything harnesses)
 
 ---
 
@@ -348,6 +348,7 @@
 | **Tab Harbor** | `browser` `workspace` `desktop` | [tab-harbor.md](../technologies/devtools/tab-harbor.md) |
 | **CheatReader** | `desktop` `workspace` `pdf` | [cheatreader.md](../technologies/devtools/cheatreader.md) |
 | **BleachBit** | `desktop` `cli` `security` | [bleachbit.md](../technologies/devtools/bleachbit.md) |
+| **Canvas UI** | `browser` `design` `mcp` `cli` | [canvas-ui.md](../technologies/devtools/canvas-ui.md) |
 | **WinPodX** | `desktop` `cli` `workspace` `self-host` `office` | [winpodx.md](../technologies/devtools/winpodx.md) |
 
 ### 6.2 Documents · PDF · file type
