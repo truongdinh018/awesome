@@ -1,5 +1,5 @@
 {
-  "indexedAt": "2026-08-01T04:09:52.823Z",
+  "indexedAt": "2026-08-01T10:50:54.210Z",
   "model": "Xenova/multilingual-e5-small",
   "articles": {
     "technologies/bookmarks/codex-pets.md": {
@@ -1921,6 +1921,66 @@
       "contentHash": "b63784d6c8f6b56c37d61f68605c4493319bf3b179ea0ad306681c3ec64ae287",
       "firstSeenAt": "2026-08-01T04:09:52.823Z",
       "contentUpdatedAt": "2026-08-01T04:09:52.823Z"
+    },
+    "technologies/devtools/vikunja-app.md": {
+      "status": "new",
+      "contentHash": "c1434f39dc16f9fddf64576a6fc3226a2cab707a5e2de09c704259a8dd06dfb2",
+      "firstSeenAt": "2026-08-01T09:23:55.391Z",
+      "contentUpdatedAt": "2026-08-01T09:23:55.391Z"
+    },
+    "technologies/devtools/canvas-ui.md": {
+      "status": "new",
+      "contentHash": "7df4d9bb026df34df00a5fa7477d16116252fe7ab3991f33bff41b0f14637164",
+      "firstSeenAt": "2026-08-01T09:39:09.238Z",
+      "contentUpdatedAt": "2026-08-01T09:39:09.238Z"
+    },
+    "technologies/cv-edge/cs249r-book.md": {
+      "status": "new",
+      "contentHash": "8220e29190d0da3678992bb61799d60396488f0cf7eff75ce92c5c04c0c9bf49",
+      "firstSeenAt": "2026-08-01T10:50:54.210Z",
+      "contentUpdatedAt": "2026-08-01T10:50:54.210Z"
+    },
+    "technologies/devtools/nautilus-trader.md": {
+      "status": "new",
+      "contentHash": "735b7714bbde56d898cdc8d5df17cf527ca52215b2552639c4ccef7298a42461",
+      "firstSeenAt": "2026-08-01T10:50:54.210Z",
+      "contentUpdatedAt": "2026-08-01T10:50:54.210Z"
+    },
+    "technologies/devtools/ncnn.md": {
+      "status": "new",
+      "contentHash": "0d0b6ade3aee220c713a01c1160f84ebea4b64564f10b3ea0e1547448e0dfaeb",
+      "firstSeenAt": "2026-08-01T10:50:54.210Z",
+      "contentUpdatedAt": "2026-08-01T10:50:54.210Z"
+    },
+    "technologies/mcp-ai-agents/a2a.md": {
+      "status": "new",
+      "contentHash": "e371afc46cdf3ff6cc09ec9f1f15d85896c1432248cb7a1e8302b78e690ba7e0",
+      "firstSeenAt": "2026-08-01T10:50:54.210Z",
+      "contentUpdatedAt": "2026-08-01T10:50:54.210Z"
+    },
+    "technologies/mcp-ai-agents/ai.md": {
+      "status": "new",
+      "contentHash": "a71073583b37db896df1b9bca2275bec09682a8d20fd000805a4b290bd8c34d8",
+      "firstSeenAt": "2026-08-01T10:50:54.210Z",
+      "contentUpdatedAt": "2026-08-01T10:50:54.210Z"
+    },
+    "technologies/mcp-ai-agents/haystack.md": {
+      "status": "new",
+      "contentHash": "69b851bf5f7706da9c37e8a60a14d9d9d3b0e15bba1c32eedf0ee29163edf57a",
+      "firstSeenAt": "2026-08-01T10:50:54.210Z",
+      "contentUpdatedAt": "2026-08-01T10:50:54.210Z"
+    },
+    "technologies/mcp-ai-agents/repomix.md": {
+      "status": "new",
+      "contentHash": "c90ec0aa18b8d17c99c55476f869fff85eb8819052a2cd3bd65403f7794b1cf1",
+      "firstSeenAt": "2026-08-01T10:50:54.210Z",
+      "contentUpdatedAt": "2026-08-01T10:50:54.210Z"
+    },
+    "technologies/mcp-ai-agents/serena.md": {
+      "status": "new",
+      "contentHash": "58018165af576fd03db6a438c10f2da06770186ffff4482287da98920a3c9f08",
+      "firstSeenAt": "2026-08-01T10:50:54.210Z",
+      "contentUpdatedAt": "2026-08-01T10:50:54.210Z"
     }
   }
 }
