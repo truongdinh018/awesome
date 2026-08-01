@@ -1919,6 +1919,16 @@ a.list-repo:hover {
   color: var(--muted);
 }
 
+.trending-filters-drawer {
+  margin-bottom: 0;
+}
+
+.trending-desc-en {
+  margin-top: 0.35rem;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
 .trending-empty {
   padding: 2rem 0;
   text-align: center;

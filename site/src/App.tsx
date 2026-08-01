@@ -90,6 +90,9 @@ export default function App() {
   const [trendingData, setTrendingData] = useState<TrendingWeek | null>(null)
   const [trendingLoading, setTrendingLoading] = useState(false)
   const [trendingError, setTrendingError] = useState<string | null>(null)
+  const [trendingQuery, setTrendingQuery] = useState(
+    initial.view === 'trending' ? initial.q : '',
+  )
 
   const dirty = mode === 'edit' && draft !== content
   const dirtyRef = useRef(dirty)
@@ -150,7 +153,13 @@ export default function App() {
   }, [scrollArticleTop])
 
   const showTrending = useCallback(
-    async (opts?: { syncUrl?: boolean; mode?: 'push' | 'replace' }) => {
+    async (opts?: {
+      syncUrl?: boolean
+      mode?: 'push' | 'replace'
+      q?: string
+    }) => {
+      const nextQuery = opts?.q ?? trendingQuery
+      setTrendingQuery(nextQuery)
       setView('trending')
       setMode('read')
       setCurrentPath(null)
@@ -161,7 +170,7 @@ export default function App() {
       setTrendingLoading(true)
       document.title = 'Awesome AI · Trending'
       if (opts?.syncUrl !== false) {
-        navigate(trendingHref(), opts?.mode ?? 'push')
+        navigate(trendingHref(nextQuery), opts?.mode ?? 'push')
       }
       try {
         const data = await fetchTrendingWeek()
@@ -174,8 +183,13 @@ export default function App() {
         setTrendingLoading(false)
       }
     },
-    [],
+    [trendingQuery],
   )
+
+  const syncTrendingUrl = useCallback((q: string) => {
+    setTrendingQuery(q)
+    navigate(trendingHref(q), 'replace')
+  }, [])
 
   const showCatalog = useCallback(
     async (opts?: { syncUrl?: boolean; mode?: 'push' | 'replace' }) => {
@@ -215,7 +229,8 @@ export default function App() {
         if (route.view === 'article') {
           await openFile(route.doc, false)
         } else if (route.view === 'trending') {
-          await showTrending({ syncUrl: false })
+          setTrendingQuery(route.q)
+          await showTrending({ syncUrl: false, q: route.q })
         } else {
           setCatalogQuery(route.q)
           setCatalogDomains(route.domains)
@@ -255,7 +270,8 @@ export default function App() {
       if (route.view === 'article') {
         void openFile(route.doc, false)
       } else if (route.view === 'trending') {
-        void showTrending({ syncUrl: false })
+        setTrendingQuery(route.q)
+        void showTrending({ syncUrl: false, q: route.q })
       } else {
         setCatalogQuery(route.q)
         setCatalogDomains(route.domains)
@@ -372,8 +388,10 @@ export default function App() {
           data={trendingData}
           loading={trendingLoading}
           error={trendingError ?? error}
+          query={trendingQuery}
           theme={theme}
           onToggleTheme={handleToggleTheme}
+          onQueryChange={syncTrendingUrl}
           onOpenCatalog={() => void showCatalog()}
           onOpenArticle={(p) => void handleSelect(p)}
           onOpenHub={(p) => void handleSelect(p)}

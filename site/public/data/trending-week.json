@@ -37,7 +37,8 @@
       "highlights": [
         "Code mới push hôm nay"
       ],
-      "score": 233722
+      "score": 233722,
+      "descriptionVi": "ECC là hệ thống tối ưu agent harness (agent AI, LLM, MCP)."
     },
     {
       "fullName": "n8n-io/n8n",
@@ -78,7 +79,8 @@
       "highlights": [
         "Code mới push hôm nay"
       ],
-      "score": 198139
+      "score": 198139,
+      "descriptionVi": "n8n là nền tảng tự động hóa workflow (tự động hóa, CLI, low-code)."
     },
     {
       "fullName": "tensorflow/tensorflow",
@@ -107,7 +109,8 @@
       "highlights": [
         "Code mới push hôm nay"
       ],
-      "score": 196557
+      "score": 196557,
+      "descriptionVi": "tensorflow là framework machine learning mã nguồn mở (deep learning, machine learning)."
     },
     {
       "fullName": "Significant-Gravitas/AutoGPT",
@@ -139,7 +142,8 @@
       "highlights": [
         "Code mới push hôm nay"
       ],
-      "score": 185703
+      "score": 185703,
+      "descriptionVi": "AutoGPT là AI dễ tiếp cận cho mọi người (LLM)."
     },
     {
       "fullName": "ollama/ollama",
@@ -175,7 +179,8 @@
       "highlights": [
         "Code mới push hôm nay"
       ],
-      "score": 176952
+      "score": 176952,
+      "descriptionVi": "ollama là chạy local các model (LLM)."
     },
     {
       "fullName": "huggingface/transformers",
@@ -215,7 +220,8 @@
       "highlights": [
         "Code mới push hôm nay"
       ],
-      "score": 163015
+      "score": 163015,
+      "descriptionVi": "transformers là framework định nghĩa model (deep learning, LLM, machine learning)."
     },
     {
       "fullName": "Snailclimb/JavaGuide",
@@ -249,7 +255,8 @@
       "highlights": [
         "Code mới push hôm nay"
       ],
-      "score": 157321
+      "score": 157321,
+      "descriptionVi": "JavaGuide là dự án MCP / agent (MCP) — Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发."
     },
     {
       "fullName": "langflow-ai/langflow",
@@ -276,7 +283,8 @@
       "highlights": [
         "Code mới push hôm nay"
       ],
-      "score": 152451
+      "score": 152451,
+      "descriptionVi": "langflow là triển khai agent & workflow AI (AI sinh tạo)."
     },
     {
       "fullName": "langgenius/dify",
@@ -317,7 +325,8 @@
       "highlights": [
         "Code mới push hôm nay"
       ],
-      "score": 150348
+      "score": 150348,
+      "descriptionVi": "dify là xây workflow agentic & RAG (tự động hóa, LLM, low-code)."
     },
     {
       "fullName": "open-webui/open-webui",
@@ -353,7 +362,8 @@
       "highlights": [
         "Code mới push hôm nay"
       ],
-      "score": 146853
+      "score": 146853,
+      "descriptionVi": "open-webui là giao diện AI thân thiện (LLM, MCP, RAG)."
     },
     {
       "fullName": "langchain-ai/langchain",
@@ -394,7 +404,8 @@
       "highlights": [
         "Code mới push hôm nay"
       ],
-      "score": 142639
+      "score": 142639,
+      "descriptionVi": "langchain là nền tảng xây dựng agent (agent AI, AI sinh tạo, LLM)."
     },
     {
       "fullName": "farion1231/cc-switch",
@@ -435,7 +446,8 @@
       "highlights": [
         "Code mới push hôm nay"
       ],
-      "score": 121455
+      "score": 121455,
+      "descriptionVi": "cc-switch là ứng dụng desktop đa nền tảng (MCP)."
     },
     {
       "fullName": "microsoft/generative-ai-for-beginners",
@@ -470,7 +482,8 @@
       "highlights": [
         "Hoạt động GitHub trong tuần"
       ],
-      "score": 113540
+      "score": 113540,
+      "descriptionVi": "generative-ai-for-beginners là dự án LLM / AI sinh tạo (AI sinh tạo) — bài học Get Started xây dựng with Generative AI."
     },
     {
       "fullName": "pytorch/pytorch",
@@ -499,7 +512,8 @@
       "highlights": [
         "Code mới push hôm nay"
       ],
-      "score": 101989
+      "score": 101989,
+      "descriptionVi": "pytorch là tensor & mạng neural động (deep learning, machine learning)."
     },
     {
       "fullName": "rasbt/LLMs-from-scratch",
@@ -539,7 +553,8 @@
       "highlights": [
         "Code mới push hôm nay"
       ],
-      "score": 99907
+      "score": 99907,
+      "descriptionVi": "LLMs-from-scratch là LLM kiểu ChatGPT (deep learning, AI sinh tạo, LLM)."
     },
     {
       "fullName": "punkpeye/awesome-mcp-servers",
@@ -562,7 +577,8 @@
       "highlights": [
         "Code mới push 1 ngày trước"
       ],
-      "score": 91434
+      "score": 91434,
+      "descriptionVi": "awesome-mcp-servers là tổng hợp MCP server (MCP)."
     },
     {
       "fullName": "microsoft/ML-For-Beginners",
@@ -595,7 +611,8 @@
       "highlights": [
         "Code mới push 1 ngày trước"
       ],
-      "score": 88611
+      "score": 88611,
+      "descriptionVi": "ML-For-Beginners là khóa học machine learning cho mọi người (machine learning)."
     },
     {
       "fullName": "vllm-project/vllm",
@@ -636,7 +653,8 @@
       "highlights": [
         "Code mới push hôm nay"
       ],
-      "score": 87260
+      "score": 87260,
+      "descriptionVi": "vllm là engine inference & serving (inference, LLM)."
     },
     {
       "fullName": "nexu-io/open-design",
@@ -677,7 +695,8 @@
       "highlights": [
         "Code mới push hôm nay"
       ],
-      "score": 81775
+      "score": 81775,
+      "descriptionVi": "open-design là bản mở thay thế Claude Design (agent AI, AI sinh tạo, no-code)."
     },
     {
       "fullName": "lobehub/lobehub",
@@ -716,7 +735,8 @@
       "highlights": [
         "Code mới push hôm nay"
       ],
-      "score": 80838
+      "score": 80838,
+      "descriptionVi": "lobehub là dự án MCP / agent (MCP) — LobeHub your Chief Agent Operator agent into hiring and."
     },
     {
       "fullName": "netdata/netdata",
@@ -757,7 +777,8 @@
       "highlights": [
         "Code mới push hôm nay"
       ],
-      "score": 79863
+      "score": 79863,
+      "descriptionVi": "netdata là quan sát full-stack (Docker, Kubernetes, machine learning)."
     },
     {
       "fullName": "tesseract-ocr/tesseract",
@@ -785,7 +806,8 @@
       "highlights": [
         "Code mới push hôm nay"
       ],
-      "score": 75572
+      "score": 75572,
+      "descriptionVi": "tesseract là engine OCR mã nguồn mở (machine learning, OCR)."
     },
     {
       "fullName": "koala73/worldmonitor",
@@ -818,7 +840,8 @@
       "highlights": [
         "Code mới push hôm nay"
       ],
-      "score": 74897
+      "score": 74897,
+      "descriptionVi": "worldmonitor là dashboard tình báo toàn cầu thời gian thực (MCP, giám sát)."
     },
     {
       "fullName": "hiyouga/LlamaFactory",
@@ -859,7 +882,8 @@
       "highlights": [
         "Code mới push 2 ngày trước"
       ],
-      "score": 73531
+      "score": 73531,
+      "descriptionVi": "LlamaFactory là fine-tune model (fine-tune, LLM, NLP)."
     },
     {
       "fullName": "OpenBB-finance/OpenBB",
@@ -893,7 +917,8 @@
       "highlights": [
         "Code mới push 1 ngày trước"
       ],
-      "score": 71047
+      "score": 71047,
+      "descriptionVi": "OpenBB là nền tảng dữ liệu (machine learning)."
     },
     {
       "fullName": "NousResearch/hermes-agent",
@@ -931,7 +956,8 @@
         "Release v2026.7.20 (20/7/2026)",
         "Code mới push hôm nay"
       ],
-      "score": 221013
+      "score": 221013,
+      "descriptionVi": "Hermes Agent (Nous Research) là self-improving AI agent với vòng học khép kín: tạo/cải thiện skills từ trải nghiệm, nhớ người dùng qua phiên, tìm lại hội thoại cũ (FTS5), chạy CLI hoặc gateway messaging (Telegram, Discord, Slack, WhatsApp, Signal)."
     },
     {
       "fullName": "f/prompts.chat",
@@ -970,7 +996,8 @@
       "highlights": [
         "Code mới push 2 ngày trước"
       ],
-      "score": 166404
+      "score": 166404,
+      "descriptionVi": "prompts.chat là thư viện prompt open-source lớn cho AI chat (ChatGPT, Claude, Gemini, Llama, Mistral…)."
     },
     {
       "fullName": "firecrawl/firecrawl",
@@ -1010,7 +1037,8 @@
       "highlights": [
         "Code mới push hôm nay"
       ],
-      "score": 156535
+      "score": 156535,
+      "descriptionVi": "Firecrawl là web context API : search / scrape / crawl / map → Markdown sạch hoặc JSON có schema cho agents & RAG."
     },
     {
       "fullName": "browser-use/browser-use",
@@ -1038,7 +1066,8 @@
       "highlights": [
         "Code mới push 1 ngày trước"
       ],
-      "score": 106931
+      "score": 106931,
+      "descriptionVi": "Browser Use — thư viện Python để AI agent điều khiển trình duyệt như người: mở trang, click, gõ, điền form, extract."
     },
     {
       "fullName": "harry0703/MoneyPrinterTurbo",
@@ -1074,7 +1103,8 @@
         "Release v1.3.3 (24/7/2026)",
         "Code mới push hôm nay"
       ],
-      "score": 99437
+      "score": 99437,
+      "descriptionVi": "MoneyPrinterTurbo là pipeline một click short video : LLM viết kịch bản, lấy素材, TTS (Edge/Azure/ElevenLabs/Gemini/Chatterbox…), phụ đề (Edge timestamps hoặc Whisper), ghép HD."
     },
     {
       "fullName": "Graphify-Labs/graphify",
@@ -1115,7 +1145,8 @@
         "Release v0.9.27 (26/7/2026)",
         "Code mới push hôm nay"
       ],
-      "score": 96570
+      "score": 96570,
+      "descriptionVi": "Graphify là skill / CLI cho coding agent: map cả folder (code, SQL schema, docs, PDF, ảnh, video…) thành knowledge graph tra cứu được — không phải vector index."
     },
     {
       "fullName": "hacksider/Deep-Live-Cam",
@@ -1154,7 +1185,8 @@
       "highlights": [
         "Code mới push 3 ngày trước"
       ],
-      "score": 95287
+      "score": 95287,
+      "descriptionVi": "Deep-Live-Cam — face swap realtime (webcam/live) + one-click video deepfake từ một ảnh nguồn."
     },
     {
       "fullName": "JuliusBrussee/caveman",
@@ -1185,7 +1217,8 @@
       "highlights": [
         "Code mới push hôm nay"
       ],
-      "score": 93255
+      "score": 93255,
+      "descriptionVi": "Caveman là skill / plugin bắt coding agent trả lời ngắn (kiểu “người hang đá”), nhưng giữ nguyên code, lệnh shell và thông báo lỗi."
     },
     {
       "fullName": "thedotmack/claude-mem",
@@ -1227,7 +1260,8 @@
         "Release v13.12.4 (23/7/2026)",
         "Code mới push 3 ngày trước"
       ],
-      "score": 88661
+      "score": 88661,
+      "descriptionVi": "Claude-Mem — hệ persistent memory compression : capture tool usage trong session → nén/tóm tắt bằng AI → inject context liên quan vào session sau."
     },
     {
       "fullName": "ruvnet/RuView",
@@ -1268,7 +1302,8 @@
       "highlights": [
         "Code mới push hôm nay"
       ],
-      "score": 86693
+      "score": 86693,
+      "descriptionVi": "RuView (π / WiFi DensePose) biến WiFi CSI từ ESP32 (hoặc NIC nghiên cứu) thành spatial intelligence : presence, pose/DensePose, hô hấp/nhịp tim ước lượng, theo dõi phòng — không pixel camera , không wearable."
     },
     {
       "fullName": "OpenHands/OpenHands",
@@ -1299,7 +1334,8 @@
         "Release cloud-1.47.1 (21/7/2026)",
         "Code mới push hôm nay"
       ],
-      "score": 82212
+      "score": 82212,
+      "descriptionVi": "OpenHands là nền tảng AI-driven development self-host: Agent Canvas là control center cho coding agents + automations (Slack, GitHub issues → tasks, schedule/webhook)."
     },
     {
       "fullName": "bytedance/deer-flow",
@@ -1338,7 +1374,8 @@
       "highlights": [
         "Code mới push hôm nay"
       ],
-      "score": 77926
+      "score": 77926,
+      "descriptionVi": "DeerFlow ( Deep Exploration and Efficient Research Flow ) — OSS super agent harness (ByteDance): research · code · create trên task dài (phút→giờ)."
     },
     {
       "fullName": "rtk-ai/rtk",
@@ -1373,7 +1410,8 @@
         "Release v0.44.0 (26/7/2026)",
         "Code mới push hôm nay"
       ],
-      "score": 73365
+      "score": 73365,
+      "descriptionVi": "RTK ( Rust Token Killer ) là CLI proxy chặn output lệnh shell trước khi vào context LLM — lọc/nén git status , grep , cargo test , pytest … claim ~60–90% ít token trên workflow coding agent thường gặp."
     },
     {
       "fullName": "D4Vinci/Scrapling",
@@ -1415,7 +1453,8 @@
         "Release v0.4.12 (26/7/2026)",
         "Code mới push hôm nay"
       ],
-      "score": 71361
+      "score": 71361,
+      "descriptionVi": "Scrapling là framework web scraping / crawl adaptive: từ một request tới spider full-scale."
     },
     {
       "fullName": "unslothai/unsloth",
@@ -1456,7 +1495,8 @@
         "Release v0.1.501-beta (20/7/2026)",
         "Code mới push hôm nay"
       ],
-      "score": 68940
+      "score": 68940,
+      "descriptionVi": "Unsloth là framework fine-tune / RL LLM nhanh hơn (~2×) · ít VRAM hơn (tới ~70%) (LoRA, 4/16-bit, FP8, GRPO…) + Unsloth Studio (web UI train + chat)."
     }
   ]
 }

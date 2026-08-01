@@ -2,6 +2,7 @@ export type TrendingRepo = {
   fullName: string
   url: string
   description: string
+  descriptionVi: string
   language: string
   stars: number
   starsDelta: number | null

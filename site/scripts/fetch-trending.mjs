@@ -12,6 +12,7 @@ import fs from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { loadKnownRepos } from './lib/catalog-repos.mjs'
+import { describeTrendingVi } from './lib/describe-trending-vi.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const siteRoot = path.resolve(__dirname, '..')
@@ -162,6 +163,7 @@ function toTrendingEntry(repo, known, prevStars, release) {
     fullName,
     url: repo.html_url,
     description: repo.description?.trim() || '',
+    descriptionVi: describeTrendingVi(repo, catalog),
     language: repo.language || '',
     stars,
     starsDelta: prevStars != null ? stars - prevStars : null,
@@ -304,7 +306,9 @@ async function main() {
     '|------|---|-------|',
   ]
   for (const r of newRepos) {
-    const desc = (r.description || '—').replace(/\|/g, '\\|').slice(0, 120)
+    const desc = (r.descriptionVi || r.description || '—')
+      .replace(/\|/g, '\\|')
+      .slice(0, 120)
     pendingLines.push(
       `| [${r.fullName}](${r.url}) | ${formatStars(r.stars)} | ${desc} |`,
     )
