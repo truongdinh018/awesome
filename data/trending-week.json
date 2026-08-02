@@ -2,23 +2,172 @@
   "week": "2026-W31",
   "weekStart": "2026-07-27",
   "weekEnd": "2026-08-02",
-  "fetchedAt": "2026-08-01T10:02:43.168Z",
+  "fetchedAt": "2026-08-02T23:03:50.379Z",
   "summary": {
     "total": 40,
     "newCount": 25,
     "knownCount": 15,
-    "catalogSize": 298
+    "catalogSize": 300
   },
   "repos": [
+    {
+      "fullName": "deepfakes/faceswap",
+      "url": "https://github.com/deepfakes/faceswap",
+      "description": "Deepfakes Software For All",
+      "descriptionVi": "faceswap là dự án machine learning (deep learning, machine learning) — Deepfakes Software For All.",
+      "language": "Python",
+      "stars": 57204,
+      "starsDelta": null,
+      "forks": 13492,
+      "topics": [
+        "deep-face-swap",
+        "deep-learning",
+        "deep-neural-networks",
+        "deepface",
+        "deepfakes",
+        "deeplearning",
+        "face-swap",
+        "faceswap",
+        "fakeapp",
+        "machine-learning",
+        "myfakeapp",
+        "neural-nets",
+        "neural-networks",
+        "openfaceswap"
+      ],
+      "pushedAt": "2026-08-02T13:35:45Z",
+      "inCatalog": false,
+      "catalogPath": null,
+      "catalogTitle": null,
+      "catalogExcerpt": null,
+      "status": "new",
+      "highlights": [
+        "Code mới push hôm nay"
+      ],
+      "score": 57204
+    },
+    {
+      "fullName": "bytedance/UI-TARS-desktop",
+      "url": "https://github.com/bytedance/UI-TARS-desktop",
+      "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+      "descriptionVi": "UI-TARS-desktop là dự án MCP / agent (MCP) — The mã nguồn mở nguồn đa phương thức AI Agent stack Connecting Cutting Edge model and Infra.",
+      "language": "TypeScript",
+      "stars": 38404,
+      "starsDelta": null,
+      "forks": 3864,
+      "topics": [
+        "agent",
+        "agent-tars",
+        "browser-use",
+        "computer-use",
+        "cowork",
+        "gui-agent",
+        "gui-operator",
+        "mcp",
+        "mcp-server",
+        "multimodal",
+        "tars",
+        "ui-tars",
+        "vision",
+        "vlm"
+      ],
+      "pushedAt": "2026-08-02T09:41:26Z",
+      "inCatalog": false,
+      "catalogPath": null,
+      "catalogTitle": null,
+      "catalogExcerpt": null,
+      "status": "new",
+      "highlights": [
+        "Code mới push hôm nay"
+      ],
+      "score": 38404
+    },
+    {
+      "fullName": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "descriptionVi": "OmniRoute là dự án MCP / agent (agent AI, MCP) — Never stop coding Free MIT AI gateway one endpoint free model Kimi Claude GPT.",
+      "language": "TypeScript",
+      "stars": 37847,
+      "starsDelta": null,
+      "forks": 4927,
+      "topics": [
+        "a2a",
+        "ai-agents",
+        "ai-gateway",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "cline",
+        "codex",
+        "copilot",
+        "cursor",
+        "deepseek",
+        "free-ai",
+        "gemini",
+        "kimi",
+        "llm-gateway",
+        "mcp",
+        "openai",
+        "openai-proxy",
+        "qwen",
+        "token-saver"
+      ],
+      "pushedAt": "2026-08-02T22:43:45Z",
+      "inCatalog": false,
+      "catalogPath": null,
+      "catalogTitle": null,
+      "catalogExcerpt": null,
+      "status": "new",
+      "highlights": [
+        "Code mới push hôm nay"
+      ],
+      "score": 37847
+    },
+    {
+      "fullName": "oraios/serena",
+      "url": "https://github.com/oraios/serena",
+      "description": "A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities  - the IDE for your agent",
+      "descriptionVi": "serena là công cụ — mạnh MCP toolkit for coding semantic and editing khả năng the IDE your agent.",
+      "language": "Python",
+      "stars": 27422,
+      "starsDelta": 122,
+      "forks": 1818,
+      "topics": [
+        "agent",
+        "ai",
+        "ai-coding",
+        "claude",
+        "claude-code",
+        "codex",
+        "ide",
+        "jetbrains",
+        "language-server",
+        "mcp-server",
+        "programming",
+        "vibe-coding"
+      ],
+      "pushedAt": "2026-08-02T11:11:06Z",
+      "inCatalog": false,
+      "catalogPath": null,
+      "catalogTitle": null,
+      "catalogExcerpt": null,
+      "status": "new",
+      "highlights": [
+        "+122 ★ so với tuần trước",
+        "Code mới push hôm nay"
+      ],
+      "score": 27788
+    },
     {
       "fullName": "harvard-edge/cs249r_book",
       "url": "https://github.com/harvard-edge/cs249r_book",
       "description": "Machine Learning Systems",
       "descriptionVi": "cs249r_book là dự án machine learning (deep learning, machine learning) — Machine Learning Systems.",
       "language": "Python",
-      "stars": 27674,
-      "starsDelta": 1,
-      "forks": 3405,
+      "stars": 27691,
+      "starsDelta": 18,
+      "forks": 3421,
       "topics": [
         "artificial-intelligence",
         "cloud-ml",
@@ -33,17 +182,17 @@
         "textbook",
         "tinyml"
       ],
-      "pushedAt": "2026-07-28T13:48:08Z",
+      "pushedAt": "2026-08-02T08:06:43Z",
       "inCatalog": false,
       "catalogPath": null,
       "catalogTitle": null,
       "catalogExcerpt": null,
       "status": "new",
       "highlights": [
-        "+1 ★ so với tuần trước",
-        "Code mới push 3 ngày trước"
+        "+18 ★ so với tuần trước",
+        "Code mới push hôm nay"
       ],
-      "score": 27677
+      "score": 27745
     },
     {
       "fullName": "yamadashy/repomix",
@@ -51,9 +200,9 @@
       "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.",
       "descriptionVi": "repomix là dự án MCP / agent (AI sinh tạo, LLM, MCP) — Repomix mạnh công cụ that packs your entire into single AI friendly file Perfect for.",
       "language": "TypeScript",
-      "stars": 27555,
-      "starsDelta": 4,
-      "forks": 1464,
+      "stars": 27585,
+      "starsDelta": 34,
+      "forks": 1466,
       "topics": [
         "ai",
         "anthropic",
@@ -76,83 +225,48 @@
         "openai",
         "typescript"
       ],
-      "pushedAt": "2026-08-01T04:50:08Z",
+      "pushedAt": "2026-08-02T15:28:46Z",
       "inCatalog": false,
       "catalogPath": null,
       "catalogTitle": null,
       "catalogExcerpt": null,
       "status": "new",
       "highlights": [
-        "+4 ★ so với tuần trước",
+        "+34 ★ so với tuần trước",
         "Code mới push hôm nay"
       ],
-      "score": 27567
-    },
-    {
-      "fullName": "oraios/serena",
-      "url": "https://github.com/oraios/serena",
-      "description": "A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities  - the IDE for your agent",
-      "descriptionVi": "serena là công cụ — mạnh MCP toolkit for coding semantic and editing khả năng the IDE your agent.",
-      "language": "Python",
-      "stars": 27329,
-      "starsDelta": 29,
-      "forks": 1812,
-      "topics": [
-        "agent",
-        "ai",
-        "ai-coding",
-        "claude",
-        "claude-code",
-        "codex",
-        "ide",
-        "jetbrains",
-        "language-server",
-        "mcp-server",
-        "programming",
-        "vibe-coding"
-      ],
-      "pushedAt": "2026-08-01T09:44:33Z",
-      "inCatalog": false,
-      "catalogPath": null,
-      "catalogTitle": null,
-      "catalogExcerpt": null,
-      "status": "new",
-      "highlights": [
-        "+29 ★ so với tuần trước",
-        "Code mới push hôm nay"
-      ],
-      "score": 27416
+      "score": 27687
     },
     {
       "fullName": "deepset-ai/haystack",
       "url": "https://github.com/deepset-ai/haystack",
       "description": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.",
-      "descriptionVi": "haystack là dự án LLM / AI sinh tạo (AI sinh tạo, LLM, machine learning) — mã nguồn mở nguồn AI framework for xây dựng context ready LLM Design modular and agent.",
+      "descriptionVi": "haystack là dự án MCP / agent (agent AI, AI sinh tạo, LLM) — mã nguồn mở nguồn AI framework for xây dựng context ready LLM Design modular and agent.",
       "language": "Python",
-      "stars": 26073,
-      "starsDelta": 1,
-      "forks": 2973,
+      "stars": 26091,
+      "starsDelta": 19,
+      "forks": 2980,
       "topics": [
-        "agent",
+        "agent-framework",
+        "agentic-ai",
+        "agentic-rag",
         "agents",
         "ai",
-        "gemini",
+        "ai-agents",
+        "context-engineering",
+        "framework",
+        "genai",
         "generative-ai",
-        "gpt-4",
         "information-retrieval",
         "large-language-models",
         "llm",
-        "machine-learning",
-        "nlp",
+        "mcp",
+        "multi-agent",
         "orchestration",
         "python",
-        "pytorch",
-        "question-answering",
         "rag",
         "retrieval-augmented-generation",
-        "semantic-search",
-        "summarization",
-        "transformers"
+        "semantic-search"
       ],
       "pushedAt": "2026-08-01T03:06:32Z",
       "inCatalog": false,
@@ -161,10 +275,10 @@
       "catalogExcerpt": null,
       "status": "new",
       "highlights": [
-        "+1 ★ so với tuần trước",
-        "Code mới push hôm nay"
+        "+19 ★ so với tuần trước",
+        "Code mới push 1 ngày trước"
       ],
-      "score": 26076
+      "score": 26148
     },
     {
       "fullName": "vercel/ai",
@@ -172,9 +286,9 @@
       "description": "The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents",
       "descriptionVi": "ai là dự án LLM / AI sinh tạo (AI sinh tạo, LLM) — The AI Toolkit for TypeScript From the creators Next SDK free mã nguồn mở.",
       "language": "TypeScript",
-      "stars": 25937,
-      "starsDelta": 5,
-      "forks": 4891,
+      "stars": 25964,
+      "starsDelta": 32,
+      "forks": 4899,
       "topics": [
         "anthropic",
         "artificial-intelligence",
@@ -192,17 +306,44 @@
         "vercel",
         "vue"
       ],
-      "pushedAt": "2026-08-01T08:20:43Z",
+      "pushedAt": "2026-08-02T19:04:45Z",
       "inCatalog": false,
       "catalogPath": null,
       "catalogTitle": null,
       "catalogExcerpt": null,
       "status": "new",
       "highlights": [
-        "+5 ★ so với tuần trước",
+        "+32 ★ so với tuần trước",
         "Code mới push hôm nay"
       ],
-      "score": 25952
+      "score": 26060
+    },
+    {
+      "fullName": "lucidrains/vit-pytorch",
+      "url": "https://github.com/lucidrains/vit-pytorch",
+      "description": "Implementation of Vision Transformer, a simple way to achieve SOTA in vision classification with only a single transformer encoder, in Pytorch",
+      "descriptionVi": "vit-pytorch là repo AI (computer vision) — Implementation vision Transformer simple way achieve SOTA with only single.",
+      "language": "Python",
+      "stars": 25458,
+      "starsDelta": null,
+      "forks": 3495,
+      "topics": [
+        "artificial-intelligence",
+        "attention-mechanism",
+        "computer-vision",
+        "image-classification",
+        "transformers"
+      ],
+      "pushedAt": "2026-08-02T15:23:44Z",
+      "inCatalog": false,
+      "catalogPath": null,
+      "catalogTitle": null,
+      "catalogExcerpt": null,
+      "status": "new",
+      "highlights": [
+        "Code mới push hôm nay"
+      ],
+      "score": 25458
     },
     {
       "fullName": "nautechsystems/nautilus_trader",
@@ -210,9 +351,9 @@
       "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
       "descriptionVi": "nautilus_trader là dự án machine learning (machine learning) — Production grade Rust tích hợp sẵn trading engine with event driven.",
       "language": "Rust",
-      "stars": 25172,
-      "starsDelta": 9,
-      "forks": 3271,
+      "stars": 25213,
+      "starsDelta": 50,
+      "forks": 3280,
       "topics": [
         "algorithmic-trading-engine",
         "artificial-intelligence",
@@ -228,17 +369,17 @@
         "trading",
         "trading-platform"
       ],
-      "pushedAt": "2026-08-01T09:18:33Z",
+      "pushedAt": "2026-08-02T13:40:14Z",
       "inCatalog": false,
       "catalogPath": null,
       "catalogTitle": null,
       "catalogExcerpt": null,
       "status": "new",
       "highlights": [
-        "+9 ★ so với tuần trước",
+        "+50 ★ so với tuần trước",
         "Code mới push hôm nay"
       ],
-      "score": 25199
+      "score": 25363
     },
     {
       "fullName": "a2aproject/A2A",
@@ -246,9 +387,9 @@
       "description": "Agent2Agent (A2A) is an open protocol enabling communication and interoperability between opaque agentic applications.",
       "descriptionVi": "A2A là dự án LLM / AI sinh tạo (AI sinh tạo) — Agent2Agent A2A mã nguồn mở protocol enabling and between opaque agentic.",
       "language": "Shell",
-      "stars": 25128,
-      "starsDelta": 0,
-      "forks": 2542,
+      "stars": 25151,
+      "starsDelta": 23,
+      "forks": 2544,
       "topics": [
         "a2a",
         "a2a-mcp",
@@ -265,9 +406,52 @@
       "catalogExcerpt": null,
       "status": "new",
       "highlights": [
-        "Code mới push hôm nay"
+        "+23 ★ so với tuần trước",
+        "Code mới push 1 ngày trước"
       ],
-      "score": 25128
+      "score": 25220
+    },
+    {
+      "fullName": "NirDiamant/GenAI_Agents",
+      "url": "https://github.com/NirDiamant/GenAI_Agents",
+      "description": "50+ tutorials and implementations for Generative AI Agent techniques, from basic conversational bots to complex multi-agent systems.",
+      "descriptionVi": "GenAI_Agents là dự án MCP / agent (agent AI, AI sinh tạo, LLM) — and for Generative AI Agent from basic bots complex multi agent systems.",
+      "language": "Jupyter Notebook",
+      "stars": 23598,
+      "starsDelta": 21,
+      "forks": 3965,
+      "topics": [
+        "agentic-ai",
+        "agents",
+        "ai",
+        "ai-agents",
+        "autonomous-agents",
+        "genai",
+        "generative-ai",
+        "langchain",
+        "langgraph",
+        "llm",
+        "llms",
+        "machine-learning",
+        "mcp",
+        "multi-agent",
+        "multi-agent-systems",
+        "openai",
+        "python",
+        "rag",
+        "tutorials"
+      ],
+      "pushedAt": "2026-07-31T21:07:06Z",
+      "inCatalog": false,
+      "catalogPath": null,
+      "catalogTitle": null,
+      "catalogExcerpt": null,
+      "status": "new",
+      "highlights": [
+        "+21 ★ so với tuần trước",
+        "Code mới push 2 ngày trước"
+      ],
+      "score": 23661
     },
     {
       "fullName": "Tencent/ncnn",
@@ -275,8 +459,8 @@
       "description": "ncnn is a high-performance neural network inference framework optimized for the mobile platform",
       "descriptionVi": "ncnn là dự án machine learning (deep learning, inference) — ncnn high neural network inference framework for the mobile nền tảng.",
       "language": "C++",
-      "stars": 23637,
-      "starsDelta": 1,
+      "stars": 23640,
+      "starsDelta": 4,
       "forks": 4475,
       "topics": [
         "android",
@@ -307,52 +491,10 @@
       "catalogExcerpt": null,
       "status": "new",
       "highlights": [
-        "+1 ★ so với tuần trước",
-        "Code mới push 1 ngày trước"
+        "+4 ★ so với tuần trước",
+        "Code mới push 2 ngày trước"
       ],
-      "score": 23640
-    },
-    {
-      "fullName": "NirDiamant/GenAI_Agents",
-      "url": "https://github.com/NirDiamant/GenAI_Agents",
-      "description": "50+ tutorials and implementations for Generative AI Agent techniques, from basic conversational bots to complex multi-agent systems.",
-      "descriptionVi": "GenAI_Agents là dự án MCP / agent (agent AI, AI sinh tạo, LLM) — and for Generative AI Agent from basic bots complex multi agent systems.",
-      "language": "Jupyter Notebook",
-      "stars": 23580,
-      "starsDelta": 3,
-      "forks": 3960,
-      "topics": [
-        "agentic-ai",
-        "agents",
-        "ai",
-        "ai-agents",
-        "autonomous-agents",
-        "genai",
-        "generative-ai",
-        "langchain",
-        "langgraph",
-        "llm",
-        "llms",
-        "machine-learning",
-        "mcp",
-        "multi-agent",
-        "multi-agent-systems",
-        "openai",
-        "python",
-        "rag",
-        "tutorials"
-      ],
-      "pushedAt": "2026-07-31T21:07:06Z",
-      "inCatalog": false,
-      "catalogPath": null,
-      "catalogTitle": null,
-      "catalogExcerpt": null,
-      "status": "new",
-      "highlights": [
-        "+3 ★ so với tuần trước",
-        "Code mới push hôm nay"
-      ],
-      "score": 23589
+      "score": 23652
     },
     {
       "fullName": "wandb/openui",
@@ -360,8 +502,8 @@
       "description": "OpenUI let's you describe UI using your imagination, then see it rendered live.",
       "descriptionVi": "openui là dự án LLM / AI sinh tạo (AI sinh tạo) — OpenUI you describe UI using your then see rendered live.",
       "language": "TypeScript",
-      "stars": 22493,
-      "starsDelta": 0,
+      "stars": 22495,
+      "starsDelta": 2,
       "forks": 2062,
       "topics": [
         "ai",
@@ -376,9 +518,10 @@
       "catalogExcerpt": null,
       "status": "new",
       "highlights": [
-        "Code mới push 1 ngày trước"
+        "+2 ★ so với tuần trước",
+        "Code mới push 2 ngày trước"
       ],
-      "score": 22493
+      "score": 22501
     },
     {
       "fullName": "marimo-team/marimo",
@@ -386,9 +529,9 @@
       "description": "A reactive notebook for Python — run reproducible experiments, query with SQL, execute as a script, deploy as an app, and version with git. Stored as pure Python. All in a modern, AI-native editor.",
       "descriptionVi": "marimo là dự án machine learning (machine learning) — reactive notebook for Python run query with SQL execute script triển khai.",
       "language": "Python",
-      "stars": 22180,
-      "starsDelta": 2,
-      "forks": 1207,
+      "stars": 22194,
+      "starsDelta": 16,
+      "forks": 1210,
       "topics": [
         "artificial-intelligence",
         "dag",
@@ -404,17 +547,17 @@
         "sql",
         "web-app"
       ],
-      "pushedAt": "2026-08-01T05:45:38Z",
+      "pushedAt": "2026-08-02T12:40:59Z",
       "inCatalog": false,
       "catalogPath": null,
       "catalogTitle": null,
       "catalogExcerpt": null,
       "status": "new",
       "highlights": [
-        "+2 ★ so với tuần trước",
+        "+16 ★ so với tuần trước",
         "Code mới push hôm nay"
       ],
-      "score": 22186
+      "score": 22242
     },
     {
       "fullName": "huggingface/datasets",
@@ -422,9 +565,9 @@
       "description": "🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools",
       "descriptionVi": "datasets là dự án LLM / AI sinh tạo (computer vision, deep learning, LLM) — The largest hub ready use datasets for AI model with fast easy and.",
       "language": "Python",
-      "stars": 21792,
-      "starsDelta": 0,
-      "forks": 3327,
+      "stars": 21797,
+      "starsDelta": 5,
+      "forks": 3330,
       "topics": [
         "ai",
         "artificial-intelligence",
@@ -450,9 +593,10 @@
       "catalogExcerpt": null,
       "status": "new",
       "highlights": [
-        "Code mới push hôm nay"
+        "+5 ★ so với tuần trước",
+        "Code mới push 2 ngày trước"
       ],
-      "score": 21792
+      "score": 21812
     },
     {
       "fullName": "bee-san/Ciphey",
@@ -460,8 +604,8 @@
       "description": "⚡ Automatically decrypt encryptions without knowing the key or cipher, decode encodings, and crack hashes ⚡",
       "descriptionVi": "Ciphey là repo AI — Automatically decrypt without knowing the key cipher decode and crack hashes.",
       "language": "Rust",
-      "stars": 21560,
-      "starsDelta": 1,
+      "stars": 21565,
+      "starsDelta": 6,
       "forks": 1438,
       "topics": [
         "artificial-intelligence",
@@ -489,10 +633,10 @@
       "catalogExcerpt": null,
       "status": "new",
       "highlights": [
-        "+1 ★ so với tuần trước",
-        "Code mới push 2 ngày trước"
+        "+6 ★ so với tuần trước",
+        "Code mới push 3 ngày trước"
       ],
-      "score": 21563
+      "score": 21583
     },
     {
       "fullName": "coze-dev/coze-studio",
@@ -500,9 +644,9 @@
       "description": "An AI agent development platform with all-in-one visual tools, simplifying agent creation, debugging, and deployment like never before. Coze your way to AI Agent creation.",
       "descriptionVi": "coze-studio là dự án LLM / AI sinh tạo (AI sinh tạo, no-code, RAG) — An AI agent phát triển nền tảng with all one kéo-thả tools creation and like.",
       "language": "TypeScript",
-      "stars": 21302,
-      "starsDelta": 2,
-      "forks": 3095,
+      "stars": 21312,
+      "starsDelta": 12,
+      "forks": 3096,
       "topics": [
         "agent",
         "agent-platform",
@@ -529,10 +673,9 @@
       "catalogExcerpt": null,
       "status": "new",
       "highlights": [
-        "+2 ★ so với tuần trước",
-        "Code mới push 3 ngày trước"
+        "+12 ★ so với tuần trước"
       ],
-      "score": 21308
+      "score": 21348
     },
     {
       "fullName": "onnx/onnx",
@@ -540,8 +683,8 @@
       "description": "Open standard for machine learning interoperability",
       "descriptionVi": "onnx là dự án machine learning (deep learning, machine learning) — mã nguồn mở standard for machine learning.",
       "language": "Python",
-      "stars": 21247,
-      "starsDelta": 1,
+      "stars": 21255,
+      "starsDelta": 9,
       "forks": 3979,
       "topics": [
         "ai",
@@ -558,17 +701,17 @@
         "scikit-learn",
         "tensorflow"
       ],
-      "pushedAt": "2026-08-01T03:47:39Z",
+      "pushedAt": "2026-08-02T13:43:01Z",
       "inCatalog": false,
       "catalogPath": null,
       "catalogTitle": null,
       "catalogExcerpt": null,
       "status": "new",
       "highlights": [
-        "+1 ★ so với tuần trước",
+        "+9 ★ so với tuần trước",
         "Code mới push hôm nay"
       ],
-      "score": 21250
+      "score": 21282
     },
     {
       "fullName": "NirDiamant/agents-towards-production",
@@ -576,9 +719,9 @@
       "description": "End-to-end, code-first tutorials for building production-grade GenAI agents. From prototype to enterprise deployment.",
       "descriptionVi": "agents-towards-production là dự án MCP / agent (agent AI, AI sinh tạo, LLM) — End end code ưu tiên local for xây dựng grade GenAI agent From.",
       "language": "Jupyter Notebook",
-      "stars": 21219,
-      "starsDelta": 1,
-      "forks": 2812,
+      "stars": 21228,
+      "starsDelta": 10,
+      "forks": 2814,
       "topics": [
         "agent",
         "agent-framework",
@@ -607,10 +750,10 @@
       "catalogExcerpt": null,
       "status": "new",
       "highlights": [
-        "+1 ★ so với tuần trước",
-        "Code mới push hôm nay"
+        "+10 ★ so với tuần trước",
+        "Code mới push 2 ngày trước"
       ],
-      "score": 21222
+      "score": 21258
     },
     {
       "fullName": "dyad-sh/dyad",
@@ -618,9 +761,9 @@
       "description": "Local, open-source AI app builder for power users ✨ v0 / Lovable / Replit / Bolt alternative 🌟 Star if you like it!",
       "descriptionVi": "dyad là dự án LLM / AI sinh tạo (AI sinh tạo, LLM) — local mã nguồn mở nguồn AI app builder for power users Lovable Replit Bolt thay thế Star.",
       "language": "TypeScript",
-      "stars": 21084,
-      "starsDelta": 0,
-      "forks": 2561,
+      "stars": 21095,
+      "starsDelta": 11,
+      "forks": 2563,
       "topics": [
         "ai-app-builder",
         "anthropic",
@@ -642,16 +785,17 @@
         "v0",
         "vercel"
       ],
-      "pushedAt": "2026-07-31T06:09:04Z",
+      "pushedAt": "2026-08-02T09:44:54Z",
       "inCatalog": false,
       "catalogPath": null,
       "catalogTitle": null,
       "catalogExcerpt": null,
       "status": "new",
       "highlights": [
-        "Code mới push 1 ngày trước"
+        "+11 ★ so với tuần trước",
+        "Code mới push hôm nay"
       ],
-      "score": 21084
+      "score": 21128
     },
     {
       "fullName": "stefan-jansen/machine-learning-for-trading",
@@ -659,9 +803,9 @@
       "description": "Code for Machine Learning for Trading, 3rd edition — from data sourcing to live execution.",
       "descriptionVi": "machine-learning-for-trading là dự án machine learning (deep learning, machine learning) — code for Machine Learning Trading edition from data sourcing live.",
       "language": "Jupyter Notebook",
-      "stars": 20210,
-      "starsDelta": 4,
-      "forks": 5467,
+      "stars": 20243,
+      "starsDelta": 37,
+      "forks": 5473,
       "topics": [
         "algorithmic-trading",
         "artificial-intelligence",
@@ -682,17 +826,17 @@
         "trading-agent",
         "trading-strategies"
       ],
-      "pushedAt": "2026-08-01T03:29:13Z",
+      "pushedAt": "2026-08-02T22:23:57Z",
       "inCatalog": false,
       "catalogPath": null,
       "catalogTitle": null,
       "catalogExcerpt": null,
       "status": "new",
       "highlights": [
-        "+4 ★ so với tuần trước",
+        "+37 ★ so với tuần trước",
         "Code mới push hôm nay"
       ],
-      "score": 20222
+      "score": 20354
     },
     {
       "fullName": "camel-ai/owl",
@@ -700,9 +844,9 @@
       "description": "🦉 OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation",
       "descriptionVi": "owl là repo AI — OWL Optimized Workforce Learning for General Multi Agent Assistance Real World Task tự động hóa.",
       "language": "Python",
-      "stars": 20074,
-      "starsDelta": 1,
-      "forks": 2302,
+      "stars": 20075,
+      "starsDelta": 2,
+      "forks": 2301,
       "topics": [
         "agent",
         "artificial-intelligence",
@@ -717,10 +861,52 @@
       "catalogExcerpt": null,
       "status": "new",
       "highlights": [
-        "+1 ★ so với tuần trước",
+        "+2 ★ so với tuần trước",
+        "Code mới push 3 ngày trước"
+      ],
+      "score": 20081
+    },
+    {
+      "fullName": "amark/gun",
+      "url": "https://github.com/amark/gun",
+      "description": "An open source cybersecurity protocol for syncing decentralized graph data.",
+      "descriptionVi": "gun là dự án machine learning (machine learning) — An mã nguồn mở nguồn protocol for syncing graph data.",
+      "language": "JavaScript",
+      "stars": 19092,
+      "starsDelta": null,
+      "forks": 1239,
+      "topics": [
+        "artificial-intelligence",
+        "big-data",
+        "blockchain",
+        "crdt",
+        "crypto",
+        "cryptography",
+        "dapp",
+        "database",
+        "decentralized",
+        "dweb",
+        "encryption",
+        "end-to-end",
+        "graph",
+        "machine-learning",
+        "metaverse",
+        "offline-first",
+        "p2p",
+        "protocol",
+        "realtime",
+        "web3"
+      ],
+      "pushedAt": "2026-08-01T11:38:47Z",
+      "inCatalog": false,
+      "catalogPath": null,
+      "catalogTitle": null,
+      "catalogExcerpt": null,
+      "status": "new",
+      "highlights": [
         "Code mới push 1 ngày trước"
       ],
-      "score": 20077
+      "score": 19092
     },
     {
       "fullName": "NVIDIA-NeMo/Speech",
@@ -728,9 +914,9 @@
       "description": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)",
       "descriptionVi": "Speech là dự án LLM / AI sinh tạo (AI sinh tạo, TTS) — scalable AI framework built for and working Large Language model đa phương thức Speech.",
       "language": "Python",
-      "stars": 17842,
-      "starsDelta": 0,
-      "forks": 3523,
+      "stars": 17852,
+      "starsDelta": 10,
+      "forks": 3524,
       "topics": [
         "asr",
         "deeplearning",
@@ -743,203 +929,17 @@
         "speech-translation",
         "tts"
       ],
-      "pushedAt": "2026-08-01T01:09:30Z",
+      "pushedAt": "2026-08-02T15:51:32Z",
       "inCatalog": false,
       "catalogPath": null,
       "catalogTitle": null,
       "catalogExcerpt": null,
       "status": "new",
       "highlights": [
+        "+10 ★ so với tuần trước",
         "Code mới push hôm nay"
       ],
-      "score": 17842
-    },
-    {
-      "fullName": "GoogleCloudPlatform/generative-ai",
-      "url": "https://github.com/GoogleCloudPlatform/generative-ai",
-      "description": "Sample code and notebooks for Generative AI on Google Cloud, with Gemini Enterprise Agent Platform",
-      "descriptionVi": "generative-ai là dự án LLM / AI sinh tạo (AI sinh tạo, LLM) — Sample code and for Generative AI Google cloud with Gemini Enterprise Agent nền tảng.",
-      "language": "Jupyter Notebook",
-      "stars": 17533,
-      "starsDelta": 1,
-      "forks": 4390,
-      "topics": [
-        "agents",
-        "gcp",
-        "gemini",
-        "gemini-api",
-        "gen-ai",
-        "generative-ai",
-        "google",
-        "google-cloud",
-        "google-gemini",
-        "langchain",
-        "large-language-models",
-        "llm",
-        "vertex-ai",
-        "vertex-ai-gemini-api",
-        "vertexai"
-      ],
-      "pushedAt": "2026-07-30T17:46:23Z",
-      "inCatalog": false,
-      "catalogPath": null,
-      "catalogTitle": null,
-      "catalogExcerpt": null,
-      "status": "new",
-      "highlights": [
-        "+1 ★ so với tuần trước",
-        "Code mới push 1 ngày trước"
-      ],
-      "score": 17536
-    },
-    {
-      "fullName": "camel-ai/camel",
-      "url": "https://github.com/camel-ai/camel",
-      "description": "🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org",
-      "descriptionVi": "camel là dự án machine learning (deep learning) — CAMEL The ưu tiên local and the best multi agent framework Finding Scaling Law https www.",
-      "language": "Python",
-      "stars": 17523,
-      "starsDelta": 3,
-      "forks": 2027,
-      "topics": [
-        "agent",
-        "ai-societies",
-        "artificial-intelligence",
-        "communicative-ai",
-        "cooperative-ai",
-        "deep-learning",
-        "large-language-models",
-        "multi-agent-systems",
-        "natural-language-processing"
-      ],
-      "pushedAt": "2026-07-31T06:03:14Z",
-      "inCatalog": false,
-      "catalogPath": null,
-      "catalogTitle": null,
-      "catalogExcerpt": null,
-      "status": "new",
-      "highlights": [
-        "+3 ★ so với tuần trước",
-        "Code mới push 1 ngày trước"
-      ],
-      "score": 17532
-    },
-    {
-      "fullName": "leon-ai/leon",
-      "url": "https://github.com/leon-ai/leon",
-      "description": "🧠 Leon is your open-source personal assistant.",
-      "descriptionVi": "leon là công cụ tự động hóa workflow (tự động hóa) — Leon your mã nguồn mở nguồn personal.",
-      "language": "TypeScript",
-      "stars": 17397,
-      "starsDelta": 0,
-      "forks": 1450,
-      "topics": [
-        "ai",
-        "ai-agent",
-        "ai-assistant",
-        "artificial-intelligence",
-        "assistant",
-        "automation",
-        "bot",
-        "chatbot",
-        "leon",
-        "nodejs",
-        "offline",
-        "personal-assistant",
-        "privacy",
-        "python",
-        "speech-recognition",
-        "speech-synthesis",
-        "speech-to-text",
-        "text-to-speech",
-        "virtual-assistant",
-        "voice-assistant"
-      ],
-      "pushedAt": "2026-08-01T07:40:19Z",
-      "inCatalog": false,
-      "catalogPath": null,
-      "catalogTitle": null,
-      "catalogExcerpt": null,
-      "status": "new",
-      "highlights": [
-        "Code mới push hôm nay"
-      ],
-      "score": 17397
-    },
-    {
-      "fullName": "rowboatlabs/rowboat",
-      "url": "https://github.com/rowboatlabs/rowboat",
-      "description": "Open-source AI coworker, with memory",
-      "descriptionVi": "rowboat là dự án LLM / AI sinh tạo (agent AI, AI sinh tạo, LLM) — mã nguồn mở nguồn AI coworker with bộ nhớ.",
-      "language": "TypeScript",
-      "stars": 16913,
-      "starsDelta": 2,
-      "forks": 1681,
-      "topics": [
-        "agents",
-        "agents-sdk",
-        "ai",
-        "ai-agents",
-        "ai-agents-automation",
-        "chatgpt",
-        "claude-code",
-        "claude-cowork",
-        "generative-ai",
-        "llm",
-        "multiagent",
-        "opeani",
-        "open-source",
-        "orchestration",
-        "productivity"
-      ],
-      "pushedAt": "2026-07-31T10:20:58Z",
-      "inCatalog": false,
-      "catalogPath": null,
-      "catalogTitle": null,
-      "catalogExcerpt": null,
-      "status": "new",
-      "highlights": [
-        "+2 ★ so với tuần trước",
-        "Code mới push hôm nay"
-      ],
-      "score": 16919
-    },
-    {
-      "fullName": "ai-shifu/ChatALL",
-      "url": "https://github.com/ai-shifu/ChatALL",
-      "description": "Concurrently chat with ChatGPT, Bing Chat, Bard, Alpaca, Vicuna, Claude, ChatGLM, MOSS, 讯飞星火, 文心一言 and more, discover the best answers",
-      "descriptionVi": "ChatALL là dự án LLM / AI sinh tạo (AI sinh tạo) — Concurrently chat with ChatGPT Bing Chat Bard Alpaca Vicuna Claude ChatGLM MOSS and more discover the.",
-      "language": "JavaScript",
-      "stars": 16463,
-      "starsDelta": 1,
-      "forks": 1730,
-      "topics": [
-        "bingchat",
-        "chatbot",
-        "chatgpt",
-        "desktop-app",
-        "electron",
-        "electron-app",
-        "generative-ai",
-        "gpt-4o",
-        "hacktoberfest",
-        "linux",
-        "macos",
-        "vuejs3",
-        "vuetify3",
-        "windows"
-      ],
-      "pushedAt": "2026-07-31T19:48:34Z",
-      "inCatalog": false,
-      "catalogPath": null,
-      "catalogTitle": null,
-      "catalogExcerpt": null,
-      "status": "new",
-      "highlights": [
-        "+1 ★ so với tuần trước",
-        "Code mới push hôm nay"
-      ],
-      "score": 16466
+      "score": 17882
     },
     {
       "fullName": "bojieli/ai-agent-book",
@@ -947,9 +947,9 @@
       "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
       "descriptionVi": "ai-agent-book là dự án MCP / agent (LLM, MCP, RAG) — 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码.",
       "language": "Python",
-      "stars": 28822,
-      "starsDelta": 248,
-      "forks": 3046,
+      "stars": 29875,
+      "starsDelta": 1301,
+      "forks": 3183,
       "topics": [
         "agent",
         "agent-memory",
@@ -965,17 +965,17 @@
         "rag",
         "reinforcement-learning"
       ],
-      "pushedAt": "2026-08-01T06:10:39Z",
+      "pushedAt": "2026-08-02T18:38:43Z",
       "inCatalog": true,
       "catalogPath": "technologies/mcp-ai-agents/ai-agent-book.md",
       "catalogTitle": "Ai Agent Book",
       "catalogExcerpt": "ai-agent-book là dự án MCP / agent (LLM, MCP, RAG) — 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码.",
       "status": "known",
       "highlights": [
-        "+248 ★ so với tuần trước",
+        "+1.3k ★ so với tuần trước",
         "Code mới push hôm nay"
       ],
-      "score": 29566
+      "score": 33778
     },
     {
       "fullName": "NousResearch/hermes-agent",
@@ -983,9 +983,9 @@
       "description": "The agent that grows with you",
       "descriptionVi": "Hermes Agent (Nous Research) là self-improving AI agent với vòng học khép kín: tạo/cải thiện skills từ trải nghiệm, nhớ người dùng qua phiên, tìm lại hội thoại cũ (FTS5), chạy CLI hoặc gateway messaging (Telegram, Discord, Slack, WhatsApp, Signal).",
       "language": "Python",
-      "stars": 223604,
-      "starsDelta": 124,
-      "forks": 43095,
+      "stars": 224291,
+      "starsDelta": 811,
+      "forks": 43367,
       "topics": [
         "ai",
         "ai-agent",
@@ -1004,49 +1004,17 @@
         "openai",
         "openclaw"
       ],
-      "pushedAt": "2026-08-01T09:35:06Z",
+      "pushedAt": "2026-08-02T22:53:19Z",
       "inCatalog": true,
       "catalogPath": "technologies/mcp-ai-agents/hermes-agent.md",
       "catalogTitle": "Hermes Agent",
       "catalogExcerpt": "Hermes Agent (Nous Research) là self-improving AI agent với vòng học khép kín: tạo/cải thiện skills từ trải nghiệm, nhớ người dùng qua phiên, tìm lại hội thoại cũ (FTS5), chạy CLI hoặc gateway messaging (Telegram, Discord, Slack, WhatsApp, Signal).",
       "status": "known",
       "highlights": [
-        "+124 ★ so với tuần trước",
+        "+811 ★ so với tuần trước",
         "Code mới push hôm nay"
       ],
-      "score": 223976
-    },
-    {
-      "fullName": "agentscope-ai/QwenPaw",
-      "url": "https://github.com/agentscope-ai/QwenPaw",
-      "description": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.",
-      "descriptionVi": "QwenPaw là repo AI — Your Personal AI Assistant easy install triển khai your own machine the cloud supports multiple.",
-      "language": "Python",
-      "stars": 31632,
-      "starsDelta": 96,
-      "forks": 2918,
-      "topics": [
-        "agent",
-        "agent-harness",
-        "agentscope",
-        "harness-engineering",
-        "llm-tools",
-        "llms",
-        "loop-engineering",
-        "skills",
-        "super-agent"
-      ],
-      "pushedAt": "2026-07-31T09:45:22Z",
-      "inCatalog": true,
-      "catalogPath": "technologies/mcp-ai-agents/qwenpaw.md",
-      "catalogTitle": "QwenPaw",
-      "catalogExcerpt": "QwenPaw là repo AI — Your Personal AI Assistant easy install triển khai your own machine the cloud supports multiple.",
-      "status": "known",
-      "highlights": [
-        "+96 ★ so với tuần trước",
-        "Code mới push 1 ngày trước"
-      ],
-      "score": 31920
+      "score": 226724
     },
     {
       "fullName": "firecrawl/firecrawl",
@@ -1054,9 +1022,9 @@
       "description": "The API to search, scrape, and interact with the web at scale. 🔥",
       "descriptionVi": "Firecrawl là web context API : search / scrape / crawl / map → Markdown sạch hoặc JSON có schema cho agents & RAG.",
       "language": "TypeScript",
-      "stars": 158849,
-      "starsDelta": 89,
-      "forks": 9024,
+      "stars": 159527,
+      "starsDelta": 767,
+      "forks": 9056,
       "topics": [
         "ai",
         "ai-agents",
@@ -1078,17 +1046,49 @@
         "web-search",
         "webscraping"
       ],
-      "pushedAt": "2026-08-01T06:56:03Z",
+      "pushedAt": "2026-08-02T21:07:02Z",
       "inCatalog": true,
       "catalogPath": "technologies/mcp-ai-agents/firecrawl.md",
       "catalogTitle": "Firecrawl",
       "catalogExcerpt": "Firecrawl là web context API : search / scrape / crawl / map → Markdown sạch hoặc JSON có schema cho agents & RAG.",
       "status": "known",
       "highlights": [
-        "+89 ★ so với tuần trước",
+        "+767 ★ so với tuần trước",
         "Code mới push hôm nay"
       ],
-      "score": 159116
+      "score": 161828
+    },
+    {
+      "fullName": "agentscope-ai/QwenPaw",
+      "url": "https://github.com/agentscope-ai/QwenPaw",
+      "description": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.",
+      "descriptionVi": "QwenPaw là repo AI — Your Personal AI Assistant easy install triển khai your own machine the cloud supports multiple.",
+      "language": "Python",
+      "stars": 32200,
+      "starsDelta": 664,
+      "forks": 2925,
+      "topics": [
+        "agent",
+        "agent-harness",
+        "agentscope",
+        "harness-engineering",
+        "llm-tools",
+        "llms",
+        "loop-engineering",
+        "skills",
+        "super-agent"
+      ],
+      "pushedAt": "2026-07-31T09:45:22Z",
+      "inCatalog": true,
+      "catalogPath": "technologies/mcp-ai-agents/qwenpaw.md",
+      "catalogTitle": "QwenPaw",
+      "catalogExcerpt": "QwenPaw là repo AI — Your Personal AI Assistant easy install triển khai your own machine the cloud supports multiple.",
+      "status": "known",
+      "highlights": [
+        "+664 ★ so với tuần trước",
+        "Code mới push 2 ngày trước"
+      ],
+      "score": 34192
     },
     {
       "fullName": "affaan-m/ECC",
@@ -1096,9 +1096,9 @@
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "descriptionVi": "ECC là hệ thống tối ưu agent harness (agent AI, LLM, MCP).",
       "language": "JavaScript",
-      "stars": 236722,
-      "starsDelta": 57,
-      "forks": 35987,
+      "stars": 237046,
+      "starsDelta": 381,
+      "forks": 36035,
       "topics": [
         "ai-agents",
         "anthropic",
@@ -1109,17 +1109,60 @@
         "mcp",
         "productivity"
       ],
-      "pushedAt": "2026-07-29T18:11:01Z",
+      "pushedAt": "2026-08-02T19:17:27Z",
       "inCatalog": true,
       "catalogPath": "technologies/mcp-ai-agents/ecc.md",
       "catalogTitle": "ECC",
       "catalogExcerpt": "ECC là hệ thống tối ưu agent harness (agent AI, LLM, MCP).",
       "status": "known",
       "highlights": [
-        "+57 ★ so với tuần trước",
-        "Code mới push 2 ngày trước"
+        "+381 ★ so với tuần trước",
+        "Code mới push hôm nay"
       ],
-      "score": 236893
+      "score": 238189
+    },
+    {
+      "fullName": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "descriptionVi": "n8n là nền tảng tự động hóa workflow (tự động hóa, CLI, low-code).",
+      "language": "TypeScript",
+      "stars": 199086,
+      "starsDelta": 187,
+      "forks": 59855,
+      "topics": [
+        "ai",
+        "apis",
+        "automation",
+        "cli",
+        "data-flow",
+        "development",
+        "integration-framework",
+        "integrations",
+        "ipaas",
+        "low-code",
+        "low-code-platform",
+        "mcp",
+        "mcp-client",
+        "mcp-server",
+        "n8n",
+        "no-code",
+        "self-hosted",
+        "typescript",
+        "workflow",
+        "workflow-automation"
+      ],
+      "pushedAt": "2026-08-02T20:11:19Z",
+      "inCatalog": true,
+      "catalogPath": "technologies/devtools/n8n-workflow.md",
+      "catalogTitle": "N8n",
+      "catalogExcerpt": "n8n là nền tảng tự động hóa workflow (tự động hóa, CLI, low-code).",
+      "status": "known",
+      "highlights": [
+        "+187 ★ so với tuần trước",
+        "Code mới push hôm nay"
+      ],
+      "score": 199647
     },
     {
       "fullName": "langgenius/dify",
@@ -1127,9 +1170,9 @@
       "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
       "descriptionVi": "dify là xây workflow agentic & RAG (tự động hóa, LLM, low-code).",
       "language": "TypeScript",
-      "stars": 150967,
-      "starsDelta": 22,
-      "forks": 23809,
+      "stars": 151100,
+      "starsDelta": 155,
+      "forks": 23845,
       "topics": [
         "agent",
         "agentic-ai",
@@ -1152,17 +1195,17 @@
         "skills",
         "workflow"
       ],
-      "pushedAt": "2026-08-01T07:56:49Z",
+      "pushedAt": "2026-08-02T18:48:06Z",
       "inCatalog": true,
       "catalogPath": "technologies/mcp-ai-agents/dify.md",
       "catalogTitle": "Dify",
       "catalogExcerpt": "dify là xây workflow agentic & RAG (tự động hóa, LLM, low-code).",
       "status": "known",
       "highlights": [
-        "+22 ★ so với tuần trước",
+        "+155 ★ so với tuần trước",
         "Code mới push hôm nay"
       ],
-      "score": 151033
+      "score": 151565
     },
     {
       "fullName": "ollama/ollama",
@@ -1170,9 +1213,9 @@
       "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "descriptionVi": "ollama là chạy local các model (LLM).",
       "language": "Go",
-      "stars": 177478,
-      "starsDelta": 18,
-      "forks": 17221,
+      "stars": 177612,
+      "starsDelta": 152,
+      "forks": 17239,
       "topics": [
         "deepseek",
         "gemma",
@@ -1197,53 +1240,39 @@
       "catalogExcerpt": "ollama là chạy local các model (LLM).",
       "status": "known",
       "highlights": [
-        "+18 ★ so với tuần trước",
-        "Code mới push hôm nay"
+        "+152 ★ so với tuần trước",
+        "Code mới push 1 ngày trước"
       ],
-      "score": 177532
+      "score": 178068
     },
     {
-      "fullName": "n8n-io/n8n",
-      "url": "https://github.com/n8n-io/n8n",
-      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "descriptionVi": "n8n là nền tảng tự động hóa workflow (tự động hóa, CLI, low-code).",
-      "language": "TypeScript",
-      "stars": 198915,
-      "starsDelta": 16,
-      "forks": 59822,
+      "fullName": "langflow-ai/langflow",
+      "url": "https://github.com/langflow-ai/langflow",
+      "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+      "descriptionVi": "langflow là triển khai agent & workflow AI (AI sinh tạo).",
+      "language": "Python",
+      "stars": 152760,
+      "starsDelta": 66,
+      "forks": 9750,
       "topics": [
-        "ai",
-        "apis",
-        "automation",
-        "cli",
-        "data-flow",
-        "development",
-        "integration-framework",
-        "integrations",
-        "ipaas",
-        "low-code",
-        "low-code-platform",
-        "mcp",
-        "mcp-client",
-        "mcp-server",
-        "n8n",
-        "no-code",
-        "self-hosted",
-        "typescript",
-        "workflow",
-        "workflow-automation"
+        "agents",
+        "chatgpt",
+        "generative-ai",
+        "large-language-models",
+        "multiagent",
+        "react-flow"
       ],
-      "pushedAt": "2026-08-01T09:42:26Z",
+      "pushedAt": "2026-08-02T00:44:47Z",
       "inCatalog": true,
-      "catalogPath": "technologies/devtools/n8n-workflow.md",
-      "catalogTitle": "N8n",
-      "catalogExcerpt": "n8n là nền tảng tự động hóa workflow (tự động hóa, CLI, low-code).",
+      "catalogPath": "technologies/mcp-ai-agents/langflow.md",
+      "catalogTitle": "Langflow",
+      "catalogExcerpt": "langflow là triển khai agent & workflow AI (AI sinh tạo).",
       "status": "known",
       "highlights": [
-        "+16 ★ so với tuần trước",
+        "+66 ★ so với tuần trước",
         "Code mới push hôm nay"
       ],
-      "score": 198963
+      "score": 152958
     },
     {
       "fullName": "f/prompts.chat",
@@ -1251,9 +1280,9 @@
       "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
       "descriptionVi": "prompts.chat là thư viện prompt open-source lớn cho AI chat (ChatGPT, Claude, Gemini, Llama, Mistral…).",
       "language": "HTML",
-      "stars": 166589,
-      "starsDelta": 13,
-      "forks": 21517,
+      "stars": 166639,
+      "starsDelta": 63,
+      "forks": 21527,
       "topics": [
         "ai",
         "artificial-intelligence",
@@ -1274,192 +1303,17 @@
         "prompts-chat",
         "typescript"
       ],
-      "pushedAt": "2026-08-01T04:10:51Z",
+      "pushedAt": "2026-08-02T04:13:51Z",
       "inCatalog": true,
       "catalogPath": "technologies/mcp-ai-agents/prompts-chat.md",
       "catalogTitle": "prompts.chat",
       "catalogExcerpt": "prompts.chat là thư viện prompt open-source lớn cho AI chat (ChatGPT, Claude, Gemini, Llama, Mistral…).",
       "status": "known",
       "highlights": [
-        "+13 ★ so với tuần trước",
+        "+63 ★ so với tuần trước",
         "Code mới push hôm nay"
       ],
-      "score": 166628
-    },
-    {
-      "fullName": "Fincept-Corporation/FinceptTerminal",
-      "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
-      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
-      "descriptionVi": "FinceptTerminal là dự án machine learning (agent AI, machine learning) — FinceptTerminal modern finance offering advanced market nghiên cứu and economic data tools designed for.",
-      "language": "C++",
-      "stars": 29384,
-      "starsDelta": 7,
-      "forks": 4119,
-      "topics": [
-        "ai-agents",
-        "algorithmic-trading",
-        "bloomberg-terminal",
-        "cpp",
-        "finance",
-        "financial-markets",
-        "fintech",
-        "good-first-issue",
-        "investment",
-        "investment-research",
-        "machine-learning",
-        "opensource",
-        "python",
-        "qt",
-        "quantitative-finance",
-        "stock-market",
-        "trading"
-      ],
-      "pushedAt": "2026-07-25T20:22:10Z",
-      "inCatalog": true,
-      "catalogPath": "technologies/mcp-ai-agents/finceptterminal.md",
-      "catalogTitle": "FinceptTerminal",
-      "catalogExcerpt": "FinceptTerminal là dự án machine learning (agent AI, machine learning) — FinceptTerminal modern finance offering advanced market nghiên cứu and economic data tools designed for.",
-      "status": "known",
-      "highlights": [
-        "+7 ★ so với tuần trước"
-      ],
-      "score": 29405
-    },
-    {
-      "fullName": "tensorflow/tensorflow",
-      "url": "https://github.com/tensorflow/tensorflow",
-      "description": "An Open Source Machine Learning Framework for Everyone",
-      "descriptionVi": "tensorflow là framework machine learning mã nguồn mở (deep learning, machine learning).",
-      "language": "C++",
-      "stars": 196641,
-      "starsDelta": 5,
-      "forks": 75744,
-      "topics": [
-        "deep-learning",
-        "deep-neural-networks",
-        "distributed",
-        "machine-learning",
-        "ml",
-        "neural-network",
-        "python",
-        "tensorflow"
-      ],
-      "pushedAt": "2026-08-01T09:25:50Z",
-      "inCatalog": true,
-      "catalogPath": "technologies/devtools/tensorflow.md",
-      "catalogTitle": "Tensorflow",
-      "catalogExcerpt": "tensorflow là framework machine learning mã nguồn mở (deep learning, machine learning).",
-      "status": "known",
-      "highlights": [
-        "+5 ★ so với tuần trước",
-        "Code mới push hôm nay"
-      ],
-      "score": 196656
-    },
-    {
-      "fullName": "langflow-ai/langflow",
-      "url": "https://github.com/langflow-ai/langflow",
-      "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-      "descriptionVi": "langflow là triển khai agent & workflow AI (AI sinh tạo).",
-      "language": "Python",
-      "stars": 152698,
-      "starsDelta": 4,
-      "forks": 9732,
-      "topics": [
-        "agents",
-        "chatgpt",
-        "generative-ai",
-        "large-language-models",
-        "multiagent",
-        "react-flow"
-      ],
-      "pushedAt": "2026-08-01T00:43:53Z",
-      "inCatalog": true,
-      "catalogPath": "technologies/mcp-ai-agents/langflow.md",
-      "catalogTitle": "Langflow",
-      "catalogExcerpt": "langflow là triển khai agent & workflow AI (AI sinh tạo).",
-      "status": "known",
-      "highlights": [
-        "+4 ★ so với tuần trước",
-        "Code mới push hôm nay"
-      ],
-      "score": 152710
-    },
-    {
-      "fullName": "huggingface/transformers",
-      "url": "https://github.com/huggingface/transformers",
-      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
-      "descriptionVi": "transformers là framework định nghĩa model (deep learning, LLM, machine learning).",
-      "language": "Python",
-      "stars": 163217,
-      "starsDelta": 2,
-      "forks": 34085,
-      "topics": [
-        "audio",
-        "deep-learning",
-        "deepseek",
-        "gemma",
-        "glm",
-        "hacktoberfest",
-        "llm",
-        "machine-learning",
-        "model-hub",
-        "natural-language-processing",
-        "nlp",
-        "pretrained-models",
-        "python",
-        "pytorch",
-        "pytorch-transformers",
-        "qwen",
-        "speech-recognition",
-        "transformer",
-        "vlm"
-      ],
-      "pushedAt": "2026-08-01T07:43:59Z",
-      "inCatalog": true,
-      "catalogPath": "technologies/devtools/huggingface-transformers.md",
-      "catalogTitle": "Transformers",
-      "catalogExcerpt": "transformers là framework định nghĩa model (deep learning, LLM, machine learning).",
-      "status": "known",
-      "highlights": [
-        "+2 ★ so với tuần trước",
-        "Code mới push hôm nay"
-      ],
-      "score": 163223
-    },
-    {
-      "fullName": "Significant-Gravitas/AutoGPT",
-      "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-      "descriptionVi": "AutoGPT là AI dễ tiếp cận cho mọi người (LLM).",
-      "language": "Python",
-      "stars": 185748,
-      "starsDelta": 0,
-      "forks": 46057,
-      "topics": [
-        "agentic-ai",
-        "agents",
-        "ai",
-        "artificial-intelligence",
-        "autonomous-agents",
-        "claude",
-        "gpt",
-        "llama-api",
-        "llm",
-        "openai",
-        "python"
-      ],
-      "pushedAt": "2026-08-01T08:53:42Z",
-      "inCatalog": true,
-      "catalogPath": "technologies/mcp-ai-agents/autogpt.md",
-      "catalogTitle": "AutoGPT",
-      "catalogExcerpt": "AutoGPT là AI dễ tiếp cận cho mọi người (LLM).",
-      "status": "known",
-      "highlights": [
-        "Release autogpt-platform-beta-v0.6.70 (29/7/2026)",
-        "Code mới push hôm nay"
-      ],
-      "score": 185748
+      "score": 166828
     },
     {
       "fullName": "Snailclimb/JavaGuide",
@@ -1467,9 +1321,9 @@
       "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
       "descriptionVi": "JavaGuide là dự án MCP / agent (MCP) — Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发.",
       "language": "JavaScript",
-      "stars": 157422,
-      "starsDelta": 0,
-      "forks": 46177,
+      "stars": 157475,
+      "starsDelta": 53,
+      "forks": 46175,
       "topics": [
         "agent",
         "ai",
@@ -1492,9 +1346,154 @@
       "catalogExcerpt": "JavaGuide là dự án MCP / agent (MCP) — Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发.",
       "status": "known",
       "highlights": [
-        "Hoạt động GitHub trong tuần"
+        "+53 ★ so với tuần trước"
       ],
-      "score": 157422
+      "score": 157634
+    },
+    {
+      "fullName": "huggingface/transformers",
+      "url": "https://github.com/huggingface/transformers",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+      "descriptionVi": "transformers là framework định nghĩa model (deep learning, LLM, machine learning).",
+      "language": "Python",
+      "stars": 163262,
+      "starsDelta": 47,
+      "forks": 34097,
+      "topics": [
+        "audio",
+        "deep-learning",
+        "deepseek",
+        "gemma",
+        "glm",
+        "hacktoberfest",
+        "llm",
+        "machine-learning",
+        "model-hub",
+        "natural-language-processing",
+        "nlp",
+        "pretrained-models",
+        "python",
+        "pytorch",
+        "pytorch-transformers",
+        "qwen",
+        "speech-recognition",
+        "transformer",
+        "vlm"
+      ],
+      "pushedAt": "2026-08-02T22:49:05Z",
+      "inCatalog": true,
+      "catalogPath": "technologies/devtools/huggingface-transformers.md",
+      "catalogTitle": "Transformers",
+      "catalogExcerpt": "transformers là framework định nghĩa model (deep learning, LLM, machine learning).",
+      "status": "known",
+      "highlights": [
+        "+47 ★ so với tuần trước",
+        "Code mới push hôm nay"
+      ],
+      "score": 163403
+    },
+    {
+      "fullName": "tensorflow/tensorflow",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "description": "An Open Source Machine Learning Framework for Everyone",
+      "descriptionVi": "tensorflow là framework machine learning mã nguồn mở (deep learning, machine learning).",
+      "language": "C++",
+      "stars": 196671,
+      "starsDelta": 35,
+      "forks": 75772,
+      "topics": [
+        "deep-learning",
+        "deep-neural-networks",
+        "distributed",
+        "machine-learning",
+        "ml",
+        "neural-network",
+        "python",
+        "tensorflow"
+      ],
+      "pushedAt": "2026-08-02T22:36:02Z",
+      "inCatalog": true,
+      "catalogPath": "technologies/devtools/tensorflow.md",
+      "catalogTitle": "Tensorflow",
+      "catalogExcerpt": "tensorflow là framework machine learning mã nguồn mở (deep learning, machine learning).",
+      "status": "known",
+      "highlights": [
+        "+35 ★ so với tuần trước",
+        "Code mới push hôm nay"
+      ],
+      "score": 196776
+    },
+    {
+      "fullName": "Significant-Gravitas/AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "descriptionVi": "AutoGPT là AI dễ tiếp cận cho mọi người (LLM).",
+      "language": "Python",
+      "stars": 185771,
+      "starsDelta": 23,
+      "forks": 46053,
+      "topics": [
+        "agentic-ai",
+        "agents",
+        "ai",
+        "artificial-intelligence",
+        "autonomous-agents",
+        "claude",
+        "gpt",
+        "llama-api",
+        "llm",
+        "openai",
+        "python"
+      ],
+      "pushedAt": "2026-08-02T22:04:50Z",
+      "inCatalog": true,
+      "catalogPath": "technologies/mcp-ai-agents/autogpt.md",
+      "catalogTitle": "AutoGPT",
+      "catalogExcerpt": "AutoGPT là AI dễ tiếp cận cho mọi người (LLM).",
+      "status": "known",
+      "highlights": [
+        "+23 ★ so với tuần trước",
+        "Release autogpt-platform-beta-v0.6.70 (29/7/2026)",
+        "Code mới push hôm nay"
+      ],
+      "score": 185840
+    },
+    {
+      "fullName": "open-webui/open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "descriptionVi": "open-webui là giao diện AI thân thiện (LLM, MCP, RAG).",
+      "language": "Python",
+      "stars": 147640,
+      "starsDelta": null,
+      "forks": 21453,
+      "topics": [
+        "ai",
+        "llm",
+        "llm-ui",
+        "llm-webui",
+        "llms",
+        "mcp",
+        "ollama",
+        "ollama-webui",
+        "open-webui",
+        "openai",
+        "openapi",
+        "rag",
+        "self-hosted",
+        "ui",
+        "webui"
+      ],
+      "pushedAt": "2026-08-02T20:39:10Z",
+      "inCatalog": true,
+      "catalogPath": "technologies/mcp-ai-agents/open-webui.md",
+      "catalogTitle": "Open Webui",
+      "catalogExcerpt": "open-webui là giao diện AI thân thiện (LLM, MCP, RAG).",
+      "status": "known",
+      "highlights": [
+        "Code mới push hôm nay"
+      ],
+      "score": 147640
     }
   ]
 }
