@@ -22,7 +22,7 @@
 
 | # | Primary | ★ | Mục đích ngắn |
 |---|---------|---|----------------|
-| 1 | [MCP & AI Agents](#1-mcp--ai-agents) | 79 | MCP, RAG, agent, skill |
+| 1 | [MCP & AI Agents](#1-mcp--ai-agents) | 80 | MCP, RAG, agent, skill |
 | 2 | [Speech & Audio](#2-speech--audio) | 20 | STT / TTS / voice |
 | 3 | [Image & Video](#3-image--video) | 29 | Gen ảnh/video, NLE |
 | 4 | [UI Automation](#4-ui-automation--computer-use) | 8 | Browser / computer-use |
@@ -30,7 +30,7 @@
 | 6 | [DevTools](#6-devtools--integration) | 80 | OCR, gateway, office, train, self-host |
 | 7 | [Security](#7-security--pentesting) | 4 | Pentest, OSINT, guardrail |
 
-**Tổng = 309 ★** (+ 11 CLI-Anything harnesses)
+**Tổng = 310 ★** (+ 11 CLI-Anything harnesses)
 
 ---
 
@@ -92,6 +92,7 @@
 | **Spec Kit** | `coding-agent` `skill` `cli` `workflow` `prompt` | [spec-kit.md](../technologies/mcp-ai-agents/spec-kit.md) |
 | **Atomic Agents** | `agent` `cli` `api` `workflow` | [atomic-agents.md](../technologies/mcp-ai-agents/atomic-agents.md) |
 | **PraisonAI** | `agent` `mcp` `rag` `cli` `workflow` `memory` `self-host` | [praisonai.md](../technologies/mcp-ai-agents/praisonai.md) |
+| **QM** | `agent` `coding-agent` `self-host` `workflow` `chatbot` `skill` | [qm.md](../technologies/mcp-ai-agents/qm.md) |
 | **EpicStaff** | `agent` `mcp` `rag` `self-host` `workflow` | [epicstaff.md](../technologies/mcp-ai-agents/epicstaff.md) |
 | **MiroFish** | `agent` `self-host` `rag` `workflow` `api` | [mirofish.md](../technologies/mcp-ai-agents/mirofish.md) |
 | **Vibe-Trading** | `agent` `mcp` `skill` `cli` `self-host` `workflow` `desktop` | [vibe-trading.md](../technologies/mcp-ai-agents/vibe-trading.md) |

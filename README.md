@@ -10,7 +10,7 @@ Mỗi ★ = 1 repo đã star + 1 bài **tiếng Việt dễ hiểu**
 (giữ thuật ngữ Anh: API, LLM, RAG, MCP…)
 
 <p>
-  <img src="https://img.shields.io/badge/★_309-success?style=flat-square" alt="309 stars" />
+  <img src="https://img.shields.io/badge/★_310-success?style=flat-square" alt="310 stars" />
   <img src="https://img.shields.io/badge/CLI_harness-11-22C55E?style=flat-square" alt="11 harnesses" />
   <img src="https://img.shields.io/badge/Domain-7-blue?style=flat-square" alt="7 domains" />
   <img src="https://img.shields.io/badge/License-Private-red?style=flat-square" alt="Private" />
@@ -66,7 +66,7 @@ Nội dung VN        →  technologies/<domain>/<slug>.md
 
 | # | Domain | ★ | Taxonomy | Folder |
 |---|--------|---|----------|--------|
-| 1 | [![](https://img.shields.io/badge/MCP_&_AI_Agents-14B8A6?style=flat-square)](categories/README.md#1-mcp--ai-agents) | **79** | [§1](categories/README.md#1-mcp--ai-agents) | [mcp-ai-agents/](technologies/mcp-ai-agents/README.md) |
+| 1 | [![](https://img.shields.io/badge/MCP_&_AI_Agents-14B8A6?style=flat-square)](categories/README.md#1-mcp--ai-agents) | **80** | [§1](categories/README.md#1-mcp--ai-agents) | [mcp-ai-agents/](technologies/mcp-ai-agents/README.md) |
 | 2 | [![](https://img.shields.io/badge/Speech_&_Audio-A855F7?style=flat-square)](categories/README.md#2-speech--audio) | **20** | [§2](categories/README.md#2-speech--audio) | [speech-audio/](technologies/speech-audio/README.md) |
 | 3 | [![](https://img.shields.io/badge/Image_&_Video-F97316?style=flat-square)](categories/README.md#3-image--video) | **29** | [§3](categories/README.md#3-image--video) | [image-video/](technologies/image-video/README.md) |
 | 4 | [![](https://img.shields.io/badge/UI_Automation-3B82F6?style=flat-square)](categories/README.md#4-ui-automation--computer-use) | **8** | [§4](categories/README.md#4-ui-automation--computer-use) | [ui-automation/](technologies/ui-automation/README.md) |
@@ -75,7 +75,7 @@ Nội dung VN        →  technologies/<domain>/<slug>.md
 | 7 | [![](https://img.shields.io/badge/Security-F43F5E?style=flat-square)](categories/README.md#7-security--pentesting) | **4** | [§7](categories/README.md#7-security--pentesting) | [security/](technologies/security/README.md) |
 
 <p align="center">
-  <img src="https://img.shields.io/badge/MCP_&_AI_Agents-79-14B8A6?style=for-the-badge" alt="MCP 79" />
+  <img src="https://img.shields.io/badge/MCP_&_AI_Agents-80-14B8A6?style=for-the-badge" alt="MCP 80" />
   <img src="https://img.shields.io/badge/DevTools-80-0EA5E9?style=for-the-badge" alt="DevTools 80" />
   <img src="https://img.shields.io/badge/Image_&_Video-29-F97316?style=for-the-badge" alt="Image 29" />
   <img src="https://img.shields.io/badge/Speech_&_Audio-20-A855F7?style=for-the-badge" alt="Speech 20" />

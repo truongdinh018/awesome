@@ -16,7 +16,7 @@
 
 - [Hỏi đáp trên tài liệu / knowledge (RAG)](#01-rag) — **33**
 - [Cào web & extract dữ liệu](#02-extract) — **4**
-- [Agent lập trình](#03-coding) — **49**
+- [Agent lập trình](#03-coding) — **50**
 - [Agent runtime / bot đa kênh](#04-agent-runtime) — **16**
 - [MCP — gắn tool vào AI coding assistant](#05-mcp) — **55**
 - [Skill / prompt / guideline](#06-skills) — **54**
@@ -147,6 +147,7 @@
 | **Paseo** | MCP & AI Agents | `coding-agent` `agent` `desktop` `cli` `skill` `self-host` | Paseo là một interface điều phối nhiều coding agent trên máy bạn: Claude Code · Codex · Copilot · OpenCode · Pi — desktop, iOS/… | [paseo.md](technologies/mcp-ai-agents/paseo.md) |
 | **Ponytail** | MCP & AI Agents | `skill` `coding-agent` `prompt` | Ponytail là skill/plugin làm AI coding agent “nghĩ như senior lười nhưng đúng”: YAGNI ladder trước khi viết code — tái dùng std… | [ponytail.md](technologies/mcp-ai-agents/ponytail.md) |
 | **PPT Master** | MCP & AI Agents | `skill` `office` `cli` `coding-agent` `workflow` | PPT Master là workflow / Agent Skill chạy trong AI IDE (Claude Code, Cursor, Copilot…): đưa PDF / DOCX / web / text → sinh file… | [ppt-master.md](technologies/mcp-ai-agents/ppt-master.md) |
+| **QM** | MCP & AI Agents | `agent` `coding-agent` `self-host` `workflow` `chatbot` `skill` | QM là multiplayer agent harness cho startup: mỗi người workspace cô lập, cộng tác qua Slack/web; hỗ trợ Pi, OpenCode, Codex, Claude Code. | [qm.md](technologies/mcp-ai-agents/qm.md) |
 | **RTK** | MCP & AI Agents | `cli` `coding-agent` | RTK ( Rust Token Killer ) là CLI proxy chặn output lệnh shell trước khi vào context LLM — lọc/nén git status , grep , cargo tes… | [rtk.md](technologies/mcp-ai-agents/rtk.md) |
 | **Semble** | MCP & AI Agents | `mcp` `cli` `coding-agent` `rag` `self-host` | Semble là thư viện code search dành cho coding agents: hỏi NL ( "How is authentication handled?" ) → trả snippet đúng chỗ, clai… | [semble.md](technologies/mcp-ai-agents/semble.md) |
 | **SmolVM** | DevTools | `cli` `self-host` `desktop` `coding-agent` | SmolVM là CLI chạy Linux microVM cục bộ: cold start dưới giây, macOS / Linux / Windows, RAM elastic (virtio balloon). | [smolvm.md](technologies/devtools/smolvm.md) |

@@ -1,6 +1,7 @@
 # Changelog
 
 Lịch sử thêm ★ / bookmark / cấu trúc catalog (mới nhất trên cùng).
+*2026-08-02 — 310 ★ · thêm QM (`yc-software/qm`)*
 *2026-08-01 — 309 ★ · thêm Vikunja backend (`go-vikunja/vikunja`)*
 *2026-08-01 — 308 ★ · thêm Canvas UI (`DavidHDev/canvas-ui`)*
 *2026-08-01 — 307 ★ · thêm Vikunja App (`go-vikunja/app`)*

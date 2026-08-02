@@ -1,6 +1,6 @@
 # Starred Repos — Index
 
-> **309 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-08-01**  
+> **310 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-08-02**  
 > Đây là bảng master: mỗi dòng = 1 repo đã star + link bài `technologies/<domain>/<slug>.md`.
 > **Primary** = 1 trong 7 domain · **Tags** = nhiều capability.
 > Duyệt subgroup: [../categories/README.md](../categories/README.md) · Hub / checklist: [../README.md](../README.md) · Viết bài: [../technologies/WRITING.md](../technologies/WRITING.md)
@@ -316,6 +316,7 @@
 | 307 | [go-vikunja/app](https://github.com/go-vikunja/app) | 577 | Dart | DevTools | `self-host` `desktop` `workspace` `api` `workflow` | [vikunja-app.md](../technologies/devtools/vikunja-app.md) |
 | 308 | [DavidHDev/canvas-ui](https://github.com/DavidHDev/canvas-ui) | 2.8k | TypeScript | DevTools | `browser` `design` `mcp` `cli` | [canvas-ui.md](../technologies/devtools/canvas-ui.md) |
 | 309 | [go-vikunja/vikunja](https://github.com/go-vikunja/vikunja) | 4.9k | Go | DevTools | `self-host` `api` `workspace` `workflow` | [vikunja.md](../technologies/devtools/vikunja.md) |
+| 310 | [yc-software/qm](https://github.com/yc-software/qm) | 5.2k | TypeScript | MCP & AI Agents | `agent` `coding-agent` `self-host` `workflow` `chatbot` `skill` | [qm.md](../technologies/mcp-ai-agents/qm.md) |
 
 
 ## Ecosystem — CLI-Anything harnesses (con của #16)
