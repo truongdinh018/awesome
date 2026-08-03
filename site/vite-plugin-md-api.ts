@@ -19,6 +19,8 @@ const HUB_FILES = [
   'technologies/WRITING.md',
   'data/trending/README.md',
   'data/trending/pending.md',
+  'skills/README.md',
+  'skills/WRITING.md',
 ]
 
 type TreeNode = {
@@ -157,12 +159,136 @@ async function buildTree(root: string): Promise<TreeNode[]> {
   ]
 }
 
+function parseSkillFrontmatter(raw: string): {
+  meta: Record<string, string | string[]>
+  body: string
+} {
+  if (!raw.startsWith('---')) return { meta: {}, body: raw }
+  const end = raw.indexOf('\n---', 3)
+  if (end === -1) return { meta: {}, body: raw }
+  const fm = raw.slice(3, end).trim()
+  const body = raw.slice(end + 4).replace(/^\n/, '')
+  const meta: Record<string, string | string[]> = {}
+  for (const line of fm.split('\n')) {
+    const m = line.match(/^([A-Za-z0-9_-]+):\s*(.*)$/)
+    if (!m) continue
+    const key = m[1]
+    let val: string | string[] = m[2].trim()
+    if (typeof val === 'string' && val.startsWith('[') && val.endsWith(']')) {
+      val = val
+        .slice(1, -1)
+        .split(',')
+        .map((s) => s.trim().replace(/^["']|["']$/g, ''))
+        .filter(Boolean)
+    } else if (typeof val === 'string') {
+      val = val.replace(/^["']|["']$/g, '')
+    }
+    meta[key] = val
+  }
+  return { meta, body }
+}
+
+function skillExcerpt(body: string, max = 180): string {
+  const text = body
+    .replace(/^#+\s+.*/m, '')
+    .replace(/```[\s\S]*?```/g, '')
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    .replace(/[*_`>#-]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+  if (text.length <= max) return text
+  return `${text.slice(0, max - 1)}…`
+}
+
+export type SkillItem = {
+  id: string
+  slug: string
+  path: string
+  name: string
+  title: string
+  description: string
+  category: string
+  source: string
+  tags: string[]
+  excerpt: string
+}
+
+async function buildSkillsIndex(root: string): Promise<{
+  generatedAt: string
+  count: number
+  categories: string[]
+  tags: string[]
+  skills: SkillItem[]
+}> {
+  const vaultRel = 'skills/vault'
+  const absVault = path.join(root, vaultRel)
+  let entries
+  try {
+    entries = await fs.readdir(absVault, { withFileTypes: true })
+  } catch {
+    return {
+      generatedAt: new Date().toISOString(),
+      count: 0,
+      categories: [],
+      tags: [],
+      skills: [],
+    }
+  }
+
+  const skills: SkillItem[] = []
+  for (const entry of entries) {
+    if (!entry.isDirectory() || entry.name.startsWith('.')) continue
+    const rel = path.posix.join(vaultRel, entry.name, 'SKILL.md')
+    try {
+      const raw = await fs.readFile(path.join(root, rel), 'utf8')
+      const { meta, body } = parseSkillFrontmatter(raw)
+      const id = String(meta.name || entry.name)
+      const tags = Array.isArray(meta.tags)
+        ? meta.tags.map(String)
+        : typeof meta.tags === 'string' && meta.tags
+          ? [String(meta.tags)]
+          : []
+      skills.push({
+        id,
+        slug: entry.name,
+        path: rel,
+        name: id,
+        title: body.match(/^#\s+(.+)$/m)?.[1]?.trim() || id,
+        description: String(meta.description || ''),
+        category: String(meta.category || 'other'),
+        source: String(meta.source || 'awesome-ai'),
+        tags,
+        excerpt: skillExcerpt(body),
+      })
+    } catch {
+      /* skip */
+    }
+  }
+
+  skills.sort((a, b) => {
+    const c = a.category.localeCompare(b.category)
+    if (c !== 0) return c
+    return a.id.localeCompare(b.id)
+  })
+  const categories = [...new Set(skills.map((s) => s.category))].sort()
+  const tagSet = new Set<string>()
+  for (const s of skills) for (const t of s.tags) tagSet.add(t)
+  return {
+    generatedAt: new Date().toISOString(),
+    count: skills.length,
+    categories,
+    tags: [...tagSet].sort(),
+    skills,
+  }
+}
+
 async function collectFiles(
   root: string,
 ): Promise<Record<string, string>> {
   const paths = new Set<string>([
     ...HUB_FILES,
     ...(await listMdFiles(root, 'technologies')),
+    ...(await listMdFiles(root, 'skills')),
   ])
   const files: Record<string, string> = {}
   for (const rel of paths) {
@@ -178,12 +304,13 @@ async function collectFiles(
 }
 
 async function buildStaticPayload(root: string) {
-  const [catalog, tree, files] = await Promise.all([
+  const [catalog, tree, files, skills] = await Promise.all([
     buildCatalog(root),
     buildTree(root),
     collectFiles(root),
+    buildSkillsIndex(root),
   ])
-  return { catalog, tree, files }
+  return { catalog, tree, files, skills }
 }
 
 export function mdApiPlugin(contentRoot: string): Plugin {
@@ -200,6 +327,11 @@ export function mdApiPlugin(contentRoot: string): Plugin {
           if (url.pathname === '/api/catalog' && req.method === 'GET') {
             const catalog = await buildCatalog(root)
             return sendJson(res, 200, catalog)
+          }
+
+          if (url.pathname === '/api/skills' && req.method === 'GET') {
+            const skills = await buildSkillsIndex(root)
+            return sendJson(res, 200, skills)
           }
 
           if (url.pathname === '/api/tree' && req.method === 'GET') {
@@ -255,7 +387,7 @@ export function mdApiPlugin(contentRoot: string): Plugin {
       })
     },
     async generateBundle() {
-      const { catalog, tree, files } = await buildStaticPayload(root)
+      const { catalog, tree, files, skills } = await buildStaticPayload(root)
       this.emitFile({
         type: 'asset',
         fileName: 'data/catalog.json',
@@ -270,6 +402,11 @@ export function mdApiPlugin(contentRoot: string): Plugin {
         type: 'asset',
         fileName: 'data/files.json',
         source: JSON.stringify(files),
+      })
+      this.emitFile({
+        type: 'asset',
+        fileName: 'data/skills.json',
+        source: JSON.stringify(skills),
       })
       this.emitFile({
         type: 'asset',

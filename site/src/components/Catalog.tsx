@@ -39,6 +39,7 @@ type Props = {
   onOpen: (path: string) => void
   onOpenHub: (path: string) => void
   onOpenTrending: () => void
+  onOpenSkills: () => void
 }
 
 const SEARCH_DEBOUNCE_MS = 320
@@ -64,6 +65,7 @@ export function Catalog({
   onOpen,
   onOpenHub,
   onOpenTrending,
+  onOpenSkills,
 }: Props) {
   const searchRef = useRef<HTMLInputElement>(null)
   const filterBtnRef = useRef<HTMLButtonElement>(null)
@@ -376,6 +378,9 @@ export function Catalog({
             </button>
             <button type="button" className="hub-link" onClick={onOpenTrending}>
               Trending
+            </button>
+            <button type="button" className="hub-link" onClick={onOpenSkills}>
+              Skills
             </button>
             <button type="button" className="hub-link" onClick={() => onOpenHub('TAGS.md')}>
               Tags

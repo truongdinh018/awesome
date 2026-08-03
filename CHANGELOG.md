@@ -1,6 +1,7 @@
 # Changelog
 
 Lịch sử thêm ★ / bookmark / cấu trúc catalog (mới nhất trên cùng).
+*2026-08-03 — Skills vault (`skills/`) + trang web Skills (`?skills=1`) — 19 SKILL.md*
 *2026-08-02 — 310 ★ · thêm QM (`yc-software/qm`)*
 *2026-08-01 — 309 ★ · thêm Vikunja backend (`go-vikunja/vikunja`)*
 *2026-08-01 — 308 ★ · thêm Canvas UI (`DavidHDev/canvas-ui`)*

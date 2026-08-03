@@ -102,18 +102,21 @@ Nội dung VN        →  technologies/<domain>/<slug>.md
 
 ## 🌐 Catalog web (local + GitHub Pages)
 
-App Vite trong [`site/`](site/) — card + search (từ khóa / ngữ nghĩa / hybrid) + lọc domain/tag + đọc Markdown.  
-Chi tiết index SQLite + badge Mới/Cập nhật: [SEARCH.md](SEARCH.md).
+App Vite trong [`site/`](site/) — card + search (từ khóa / ngữ nghĩa / hybrid) + lọc domain/tag + đọc Markdown + **Skills vault** (`?skills=1`).  
+Chi tiết index SQLite + badge Mới/Cập nhật: [SEARCH.md](SEARCH.md).  
+Skill `SKILL.md`: [`skills/`](skills/).
 
 | Môi trường | URL | Ghi chú |
 |------------|-----|---------|
 | 💻 Local | http://localhost:5177 | `npm run dev` — có **Sửa / Lưu** MD |
+| 🧩 Skills | http://localhost:5177/?skills=1 | Vault Agent Skills |
 | 📄 GitHub Pages | https://truongdinh018.github.io/awesome/ | build static, **chỉ đọc** · **PWA** (cài app / offline shell) |
 
 ```bash
 cd site
 npm install
 npm run index:search   # embed + SQLite (lần đầu / khi thêm bài)
+npm run index:skills   # index skills/vault → public/data/skills.json
 npm run dev            # local editor
 npm run build:pages    # static cho Pages
 npm run preview:pages
@@ -133,6 +136,10 @@ awesome/
 ├── CHANGELOG.md
 ├── categories/README.md      ← taxonomy domain / subgroup
 ├── repos/README.md           ← master star list #1…#226
+├── skills/                   ← Agent Skills vault (SKILL.md)
+│   ├── README.md
+│   ├── WRITING.md
+│   └── vault/<id>/SKILL.md
 ├── technologies/             ← bài VN + WRITING.md
 │   ├── mcp-ai-agents/        ■ teal
 │   ├── speech-audio/         ■ purple
@@ -142,7 +149,7 @@ awesome/
 │   ├── devtools/             ■ sky
 │   ├── security/             ■ rose
 │   └── cli-anything/         ■ green
-└── site/                     ← web reader/editor
+└── site/                     ← web reader/editor (+ Skills UI)
 ```
 
 **SSOT**
@@ -154,6 +161,7 @@ awesome/
 | Subgroup | `categories/README.md` |
 | Nghĩa tag | `TAGS.md` |
 | Nội dung bài | `technologies/<domain>/` |
+| Agent Skills | `skills/vault/<id>/SKILL.md` |
 
 ---
 

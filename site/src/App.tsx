@@ -3,13 +3,16 @@ import {
   canEditMarkdown,
   fetchCatalog,
   fetchFile,
+  fetchSkills,
   fetchTrendingWeek,
   saveFile,
   type CatalogItem,
+  type SkillIndex,
   type TrendingWeek,
 } from './api'
 import { Catalog } from './components/Catalog'
 import { Trending } from './components/Trending'
+import { Skills } from './components/Skills'
 import { Reader } from './components/Reader'
 import { Editor } from './components/Editor'
 import { ThemeToggle } from './components/ThemeToggle'
@@ -18,6 +21,7 @@ import {
   catalogHref,
   navigate,
   readRoute,
+  skillsHref,
   trendingHref,
 } from './lib/routing'
 import { markPathSeen } from './lib/semanticSearch'
@@ -29,7 +33,7 @@ import {
 } from './theme'
 
 type Mode = 'read' | 'edit'
-type View = 'catalog' | 'trending' | 'article'
+type View = 'catalog' | 'trending' | 'skills' | 'article'
 
 function resolveRelative(fromPath: string, href: string): string | null {
   if (!href || href.startsWith('#') || /^[a-z]+:/i.test(href)) return null
@@ -92,6 +96,15 @@ export default function App() {
   const [trendingError, setTrendingError] = useState<string | null>(null)
   const [trendingQuery, setTrendingQuery] = useState(
     initial.view === 'trending' ? initial.q : '',
+  )
+  const [skillsData, setSkillsData] = useState<SkillIndex | null>(null)
+  const [skillsLoading, setSkillsLoading] = useState(false)
+  const [skillsError, setSkillsError] = useState<string | null>(null)
+  const [skillsQuery, setSkillsQuery] = useState(
+    initial.view === 'skills' ? initial.q : '',
+  )
+  const [skillsCategory, setSkillsCategory] = useState(
+    initial.view === 'skills' ? initial.category : 'all',
   )
 
   const dirty = mode === 'edit' && draft !== content
@@ -191,6 +204,57 @@ export default function App() {
     navigate(trendingHref(q), 'replace')
   }, [])
 
+  const showSkills = useCallback(
+    async (opts?: {
+      syncUrl?: boolean
+      mode?: 'push' | 'replace'
+      q?: string
+      category?: string
+    }) => {
+      const nextQuery = opts?.q ?? skillsQuery
+      const nextCategory = opts?.category ?? skillsCategory
+      setSkillsQuery(nextQuery)
+      setSkillsCategory(nextCategory)
+      setView('skills')
+      setMode('read')
+      setCurrentPath(null)
+      setContent('')
+      setDraft('')
+      setStatus(null)
+      setSkillsError(null)
+      setSkillsLoading(true)
+      document.title = 'Awesome AI · Skills'
+      if (opts?.syncUrl !== false) {
+        navigate(
+          skillsHref({ q: nextQuery, category: nextCategory }),
+          opts?.mode ?? 'push',
+        )
+      }
+      try {
+        const data = await fetchSkills()
+        setSkillsData(data)
+      } catch (err) {
+        setSkillsError(
+          err instanceof Error ? err.message : 'Không tải được skills',
+        )
+      } finally {
+        setSkillsLoading(false)
+      }
+    },
+    [skillsQuery, skillsCategory],
+  )
+
+  const syncSkillsUrl = useCallback(
+    (next: { q?: string; category?: string }) => {
+      const q = next.q ?? skillsQuery
+      const category = next.category ?? skillsCategory
+      setSkillsQuery(q)
+      setSkillsCategory(category)
+      navigate(skillsHref({ q, category }), 'replace')
+    },
+    [skillsQuery, skillsCategory],
+  )
+
   const showCatalog = useCallback(
     async (opts?: { syncUrl?: boolean; mode?: 'push' | 'replace' }) => {
       setView('catalog')
@@ -231,6 +295,14 @@ export default function App() {
         } else if (route.view === 'trending') {
           setTrendingQuery(route.q)
           await showTrending({ syncUrl: false, q: route.q })
+        } else if (route.view === 'skills') {
+          setSkillsQuery(route.q)
+          setSkillsCategory(route.category)
+          await showSkills({
+            syncUrl: false,
+            q: route.q,
+            category: route.category,
+          })
         } else {
           setCatalogQuery(route.q)
           setCatalogDomains(route.domains)
@@ -249,7 +321,7 @@ export default function App() {
     return () => {
       cancelled = true
     }
-  }, [loadCatalog, openFile, showTrending])
+  }, [loadCatalog, openFile, showTrending, showSkills])
 
   useEffect(() => {
     const onPopState = () => {
@@ -272,6 +344,14 @@ export default function App() {
       } else if (route.view === 'trending') {
         setTrendingQuery(route.q)
         void showTrending({ syncUrl: false, q: route.q })
+      } else if (route.view === 'skills') {
+        setSkillsQuery(route.q)
+        setSkillsCategory(route.category)
+        void showSkills({
+          syncUrl: false,
+          q: route.q,
+          category: route.category,
+        })
       } else {
         setCatalogQuery(route.q)
         setCatalogDomains(route.domains)
@@ -287,7 +367,7 @@ export default function App() {
     }
     window.addEventListener('popstate', onPopState)
     return () => window.removeEventListener('popstate', onPopState)
-  }, [openFile, showTrending])
+  }, [openFile, showTrending, showSkills])
 
   const confirmLeaveEdit = useCallback(() => {
     if (!dirty) return true
@@ -393,7 +473,30 @@ export default function App() {
           onToggleTheme={handleToggleTheme}
           onQueryChange={syncTrendingUrl}
           onOpenCatalog={() => void showCatalog()}
+          onOpenSkills={() => void showSkills()}
           onOpenArticle={(p) => void handleSelect(p)}
+          onOpenHub={(p) => void handleSelect(p)}
+        />
+      </div>
+    )
+  }
+
+  if (view === 'skills') {
+    return (
+      <div className="blog-shell">
+        <Skills
+          data={skillsData}
+          loading={skillsLoading}
+          error={skillsError ?? error}
+          query={skillsQuery}
+          category={skillsCategory}
+          theme={theme}
+          onToggleTheme={handleToggleTheme}
+          onQueryChange={(q) => syncSkillsUrl({ q })}
+          onCategoryChange={(category) => syncSkillsUrl({ category })}
+          onOpenCatalog={() => void showCatalog()}
+          onOpenTrending={() => void showTrending()}
+          onOpenSkill={(p) => void handleSelect(p)}
           onOpenHub={(p) => void handleSelect(p)}
         />
       </div>
@@ -420,6 +523,7 @@ export default function App() {
             onOpen={(p) => void handleSelect(p)}
             onOpenHub={(p) => void handleSelect(p)}
             onOpenTrending={() => void showTrending()}
+            onOpenSkills={() => void showSkills()}
           />
         )}
       </div>
