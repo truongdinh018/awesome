@@ -40,7 +40,7 @@ Mỗi ★ = 1 repo đã star + 1 bài **tiếng Việt dễ hiểu**
 |-----------|---------|-------|
 | Biết tool **dùng để làm gì** | [USE-CASES.md](USE-CASES.md) | ![](https://img.shields.io/badge/START_HERE-22C55E?style=flat-square) |
 | Duyệt theo **domain / subgroup** | [categories/README.md](categories/README.md) | ![](https://img.shields.io/badge/taxonomy-6366F1?style=flat-square) |
-| Danh sách star **`#1…#315`** | [repos/README.md](repos/README.md) | ![](https://img.shields.io/badge/master_list-0EA5E9?style=flat-square) |
+| Danh sách star **`#1…#328`** | [repos/README.md](repos/README.md) | ![](https://img.shields.io/badge/master_list-0EA5E9?style=flat-square) |
 | Chú giải **tag** (`tts`, `rag`…) | [TAGS.md](TAGS.md) | ![](https://img.shields.io/badge/tags-A855F7?style=flat-square) |
 | Viết / sửa bài | [technologies/WRITING.md](technologies/WRITING.md) | ![](https://img.shields.io/badge/writing-F97316?style=flat-square) |
 | Đọc / sửa MD trên web | [site/](site/) | ![](https://img.shields.io/badge/web_app-14B8A6?style=flat-square) |
@@ -102,18 +102,21 @@ Nội dung VN        →  technologies/<domain>/<slug>.md
 
 ## 🌐 Catalog web (local + GitHub Pages)
 
-App Vite trong [`site/`](site/) — card + search (từ khóa / ngữ nghĩa / hybrid) + lọc domain/tag + đọc Markdown.  
-Chi tiết index SQLite + badge Mới/Cập nhật: [SEARCH.md](SEARCH.md).
+App Vite trong [`site/`](site/) — card + search (từ khóa / ngữ nghĩa / hybrid) + lọc domain/tag + đọc Markdown + **Skills vault** (`?skills=1`).  
+Chi tiết index SQLite + badge Mới/Cập nhật: [SEARCH.md](SEARCH.md).  
+Skill `SKILL.md`: [`skills/`](skills/).
 
 | Môi trường | URL | Ghi chú |
 |------------|-----|---------|
 | 💻 Local | http://localhost:5177 | `npm run dev` — có **Sửa / Lưu** MD |
+| 🧩 Skills | http://localhost:5177/?skills=1 | Vault Agent Skills |
 | 📄 GitHub Pages | https://truongdinh018.github.io/awesome/ | build static, **chỉ đọc** · **PWA** (cài app / offline shell) |
 
 ```bash
 cd site
 npm install
 npm run index:search   # embed + SQLite (lần đầu / khi thêm bài)
+npm run index:skills   # index skills/vault → public/data/skills.json
 npm run dev            # local editor
 npm run build:pages    # static cho Pages
 npm run preview:pages
@@ -132,7 +135,11 @@ awesome/
 ├── TAGS.md                   ← chú giải tag
 ├── CHANGELOG.md
 ├── categories/README.md      ← taxonomy domain / subgroup
-├── repos/README.md           ← master star list #1…#315
+├── repos/README.md           ← master star list #1…#328
+├── skills/                   ← Agent Skills vault (SKILL.md)
+│   ├── README.md
+│   ├── WRITING.md
+│   └── vault/<id>/SKILL.md
 ├── technologies/             ← bài VN + WRITING.md
 │   ├── mcp-ai-agents/        ■ teal
 │   ├── speech-audio/         ■ purple
@@ -142,7 +149,7 @@ awesome/
 │   ├── devtools/             ■ sky
 │   ├── security/             ■ rose
 │   └── cli-anything/         ■ green
-└── site/                     ← web reader/editor
+└── site/                     ← web reader/editor (+ Skills UI)
 ```
 
 **SSOT**
@@ -154,6 +161,7 @@ awesome/
 | Subgroup | `categories/README.md` |
 | Nghĩa tag | `TAGS.md` |
 | Nội dung bài | `technologies/<domain>/` |
+| Agent Skills | `skills/vault/<id>/SKILL.md` |
 
 ---
 

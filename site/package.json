@@ -12,6 +12,7 @@
     "index:search": "tsx scripts/build-search-index.mjs",
     "index:search:meta": "SKIP_EMBED=1 tsx scripts/build-search-index.mjs",
     "index:search:mark-current": "MARK_CURRENT=1 SKIP_EMBED=1 tsx scripts/build-search-index.mjs",
+    "index:skills": "node scripts/index-skills.mjs",
     "fetch:trending": "tsx scripts/fetch-trending.mjs",
     "trending:backfill-vi": "tsx scripts/backfill-trending-vi.mjs",
     "trending:create-articles": "tsx scripts/create-trending-articles.mjs"
