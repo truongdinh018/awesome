@@ -1,5 +1,5 @@
 {
-  "indexedAt": "2026-08-02T03:30:27.703Z",
+  "indexedAt": "2026-08-02T23:04:02.466Z",
   "model": "Xenova/multilingual-e5-small",
   "articles": {
     "technologies/bookmarks/codex-pets.md": {
@@ -1945,6 +1945,54 @@
       "contentHash": "8ca174f3fcc3def4e1c44724529f507e181a84643cc55cdc0fa70fd37b39c7ff",
       "firstSeenAt": "2026-08-02T03:30:27.703Z",
       "contentUpdatedAt": "2026-08-02T03:30:27.703Z"
+    },
+    "technologies/cv-edge/cs249r-book.md": {
+      "status": "new",
+      "contentHash": "a3c473abb602013b3120ccb53c39f8aaf8465b41150fee0d10bc68ed3546b173",
+      "firstSeenAt": "2026-08-02T23:04:02.466Z",
+      "contentUpdatedAt": "2026-08-02T23:04:02.466Z"
+    },
+    "technologies/devtools/faceswap.md": {
+      "status": "new",
+      "contentHash": "6708850085ff1c73344fdb62cd6955901c448bf34be2eac3145b1c1827b76902",
+      "firstSeenAt": "2026-08-02T23:04:02.466Z",
+      "contentUpdatedAt": "2026-08-02T23:04:02.466Z"
+    },
+    "technologies/mcp-ai-agents/ai.md": {
+      "status": "new",
+      "contentHash": "9bf51714ee2de05d848733975adfd23e95163d5133d6954a318b44ce3f183a77",
+      "firstSeenAt": "2026-08-02T23:04:02.466Z",
+      "contentUpdatedAt": "2026-08-02T23:04:02.466Z"
+    },
+    "technologies/mcp-ai-agents/haystack.md": {
+      "status": "new",
+      "contentHash": "52aa8f4030046942a03f04195abda20415c18947297ec927614517ebea73785d",
+      "firstSeenAt": "2026-08-02T23:04:02.466Z",
+      "contentUpdatedAt": "2026-08-02T23:04:02.466Z"
+    },
+    "technologies/mcp-ai-agents/omniroute.md": {
+      "status": "new",
+      "contentHash": "5388e5fa5fba5afa7d1b38beed06c2aef9b67c2a9131f56968c53e33a12f2a07",
+      "firstSeenAt": "2026-08-02T23:04:02.466Z",
+      "contentUpdatedAt": "2026-08-02T23:04:02.466Z"
+    },
+    "technologies/mcp-ai-agents/repomix.md": {
+      "status": "new",
+      "contentHash": "1de27a32618209951bb1b99dc8f2a6d5f61d38e8a608670fa1f6d2beba0d0c71",
+      "firstSeenAt": "2026-08-02T23:04:02.466Z",
+      "contentUpdatedAt": "2026-08-02T23:04:02.466Z"
+    },
+    "technologies/mcp-ai-agents/serena.md": {
+      "status": "new",
+      "contentHash": "c30af095bab5fd333a13487b0ffe763ebc882bd266f20ee49aedf8943aae1619",
+      "firstSeenAt": "2026-08-02T23:04:02.466Z",
+      "contentUpdatedAt": "2026-08-02T23:04:02.466Z"
+    },
+    "technologies/mcp-ai-agents/ui-tars-desktop.md": {
+      "status": "new",
+      "contentHash": "aea1e2e1536ed739b7d34b2a45b7ea56e799c58092581c0e1e56e6e716d41d5d",
+      "firstSeenAt": "2026-08-02T23:04:02.466Z",
+      "contentUpdatedAt": "2026-08-02T23:04:02.466Z"
     }
   }
 }

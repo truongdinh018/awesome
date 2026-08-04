@@ -85,6 +85,14 @@ Lịch sử thêm ★ / bookmark / cấu trúc catalog (mới nhất trên cùng
 *2026-08-01 — 284 ★ · thêm Codebase Memory Mcp (`DeusData/codebase-memory-mcp`) từ trending*
 *2026-08-01 — 283 ★ · thêm Google Research (`google-research/google-research`) từ trending*
 *2026-08-01 — 282 ★ · thêm Langgraph (`langchain-ai/langgraph`) từ trending*
+*2026-08-02 — 318 ★ · thêm Ai (`vercel/ai`) từ trending*
+*2026-08-02 — 317 ★ · thêm Haystack (`deepset-ai/haystack`) từ trending*
+*2026-08-02 — 316 ★ · thêm Serena (`oraios/serena`) từ trending*
+*2026-08-02 — 315 ★ · thêm Repomix (`yamadashy/repomix`) từ trending*
+*2026-08-02 — 314 ★ · thêm Cs249r Book (`harvard-edge/cs249r_book`) từ trending*
+*2026-08-02 — 313 ★ · thêm OmniRoute (`diegosouzapw/OmniRoute`) từ trending*
+*2026-08-02 — 312 ★ · thêm UI TARS Desktop (`bytedance/UI-TARS-desktop`) từ trending*
+*2026-08-02 — 311 ★ · thêm Faceswap (`deepfakes/faceswap`) từ trending*
 
 *2026-07-27 — 226 ★ · thêm Open Interpreter (`openinterpreter/openinterpreter`)*
 
