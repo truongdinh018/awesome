@@ -1,6 +1,7 @@
 export type RouteState =
   | { view: 'catalog'; q: string; domains: string[]; tags: string[] }
   | { view: 'trending'; q: string }
+  | { view: 'skills'; q: string; category: string }
   | { view: 'article'; doc: string }
 
 function appBase(): string {
@@ -16,6 +17,14 @@ export function readRoute(url: URL = new URL(window.location.href)): RouteState 
 
   if (url.searchParams.get('trending') === '1') {
     return { view: 'trending', q: url.searchParams.get('q') ?? '' }
+  }
+
+  if (url.searchParams.get('skills') === '1') {
+    return {
+      view: 'skills',
+      q: url.searchParams.get('q') ?? '',
+      category: url.searchParams.get('category') ?? 'all',
+    }
   }
 
   const domains = [
@@ -37,6 +46,16 @@ export function trendingHref(q = ''): string {
   params.set('trending', '1')
   const trimmed = q.trim()
   if (trimmed) params.set('q', trimmed)
+  return `${appBase()}?${params.toString()}`
+}
+
+export function skillsHref(opts: { q?: string; category?: string } = {}): string {
+  const params = new URLSearchParams()
+  params.set('skills', '1')
+  const trimmed = opts.q?.trim()
+  if (trimmed) params.set('q', trimmed)
+  const category = opts.category?.trim()
+  if (category && category !== 'all') params.set('category', category)
   return `${appBase()}?${params.toString()}`
 }
 
