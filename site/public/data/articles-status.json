@@ -1,5 +1,5 @@
 {
-  "indexedAt": "2026-08-02T23:04:02.466Z",
+  "indexedAt": "2026-08-05T09:09:31.135Z",
   "model": "Xenova/multilingual-e5-small",
   "articles": {
     "technologies/bookmarks/codex-pets.md": {
@@ -1467,10 +1467,10 @@
       "contentUpdatedAt": "2026-08-01T04:02:26.946Z"
     },
     "technologies/mcp-ai-agents/ecc.md": {
-      "status": "new",
-      "contentHash": "bce47ae3786f41d4b513910cda80bc7e214a7832ec1780ee80fcf2fba2499af7",
+      "status": "updated",
+      "contentHash": "4707b047ce50eeb33986164c27b91b7e700a6290f68add8d2673c67c42cc3097",
       "firstSeenAt": "2026-08-01T04:02:26.946Z",
-      "contentUpdatedAt": "2026-08-01T04:02:26.946Z"
+      "contentUpdatedAt": "2026-08-05T09:09:31.135Z"
     },
     "technologies/mcp-ai-agents/langflow.md": {
       "status": "new",

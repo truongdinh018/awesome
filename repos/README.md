@@ -1,6 +1,6 @@
 # Starred Repos — Index
 
-> **318 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-08-02**  
+> **307 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-08-01**  
 > Đây là bảng master: mỗi dòng = 1 repo đã star + link bài `technologies/<domain>/<slug>.md`.
 > **Primary** = 1 trong 7 domain · **Tags** = nhiều capability.
 > Duyệt subgroup: [../categories/README.md](../categories/README.md) · Hub / checklist: [../README.md](../README.md) · Viết bài: [../technologies/WRITING.md](../technologies/WRITING.md)
@@ -233,7 +233,7 @@
 | 224 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 135.5k | Shell | MCP & AI Agents | `skill` `prompt` `coding-agent` `agent` `desktop` `cli` | [agency-agents.md](../technologies/mcp-ai-agents/agency-agents.md) |
 | 225 | [swup/swup](https://github.com/swup/swup) | 5.2k | TypeScript | DevTools | `browser` `cli` `self-host` | [swup.md](../technologies/devtools/swup.md) |
 | 226 | [openinterpreter/openinterpreter](https://github.com/openinterpreter/openinterpreter) | 67.3k | Rust | MCP & AI Agents | `coding-agent` `agent` `cli` `skill` `mcp` `computer-use` | [openinterpreter.md](../technologies/mcp-ai-agents/openinterpreter.md) |
-| 227 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | 233.7k | JavaScript | MCP & AI Agents | `agent` `mcp` `cli` | [ecc.md](../technologies/mcp-ai-agents/ecc.md) |
+| 227 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | 238k | JavaScript | MCP & AI Agents | `coding-agent` `skill` `memory` `guardrail` `mcp` `cli` `workflow` | [ecc.md](../technologies/mcp-ai-agents/ecc.md) |
 | 228 | [n8n-io/n8n](https://github.com/n8n-io/n8n) | 198.1k | TypeScript | DevTools | `workflow` `self-host` `mcp` `api` `docker` | [n8n-workflow.md](../technologies/devtools/n8n-workflow.md) |
 | 229 | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 196.6k | C++ | DevTools | `agent` | [tensorflow.md](../technologies/devtools/tensorflow.md) |
 | 230 | [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 185.7k | Python | MCP & AI Agents | `agent` `cli` | [autogpt.md](../technologies/mcp-ai-agents/autogpt.md) |
@@ -314,17 +314,6 @@
 | 305 | [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | 28.3k | Go | MCP & AI Agents | `agent` `cli` `coding-agent` | [deepseek-reasonix.md](../technologies/mcp-ai-agents/deepseek-reasonix.md) |
 | 306 | [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) | 27.7k | Python | Image & Video | `image-gen` `cli` | [invokeai.md](../technologies/image-video/invokeai.md) |
 | 307 | [go-vikunja/app](https://github.com/go-vikunja/app) | 577 | Dart | DevTools | `self-host` `desktop` `workspace` `api` `workflow` | [vikunja-app.md](../technologies/devtools/vikunja-app.md) |
-| 308 | [DavidHDev/canvas-ui](https://github.com/DavidHDev/canvas-ui) | 2.8k | TypeScript | DevTools | `browser` `design` `mcp` `cli` | [canvas-ui.md](../technologies/devtools/canvas-ui.md) |
-| 309 | [go-vikunja/vikunja](https://github.com/go-vikunja/vikunja) | 4.9k | Go | DevTools | `self-host` `api` `workspace` `workflow` | [vikunja.md](../technologies/devtools/vikunja.md) |
-| 310 | [yc-software/qm](https://github.com/yc-software/qm) | 5.2k | TypeScript | MCP & AI Agents | `agent` `coding-agent` `self-host` `workflow` `chatbot` `skill` | [qm.md](../technologies/mcp-ai-agents/qm.md) |
-| 311 | [deepfakes/faceswap](https://github.com/deepfakes/faceswap) | 57.2k | Python | DevTools | `agent` `cli` | [faceswap.md](../technologies/devtools/faceswap.md) |
-| 312 | [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) | 38.4k | TypeScript | MCP & AI Agents | `agent` `mcp` `cli` | [ui-tars-desktop.md](../technologies/mcp-ai-agents/ui-tars-desktop.md) |
-| 313 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 37.8k | TypeScript | MCP & AI Agents | `agent` `mcp` `cli` | [omniroute.md](../technologies/mcp-ai-agents/omniroute.md) |
-| 314 | [harvard-edge/cs249r_book](https://github.com/harvard-edge/cs249r_book) | 27.7k | Python | CV & Edge | `agent` `cli` | [cs249r-book.md](../technologies/cv-edge/cs249r-book.md) |
-| 315 | [yamadashy/repomix](https://github.com/yamadashy/repomix) | 27.6k | TypeScript | MCP & AI Agents | `agent` `mcp` `cli` | [repomix.md](../technologies/mcp-ai-agents/repomix.md) |
-| 316 | [oraios/serena](https://github.com/oraios/serena) | 27.4k | Python | MCP & AI Agents | `agent` `mcp` `cli` | [serena.md](../technologies/mcp-ai-agents/serena.md) |
-| 317 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 26.1k | Python | MCP & AI Agents | `agent` `mcp` `rag` `cli` | [haystack.md](../technologies/mcp-ai-agents/haystack.md) |
-| 318 | [vercel/ai](https://github.com/vercel/ai) | 26.0k | TypeScript | MCP & AI Agents | `agent` `cli` | [ai.md](../technologies/mcp-ai-agents/ai.md) |
 
 
 ## Ecosystem — CLI-Anything harnesses (con của #16)

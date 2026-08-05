@@ -16,7 +16,7 @@
 
 - [Hỏi đáp trên tài liệu / knowledge (RAG)](#01-rag) — **33**
 - [Cào web & extract dữ liệu](#02-extract) — **4**
-- [Agent lập trình](#03-coding) — **50**
+- [Agent lập trình](#03-coding) — **51**
 - [Agent runtime / bot đa kênh](#04-agent-runtime) — **16**
 - [MCP — gắn tool vào AI coding assistant](#05-mcp) — **55**
 - [Skill / prompt / guideline](#06-skills) — **54**
@@ -126,6 +126,7 @@
 | **Codex Pets & coding-agent companions** | Bookmarks | `coding-agent` `desktop` `cli` | Cộng đồng làm companion nhỏ (pixel / animation) gắn UI coding agent — chủ yếu OpenAI Codex app. | [codex-pets.md](technologies/bookmarks/codex-pets.md) |
 | **DeerFlow** | MCP & AI Agents | `agent` `skill` `coding-agent` `self-host` `workflow` `mcp` | DeerFlow ( Deep Exploration and Efficient Research Flow ) — OSS super agent harness (ByteDance): research · code · create trên … | [deer-flow.md](technologies/mcp-ai-agents/deer-flow.md) |
 | **Easy-Vibe** | MCP & AI Agents | `coding-agent` `skill` `prompt` `workflow` | Easy-Vibe (Datawhale) là khóa học vibe coding từ số 0: ý tưởng → prototype → full-stack → deploy/payment. | [easy-vibe.md](technologies/mcp-ai-agents/easy-vibe.md) |
+| **ECC** | MCP & AI Agents | `coding-agent` `skill` `memory` `guardrail` `mcp` `cli` `workflow` | ECC là agent harness OS: plan → test → implement → review → memory; 67 agents, 281 skills, AgentShield; Claude Code, Codex, Cursor… | [ecc.md](technologies/mcp-ai-agents/ecc.md) |
 | **ghgrab** | MCP & AI Agents | `cli` `coding-agent` `self-host` | ghgrab — TUI/CLI browse + download file/folder từ GitHub · GitLab · Codeberg · Gitea · Forgejo mà không git clone toàn repo. | [ghgrab.md](technologies/mcp-ai-agents/ghgrab.md) |
 | **Gitingest** | MCP & AI Agents | `cli` `coding-agent` `rag` `self-host` | Gitingest biến bất kỳ Git repo / thư mục thành text digest thân thiện LLM: cấu trúc file, size, token count. | [gitingest.md](technologies/mcp-ai-agents/gitingest.md) |
 | **GitReverse** | MCP & AI Agents | `coding-agent` `prompt` `self-host` | GitReverse — “reverse engineer” public GitHub repo thành một user prompt tổng hợp (kiểu paste vào Cursor / Claude Code / Codex … | [gitreverse.md](technologies/mcp-ai-agents/gitreverse.md) |
