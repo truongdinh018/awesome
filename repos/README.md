@@ -1,6 +1,6 @@
 # Starred Repos — Index
 
-> **318 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-08-02**  
+> **319 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-08-02**  
 > Đây là bảng master: mỗi dòng = 1 repo đã star + link bài `technologies/<domain>/<slug>.md`.
 > **Primary** = 1 trong 7 domain · **Tags** = nhiều capability.
 > Duyệt subgroup: [../categories/README.md](../categories/README.md) · Hub / checklist: [../README.md](../README.md) · Viết bài: [../technologies/WRITING.md](../technologies/WRITING.md)
@@ -325,6 +325,7 @@
 | 316 | [oraios/serena](https://github.com/oraios/serena) | 27.4k | Python | MCP & AI Agents | `agent` `mcp` `cli` | [serena.md](../technologies/mcp-ai-agents/serena.md) |
 | 317 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 26.1k | Python | MCP & AI Agents | `agent` `mcp` `rag` `cli` | [haystack.md](../technologies/mcp-ai-agents/haystack.md) |
 | 318 | [vercel/ai](https://github.com/vercel/ai) | 26.0k | TypeScript | MCP & AI Agents | `agent` `cli` | [ai.md](../technologies/mcp-ai-agents/ai.md) |
+| 319 | [firecrawl/pdf-inspector](https://github.com/firecrawl/pdf-inspector) | 10.0k | Rust | DevTools | `pdf` `cli` `ocr` `self-host` | [pdf-inspector.md](../technologies/devtools/pdf-inspector.md) |
 
 
 ## Ecosystem — CLI-Anything harnesses (con của #16)

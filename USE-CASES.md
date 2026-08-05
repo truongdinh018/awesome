@@ -29,7 +29,7 @@
 - [UI / web → code](#13-ui2code) — **4**
 - [Tự động hóa trình duyệt (computer-use)](#14-browser) — **17**
 - [Thị giác máy & edge/IoT](#15-cv) — **9**
-- [PDF, OCR, tài liệu văn phòng](#16-pdf-ocr) — **24**
+- [PDF, OCR, tài liệu văn phòng](#16-pdf-ocr) — **25**
 - [Thông báo & cầu nối chat](#17-notify) — **7**
 - [Workflow / automation glue](#18-workflow) — **17**
 - [Bảo mật & pentest](#19-security) — **7**
@@ -536,6 +536,7 @@
 | **Nanonets-OCR2** | DevTools | `ocr` `pdf` `self-host` `api` | Nanonets-OCR2-3B là VLM ( Vision Language Model ) biến ảnh tài liệu thành Markdown có cấu trúc. | [nanonets-ocr2.md](technologies/devtools/nanonets-ocr2.md) |
 | **OfficeCLI** | DevTools | `cli` `office` `skill` `coding-agent` `workspace` | OfficeCLI là suite đọc / sửa / tạo file Word (.docx), Excel (.xlsx), PowerPoint (.pptx) qua CLI — không cần cài Microsoft Office. | [officecli.md](technologies/devtools/officecli.md) |
 | **OpenResume** | DevTools | `pdf` `self-host` | OpenResume là resume builder + parser mã nguồn mở: PDF modern ATS-friendly, cập nhật UI realtime, import PDF sẵn có. | [open-resume.md](technologies/devtools/open-resume.md) |
+| **PDF Inspector** | DevTools | `pdf` `cli` `ocr` `self-host` | PDF Inspector (Firecrawl) là thư viện Rust nhanh: classify PDF (text/scanned/mixed), extract text có vị trí, convert Markdown — không OCR; route OCR khi cần. | [pdf-inspector.md](technologies/devtools/pdf-inspector.md) |
 | **PPT Master** | MCP & AI Agents | `skill` `office` `cli` `coding-agent` `workflow` | PPT Master là workflow / Agent Skill chạy trong AI IDE (Claude Code, Cursor, Copilot…): đưa PDF / DOCX / web / text → sinh file… | [ppt-master.md](technologies/mcp-ai-agents/ppt-master.md) |
 | **ProtonX Legal Text Correction** | DevTools | `ocr` `self-host` `cli` | protonx-legal-tc (v1.3.1) là model sửa lỗi chữ tiếng Việt chuyên pháp lý / enterprise: chuẩn hóa output OCR (PaddleOCR…), diacr… | [protonx-legal-tc.md](technologies/devtools/protonx-legal-tc.md) |
 | **Stirling-PDF** | DevTools | `pdf` `ocr` `self-host` `api` | Stirling-PDF là nền tảng chỉnh sửa / xử lý PDF self-host ( 1 PDF app trên GitHub theo mô tả repo). | [stirling-pdf.md](technologies/devtools/stirling-pdf.md) |
