@@ -60,3 +60,13 @@ npm run build:pages
 - Tạo bài: `site/scripts/create-trending-articles.mjs`
 - Docs: `data/trending/README.md`
 - Thiết lập automation UI: `data/trending/CURSOR-AUTOMATION.md`
+
+## Cursor Cloud specific instructions
+
+Toàn bộ ứng dụng chạy được nằm trong `site/` (Vite 6 + React 19 + TypeScript, Node 22, package manager **npm**). Dependencies được cài sẵn qua update script (`npm ci` trong `site/`).
+
+- **Chạy dev server:** `cd site && npm run dev` → http://localhost:5177. Port cố định (`strictPort: true` trong `vite.config.ts`); nếu 5177 bận thì Vite fail thay vì đổi port — hãy giải phóng port đó bằng PID cụ thể.
+- **Lint/typecheck:** không có ESLint riêng; type check là `npx tsc -b` trong `site/` (`npm run build` cũng chạy `tsc -b` trước khi `vite build`).
+- **Build:** `npm run build` (static) hoặc `npm run build:pages` (base `/awesome/` cho GitHub Pages).
+- **API chỉ có ở dev:** plugin `site/vite-plugin-md-api.ts` expose `/api/catalog`, `/api/tree`, `/api/file` (GET/PUT) đọc/ghi Markdown từ thư mục gốc repo (`..`). Nút **Sửa/Lưu** trong UI ghi thẳng file `.md` xuống đĩa — chỉ hoạt động ở `npm run dev`, KHÔNG có trong bản build tĩnh. Khi test edit/save, nhớ `git checkout -- <file>` để revert thay đổi thử nghiệm.
+- **Search ngữ nghĩa (Semantic/Hybrid)** tải model embedding từ HuggingFace/jsDelivr CDN ở lần dùng đầu tiên (cần internet). Duyệt catalog, đọc bài và search từ khoá hoạt động offline nhờ `site/public/data/search.sqlite` đã commit sẵn.
