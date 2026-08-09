@@ -97,6 +97,7 @@ Lịch sử thêm ★ / bookmark / cấu trúc catalog (mới nhất trên cùng
 *2026-08-02 — 313 ★ · thêm OmniRoute (`diegosouzapw/OmniRoute`) từ trending*
 *2026-08-02 — 312 ★ · thêm UI TARS Desktop (`bytedance/UI-TARS-desktop`) từ trending*
 *2026-08-02 — 311 ★ · thêm Faceswap (`deepfakes/faceswap`) từ trending*
+*2026-08-18 — 328 ★ · thêm bài W32 còn thiếu: Minimind, Agents, SpaCy, Happy LLM, Resume Matcher*
 *2026-08-16 — 320 ★ · thêm Blender Mcp (`ahujasid/blender-mcp`) từ trending*
 *2026-08-16 — 319 ★ · thêm Xgboost (`dmlc/xgboost`) từ trending*
 *2026-08-16 — 318 ★ · thêm H4cker (`The-Art-of-Hacking/h4cker`) từ trending*

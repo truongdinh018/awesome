@@ -1,6 +1,6 @@
 # Starred Repos — Index
 
-> **323 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-08-18**  
+> **328 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-08-18**  
 > Đây là bảng master: mỗi dòng = 1 repo đã star + link bài `technologies/<domain>/<slug>.md`.
 > **Primary** = 1 trong 7 domain · **Tags** = nhiều capability.
 > Duyệt subgroup: [../categories/README.md](../categories/README.md) · Hub / checklist: [../README.md](../README.md) · Viết bài: [../technologies/WRITING.md](../technologies/WRITING.md)
@@ -330,6 +330,11 @@
 | 321 | [The-Art-of-Hacking/h4cker](https://github.com/The-Art-of-Hacking/h4cker) | 29.0k | Jupyter Notebook | Security | `agent` | [h4cker.md](../technologies/security/h4cker.md) |
 | 322 | [dmlc/xgboost](https://github.com/dmlc/xgboost) | 28.7k | C++ | DevTools | `agent` | [xgboost.md](../technologies/devtools/xgboost.md) |
 | 323 | [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp) | 25.9k | Python | MCP & AI Agents | `agent` `mcp` `cli` | [blender-mcp.md](../technologies/mcp-ai-agents/blender-mcp.md) |
+| 324 | [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | 54.5k | Python | MCP & AI Agents | `agent` `cli` | [minimind.md](../technologies/mcp-ai-agents/minimind.md) |
+| 325 | [wshobson/agents](https://github.com/wshobson/agents) | 38.7k | Python | MCP & AI Agents | `agent` `workflow` `mcp` `cli` | [agents.md](../technologies/mcp-ai-agents/agents.md) |
+| 326 | [explosion/spaCy](https://github.com/explosion/spaCy) | 33.8k | Python | DevTools | `agent` `cli` | [spacy.md](../technologies/devtools/spacy.md) |
+| 327 | [datawhalechina/happy-llm](https://github.com/datawhalechina/happy-llm) | 32.8k | Jupyter Notebook | MCP & AI Agents | `agent` `rag` | [happy-llm.md](../technologies/mcp-ai-agents/happy-llm.md) |
+| 328 | [srbhr/Resume-Matcher](https://github.com/srbhr/Resume-Matcher) | 28.1k | TypeScript | MCP & AI Agents | `agent` `cli` | [resume-matcher.md](../technologies/mcp-ai-agents/resume-matcher.md) |
 
 
 ## Ecosystem — CLI-Anything harnesses (con của #16)
