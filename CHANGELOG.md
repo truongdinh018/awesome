@@ -94,6 +94,14 @@ Lịch sử thêm ★ / bookmark / cấu trúc catalog (mới nhất trên cùng
 *2026-08-02 — 313 ★ · thêm OmniRoute (`diegosouzapw/OmniRoute`) từ trending*
 *2026-08-02 — 312 ★ · thêm UI TARS Desktop (`bytedance/UI-TARS-desktop`) từ trending*
 *2026-08-02 — 311 ★ · thêm Faceswap (`deepfakes/faceswap`) từ trending*
+*2026-08-09 — 315 ★ · thêm Blender Mcp (`MCPBlender/blender-mcp`) từ trending*
+*2026-08-09 — 314 ★ · thêm Resume Matcher (`srbhr/Resume-Matcher`) từ trending*
+*2026-08-09 — 313 ★ · thêm Xgboost (`dmlc/xgboost`) từ trending*
+*2026-08-09 — 312 ★ · thêm Happy Llm (`datawhalechina/happy-llm`) từ trending*
+*2026-08-09 — 311 ★ · thêm SpaCy (`explosion/spaCy`) từ trending*
+*2026-08-09 — 310 ★ · thêm Agents (`wshobson/agents`) từ trending*
+*2026-08-09 — 309 ★ · thêm Kong (`Kong/kong`) từ trending*
+*2026-08-09 — 308 ★ · thêm Minimind (`jingyaogong/minimind`) từ trending*
 
 *2026-07-27 — 226 ★ · thêm Open Interpreter (`openinterpreter/openinterpreter`)*
 

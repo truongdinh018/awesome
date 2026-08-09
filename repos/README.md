@@ -1,6 +1,6 @@
 # Starred Repos — Index
 
-> **307 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-08-01**  
+> **315 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-08-01**  
 > Đây là bảng master: mỗi dòng = 1 repo đã star + link bài `technologies/<domain>/<slug>.md`.
 > **Primary** = 1 trong 7 domain · **Tags** = nhiều capability.
 > Duyệt subgroup: [../categories/README.md](../categories/README.md) · Hub / checklist: [../README.md](../README.md) · Viết bài: [../technologies/WRITING.md](../technologies/WRITING.md)
@@ -314,6 +314,14 @@
 | 305 | [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | 28.3k | Go | MCP & AI Agents | `agent` `cli` `coding-agent` | [deepseek-reasonix.md](../technologies/mcp-ai-agents/deepseek-reasonix.md) |
 | 306 | [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) | 27.7k | Python | Image & Video | `image-gen` `cli` | [invokeai.md](../technologies/image-video/invokeai.md) |
 | 307 | [go-vikunja/app](https://github.com/go-vikunja/app) | 577 | Dart | DevTools | `self-host` `desktop` `workspace` `api` `workflow` | [vikunja-app.md](../technologies/devtools/vikunja-app.md) |
+| 308 | [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | 54.5k | Python | MCP & AI Agents | `agent` `cli` | [minimind.md](../technologies/mcp-ai-agents/minimind.md) |
+| 309 | [Kong/kong](https://github.com/Kong/kong) | 44.0k | Lua | MCP & AI Agents | `docker` `mcp` | [kong.md](../technologies/mcp-ai-agents/kong.md) |
+| 310 | [wshobson/agents](https://github.com/wshobson/agents) | 38.7k | Python | MCP & AI Agents | `agent` `workflow` `mcp` `cli` | [agents.md](../technologies/mcp-ai-agents/agents.md) |
+| 311 | [explosion/spaCy](https://github.com/explosion/spaCy) | 33.8k | Python | DevTools | `agent` `cli` | [spacy.md](../technologies/devtools/spacy.md) |
+| 312 | [datawhalechina/happy-llm](https://github.com/datawhalechina/happy-llm) | 32.8k | Jupyter Notebook | MCP & AI Agents | `agent` `rag` | [happy-llm.md](../technologies/mcp-ai-agents/happy-llm.md) |
+| 313 | [dmlc/xgboost](https://github.com/dmlc/xgboost) | 28.6k | C++ | DevTools | `agent` | [xgboost.md](../technologies/devtools/xgboost.md) |
+| 314 | [srbhr/Resume-Matcher](https://github.com/srbhr/Resume-Matcher) | 28.1k | TypeScript | MCP & AI Agents | `agent` `cli` | [resume-matcher.md](../technologies/mcp-ai-agents/resume-matcher.md) |
+| 315 | [MCPBlender/blender-mcp](https://github.com/MCPBlender/blender-mcp) | 25.7k | Python | MCP & AI Agents | `agent` `mcp` `cli` | [blender-mcp.md](../technologies/mcp-ai-agents/blender-mcp.md) |
 
 
 ## Ecosystem — CLI-Anything harnesses (con của #16)

@@ -1,5 +1,5 @@
 {
-  "indexedAt": "2026-08-05T09:09:31.135Z",
+  "indexedAt": "2026-08-09T23:04:54.988Z",
   "model": "Xenova/multilingual-e5-small",
   "articles": {
     "technologies/bookmarks/codex-pets.md": {
@@ -1467,7 +1467,7 @@
       "contentUpdatedAt": "2026-08-01T04:02:26.946Z"
     },
     "technologies/mcp-ai-agents/ecc.md": {
-      "status": "updated",
+      "status": "current",
       "contentHash": "4707b047ce50eeb33986164c27b91b7e700a6290f68add8d2673c67c42cc3097",
       "firstSeenAt": "2026-08-01T04:02:26.946Z",
       "contentUpdatedAt": "2026-08-05T09:09:31.135Z"
@@ -1993,6 +1993,54 @@
       "contentHash": "aea1e2e1536ed739b7d34b2a45b7ea56e799c58092581c0e1e56e6e716d41d5d",
       "firstSeenAt": "2026-08-02T23:04:02.466Z",
       "contentUpdatedAt": "2026-08-02T23:04:02.466Z"
+    },
+    "technologies/devtools/spacy.md": {
+      "status": "new",
+      "contentHash": "bcc563064b67db4a164de091e7c4dec23b88336cbb732187c2203a88d6ec2277",
+      "firstSeenAt": "2026-08-09T23:04:54.988Z",
+      "contentUpdatedAt": "2026-08-09T23:04:54.988Z"
+    },
+    "technologies/devtools/xgboost.md": {
+      "status": "new",
+      "contentHash": "08b9da739c38169273c3c22c7aa323201b45d405a4d7f4456bf869f3c388bbdf",
+      "firstSeenAt": "2026-08-09T23:04:54.988Z",
+      "contentUpdatedAt": "2026-08-09T23:04:54.988Z"
+    },
+    "technologies/mcp-ai-agents/agents.md": {
+      "status": "new",
+      "contentHash": "4d99c0e9e6d91f04b4547e283b4fac734350dba42780685a0fabb10ee63987cc",
+      "firstSeenAt": "2026-08-09T23:04:54.988Z",
+      "contentUpdatedAt": "2026-08-09T23:04:54.988Z"
+    },
+    "technologies/mcp-ai-agents/blender-mcp.md": {
+      "status": "new",
+      "contentHash": "8dfc907c680c7569461519704212a4f8834c1f5e2b1a057f65e5e001a9d84b01",
+      "firstSeenAt": "2026-08-09T23:04:54.988Z",
+      "contentUpdatedAt": "2026-08-09T23:04:54.988Z"
+    },
+    "technologies/mcp-ai-agents/happy-llm.md": {
+      "status": "new",
+      "contentHash": "750f372430cab7cb898f3521745d6137c77df9b2ffc9b0abf8dcbaa393715e5f",
+      "firstSeenAt": "2026-08-09T23:04:54.988Z",
+      "contentUpdatedAt": "2026-08-09T23:04:54.988Z"
+    },
+    "technologies/mcp-ai-agents/kong.md": {
+      "status": "new",
+      "contentHash": "bcb265004181c859e7011d7426a57fb98a8a0acfef6e854c03b2483611c29f9e",
+      "firstSeenAt": "2026-08-09T23:04:54.988Z",
+      "contentUpdatedAt": "2026-08-09T23:04:54.988Z"
+    },
+    "technologies/mcp-ai-agents/minimind.md": {
+      "status": "new",
+      "contentHash": "56667577ae637656646eef21bfbb5f2af6c181aff972da1e40123f38e7abac9e",
+      "firstSeenAt": "2026-08-09T23:04:54.988Z",
+      "contentUpdatedAt": "2026-08-09T23:04:54.988Z"
+    },
+    "technologies/mcp-ai-agents/resume-matcher.md": {
+      "status": "new",
+      "contentHash": "f9b376b0858604679f841433e4cefa408096df17175d68101f9ae1244308b8a5",
+      "firstSeenAt": "2026-08-09T23:04:54.988Z",
+      "contentUpdatedAt": "2026-08-09T23:04:54.988Z"
     }
   }
 }
