@@ -22,15 +22,15 @@
 
 | # | Primary | ★ | Mục đích ngắn |
 |---|---------|---|----------------|
-| 1 | [MCP & AI Agents](#1-mcp--ai-agents) | 80 | MCP, RAG, agent, skill |
+| 1 | [MCP & AI Agents](#1-mcp--ai-agents) | 136 | MCP, RAG, agent, skill |
 | 2 | [Speech & Audio](#2-speech--audio) | 20 | STT / TTS / voice |
-| 3 | [Image & Video](#3-image--video) | 29 | Gen ảnh/video, NLE |
+| 3 | [Image & Video](#3-image--video) | 31 | Gen ảnh/video, NLE |
 | 4 | [UI Automation](#4-ui-automation--computer-use) | 8 | Browser / computer-use |
-| 5 | [CV & Edge](#5-computer-vision--edge) | 9 | Vision, IoT, edge |
-| 6 | [DevTools](#6-devtools--integration) | 80 | OCR, gateway, office, train, self-host |
+| 5 | [CV & Edge](#5-computer-vision--edge) | 11 | Vision, IoT, edge |
+| 6 | [DevTools](#6-devtools--integration) | 101 | OCR, gateway, office, train, self-host |
 | 7 | [Security](#7-security--pentesting) | 4 | Pentest, OSINT, guardrail |
 
-**Tổng = 310 ★** (+ 11 CLI-Anything harnesses)
+**Tổng = 311 ★** (+ 11 CLI-Anything harnesses)
 
 ---
 
@@ -66,6 +66,7 @@
 | **Docmost** | `rag` `self-host` `api` `workspace` | [docmost.md](../technologies/mcp-ai-agents/docmost.md) |
 | **OpenHuman** | `rag` `agent` `mcp` `self-host` `desktop` `workflow` `skill` | [openhuman.md](../technologies/mcp-ai-agents/openhuman.md) |
 | **SurfSense** | `rag` `agent` `mcp` `self-host` `api` `workflow` | [surfsense.md](../technologies/mcp-ai-agents/surfsense.md) |
+| **txtai** | `rag` `agent` `mcp` `self-host` `vector` | [txtai.md](../technologies/mcp-ai-agents/txtai.md) |
 | └ Obsidian harness | `harness` `rag` `cli` | [cli-anything/obsidian.md](../technologies/cli-anything/obsidian.md) |
 
 ### 1.3 Agent runtime
