@@ -28,7 +28,7 @@
 - [Sửa / tải / xem video (không gen)](#12-video-tools) — **14**
 - [UI / web → code](#13-ui2code) — **4**
 - [Tự động hóa trình duyệt (computer-use)](#14-browser) — **17**
-- [Thị giác máy & edge/IoT](#15-cv) — **9**
+- [Thị giác máy & edge/IoT](#15-cv) — **10**
 - [PDF, OCR, tài liệu văn phòng](#16-pdf-ocr) — **24**
 - [Thông báo & cầu nối chat](#17-notify) — **7**
 - [Workflow / automation glue](#18-workflow) — **17**
@@ -510,6 +510,7 @@
 | **RuView (WiFi DensePose)** | CV & Edge | `cv` `edge` `iot` `self-host` | RuView (π / WiFi DensePose) biến WiFi CSI từ ESP32 (hoặc NIC nghiên cứu) thành spatial intelligence : presence, pose/DensePose,… | [ruview.md](technologies/cv-edge/ruview.md) |
 | **Sesame Robot** | CV & Edge | `edge` `iot` `api` `self-host` | Sesame là project robot bốn chân mini open-source trên ESP32 (~$50–60 linh kiện + in 3D PLA): 8 servo MG90 (2/chân), OLED 128×6… | [sesame-robot.md](technologies/cv-edge/sesame-robot.md) |
 | **Supervision (Roboflow)** | CV & Edge | `cv` `cli` `self-host` `video` | Supervision là toolkit CV model-agnostic của Roboflow: nhận detection/classification/segmentation từ YOLO, Transformers, Infere… | [supervision.md](technologies/cv-edge/supervision.md) |
+| **UniFace** | CV & Edge | `cv` `self-host` `cli` | UniFace là thư viện Python gộp face analysis dưới một API: detection, recognition, tracking, landmarks, parsing, gaze, attributes, anti-spoofing (ONNX Runtime). | [uniface.md](technologies/cv-edge/uniface.md) |
 
 ---
 

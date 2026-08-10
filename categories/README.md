@@ -22,15 +22,15 @@
 
 | # | Primary | ★ | Mục đích ngắn |
 |---|---------|---|----------------|
-| 1 | [MCP & AI Agents](#1-mcp--ai-agents) | 80 | MCP, RAG, agent, skill |
+| 1 | [MCP & AI Agents](#1-mcp--ai-agents) | 135 | MCP, RAG, agent, skill |
 | 2 | [Speech & Audio](#2-speech--audio) | 20 | STT / TTS / voice |
-| 3 | [Image & Video](#3-image--video) | 29 | Gen ảnh/video, NLE |
+| 3 | [Image & Video](#3-image--video) | 31 | Gen ảnh/video, NLE |
 | 4 | [UI Automation](#4-ui-automation--computer-use) | 8 | Browser / computer-use |
-| 5 | [CV & Edge](#5-computer-vision--edge) | 9 | Vision, IoT, edge |
-| 6 | [DevTools](#6-devtools--integration) | 80 | OCR, gateway, office, train, self-host |
+| 5 | [CV & Edge](#5-computer-vision--edge) | 12 | Vision, IoT, edge |
+| 6 | [DevTools](#6-devtools--integration) | 101 | OCR, gateway, office, train, self-host |
 | 7 | [Security](#7-security--pentesting) | 4 | Pentest, OSINT, guardrail |
 
-**Tổng = 310 ★** (+ 11 CLI-Anything harnesses)
+**Tổng = 311 ★** (+ 11 CLI-Anything harnesses)
 
 ---
 
@@ -307,6 +307,9 @@
 | **RuView** | `cv` `edge` `iot` `self-host` | [ruview.md](../technologies/cv-edge/ruview.md) |
 | **LingBot-Map** | `cv` `self-host` `cli` `video` | [lingbot-map.md](../technologies/cv-edge/lingbot-map.md) |
 | **InsightFace** | `cv` `self-host` `cli` | [insightface.md](../technologies/cv-edge/insightface.md) |
+| **UniFace** | `cv` `self-host` `cli` | [uniface.md](../technologies/cv-edge/uniface.md) |
+| **MediaPipe** | `cv` `agent` `api` | [mediapipe.md](../technologies/cv-edge/mediapipe.md) |
+| **Ultralytics** | `cv` `agent` `cli` | [ultralytics.md](../technologies/cv-edge/ultralytics.md) |
 | **LocateAnything-3B** | `cv` `ocr` `self-host` `cli` | [locate-anything.md](../technologies/cv-edge/locate-anything.md) |
 | **Supervision** | `cv` `cli` `self-host` `video` | [supervision.md](../technologies/cv-edge/supervision.md) |
 | **Sesame Robot** | `edge` `iot` `api` `self-host` | [sesame-robot.md](../technologies/cv-edge/sesame-robot.md) |
