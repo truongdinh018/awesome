@@ -14,7 +14,7 @@
 
 ## Mục lục nhanh
 
-- [Hỏi đáp trên tài liệu / knowledge (RAG)](#01-rag) — **33**
+- [Hỏi đáp trên tài liệu / knowledge (RAG)](#01-rag) — **34**
 - [Cào web & extract dữ liệu](#02-extract) — **4**
 - [Agent lập trình](#03-coding) — **51**
 - [Agent runtime / bot đa kênh](#04-agent-runtime) — **16**
@@ -79,6 +79,7 @@
 | **Semble** | MCP & AI Agents | `mcp` `cli` `coding-agent` `rag` `self-host` | Semble là thư viện code search dành cho coding agents: hỏi NL ( "How is authentication handled?" ) → trả snippet đúng chỗ, clai… | [semble.md](technologies/mcp-ai-agents/semble.md) |
 | **SurfSense** | MCP & AI Agents | `rag` `agent` `mcp` `self-host` `api` `workflow` | SurfSense là NotebookLM for Competitive Intelligence : nền tảng OSS cho AI agents theo dõi thị trường với live connectors (Redd… | [surfsense.md](technologies/mcp-ai-agents/surfsense.md) |
 | **Trilium Notes** | MCP & AI Agents | `rag` `self-host` `desktop` `api` | Trilium Notes (TriliumNext) là app note knowledge base open-source, local-first: cây note sâu + clone, WYSIWYG/code, attributes… | [trilium.md](technologies/mcp-ai-agents/trilium.md) |
+| **txtai** | MCP & AI Agents | `rag` `agent` `mcp` `self-host` `vector` | txtai là framework AI all-in-one: semantic search, RAG, LLM orchestration, workflows và agents trên embeddings database (vector + graph + SQL); có HTTP API và MCP. | [txtai.md](technologies/mcp-ai-agents/txtai.md) |
 | **Understand Anything** | MCP & AI Agents | `skill` `coding-agent` `rag` `cli` `agent` | Understand Anything là plugin/skill biến codebase / docs / Karpathy-style LLM wiki thành interactive knowledge graph : explore,… | [understand-anything.md](technologies/mcp-ai-agents/understand-anything.md) |
 | **WeKnora** | MCP & AI Agents | `rag` `mcp` `agent` `self-host` `cli` `skill` | WeKnora (Tencent) là framework self-host tri thức LLM enterprise: RAG Q&A , ReAct Agent (orchestration retrieval + MCP + web se… | [weknora.md](technologies/mcp-ai-agents/weknora.md) |
 | **Án lệ TOAAN (anle-toaan-gov-vn)** | DevTools | `rag` `dataset` `self-host` | Corpus đa cấp bản án + án lệ Việt Nam: ~ 1,963 văn bản, hierarchy document → section → paragraph → sentence, markdown NFC chuẩn… | [anle-toaan.md](technologies/devtools/anle-toaan.md) |
