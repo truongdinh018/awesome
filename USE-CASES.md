@@ -39,7 +39,7 @@
 - [CLI-Anything harness (điều khiển app bằng agent)](#23-harness) — **12**
 - [3D / CAD / game engine](#24-3d) — **7**
 - [Watermark nội dung AI](#25-watermark) — **2**
-- [Sơ đồ / GIS / bản đồ](#26-diagram-gis) — **12**
+- [Sơ đồ / GIS / bản đồ](#26-diagram-gis) — **13**
 
 ---
 
@@ -750,6 +750,7 @@
 | **COBE** | DevTools | `gis` | COBE — lib WebGL globe siêu nhẹ (~5KB): markers, arcs, CSS Anchor Positioning cho label bindable. | [cobe.md](technologies/devtools/cobe.md) |
 | **Draw.io (CLI-Anything harness)** | CLI-Anything | `harness` `diagram` `cli` | Harness diagrams.net / Draw.io : agent sinh sơ đồ (vd. | [drawio.md](technologies/cli-anything/drawio.md) |
 | **drawio-skill** | MCP & AI Agents | `skill` `diagram` `cli` | drawio-skill là Agent Skill biến mô tả ngôn ngữ tự nhiên (và codebase / infra / ảnh) thành file .drawio + export PNG/SVG/PDF/JP… | [drawio-skill.md](technologies/mcp-ai-agents/drawio-skill.md) |
+| **drawDB** | DevTools | `diagram` `self-host` `browser` | drawDB là editor ERD trong browser: vẽ schema DB, export/import SQL, generate migration; PostgreSQL, MySQL, SQLite, Oracle… | [drawdb.md](technologies/devtools/drawdb.md) |
 | **FossFLOW** | DevTools | `diagram` `self-host` | FossFLOW — PWA vẽ sơ đồ isometric (network/infra): drag node, connector multiplex, export/import JSON, offline; Docker self-hos… | [fossflow.md](technologies/devtools/fossflow.md) |
 | **FreeLLMAPI** | DevTools | `api` `self-host` `mcp` `desktop` | FreeLLMAPI là proxy tương thích OpenAI ( OpenAI-compatible ) gom free tier của ~16+ LLM provider (~1.7B tokens/tháng theo READM… | [freellmapi.md](technologies/devtools/freellmapi.md) |
 | **LingBot-Map** | CV & Edge | `cv` `self-host` `cli` `video` | LingBot-Map (Robbyant) là feed-forward 3D foundation model cho streaming 3D reconstruction : video / frame stream → pose + geom… | [lingbot-map.md](technologies/cv-edge/lingbot-map.md) |

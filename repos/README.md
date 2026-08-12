@@ -1,6 +1,6 @@
 # Starred Repos — Index
 
-> **311 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-08-10**  
+> **312 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-08-12**  
 > Đây là bảng master: mỗi dòng = 1 repo đã star + link bài `technologies/<domain>/<slug>.md`.
 > **Primary** = 1 trong 7 domain · **Tags** = nhiều capability.
 > Duyệt subgroup: [../categories/README.md](../categories/README.md) · Hub / checklist: [../README.md](../README.md) · Viết bài: [../technologies/WRITING.md](../technologies/WRITING.md)
@@ -318,6 +318,7 @@
 | 309 | [go-vikunja/vikunja](https://github.com/go-vikunja/vikunja) | 5.0k | Go | DevTools | `self-host` `api` `workspace` `workflow` | [vikunja.md](../technologies/devtools/vikunja.md) |
 | 310 | [yc-software/qm](https://github.com/yc-software/qm) | 12.8k | TypeScript | MCP & AI Agents | `agent` `coding-agent` `self-host` `workflow` `chatbot` `skill` | [qm.md](../technologies/mcp-ai-agents/qm.md) |
 | 311 | [neuml/txtai](https://github.com/neuml/txtai) | 12.8k | Python | MCP & AI Agents | `rag` `agent` `mcp` `self-host` `vector` | [txtai.md](../technologies/mcp-ai-agents/txtai.md) |
+| 312 | [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) | 38.9k | JavaScript | DevTools | `diagram` `self-host` `browser` | [drawdb.md](../technologies/devtools/drawdb.md) |
 
 
 ## Ecosystem — CLI-Anything harnesses (con của #16)

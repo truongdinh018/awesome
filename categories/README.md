@@ -27,10 +27,10 @@
 | 3 | [Image & Video](#3-image--video) | 31 | Gen ảnh/video, NLE |
 | 4 | [UI Automation](#4-ui-automation--computer-use) | 8 | Browser / computer-use |
 | 5 | [CV & Edge](#5-computer-vision--edge) | 11 | Vision, IoT, edge |
-| 6 | [DevTools](#6-devtools--integration) | 101 | OCR, gateway, office, train, self-host |
+| 6 | [DevTools](#6-devtools--integration) | 102 | OCR, gateway, office, train, self-host |
 | 7 | [Security](#7-security--pentesting) | 4 | Pentest, OSINT, guardrail |
 
-**Tổng = 311 ★** (+ 11 CLI-Anything harnesses)
+**Tổng = 312 ★** (+ 11 CLI-Anything harnesses)
 
 ---
 
@@ -395,6 +395,7 @@
 | **drawio-skill** | `skill` `diagram` `cli` *(Primary §1.4)* | [drawio-skill.md](../technologies/mcp-ai-agents/drawio-skill.md) |
 | └ Draw.io · n8n · ArcGIS harnesses | `harness` … | [cli-anything/](../technologies/cli-anything/README.md) |
 | **FossFLOW** | `diagram` `self-host` | [fossflow.md](../technologies/devtools/fossflow.md) |
+| **drawDB** | `diagram` `self-host` `browser` | [drawdb.md](../technologies/devtools/drawdb.md) |
 | **n8n-workflows** | `workflow` `self-host` `dataset` | [n8n-workflows.md](../technologies/devtools/n8n-workflows.md) |
 | **System Design 101** | `diagram` `dataset` | [system-design-101.md](../technologies/devtools/system-design-101.md) |
 | **Appsmith** | `self-host` `api` `workspace` `workflow` `browser` `docker` | [appsmith.md](../technologies/devtools/appsmith.md) |
