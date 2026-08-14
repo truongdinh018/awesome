@@ -12,7 +12,7 @@
 
 ⚠️ Chỉ dùng thử cá nhân — tuân thủ ToS từng provider; **không** cho production SaaS / multi-tenant.
 
-**Cùng kiểu:** [Headroom](../mcp-ai-agents/headroom.md) (context compression proxy), [Models.dev](models-dev.md) (catalog pricing/specs), [LocalAI](localai.md) (local multi-modal engine), [Hermes](../mcp-ai-agents/hermes-agent.md) / Continue (clients trỏ `base_url`).
+**Cùng kiểu:** [9Router](9router.md) / [OmniRoute](omniroute.md) / [CLIProxyAPI](cliproxyapi.md) (local AI gateway), [Headroom](../mcp-ai-agents/headroom.md) (context compression proxy), [Models.dev](models-dev.md) (catalog pricing/specs), [LocalAI](localai.md) (local multi-modal engine), [Hermes](../mcp-ai-agents/hermes-agent.md) / Continue (clients trỏ `base_url`).
 
 ## Dùng khi nào?
 
@@ -35,11 +35,11 @@ Dashboard → Keys → Fallback Chain → lấy unified key `freellmapi-…`. St
 
 ## So với tool khác
 
-| | FreeLLMAPI | Headroom | AnythingLLM |
-|--|------------|----------|-------------|
-| Niche | Free-tier LLM gateway | Context compress | Full RAG workspace |
-| OpenAI `/v1` | ✅ primary | proxy layer | app embed |
-| Tags | `api` `mcp` `desktop` | `mcp` `cli` `agent` | `rag` `desktop` |
+| | FreeLLMAPI | 9Router / OmniRoute | CLIProxyAPI |
+|--|------------|---------------------|-------------|
+| Niche | Free-tier LLM gateway | Multi-provider local gateway | CLI OAuth → API |
+| OpenAI `/v1` | ✅ primary | ✅ | ✅ |
+| Tags | `api` `mcp` `desktop` | `gateway` `desktop` / `mcp` | `gateway` `cli` |
 
 ## Dùng với Odoo / ai_core
 
@@ -51,4 +51,4 @@ Dashboard → Keys → Fallback Chain → lấy unified key `freellmapi-…`. St
 
 - Repo: https://github.com/tashfeenahmed/freellmapi  
 - Site / models: https://freellmapi.co · https://freellmapi.co/models  
-- Peers: [headroom.md](../mcp-ai-agents/headroom.md) · [hermes-agent.md](../mcp-ai-agents/hermes-agent.md) · [localai.md](localai.md) · [models-dev.md](models-dev.md)
+- Peers: [9router.md](9router.md) · [omniroute.md](omniroute.md) · [cliproxyapi.md](cliproxyapi.md) · [headroom.md](../mcp-ai-agents/headroom.md) · [hermes-agent.md](../mcp-ai-agents/hermes-agent.md) · [localai.md](localai.md) · [models-dev.md](models-dev.md)

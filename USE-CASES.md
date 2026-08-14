@@ -18,7 +18,7 @@
 - [Cào web & extract dữ liệu](#02-extract) — **4**
 - [Agent lập trình](#03-coding) — **51**
 - [Agent runtime / bot đa kênh](#04-agent-runtime) — **16**
-- [MCP — gắn tool vào AI coding assistant](#05-mcp) — **55**
+- [MCP — gắn tool vào AI coding assistant](#05-mcp) — **56**
 - [Skill / prompt / guideline](#06-skills) — **54**
 - [Memory dài hạn cho agent](#07-memory) — **4**
 - [An toàn lệnh & governance](#08-guardrail) — **2**
@@ -33,7 +33,7 @@
 - [Thông báo & cầu nối chat](#17-notify) — **7**
 - [Workflow / automation glue](#18-workflow) — **17**
 - [Bảo mật & pentest](#19-security) — **7**
-- [Hạ tầng chạy LLM (gateway / inference / train)](#20-llm-infra) — **11**
+- [Hạ tầng chạy LLM (gateway / inference / train)](#20-llm-infra) — **14**
 - [DB / storage / file browser](#21-data) — **5**
 - [Năng suất & self-host tiện ích](#22-productivity) — **32**
 - [CLI-Anything harness (điều khiển app bằng agent)](#23-harness) — **12**
@@ -228,6 +228,7 @@
 | **LocalAI** | DevTools | `api` `self-host` `mcp` `agent` `stt` `tts` | LocalAI là engine AI mã nguồn mở: chạy LLM, nhìn ảnh ( vision ), giọng nói, tạo ảnh / video trên phần cứng của bạn (CPU cũng đư… | [localai.md](technologies/devtools/localai.md) |
 | **Maths, CS & AI Compendium** | MCP & AI Agents | `prompt` `mcp` `skill` `rag` `cli` | Maths, CS & AI Compendium là sách giáo khoa mở (intuition-first): toán → ML → NLP/CV/speech/multimodal → hệ thống / GPU / infer… | [maths-cs-ai-compendium.md](technologies/mcp-ai-agents/maths-cs-ai-compendium.md) |
 | **NotebookLM MCP** | MCP & AI Agents | `mcp` `rag` | NotebookLM MCP là MCP server nối AI agent (Claude Code, Codex, Cursor…) với Google NotebookLM. | [notebooklm-mcp.md](technologies/mcp-ai-agents/notebooklm-mcp.md) |
+| **OmniRoute** | DevTools | `api` `self-host` `gateway` `mcp` `desktop` `docker` `agent` | OmniRoute là AI gateway self-host: hàng trăm provider/model, nhiều strategy routing, RTK+Caveman, MCP/A2A, dashboard. | [omniroute.md](technologies/devtools/omniroute.md) |
 | **OpenHuman** | MCP & AI Agents | `rag` `agent` `mcp` `self-host` `desktop` `workflow` | OpenHuman là personal AI super intelligence local-first gồm ba phần: (1) brain — memory tree / Obsidian-style wiki từ email·cal… | [openhuman.md](technologies/mcp-ai-agents/openhuman.md) |
 | **Open Interpreter** | MCP & AI Agents | `coding-agent` `agent` `cli` `skill` `mcp` `computer-use` | Open Interpreter là coding agent tối ưu cho open / low-cost models (Kimi K3, DeepSeek, Qwen…): fork Rust của Codex, TUI, harness… | [openinterpreter.md](technologies/mcp-ai-agents/openinterpreter.md) |
 | **OpenSpace** | MCP & AI Agents | `skill` `agent` `mcp` `cli` `self-host` `coding-agent` | OpenSpace — quality-first skill hub cho AI agents: self-evolve skill (auto-fix / improve / learn từ task thật), share skill clo… | [openspace.md](technologies/mcp-ai-agents/openspace.md) |
@@ -616,14 +617,17 @@
 
 | Công nghệ | Domain | Tags | Dùng để (tóm tắt) | Bài |
 |-----------|--------|------|-------------------|-----|
+| **9Router** | DevTools | `api` `self-host` `gateway` `desktop` `docker` `cli` | 9Router là local AI gateway gom nhiều provider vào một endpoint OpenAI-compatible, fallback Subscription→Cheap→Free, RTK tiết kiệm token. | [9router.md](technologies/devtools/9router.md) |
 | **AirLLM** | DevTools | `self-host` `cli` `api` | AirLLM là thư viện suy luận LLM lớn trên GPU nhỏ bằng cách chỉ giữ một layer trên VRAM (load layer-wise từ disk), không bắt buộ… | [airllm.md](technologies/devtools/airllm.md) |
 | **Cake** | DevTools | `api` `self-host` `cli` `tts` `image-gen` `edge` | Cake là máy chủ chạy mô hình AI viết bằng Rust ( inference server ). | [cake.md](technologies/devtools/cake.md) |
+| **CLIProxyAPI** | DevTools | `api` `self-host` `gateway` `cli` `docker` | CLIProxyAPI biến Claude Code / Codex / Gemini CLI thành API local tương thích OpenAI/Anthropic — binary Go nhẹ, multi-account. | [cliproxyapi.md](technologies/devtools/cliproxyapi.md) |
 | **exo** | DevTools | `self-host` `api` `cli` `desktop` | exo (exo labs) nối nhiều máy thành một cụm ( cluster ) để chạy mô hình AI lớn hơn mức một máy chịu nổi. | [exo.md](technologies/devtools/exo.md) |
 | **FreeLLMAPI** | DevTools | `api` `self-host` `mcp` `desktop` | FreeLLMAPI là proxy tương thích OpenAI ( OpenAI-compatible ) gom free tier của ~16+ LLM provider (~1.7B tokens/tháng theo READM… | [freellmapi.md](technologies/devtools/freellmapi.md) |
 | **LLM Checker** | DevTools | `cli` `mcp` `self-host` | LLM Checker — CLI (và MCP) quét phần cứng rồi recommend model LLM/sLLM local phù hợp (Ollama + registry HF/Ollama/GPT4All, scor… | [llm-checker.md](technologies/devtools/llm-checker.md) |
 | **llmfit** | DevTools | `cli` `desktop` `self-host` `skill` | llmfit — CLI/TUI (và desktop) right-size model LLM theo RAM/CPU/GPU: detect phần cứng, score Quality/Speed/Fit/Context, gợi ý m… | [llmfit.md](technologies/devtools/llmfit.md) |
 | **LocalAI** | DevTools | `api` `self-host` `mcp` `agent` `stt` `tts` | LocalAI là engine AI mã nguồn mở: chạy LLM, nhìn ảnh ( vision ), giọng nói, tạo ảnh / video trên phần cứng của bạn (CPU cũng đư… | [localai.md](technologies/devtools/localai.md) |
 | **Models.dev** | DevTools | `api` `dataset` `skill` | Models.dev là database mở về thông số model AI: tên, context limit, modality, reasoning/tool-call, giá theo provider, benchmark… | [models-dev.md](technologies/devtools/models-dev.md) |
+| **OmniRoute** | DevTools | `api` `self-host` `gateway` `mcp` `desktop` `docker` `agent` | OmniRoute là AI gateway self-host: hàng trăm provider/model, nhiều strategy routing, RTK+Caveman, MCP/A2A, dashboard. | [omniroute.md](technologies/devtools/omniroute.md) |
 | **Train LLM From Scratch** | DevTools | `self-host` `cli` `desktop` | Train LLM From Scratch là tutorial + codebase dạy train LLM end-to-end : tải data → tokenize → pretrain Transformer → SFT → rew… | [train-llm-from-scratch.md](technologies/devtools/train-llm-from-scratch.md) |
 | **Unsloth** | DevTools | `self-host` `cli` `api` `desktop` | Unsloth là framework fine-tune / RL LLM nhanh hơn (~2×) · ít VRAM hơn (tới ~70%) (LoRA, 4/16-bit, FP8, GRPO…) + Unsloth Studio … | [unsloth.md](technologies/devtools/unsloth.md) |
 | **vLLM-Omni** | DevTools | `api` `self-host` `cli` `tts` `image-gen` `video` | vLLM-Omni mở rộng vLLM từ LLM text AR sang phục vụ model omni-modality : text, ảnh, audio, video, action — kèm Diffusion (DiT) … | [vllm-omni.md](technologies/devtools/vllm-omni.md) |

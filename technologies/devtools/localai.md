@@ -12,7 +12,7 @@
 
 Lõi nhỏ; các backend (llama.cpp, vLLM, whisper.cpp, Stable Diffusion, MLX…) tải thêm khi cần (ảnh OCI). Đóng vai **API kiểu OpenAI / Anthropic / ElevenLabs** — đổi `base_url` là xài được nhiều client sẵn. Có thêm multi-user, agent (RAG, MCP, *skills*). Dữ liệu ở lại infra bạn (*privacy-first*).
 
-**Cùng kiểu:** [FreeLLMAPI](freellmapi.md) (gom free tier cloud), [Unsloth](unsloth.md) (fine-tune rồi serve), [DFlash](dflash.md) (tăng tốc decode), [AnythingLLM](../mcp-ai-agents/anything-llm.md) (UI chat tài liệu), [faster-whisper](../speech-audio/faster-whisper.md) / [OmniVoice](../speech-audio/omnivoice-studio.md) / [ComfyUI](../image-video/comfyui.md).
+**Cùng kiểu:** [FreeLLMAPI](freellmapi.md) (gom free tier cloud), [9Router](9router.md) / [OmniRoute](omniroute.md) / [CLIProxyAPI](cliproxyapi.md) (local AI gateway), [Unsloth](unsloth.md) (fine-tune rồi serve), [DFlash](dflash.md) (tăng tốc decode), [AnythingLLM](../mcp-ai-agents/anything-llm.md) (UI chat tài liệu), [faster-whisper](../speech-audio/faster-whisper.md) / [OmniVoice](../speech-audio/omnivoice-studio.md) / [ComfyUI](../image-video/comfyui.md).
 
 ## Dùng khi nào?
 

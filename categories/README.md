@@ -27,10 +27,10 @@
 | 3 | [Image & Video](#3-image--video) | 31 | Gen ảnh/video, NLE |
 | 4 | [UI Automation](#4-ui-automation--computer-use) | 8 | Browser / computer-use |
 | 5 | [CV & Edge](#5-computer-vision--edge) | 11 | Vision, IoT, edge |
-| 6 | [DevTools](#6-devtools--integration) | 102 | OCR, gateway, office, train, self-host |
+| 6 | [DevTools](#6-devtools--integration) | 105 | OCR, gateway, office, train, self-host |
 | 7 | [Security](#7-security--pentesting) | 4 | Pentest, OSINT, guardrail |
 
-**Tổng = 312 ★** (+ 11 CLI-Anything harnesses)
+**Tổng = 315 ★** (+ 11 CLI-Anything harnesses)
 
 ---
 
@@ -413,6 +413,9 @@
 
 | Công nghệ | Tags | Bài viết |
 |-----------|------|----------|
+| **9Router** | `api` `self-host` `gateway` `desktop` `docker` `cli` | [9router.md](../technologies/devtools/9router.md) |
+| **OmniRoute** | `api` `self-host` `gateway` `mcp` `desktop` `docker` `agent` | [omniroute.md](../technologies/devtools/omniroute.md) |
+| **CLIProxyAPI** | `api` `self-host` `gateway` `cli` `docker` | [cliproxyapi.md](../technologies/devtools/cliproxyapi.md) |
 | **FreeLLMAPI** | `api` `self-host` `mcp` `desktop` | [freellmapi.md](../technologies/devtools/freellmapi.md) |
 | **Models.dev** | `api` `dataset` `skill` | [models-dev.md](../technologies/devtools/models-dev.md) |
 | **LocalAI** | `api` `self-host` `mcp` `agent` `stt` `tts` `image-gen` | [localai.md](../technologies/devtools/localai.md) |
