@@ -430,6 +430,7 @@
 | **LLM Checker** | `cli` `mcp` `self-host` | [llm-checker.md](../technologies/devtools/llm-checker.md) |
 | **llmfit** | `cli` `desktop` `self-host` `skill` | [llmfit.md](../technologies/devtools/llmfit.md) |
 
+> **Local AI Gateway** (bookmark, không ★): [local-ai-gateways.md](../technologies/bookmarks/local-ai-gateways.md) — so sánh 9Router · OmniRoute · CLIProxyAPI.  
 > Fine-tune Odoo: [ai-training](../../ai-training/README.md).
 
 ### 6.5 Datasets · Vietnam legal · VN NLP

@@ -1,5 +1,5 @@
 {
-  "indexedAt": "2026-08-14T02:14:53.410Z",
+  "indexedAt": "2026-08-14T03:08:04.030Z",
   "model": "Xenova/multilingual-e5-small",
   "articles": {
     "technologies/bookmarks/codex-pets.md": {
@@ -279,7 +279,7 @@
       "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
     },
     "technologies/devtools/freellmapi.md": {
-      "status": "updated",
+      "status": "current",
       "contentHash": "00ffe4e4c2da553f6e87bc7fc3c420e6af5b7394a379dabdb8975b489cc4a032",
       "firstSeenAt": "2026-07-16T10:34:43.376Z",
       "contentUpdatedAt": "2026-08-14T02:14:53.410Z"
@@ -339,7 +339,7 @@
       "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
     },
     "technologies/devtools/localai.md": {
-      "status": "updated",
+      "status": "current",
       "contentHash": "87e82633d69a76ecf9b0b5a86141c3bbc7a09a12dcb71b5e74d19b564fe9183c",
       "firstSeenAt": "2026-07-16T10:34:43.376Z",
       "contentUpdatedAt": "2026-08-14T02:14:53.410Z"
@@ -2001,22 +2001,28 @@
       "contentUpdatedAt": "2026-08-12T07:16:14.213Z"
     },
     "technologies/devtools/9router.md": {
-      "status": "new",
-      "contentHash": "b932a68c071b2707d5d5126c7b76cc9f25f1d083e3870d8722aa26dad28c9a04",
+      "status": "updated",
+      "contentHash": "d8fa11c38a41e6c7fa1351915e7f982aff840ce1e7a48daf4a9b0d2fd4e9f3f1",
       "firstSeenAt": "2026-08-14T02:14:53.410Z",
-      "contentUpdatedAt": "2026-08-14T02:14:53.410Z"
+      "contentUpdatedAt": "2026-08-14T03:08:04.030Z"
     },
     "technologies/devtools/cliproxyapi.md": {
-      "status": "new",
-      "contentHash": "569a7dadbd9e0eab063ea8bdf9991c0bc4c7bd284c6a2bd64dbfce6daa89b1a0",
+      "status": "updated",
+      "contentHash": "9741c7f50e161fb758a5b0903a104c64285604be61051f0490942f452444ec71",
       "firstSeenAt": "2026-08-14T02:14:53.410Z",
-      "contentUpdatedAt": "2026-08-14T02:14:53.410Z"
+      "contentUpdatedAt": "2026-08-14T03:08:04.030Z"
     },
     "technologies/devtools/omniroute.md": {
-      "status": "new",
-      "contentHash": "879c6cf23eb0fac40daf510eb88c5bcc7aec5cd687e6c9ab5e8408c3f56400fc",
+      "status": "updated",
+      "contentHash": "73cf441e44aaa5a955f67b9228d0bbea3e007a85e46b1732fbcd73315c8c6dd5",
       "firstSeenAt": "2026-08-14T02:14:53.410Z",
-      "contentUpdatedAt": "2026-08-14T02:14:53.410Z"
+      "contentUpdatedAt": "2026-08-14T03:08:04.030Z"
+    },
+    "technologies/bookmarks/local-ai-gateways.md": {
+      "status": "new",
+      "contentHash": "1e4f4ac92ebb2489860bc97d365d02a6d65abd261c8cc0919ce5f31df6a3e786",
+      "firstSeenAt": "2026-08-14T03:08:04.030Z",
+      "contentUpdatedAt": "2026-08-14T03:08:04.030Z"
     }
   }
 }

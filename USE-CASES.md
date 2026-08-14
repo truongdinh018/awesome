@@ -33,7 +33,7 @@
 - [Thông báo & cầu nối chat](#17-notify) — **7**
 - [Workflow / automation glue](#18-workflow) — **17**
 - [Bảo mật & pentest](#19-security) — **7**
-- [Hạ tầng chạy LLM (gateway / inference / train)](#20-llm-infra) — **14**
+- [Hạ tầng chạy LLM (gateway / inference / train)](#20-llm-infra) — **15**
 - [DB / storage / file browser](#21-data) — **5**
 - [Năng suất & self-host tiện ích](#22-productivity) — **32**
 - [CLI-Anything harness (điều khiển app bằng agent)](#23-harness) — **12**
@@ -625,6 +625,7 @@
 | **FreeLLMAPI** | DevTools | `api` `self-host` `mcp` `desktop` | FreeLLMAPI là proxy tương thích OpenAI ( OpenAI-compatible ) gom free tier của ~16+ LLM provider (~1.7B tokens/tháng theo READM… | [freellmapi.md](technologies/devtools/freellmapi.md) |
 | **LLM Checker** | DevTools | `cli` `mcp` `self-host` | LLM Checker — CLI (và MCP) quét phần cứng rồi recommend model LLM/sLLM local phù hợp (Ollama + registry HF/Ollama/GPT4All, scor… | [llm-checker.md](technologies/devtools/llm-checker.md) |
 | **llmfit** | DevTools | `cli` `desktop` `self-host` `skill` | llmfit — CLI/TUI (và desktop) right-size model LLM theo RAM/CPU/GPU: detect phần cứng, score Quality/Speed/Fit/Context, gợi ý m… | [llmfit.md](technologies/devtools/llmfit.md) |
+| **Local AI Gateway (so sánh)** | Bookmarks | `gateway` `api` `self-host` `cli` | Roundup 9Router · OmniRoute · CLIProxyAPI: một endpoint local, fallback quota, chọn theo UI / routing / binary nhẹ. | [local-ai-gateways.md](technologies/bookmarks/local-ai-gateways.md) |
 | **LocalAI** | DevTools | `api` `self-host` `mcp` `agent` `stt` `tts` | LocalAI là engine AI mã nguồn mở: chạy LLM, nhìn ảnh ( vision ), giọng nói, tạo ảnh / video trên phần cứng của bạn (CPU cũng đư… | [localai.md](technologies/devtools/localai.md) |
 | **Models.dev** | DevTools | `api` `dataset` `skill` | Models.dev là database mở về thông số model AI: tên, context limit, modality, reasoning/tool-call, giá theo provider, benchmark… | [models-dev.md](technologies/devtools/models-dev.md) |
 | **OmniRoute** | DevTools | `api` `self-host` `gateway` `mcp` `desktop` `docker` `agent` | OmniRoute là AI gateway self-host: hàng trăm provider/model, nhiều strategy routing, RTK+Caveman, MCP/A2A, dashboard. | [omniroute.md](technologies/devtools/omniroute.md) |

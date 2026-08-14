@@ -12,7 +12,7 @@
 
 Không cố trở thành gateway “hàng trăm provider + dashboard Next.js”. Viết bằng **Go**, chạy **single binary** (hoặc Docker `eceasy/cli-proxy-api`), tận dụng subscription/OAuth sẵn có, nhiều tài khoản + round-robin khi hết quota. Có Management API / Web UI tùy chọn; SDK Go để nhúng.
 
-**Cùng kiểu:** [9Router](9router.md) (UI + multi-provider), [OmniRoute](omniroute.md) (routing sâu), [FreeLLMAPI](freellmapi.md), [LocalAI](localai.md).
+**Cùng kiểu:** [9Router](9router.md) (UI + multi-provider), [OmniRoute](omniroute.md) (routing sâu), [so sánh 3 gateway](../bookmarks/local-ai-gateways.md), [FreeLLMAPI](freellmapi.md), [LocalAI](localai.md).
 
 ## Dùng khi nào?
 
@@ -66,4 +66,4 @@ OAuth CLI (Claude / Codex / Gemini / Grok) theo [Quick Start](https://help.route
 
 - Repo: https://github.com/router-for-me/CLIProxyAPI  
 - Docs: https://help.router-for.me/  
-- Peers: [9router.md](9router.md) · [omniroute.md](omniroute.md) · [freellmapi.md](freellmapi.md) · [localai.md](localai.md)
+- Peers: [9router.md](9router.md) · [omniroute.md](omniroute.md) · [so sánh](../bookmarks/local-ai-gateways.md) · [freellmapi.md](freellmapi.md) · [localai.md](localai.md)

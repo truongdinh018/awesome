@@ -14,7 +14,7 @@
 
 ⚠️ Cộng đồng từng báo cáo lỗ hổng bảo mật (RCE / bind ngoài localhost / credential isolation). Chỉ chạy trên `127.0.0.1`, cập nhật bản mới nhất, đọc issue security trước khi dùng máy có secret.
 
-**Cùng kiểu:** [OmniRoute](omniroute.md) (routing mạnh, nhiều strategy), [CLIProxyAPI](cliproxyapi.md) (proxy CLI nhẹ bằng Go), [FreeLLMAPI](freellmapi.md) (gom free-tier), [LocalAI](localai.md) (engine local).
+**Cùng kiểu:** [OmniRoute](omniroute.md) (routing mạnh, nhiều strategy), [CLIProxyAPI](cliproxyapi.md) (proxy CLI nhẹ bằng Go), [so sánh 3 gateway](../bookmarks/local-ai-gateways.md), [FreeLLMAPI](freellmapi.md) (gom free-tier), [LocalAI](localai.md) (engine local).
 
 ## Dùng khi nào?
 
@@ -66,4 +66,4 @@ Docker / source: xem README upstream (`decolua/9router` trên GHCR).
 
 - Repo: https://github.com/decolua/9router  
 - Site: https://9router.com  
-- Peers: [omniroute.md](omniroute.md) · [cliproxyapi.md](cliproxyapi.md) · [freellmapi.md](freellmapi.md) · [localai.md](localai.md)
+- Peers: [omniroute.md](omniroute.md) · [cliproxyapi.md](cliproxyapi.md) · [so sánh](../bookmarks/local-ai-gateways.md) · [freellmapi.md](freellmapi.md) · [localai.md](localai.md)

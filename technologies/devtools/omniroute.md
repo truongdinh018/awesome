@@ -12,7 +12,7 @@
 
 Khác 9Router ở độ sâu routing: Priority, Round Robin, Least Used, Cost Optimized, Weighted, **Auto-Combo**… chọn endpoint theo quota / latency / cost / reliability. Có RTK + Caveman (tiết kiệm token lớn), **MCP / A2A**, Desktop/PWA/Docker. Phù hợp team và nhiều agent cùng lúc.
 
-**Cùng kiểu:** [9Router](9router.md) (đơn giản hơn, UI nhanh), [CLIProxyAPI](cliproxyapi.md) (proxy CLI Go), [FreeLLMAPI](freellmapi.md), [LocalAI](localai.md), [Headroom](../mcp-ai-agents/headroom.md).
+**Cùng kiểu:** [9Router](9router.md) (đơn giản hơn, UI nhanh), [CLIProxyAPI](cliproxyapi.md) (proxy CLI Go), [so sánh 3 gateway](../bookmarks/local-ai-gateways.md), [FreeLLMAPI](freellmapi.md), [LocalAI](localai.md), [Headroom](../mcp-ai-agents/headroom.md).
 
 ## Dùng khi nào?
 
@@ -70,4 +70,4 @@ docker run -d --name omniroute --restart unless-stopped \
 
 - Repo: https://github.com/diegosouzapw/OmniRoute  
 - Site: https://omniroute.online  
-- Peers: [9router.md](9router.md) · [cliproxyapi.md](cliproxyapi.md) · [freellmapi.md](freellmapi.md) · [localai.md](localai.md) · [headroom.md](../mcp-ai-agents/headroom.md)
+- Peers: [9router.md](9router.md) · [cliproxyapi.md](cliproxyapi.md) · [so sánh](../bookmarks/local-ai-gateways.md) · [freellmapi.md](freellmapi.md) · [localai.md](localai.md) · [headroom.md](../mcp-ai-agents/headroom.md)
