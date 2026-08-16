@@ -96,6 +96,14 @@ Lịch sử thêm ★ / bookmark / cấu trúc catalog (mới nhất trên cùng
 *2026-08-02 — 313 ★ · thêm OmniRoute (`diegosouzapw/OmniRoute`) từ trending*
 *2026-08-02 — 312 ★ · thêm UI TARS Desktop (`bytedance/UI-TARS-desktop`) từ trending*
 *2026-08-02 — 311 ★ · thêm Faceswap (`deepfakes/faceswap`) từ trending*
+*2026-08-16 — 320 ★ · thêm Blender Mcp (`ahujasid/blender-mcp`) từ trending*
+*2026-08-16 — 319 ★ · thêm Xgboost (`dmlc/xgboost`) từ trending*
+*2026-08-16 — 318 ★ · thêm H4cker (`The-Art-of-Hacking/h4cker`) từ trending*
+*2026-08-16 — 317 ★ · thêm Herdr (`herdrdev/herdr`) từ trending*
+*2026-08-16 — 316 ★ · thêm Arthas (`alibaba/arthas`) từ trending*
+*2026-08-16 — 315 ★ · thêm Mindshub (`mindsdb/mindshub`) từ trending*
+*2026-08-16 — 314 ★ · thêm Kong (`Kong/kong`) từ trending*
+*2026-08-16 — 313 ★ · thêm Awesome Claude Skills (`ComposioHQ/awesome-claude-skills`) từ trending*
 
 *2026-07-27 — 226 ★ · thêm Open Interpreter (`openinterpreter/openinterpreter`)*
 

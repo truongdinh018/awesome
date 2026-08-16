@@ -1,6 +1,6 @@
 # Starred Repos — Index
 
-> **312 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-08-12**  
+> **320 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-08-12**  
 > Đây là bảng master: mỗi dòng = 1 repo đã star + link bài `technologies/<domain>/<slug>.md`.
 > **Primary** = 1 trong 7 domain · **Tags** = nhiều capability.
 > Duyệt subgroup: [../categories/README.md](../categories/README.md) · Hub / checklist: [../README.md](../README.md) · Viết bài: [../technologies/WRITING.md](../technologies/WRITING.md)
@@ -319,6 +319,14 @@
 | 310 | [yc-software/qm](https://github.com/yc-software/qm) | 12.8k | TypeScript | MCP & AI Agents | `agent` `coding-agent` `self-host` `workflow` `chatbot` `skill` | [qm.md](../technologies/mcp-ai-agents/qm.md) |
 | 311 | [neuml/txtai](https://github.com/neuml/txtai) | 12.8k | Python | MCP & AI Agents | `rag` `agent` `mcp` `self-host` `vector` | [txtai.md](../technologies/mcp-ai-agents/txtai.md) |
 | 312 | [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) | 38.9k | JavaScript | DevTools | `diagram` `self-host` `browser` | [drawdb.md](../technologies/devtools/drawdb.md) |
+| 313 | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 72.6k | Python | MCP & AI Agents | `agent` `workflow` `mcp` `skill` `cli` | [awesome-claude-skills.md](../technologies/mcp-ai-agents/awesome-claude-skills.md) |
+| 314 | [Kong/kong](https://github.com/Kong/kong) | 44.0k | Lua | MCP & AI Agents | `docker` `mcp` | [kong.md](../technologies/mcp-ai-agents/kong.md) |
+| 315 | [mindsdb/mindshub](https://github.com/mindsdb/mindshub) | 39.6k | Makefile | MCP & AI Agents | `agent` `mcp` | [mindshub.md](../technologies/mcp-ai-agents/mindshub.md) |
+| 316 | [alibaba/arthas](https://github.com/alibaba/arthas) | 37.5k | Java | MCP & AI Agents | `agent` `cli` | [arthas.md](../technologies/mcp-ai-agents/arthas.md) |
+| 317 | [herdrdev/herdr](https://github.com/herdrdev/herdr) | 29.7k | Rust | MCP & AI Agents | `agent` `cli` | [herdr.md](../technologies/mcp-ai-agents/herdr.md) |
+| 318 | [The-Art-of-Hacking/h4cker](https://github.com/The-Art-of-Hacking/h4cker) | 29.0k | Jupyter Notebook | Security | `agent` | [h4cker.md](../technologies/security/h4cker.md) |
+| 319 | [dmlc/xgboost](https://github.com/dmlc/xgboost) | 28.7k | C++ | DevTools | `agent` | [xgboost.md](../technologies/devtools/xgboost.md) |
+| 320 | [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp) | 25.9k | Python | MCP & AI Agents | `agent` `mcp` `cli` | [blender-mcp.md](../technologies/mcp-ai-agents/blender-mcp.md) |
 
 
 ## Ecosystem — CLI-Anything harnesses (con của #16)
