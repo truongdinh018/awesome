@@ -1,5 +1,5 @@
 {
-  "indexedAt": "2026-08-14T03:08:04.030Z",
+  "indexedAt": "2026-08-16T23:04:17.631Z",
   "model": "Xenova/multilingual-e5-small",
   "articles": {
     "technologies/bookmarks/codex-pets.md": {
@@ -2023,6 +2023,54 @@
       "contentHash": "1e4f4ac92ebb2489860bc97d365d02a6d65abd261c8cc0919ce5f31df6a3e786",
       "firstSeenAt": "2026-08-14T03:08:04.030Z",
       "contentUpdatedAt": "2026-08-14T03:08:04.030Z"
+    },
+    "technologies/devtools/xgboost.md": {
+      "status": "new",
+      "contentHash": "8598b3ca86c422729e9f546af260049a73a3f696c2c2edc02f07095d79ef8454",
+      "firstSeenAt": "2026-08-16T23:04:17.631Z",
+      "contentUpdatedAt": "2026-08-16T23:04:17.631Z"
+    },
+    "technologies/mcp-ai-agents/arthas.md": {
+      "status": "new",
+      "contentHash": "27f86fa6bd0e15da151cf483e98fd729052ed3882ca69cd504273e47c9065dba",
+      "firstSeenAt": "2026-08-16T23:04:17.631Z",
+      "contentUpdatedAt": "2026-08-16T23:04:17.631Z"
+    },
+    "technologies/mcp-ai-agents/awesome-claude-skills.md": {
+      "status": "new",
+      "contentHash": "0d67e4b46b6bf322a88abd5c65a3c1e2c7dda2e694a671f9905922058d040a92",
+      "firstSeenAt": "2026-08-16T23:04:17.631Z",
+      "contentUpdatedAt": "2026-08-16T23:04:17.631Z"
+    },
+    "technologies/mcp-ai-agents/blender-mcp.md": {
+      "status": "new",
+      "contentHash": "008f12a03b7d891b44c15fc9e7f2c124e38fb4ad61091f0ffd0c204c4ffeafbe",
+      "firstSeenAt": "2026-08-16T23:04:17.631Z",
+      "contentUpdatedAt": "2026-08-16T23:04:17.631Z"
+    },
+    "technologies/mcp-ai-agents/herdr.md": {
+      "status": "new",
+      "contentHash": "9cb3a82e611c0ce0762eb2c739fc180370fd3b61dad2a2a7ebcfae0026cb6149",
+      "firstSeenAt": "2026-08-16T23:04:17.631Z",
+      "contentUpdatedAt": "2026-08-16T23:04:17.631Z"
+    },
+    "technologies/mcp-ai-agents/kong.md": {
+      "status": "new",
+      "contentHash": "d425a2025cf803dfe015d53e8bd352db345c361c81dda50d4494ff0bd192057a",
+      "firstSeenAt": "2026-08-16T23:04:17.631Z",
+      "contentUpdatedAt": "2026-08-16T23:04:17.631Z"
+    },
+    "technologies/mcp-ai-agents/mindshub.md": {
+      "status": "new",
+      "contentHash": "4b8c2c366866c952d8cbcb836f7d901d6d91b2c85e03b68350e4497e9830fce4",
+      "firstSeenAt": "2026-08-16T23:04:17.631Z",
+      "contentUpdatedAt": "2026-08-16T23:04:17.631Z"
+    },
+    "technologies/security/h4cker.md": {
+      "status": "new",
+      "contentHash": "62edcd1e5670c7d42556888171c8d2daccda0043ba199fa2fbdf135cc0b00f7a",
+      "firstSeenAt": "2026-08-16T23:04:17.631Z",
+      "contentUpdatedAt": "2026-08-16T23:04:17.631Z"
     }
   }
 }
