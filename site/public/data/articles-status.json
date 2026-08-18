@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "indexedAt": "2026-08-14T03:08:04.030Z",
-=======
   "indexedAt": "2026-08-16T23:04:17.631Z",
->>>>>>> b8bce9d (chore(trending): cập nhật repo trending tuần 2026-W33)
   "model": "Xenova/multilingual-e5-small",
   "articles": {
     "technologies/bookmarks/codex-pets.md": {
@@ -2004,7 +2000,6 @@
       "firstSeenAt": "2026-08-12T07:16:14.213Z",
       "contentUpdatedAt": "2026-08-12T07:16:14.213Z"
     },
-<<<<<<< HEAD
     "technologies/devtools/9router.md": {
       "status": "updated",
       "contentHash": "d8fa11c38a41e6c7fa1351915e7f982aff840ce1e7a48daf4a9b0d2fd4e9f3f1",
@@ -2028,7 +2023,7 @@
       "contentHash": "1e4f4ac92ebb2489860bc97d365d02a6d65abd261c8cc0919ce5f31df6a3e786",
       "firstSeenAt": "2026-08-14T03:08:04.030Z",
       "contentUpdatedAt": "2026-08-14T03:08:04.030Z"
-=======
+    },
     "technologies/devtools/xgboost.md": {
       "status": "new",
       "contentHash": "8598b3ca86c422729e9f546af260049a73a3f696c2c2edc02f07095d79ef8454",
@@ -2076,7 +2071,6 @@
       "contentHash": "62edcd1e5670c7d42556888171c8d2daccda0043ba199fa2fbdf135cc0b00f7a",
       "firstSeenAt": "2026-08-16T23:04:17.631Z",
       "contentUpdatedAt": "2026-08-16T23:04:17.631Z"
->>>>>>> b8bce9d (chore(trending): cập nhật repo trending tuần 2026-W33)
     }
   }
 }
