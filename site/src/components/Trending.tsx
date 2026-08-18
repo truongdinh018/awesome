@@ -13,6 +13,7 @@ type Props = {
   onToggleTheme: () => void
   onQueryChange: (q: string) => void
   onOpenCatalog: () => void
+  onOpenSkills: () => void
   onOpenArticle: (path: string) => void
   onOpenHub: (path: string) => void
 }
@@ -55,6 +56,7 @@ export function Trending({
   onToggleTheme,
   onQueryChange,
   onOpenCatalog,
+  onOpenSkills,
   onOpenArticle,
   onOpenHub,
 }: Props) {
@@ -150,6 +152,9 @@ export function Trending({
             </button>
             <button type="button" className="hub-link hub-link-active">
               Trending
+            </button>
+            <button type="button" className="hub-link" onClick={onOpenSkills}>
+              Skills
             </button>
             <button type="button" className="hub-link" onClick={() => onOpenHub('README.md')}>
               Hub

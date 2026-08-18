@@ -1,0 +1,304 @@
+{
+  "generatedAt": "2026-08-03T03:42:36.529Z",
+  "count": 19,
+  "categories": [
+    "awesome-ai",
+    "engineering",
+    "notion"
+  ],
+  "tags": [
+    "automation",
+    "catalog",
+    "checklist",
+    "commit",
+    "engineering",
+    "git",
+    "github",
+    "notion",
+    "onboarding",
+    "quality",
+    "review",
+    "trending",
+    "vietnamese",
+    "writing"
+  ],
+  "skills": [
+    {
+      "id": "add-catalog-star",
+      "slug": "add-catalog-star",
+      "path": "skills/vault/add-catalog-star/SKILL.md",
+      "name": "add-catalog-star",
+      "title": "Checklist thêm ★ mới",
+      "description": "Checklist thêm một ★ mới vào Awesome AI — chọn domain, viết bài, cập nhật index.",
+      "category": "awesome-ai",
+      "source": "awesome-ai",
+      "tags": [
+        "catalog",
+        "checklist",
+        "onboarding"
+      ],
+      "excerpt": "1. Chọn domain | Domain | Folder | | | | | MCP & AI Agents | technologies/mcp ai agents/ | | Speech & Audio | technologies/speech audio/ | | Image & Video | technologies/image vid…"
+    },
+    {
+      "id": "awesome-trending",
+      "slug": "awesome-trending",
+      "path": "skills/vault/awesome-trending/SKILL.md",
+      "name": "awesome-trending",
+      "title": "Awesome AI — Weekly Trending",
+      "description": "Cập nhật repo AI trending hàng tuần cho Awesome AI catalog — fetch GitHub, tạo bài tiếng Việt, commit/PR.",
+      "category": "awesome-ai",
+      "source": "awesome-ai",
+      "tags": [
+        "trending",
+        "github",
+        "automation",
+        "catalog"
+      ],
+      "excerpt": "Khi được gọi để cập nhật repo trending tuần này , làm theo thứ tự. 1. Fetch dữ liệu GitHub Không có token vẫn chạy được nhưng dễ bị rate limit. 2. (Tuỳ chọn) Tạo bài cho repo tren…"
+    },
+    {
+      "id": "write-vn-article",
+      "slug": "write-vn-article",
+      "path": "skills/vault/write-vn-article/SKILL.md",
+      "name": "write-vn-article",
+      "title": "Viết bài catalog ★",
+      "description": "Viết bài tiếng Việt dễ hiểu cho một repo trong Awesome AI catalog (giữ thuật ngữ Anh).",
+      "category": "awesome-ai",
+      "source": "awesome-ai",
+      "tags": [
+        "writing",
+        "catalog",
+        "vietnamese"
+      ],
+      "excerpt": "Viết / sửa bài trong technologies/<domain /<slug .md theo chuẩn Awesome AI. Trước khi viết 1. Đọc technologies/WRITING.md và 1–2 bài peer cùng subgroup. 2. Xác định domain (7 màu)…"
+    },
+    {
+      "id": "code-review",
+      "slug": "code-review",
+      "path": "skills/vault/code-review/SKILL.md",
+      "name": "code-review",
+      "title": "Code Review",
+      "description": "Review diff/PR tập trung vào đúng đắn, regression, bảo mật, và khả năng bảo trì — không nitpick style.",
+      "category": "engineering",
+      "source": "awesome-ai",
+      "tags": [
+        "review",
+        "engineering",
+        "quality"
+      ],
+      "excerpt": "Mục tiêu Đánh giá thay đổi code theo thứ tự ưu tiên: 1. Correctness — logic sai, edge case, race, null 2. Regression — ảnh hưởng API / data / UI hiện có 3. Security — injection, s…"
+    },
+    {
+      "id": "commit-message",
+      "slug": "commit-message",
+      "path": "skills/vault/commit-message/SKILL.md",
+      "name": "commit-message",
+      "title": "Commit Message",
+      "description": "Viết commit message ngắn, đúng kiểu repo (conventional commits), khớp diff thực tế.",
+      "category": "engineering",
+      "source": "awesome-ai",
+      "tags": [
+        "git",
+        "commit",
+        "engineering"
+      ],
+      "excerpt": "Quy tắc 1 dòng subject ≤ ~72 ký tự, imperative mood. Prefers Conventional Commits: feat|fix|docs|chore|refactor|test|ci(scope): … Body (tuỳ chọn): vì sao, không phải gì đã làm từn…"
+    },
+    {
+      "id": "create-database-row",
+      "slug": "notion-create-database-row",
+      "path": "skills/vault/notion-create-database-row/SKILL.md",
+      "name": "create-database-row",
+      "title": "Create Database Row",
+      "description": "Insert a new row into a specified Notion database using natural-language property values. Handles property name matching and validation.",
+      "category": "notion",
+      "source": "cursor-notion-plugin",
+      "tags": [
+        "notion"
+      ],
+      "excerpt": "Use the Notion MCP server to insert a new row into a Notion database. Workflow 1. Interpret the request to extract: Target database (by name or ID) A set of properties expressed a…"
+    },
+    {
+      "id": "create-page",
+      "slug": "notion-create-page",
+      "path": "skills/vault/notion-create-page/SKILL.md",
+      "name": "create-page",
+      "title": "Create Notion Page",
+      "description": "Create a new Notion page, optionally under a specific parent. Automatically structures content based on page type (meeting notes, project pages, etc.).",
+      "category": "notion",
+      "source": "cursor-notion-plugin",
+      "tags": [
+        "notion"
+      ],
+      "excerpt": "Use the Notion MCP server to create a new page for the user. Workflow 1. Parse the request into: Page title Optional parent page/database (if the user mentions a parent) 2. If the…"
+    },
+    {
+      "id": "create-task",
+      "slug": "notion-create-task",
+      "path": "skills/vault/notion-create-task/SKILL.md",
+      "name": "create-task",
+      "title": "Create Notion Task",
+      "description": "Create a new task in the user's Notion tasks database with sensible defaults for due date, status, owner, and project.",
+      "category": "notion",
+      "source": "cursor-notion-plugin",
+      "tags": [
+        "notion"
+      ],
+      "excerpt": "Use the Notion MCP server to create a new task for the user. Workflow 1. Interpret the request to extract: Task title (required) Optional due date Optional status Optional owner/a…"
+    },
+    {
+      "id": "database-query",
+      "slug": "notion-database-query",
+      "path": "skills/vault/notion-database-query/SKILL.md",
+      "name": "database-query",
+      "title": "Query Notion Database",
+      "description": "Query a Notion database by name or ID and return structured, readable results with optional filters and sorting.",
+      "category": "notion",
+      "source": "cursor-notion-plugin",
+      "tags": [
+        "notion"
+      ],
+      "excerpt": "Use the Notion MCP server to query a database on the user's behalf. Workflow 1. Interpret the request to extract: Target database (by name or ID) Optional filter(s) or sort(s) the…"
+    },
+    {
+      "id": "find",
+      "slug": "notion-find",
+      "path": "skills/vault/notion-find/SKILL.md",
+      "name": "find",
+      "title": "Notion Find",
+      "description": "Quickly find pages or databases in Notion by title keywords. Returns precise matches rather than comprehensive results.",
+      "category": "notion",
+      "source": "cursor-notion-plugin",
+      "tags": [
+        "notion"
+      ],
+      "excerpt": "Use the Notion MCP server to quickly locate pages or databases whose titles match the query. Behavior Treat the query as fuzzy search terms for titles (e.g. \"Q1 plan\", \"product la…"
+    },
+    {
+      "id": "knowledge-capture",
+      "slug": "notion-knowledge-capture",
+      "path": "skills/vault/notion-knowledge-capture/SKILL.md",
+      "name": "knowledge-capture",
+      "title": "Knowledge Capture",
+      "description": "Transform conversations and discussions into structured documentation pages in Notion. Captures insights, decisions, and knowledge from chat context with proper organization and linking.",
+      "category": "notion",
+      "source": "cursor-notion-plugin",
+      "tags": [
+        "notion"
+      ],
+      "excerpt": "Transforms conversations, discussions, and insights into structured documentation in your Notion workspace. Captures knowledge from chat context, formats it appropriately, and sav…"
+    },
+    {
+      "id": "meeting-intelligence",
+      "slug": "notion-meeting-intelligence",
+      "path": "skills/vault/notion-meeting-intelligence/SKILL.md",
+      "name": "meeting-intelligence",
+      "title": "Meeting Intelligence",
+      "description": "Prepare meeting materials by gathering context from Notion, enriching with research, and creating both an internal pre-read and external agenda saved to Notion.",
+      "category": "notion",
+      "source": "cursor-notion-plugin",
+      "tags": [
+        "notion"
+      ],
+      "excerpt": "Prepares you for meetings by gathering context from Notion, enriching it with research, and creating comprehensive meeting materials. Generates both an internal pre read for atten…"
+    },
+    {
+      "id": "research-documentation",
+      "slug": "notion-research-docs",
+      "path": "skills/vault/notion-research-docs/SKILL.md",
+      "name": "research-documentation",
+      "title": "Research & Documentation",
+      "description": "Search across your Notion workspace, synthesize findings from multiple pages, and create comprehensive research documentation with proper citations and actionable insights.",
+      "category": "notion",
+      "source": "cursor-notion-plugin",
+      "tags": [
+        "notion"
+      ],
+      "excerpt": "Enables comprehensive research workflows: search for information across your Notion workspace, fetch and analyze relevant pages, synthesize findings, and create well structured do…"
+    },
+    {
+      "id": "search",
+      "slug": "notion-search",
+      "path": "skills/vault/notion-search/SKILL.md",
+      "name": "search",
+      "title": "Notion Search",
+      "description": "Search the user's Notion workspace using the Notion MCP server. Use for finding pages, databases, and content by keywords or natural-language queries.",
+      "category": "notion",
+      "source": "cursor-notion-plugin",
+      "tags": [
+        "notion"
+      ],
+      "excerpt": "Use the Notion MCP server to search the user's Notion workspace for content related to the query. Behavior Interpret the query as a natural language search (e.g. \"Q1 roadmap\", \"cu…"
+    },
+    {
+      "id": "spec-to-implementation",
+      "slug": "notion-spec-to-tasks",
+      "path": "skills/vault/notion-spec-to-tasks/SKILL.md",
+      "name": "spec-to-implementation",
+      "title": "Spec to Implementation",
+      "description": "Turn product or tech specs into concrete Notion tasks. Breaks down spec pages into detailed implementation plans with clear tasks, acceptance criteria, and progress tracking.",
+      "category": "notion",
+      "source": "cursor-notion-plugin",
+      "tags": [
+        "notion"
+      ],
+      "excerpt": "Transforms specifications into actionable implementation plans with progress tracking. Fetches spec documents, extracts requirements, breaks down into tasks, and manages implement…"
+    },
+    {
+      "id": "tasks-build",
+      "slug": "notion-tasks-build",
+      "path": "skills/vault/notion-tasks-build/SKILL.md",
+      "name": "tasks-build",
+      "title": "Build Task from Notion",
+      "description": "Build a task from a Notion page URL. Fetches task details, marks it in progress, implements the work, and updates status in Notion.",
+      "category": "notion",
+      "source": "cursor-notion-plugin",
+      "tags": [
+        "notion"
+      ],
+      "excerpt": "Build a task that is tracked in Notion. The user may be watching the Notion board, so all feedback should be sent through Notion. Input The user provides a Notion task URL. Workfl…"
+    },
+    {
+      "id": "tasks-explain-diff",
+      "slug": "notion-tasks-explain-diff",
+      "path": "skills/vault/notion-tasks-explain-diff/SKILL.md",
+      "name": "tasks-explain-diff",
+      "title": "Explain Code Changes",
+      "description": "Generate a rich Notion document explaining code changes. Creates comprehensive documentation with background, intuition, code walkthrough, and verification steps.",
+      "category": "notion",
+      "source": "cursor-notion-plugin",
+      "tags": [
+        "notion"
+      ],
+      "excerpt": "Create a rich explanation of code changes as a new Notion page. Input The user will point to code changes to explain. If not explicitly specified, explain the most recent batch of…"
+    },
+    {
+      "id": "tasks-plan",
+      "slug": "notion-tasks-plan",
+      "path": "skills/vault/notion-tasks-plan/SKILL.md",
+      "name": "tasks-plan",
+      "title": "Plan Task Implementation",
+      "description": "Create an implementation plan from a Notion task or specification. Breaks down requirements into actionable steps with estimates and dependencies.",
+      "category": "notion",
+      "source": "cursor-notion-plugin",
+      "tags": [
+        "notion"
+      ],
+      "excerpt": "Create a detailed implementation plan from a Notion task or specification page. Input The user provides a Notion page URL containing a task or specification. Workflow 1. Fetch the…"
+    },
+    {
+      "id": "tasks-setup",
+      "slug": "notion-tasks-setup",
+      "path": "skills/vault/notion-tasks-setup/SKILL.md",
+      "name": "tasks-setup",
+      "title": "Notion Task Board Setup",
+      "description": "Set up a Notion task board for tracking tasks. Guides users through using a template or connecting an existing board.",
+      "category": "notion",
+      "source": "cursor-notion-plugin",
+      "tags": [
+        "notion"
+      ],
+      "excerpt": "Help the user set up their Notion workspace to work with the task skills in this plugin. Setup Options Option 1: Use a Template If the user wants to start fresh: 1. Point them to …"
+    }
+  ]
+}

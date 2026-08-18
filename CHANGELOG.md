@@ -1,6 +1,7 @@
 # Changelog
 
 Lịch sử thêm ★ / bookmark / cấu trúc catalog (mới nhất trên cùng).
+*2026-08-18 — Skills vault (`skills/`) + trang web Skills (`?skills=1`) — 19 SKILL.md*
 *2026-08-14 — 315 ★ · thêm Local AI Gateway trio: 9Router (`decolua/9router`), OmniRoute (`diegosouzapw/OmniRoute` — viết lại đầy đủ, chuyển DevTools), CLIProxyAPI (`router-for-me/CLIProxyAPI`) + bookmark so sánh `local-ai-gateways.md`*
 *2026-08-12 — 312 ★ · thêm drawDB (`drawdb-io/drawdb`)*
 *2026-08-10 — 311 ★ · thêm txtai (`neuml/txtai`)*

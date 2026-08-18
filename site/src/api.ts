@@ -1,7 +1,9 @@
 import type { CatalogItem } from './lib/parseMeta'
+import type { SkillIndex } from './lib/skills'
 import type { TrendingWeek } from './lib/trending'
 
 export type { CatalogItem }
+export type { SkillIndex, SkillItem } from './lib/skills'
 export type { TrendingWeek } from './lib/trending'
 
 export type TreeNode = {
@@ -61,6 +63,13 @@ export async function fetchTrendingWeek(): Promise<TrendingWeek> {
   return parseJson<TrendingWeek>(
     await fetch(assetUrl('data/trending-week.json')),
   )
+}
+
+export async function fetchSkills(): Promise<SkillIndex> {
+  if (import.meta.env.DEV) {
+    return parseJson<SkillIndex>(await fetch('/api/skills'))
+  }
+  return parseJson<SkillIndex>(await fetch(assetUrl('data/skills.json')))
 }
 
 export async function fetchTree(): Promise<TreeNode[]> {
