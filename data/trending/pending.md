@@ -7,7 +7,6 @@
 |------|---|-------|
 | [deepfakes/faceswap](https://github.com/deepfakes/faceswap) | 57.2k | faceswap là dự án machine learning (deep learning, machine learning) — Deepfakes Software For All. |
 | [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) | 38.4k | UI-TARS-desktop là dự án MCP / agent (MCP) — The mã nguồn mở nguồn đa phương thức AI Agent stack Connecting Cutting Edge |
-| [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 37.8k | OmniRoute là dự án MCP / agent (agent AI, MCP) — Never stop coding Free MIT AI gateway one endpoint free model Kimi Clau |
 | [oraios/serena](https://github.com/oraios/serena) | 27.4k | serena là công cụ — mạnh MCP toolkit for coding semantic and editing khả năng the IDE your agent. |
 | [harvard-edge/cs249r_book](https://github.com/harvard-edge/cs249r_book) | 27.7k | cs249r_book là dự án machine learning (deep learning, machine learning) — Machine Learning Systems. |
 | [yamadashy/repomix](https://github.com/yamadashy/repomix) | 27.6k | repomix là dự án MCP / agent (AI sinh tạo, LLM, MCP) — Repomix mạnh công cụ that packs your entire into single AI friend |

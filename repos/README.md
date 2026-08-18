@@ -1,6 +1,6 @@
 # Starred Repos — Index
 
-> **312 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-08-12**  
+> **315 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-08-14**  
 > Đây là bảng master: mỗi dòng = 1 repo đã star + link bài `technologies/<domain>/<slug>.md`.
 > **Primary** = 1 trong 7 domain · **Tags** = nhiều capability.
 > Duyệt subgroup: [../categories/README.md](../categories/README.md) · Hub / checklist: [../README.md](../README.md) · Viết bài: [../technologies/WRITING.md](../technologies/WRITING.md)
@@ -319,6 +319,9 @@
 | 310 | [yc-software/qm](https://github.com/yc-software/qm) | 12.8k | TypeScript | MCP & AI Agents | `agent` `coding-agent` `self-host` `workflow` `chatbot` `skill` | [qm.md](../technologies/mcp-ai-agents/qm.md) |
 | 311 | [neuml/txtai](https://github.com/neuml/txtai) | 12.8k | Python | MCP & AI Agents | `rag` `agent` `mcp` `self-host` `vector` | [txtai.md](../technologies/mcp-ai-agents/txtai.md) |
 | 312 | [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) | 38.9k | JavaScript | DevTools | `diagram` `self-host` `browser` | [drawdb.md](../technologies/devtools/drawdb.md) |
+| 313 | [decolua/9router](https://github.com/decolua/9router) | 25.4k | JavaScript | DevTools | `api` `self-host` `gateway` `desktop` `docker` `cli` | [9router.md](../technologies/devtools/9router.md) |
+| 314 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 47.3k | TypeScript | DevTools | `api` `self-host` `gateway` `mcp` `desktop` `docker` `agent` | [omniroute.md](../technologies/devtools/omniroute.md) |
+| 315 | [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) | 47.2k | Go | DevTools | `api` `self-host` `gateway` `cli` `docker` | [cliproxyapi.md](../technologies/devtools/cliproxyapi.md) |
 
 
 ## Ecosystem — CLI-Anything harnesses (con của #16)

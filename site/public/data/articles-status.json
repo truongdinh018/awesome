@@ -1,5 +1,5 @@
 {
-  "indexedAt": "2026-08-12T07:16:14.213Z",
+  "indexedAt": "2026-08-14T03:08:04.030Z",
   "model": "Xenova/multilingual-e5-small",
   "articles": {
     "technologies/bookmarks/codex-pets.md": {
@@ -280,9 +280,9 @@
     },
     "technologies/devtools/freellmapi.md": {
       "status": "current",
-      "contentHash": "e03138234e9b7f8937d11da5919e984f7102ee040c169c145d01b238f091b1f4",
+      "contentHash": "00ffe4e4c2da553f6e87bc7fc3c420e6af5b7394a379dabdb8975b489cc4a032",
       "firstSeenAt": "2026-07-16T10:34:43.376Z",
-      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+      "contentUpdatedAt": "2026-08-14T02:14:53.410Z"
     },
     "technologies/devtools/google-workspace-cli.md": {
       "status": "current",
@@ -340,9 +340,9 @@
     },
     "technologies/devtools/localai.md": {
       "status": "current",
-      "contentHash": "af5e61814111bf38a8f95b0eb422eda5c41d29ed31b582711b5e99f35ef91c63",
+      "contentHash": "87e82633d69a76ecf9b0b5a86141c3bbc7a09a12dcb71b5e74d19b564fe9183c",
       "firstSeenAt": "2026-07-16T10:34:43.376Z",
-      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+      "contentUpdatedAt": "2026-08-14T02:14:53.410Z"
     },
     "technologies/devtools/magika.md": {
       "status": "current",
@@ -1970,12 +1970,6 @@
       "firstSeenAt": "2026-08-02T23:04:02.466Z",
       "contentUpdatedAt": "2026-08-02T23:04:02.466Z"
     },
-    "technologies/mcp-ai-agents/omniroute.md": {
-      "status": "new",
-      "contentHash": "5388e5fa5fba5afa7d1b38beed06c2aef9b67c2a9131f56968c53e33a12f2a07",
-      "firstSeenAt": "2026-08-02T23:04:02.466Z",
-      "contentUpdatedAt": "2026-08-02T23:04:02.466Z"
-    },
     "technologies/mcp-ai-agents/repomix.md": {
       "status": "new",
       "contentHash": "1de27a32618209951bb1b99dc8f2a6d5f61d38e8a608670fa1f6d2beba0d0c71",
@@ -2005,6 +1999,30 @@
       "contentHash": "2334e9c3788f64e54ccb26318b1f7d8bb34a15907540b07a4884379f3e903728",
       "firstSeenAt": "2026-08-12T07:16:14.213Z",
       "contentUpdatedAt": "2026-08-12T07:16:14.213Z"
+    },
+    "technologies/devtools/9router.md": {
+      "status": "updated",
+      "contentHash": "d8fa11c38a41e6c7fa1351915e7f982aff840ce1e7a48daf4a9b0d2fd4e9f3f1",
+      "firstSeenAt": "2026-08-14T02:14:53.410Z",
+      "contentUpdatedAt": "2026-08-14T03:08:04.030Z"
+    },
+    "technologies/devtools/cliproxyapi.md": {
+      "status": "updated",
+      "contentHash": "9741c7f50e161fb758a5b0903a104c64285604be61051f0490942f452444ec71",
+      "firstSeenAt": "2026-08-14T02:14:53.410Z",
+      "contentUpdatedAt": "2026-08-14T03:08:04.030Z"
+    },
+    "technologies/devtools/omniroute.md": {
+      "status": "updated",
+      "contentHash": "73cf441e44aaa5a955f67b9228d0bbea3e007a85e46b1732fbcd73315c8c6dd5",
+      "firstSeenAt": "2026-08-14T02:14:53.410Z",
+      "contentUpdatedAt": "2026-08-14T03:08:04.030Z"
+    },
+    "technologies/bookmarks/local-ai-gateways.md": {
+      "status": "new",
+      "contentHash": "1e4f4ac92ebb2489860bc97d365d02a6d65abd261c8cc0919ce5f31df6a3e786",
+      "firstSeenAt": "2026-08-14T03:08:04.030Z",
+      "contentUpdatedAt": "2026-08-14T03:08:04.030Z"
     }
   }
 }
