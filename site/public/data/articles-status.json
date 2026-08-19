@@ -1,5 +1,5 @@
 {
-  "indexedAt": "2026-08-16T23:04:17.631Z",
+  "indexedAt": "2026-08-19T04:16:28.644Z",
   "model": "Xenova/multilingual-e5-small",
   "articles": {
     "technologies/bookmarks/codex-pets.md": {
@@ -213,10 +213,10 @@
       "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
     },
     "technologies/devtools/dolt.md": {
-      "status": "current",
-      "contentHash": "da39d66e2b0d165af9777c751ecd6678cc600ff0ea9a765ba169cacd678a7c9d",
+      "status": "updated",
+      "contentHash": "714b3c7bfab9ab5c044d6df19f3bdfe366b08852e084412e56cca746f58689a2",
       "firstSeenAt": "2026-07-16T10:34:43.376Z",
-      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+      "contentUpdatedAt": "2026-08-19T04:16:28.644Z"
     },
     "technologies/devtools/dots-ocr.md": {
       "status": "current",
@@ -453,10 +453,10 @@
       "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
     },
     "technologies/devtools/stirling-pdf.md": {
-      "status": "current",
-      "contentHash": "f6cb598fa4a4fdb85bae4946e7deebcbb2d4c730a8f1b0b16e98f0a5a6981660",
+      "status": "updated",
+      "contentHash": "9a65bcec391ef5e5723944615dfb349b6250d8b88fdea0c106e02dbafcd68b40",
       "firstSeenAt": "2026-07-16T10:34:43.376Z",
-      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+      "contentUpdatedAt": "2026-08-19T04:16:28.644Z"
     },
     "technologies/devtools/stranslate.md": {
       "status": "current",
@@ -627,10 +627,10 @@
       "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
     },
     "technologies/image-video/freecut.md": {
-      "status": "current",
-      "contentHash": "d5f9a0bb75fcd9f388e5d7392e124a4c24aa38c3dff478e86b91c0437a640d95",
+      "status": "updated",
+      "contentHash": "ba7f04174fed3a31dab9c2ee58077ce236dfdf90857ba0462fd55f0f7335b70a",
       "firstSeenAt": "2026-07-16T10:34:43.376Z",
-      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+      "contentUpdatedAt": "2026-08-19T04:16:28.644Z"
     },
     "technologies/image-video/gyroflow.md": {
       "status": "current",
@@ -789,10 +789,10 @@
       "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
     },
     "technologies/mcp-ai-agents/atomic-agents.md": {
-      "status": "current",
-      "contentHash": "3a9bb72724f28e919eb1ea4b1826a8a89b9eb4ba361e91fa9ddf7052fdc3063d",
+      "status": "updated",
+      "contentHash": "5d9ac76973cd76518fe85ac686e790dde8944688cfe1b838bad1e0b7163aa2f6",
       "firstSeenAt": "2026-07-16T10:34:43.376Z",
-      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+      "contentUpdatedAt": "2026-08-19T04:16:28.644Z"
     },
     "technologies/mcp-ai-agents/caveman.md": {
       "status": "current",
@@ -1191,10 +1191,10 @@
       "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
     },
     "technologies/security/hackingtool.md": {
-      "status": "current",
-      "contentHash": "b9fa5f47e95595501eb223d50eed9ce818588f7708ded77a18fad824dd4ba1df",
+      "status": "updated",
+      "contentHash": "0072a98237d808ccd4f3e5c5abba9b839de72c81f795c2b57d30ae8761bfaefe",
       "firstSeenAt": "2026-07-16T10:34:43.376Z",
-      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+      "contentUpdatedAt": "2026-08-19T04:16:28.644Z"
     },
     "technologies/security/osiris.md": {
       "status": "current",
@@ -1383,16 +1383,16 @@
       "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
     },
     "technologies/devtools/vitepress.md": {
-      "status": "new",
-      "contentHash": "c911782693e8265eba764021e8903dba182dbce0115610085f131fc0a4812b95",
+      "status": "updated",
+      "contentHash": "8df225c57c39484b2631e8b1eb05ec05a2b921e5059ac4ab150a2a359626ec07",
       "firstSeenAt": "2026-07-17T04:32:37.032Z",
-      "contentUpdatedAt": "2026-07-17T04:32:37.032Z"
+      "contentUpdatedAt": "2026-08-19T04:16:28.644Z"
     },
     "technologies/devtools/appsmith.md": {
-      "status": "new",
-      "contentHash": "26017e178f4f927b81d8c11f76f28d4be99363e14139f9b80769d460ed1b6f7f",
+      "status": "updated",
+      "contentHash": "8ac0d80c093b529cac5d8601e19ade17c4e38b254d9fd1acc72cec086e27abea",
       "firstSeenAt": "2026-07-18T14:32:32.368Z",
-      "contentUpdatedAt": "2026-07-18T14:32:32.368Z"
+      "contentUpdatedAt": "2026-08-19T04:16:28.644Z"
     },
     "technologies/mcp-ai-agents/cline.md": {
       "status": "new",
@@ -1401,10 +1401,10 @@
       "contentUpdatedAt": "2026-07-18T14:32:32.368Z"
     },
     "technologies/mcp-ai-agents/continue.md": {
-      "status": "new",
-      "contentHash": "58a46829cc32f5ad57337a46b5581ceb100f8255a58deb115e6ef4f2eb987b8a",
+      "status": "updated",
+      "contentHash": "db4e7f6d67074982a20c6d6e18fa4883522c8e3a4a9b6e00225353e01af3902a",
       "firstSeenAt": "2026-07-18T14:32:32.368Z",
-      "contentUpdatedAt": "2026-07-18T14:32:32.368Z"
+      "contentUpdatedAt": "2026-08-19T04:16:28.644Z"
     },
     "technologies/mcp-ai-agents/memmachine.md": {
       "status": "new",
@@ -2001,19 +2001,19 @@
       "contentUpdatedAt": "2026-08-12T07:16:14.213Z"
     },
     "technologies/devtools/9router.md": {
-      "status": "updated",
+      "status": "current",
       "contentHash": "d8fa11c38a41e6c7fa1351915e7f982aff840ce1e7a48daf4a9b0d2fd4e9f3f1",
       "firstSeenAt": "2026-08-14T02:14:53.410Z",
       "contentUpdatedAt": "2026-08-14T03:08:04.030Z"
     },
     "technologies/devtools/cliproxyapi.md": {
-      "status": "updated",
+      "status": "current",
       "contentHash": "9741c7f50e161fb758a5b0903a104c64285604be61051f0490942f452444ec71",
       "firstSeenAt": "2026-08-14T02:14:53.410Z",
       "contentUpdatedAt": "2026-08-14T03:08:04.030Z"
     },
     "technologies/devtools/omniroute.md": {
-      "status": "updated",
+      "status": "current",
       "contentHash": "73cf441e44aaa5a955f67b9228d0bbea3e007a85e46b1732fbcd73315c8c6dd5",
       "firstSeenAt": "2026-08-14T02:14:53.410Z",
       "contentUpdatedAt": "2026-08-14T03:08:04.030Z"
@@ -2024,89 +2024,149 @@
       "firstSeenAt": "2026-08-14T03:08:04.030Z",
       "contentUpdatedAt": "2026-08-14T03:08:04.030Z"
     },
-    "technologies/devtools/xgboost.md": {
+    "technologies/bookmarks/viral-github-10.md": {
       "status": "new",
-      "contentHash": "8598b3ca86c422729e9f546af260049a73a3f696c2c2edc02f07095d79ef8454",
-      "firstSeenAt": "2026-08-16T23:04:17.631Z",
-      "contentUpdatedAt": "2026-08-16T23:04:17.631Z"
+      "contentHash": "475667af15f5f719af15226dcd0dad153b3434fa2aa86cd3e0839f95e4e49622",
+      "firstSeenAt": "2026-08-19T04:16:28.644Z",
+      "contentUpdatedAt": "2026-08-19T04:16:28.644Z"
     },
-    "technologies/mcp-ai-agents/arthas.md": {
+    "technologies/devtools/awesome-quant.md": {
       "status": "new",
-      "contentHash": "27f86fa6bd0e15da151cf483e98fd729052ed3882ca69cd504273e47c9065dba",
-      "firstSeenAt": "2026-08-16T23:04:17.631Z",
-      "contentUpdatedAt": "2026-08-16T23:04:17.631Z"
+      "contentHash": "dc9b89822bcbfe6ab7f196696c8976e4305fa8f004e089ffe1da50733327ba5d",
+      "firstSeenAt": "2026-08-19T04:16:28.644Z",
+      "contentUpdatedAt": "2026-08-19T04:16:28.644Z"
     },
-    "technologies/mcp-ai-agents/awesome-claude-skills.md": {
+    "technologies/devtools/cloudberry.md": {
       "status": "new",
-      "contentHash": "0d67e4b46b6bf322a88abd5c65a3c1e2c7dda2e694a671f9905922058d040a92",
-      "firstSeenAt": "2026-08-16T23:04:17.631Z",
-      "contentUpdatedAt": "2026-08-16T23:04:17.631Z"
+      "contentHash": "a69c0f8db02836edf37bedf58327bb1cd66a735699aa414368a3277dbad89dab",
+      "firstSeenAt": "2026-08-19T04:16:28.644Z",
+      "contentUpdatedAt": "2026-08-19T04:16:28.644Z"
     },
-    "technologies/mcp-ai-agents/blender-mcp.md": {
+    "technologies/devtools/code-server.md": {
       "status": "new",
-      "contentHash": "008f12a03b7d891b44c15fc9e7f2c124e38fb4ad61091f0ffd0c204c4ffeafbe",
-      "firstSeenAt": "2026-08-16T23:04:17.631Z",
-      "contentUpdatedAt": "2026-08-16T23:04:17.631Z"
+      "contentHash": "bf804fb61215e19d10b86e06ea8cc2d57d3000e34307db5cd1838d564a8a7b88",
+      "firstSeenAt": "2026-08-19T04:16:28.644Z",
+      "contentUpdatedAt": "2026-08-19T04:16:28.644Z"
     },
-    "technologies/mcp-ai-agents/herdr.md": {
+    "technologies/devtools/markdoc.md": {
       "status": "new",
-      "contentHash": "9cb3a82e611c0ce0762eb2c739fc180370fd3b61dad2a2a7ebcfae0026cb6149",
-      "firstSeenAt": "2026-08-16T23:04:17.631Z",
-      "contentUpdatedAt": "2026-08-16T23:04:17.631Z"
+      "contentHash": "31e1fe597c62dad07b9b681daad8d3b1714f97544bc9afb15cd0e74f5a3f309e",
+      "firstSeenAt": "2026-08-19T04:16:28.644Z",
+      "contentUpdatedAt": "2026-08-19T04:16:28.644Z"
     },
-    "technologies/mcp-ai-agents/kong.md": {
+    "technologies/devtools/open-saas.md": {
       "status": "new",
-      "contentHash": "d425a2025cf803dfe015d53e8bd352db345c361c81dda50d4494ff0bd192057a",
-      "firstSeenAt": "2026-08-16T23:04:17.631Z",
-      "contentUpdatedAt": "2026-08-16T23:04:17.631Z"
+      "contentHash": "28866a59d22731a95d3a12935613f122c6bee650f03fe2db1c521ae588c89a52",
+      "firstSeenAt": "2026-08-19T04:16:28.644Z",
+      "contentUpdatedAt": "2026-08-19T04:16:28.644Z"
     },
-    "technologies/mcp-ai-agents/mindshub.md": {
+    "technologies/devtools/openpanel.md": {
       "status": "new",
-      "contentHash": "4b8c2c366866c952d8cbcb836f7d901d6d91b2c85e03b68350e4497e9830fce4",
-      "firstSeenAt": "2026-08-16T23:04:17.631Z",
-      "contentUpdatedAt": "2026-08-16T23:04:17.631Z"
-    },
-    "technologies/security/h4cker.md": {
-      "status": "new",
-      "contentHash": "62edcd1e5670c7d42556888171c8d2daccda0043ba199fa2fbdf135cc0b00f7a",
-      "firstSeenAt": "2026-08-16T23:04:17.631Z",
-      "contentUpdatedAt": "2026-08-16T23:04:17.631Z"
-    },
-    "technologies/mcp-ai-agents/omniroute.md": {
-      "status": "new",
-      "contentHash": "5388e5fa5fba5afa7d1b38beed06c2aef9b67c2a9131f56968c53e33a12f2a07",
-      "firstSeenAt": "2026-08-02T23:04:02.466Z",
-      "contentUpdatedAt": "2026-08-02T23:04:02.466Z"
+      "contentHash": "f824f9f33a0b3dbf6261206d70985c7dd98325435fb05f827545248d53ce85c1",
+      "firstSeenAt": "2026-08-19T04:16:28.644Z",
+      "contentUpdatedAt": "2026-08-19T04:16:28.644Z"
     },
     "technologies/devtools/spacy.md": {
       "status": "new",
       "contentHash": "bcc563064b67db4a164de091e7c4dec23b88336cbb732187c2203a88d6ec2277",
-      "firstSeenAt": "2026-08-09T23:04:54.988Z",
-      "contentUpdatedAt": "2026-08-09T23:04:54.988Z"
+      "firstSeenAt": "2026-08-19T04:16:28.644Z",
+      "contentUpdatedAt": "2026-08-19T04:16:28.644Z"
+    },
+    "technologies/devtools/xgboost.md": {
+      "status": "new",
+      "contentHash": "8598b3ca86c422729e9f546af260049a73a3f696c2c2edc02f07095d79ef8454",
+      "firstSeenAt": "2026-08-19T04:16:28.644Z",
+      "contentUpdatedAt": "2026-08-19T04:16:28.644Z"
+    },
+    "technologies/image-video/auto-editor.md": {
+      "status": "new",
+      "contentHash": "3673197373ae129e866c14912fea782ea2f433af08b0a121393631bd980e5811",
+      "firstSeenAt": "2026-08-19T04:16:28.644Z",
+      "contentUpdatedAt": "2026-08-19T04:16:28.644Z"
+    },
+    "technologies/image-video/pic-smaller.md": {
+      "status": "new",
+      "contentHash": "01c321254091b9a898b59e8a3b750eef4f2a31e18bd7d578c630cb12f0fd66f5",
+      "firstSeenAt": "2026-08-19T04:16:28.644Z",
+      "contentUpdatedAt": "2026-08-19T04:16:28.644Z"
     },
     "technologies/mcp-ai-agents/agents.md": {
       "status": "new",
       "contentHash": "4d99c0e9e6d91f04b4547e283b4fac734350dba42780685a0fabb10ee63987cc",
-      "firstSeenAt": "2026-08-09T23:04:54.988Z",
-      "contentUpdatedAt": "2026-08-09T23:04:54.988Z"
+      "firstSeenAt": "2026-08-19T04:16:28.644Z",
+      "contentUpdatedAt": "2026-08-19T04:16:28.644Z"
+    },
+    "technologies/mcp-ai-agents/arthas.md": {
+      "status": "new",
+      "contentHash": "27f86fa6bd0e15da151cf483e98fd729052ed3882ca69cd504273e47c9065dba",
+      "firstSeenAt": "2026-08-19T04:16:28.644Z",
+      "contentUpdatedAt": "2026-08-19T04:16:28.644Z"
+    },
+    "technologies/mcp-ai-agents/awesome-claude-skills.md": {
+      "status": "new",
+      "contentHash": "0d67e4b46b6bf322a88abd5c65a3c1e2c7dda2e694a671f9905922058d040a92",
+      "firstSeenAt": "2026-08-19T04:16:28.644Z",
+      "contentUpdatedAt": "2026-08-19T04:16:28.644Z"
+    },
+    "technologies/mcp-ai-agents/blender-mcp.md": {
+      "status": "new",
+      "contentHash": "008f12a03b7d891b44c15fc9e7f2c124e38fb4ad61091f0ffd0c204c4ffeafbe",
+      "firstSeenAt": "2026-08-19T04:16:28.644Z",
+      "contentUpdatedAt": "2026-08-19T04:16:28.644Z"
+    },
+    "technologies/mcp-ai-agents/dspy.md": {
+      "status": "new",
+      "contentHash": "045e4bd4701e932e9f971cc11396dfa3527ef06f6ff1332e7d3752a9d7acfd92",
+      "firstSeenAt": "2026-08-19T04:16:28.644Z",
+      "contentUpdatedAt": "2026-08-19T04:16:28.644Z"
     },
     "technologies/mcp-ai-agents/happy-llm.md": {
       "status": "new",
       "contentHash": "750f372430cab7cb898f3521745d6137c77df9b2ffc9b0abf8dcbaa393715e5f",
-      "firstSeenAt": "2026-08-09T23:04:54.988Z",
-      "contentUpdatedAt": "2026-08-09T23:04:54.988Z"
+      "firstSeenAt": "2026-08-19T04:16:28.644Z",
+      "contentUpdatedAt": "2026-08-19T04:16:28.644Z"
+    },
+    "technologies/mcp-ai-agents/herdr.md": {
+      "status": "new",
+      "contentHash": "9cb3a82e611c0ce0762eb2c739fc180370fd3b61dad2a2a7ebcfae0026cb6149",
+      "firstSeenAt": "2026-08-19T04:16:28.644Z",
+      "contentUpdatedAt": "2026-08-19T04:16:28.644Z"
+    },
+    "technologies/mcp-ai-agents/kong.md": {
+      "status": "new",
+      "contentHash": "d425a2025cf803dfe015d53e8bd352db345c361c81dda50d4494ff0bd192057a",
+      "firstSeenAt": "2026-08-19T04:16:28.644Z",
+      "contentUpdatedAt": "2026-08-19T04:16:28.644Z"
+    },
+    "technologies/mcp-ai-agents/mindshub.md": {
+      "status": "new",
+      "contentHash": "4b8c2c366866c952d8cbcb836f7d901d6d91b2c85e03b68350e4497e9830fce4",
+      "firstSeenAt": "2026-08-19T04:16:28.644Z",
+      "contentUpdatedAt": "2026-08-19T04:16:28.644Z"
     },
     "technologies/mcp-ai-agents/minimind.md": {
       "status": "new",
       "contentHash": "56667577ae637656646eef21bfbb5f2af6c181aff972da1e40123f38e7abac9e",
-      "firstSeenAt": "2026-08-09T23:04:54.988Z",
-      "contentUpdatedAt": "2026-08-09T23:04:54.988Z"
+      "firstSeenAt": "2026-08-19T04:16:28.644Z",
+      "contentUpdatedAt": "2026-08-19T04:16:28.644Z"
     },
     "technologies/mcp-ai-agents/resume-matcher.md": {
       "status": "new",
       "contentHash": "f9b376b0858604679f841433e4cefa408096df17175d68101f9ae1244308b8a5",
-      "firstSeenAt": "2026-08-09T23:04:54.988Z",
-      "contentUpdatedAt": "2026-08-09T23:04:54.988Z"
+      "firstSeenAt": "2026-08-19T04:16:28.644Z",
+      "contentUpdatedAt": "2026-08-19T04:16:28.644Z"
+    },
+    "technologies/security/esp32-bluejammer.md": {
+      "status": "new",
+      "contentHash": "57dacda2d07628b5b2e002da121f3d5f0b43fea31e492c9734a53f87a788aae4",
+      "firstSeenAt": "2026-08-19T04:16:28.644Z",
+      "contentUpdatedAt": "2026-08-19T04:16:28.644Z"
+    },
+    "technologies/security/h4cker.md": {
+      "status": "new",
+      "contentHash": "62edcd1e5670c7d42556888171c8d2daccda0043ba199fa2fbdf135cc0b00f7a",
+      "firstSeenAt": "2026-08-19T04:16:28.644Z",
+      "contentUpdatedAt": "2026-08-19T04:16:28.644Z"
     }
   }
 }
