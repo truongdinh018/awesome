@@ -12,7 +12,7 @@
 
 Chạy desktop, browser UI, hoặc server riêng kèm **API riêng tư** — không gửi file lên dịch vụ cloud bên thứ ba. Thay iLovePDF / Smallpdf / Adobe online bằng **instance nội bộ** bạn kiểm soát — quan trọng khi PDF chứa HĐ, CCCD, hóa đơn.
 
-**Cùng kiểu:** [KillerPDF](killer-pdf.md) (PDF editor Win native), [LibreOffice harness](../cli-anything/libreoffice.md) (convert office), [MinerU](mineru.md) (PDF→MD), [Magika](magika.md) (pre-classify files).
+**Cùng kiểu:** [Pic Smaller](../image-video/pic-smaller.md) (nén ảnh browser), [KillerPDF](killer-pdf.md) (PDF editor Win native), [LibreOffice harness](../cli-anything/libreoffice.md) (convert office), [MinerU](mineru.md) (PDF→MD), [Magika](magika.md) (pre-classify files).
 
 ## Dùng khi nào?
 

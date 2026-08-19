@@ -12,7 +12,7 @@
 
 Có **RBAC**, Git sync, multi-environment (dev/staging/prod), audit log, self-host (Docker / Kubernetes / AWS AMI) hoặc Appsmith Cloud. Stack: React frontend + Java backend. Gần đây có **Appsmith Agents** (agentic AI trên dữ liệu nội bộ) — nhưng lõi vẫn là app builder, không phải coding agent.
 
-**Cùng kiểu:** [Dashy](dashy.md) (homelab dashboard đơn giản), [Duckle](duckle.md) (ETL canvas), [n8n-workflows](n8n-workflows.md) / n8n harness (automation), [EpicStaff](../mcp-ai-agents/epicstaff.md) (AI agent flow), [Drizzle ORM](drizzle-orm.md) (data layer code-first).
+**Cùng kiểu:** [Open SaaS](open-saas.md) (boilerplate SaaS Wasp), [OpenPanel](openpanel.md) (product analytics), [Dashy](dashy.md) (homelab dashboard đơn giản), [Duckle](duckle.md) (ETL canvas), [n8n-workflows](n8n-workflows.md) / n8n harness (automation), [EpicStaff](../mcp-ai-agents/epicstaff.md) (AI agent flow), [Drizzle ORM](drizzle-orm.md) (data layer code-first).
 
 ## Dùng khi nào?
 

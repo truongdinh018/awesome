@@ -13,7 +13,7 @@
 
 Khác multi-agent “tự do” kiểu black-box: ưu tiên **control & predictability** (output ổn định, brand-aligned), DX gần software engineering thông thường. Kèm **Atomic Assembler** CLI (tải Tools; roadmap Agents/Pipelines) và **Atomic Forge** (thư viện tool).
 
-**Cùng kiểu:** [Hermes](hermes-agent.md) (agent runtime full), [OpenHands](openhands.md) (coding-agent platform), [EpicStaff](epicstaff.md) (orchestrator + RAG), [CLI-Anything](cli-anything.md) (harness CLI).
+**Cùng kiểu:** [LangChain](langchain.md) (agent platform rộng), [LangGraph](langgraph.md) (graph agent), [DSPy](dspy.md) (compile/tối ưu pipeline LM), [Hermes](hermes-agent.md) (agent runtime full), [OpenHands](openhands.md) (coding-agent platform), [EpicStaff](epicstaff.md) (orchestrator + RAG), [CLI-Anything](cli-anything.md) (harness CLI).
 
 ## Dùng khi nào?
 

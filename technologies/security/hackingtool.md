@@ -10,7 +10,7 @@
 
 **HackingTool** là **menu CLI all-in-one** gom ~185+ tool bảo mật/pentest quen thuộc (recon, web, AD, cloud, mobile, forensics…) — tìm `/`, lọc tag, recommend theo nhu cầu, cài/cập nhật từng tool hoặc theo category. Docker build local. **Không phải AI agent** (không tự exploit như Strix): chỉ là **launcher/catalog** cho bộ công cụ đã có.
 
-**Cùng kiểu:** [Strix](strix.md) (AI pentest agent), [OSIRIS](osiris.md) (OSINT map + RECON UI), [Magika](../devtools/magika.md) (file-type).
+**Cùng kiểu:** [Strix](strix.md) (AI pentest agent), [OSIRIS](osiris.md) (OSINT map + RECON UI), [ESP32-BlueJammer](esp32-bluejammer.md) (RF lab — không jam hướng dẫn), [Magika](../devtools/magika.md) (file-type).
 
 ## Dùng khi nào?
 

@@ -14,7 +14,7 @@
 
 Bản `2.0.0-alpha` đang chuyển dần sang hệ Rolldown/Oxc (VoidZero). Không phải AI tool — là **devtools publish tài liệu**.
 
-**Cùng kiểu:** [docmd](docmd.md) (docs site + MCP/semantic search cho agent), [Docmost](../mcp-ai-agents/docmost.md) (wiki collab có server), [Open Resume](open-resume.md) (một dạng site builder chuyên biệt).
+**Cùng kiểu:** [Markdoc](markdoc.md) (Markdown custom tag → React), [docmd](docmd.md) (docs site + MCP/semantic search cho agent), [Docmost](../mcp-ai-agents/docmost.md) (wiki collab có server), [Open Resume](open-resume.md) (một dạng site builder chuyên biệt).
 
 ## Dùng khi nào?
 

@@ -22,15 +22,15 @@
 
 | # | Primary | ★ | Mục đích ngắn |
 |---|---------|---|----------------|
-| 1 | [MCP & AI Agents](#1-mcp--ai-agents) | 136 | MCP, RAG, agent, skill |
+| 1 | [MCP & AI Agents](#1-mcp--ai-agents) | 137 | MCP, RAG, agent, skill |
 | 2 | [Speech & Audio](#2-speech--audio) | 20 | STT / TTS / voice |
-| 3 | [Image & Video](#3-image--video) | 31 | Gen ảnh/video, NLE |
+| 3 | [Image & Video](#3-image--video) | 33 | Gen ảnh/video, NLE |
 | 4 | [UI Automation](#4-ui-automation--computer-use) | 8 | Browser / computer-use |
 | 5 | [CV & Edge](#5-computer-vision--edge) | 11 | Vision, IoT, edge |
-| 6 | [DevTools](#6-devtools--integration) | 105 | OCR, gateway, office, train, self-host |
-| 7 | [Security](#7-security--pentesting) | 4 | Pentest, OSINT, guardrail |
+| 6 | [DevTools](#6-devtools--integration) | 111 | OCR, gateway, office, train, self-host |
+| 7 | [Security](#7-security--pentesting) | 5 | Pentest, OSINT, guardrail |
 
-**Tổng = 315 ★** (+ 11 CLI-Anything harnesses)
+**Tổng = 325 ★** (+ 11 CLI-Anything harnesses)
 
 ---
 
@@ -92,6 +92,7 @@
 | **CC Workflow Studio** | `coding-agent` `skill` `mcp` `cli` `workflow` | [cc-wf-studio.md](../technologies/mcp-ai-agents/cc-wf-studio.md) |
 | **Spec Kit** | `coding-agent` `skill` `cli` `workflow` `prompt` | [spec-kit.md](../technologies/mcp-ai-agents/spec-kit.md) |
 | **Atomic Agents** | `agent` `cli` `api` `workflow` | [atomic-agents.md](../technologies/mcp-ai-agents/atomic-agents.md) |
+| **DSPy** | `agent` `rag` `cli` `workflow` `eval` | [dspy.md](../technologies/mcp-ai-agents/dspy.md) |
 | **PraisonAI** | `agent` `mcp` `rag` `cli` `workflow` `memory` `self-host` | [praisonai.md](../technologies/mcp-ai-agents/praisonai.md) |
 | **QM** | `agent` `coding-agent` `self-host` `workflow` `chatbot` `skill` | [qm.md](../technologies/mcp-ai-agents/qm.md) |
 | **EpicStaff** | `agent` `mcp` `rag` `self-host` `workflow` | [epicstaff.md](../technologies/mcp-ai-agents/epicstaff.md) |
@@ -233,6 +234,7 @@
 | Công nghệ | Tags | Bài viết |
 |-----------|------|----------|
 | **FreeCut** | `video` `self-host` `stt` `tts` | [freecut.md](../technologies/image-video/freecut.md) |
+| **Auto-Editor** | `video` `cli` | [auto-editor.md](../technologies/image-video/auto-editor.md) |
 | **Recordly** | `video` `desktop` `self-host` | [recordly.md](../technologies/image-video/recordly.md) |
 | **Gyroflow** | `video` `desktop` `self-host` | [gyroflow.md](../technologies/image-video/gyroflow.md) |
 | **OpenToonz** | `video` `desktop` `self-host` | [opentoonz.md](../technologies/image-video/opentoonz.md) |
@@ -275,6 +277,7 @@
 | **Claude Video** | `video` `skill` `coding-agent` `stt` `cli` `agent` | [claude-video.md](../technologies/image-video/claude-video.md) |
 | **LibreTube** | `video` `desktop` `self-host` | [libretube.md](../technologies/image-video/libretube.md) |
 | **ASCILINE** | `video` `cli` `self-host` `browser` | [asciline.md](../technologies/image-video/asciline.md) |
+| **Pic Smaller** | `browser` `self-host` `cli` | [pic-smaller.md](../technologies/image-video/pic-smaller.md) |
 
 ---
 
@@ -352,6 +355,10 @@
 | **CheatReader** | `desktop` `workspace` `pdf` | [cheatreader.md](../technologies/devtools/cheatreader.md) |
 | **BleachBit** | `desktop` `cli` `security` | [bleachbit.md](../technologies/devtools/bleachbit.md) |
 | **Canvas UI** | `browser` `design` `mcp` `cli` | [canvas-ui.md](../technologies/devtools/canvas-ui.md) |
+| **OpenPanel** | `self-host` `api` `mcp` `browser` `docker` `workspace` | [openpanel.md](../technologies/devtools/openpanel.md) |
+| **code-server** | `self-host` `browser` `workspace` `docker` `coding-agent` | [code-server.md](../technologies/devtools/code-server.md) |
+| **Open SaaS** | `self-host` `api` `workspace` `workflow` `skill` | [open-saas.md](../technologies/devtools/open-saas.md) |
+| **awesome-quant** | `finance` `trading` `dataset` | [awesome-quant.md](../technologies/devtools/awesome-quant.md) |
 | **WinPodX** | `desktop` `cli` `workspace` `self-host` `office` | [winpodx.md](../technologies/devtools/winpodx.md) |
 
 ### 6.2 Documents · PDF · file type
@@ -366,6 +373,7 @@
 | **OpenResume** | `pdf` `self-host` | [open-resume.md](../technologies/devtools/open-resume.md) |
 | **docmd** | `mcp` `skill` `cli` `self-host` `api` `rag` | [docmd.md](../technologies/devtools/docmd.md) |
 | **VitePress** | `cli` `self-host` `knowledge` | [vitepress.md](../technologies/devtools/vitepress.md) |
+| **Markdoc** | `cli` `knowledge` `api` | [markdoc.md](../technologies/devtools/markdoc.md) |
 | **Swup** | `browser` `cli` `self-host` | [swup.md](../technologies/devtools/swup.md) |
 | └ LibreOffice harness | `harness` `office` `cli` | [libreoffice.md](../technologies/cli-anything/libreoffice.md) |
 | **OfficeCLI** | `cli` `office` `skill` `coding-agent` `workspace` | [officecli.md](../technologies/devtools/officecli.md) |
@@ -405,6 +413,7 @@
 | **SmolVM** | `cli` `self-host` `desktop` `coding-agent` | [smolvm.md](../technologies/devtools/smolvm.md) |
 | **VeloxDB** | `desktop` `self-host` `cli` | [veloxdb.md](../technologies/devtools/veloxdb.md) |
 | **Dolt** | `cli` `self-host` `api` `workflow` `agent` | [dolt.md](../technologies/devtools/dolt.md) |
+| **Apache Cloudberry** | `self-host` `cli` `api` `docker` | [cloudberry.md](../technologies/devtools/cloudberry.md) |
 | **Drizzle ORM** | `api` `cli` `self-host` | [drizzle-orm.md](../technologies/devtools/drizzle-orm.md) |
 | **Vietnamese Provinces DB** | `gis` | [vietnamese-provinces-database.md](../technologies/devtools/vietnamese-provinces-database.md) |
 | **COBE** | `gis` | [cobe.md](../technologies/devtools/cobe.md) |
@@ -455,6 +464,7 @@
 | **HackingTool** | `security` `pentest` `cli` `self-host` | [hackingtool.md](../technologies/security/hackingtool.md) |
 | **OSIRIS** | `security` `gis` `self-host` `desktop` `api` | [osiris.md](../technologies/security/osiris.md) |
 | **System Informer** | `security` `desktop` | [system-informer.md](../technologies/security/system-informer.md) |
+| **ESP32-BlueJammer** | `security` `edge` `iot` | [esp32-bluejammer.md](../technologies/security/esp32-bluejammer.md) |
 
 | Khác biệt | Vai trò |
 |-----------|---------|
@@ -464,7 +474,10 @@
 | **HackingTool** | Menu cài tool pentest cổ điển (lab/CTF) |
 | **OSIRIS** | OSINT map + RECON toolkit |
 | **System Informer** | Windows process/handle monitor (ex-Process Hacker) |
+| **ESP32-BlueJammer** | Nhiễu RF 2.4 GHz (lab; firmware hạn chế — không hướng dẫn jam) |
 | **Magika** (§6.2) | AI file-type trước ingest/scan |
+
+> **10 GitHub viral** (bookmark, không ★): [viral-github-10.md](../technologies/bookmarks/viral-github-10.md) — nguồn [Facebook GitHub Projects](https://www.facebook.com/share/p/19Wr2woAHR/?mibextid=wwXIfr).
 
 ---
 
