@@ -12,7 +12,7 @@
 
 Có DoltHub (host công khai), DoltLab (self-host hub), Hosted Dolt. Cần Postgres-wire → [Doltgres](https://github.com/dolthub/doltgresql) (beta). README nêu use case **agent memory** / multi-agent (Beads, Gas Town).
 
-**Cùng kiểu:** [VeloxDB](veloxdb.md) / [Tabularis](tabularis.md) (client SQL), [Duckle](duckle.md) (ETL DuckDB), [Drizzle ORM](drizzle-orm.md) (ORM — không VC data).
+**Cùng kiểu:** [Apache Cloudberry](cloudberry.md) (MPP warehouse), [VeloxDB](veloxdb.md) / [Tabularis](tabularis.md) (client SQL), [Duckle](duckle.md) (ETL DuckDB), [Drizzle ORM](drizzle-orm.md) (ORM — không VC data).
 
 ## Dùng khi nào?
 

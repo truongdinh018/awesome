@@ -1,6 +1,6 @@
 # Starred Repos — Index
 
-> **328 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-08-18**  
+> **338 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-08-19**  
 > Đây là bảng master: mỗi dòng = 1 repo đã star + link bài `technologies/<domain>/<slug>.md`.
 > **Primary** = 1 trong 7 domain · **Tags** = nhiều capability.
 > Duyệt subgroup: [../categories/README.md](../categories/README.md) · Hub / checklist: [../README.md](../README.md) · Viết bài: [../technologies/WRITING.md](../technologies/WRITING.md)
@@ -335,6 +335,16 @@
 | 326 | [explosion/spaCy](https://github.com/explosion/spaCy) | 33.8k | Python | DevTools | `agent` `cli` | [spacy.md](../technologies/devtools/spacy.md) |
 | 327 | [datawhalechina/happy-llm](https://github.com/datawhalechina/happy-llm) | 32.8k | Jupyter Notebook | MCP & AI Agents | `agent` `rag` | [happy-llm.md](../technologies/mcp-ai-agents/happy-llm.md) |
 | 328 | [srbhr/Resume-Matcher](https://github.com/srbhr/Resume-Matcher) | 28.1k | TypeScript | MCP & AI Agents | `agent` `cli` | [resume-matcher.md](../technologies/mcp-ai-agents/resume-matcher.md) |
+| 329 | [EmenstaNougat/ESP32-BlueJammer](https://github.com/EmenstaNougat/ESP32-BlueJammer) | 7.7k | — | Security | `security` `edge` `iot` | [esp32-bluejammer.md](../technologies/security/esp32-bluejammer.md) |
+| 330 | [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy) | 37.4k | Python | MCP & AI Agents | `agent` `rag` `cli` `workflow` `eval` | [dspy.md](../technologies/mcp-ai-agents/dspy.md) |
+| 331 | [WyattBlue/auto-editor](https://github.com/WyattBlue/auto-editor) | 5.0k | Nim | Image & Video | `video` `cli` | [auto-editor.md](../technologies/image-video/auto-editor.md) |
+| 332 | [Openpanel-dev/openpanel](https://github.com/Openpanel-dev/openpanel) | 6.7k | TypeScript | DevTools | `self-host` `api` `mcp` `browser` `docker` `workspace` | [openpanel.md](../technologies/devtools/openpanel.md) |
+| 333 | [markdoc/markdoc](https://github.com/markdoc/markdoc) | 8.4k | TypeScript | DevTools | `cli` `knowledge` `api` | [markdoc.md](../technologies/devtools/markdoc.md) |
+| 334 | [wilsonfreitas/awesome-quant](https://github.com/wilsonfreitas/awesome-quant) | 29.0k | HTML | DevTools | `finance` `trading` `dataset` | [awesome-quant.md](../technologies/devtools/awesome-quant.md) |
+| 335 | [apache/cloudberry](https://github.com/apache/cloudberry) | 1.4k | C | DevTools | `self-host` `cli` `api` `docker` | [cloudberry.md](../technologies/devtools/cloudberry.md) |
+| 336 | [coder/code-server](https://github.com/coder/code-server) | 78.9k | TypeScript | DevTools | `self-host` `browser` `workspace` `docker` `coding-agent` | [code-server.md](../technologies/devtools/code-server.md) |
+| 337 | [wasp-lang/open-saas](https://github.com/wasp-lang/open-saas) | 15.5k | MDX | DevTools | `self-host` `api` `workspace` `workflow` `skill` | [open-saas.md](../technologies/devtools/open-saas.md) |
+| 338 | [joye61/pic-smaller](https://github.com/joye61/pic-smaller) | 2.8k | TypeScript | Image & Video | `browser` `self-host` `cli` | [pic-smaller.md](../technologies/image-video/pic-smaller.md) |
 
 
 ## Ecosystem — CLI-Anything harnesses (con của #16)

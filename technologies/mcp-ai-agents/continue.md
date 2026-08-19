@@ -14,7 +14,7 @@
 
 Gần [Cline](cline.md) / [OpenHands](openhands.md) về vai trò coding agent trong IDE hoặc self-host, nhưng Continue đã dừng phát triển chính thức.
 
-**Cùng kiểu:** [Cline](cline.md), [OpenHands](openhands.md), [CodeWhale](codewhale.md), [Happy](happy.md), [Paseo](paseo.md).
+**Cùng kiểu:** [Cline](cline.md), [OpenHands](openhands.md), [CodeWhale](codewhale.md), [Happy](happy.md), [Paseo](paseo.md), [code-server](../devtools/code-server.md) (VS Code trên browser).
 
 ## Dùng khi nào?
 

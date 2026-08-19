@@ -10,7 +10,7 @@
 
 **FreeCut** là trình chỉnh sửa video **chạy hoàn toàn trên trình duyệt** (*browser NLE*): timeline đa track, keyframe, hiệu ứng WebGPU, preview realtime, export WebCodecs. **Không cài app, không upload** — project và media nằm local (File System Access API + OPFS). AI on-device: transcription (Parakeet / Whisper fallback), Kokoro TTS, MusicGen, scene detection, captioning.
 
-**Cùng kiểu:** [OpenMontage](openmontage.md) (agentic studio), [Recordly](recordly.md) (screen demo desktop), [Gyroflow](gyroflow.md) (gyro stabilize), [OpenToonz](opentoonz.md) (2D animation desktop), [HyperFrames](hyperframes.md) (HTML→video), [pyVideoTrans](pyvideotrans.md) (dub/translate), [AudioBook KJ](../speech-audio/audiobook-kj.md) (timeline + TTS).
+**Cùng kiểu:** [Auto-Editor](auto-editor.md) (CLI cắt silence), [OpenMontage](openmontage.md) (agentic studio), [Recordly](recordly.md) (screen demo desktop), [Gyroflow](gyroflow.md) (gyro stabilize), [OpenToonz](opentoonz.md) (2D animation desktop), [HyperFrames](hyperframes.md) (HTML→video), [pyVideoTrans](pyvideotrans.md) (dub/translate), [AudioBook KJ](../speech-audio/audiobook-kj.md) (timeline + TTS).
 
 ## Dùng khi nào?
 

@@ -2,7 +2,7 @@
 
 > **Bắt đầu từ đây** nếu bạn chưa biết tool thuộc domain nào. Mỗi mục = một việc cần làm → tool + tóm tắt “là gì”.
 >
-> **235** bài · generated từ `technologies/*/…md` · **2026-07-27**.
+> **245** bài · generated từ `technologies/*/…md` · **2026-08-19**.
 >
 > Song song: [categories/](categories/README.md) · [repos/](repos/README.md) · [TAGS.md](TAGS.md).
 
@@ -16,26 +16,26 @@
 
 - [Hỏi đáp trên tài liệu / knowledge (RAG)](#01-rag) — **34**
 - [Cào web & extract dữ liệu](#02-extract) — **4**
-- [Agent lập trình](#03-coding) — **51**
-- [Agent runtime / bot đa kênh](#04-agent-runtime) — **16**
-- [MCP — gắn tool vào AI coding assistant](#05-mcp) — **56**
+- [Agent lập trình](#03-coding) — **52**
+- [Agent runtime / bot đa kênh](#04-agent-runtime) — **17**
+- [MCP — gắn tool vào AI coding assistant](#05-mcp) — **57**
 - [Skill / prompt / guideline](#06-skills) — **54**
 - [Memory dài hạn cho agent](#07-memory) — **4**
 - [An toàn lệnh & governance](#08-guardrail) — **2**
 - [Nhận dạng giọng nói (STT)](#09-stt) — **14**
 - [Tổng hợp tiếng nói / clone giọng (TTS)](#10-tts) — **26**
 - [Sinh ảnh & video bằng AI](#11-image-video-gen) — **16**
-- [Sửa / tải / xem video (không gen)](#12-video-tools) — **14**
+- [Sửa / tải / xem video (không gen)](#12-video-tools) — **15**
 - [UI / web → code](#13-ui2code) — **4**
 - [Tự động hóa trình duyệt (computer-use)](#14-browser) — **17**
 - [Thị giác máy & edge/IoT](#15-cv) — **9**
-- [PDF, OCR, tài liệu văn phòng](#16-pdf-ocr) — **24**
+- [PDF, OCR, tài liệu văn phòng](#16-pdf-ocr) — **25**
 - [Thông báo & cầu nối chat](#17-notify) — **7**
 - [Workflow / automation glue](#18-workflow) — **17**
-- [Bảo mật & pentest](#19-security) — **7**
+- [Bảo mật & pentest](#19-security) — **8**
 - [Hạ tầng chạy LLM (gateway / inference / train)](#20-llm-infra) — **15**
-- [DB / storage / file browser](#21-data) — **5**
-- [Năng suất & self-host tiện ích](#22-productivity) — **32**
+- [DB / storage / file browser](#21-data) — **6**
+- [Năng suất & self-host tiện ích](#22-productivity) — **37**
 - [CLI-Anything harness (điều khiển app bằng agent)](#23-harness) — **12**
 - [3D / CAD / game engine](#24-3d) — **7**
 - [Watermark nội dung AI](#25-watermark) — **2**
@@ -122,6 +122,7 @@
 | **Clawdmeter** | MCP & AI Agents | `coding-agent` `edge` `iot` `desktop` `cli` | Clawdmeter là dashboard bàn trên ESP32: hiện Claude Code usage (session / weekly). | [clawdmeter.md](technologies/mcp-ai-agents/clawdmeter.md) |
 | **Cline** | MCP & AI Agents | `coding-agent` `agent` `cli` `desktop` `mcp` `self-host` `skill` | Cline là autonomous coding agent (IDE extension + CLI/SDK): đọc code, sửa file, chạy lệnh, MCP/skills — human-in-the-loop duyệt diff. | [cline.md](technologies/mcp-ai-agents/cline.md) |
 | **Continue** | MCP & AI Agents | `coding-agent` `agent` `cli` `desktop` `mcp` `self-host` | Continue là coding agent OSS (VS Code / JetBrains / CLI + MCP); repo read-only — bản cuối 2.0.0, không còn maintain tích cực. | [continue.md](technologies/mcp-ai-agents/continue.md) |
+| **code-server** | DevTools | `self-host` `browser` `workspace` `docker` `coding-agent` | code-server chạy VS Code trên máy chủ, mở bằng trình duyệt — môi trường dev thống nhất trên VPS/GPU box. | [code-server.md](technologies/devtools/code-server.md) |
 | **CodeBurn** | MCP & AI Agents | `cli` `coding-agent` `mcp` `desktop` `self-host` | CodeBurn là tool local-first theo dõi token + chi phí dùng AI coding (~32 tools: Claude Code, Cursor, Codex, Gemini, Grok…). | [codeburn.md](technologies/mcp-ai-agents/codeburn.md) |
 | **CodeWhale** | MCP & AI Agents | `coding-agent` `cli` `agent` `self-host` `mcp` `skill` | CodeWhale là coding agent chạy trên máy bạn trong terminal: đưa provider + model + task → đọc code, sửa file, chạy lệnh, kiểm t… | [codewhale.md](technologies/mcp-ai-agents/codewhale.md) |
 | **Codex Pets & coding-agent companions** | Bookmarks | `coding-agent` `desktop` `cli` | Cộng đồng làm companion nhỏ (pixel / animation) gắn UI coding agent — chủ yếu OpenAI Codex app. | [codex-pets.md](technologies/bookmarks/codex-pets.md) |
@@ -174,6 +175,7 @@
 | **AnythingLLM** | MCP & AI Agents | `rag` `agent` `mcp` `self-host` `desktop` `api` | AnythingLLM (Mintplex Labs) là app all-in-one local-first : chat với documents, AI agents, multi-user (Docker), vector DB, MCP,… | [anything-llm.md](technologies/mcp-ai-agents/anything-llm.md) |
 | **AstrBot** | MCP & AI Agents | `agent` `mcp` `skill` `rag` `self-host` `api` | AstrBot — platform agent chatbot all-in-one gắn IM (QQ, Telegram, Discord, Feishu, DingTalk, WeCom, Slack, LINE…). | [astrbot.md](technologies/mcp-ai-agents/astrbot.md) |
 | **Atomic Agents** | MCP & AI Agents | `agent` `cli` `api` `workflow` | Atomic Agents (Eigenwise) là framework nhẹ, modular để dựng agent pipeline như LEGO: mỗi agent / tool / context provider single… | [atomic-agents.md](technologies/mcp-ai-agents/atomic-agents.md) |
+| **DSPy** | MCP & AI Agents | `agent` `rag` `cli` `workflow` `eval` | DSPy là framework lập trình language model (không prompt tay): module Python, compile/tối ưu prompt và demo cho RAG, classifier, agent loop. | [dspy.md](technologies/mcp-ai-agents/dspy.md) |
 | **PraisonAI** | MCP & AI Agents | `agent` `mcp` `rag` `cli` `workflow` `memory` `self-host` | PraisonAI là framework multi-agent / AI workforce: SDK Python mỏng, CLI, UI, Flow builder, Claw (Telegram/Slack/Discord), MCP Registry, 100+ LLM. | [praisonai.md](technologies/mcp-ai-agents/praisonai.md) |
 | **CLI-Anything** | MCP & AI Agents | `cli` `harness` `skill` `agent` | CLI-Anything (HKUDS) làm mọi phần mềm trở thành agent-native qua CLI có cấu trúc, thay vì để agent “bấm UI” mù. | [cli-anything.md](technologies/mcp-ai-agents/cli-anything.md) |
 | **EpicStaff** | MCP & AI Agents | `agent` `mcp` `rag` `self-host` `workflow` | EpicStaff là platform self-host để ops/engineer xây AI agent flows : editor kéo-thả node trên backend Django ; mọi node có thể … | [epicstaff.md](technologies/mcp-ai-agents/epicstaff.md) |
@@ -229,6 +231,7 @@
 | **Maths, CS & AI Compendium** | MCP & AI Agents | `prompt` `mcp` `skill` `rag` `cli` | Maths, CS & AI Compendium là sách giáo khoa mở (intuition-first): toán → ML → NLP/CV/speech/multimodal → hệ thống / GPU / infer… | [maths-cs-ai-compendium.md](technologies/mcp-ai-agents/maths-cs-ai-compendium.md) |
 | **NotebookLM MCP** | MCP & AI Agents | `mcp` `rag` | NotebookLM MCP là MCP server nối AI agent (Claude Code, Codex, Cursor…) với Google NotebookLM. | [notebooklm-mcp.md](technologies/mcp-ai-agents/notebooklm-mcp.md) |
 | **OmniRoute** | DevTools | `api` `self-host` `gateway` `mcp` `desktop` `docker` `agent` | OmniRoute là AI gateway self-host: hàng trăm provider/model, nhiều strategy routing, RTK+Caveman, MCP/A2A, dashboard. | [omniroute.md](technologies/devtools/omniroute.md) |
+| **OpenPanel** | DevTools | `self-host` `api` `mcp` `browser` `docker` `workspace` | OpenPanel là product analytics self-host (Mixpanel-like): funnel, cohort, session replay, A/B, MCP hỏi user. | [openpanel.md](technologies/devtools/openpanel.md) |
 | **OpenHuman** | MCP & AI Agents | `rag` `agent` `mcp` `self-host` `desktop` `workflow` | OpenHuman là personal AI super intelligence local-first gồm ba phần: (1) brain — memory tree / Obsidian-style wiki từ email·cal… | [openhuman.md](technologies/mcp-ai-agents/openhuman.md) |
 | **Open Interpreter** | MCP & AI Agents | `coding-agent` `agent` `cli` `skill` `mcp` `computer-use` | Open Interpreter là coding agent tối ưu cho open / low-cost models (Kimi K3, DeepSeek, Qwen…): fork Rust của Codex, TUI, harness… | [openinterpreter.md](technologies/mcp-ai-agents/openinterpreter.md) |
 | **OpenSpace** | MCP & AI Agents | `skill` `agent` `mcp` `cli` `self-host` `coding-agent` | OpenSpace — quality-first skill hub cho AI agents: self-evolve skill (auto-fix / improve / learn từ task thật), share skill clo… | [openspace.md](technologies/mcp-ai-agents/openspace.md) |
@@ -441,6 +444,7 @@
 | **AI-auto-generate-video (Template Video)** | Image & Video | `video` `skill` `tts` `cli` `agent` | AI-auto-generate-video (AI Coding) là pipeline bài viết / URL → video Shorts 9:16 theo cách xác định ( deterministic ): - AI (C… | [ai-auto-generate-video.md](technologies/image-video/ai-auto-generate-video.md) |
 | **Claude Video** | Image & Video | `video` `skill` `coding-agent` `stt` `cli` `agent` | Claude Video (`/watch`) — Agent Skill giúp Claude/Cursor xem video: yt-dlp + frame + transcript → vision. Phân tích YouTube, sc… | [claude-video.md](technologies/image-video/claude-video.md)
 | **ASCILINE** | Image & Video | `video` `cli` `self-host` `browser` | ASCILINE là engine render video → ASCII / pixel-grid realtime: server Python (OpenCV + NumPy + FastAPI) map pixel → khung chữ, … | [asciline.md](technologies/image-video/asciline.md) |
+| **Auto-Editor** | Image & Video | `video` `cli` | Auto-Editor là CLI cắt video/audio tự động (silence / motion) — first pass trước khi chỉnh NLE; export Premiere/Resolve/FCP. | [auto-editor.md](technologies/image-video/auto-editor.md) |
 | **FreeCut** | Image & Video | `video` `self-host` `stt` `tts` | FreeCut là trình chỉnh sửa video chạy hoàn toàn trên trình duyệt ( browser NLE ): timeline đa track, keyframe, hiệu ứng WebGPU,… | [freecut.md](technologies/image-video/freecut.md) |
 | **Gyroflow** | Image & Video | `video` `desktop` `self-host` | Gyroflow ổn định video bằng dữ liệu gyroscope (và accelerometer) ghi trong camera — GoPro, Sony, Insta360, DJI… hoặc log ngoài … | [gyroflow.md](technologies/image-video/gyroflow.md) |
 | **HyperFrames** | Image & Video | `video` `cli` `agent` | HyperFrames (HeyGen) — "Write HTML. | [hyperframes.md](technologies/image-video/hyperframes.md) |
@@ -533,6 +537,7 @@
 | **Knowledge Work Plugins (Anthropic)** | MCP & AI Agents | `skill` `prompt` `workspace` `office` | knowledge-work-plugins là open-source plugins Anthropic biến Claude thành chuyên gia theo role : mỗi plugin đóng gói skills, co… | [knowledge-work-plugins.md](technologies/mcp-ai-agents/knowledge-work-plugins.md) |
 | **LibreOffice (CLI-Anything harness)** | CLI-Anything | `harness` `office` `cli` | Harness LibreOffice headless: convert, export document (Writer/Calc/…) qua CLI — agent batch office file không cần GUI. | [libreoffice.md](technologies/cli-anything/libreoffice.md) |
 | **LocateAnything-3B** | CV & Edge | `cv` `ocr` `self-host` `cli` | LocateAnything-3B (NVIDIA Eagle) là VLM grounding nhanh: referring expression, multi-object detection, GUI grounding, text loca… | [locate-anything.md](technologies/cv-edge/locate-anything.md) |
+| **Markdoc** | DevTools | `cli` `knowledge` `api` | Markdoc là framework Markdown + custom tag (Stripe docs): parse → AST → transform → React. | [markdoc.md](technologies/devtools/markdoc.md) |
 | **MarkItDown** | DevTools | `cli` `pdf` `ocr` | MarkItDown là utility Python nhẹ chuyển nhiều loại file → Markdown cho LLM / text pipelines (gần textract, nhưng giữ cấu trúc M… | [markitdown.md](technologies/devtools/markitdown.md) |
 | **MinerU** | DevTools | `ocr` `pdf` `cli` `self-host` `api` | MinerU là pipeline chuyển PDF / Office phức tạp thành Markdown/JSON LLM-ready cho agentic workflows: layout, bảng, công thức, m… | [mineru.md](technologies/devtools/mineru.md) |
 | **Chunkr** | DevTools | `ocr` `pdf` `rag` `self-host` `api` | Chunkr là document intelligence OSS: layout + OCR + semantic chunking → chunk RAG/LLM-ready (self-host Docker; Cloud API khác model). | [chunkr.md](technologies/devtools/chunkr.md) |
@@ -602,6 +607,7 @@
 |-----------|--------|------|-------------------|-----|
 | **Agent Governance Toolkit (AGT)** | MCP & AI Agents | `guardrail` `security` `agent` `cli` `mcp` | Agent Governance Toolkit (AGT) là bộ công cụ mã nguồn mở của Microsoft để ship agent production : áp dụng policy ( policy enfor… | [agent-governance-toolkit.md](technologies/mcp-ai-agents/agent-governance-toolkit.md) |
 | **BleachBit** | DevTools | `desktop` `cli` `security` | BleachBit là phần mềm dọn hệ thống cho Windows và Linux : xóa cache/cookie/log tạm để giải phóng ổ đĩa và giảm dấu vết riêng tư… | [bleachbit.md](technologies/devtools/bleachbit.md) |
+| **ESP32-BlueJammer** | Security | `security` `edge` `iot` | ESP32-BlueJammer gây nhiễu 2.4 GHz (BT/BLE/Wi‑Fi/RC) trên ESP32+nRF24 — chỉ lab/ủy quyền; catalog không hướng dẫn jam/flash. | [esp32-bluejammer.md](technologies/security/esp32-bluejammer.md) |
 | **HackingTool** | Security | `security` `pentest` `cli` `self-host` | HackingTool là menu CLI all-in-one gom ~185+ tool bảo mật/pentest quen thuộc (recon, web, AD, cloud, mobile, forensics…) — tìm … | [hackingtool.md](technologies/security/hackingtool.md) |
 | **Magika** | DevTools | `cli` `security` | Magika (Google Security Research) là nhận diện kiểu nội dung file bằng AI (deep learning, model vài MB): ~ 99% precision/recall… | [magika.md](technologies/devtools/magika.md) |
 | **OSIRIS** | Security | `security` `gis` `self-host` `desktop` `api` | OSIRIS là dashboard OSINT self-host: gom flight (OpenSky), maritime, CCTV (2k+), động đất (USGS), cháy (NASA FIRMS), thời tiết/… | [osiris.md](technologies/security/osiris.md) |
@@ -642,6 +648,7 @@
 
 | Công nghệ | Domain | Tags | Dùng để (tóm tắt) | Bài |
 |-----------|--------|------|-------------------|-----|
+| **Apache Cloudberry** | DevTools | `self-host` `cli` `api` `docker` | Apache Cloudberry (Incubating) là MPP database (dòng Greenplum, kernel Postgres mới) cho warehouse / analytics lớn. | [cloudberry.md](technologies/devtools/cloudberry.md) |
 | **Dolt** | DevTools | `cli` `self-host` `api` `workflow` `agent` | Dolt là database SQL bạn fork / clone / branch / merge / push / pull như Git. | [dolt.md](technologies/devtools/dolt.md) |
 | **FileBrowser Quantum** | DevTools | `self-host` `desktop` `api` `workspace` `browser` | FileBrowser Quantum — fork hiện đại của File Browser: web file manager self-host trên filesystem (multi-source, include/exclude). | [filebrowser-quantum.md](technologies/devtools/filebrowser-quantum.md) |
 | **R2 Web** | DevTools | `self-host` `desktop` `api` `workspace` | R2 Web là file manager web thuần browser cho Cloudflare R2 : browse, upload (kéo/thả, paste), rename/move/copy/delete, preview … | [r2-web.md](technologies/devtools/r2-web.md) |
@@ -658,9 +665,11 @@
 | Công nghệ | Domain | Tags | Dùng để (tóm tắt) | Bài |
 |-----------|--------|------|-------------------|-----|
 | **Appsmith** | DevTools | `self-host` `api` `workspace` `workflow` `browser` | Appsmith là nền tảng low-code mã nguồn mở để dựng admin panel, internal tool, dashboard: kéo-thả widget, query 25+ DB hoặc REST/… | [appsmith.md](technologies/devtools/appsmith.md) |
+| **awesome-quant** | DevTools | `finance` `trading` `dataset` | awesome-quant là curated list thư viện quantitative finance (Python/R, backtest, broker, risk) — không phải app chạy. | [awesome-quant.md](technologies/devtools/awesome-quant.md) |
 | **AirLLM** | DevTools | `self-host` `cli` `api` | AirLLM là thư viện suy luận LLM lớn trên GPU nhỏ bằng cách chỉ giữ một layer trên VRAM (load layer-wise từ disk), không bắt buộ… | [airllm.md](technologies/devtools/airllm.md) |
 | **Cake** | DevTools | `api` `self-host` `cli` `tts` `image-gen` `edge` | Cake là máy chủ chạy mô hình AI viết bằng Rust ( inference server ). | [cake.md](technologies/devtools/cake.md) |
 | **ChronoFrame** | DevTools | `self-host` `desktop` `workspace` `browser` | ChronoFrame — gallery ảnh cá nhân self-host : quản lý album online, Live/Motion Photos, parse EXIF, reverse geocoding, bản đồ e… | [chronoframe.md](technologies/devtools/chronoframe.md) |
+| **code-server** | DevTools | `self-host` `browser` `workspace` `docker` `coding-agent` | code-server chạy VS Code trên máy chủ, mở bằng trình duyệt. | [code-server.md](technologies/devtools/code-server.md) |
 | **Dashy** | DevTools | `self-host` `desktop` `workspace` | Dashy là dashboard self-host làm homepage homelab : gom links/apps, status check realtime, widgets, themes/icons. | [dashy.md](technologies/devtools/dashy.md) |
 | **DFlash** | DevTools | `cli` `self-host` `api` | DFlash ( Block Diffusion for Flash Speculative Decoding ) là draft model block diffusion nhẹ để speculative decoding : target L… | [dflash.md](technologies/devtools/dflash.md) |
 | **Drizzle ORM** | DevTools | `api` `cli` `self-host` | Drizzle ORM là ORM headless cho Node.js / TypeScript / JavaScript: khai báo schema SQL type-safe, query relational hoặc SQL-lik… | [drizzle-orm.md](technologies/devtools/drizzle-orm.md) |
@@ -674,7 +683,10 @@
 | **LLM Checker** | DevTools | `cli` `mcp` `self-host` | LLM Checker — CLI (và MCP) quét phần cứng rồi recommend model LLM/sLLM local phù hợp (Ollama + registry HF/Ollama/GPT4All, scor… | [llm-checker.md](technologies/devtools/llm-checker.md) |
 | **MiniCPM** | DevTools | `self-host` `cli` `edge` `desktop` `skill` | MiniCPM (OpenBMB / Tsinghua) là dòng LLM nhỏ, mạnh trên edge/on-device. | [minicpm.md](technologies/devtools/minicpm.md) |
 | **n8n Workflows (Zie619)** | DevTools | `workflow` `self-host` `dataset` | n8n Workflow Collection là kho ~4,3k workflow JSON production-ready (365+ integrations, 15 categories), gom từ community + site… | [n8n-workflows.md](technologies/devtools/n8n-workflows.md) |
+| **OpenPanel** | DevTools | `self-host` `api` `mcp` `browser` `docker` `workspace` | OpenPanel là product analytics self-host (thay Mixpanel/GA): funnel, cohort, session replay. | [openpanel.md](technologies/devtools/openpanel.md) |
+| **Open SaaS** | DevTools | `self-host` `api` `workspace` `workflow` `skill` | Open SaaS là boilerplate SaaS (Wasp + React + Node + Prisma): auth, Stripe/Polar, email, jobs, admin — `wasp new -t saas`. | [open-saas.md](technologies/devtools/open-saas.md) |
 | **OpenTickly** | DevTools | `self-host` `api` `cli` `workspace` `agent` | OpenTickly là time tracker self-host , private-first, tương thích Toggl (import/export, giữ workflow hiện có). | [opentickly.md](technologies/devtools/opentickly.md) |
+| **Pic Smaller** | Image & Video | `browser` `self-host` `cli` | Pic Smaller nén ảnh batch trong trình duyệt (JPEG/PNG/WebP/AVIF/GIF/SVG, HEIC) — không upload server. | [pic-smaller.md](technologies/image-video/pic-smaller.md) |
 | **React Scan** | DevTools | `browser` `cli` `desktop` | React Scan tự phát hiện vấn đề performance React (render thừa): không cần sửa app nhiều — drop-in script / npx react-scan init … | [react-scan.md](technologies/devtools/react-scan.md) |
 | **SmolVM** | DevTools | `cli` `self-host` `desktop` `coding-agent` | SmolVM là CLI chạy Linux microVM cục bộ: cold start dưới giây, macOS / Linux / Windows, RAM elastic (virtio balloon). | [smolvm.md](technologies/devtools/smolvm.md) |
 | **System Design 101** | DevTools | `diagram` `dataset` | System Design 101 (ByteByteGo) là kho giải thích hệ thống phức tạp bằng hình + ngôn ngữ đơn giản: API/web, load balancer, cache, DB, message queue, microservices, cloud (AWS…), interview system… | [system-design-101.md](technologies/devtools/system-design-101.md) |
