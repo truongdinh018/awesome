@@ -1,5 +1,5 @@
 {
-  "indexedAt": "2026-08-16T23:04:17.631Z",
+  "indexedAt": "2026-08-23T23:04:09.233Z",
   "model": "Xenova/multilingual-e5-small",
   "articles": {
     "technologies/bookmarks/codex-pets.md": {
@@ -280,9 +280,9 @@
     },
     "technologies/devtools/freellmapi.md": {
       "status": "current",
-      "contentHash": "e03138234e9b7f8937d11da5919e984f7102ee040c169c145d01b238f091b1f4",
+      "contentHash": "00ffe4e4c2da553f6e87bc7fc3c420e6af5b7394a379dabdb8975b489cc4a032",
       "firstSeenAt": "2026-07-16T10:34:43.376Z",
-      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+      "contentUpdatedAt": "2026-08-14T02:14:53.410Z"
     },
     "technologies/devtools/google-workspace-cli.md": {
       "status": "current",
@@ -340,9 +340,9 @@
     },
     "technologies/devtools/localai.md": {
       "status": "current",
-      "contentHash": "af5e61814111bf38a8f95b0eb422eda5c41d29ed31b582711b5e99f35ef91c63",
+      "contentHash": "87e82633d69a76ecf9b0b5a86141c3bbc7a09a12dcb71b5e74d19b564fe9183c",
       "firstSeenAt": "2026-07-16T10:34:43.376Z",
-      "contentUpdatedAt": "2026-07-16T10:34:43.376Z"
+      "contentUpdatedAt": "2026-08-14T02:14:53.410Z"
     },
     "technologies/devtools/magika.md": {
       "status": "current",
@@ -1970,12 +1970,6 @@
       "firstSeenAt": "2026-08-02T23:04:02.466Z",
       "contentUpdatedAt": "2026-08-02T23:04:02.466Z"
     },
-    "technologies/mcp-ai-agents/omniroute.md": {
-      "status": "new",
-      "contentHash": "5388e5fa5fba5afa7d1b38beed06c2aef9b67c2a9131f56968c53e33a12f2a07",
-      "firstSeenAt": "2026-08-02T23:04:02.466Z",
-      "contentUpdatedAt": "2026-08-02T23:04:02.466Z"
-    },
     "technologies/mcp-ai-agents/repomix.md": {
       "status": "new",
       "contentHash": "1de27a32618209951bb1b99dc8f2a6d5f61d38e8a608670fa1f6d2beba0d0c71",
@@ -2006,53 +2000,155 @@
       "firstSeenAt": "2026-08-12T07:16:14.213Z",
       "contentUpdatedAt": "2026-08-12T07:16:14.213Z"
     },
+    "technologies/devtools/9router.md": {
+      "status": "current",
+      "contentHash": "d8fa11c38a41e6c7fa1351915e7f982aff840ce1e7a48daf4a9b0d2fd4e9f3f1",
+      "firstSeenAt": "2026-08-14T02:14:53.410Z",
+      "contentUpdatedAt": "2026-08-14T03:08:04.030Z"
+    },
+    "technologies/devtools/cliproxyapi.md": {
+      "status": "current",
+      "contentHash": "9741c7f50e161fb758a5b0903a104c64285604be61051f0490942f452444ec71",
+      "firstSeenAt": "2026-08-14T02:14:53.410Z",
+      "contentUpdatedAt": "2026-08-14T03:08:04.030Z"
+    },
+    "technologies/devtools/omniroute.md": {
+      "status": "current",
+      "contentHash": "73cf441e44aaa5a955f67b9228d0bbea3e007a85e46b1732fbcd73315c8c6dd5",
+      "firstSeenAt": "2026-08-14T02:14:53.410Z",
+      "contentUpdatedAt": "2026-08-14T03:08:04.030Z"
+    },
+    "technologies/bookmarks/local-ai-gateways.md": {
+      "status": "new",
+      "contentHash": "1e4f4ac92ebb2489860bc97d365d02a6d65abd261c8cc0919ce5f31df6a3e786",
+      "firstSeenAt": "2026-08-14T03:08:04.030Z",
+      "contentUpdatedAt": "2026-08-14T03:08:04.030Z"
+    },
+    "technologies/devtools/modular.md": {
+      "status": "new",
+      "contentHash": "f1946afc1ef13a4a4ba8fc9a66e436579c722df28986936b64a7230b2b3be046",
+      "firstSeenAt": "2026-08-23T23:04:09.233Z",
+      "contentUpdatedAt": "2026-08-23T23:04:09.233Z"
+    },
+    "technologies/devtools/nautilus-trader.md": {
+      "status": "new",
+      "contentHash": "4375ec62c952982312a63937dd25c70cb3e55d03a254144565dc89e004cfb9d7",
+      "firstSeenAt": "2026-08-23T23:04:09.233Z",
+      "contentUpdatedAt": "2026-08-23T23:04:09.233Z"
+    },
+    "technologies/devtools/ncnn.md": {
+      "status": "new",
+      "contentHash": "3ac0341b375383e05d077e50bef2528165274e161391f0fd6344d819d68579f1",
+      "firstSeenAt": "2026-08-23T23:04:09.233Z",
+      "contentUpdatedAt": "2026-08-23T23:04:09.233Z"
+    },
+    "technologies/devtools/spacy.md": {
+      "status": "new",
+      "contentHash": "bcc563064b67db4a164de091e7c4dec23b88336cbb732187c2203a88d6ec2277",
+      "firstSeenAt": "2026-08-23T23:04:09.233Z",
+      "contentUpdatedAt": "2026-08-23T23:04:09.233Z"
+    },
     "technologies/devtools/xgboost.md": {
       "status": "new",
       "contentHash": "8598b3ca86c422729e9f546af260049a73a3f696c2c2edc02f07095d79ef8454",
-      "firstSeenAt": "2026-08-16T23:04:17.631Z",
-      "contentUpdatedAt": "2026-08-16T23:04:17.631Z"
+      "firstSeenAt": "2026-08-23T23:04:09.233Z",
+      "contentUpdatedAt": "2026-08-23T23:04:09.233Z"
+    },
+    "technologies/mcp-ai-agents/a2a.md": {
+      "status": "new",
+      "contentHash": "dfcc2f7929dbbc7605200552785e87d5083a4be8c89af3273e133a0ab0b2e767",
+      "firstSeenAt": "2026-08-23T23:04:09.233Z",
+      "contentUpdatedAt": "2026-08-23T23:04:09.233Z"
+    },
+    "technologies/mcp-ai-agents/agents.md": {
+      "status": "new",
+      "contentHash": "4d99c0e9e6d91f04b4547e283b4fac734350dba42780685a0fabb10ee63987cc",
+      "firstSeenAt": "2026-08-23T23:04:09.233Z",
+      "contentUpdatedAt": "2026-08-23T23:04:09.233Z"
     },
     "technologies/mcp-ai-agents/arthas.md": {
       "status": "new",
       "contentHash": "27f86fa6bd0e15da151cf483e98fd729052ed3882ca69cd504273e47c9065dba",
-      "firstSeenAt": "2026-08-16T23:04:17.631Z",
-      "contentUpdatedAt": "2026-08-16T23:04:17.631Z"
+      "firstSeenAt": "2026-08-23T23:04:09.233Z",
+      "contentUpdatedAt": "2026-08-23T23:04:09.233Z"
+    },
+    "technologies/mcp-ai-agents/awesome-ai-agents.md": {
+      "status": "new",
+      "contentHash": "edd4a8a118be4fb3b528237cfd21257ae73e85e27fe11a328023a3d1dcd4ece0",
+      "firstSeenAt": "2026-08-23T23:04:09.233Z",
+      "contentUpdatedAt": "2026-08-23T23:04:09.233Z"
     },
     "technologies/mcp-ai-agents/awesome-claude-skills.md": {
       "status": "new",
       "contentHash": "0d67e4b46b6bf322a88abd5c65a3c1e2c7dda2e694a671f9905922058d040a92",
-      "firstSeenAt": "2026-08-16T23:04:17.631Z",
-      "contentUpdatedAt": "2026-08-16T23:04:17.631Z"
+      "firstSeenAt": "2026-08-23T23:04:09.233Z",
+      "contentUpdatedAt": "2026-08-23T23:04:09.233Z"
     },
     "technologies/mcp-ai-agents/blender-mcp.md": {
       "status": "new",
       "contentHash": "008f12a03b7d891b44c15fc9e7f2c124e38fb4ad61091f0ffd0c204c4ffeafbe",
-      "firstSeenAt": "2026-08-16T23:04:17.631Z",
-      "contentUpdatedAt": "2026-08-16T23:04:17.631Z"
+      "firstSeenAt": "2026-08-23T23:04:09.233Z",
+      "contentUpdatedAt": "2026-08-23T23:04:09.233Z"
+    },
+    "technologies/mcp-ai-agents/genai-agents.md": {
+      "status": "new",
+      "contentHash": "2ffe02c69c5c2c8caa89d914ebba7be954d6145524c245ff31d91390ea313f2d",
+      "firstSeenAt": "2026-08-23T23:04:09.233Z",
+      "contentUpdatedAt": "2026-08-23T23:04:09.233Z"
+    },
+    "technologies/mcp-ai-agents/gpt-researcher.md": {
+      "status": "new",
+      "contentHash": "fe42b1cc529a279b5896dd1a53ff9422a9c5afa20ef7e5aecc350c65f7baebba",
+      "firstSeenAt": "2026-08-23T23:04:09.233Z",
+      "contentUpdatedAt": "2026-08-23T23:04:09.233Z"
+    },
+    "technologies/mcp-ai-agents/happy-llm.md": {
+      "status": "new",
+      "contentHash": "750f372430cab7cb898f3521745d6137c77df9b2ffc9b0abf8dcbaa393715e5f",
+      "firstSeenAt": "2026-08-23T23:04:09.233Z",
+      "contentUpdatedAt": "2026-08-23T23:04:09.233Z"
     },
     "technologies/mcp-ai-agents/herdr.md": {
       "status": "new",
       "contentHash": "9cb3a82e611c0ce0762eb2c739fc180370fd3b61dad2a2a7ebcfae0026cb6149",
-      "firstSeenAt": "2026-08-16T23:04:17.631Z",
-      "contentUpdatedAt": "2026-08-16T23:04:17.631Z"
+      "firstSeenAt": "2026-08-23T23:04:09.233Z",
+      "contentUpdatedAt": "2026-08-23T23:04:09.233Z"
     },
     "technologies/mcp-ai-agents/kong.md": {
       "status": "new",
       "contentHash": "d425a2025cf803dfe015d53e8bd352db345c361c81dda50d4494ff0bd192057a",
-      "firstSeenAt": "2026-08-16T23:04:17.631Z",
-      "contentUpdatedAt": "2026-08-16T23:04:17.631Z"
+      "firstSeenAt": "2026-08-23T23:04:09.233Z",
+      "contentUpdatedAt": "2026-08-23T23:04:09.233Z"
+    },
+    "technologies/mcp-ai-agents/litellm.md": {
+      "status": "new",
+      "contentHash": "885fb52a8c9cbf077bd763a399754d108415c117e006b4210fc3e49a04a71535",
+      "firstSeenAt": "2026-08-23T23:04:09.233Z",
+      "contentUpdatedAt": "2026-08-23T23:04:09.233Z"
     },
     "technologies/mcp-ai-agents/mindshub.md": {
       "status": "new",
       "contentHash": "4b8c2c366866c952d8cbcb836f7d901d6d91b2c85e03b68350e4497e9830fce4",
-      "firstSeenAt": "2026-08-16T23:04:17.631Z",
-      "contentUpdatedAt": "2026-08-16T23:04:17.631Z"
+      "firstSeenAt": "2026-08-23T23:04:09.233Z",
+      "contentUpdatedAt": "2026-08-23T23:04:09.233Z"
+    },
+    "technologies/mcp-ai-agents/minimind.md": {
+      "status": "new",
+      "contentHash": "56667577ae637656646eef21bfbb5f2af6c181aff972da1e40123f38e7abac9e",
+      "firstSeenAt": "2026-08-23T23:04:09.233Z",
+      "contentUpdatedAt": "2026-08-23T23:04:09.233Z"
+    },
+    "technologies/mcp-ai-agents/resume-matcher.md": {
+      "status": "new",
+      "contentHash": "f9b376b0858604679f841433e4cefa408096df17175d68101f9ae1244308b8a5",
+      "firstSeenAt": "2026-08-23T23:04:09.233Z",
+      "contentUpdatedAt": "2026-08-23T23:04:09.233Z"
     },
     "technologies/security/h4cker.md": {
       "status": "new",
       "contentHash": "62edcd1e5670c7d42556888171c8d2daccda0043ba199fa2fbdf135cc0b00f7a",
-      "firstSeenAt": "2026-08-16T23:04:17.631Z",
-      "contentUpdatedAt": "2026-08-16T23:04:17.631Z"
+      "firstSeenAt": "2026-08-23T23:04:09.233Z",
+      "contentUpdatedAt": "2026-08-23T23:04:09.233Z"
     }
   }
 }
