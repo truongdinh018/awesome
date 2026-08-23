@@ -107,6 +107,14 @@ Lịch sử thêm ★ / bookmark / cấu trúc catalog (mới nhất trên cùng
 *2026-08-16 — 315 ★ · thêm Mindshub (`mindsdb/mindshub`) từ trending*
 *2026-08-16 — 314 ★ · thêm Kong (`Kong/kong`) từ trending*
 *2026-08-16 — 313 ★ · thêm Awesome Claude Skills (`ComposioHQ/awesome-claude-skills`) từ trending*
+*2026-08-23 — 336 ★ · thêm Ncnn (`Tencent/ncnn`) từ trending*
+*2026-08-23 — 335 ★ · thêm GenAI Agents (`NirDiamant/GenAI_Agents`) từ trending*
+*2026-08-23 — 334 ★ · thêm A2A (`a2aproject/A2A`) từ trending*
+*2026-08-23 — 333 ★ · thêm Nautilus Trader (`nautechsystems/nautilus_trader`) từ trending*
+*2026-08-23 — 332 ★ · thêm Modular (`modular/modular`) từ trending*
+*2026-08-23 — 331 ★ · thêm Gpt Researcher (`assafelovic/gpt-researcher`) từ trending*
+*2026-08-23 — 330 ★ · thêm Awesome Ai Agents (`e2b-dev/awesome-ai-agents`) từ trending*
+*2026-08-23 — 329 ★ · thêm Litellm (`BerriAI/litellm`) từ trending*
 
 *2026-07-27 — 226 ★ · thêm Open Interpreter (`openinterpreter/openinterpreter`)*
 

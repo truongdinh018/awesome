@@ -1,6 +1,6 @@
 # Starred Repos — Index
 
-> **328 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-08-18**  
+> **336 ★** + **11 CLI-Anything harnesses** · Cập nhật: **2026-08-18**  
 > Đây là bảng master: mỗi dòng = 1 repo đã star + link bài `technologies/<domain>/<slug>.md`.
 > **Primary** = 1 trong 7 domain · **Tags** = nhiều capability.
 > Duyệt subgroup: [../categories/README.md](../categories/README.md) · Hub / checklist: [../README.md](../README.md) · Viết bài: [../technologies/WRITING.md](../technologies/WRITING.md)
@@ -335,6 +335,14 @@
 | 326 | [explosion/spaCy](https://github.com/explosion/spaCy) | 33.8k | Python | DevTools | `agent` `cli` | [spacy.md](../technologies/devtools/spacy.md) |
 | 327 | [datawhalechina/happy-llm](https://github.com/datawhalechina/happy-llm) | 32.8k | Jupyter Notebook | MCP & AI Agents | `agent` `rag` | [happy-llm.md](../technologies/mcp-ai-agents/happy-llm.md) |
 | 328 | [srbhr/Resume-Matcher](https://github.com/srbhr/Resume-Matcher) | 28.1k | TypeScript | MCP & AI Agents | `agent` `cli` | [resume-matcher.md](../technologies/mcp-ai-agents/resume-matcher.md) |
+| 329 | [BerriAI/litellm](https://github.com/BerriAI/litellm) | 57.1k | Python | MCP & AI Agents | `agent` `cli` | [litellm.md](../technologies/mcp-ai-agents/litellm.md) |
+| 330 | [e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) | 29.6k | — | MCP & AI Agents | `agent` | [awesome-ai-agents.md](../technologies/mcp-ai-agents/awesome-ai-agents.md) |
+| 331 | [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) | 29.1k | Python | MCP & AI Agents | `agent` `workflow` `mcp` `cli` | [gpt-researcher.md](../technologies/mcp-ai-agents/gpt-researcher.md) |
+| 332 | [modular/modular](https://github.com/modular/modular) | 29.0k | Mojo | DevTools | `agent` | [modular.md](../technologies/devtools/modular.md) |
+| 333 | [nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | 27.5k | Rust | DevTools | `agent` `cli` | [nautilus-trader.md](../technologies/devtools/nautilus-trader.md) |
+| 334 | [a2aproject/A2A](https://github.com/a2aproject/A2A) | 25.5k | Shell | MCP & AI Agents | `agent` | [a2a.md](../technologies/mcp-ai-agents/a2a.md) |
+| 335 | [NirDiamant/GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents) | 24.0k | Jupyter Notebook | MCP & AI Agents | `agent` `mcp` `rag` | [genai-agents.md](../technologies/mcp-ai-agents/genai-agents.md) |
+| 336 | [Tencent/ncnn](https://github.com/Tencent/ncnn) | 23.7k | C++ | DevTools | `agent` `api` | [ncnn.md](../technologies/devtools/ncnn.md) |
 
 
 ## Ecosystem — CLI-Anything harnesses (con của #16)
